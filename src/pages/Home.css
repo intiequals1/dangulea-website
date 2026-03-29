@@ -15,7 +15,6 @@
   position: absolute;
   inset: 0;
   background:
-    /* Subtle kilim-inspired geometric overlay */
     repeating-linear-gradient(
       45deg,
       transparent,
@@ -30,7 +29,6 @@
       rgba(138, 96, 64, 0.03) 60px,
       rgba(138, 96, 64, 0.03) 61px
     ),
-    /* Warm vignette from bottom */
     radial-gradient(
       ellipse 120% 80% at 50% 100%,
       rgba(44, 38, 34, 0.6) 0%,
@@ -45,6 +43,34 @@
   padding-top: var(--space-20);
   padding-bottom: var(--space-20);
   animation: fadeInUp 0.8s ease forwards;
+  width: 100%;
+}
+
+/* Two-column hero layout */
+.hero__inner {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: var(--space-16);
+}
+
+.hero__text {
+  max-width: 580px;
+}
+
+.hero__photo-wrap {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+.hero__photo {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  filter: grayscale(15%) contrast(1.05);
+  border: 1px solid var(--color-border);
 }
 
 .hero__title {
@@ -73,26 +99,6 @@
   display: flex;
   gap: var(--space-4);
   flex-wrap: wrap;
-}
-
-.hero__scroll-hint {
-  position: absolute;
-  bottom: var(--space-8);
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.hero__scroll-hint span {
-  display: block;
-  width: 1px;
-  height: 48px;
-  background: linear-gradient(to bottom, var(--color-accent-muted), transparent);
-  animation: scrollPulse 2s ease-in-out infinite;
-}
-
-@keyframes scrollPulse {
-  0%, 100% { opacity: 0.4; transform: scaleY(1); }
-  50% { opacity: 1; transform: scaleY(1.1); }
 }
 
 /* ── Buttons ── */
@@ -268,6 +274,17 @@
 }
 
 /* ── Responsive ── */
+@media (max-width: 900px) {
+  .hero__inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+  }
+
+  .hero__photo-wrap {
+    width: 180px;
+  }
+}
+
 @media (max-width: 768px) {
   .cards {
     grid-template-columns: 1fr;
@@ -275,6 +292,14 @@
 
   .hero__title {
     font-size: clamp(2.5rem, 10vw, 4rem);
+  }
+
+  .hero__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__photo-wrap {
+    display: none;
   }
 }
 

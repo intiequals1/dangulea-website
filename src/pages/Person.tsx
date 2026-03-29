@@ -1,3 +1,4 @@
+import claudiuPhoto from '../assets/claudiu-dangulea.png'
 import './Person.css'
 
 export default function Person() {
@@ -5,15 +6,24 @@ export default function Person() {
     <div className="person">
       {/* ── Page header ── */}
       <section className="page-header">
-        <div className="container">
-          <p className="section-label">About</p>
-          <h1 className="page-header__title">Claudiu Dangulea</h1>
-          <div className="page-header__meta">
-            <span>Vienna, Austria</span>
-            <span className="meta-sep" aria-hidden="true">·</span>
-            <span>ERP Consultant</span>
-            <span className="meta-sep" aria-hidden="true">·</span>
-            <span>Applied Ethics, PTH Brixen</span>
+        <div className="container page-header__inner">
+          <div className="page-header__text">
+            <p className="section-label">About</p>
+            <h1 className="page-header__title">Claudiu Dangulea</h1>
+            <div className="page-header__meta">
+              <span>Vienna, Austria</span>
+              <span className="meta-sep" aria-hidden="true">·</span>
+              <span>Consultant</span>
+              <span className="meta-sep" aria-hidden="true">·</span>
+              <span>Applied Ethics, University of Innsbruck</span>
+            </div>
+          </div>
+          <div className="page-header__photo-wrap">
+            <img
+              src={claudiuPhoto}
+              alt="Claudiu Dangulea"
+              className="page-header__photo"
+            />
           </div>
         </div>
       </section>
@@ -29,20 +39,27 @@ export default function Person() {
                 <span className="profile-list__val">Vienna, Austria</span>
               </li>
               <li>
-                <span className="profile-list__key">Role</span>
-                <span className="profile-list__val">ERP Consultant</span>
+                <span className="profile-list__key">Current role</span>
+                <span className="profile-list__val">Accountant, KUMHO Tires Austria</span>
               </li>
               <li>
                 <span className="profile-list__key">Education</span>
                 <span className="profile-list__val">
-                  PTH Brixen — Applied Ethics
+                  MSc ERP Consulting, Technikum Wien Academy<br />
+                  Applied Ethics, University of Innsbruck (Brixen)<br />
+                  Business Informatics, University Linz
+                </span>
+              </li>
+              <li>
+                <span className="profile-list__key">Languages</span>
+                <span className="profile-list__val">
+                  German (native) · Romanian (native) · English (fluent)
                 </span>
               </li>
               <li>
                 <span className="profile-list__key">Interests</span>
                 <span className="profile-list__val">
-                  Innovation · Ethics · Intelligence Consulting ·
-                  Circular Economy · Technology · Process Management
+                  Data · Ethics · AI · Sustainability · Process Management
                 </span>
               </li>
             </ul>
@@ -66,16 +83,19 @@ export default function Person() {
           <div className="person-body">
             <h2 className="person-section__heading">About me</h2>
             <p>
-              I am an ERP Consultant with a genuine interest in complex systems and how
-              they connect. With over a decade of experience, I bring technical depth
-              and strategic thinking together — and I try to do that without losing sight
-              of the human side of things.
+              I am a consultant based in Vienna with a background in business informatics,
+              financial accounting, and SAP systems. Over the years I have worked across
+              finance, digital transformation, and ERP consulting — at companies like PwC,
+              Eviden, and REWE International.
             </p>
             <p>
-              My background is in business informatics. My current focus is applied ethics —
-              I am studying at the Philosophisch-Theologische Hochschule in Brixen, exploring
-              where philosophy, technology, and business meet. That combination is not accidental.
-              It reflects how I actually think.
+              My current focus is applied ethics. I am studying at the University of
+              Innsbruck in Brixen, exploring where philosophy, technology, and business
+              meet. That combination is not accidental — it reflects how I actually think.
+            </p>
+            <p>
+              I work carefully, I ask good questions, and I am ready to start on the right
+              project from day one.
             </p>
           </div>
         </div>
@@ -83,20 +103,66 @@ export default function Person() {
 
       <div className="container"><div className="divider" /></div>
 
-      {/* ── Key Projects ── */}
+      {/* ── Experience ── */}
       <section className="person-section">
         <div className="container person-layout">
           <aside className="person-sidebar">
-            <p className="section-label">Daily practice</p>
+            <p className="section-label">Experience</p>
           </aside>
           <div className="person-body">
-            <h2 className="person-section__heading">Key projects &amp; initiatives</h2>
-            <p>
-              Every day I engage with AI tools — duck.ai, claude.ai, ChatGPT — not just
-              to find answers, but to think through ideas, refine arguments, and explore
-              new territory. These conversations have become a real part of how I work.
-              They keep me sharp and consistently open to new perspectives.
-            </p>
+            <h2 className="person-section__heading">Professional background</h2>
+
+            <div className="timeline">
+              <div className="timeline-item">
+                <div className="timeline-item__period">Dec 2025 – present</div>
+                <div className="timeline-item__role">Accountant</div>
+                <div className="timeline-item__company">KUMHO Tires Austria · Vienna</div>
+                <p className="timeline-item__desc">
+                  Full-cycle bookkeeping in SAP S/4HANA — accounts payable and receivable,
+                  tax administration, payroll notifications, and insurance management.
+                </p>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-item__period">May – Nov 2025</div>
+                <div className="timeline-item__role">Specialist IT Consulting</div>
+                <div className="timeline-item__company">REWE International AG · Wiener Neudorf</div>
+                <p className="timeline-item__desc">
+                  SAP AIF and IDoc processing, web form integration, Kafka interface monitoring,
+                  Power BI dashboards, and test management in agile project teams.
+                </p>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-item__period">Mar 2023 – Apr 2025</div>
+                <div className="timeline-item__role">Junior SAP Consultant</div>
+                <div className="timeline-item__company">Eviden Austria · Linz</div>
+                <p className="timeline-item__desc">
+                  SAP FI/CO customising, Closing Cockpit configuration, transport management,
+                  NewGL implementation, and Fiori app integration.
+                </p>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-item__period">Jan 2021 – Jan 2022</div>
+                <div className="timeline-item__role">Associate Digital Factory</div>
+                <div className="timeline-item__company">PwC Austria · Vienna</div>
+                <p className="timeline-item__desc">
+                  Process automation with Power Automate and FireStart, Power BI dashboards,
+                  process mining with Celonis, and agile project work.
+                </p>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-item__period">Aug 2019 – Dec 2020</div>
+                <div className="timeline-item__role">Associate Tax</div>
+                <div className="timeline-item__company">PwC Upper Austria · Vienna</div>
+                <p className="timeline-item__desc">
+                  Financial accounting and tax consulting for multiple clients using BMD NTCS.
+                  Digitalization projects and process documentation.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -114,38 +180,36 @@ export default function Person() {
 
             <div className="expertise-list">
               <div className="expertise-item">
-                <h3 className="expertise-item__title">ERP Systems &amp; Business Informatics</h3>
+                <h3 className="expertise-item__title">SAP &amp; ERP Systems</h3>
                 <p>
-                  Extensive experience in ERP consulting and global system implementation.
-                  Skilled in SAP Closing Cockpit and process optimisation across complex
-                  organisational environments.
+                  Practical experience in SAP FI/CO consulting and implementation — including
+                  Closing Cockpit, transport management, Fiori apps, and S/4HANA. Currently
+                  completing an MSc in ERP Consulting at Technikum Wien Academy.
                 </p>
               </div>
 
               <div className="expertise-item">
-                <h3 className="expertise-item__title">Strategic &amp; Intelligence Consulting</h3>
+                <h3 className="expertise-item__title">Finance &amp; Accounting</h3>
                 <p>
-                  Focused on roles that combine strategic insight with ethical frameworks
-                  and innovative thinking. Interested in intelligence consulting as a
-                  discipline that demands both rigour and nuance.
+                  Solid background in financial accounting, tax administration, and controlling
+                  across multiple industries. Experienced with BMD, Oracle NetSuite, and SAP.
+                </p>
+              </div>
+
+              <div className="expertise-item">
+                <h3 className="expertise-item__title">Data &amp; Process Intelligence</h3>
+                <p>
+                  Confident with Power BI, SQL, process mining (Celonis), and business
+                  intelligence tools. I turn complex data into clear, actionable insight.
                 </p>
               </div>
 
               <div className="expertise-item">
                 <h3 className="expertise-item__title">Applied Ethics &amp; Philosophy</h3>
                 <p>
-                  Currently deepening my understanding of applied ethics at PTH Brixen —
-                  exploring the philosophical foundations that underpin technology,
-                  business decisions, and human interaction.
-                </p>
-              </div>
-
-              <div className="expertise-item">
-                <h3 className="expertise-item__title">Circular Economy &amp; Sustainable Innovation</h3>
-                <p>
-                  Committed to developing solutions that create real, reciprocal value —
-                  particularly in emerging markets where sustainable models are still
-                  being built.
+                  Studying applied ethics at the University of Innsbruck in Brixen — exploring
+                  the philosophical foundations that underpin technology, business decisions,
+                  and human interaction.
                 </p>
               </div>
             </div>
@@ -162,7 +226,7 @@ export default function Person() {
             <p className="section-label">Vision</p>
           </aside>
           <div className="person-body">
-            <h2 className="person-section__heading">Professional vision</h2>
+            <h2 className="person-section__heading">Where I want to go</h2>
             <p>
               My goal is to move into a role that brings together ethics, strategy, and
               intelligence consulting. I want to work on topics that are genuinely

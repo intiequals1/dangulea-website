@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import claudiuPhoto from '../assets/claudiu-dangulea.png'
 import './Home.css'
 
 export default function Home() {
@@ -8,29 +9,37 @@ export default function Home() {
       <section className="hero">
         <div className="hero__bg" aria-hidden="true" />
         <div className="hero__content container">
-          <p className="section-label">ERP Consultant · Vienna</p>
-          <h1 className="hero__title">
-            Claudiu<br />
-            <em>Dangulea</em>
-          </h1>
-          <p className="hero__subtitle">
-            Business informatics. Applied ethics. A decade of experience
-            in complex systems — and the curiosity to keep going.
-          </p>
-          <div className="hero__actions">
-            <Link to="/person" className="btn btn--primary">
-              About me
-            </Link>
-            <a
-              href="mailto:claudiu.dangulea@gmail.com"
-              className="btn btn--ghost"
-            >
-              Get in touch
-            </a>
+          <div className="hero__inner">
+            <div className="hero__text">
+              <p className="section-label">Consultant · Vienna</p>
+              <h1 className="hero__title">
+                Claudiu<br />
+                <em>Dangulea</em>
+              </h1>
+              <p className="hero__subtitle">
+                Business informatics. Applied ethics. Experience across finance,
+                ERP systems, and strategy — ready to bring that to the right project.
+              </p>
+              <div className="hero__actions">
+                <Link to="/person" className="btn btn--primary">
+                  About me
+                </Link>
+                <a
+                  href="mailto:claudiu.dangulea@gmail.com"
+                  className="btn btn--ghost"
+                >
+                  Get in touch
+                </a>
+              </div>
+            </div>
+            <div className="hero__photo-wrap">
+              <img
+                src={claudiuPhoto}
+                alt="Claudiu Dangulea"
+                className="hero__photo"
+              />
+            </div>
           </div>
-        </div>
-        <div className="hero__scroll-hint" aria-hidden="true">
-          <span />
         </div>
       </section>
 
@@ -39,10 +48,10 @@ export default function Home() {
         <div className="container container--text">
           <div className="divider" />
           <p className="intro__text">
-            My name is Claudiu. I am an ERP Consultant based in Vienna with a background
-            in business informatics. I work at the intersection of technology, strategy,
-            and ethics — and I am ready to bring that combination to the right project,
-            from day one.
+            My name is Claudiu. I am based in Vienna and work at the intersection of
+            finance, technology, and ethics. I bring hands-on experience from accounting,
+            SAP consulting, and digital transformation — and I am ready to apply that
+            combination to the right project, from day one.
           </p>
           <div className="divider" />
         </div>
@@ -57,21 +66,20 @@ export default function Home() {
           <div className="cards">
             <article className="card">
               <div className="card__number" aria-hidden="true">01</div>
-              <h3 className="card__title">ERP Systems</h3>
+              <h3 className="card__title">SAP &amp; ERP Systems</h3>
               <p className="card__text">
-                Over a decade of hands-on experience in ERP consulting and global
-                system implementation. Proficient in SAP Closing Cockpit and
-                end-to-end process optimisation.
+                Hands-on experience in SAP FI/CO consulting, system implementation,
+                and process optimisation. Familiar with Closing Cockpit, Fiori apps,
+                and end-to-end financial workflows.
               </p>
             </article>
 
             <article className="card">
               <div className="card__number" aria-hidden="true">02</div>
-              <h3 className="card__title">Strategic Consulting</h3>
+              <h3 className="card__title">Finance &amp; Accounting</h3>
               <p className="card__text">
-                Focused on intelligence consulting with an emphasis on strategic
-                insight, ethical decision-making, and frameworks that hold up
-                under real-world pressure.
+                Broad background in financial accounting, tax administration, and
+                controlling — across industries from consulting to manufacturing.
               </p>
             </article>
 
@@ -79,18 +87,18 @@ export default function Home() {
               <div className="card__number" aria-hidden="true">03</div>
               <h3 className="card__title">Applied Ethics</h3>
               <p className="card__text">
-                Currently studying at PTH Brixen in the Applied Ethics programme —
-                deepening the philosophical basis for technology, business,
-                and human interaction.
+                Currently studying applied ethics at the University of Innsbruck in
+                Brixen — exploring the philosophical foundations of technology,
+                business, and human interaction.
               </p>
             </article>
 
             <article className="card">
               <div className="card__number" aria-hidden="true">04</div>
-              <h3 className="card__title">Circular Economy</h3>
+              <h3 className="card__title">Data &amp; Process Intelligence</h3>
               <p className="card__text">
-                Committed to building sustainable solutions that create genuine
-                reciprocal value — particularly in emerging and transitional markets.
+                Experience with Power BI, process mining, and business intelligence
+                tools. Comfortable turning complex data into clear, actionable insight.
               </p>
             </article>
           </div>
