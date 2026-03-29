@@ -1,0 +1,71 @@
+/* ============================================================
+   IMPRESSUM PAGE
+   ============================================================ */
+
+.impressum-body {
+  padding-top: var(--space-12);
+  padding-bottom: var(--space-24);
+}
+
+.legal-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.legal-section--last {
+  padding-bottom: var(--space-8);
+}
+
+.legal-section h2 {
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  font-weight: 400;
+  color: var(--color-text-primary);
+}
+
+.legal-section h3 {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-top: var(--space-2);
+}
+
+.legal-section p {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+  font-weight: 300;
+}
+
+.legal-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding-left: var(--space-4);
+}
+
+.legal-list li {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-normal);
+  position: relative;
+}
+
+.legal-list li::before {
+  content: '—';
+  position: absolute;
+  left: calc(-1 * var(--space-4));
+  color: var(--color-accent-muted);
+}
+
+.legal-date {
+  font-size: var(--text-xs) !important;
+  color: var(--color-text-tertiary) !important;
+  letter-spacing: var(--tracking-wide);
+  margin-top: var(--space-4);
+}
