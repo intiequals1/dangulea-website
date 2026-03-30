@@ -7,7 +7,7 @@ import './styles/global.css'
 
 export default function App() {
   return (
-    <BrowserRouter basename="/dangulea-website">
+    <BrowserRouter>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
