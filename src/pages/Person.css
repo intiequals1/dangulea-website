@@ -39,18 +39,38 @@
 }
 
 .page-header__photo-wrap {
-  width: 180px;
+  width: 200px;
   flex-shrink: 0;
+  position: relative;
 }
 
 .page-header__photo {
   width: 100%;
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
-  object-position: top center;
+  height: auto;
   display: block;
-  filter: grayscale(15%) contrast(1.05);
-  border: 1px solid var(--color-border);
+  filter: grayscale(8%) contrast(1.02) brightness(0.97) sepia(6%);
+  -webkit-mask-image:
+    radial-gradient(
+      ellipse 88% 92% at 50% 42%,
+      black 38%,
+      rgba(0,0,0,0.85) 52%,
+      rgba(0,0,0,0.5) 65%,
+      rgba(0,0,0,0.15) 78%,
+      transparent 90%
+    );
+  mask-image:
+    radial-gradient(
+      ellipse 88% 92% at 50% 42%,
+      black 38%,
+      rgba(0,0,0,0.85) 52%,
+      rgba(0,0,0,0.5) 65%,
+      rgba(0,0,0,0.15) 78%,
+      transparent 90%
+    );
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
 }
 
 .page-header__title {

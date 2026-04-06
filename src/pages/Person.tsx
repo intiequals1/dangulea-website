@@ -1,4 +1,5 @@
-import claudiuPhoto from '../assets/claudiu-dangulea.png'
+import claudiuPhotoWebp from '../assets/claudiu-dangulea.webp'
+import claudiuPhotoPng from '../assets/claudiu-dangulea.png'
 import './Person.css'
 
 export default function Person() {
@@ -19,11 +20,18 @@ export default function Person() {
             </div>
           </div>
           <div className="page-header__photo-wrap">
-            <img
-              src={claudiuPhoto}
-              alt="Claudiu Dangulea"
-              className="page-header__photo"
-            />
+            <picture>
+              <source srcSet={claudiuPhotoWebp} type="image/webp" />
+              <img
+                src={claudiuPhotoPng}
+                alt="Claudiu Dangulea"
+                className="page-header__photo"
+                width="600"
+                height="756"
+                loading="eager"
+                decoding="async"
+              />
+            </picture>
           </div>
         </div>
       </section>
