@@ -48,29 +48,8 @@
   width: 100%;
   height: auto;
   display: block;
-  filter: grayscale(8%) contrast(1.02) brightness(0.97) sepia(6%);
-  -webkit-mask-image:
-    radial-gradient(
-      ellipse 88% 92% at 50% 42%,
-      black 38%,
-      rgba(0,0,0,0.85) 52%,
-      rgba(0,0,0,0.5) 65%,
-      rgba(0,0,0,0.15) 78%,
-      transparent 90%
-    );
-  mask-image:
-    radial-gradient(
-      ellipse 88% 92% at 50% 42%,
-      black 38%,
-      rgba(0,0,0,0.85) 52%,
-      rgba(0,0,0,0.5) 65%,
-      rgba(0,0,0,0.15) 78%,
-      transparent 90%
-    );
-  -webkit-mask-size: 100% 100%;
-  mask-size: 100% 100%;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
+  /* Background is transparent (AI-removed) — sits cleanly on dark bg */
+  filter: grayscale(6%) contrast(1.02) brightness(0.96) sepia(5%) drop-shadow(0 8px 32px rgba(0, 0, 0, 0.55));
 }
 
 .page-header__title {
