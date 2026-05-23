@@ -47,6 +47,9 @@ export default function Layout({ children }: LayoutProps) {
             <NavLink to="/person" className={({ isActive }) => `nav__link${isActive ? ' nav__link--active' : ''}`}>
               Person
             </NavLink>
+            <NavLink to="/projekte" className={({ isActive }) => `nav__link${isActive ? ' nav__link--active' : ''}`}>
+              Projekte
+            </NavLink>
             <NavLink to="/impressum" className={({ isActive }) => `nav__link${isActive ? ' nav__link--active' : ''}`}>
               Impressum
             </NavLink>
@@ -82,6 +85,9 @@ export default function Layout({ children }: LayoutProps) {
             </NavLink>
             <NavLink to="/person" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`}>
               Person
+            </NavLink>
+            <NavLink to="/projekte" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`}>
+              Projekte
             </NavLink>
             <NavLink to="/impressum" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`}>
               Impressum

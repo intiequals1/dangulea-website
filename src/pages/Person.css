@@ -39,7 +39,7 @@
 }
 
 .page-header__photo-wrap {
-  width: 200px;
+  width: 150px;
   flex-shrink: 0;
   position: relative;
 }
@@ -48,8 +48,10 @@
   width: 100%;
   height: auto;
   display: block;
-  /* Background is transparent (AI-removed) — sits cleanly on dark bg */
-  filter: grayscale(6%) contrast(1.02) brightness(0.96) sepia(5%) drop-shadow(0 8px 32px rgba(0, 0, 0, 0.55));
+  /* Smaller, sharper rendering */
+  filter: grayscale(4%) contrast(1.12) brightness(0.97) sepia(4%) drop-shadow(0 6px 20px rgba(0, 0, 0, 0.55));
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 .page-header__title {

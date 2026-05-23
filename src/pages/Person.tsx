@@ -14,7 +14,7 @@ export default function Person() {
             <div className="page-header__meta">
               <span>Vienna, Austria</span>
               <span className="meta-sep" aria-hidden="true">·</span>
-              <span>Consultant</span>
+              <span>Consultant · Entrepreneur</span>
               <span className="meta-sep" aria-hidden="true">·</span>
               <span>Applied Ethics, University of Innsbruck</span>
             </div>
@@ -48,7 +48,7 @@ export default function Person() {
               </li>
               <li>
                 <span className="profile-list__key">Current role</span>
-                <span className="profile-list__val">Accountant, KUMHO Tires Austria</span>
+                <span className="profile-list__val">Accountant, KUMHO Tires Austria · Entrepreneur</span>
               </li>
               <li>
                 <span className="profile-list__key">Education</span>
