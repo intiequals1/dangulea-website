@@ -48,7 +48,7 @@ export default function Person() {
               </li>
               <li>
                 <span className="profile-list__key">Current role</span>
-                <span className="profile-list__val">Accountant, KUMHO Tires Austria · Entrepreneur</span>
+                <span className="profile-list__val">Entrepreneur</span>
               </li>
               <li>
                 <span className="profile-list__key">Education</span>
