@@ -119,8 +119,7 @@ export default function Projekte() {
                 <div className="focus-card__number">02</div>
                 <h3 className="focus-card__title">Applied Ethics Research</h3>
                 <p className="focus-card__desc">
-                  Continuing academic work at the University of Innsbruck in Brixen —
-                  exploring the philosophical foundations of technology, business decisions,
+                  Exploring the philosophical foundations of technology, business decisions,
                   and the ethics of artificial intelligence.
                 </p>
               </div>
