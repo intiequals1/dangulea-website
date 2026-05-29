@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom'
-import claudiuPhotoWebp from '../assets/claudiu-dangulea.webp'
-import claudiuPhotoPng from '../assets/claudiu-dangulea.png'
 import './Home.css'
 
 export default function Home() {
@@ -32,20 +30,6 @@ export default function Home() {
                   Get in touch
                 </a>
               </div>
-            </div>
-            <div className="hero__photo-wrap">
-              <picture>
-                <source srcSet={claudiuPhotoWebp} type="image/webp" />
-                <img
-                  src={claudiuPhotoPng}
-                  alt="Claudiu Dangulea"
-                  className="hero__photo"
-                  width="600"
-                  height="756"
-                  loading="eager"
-                  decoding="async"
-                />
-              </picture>
             </div>
           </div>
         </div>
