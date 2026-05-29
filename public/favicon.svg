@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- Background: deep charcoal-brown matching site bg -->
+  <rect width="48" height="48" rx="6" fill="#1a1714"/>
+  <!-- "CD" monogram in warm amber accent color -->
+  <text
+    x="24"
+    y="34"
+    font-family="Georgia, serif"
+    font-size="22"
+    font-style="italic"
+    font-weight="400"
+    fill="#c8935a"
+    text-anchor="middle"
+    letter-spacing="-1"
+  >cd</text>
+</svg>
