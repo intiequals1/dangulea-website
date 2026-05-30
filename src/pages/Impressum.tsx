@@ -16,7 +16,7 @@ export default function Impressum() {
           <h2>Angaben gemäß § 5 ECG, § 25 MedienG</h2>
           <p>
             Claudiu Dangulea<br />
-            Karl-Popper-Straße 5<br />
+            Karl-Popper-Straße 5/217<br />
             1100 Wien<br />
             Österreich
           </p>
