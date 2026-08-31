@@ -34,9 +34,9 @@ Teile dieser Seite sind mit KI-Assistenz entstanden, umgangssprachlich vibe-geco
 
 Eingesetzte Systeme:
 
-- **Manus** — frühe Umsetzung von Layout und Komponenten, im April 2026
-- **ChatGPT Codex** — Anpassungen an Struktur und Styling
-- **Claude** — Überarbeitung, Aufräumen des Repositories, Deployment-Konfiguration
+- **Manus**: frühe Umsetzung von Layout und Komponenten, im April 2026
+- **ChatGPT Codex**: Anpassungen an Struktur und Styling
+- **Claude**: Überarbeitung, Aufräumen des Repositories, Deployment-Konfiguration
 
 Was das nicht heißt: Die inhaltlichen Angaben stammen von mir und sind belegt. Jede Änderung wurde von mir geprüft, bevor sie veröffentlicht wurde. Fachliche Aussagen zu meinem Werdegang, meinen Kenntnissen und meinen Vorhaben sind keine generierten Formulierungen, sondern von mir verantwortet. Die Verantwortung für Inhalt und Richtigkeit liegt vollständig bei mir, unabhängig davon, welches Werkzeug an welcher Stelle beteiligt war.
 
