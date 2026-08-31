@@ -1,73 +1,50 @@
-# React + TypeScript + Vite
+# dangulea.at
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Quellcode meiner persönlichen Website: [dangulea.at](https://dangulea.at)
 
-Currently, two official plugins are available:
+Die Seite stellt meinen beruflichen Hintergrund, meine fachlichen Schwerpunkte und meine laufenden Vorhaben dar. Sie ist als Einzelprojekt gedacht und nicht als Vorlage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Zur Person
 
-## React Compiler
+Finance- und ERP-orientierter IT-Consultant in Wien. Erfahrung in Rechnungswesen, SAP FI/CO, Prozessmanagement und Business Intelligence. Fachliches Verständnis aus Buchhaltung, Controlling und Steuerprozessen, verbunden mit Systemlogik, Datenanalyse und strukturierter Dokumentation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Universitätslehrgang Angewandte Ethik an der Universität Innsbruck und der PTH Brixen, abgeschlossen 2026. Master ERP Consulting an der Technikum Wien Academy, laufend.
 
-## Expanding the ESLint configuration
+## Zum Repository
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Statische Single-Page-Anwendung, gebaut mit React, TypeScript und Vite, veröffentlicht über GitHub Pages. Das Repository ist öffentlich, damit Aufbau und Umsetzung nachvollziehbar sind.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+index.html            Einstiegspunkt, Meta-Angaben, SPA-Weiterleitung
+public/               Statische Dateien, Custom Domain, Favicon
+src/
+  App.tsx             Routen
+  components/         Seitenrahmen, Navigation, Footer
+  pages/              Home, Person, Projekte, Impressum
+  styles/global.css   Designtokens, Typografie, Grundlayout
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Der Deploy läuft automatisch über GitHub Actions bei jedem Push auf den Standard-Branch. Der Workflow liegt in `.github/workflows/deploy.yml`.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Entstehung und KI-Unterstützung
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Teile dieser Seite sind mit KI-Assistenz entstanden, umgangssprachlich vibe-gecoded. Ich halte es für angemessen, das offenzulegen, statt es zu verschweigen.
+
+Eingesetzte Systeme:
+
+- **Manus** — frühe Umsetzung von Layout und Komponenten, im April 2026
+- **ChatGPT Codex** — Anpassungen an Struktur und Styling
+- **Claude** — Überarbeitung, Aufräumen des Repositories, Deployment-Konfiguration
+
+Was das nicht heißt: Die inhaltlichen Angaben stammen von mir und sind belegt. Jede Änderung wurde von mir geprüft, bevor sie veröffentlicht wurde. Fachliche Aussagen zu meinem Werdegang, meinen Kenntnissen und meinen Vorhaben sind keine generierten Formulierungen, sondern von mir verantwortet. Die Verantwortung für Inhalt und Richtigkeit liegt vollständig bei mir, unabhängig davon, welches Werkzeug an welcher Stelle beteiligt war.
+
+Die Historie dieses Repositories wurde beim Aufräumen konsolidiert. Ältere Commits, teils von Agenten-Zugängen erzeugt, sind darin nicht mehr einzeln nachvollziehbar.
+
+## Nutzung
+
+Dies ist kein Open-Source-Projekt und keine Vorlage. Der Code steht hier zur Einsicht, nicht zur Weiterverwendung. Inhalte, Texte, Gestaltung und Bildmaterial sind urheberrechtlich geschützt, alle Rechte vorbehalten. Eine Nutzung, Vervielfältigung oder Veröffentlichung ganz oder in Teilen ist ohne meine ausdrückliche Zustimmung nicht gestattet. Das gilt insbesondere für das Porträtfoto und die persönlichen Angaben.
+
+## Kontakt
+
+Claudiu Dangulea, Wien
+[dangulea@mailbox.org](mailto:dangulea@mailbox.org) · [linkedin.com/in/claudang](https://linkedin.com/in/claudang)
