@@ -122,7 +122,7 @@ export default function Person() {
 
             <div className="timeline">
               <div className="timeline-item">
-                <div className="timeline-item__period">Dec 2025 – present</div>
+                <div className="timeline-item__period">Dec 2025 – May 2026</div>
                 <div className="timeline-item__role">Accountant</div>
                 <div className="timeline-item__company">KUMHO Tires Austria · Vienna</div>
                 <p className="timeline-item__desc">
