@@ -14,7 +14,7 @@ export default function Person() {
             <div className="page-header__meta">
               <span>Wien, Österreich</span>
               <span className="meta-sep" aria-hidden="true">·</span>
-              <span>Consultant und Unternehmer</span>
+              <span>Digital Entrepreneur</span>
               <span className="meta-sep" aria-hidden="true">·</span>
               <span>Angewandte Ethik, Universität Innsbruck</span>
             </div>
