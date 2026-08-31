@@ -42,7 +42,7 @@ export default function Home() {
           <p className="intro__text">
             My name is Claudiu. I am based in Vienna and work at the intersection of
             finance, technology, and ethics. I bring hands-on experience from accounting,
-            SAP consulting, and digital transformation — and I am ready to apply that
+            SAP consulting, and digital transformation. And I am ready to apply this
             combination to the right project, from day one.
           </p>
           <div className="divider" />
@@ -71,7 +71,7 @@ export default function Home() {
               <h3 className="card__title">Finance &amp; Accounting</h3>
               <p className="card__text">
                 Broad background in financial accounting, tax administration, and
-                controlling — across industries from consulting to manufacturing.
+                controlling.
               </p>
             </article>
 

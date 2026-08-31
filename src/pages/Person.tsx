@@ -93,8 +93,7 @@ export default function Person() {
             <p>
               I am a consultant based in Vienna with a background in business informatics,
               financial accounting, and SAP systems. Over the years I have worked across
-              finance, digital transformation, and ERP consulting — at companies like PwC,
-              Eviden, and REWE International.
+              finance, digital transformation, and ERP consulting.
             </p>
             <p>
               My current focus is applied ethics. I am studying at the University of
@@ -191,8 +190,7 @@ export default function Person() {
                 <h3 className="expertise-item__title">SAP &amp; ERP Systems</h3>
                 <p>
                   Practical experience in SAP FI/CO consulting and implementation — including
-                  Closing Cockpit, transport management, Fiori apps, and S/4HANA. Currently
-                  completing an MSc in ERP Consulting at Technikum Wien Academy.
+                  Closing Cockpit, transport management, Fiori apps, and S/4HANA.
                 </p>
               </div>
 
@@ -256,11 +254,10 @@ export default function Person() {
           <div className="person-body">
             <h2 className="person-section__heading">Personal interests</h2>
             <p>
-              When I am not working, I travel. Finland, Poland, South Tyrol — each trip
-              reinforces something I already believe: that people are mostly good, and
-              that diversity is worth paying attention to. I value fairness, patience,
-              and the kind of openness you find in communities that have learned to
-              welcome strangers.
+              When I am not working, I travel. Each trip reinforces something I already believe:
+              that people are mostly good, and that diversity is worth paying attention to.
+              I value fairness, patience, and the kind of openness you find in communities
+              that have learned to welcome strangers.
             </p>
           </div>
         </div>
