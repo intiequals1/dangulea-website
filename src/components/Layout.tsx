@@ -13,6 +13,7 @@ export default function Layout({ children }: LayoutProps) {
 
   useEffect(() => {
     setMenuOpen(false)
+    window.scrollTo(0, 0)
   }, [location])
 
   useEffect(() => {
