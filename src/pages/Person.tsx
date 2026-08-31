@@ -56,9 +56,9 @@ export default function Person() {
                 <span className="profile-list__key">Ausbildung</span>
                 <span className="profile-list__val">
                   Digital Business, Bachelor berufsbegleitend, FH der WKW, ab Sep. 2026<br />
-                  Angewandte Ethik, Universität Innsbruck und PTH Brixen, 2026<br />
-                  Prozessmanagement &amp; Business Intelligence, FH Oberösterreich Steyr,
-                  und Wirtschaftsinformatik, JKU Linz, jeweils nicht abgeschlossen
+                  Angewandte Ethik, Universität Innsbruck und PTH Brixen, abgeschlossen 2026<br />
+                  Prozessmanagement &amp; Business Intelligence, FH Oberösterreich Steyr - ohne Abschluss<br />,
+                  und Wirtschaftsinformatik, JKU Linz - ohne Abschluss
                 </span>
               </li>
               <li>
