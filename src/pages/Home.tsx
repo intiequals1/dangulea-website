@@ -10,7 +10,7 @@ export default function Home() {
         <div className="hero__content container">
           <div className="hero__inner">
             <div className="hero__text">
-              <p className="section-label">Consultant · Wien</p>
+              <p className="section-label">Digital Entrepreneur · Wien</p>
               <h1 className="hero__title">
                 Claudiu<br />
                 <em>Dangulea</em>

@@ -3,81 +3,28 @@ import './Projekte.css'
 interface Website {
   name: string
   url: string
-  description: string
   category: string
 }
 
 const websites: Website[] = [
-  {
-    name: 'dangulea.at',
-    url: 'https://www.dangulea.at',
-    description: 'Mein persönliches Profil und Beratungsauftritt, diese Seite hier.',
-    category: 'Persönlich',
-  },
-  {
-    name: 'erp.contact',
-    url: 'https://www.erp.contact',
-    description: 'Beratungsprofil mit Schwerpunkt SAP FI/CO und S/4HANA-Einführungen.',
-    category: 'Beruflich',
-  },
-  {
-    name: 'pertion.io',
-    url: 'https://pertion.io',
-    description: 'Digitales Vorhaben zu neuen Modellen für Wissen und Wertaustausch.',
-    category: 'Vorhaben',
-  },
-  {
-    name: 'anclaud.io',
-    url: 'https://www.anclaud.io',
-    description: 'Sammlungen, ein kuratierter Raum für Ideen, Objekte und Referenzen.',
-    category: 'Kreativ',
-  },
-  {
-    name: 'aladen.at',
-    url: 'https://www.aladen.at',
-    description: 'aLaden, ein Konzept für Lifestyle und Gestaltung mit österreichischem Handwerk.',
-    category: 'Handel',
-  },
-  {
-    name: 'etsy.com/at/shop/EffectCenter',
-    url: 'https://www.etsy.com/at/shop/EffectCenter',
-    description: 'Effect Center, digitale und physische Produkte auf Etsy.',
-    category: 'Handel',
-  },
-  {
-    name: 'coolweb.today',
-    url: 'https://coolweb.today',
-    description: 'Medien- und Inhalteplattform zu Technologie und Kultur.',
-    category: 'Medien',
-  },
-  {
-    name: 'coolwebtoday.org',
-    url: 'https://www.coolwebtoday.org',
-    description: 'Organisatorischer Überblick über alle Projekte und Initiativen.',
-    category: 'Medien',
-  },
-  {
-    name: 'susy.be',
-    url: 'https://www.susy.be',
-    description: 'Be Süsy, persönliche Marke und Lifestyle-Projekt.',
-    category: 'Kreativ',
-  },
-  {
-    name: 'ai-guru.eu',
-    url: 'http://ai-guru.eu',
-    description: 'Plattform zu Anwendungen künstlicher Intelligenz in Europa.',
-    category: 'Technologie',
-  },
+  { name: 'dangulea.at',                   url: 'https://www.dangulea.at',                    category: 'Persönlich' },
+  { name: 'erp.contact',                   url: 'https://www.erp.contact',                    category: 'Entwurf' },
+  { name: 'pertion.io',                    url: 'https://www.pertion.io',                     category: 'Notizen' },
+  { name: 'anclaud.io',                    url: 'https://www.anclaud.io',                     category: 'Entwurf' },
+  { name: 'aladen.at',                     url: 'https://www.aladen.at',                      category: 'Entwurf' },
+  { name: 'etsy.com/at/shop/EffectCenter', url: 'https://www.etsy.com/at/shop/EffectCenter',  category: 'Shop' },
+  { name: 'coolweb.today',                 url: 'https://www.coolweb.today',                  category: 'Konzept' },
+  { name: 'coolwebtoday.org',              url: 'https://www.coolwebtoday.org',               category: 'Entwurf' },
+  { name: 'susy.be',                       url: 'https://www.susy.be',                        category: 'Entwurf' },
+  { name: 'ai-guru.eu',                    url: 'http://www.ai-guru.eu',                          category: 'Entwurf' },
 ]
 
 const categoryColors: Record<string, string> = {
   'Persönlich': 'var(--color-accent)',
-  'Beruflich':  '#6b9fd4',
-  'Vorhaben':   '#9d7fd4',
-  'Kreativ':    '#d47f9d',
-  'Handel':     '#7fd4a8',
-  'Medien':     '#d4b97f',
-  'Technologie':'#7fd4d4',
+  'Notizen':    '#6b9fd4',
+  'Konzept':    '#9d7fd4',
+  'Shop':       '#7fd4a8',
+  'Entwurf':    '#b0a08c',
 }
 
 export default function Projekte() {
@@ -90,8 +37,9 @@ export default function Projekte() {
           <p className="section-label">In Arbeit</p>
           <h1 className="projekte-header__title">Projekte &amp; Vorhaben</h1>
           <p className="projekte-header__lead">
-            Laufende Vorhaben, Konzepte und digitale Projekte aus Technologie, Medien
-            und Gestaltung. Manches davon läuft bereits, anderes ist noch Idee.
+            Was hier steht, sind Entwürfe. Angefangene Seiten, Notizsammlungen und
+            Ideen, die ich nach und nach ausbaue. Kein fertiges Produkt, kein
+            Geschäftsmodell, das schon trägt.
           </p>
         </div>
       </section>
@@ -103,24 +51,22 @@ export default function Projekte() {
             <p className="section-label">Derzeit</p>
           </aside>
           <div className="projekte-body">
-            <h2 className="projekte-section__heading">Aktuelle Vorhaben</h2>
+            <h2 className="projekte-section__heading">Woran ich arbeite</h2>
             <div className="focus-grid">
               <div className="focus-card">
                 <div className="focus-card__number">01</div>
-                <h3 className="focus-card__title">Digitale Projekte</h3>
+                <h3 className="focus-card__title">Eigene Seiten</h3>
                 <p className="focus-card__desc">
-                  Ein Portfolio eigener Webseiten und Plattformen, von Medien über
-                  Handel bis zu Wissenswerkzeugen. Jedes Projekt hat eine klare Idee und
-                  eine lange Perspektive.
+                  Mehrere Domains mit unterschiedlichen Themen. Manche sind Notizen,
+                  manche nur eine Startseite. Was sich bewährt, baue ich weiter aus.
                 </p>
               </div>
               <div className="focus-card">
                 <div className="focus-card__number">02</div>
-                <h3 className="focus-card__title">Inhalte und Community</h3>
+                <h3 className="focus-card__title">Schreiben und Sammeln</h3>
                 <p className="focus-card__desc">
-                  CoolWebToday als Medienplattform und Anlaufstelle: Beiträge
-                  veröffentlichen, Quellen kuratieren und Menschen zusammenbringen, die
-                  sich für Technologie, Kultur und Ideen interessieren.
+                  Texte und Materialsammlungen zu Technologie, Ethik und
+                  Nachhaltigkeit. Unregelmäßig, ohne Redaktionsplan.
                 </p>
               </div>
             </div>
@@ -139,37 +85,36 @@ export default function Projekte() {
           <div className="projekte-body">
             <h2 className="projekte-section__heading">Ideen &amp; Konzepte</h2>
             <p>
-              Neben den laufenden Projekten gibt es Ideen, die ich weiterverfolge,
-              manche als Nebenexperiment, andere mit längerem Horizont.
+              Gedanken, die ich festgehalten habe, um sie nicht zu verlieren. Ob daraus
+              etwas wird, ist offen.
             </p>
             <div className="concept-list">
               <div className="concept-item">
                 <span className="concept-item__dot" />
                 <div>
-                  <strong>Intelligence Consulting</strong> — Beratung, die Datenanalyse,
-                  strategisches Denken und ethische Kriterien für Organisationen mit
-                  komplexen Entscheidungen zusammenbringt.
+                  <strong>Intelligence Consulting</strong> — Beratung, die Datenanalyse
+                  und ethische Kriterien zusammendenkt.
                 </div>
               </div>
               <div className="concept-item">
                 <span className="concept-item__dot" />
                 <div>
-                  <strong>Pertion</strong> — Plattformkonzept für strukturierten
-                  Wissensaustausch und Wertschöpfung, derzeit in früher Entwicklung.
+                  <strong>Pertion</strong> — aus losen Notizen eine Sammlung machen, die
+                  auch für andere lesbar ist.
                 </div>
               </div>
               <div className="concept-item">
                 <span className="concept-item__dot" />
                 <div>
-                  <strong>aLaden</strong> — kuratiertes Handelskonzept, das
-                  österreichische Gestaltung, Handwerk und digitalen Vertrieb verbindet.
+                  <strong>aLaden</strong> — ein Handelskonzept rund um österreichische
+                  Gestaltung und Handwerk.
                 </div>
               </div>
               <div className="concept-item">
                 <span className="concept-item__dot" />
                 <div>
-                  <strong>AI Guru EU</strong> — Plattform für den praktischen Einsatz
-                  von KI in europäischen Unternehmen.
+                  <strong>AI Guru EU</strong> — Material zum praktischen Einsatz von KI,
+                  bisher nur als Idee festgehalten.
                 </div>
               </div>
             </div>
@@ -188,8 +133,8 @@ export default function Projekte() {
           <div className="projekte-body">
             <h2 className="projekte-section__heading">Alle Webseiten</h2>
             <p>
-              Ein wachsendes Netz digitaler Projekte, jedes mit eigenem Schwerpunkt und
-              eigenem Publikum.
+              Die Domains, unter denen ich etwas abgelegt habe. Der Stand ist sehr
+              unterschiedlich, von gepflegt bis kaum begonnen.
             </p>
             <div className="websites-grid">
               {websites.map((site) => (
@@ -210,7 +155,6 @@ export default function Projekte() {
                     <span className="website-card__arrow">↗</span>
                   </div>
                   <h3 className="website-card__name">{site.name}</h3>
-                  <p className="website-card__desc">{site.description}</p>
                 </a>
               ))}
             </div>
