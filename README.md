@@ -2,13 +2,13 @@
 
 Quellcode meiner persönlichen Website: [dangulea.at](https://dangulea.at)
 
-Die Seite stellt meinen beruflichen Hintergrund, meine fachlichen Schwerpunkte und meine laufenden Vorhaben dar. Sie ist als Einzelprojekt gedacht und nicht als Vorlage.
+Die Seite stellt meinen beruflichen Hintergrund, meine fachlichen Schwerpunkte und meine laufenden Vorhaben dar. Sie ist als Einzelprojekt gedacht und nicht als Vorlage. Die Inhalte sind auf Deutsch.
 
 ## Zur Person
 
 Finance- und ERP-orientierter IT-Consultant in Wien. Erfahrung in Rechnungswesen, SAP FI/CO, Prozessmanagement und Business Intelligence. Fachliches Verständnis aus Buchhaltung, Controlling und Steuerprozessen, verbunden mit Systemlogik, Datenanalyse und strukturierter Dokumentation.
 
-Universitätslehrgang Angewandte Ethik an der Universität Innsbruck und der PTH Brixen, abgeschlossen 2026. Master ERP Consulting an der Technikum Wien Academy, laufend.
+Universitätslehrgang Angewandte Ethik an der Universität Innsbruck und der PTH Brixen, abgeschlossen 2026. Ab September 2026 berufsbegleitender Bachelor Digital Business an der FH der WKW.
 
 ## Zum Repository
 
@@ -20,11 +20,13 @@ public/               Statische Dateien, Custom Domain, Favicon
 src/
   App.tsx             Routen
   components/         Seitenrahmen, Navigation, Footer
-  pages/              Home, Person, Projekte, Impressum
+  pages/              Start, Person, Projekte, Impressum
   styles/global.css   Designtokens, Typografie, Grundlayout
 ```
 
 Der Deploy läuft automatisch über GitHub Actions bei jedem Push auf den Standard-Branch. Der Workflow liegt in `.github/workflows/deploy.yml`.
+
+Die Seite wird laufend überarbeitet. Inhalte und Formulierungen ändern sich, insbesondere auf der Projekte-Seite, wo überwiegend Entwürfe und Notizsammlungen aufgeführt sind.
 
 ## Entstehung und KI-Unterstützung
 
@@ -47,4 +49,4 @@ Dies ist kein Open-Source-Projekt und keine Vorlage. Der Code steht hier zur Ein
 ## Kontakt
 
 Claudiu Dangulea, Wien
-[dangulea@mailbox.org](mailto:dangulea@mailbox.org) · [linkedin.com/in/claudang](https://linkedin.com/in/claudang)
+[claudiu@dangulea.at](mailto:claudiu@dangulea.at) · [linkedin.com/in/claudang](https://linkedin.com/in/claudang)
