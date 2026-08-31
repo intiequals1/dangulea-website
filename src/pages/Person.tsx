@@ -9,14 +9,14 @@ export default function Person() {
       <section className="page-header">
         <div className="container page-header__inner">
           <div className="page-header__text">
-            <p className="section-label">About</p>
+            <p className="section-label">Über mich</p>
             <h1 className="page-header__title">Claudiu Dangulea</h1>
             <div className="page-header__meta">
-              <span>Vienna, Austria</span>
+              <span>Wien, Österreich</span>
               <span className="meta-sep" aria-hidden="true">·</span>
-              <span>Consultant · Entrepreneur</span>
+              <span>Consultant und Unternehmer</span>
               <span className="meta-sep" aria-hidden="true">·</span>
-              <span>Applied Ethics, University of Innsbruck</span>
+              <span>Angewandte Ethik, Universität Innsbruck</span>
             </div>
           </div>
           <div className="page-header__photo-wrap">
@@ -40,42 +40,45 @@ export default function Person() {
       <section className="person-section">
         <div className="container person-layout">
           <aside className="person-sidebar">
-            <p className="section-label">Profile</p>
+            <p className="section-label">Profil</p>
             <ul className="profile-list">
               <li>
-                <span className="profile-list__key">Location</span>
-                <span className="profile-list__val">Vienna, Austria</span>
+                <span className="profile-list__key">Standort</span>
+                <span className="profile-list__val">Wien, Österreich</span>
               </li>
               <li>
-                <span className="profile-list__key">Current role</span>
-                <span className="profile-list__val">Entrepreneur</span>
-              </li>
-              <li>
-                <span className="profile-list__key">Education</span>
+                <span className="profile-list__key">Aktuelle Tätigkeit</span>
                 <span className="profile-list__val">
-                  MSc ERP Consulting, Technikum Wien Academy<br />
-                  Applied Ethics, University of Innsbruck (Brixen)<br />
-                  Business Informatics, University Linz
+                  Selbstständig, digitale Projekte und Beratung
                 </span>
               </li>
               <li>
-                <span className="profile-list__key">Languages</span>
+                <span className="profile-list__key">Ausbildung</span>
                 <span className="profile-list__val">
-                  German (native) · Romanian (native) · English (fluent)
+                  Digital Business, Bachelor berufsbegleitend, FH der WKW, ab Sep. 2026<br />
+                  Angewandte Ethik, Universität Innsbruck und PTH Brixen, 2026<br />
+                  Prozessmanagement &amp; Business Intelligence, FH Oberösterreich Steyr,
+                  und Wirtschaftsinformatik, JKU Linz, jeweils nicht abgeschlossen
                 </span>
               </li>
               <li>
-                <span className="profile-list__key">Interests</span>
+                <span className="profile-list__key">Sprachen</span>
                 <span className="profile-list__val">
-                  Data · Ethics · AI · Sustainability · Process Management
+                  Deutsch und Rumänisch (Muttersprache) · Englisch (fließend)
+                </span>
+              </li>
+              <li>
+                <span className="profile-list__key">Interessen</span>
+                <span className="profile-list__val">
+                  KI und Ethik · Nachhaltige Geschäftsmodelle · ERP-Systeme · Digitale Transformation
                 </span>
               </li>
             </ul>
 
             <div className="person-contact">
-              <p className="section-label" style={{ marginTop: 'var(--space-8)' }}>Contact</p>
-              <a href="mailto:dangulea@mailbox.org" className="contact-link">
-                dangulea@mailbox.org
+              <p className="section-label" style={{ marginTop: 'var(--space-8)' }}>Kontakt</p>
+              <a href="mailto:claudiu@dangulea.at" className="contact-link">
+                claudiu@dangulea.at
               </a>
               <a
                 href="https://linkedin.com/in/claudang"
@@ -89,20 +92,27 @@ export default function Person() {
           </aside>
 
           <div className="person-body">
-            <h2 className="person-section__heading">About me</h2>
+            <h2 className="person-section__heading">Zur Person</h2>
             <p>
-              I am a consultant based in Vienna with a background in business informatics,
-              financial accounting, and SAP systems. Over the years I have worked across
-              finance, digital transformation, and ERP consulting.
+              Ich bin Finance- und ERP-orientierter IT-Consultant in Wien. Meine
+              Erfahrung stammt aus dem Rechnungswesen, aus SAP FI/CO-Projekten und aus
+              Prozessmanagement und Business Intelligence. Diese Verbindung ist der Kern
+              meiner Arbeit: fachliches Verständnis für Buchhaltung, Controlling und
+              Steuerprozesse, gepaart mit Systemlogik, Datenanalyse und strukturierter
+              Dokumentation.
             </p>
             <p>
-              My current focus is applied ethics. I am studying at the University of
-              Innsbruck in Brixen, exploring where philosophy, technology, and business
-              meet. That combination is not accidental — it reflects how I actually think.
+              Was mir an formalen akademischen Abschlüssen zeitweise fehlte, habe ich
+              über Praxis und beständiges Weiterlernen aufgeholt. Der Weg vom
+              Buchhaltungsassistenten über die Buchhaltung bis zur SAP-Beratung war
+              keine gerade Linie, aber jede Station hat etwas beigetragen, das ich heute
+              nutze.
             </p>
             <p>
-              I work carefully, I ask good questions, and I am ready to start on the right
-              project from day one.
+              Ab September 2026 kommt ein berufsbegleitender Bachelor in Digital Business
+              an der FH der WKW dazu. Technische Systeme und ethische Fragen gehören für
+              mich zusammen: Systeme legen fest, was in einem Unternehmen möglich ist,
+              und diese Festlegung hat eine ethische Seite.
             </p>
           </div>
         </div>
@@ -114,59 +124,95 @@ export default function Person() {
       <section className="person-section">
         <div className="container person-layout">
           <aside className="person-sidebar">
-            <p className="section-label">Experience</p>
+            <p className="section-label">Werdegang</p>
           </aside>
           <div className="person-body">
-            <h2 className="person-section__heading">Professional background</h2>
+            <h2 className="person-section__heading">Beruflicher Werdegang</h2>
 
             <div className="timeline">
               <div className="timeline-item">
-                <div className="timeline-item__period">Dec 2025 – May 2026</div>
-                <div className="timeline-item__role">Accountant</div>
-                <div className="timeline-item__company">KUMHO Tires Austria · Vienna</div>
+                <div className="timeline-item__period">Dez. 2025 – Mai 2026</div>
+                <div className="timeline-item__role">Buchhalter</div>
+                <div className="timeline-item__company">KUMHO Tire Europe GmbH · Wien</div>
                 <p className="timeline-item__desc">
-                  Full-cycle bookkeeping in SAP S/4HANA — accounts payable and receivable,
-                  tax administration, payroll notifications, and insurance management.
+                  Kreditoren- und Debitorenbuchhaltung, Zahlungsabwicklung sowie
+                  Gutschriften und Reklamationen in SAP S/4HANA. Steuerverwaltung,
+                  Lohn- und Gehaltsreporting, Versicherungsmanagement und interne
+                  Schulungen.
                 </p>
               </div>
 
               <div className="timeline-item">
-                <div className="timeline-item__period">May – Nov 2025</div>
+                <div className="timeline-item__period">Sep. 2022 – heute</div>
+                <div className="timeline-item__role">Digital Entrepreneur</div>
+                <div className="timeline-item__company">Selbstständig · Wien</div>
+                <p className="timeline-item__desc">
+                  Aufbau und Betrieb digitaler Projekte, darunter dangulea.at und
+                  claudiu.at. Beratung zu digitalen Werkzeugen und
+                  Workflow-Optimierung, Content-Erstellung und Community-Management zu
+                  Produktivität, KI, Ethik und Nachhaltigkeit.
+                </p>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-item__period">Mai 2025 – Nov. 2025</div>
                 <div className="timeline-item__role">Specialist IT Consulting</div>
                 <div className="timeline-item__company">REWE International AG · Wiener Neudorf</div>
                 <p className="timeline-item__desc">
-                  SAP AIF and IDoc processing, web form integration, Kafka interface monitoring,
-                  Power BI dashboards, and test management in agile project teams.
+                  Mandanteneinrichtung über Webforms und SQL, iDocs in SAP-Tabellen für
+                  FI/CO, MDG und AIF. Fach- und Technikkonzepte, Prozessvisualisierung
+                  in Visio, Anforderungsmanagement in SOLMAN. Testmanagement für
+                  SAP-AIF-Prozesse und Kafka-Integration samt Fehleranalyse. Power BI
+                  Dashboards für Prozesskennzahlen.
                 </p>
               </div>
 
               <div className="timeline-item">
-                <div className="timeline-item__period">Mar 2023 – Apr 2025</div>
+                <div className="timeline-item__period">März 2023 – Apr. 2025</div>
                 <div className="timeline-item__role">Junior SAP Consultant</div>
-                <div className="timeline-item__company">Eviden Austria · Linz</div>
+                <div className="timeline-item__company">Eviden Austria GmbH · Linz</div>
                 <p className="timeline-item__desc">
-                  SAP FI/CO customising, Closing Cockpit configuration, transport management,
-                  NewGL implementation, and Fiori app integration.
+                  SAP FI/CO-Customizing und Transportwesen. Closing Cockpit für
+                  Perioden- und Jahresabschlüsse, NewGL-Implementierung und Migration.
+                  Fiori-Apps für FI/CO, SAP Best Practices, SAP BW/4HANA und Power BI
+                  für Reporting und Analyse.
                 </p>
               </div>
 
               <div className="timeline-item">
-                <div className="timeline-item__period">Jan 2021 – Jan 2022</div>
+                <div className="timeline-item__period">Jan. 2021 – Jan. 2022</div>
                 <div className="timeline-item__role">Associate Digital Factory</div>
-                <div className="timeline-item__company">PwC Austria · Vienna</div>
+                <div className="timeline-item__company">PwC Österreich · Wien</div>
                 <p className="timeline-item__desc">
-                  Process automation with Power Automate and FireStart, Power BI dashboards,
-                  process mining with Celonis, and agile project work.
+                  Power BI Dashboards für Echtzeit-Analysen, Prozessautomatisierung mit
+                  FireStart und Power Automate, Datenanalyse mit XML und Python. Im
+                  Low-Code-Umfeld mit Bryter Konzeption und Dokumentation einschließlich
+                  Wissensweitergabe. Agile Projektarbeit.
                 </p>
               </div>
 
               <div className="timeline-item">
-                <div className="timeline-item__period">Aug 2019 – Dec 2020</div>
+                <div className="timeline-item__period">Aug. 2019 – Dez. 2020</div>
                 <div className="timeline-item__role">Associate Tax</div>
-                <div className="timeline-item__company">PwC Upper Austria · Vienna</div>
+                <div className="timeline-item__company">PwC Oberösterreich · Linz</div>
                 <p className="timeline-item__desc">
-                  Financial accounting and tax consulting for multiple clients using BMD NTCS.
-                  Digitalization projects and process documentation.
+                  Buchhaltung in BMD NTCS, Monats-, Quartals- und Jahresabschlüsse,
+                  Umsatzsteuervoranmeldung über FinanzOnline. Digitalisierungsinitiativen
+                  mit Prozessmodellierung in Signavio und Lucidchart. Vorbereitung von
+                  CbC-Reports.
+                </p>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-item__period">Okt. 2014 – Dez. 2018</div>
+                <div className="timeline-item__role">Finanzadministrator</div>
+                <div className="timeline-item__company">Dr. Peter Jonas · Linz</div>
+                <p className="timeline-item__desc">
+                  Finanzbuchhaltung mit Mahnwesen, Zahlungsverkehr,
+                  Umsatzsteuervoranmeldung und §-109a-Meldungen. Vorbereitung der Lohn-
+                  und Gehaltsabrechnung, Abstimmung mit der Steuerberatung, Vorbereitung
+                  von GPLA- und Betriebsprüfungen. Saldenlisten, OP-Listen und
+                  kurzfristige Erfolgsrechnungen für die Geschäftsführung.
                 </p>
               </div>
             </div>
@@ -180,42 +226,41 @@ export default function Person() {
       <section className="person-section">
         <div className="container person-layout">
           <aside className="person-sidebar">
-            <p className="section-label">Expertise</p>
+            <p className="section-label">Schwerpunkte</p>
           </aside>
           <div className="person-body">
-            <h2 className="person-section__heading">Areas of expertise</h2>
+            <h2 className="person-section__heading">Fachliche Schwerpunkte</h2>
 
             <div className="expertise-list">
               <div className="expertise-item">
-                <h3 className="expertise-item__title">SAP &amp; ERP Systems</h3>
+                <h3 className="expertise-item__title">SAP und ERP</h3>
                 <p>
-                  Practical experience in SAP FI/CO consulting and implementation — including
-                  Closing Cockpit, transport management, Fiori apps, and S/4HANA.
+                  SAP FI/CO-Customizing, S/4HANA, AIF und iDocs, Fiori.
                 </p>
               </div>
 
               <div className="expertise-item">
-                <h3 className="expertise-item__title">Finance &amp; Accounting</h3>
+                <h3 className="expertise-item__title">Rechnungswesen</h3>
                 <p>
-                  Solid background in financial accounting, tax administration, and controlling
-                  across multiple industries. Experienced with BMD, Oracle NetSuite, and SAP.
+                  Buchhaltung, Monats- und Jahresabschlüsse, Umsatzsteuervoranmeldung,
+                  FinanzOnline, Mahnwesen und Lohnverrechnung. Erfahrung aus
+                  Steuerberatung, Industrie und interner Buchhaltung.
                 </p>
               </div>
 
               <div className="expertise-item">
-                <h3 className="expertise-item__title">Data &amp; Process Intelligence</h3>
+                <h3 className="expertise-item__title">Daten und Business Intelligence</h3>
                 <p>
-                  Confident with Power BI, SQL, process mining (Celonis), and business
-                  intelligence tools. I turn complex data into clear, actionable insight.
+                  Power BI mit DAX und Power Query, SQL und fortgeschrittenes Excel.
+                  Aus Daten belastbare Aussagen ableiten.
                 </p>
               </div>
 
               <div className="expertise-item">
-                <h3 className="expertise-item__title">Applied Ethics &amp; Philosophy</h3>
+                <h3 className="expertise-item__title">Prozess und Projekt</h3>
                 <p>
-                  Studying applied ethics at the University of Innsbruck in Brixen — exploring
-                  the philosophical foundations that underpin technology, business decisions,
-                  and human interaction.
+                  Signavio, Visio und Lucidchart für Prozessmodellierung, JIRA und
+                  Confluence für die Projektarbeit.
                 </p>
               </div>
             </div>
@@ -229,15 +274,17 @@ export default function Person() {
       <section className="person-section">
         <div className="container person-layout">
           <aside className="person-sidebar">
-            <p className="section-label">Vision</p>
+            <p className="section-label">Ausblick</p>
           </aside>
           <div className="person-body">
-            <h2 className="person-section__heading">Where I want to go</h2>
+            <h2 className="person-section__heading">Wohin ich will</h2>
             <p>
-              My goal is to move into a role that brings together ethics, strategy, and
-              intelligence consulting. I want to work on topics that are genuinely
-              interesting, run workshops, write articles, and connect with people who
-              think carefully about what they do. Vienna is a good place for that.
+              Ich möchte in einer Rolle arbeiten, die ERP-Systeme, Datenanalyse und
+              ethische Fragestellungen zusammenführt. Konkret heißt das: Prozesse
+              verstehen, bevor sie automatisiert werden, und die Frage stellen, ob eine
+              technisch mögliche Lösung auch eine sinnvolle ist. Dazu der Austausch mit
+              Menschen, die sorgfältig über ihre Arbeit nachdenken. Wien ist dafür ein
+              guter Ort.
             </p>
           </div>
         </div>
@@ -249,15 +296,15 @@ export default function Person() {
       <section className="person-section person-section--last">
         <div className="container person-layout">
           <aside className="person-sidebar">
-            <p className="section-label">Outside of work</p>
+            <p className="section-label">Privates</p>
           </aside>
           <div className="person-body">
-            <h2 className="person-section__heading">Personal interests</h2>
+            <h2 className="person-section__heading">Außerhalb der Arbeit</h2>
             <p>
-              When I am not working, I travel. Each trip reinforces something I already believe:
-              that people are mostly good, and that diversity is worth paying attention to.
-              I value fairness, patience, and the kind of openness you find in communities
-              that have learned to welcome strangers.
+              Wenn ich nicht arbeite, reise ich. Jede Reise bestätigt etwas, das ich
+              ohnehin glaube: dass die meisten Menschen es gut meinen und dass Vielfalt
+              Aufmerksamkeit verdient. Ich schätze Fairness, Geduld und die Offenheit,
+              die man in Gemeinschaften findet, die gelernt haben, Fremde aufzunehmen.
             </p>
           </div>
         </div>
