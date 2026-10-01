@@ -1,22 +1,23 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Layout from './components/Layout'
-import Home from './pages/Home'
-import Person from './pages/Person'
-import Projekte from './pages/Projekte'
-import Impressum from './pages/Impressum'
-import './styles/global.css'
+import { Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Person from "./pages/Person";
+import Projekte from "./pages/Projekte";
+import Impressum from "./pages/Impressum";
+import News from "./pages/News";
 
-export default function App() {
+function App() {
   return (
-    <BrowserRouter>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/person" element={<Person />} />
-          <Route path="/projekte" element={<Projekte />} />
-          <Route path="/impressum" element={<Impressum />} />
-        </Routes>
-      </Layout>
-    </BrowserRouter>
-  )
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="person" element={<Person />} />
+        <Route path="projekte" element={<Projekte />} />
+        <Route path="impressum" element={<Impressum />} />
+        <Route path="news" element={<News />} />
+      </Route>
+    </Routes>
+  );
 }
+
+export default App;
