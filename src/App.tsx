@@ -8,15 +8,15 @@ import News from "./pages/News";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="person" element={<Person />} />
-        <Route path="projekte" element={<Projekte />} />
-        <Route path="impressum" element={<Impressum />} />
-        <Route path="news" element={<News />} />
-      </Route>
-    </Routes>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/person" element={<Person />} />
+        <Route path="/projekte" element={<Projekte />} />
+        <Route path="/impressum" element={<Impressum />} />
+        <Route path="/news" element={<News />} />
+      </Routes>
+    </Layout>
   );
 }
 
