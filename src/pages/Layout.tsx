@@ -1,6 +1,5 @@
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import "../styles/global.css";
-import "../styles/layout.css";
 
 const navigation = [
   { to: "/", label: "HOME", end: true },
