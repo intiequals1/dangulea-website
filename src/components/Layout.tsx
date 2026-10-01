@@ -12,7 +12,6 @@ export default function Layout({ children }: LayoutProps) {
   const location = useLocation()
 
   useEffect(() => {
-    setMenuOpen(false)
     window.scrollTo(0, 0)
   }, [location])
 
@@ -36,7 +35,7 @@ export default function Layout({ children }: LayoutProps) {
       {/* ── Navigation ── */}
       <header className={`nav${scrolled ? ' nav--scrolled' : ''}`}>
         <div className="nav__inner container--wide">
-          <NavLink to="/" className="nav__brand">
+          <NavLink to="/" className="nav__brand" onClick={() => setMenuOpen(false)}>
             <span className="nav__brand-name">Claudiu Dangulea</span>
           </NavLink>
 
@@ -84,19 +83,19 @@ export default function Layout({ children }: LayoutProps) {
             ✕
           </button>
           <nav className="nav__overlay-links" aria-label="Mobile navigation">
-            <NavLink to="/" end className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`}>
+            <NavLink to="/" end className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`} onClick={() => setMenuOpen(false)}>
               Home
             </NavLink>
-            <NavLink to="/person" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`}>
+            <NavLink to="/person" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`} onClick={() => setMenuOpen(false)}>
               Person
             </NavLink>
-            <NavLink to="/projekte" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`}>
+            <NavLink to="/projekte" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`} onClick={() => setMenuOpen(false)}>
               Projekte
             </NavLink>
-            <NavLink to="/news" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`}>
+            <NavLink to="/news" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`} onClick={() => setMenuOpen(false)}>
               News
             </NavLink>
-            <NavLink to="/impressum" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`}>
+            <NavLink to="/impressum" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`} onClick={() => setMenuOpen(false)}>
               Impressum
             </NavLink>
           </nav>
