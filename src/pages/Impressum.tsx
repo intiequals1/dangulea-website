@@ -37,6 +37,31 @@ export default function Impressum() {
         <div className="divider" />
 
         <section className="legal-section">
+          <h2>Automatisierte Inhalte und KI-Unterstützung</h2>
+          <p>
+            Auf dieser Website, insbesondere im Bereich „News“, können Inhalte ganz
+            oder teilweise automatisiert und unter Einsatz künstlicher Intelligenz
+            erstellt, zusammengefasst oder sprachlich bearbeitet werden. Dafür können
+            insbesondere Perplexity-Automatisierungen eingesetzt werden.
+          </p>
+          <p>
+            Automatisierte Inhalte werden auf der jeweiligen Seite als solche
+            gekennzeichnet. Soweit ein Beitrag nicht einzeln vor Veröffentlichung
+            redaktionell geprüft wurde, wird keine individuelle redaktionelle Prüfung
+            behauptet. Die inhaltliche Verantwortung für veröffentlichte eigene Inhalte
+            liegt bei der oben genannten verantwortlichen Person.
+          </p>
+          <p>
+            Hinweise auf Fehler, unklare Quellen, veraltete Angaben oder notwendige
+            Korrekturen können an{' '}
+            <a href="mailto:claudiu@dangulea.at">claudiu@dangulea.at</a> gesendet
+            werden.
+          </p>
+        </section>
+
+        <div className="divider" />
+
+        <section className="legal-section">
           <h2>EU-Streitschlichtung</h2>
           <p>
             Gemäß Verordnung über Online-Streitbeilegung in Verbraucherangelegenheiten
@@ -117,6 +142,21 @@ export default function Impressum() {
             Uhrzeit der Serveranfrage.
           </p>
 
+          <h3>KI- und Automatisierungsdienste</h3>
+          <p>
+            Für die Recherche, Zusammenfassung, Strukturierung oder sprachliche
+            Bearbeitung von News-Inhalten können externe KI- und Automatisierungsdienste,
+            insbesondere Perplexity AI, Inc., eingesetzt werden. Dabei sollen keine
+            vertraulichen Informationen, Zugangsdaten, Geschäftsgeheimnisse oder
+            sensiblen personenbezogenen Daten an solche Dienste übermittelt werden.
+          </p>
+          <p>
+            Soweit im Einzelfall personenbezogene Daten verarbeitet werden, erfolgt dies
+            nach Maßgabe der anwendbaren Datenschutzvorschriften. Je nach eingesetztem
+            Dienst, Konto und technischer Einbindung können Anbieter eigene Protokoll-,
+            Nutzungs- oder Metadaten verarbeiten.
+          </p>
+
           <h3>Ihre Rechte</h3>
           <p>Sie haben das Recht auf:</p>
           <ul className="legal-list">
@@ -164,7 +204,7 @@ export default function Impressum() {
               www.ethics.at
             </a>
           </p>
-          <p className="legal-date">Stand: Jänner 2025</p>
+          <p className="legal-date">Stand: Oktober 2026</p>
         </section>
 
       </div>

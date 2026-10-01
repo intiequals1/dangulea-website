@@ -34,6 +34,28 @@ export default function News() {
   return (
     <div className="news-page">
       <h1>News</h1>
+      <section className="news-transparency" aria-labelledby="news-transparency-title">
+        <p className="news-kicker">Transparenzhinweis</p>
+        <h2 id="news-transparency-title">Automatisiert erstellte Inhalte</h2>
+        <p>
+          Die auf dieser Seite veröffentlichten Beiträge können vollständig oder teilweise
+          automatisiert und unter Einsatz künstlicher Intelligenz, insbesondere durch
+          Perplexity-Automatisierungen, erstellt, zusammengefasst oder sprachlich
+          bearbeitet werden.
+        </p>
+        <p>
+          Automatisierte Inhalte können Fehler enthalten, unvollständig sein, Quellen
+          falsch gewichten oder nach Veröffentlichung veralten. Sie dienen allgemeinen
+          Informationszwecken und ersetzen keine individuelle rechtliche, steuerliche,
+          finanzielle, technische oder sonstige fachliche Beratung.
+        </p>
+        <p>
+          Quellen werden, soweit verfügbar, im jeweiligen Beitrag angegeben. Hinweise auf
+          Fehler, unklare Quellen oder notwendige Korrekturen können per E-Mail an{' '}
+          <a href="mailto:claudiu@dangulea.at">claudiu@dangulea.at</a> gesendet werden.
+        </p>
+      </section>
+
       {items.length === 0 ? (
         <p>Noch keine News vorhanden.</p>
       ) : (
@@ -43,6 +65,10 @@ export default function News() {
               <div className="news-date">{item.date}</div>
               <h2 className="news-title">{item.title}</h2>
               <p className="news-text">{item.text}</p>
+              <p className="news-disclosure">
+                Dieser Beitrag wurde automatisiert unter Einsatz künstlicher Intelligenz
+                erstellt oder bearbeitet. Stand: {item.date}.
+              </p>
             </li>
           ))}
         </ul>
