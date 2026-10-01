@@ -1,29 +1,40 @@
-import "./Impressum.css";
+import Layout from './Layout'
+import './Impressum.css'
 
 export default function Impressum() {
   return (
-    <div className="impressum-page">
-      <section className="page-hero">
-        <div className="page-hero-inner">
-          <p className="eyebrow">LEGAL</p>
+    <Layout>
+      <section className="impressum-page">
+        <div className="impressum-hero">
+          <p className="eyebrow">Rechtliches</p>
           <h1>Impressum</h1>
         </div>
-      </section>
 
-      <section className="impressum-content">
-        <div className="impressum-inner">
-          <h2>Angaben gemäß § 5 ECG, § 14 UGB, § 63 GewO</h2>
-          <p>
-            Claudiu Dangulea<br />
-            Hütteldorfer Straße 45/2/12<br />
-            1150 Wien<br />
-            Österreich
-          </p>
-          <p>
-            E-Mail: <a href="mailto:claudiu@dangulea.at">claudiu@dangulea.at</a>
-          </p>
+        <div className="impressum-content">
+          <section>
+            <h2>Medieninhaber und Herausgeber</h2>
+            <p>
+              Claudiu Dangulea<br />
+              Wien, Österreich
+            </p>
+          </section>
+
+          <section>
+            <h2>Kontakt</h2>
+            <p>
+              E-Mail: <a href="mailto:claudiu@dangulea.at">claudiu@dangulea.at</a>
+            </p>
+          </section>
+
+          <section>
+            <h2>Haftungshinweis</h2>
+            <p>
+              Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung für die Inhalte externer Links.
+              Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+            </p>
+          </section>
         </div>
       </section>
-    </div>
-  );
+    </Layout>
+  )
 }
