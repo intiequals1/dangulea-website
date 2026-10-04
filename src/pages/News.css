@@ -199,3 +199,10 @@
     grid-template-columns: 1fr;
   }
 }
+
+.news-filter-note {
+  color: var(--color-text-tertiary);
+  font-size: var(--text-xs);
+  margin-top: calc(-1 * var(--space-4));
+  margin-bottom: var(--space-6);
+}

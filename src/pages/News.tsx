@@ -30,7 +30,7 @@ const topicKeywords: Record<Exclude<TopicFilter, 'Alle'>, string[]> = {
 
 function matchesTopic(item: NewsItem, selectedTopic: TopicFilter) {
   if (selectedTopic === 'Alle') return true;
-  const haystack = `${item.date} ${item.title} ${item.text}`.toLowerCase();
+  const haystack = item.text.toLowerCase();
   return topicKeywords[selectedTopic].some((keyword) => haystack.includes(keyword));
 }
 
@@ -131,7 +131,7 @@ export default function News() {
     const normalizedQuery = query.trim().toLowerCase();
 
     return items.filter((item) => {
-      const searchableText = `${item.date} ${item.title} ${item.text}`.toLowerCase();
+      const searchableText = `${item.date} ${item.text}`.toLowerCase();
       const matchesQuery = !normalizedQuery || searchableText.includes(normalizedQuery);
       return matchesQuery && matchesTopic(item, selectedTopic);
     });
@@ -186,6 +186,11 @@ export default function News() {
       </section>
 
       <p className="news-count">{filteredItems.length} von {items.length} Beiträgen</p>
+      {(query || selectedTopic !== "Alle") && (
+        <p className="news-filter-note">
+          Gefiltert wird nach Datum und Beitragstext. Der generische Beitragstitel wird nicht als Treffer gewertet.
+        </p>
+      )}
 
       {items.length === 0 ? (
         <p>Noch keine News vorhanden.</p>
