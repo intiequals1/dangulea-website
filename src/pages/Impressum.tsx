@@ -13,7 +13,7 @@ export default function Impressum() {
       <div className="container container--text impressum-body">
 
         <section className="legal-section">
-          <h2>Angaben gemäß § 5 ECG, § 25 MedienG</h2>
+          <h2></b></>Angaben gemäß § 5 ECG, § 25 MedienG</h2>
           <p>
             Claudiu Dangulea<br />
             Karl-Popper-Straße 5/217<br />
