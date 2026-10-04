@@ -12,8 +12,6 @@ type ResourceGroup = {
   items: ResourceItem[]
 }
 
-const notionDatabaseUrl = 'https://pertion.notion.site/?v=b03c9207e7544b5fb423824796a332a5&pvs=25'
-
 const resourceGroups: ResourceGroup[] = [
   {
     title: 'New: Installing SAP',
@@ -233,7 +231,7 @@ const resourceGroups: ResourceGroup[] = [
 ]
 
 const groupTitles = ['Alle', ...resourceGroups.map((group) => group.title)]
-const totalResourceCount = resourceGroups.reduce((sum, group) => sum + group.items.length, 0)
+const totalResourceCount = resourceGroups.reduce((sum, group) => sum + group.items.filter((item) => item.url).length, 0)
 
 export default function Ressourcen() {
   const [query, setQuery] = useState('')
@@ -247,6 +245,7 @@ export default function Ressourcen() {
       .map((group) => ({
         ...group,
         items: group.items.filter((item) => {
+          if (!item.url) return false
           const searchableText = [group.title, group.description, item.title].join(' ').toLowerCase()
           return !normalizedQuery || searchableText.includes(normalizedQuery)
         }),
@@ -293,12 +292,8 @@ export default function Ressourcen() {
           <aside className="ressourcen-sidebar">
             <p className="section-label">Themenblöcke</p>
             <p>
-              Die Hauptliste zeigt nur Einträge mit präzisem Direktlink. Weniger relevante oder noch nicht eindeutig verlinkte
-              Notizen liegen je Themenblock zugeklappt unter „nicht priorisiert / Link prüfen“.
+              Angezeigt werden nur Themenblöcke mit direkt verlinkten, allgemein relevanten Seiten.
             </p>
-            <a href={notionDatabaseUrl} target="_blank" rel="noopener noreferrer" className="ressourcen-hub-link">
-              Notion-Hub öffnen ↗
-            </a>
           </aside>
 
           <div className="ressourcen-body">
@@ -328,60 +323,28 @@ export default function Ressourcen() {
             </p>
 
             <div className="resource-groups">
-              {filteredGroups.map((group) => {
-                const importantItems = group.items.filter((item) => item.url)
-                const secondaryItems = group.items.filter((item) => !item.url)
-
-                return (
-                  <section className="resource-group" key={group.title}>
-                    <div className="resource-group__header">
-                      <div>
-                        <p className="resource-group__count">
-                          {importantItems.length} direkt verlinkt
-                          {secondaryItems.length > 0 ? ` · ${secondaryItems.length} zu prüfen` : ''}
-                        </p>
-                        <h2>{group.title}</h2>
-                      </div>
-                      <p>{group.description}</p>
+              {filteredGroups.map((group) => (
+                <section className="resource-group" key={group.title}>
+                  <div className="resource-group__header">
+                    <div>
+                      <p className="resource-group__count">{group.items.length} direkt verlinkt</p>
+                      <h2>{group.title}</h2>
                     </div>
+                    <p>{group.description}</p>
+                  </div>
 
-                    {importantItems.length > 0 ? (
-                      <ul className="resource-page-list">
-                        {importantItems.map((item) => (
-                          <li key={`${group.title}-${item.title}`}>
-                            <a href={item.url} target="_blank" rel="noopener noreferrer">
-                              <span>{item.title}</span>
-                              <small>Direktlink öffnen ↗</small>
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    ) : (
-                      <p className="resource-group__empty">
-                        Für diesen Themenblock ist noch kein präziser öffentlicher Direktlink hinterlegt.
-                      </p>
-                    )}
-
-                    {secondaryItems.length > 0 && (
-                      <details className="resource-secondary">
-                        <summary>Nicht priorisiert / Direktlink noch prüfen ({secondaryItems.length})</summary>
-                        <p>
-                          Diese Titel stammen aus der öffentlichen claudiu.at-Struktur, sind aber entweder nur intern interessant,
-                          noch nicht eindeutig öffentlich verlinkt oder für die allgemeine Übersicht weniger aussagekräftig.
-                        </p>
-                        <ul>
-                          {secondaryItems.map((item) => (
-                            <li key={`${group.title}-${item.title}`}>
-                              <span>{item.title}</span>
-                              <small>kein präziser Direktlink hinterlegt</small>
-                            </li>
-                          ))}
-                        </ul>
-                      </details>
-                    )}
-                  </section>
-                )
-              })}
+                  <ul className="resource-page-list">
+                    {group.items.map((item) => (
+                      <li key={`${group.title}-${item.title}`}>
+                        <a href={item.url} target="_blank" rel="noopener noreferrer">
+                          <span>{item.title}</span>
+                          <small>Direktlink öffnen ↗</small>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              ))}
             </div>
           </div>
         </div>
