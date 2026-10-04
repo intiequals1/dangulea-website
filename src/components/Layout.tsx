@@ -53,6 +53,9 @@ export default function Layout({ children }: LayoutProps) {
             <NavLink to="/news" className={({ isActive }) => `nav__link${isActive ? ' nav__link--active' : ''}`}>
               News
             </NavLink>
+            <NavLink to="/ressourcen" className={({ isActive }) => `nav__link${isActive ? ' nav__link--active' : ''}`}>
+              Ressourcen
+            </NavLink>
             <NavLink to="/impressum" className={({ isActive }) => `nav__link${isActive ? ' nav__link--active' : ''}`}>
               Impressum
             </NavLink>
@@ -94,6 +97,9 @@ export default function Layout({ children }: LayoutProps) {
             </NavLink>
             <NavLink to="/news" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`} onClick={() => setMenuOpen(false)}>
               News
+            </NavLink>
+            <NavLink to="/ressourcen" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`} onClick={() => setMenuOpen(false)}>
+              Ressourcen
             </NavLink>
             <NavLink to="/impressum" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`} onClick={() => setMenuOpen(false)}>
               Impressum
