@@ -13,8 +13,6 @@ export default function Impressum() {
       <div className="container container--text impressum-body">
 
         <section className="legal-section">
-         <b>
-         </b>
           <h2>Angaben gemäß § 5 ECG, § 25 MedienG</h2>
           <p>
             Claudiu Dangulea<br />
