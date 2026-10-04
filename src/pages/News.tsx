@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import "./News.css";
 
 type NewsItem = {
@@ -8,31 +8,6 @@ type NewsItem = {
 };
 
 const urlPattern = /https?:\/\/[^\s|]+/g;
-
-const topicFilters = [
-  'Alle',
-  'KI & Technologie',
-  'ERP & SAP',
-  'Nachhaltigkeit',
-  'Ethik & Regulierung',
-  'Österreich & EU',
-] as const;
-
-type TopicFilter = typeof topicFilters[number];
-
-const topicKeywords: Record<Exclude<TopicFilter, 'Alle'>, string[]> = {
-  'KI & Technologie': ['ki', 'künstliche intelligenz', 'ai', 'technologie', 'data science', 'daten', 'cyber', 'digital', 'software'],
-  'ERP & SAP': ['erp', 'sap', 's/4hana', 'fi/co', 'system-architektur', 'prozess', 'joule'],
-  'Nachhaltigkeit': ['nachhaltigkeit', 'sustainability', 'sdg', 'esg', 'klima', 'kreislauf', 'umwelt', 'ressourcen'],
-  'Ethik & Regulierung': ['ethik', 'regulierung', 'gesetz', 'ai act', 'urheberrecht', 'transparenz', 'governance', 'compliance'],
-  'Österreich & EU': ['österreich', 'austria', 'wien', 'eu ', 'eu-', 'europäische', 'eurostat', 'kommission', 'enisa'],
-};
-
-function matchesTopic(item: NewsItem, selectedTopic: TopicFilter) {
-  if (selectedTopic === 'Alle') return true;
-  const haystack = item.text.toLowerCase();
-  return topicKeywords[selectedTopic].some((keyword) => haystack.includes(keyword));
-}
 
 
 function renderLinkedText(text: string) {
@@ -106,8 +81,6 @@ function renderNewsText(text: string) {
 
 export default function News() {
   const [items, setItems] = useState<NewsItem[]>([]);
-  const [query, setQuery] = useState("");
-  const [selectedTopic, setSelectedTopic] = useState<TopicFilter>("Alle");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -127,15 +100,6 @@ export default function News() {
       });
   }, []);
 
-  const filteredItems = useMemo(() => {
-    const normalizedQuery = query.trim().toLowerCase();
-
-    return items.filter((item) => {
-      const searchableText = `${item.date} ${item.text}`.toLowerCase();
-      const matchesQuery = !normalizedQuery || searchableText.includes(normalizedQuery);
-      return matchesQuery && matchesTopic(item, selectedTopic);
-    });
-  }, [items, query, selectedTopic]);
 
   if (loading) return <div className="news-loading">Lade News…</div>;
   if (error) return <div className="news-error">Fehler: {error}</div>;
@@ -165,40 +129,11 @@ export default function News() {
         </p>
       </section>
 
-      <section className="news-controls" aria-label="News filtern">
-        <label className="news-search">
-          <span>Suche</span>
-          <input
-            type="search"
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder="z. B. SAP, AI Act, Österreich"
-          />
-        </label>
-        <label>
-          <span>Thema</span>
-          <select value={selectedTopic} onChange={(event) => setSelectedTopic(event.target.value as TopicFilter)}>
-            {topicFilters.map((topic) => (
-              <option key={topic} value={topic}>{topic}</option>
-            ))}
-          </select>
-        </label>
-      </section>
-
-      <p className="news-count">{filteredItems.length} von {items.length} Beiträgen</p>
-      {(query || selectedTopic !== "Alle") && (
-        <p className="news-filter-note">
-          Gefiltert wird nach Datum und Beitragstext. Der generische Beitragstitel wird nicht als Treffer gewertet.
-        </p>
-      )}
-
       {items.length === 0 ? (
         <p>Noch keine News vorhanden.</p>
-      ) : filteredItems.length === 0 ? (
-        <p className="news-empty">Keine News für diese Suche gefunden.</p>
       ) : (
         <ul className="news-list">
-          {filteredItems.map((item, idx) => (
+          {items.map((item, idx) => (
             <li key={idx} className="news-item">
               <div className="news-date">{item.date}</div>
               <h2 className="news-title">{item.title}</h2>
