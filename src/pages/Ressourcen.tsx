@@ -12,7 +12,6 @@ type ResourceGroup = {
   items: ResourceItem[]
 }
 
-const claudiuHubUrl = 'https://www.claudiu.at/'
 const notionDatabaseUrl = 'https://pertion.notion.site/?v=b03c9207e7544b5fb423824796a332a5&pvs=25'
 
 const resourceGroups: ResourceGroup[] = [
@@ -294,8 +293,8 @@ export default function Ressourcen() {
           <aside className="ressourcen-sidebar">
             <p className="section-label">Themenblöcke</p>
             <p>
-              Die Einträge folgen der öffentlichen Struktur von claudiu.at. Direkte Links öffnen die Page;
-              Einträge ohne bekannte Page-ID führen zum Notion-Hub.
+              Die Hauptliste zeigt nur Einträge mit präzisem Direktlink. Weniger relevante oder noch nicht eindeutig verlinkte
+              Notizen liegen je Themenblock zugeklappt unter „nicht priorisiert / Link prüfen“.
             </p>
             <a href={notionDatabaseUrl} target="_blank" rel="noopener noreferrer" className="ressourcen-hub-link">
               Notion-Hub öffnen ↗
@@ -329,30 +328,60 @@ export default function Ressourcen() {
             </p>
 
             <div className="resource-groups">
-              {filteredGroups.map((group) => (
-                <section className="resource-group" key={group.title}>
-                  <div className="resource-group__header">
-                    <div>
-                      <p className="resource-group__count">{group.items.length} Pages</p>
-                      <h2>{group.title}</h2>
+              {filteredGroups.map((group) => {
+                const importantItems = group.items.filter((item) => item.url)
+                const secondaryItems = group.items.filter((item) => !item.url)
+
+                return (
+                  <section className="resource-group" key={group.title}>
+                    <div className="resource-group__header">
+                      <div>
+                        <p className="resource-group__count">
+                          {importantItems.length} direkt verlinkt
+                          {secondaryItems.length > 0 ? ` · ${secondaryItems.length} zu prüfen` : ''}
+                        </p>
+                        <h2>{group.title}</h2>
+                      </div>
+                      <p>{group.description}</p>
                     </div>
-                    <p>{group.description}</p>
-                  </div>
-                  <ul className="resource-page-list">
-                    {group.items.map((item) => {
-                      const hasDirectUrl = Boolean(item.url)
-                      return (
-                        <li key={`${group.title}-${item.title}`}>
-                          <a href={item.url ?? claudiuHubUrl} target="_blank" rel="noopener noreferrer">
-                            <span>{item.title}</span>
-                            <small>{hasDirectUrl ? 'Page öffnen ↗' : 'im Hub öffnen ↗'}</small>
-                          </a>
-                        </li>
-                      )
-                    })}
-                  </ul>
-                </section>
-              ))}
+
+                    {importantItems.length > 0 ? (
+                      <ul className="resource-page-list">
+                        {importantItems.map((item) => (
+                          <li key={`${group.title}-${item.title}`}>
+                            <a href={item.url} target="_blank" rel="noopener noreferrer">
+                              <span>{item.title}</span>
+                              <small>Direktlink öffnen ↗</small>
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="resource-group__empty">
+                        Für diesen Themenblock ist noch kein präziser öffentlicher Direktlink hinterlegt.
+                      </p>
+                    )}
+
+                    {secondaryItems.length > 0 && (
+                      <details className="resource-secondary">
+                        <summary>Nicht priorisiert / Direktlink noch prüfen ({secondaryItems.length})</summary>
+                        <p>
+                          Diese Titel stammen aus der öffentlichen claudiu.at-Struktur, sind aber entweder nur intern interessant,
+                          noch nicht eindeutig öffentlich verlinkt oder für die allgemeine Übersicht weniger aussagekräftig.
+                        </p>
+                        <ul>
+                          {secondaryItems.map((item) => (
+                            <li key={`${group.title}-${item.title}`}>
+                              <span>{item.title}</span>
+                              <small>kein präziser Direktlink hinterlegt</small>
+                            </li>
+                          ))}
+                        </ul>
+                      </details>
+                    )}
+                  </section>
+                )
+              })}
             </div>
           </div>
         </div>
