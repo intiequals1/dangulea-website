@@ -154,7 +154,7 @@ export default function Ressourcen() {
           <aside className="ressourcen-sidebar">
             <p className="section-label">Themenblöcke</p>
             <p>
-              Angezeigt werden nur Themenblöcke mit direkt verlinkten, allgemein relevanten Seiten.
+              Hier werden Themenblöcke mit direkt verlinkten Seiten.
             </p>
           </aside>
 
