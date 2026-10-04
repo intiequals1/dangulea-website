@@ -230,8 +230,15 @@ const resourceGroups: ResourceGroup[] = [
   },
 ]
 
-const groupTitles = ['Alle', ...resourceGroups.map((group) => group.title)]
-const totalResourceCount = resourceGroups.reduce((sum, group) => sum + group.items.filter((item) => item.url).length, 0)
+const linkedResourceGroups = resourceGroups
+  .map((group) => ({
+    ...group,
+    items: group.items.filter((item) => item.url),
+  }))
+  .filter((group) => group.items.length > 0)
+
+const groupTitles = ['Alle', ...linkedResourceGroups.map((group) => group.title)]
+const totalResourceCount = linkedResourceGroups.reduce((sum, group) => sum + group.items.length, 0)
 
 export default function Ressourcen() {
   const [query, setQuery] = useState('')
@@ -240,12 +247,11 @@ export default function Ressourcen() {
   const filteredGroups = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase()
 
-    return resourceGroups
+    return linkedResourceGroups
       .filter((group) => selectedGroup === 'Alle' || group.title === selectedGroup)
       .map((group) => ({
         ...group,
         items: group.items.filter((item) => {
-          if (!item.url) return false
           const searchableText = [group.title, group.description, item.title].join(' ').toLowerCase()
           return !normalizedQuery || searchableText.includes(normalizedQuery)
         }),
