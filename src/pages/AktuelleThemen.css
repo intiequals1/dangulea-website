@@ -1,0 +1,14 @@
+.topics-lead { max-width: 48rem; margin-top: var(--space-6); color: var(--color-text-secondary); }
+.topics-body { padding-top: var(--space-12); }
+.topics-disclosure { max-width: 55rem; padding: var(--space-6); border-left: 2px solid var(--color-accent); background: var(--color-bg-alt); font-size: var(--text-sm); }
+.topic { margin-top: var(--space-12); border: 1px solid var(--color-border); padding: var(--space-6); }
+.topic-header { border-bottom: 1px solid var(--color-border); padding-bottom: var(--space-6); margin-bottom: var(--space-6); }
+.topic-header h2 { margin-bottom: var(--space-4); }
+.topic-checked, .topic-update time { font-size: var(--text-sm); color: var(--color-text-secondary); }
+.topic-checked { margin-top: var(--space-4); }
+.topic-status { color: var(--color-text-secondary); }
+.topic-update { max-width: 55rem; padding: var(--space-6) 0; scroll-margin-top: 8rem; }
+.topic-update + .topic-update { border-top: 1px solid var(--color-border); }
+.topic-update h3 { font-size: var(--text-2xl); margin: var(--space-4) 0; }
+.topic-update p { white-space: pre-line; margin-bottom: var(--space-4); }
+.topic-update a { overflow-wrap: anywhere; }
