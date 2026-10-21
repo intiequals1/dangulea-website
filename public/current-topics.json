@@ -2,9 +2,88 @@
   {
     "id": "erp-brief",
     "title": "ERP-Brief",
-    "lastCheckedAt": "2026-10-21T15:21:02+00:00",
+    "lastCheckedAt": "2026-10-21T15:48:22+00:00",
     "status": "ok",
-    "updates": []
+    "updates": [
+      {
+        "id": "sap-sicherheit",
+        "date": "2026-10-21",
+        "title": "SAP-Sicherheit und Patch-Management",
+        "summary": "Im Fokus stehen Sicherheitsmeldungen zu SAP-Komponenten, die Bewertung betroffener Versionen und die Priorisierung von Updates. Dazu gehören Berechtigungen, Schnittstellen und Abhängigkeiten in Eigenentwicklungen ebenso wie die Kontrolle nach einer Behebung.",
+        "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
+        "sources": [
+          {
+            "title": "SAP – Security Patch Day Oktober 2026",
+            "url": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/october-2026.html"
+          }
+        ]
+      },
+      {
+        "id": "ki-governance-erp",
+        "date": "2026-10-21",
+        "title": "KI-Governance in ERP-Prozessen",
+        "summary": "Dieser Bereich betrachtet die Einordnung von KI-Anwendungen in Unternehmensprozessen sowie Datenqualität, Dokumentation und menschliche Aufsicht. Im Mittelpunkt stehen nachvollziehbare Verantwortlichkeiten und Kontrollen für KI-gestützte Abläufe.",
+        "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
+        "sources": [
+          {
+            "title": "Europäische Kommission – AI Act",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+          }
+        ]
+      },
+      {
+        "id": "joule-agenten",
+        "date": "2026-10-21",
+        "title": "SAP Joule und KI-Agenten",
+        "summary": "Behandelt werden KI-Assistenten und Agenten in SAP-Prozessen: ihre Einbindung in die Systemlandschaft, benötigte Zugriffsrechte und die Abgrenzung zwischen Vorschlägen und ausgeführten Aktionen. Die verlinkte Produktbeschreibung stammt von SAP.",
+        "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
+        "sources": [
+          {
+            "title": "SAP Learning – Getting to Know Joule Agents",
+            "url": "https://learning.sap.com/courses/introducing-joule/getting-to-know-joule-agents_f9d18ca0-1021-4c1a-a044-4c00ec8c2898"
+          }
+        ]
+      },
+      {
+        "id": "utilities-energiedaten",
+        "date": "2026-10-21",
+        "title": "Utilities und Energiedaten",
+        "summary": "Der Themenblock verbindet Smart-Meter-Verbrauchsdaten mit Anforderungen an ERP- und Utilities-Landschaften. Betrachtet werden Zeitreihen, Datenqualität, Abrechnung und konsistente Schnittstellen zwischen den beteiligten Systemen.",
+        "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
+        "sources": [
+          {
+            "title": "E-Control – Ermittlung des Stromverbrauchs",
+            "url": "https://www.e-control.at/konsumenten/ermittlung-des-stromverbrauchs"
+          }
+        ]
+      },
+      {
+        "id": "e-rechnung-vida",
+        "date": "2026-10-21",
+        "title": "E-Rechnung und digitale Steuerberichterstattung",
+        "summary": "Im Mittelpunkt stehen strukturierte Rechnungsdaten und ihre Verarbeitung entlang von Verkaufs-, Einkaufs- und Finanzprozessen. Weitere Schwerpunkte sind Validierung, Stammdatenqualität und die Integration elektronischer Rechnungs- und Meldeverfahren im Kontext von ViDA.",
+        "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
+        "sources": [
+          {
+            "title": "Europäische Kommission – VAT in the Digital Age",
+            "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en"
+          }
+        ]
+      },
+      {
+        "id": "cyber-resilienz",
+        "date": "2026-10-21",
+        "title": "Cyber-Resilienz und Schwachstellenmanagement",
+        "summary": "Dieser Bereich behandelt Bedrohungen und Abhängigkeiten in vernetzten ERP-Landschaften. Im Fokus stehen die Zusammenarbeit mit Dienstleistern, transparente Softwareabhängigkeiten sowie abgestimmte Abläufe für Schwachstellen und Sicherheitsvorfälle.",
+        "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
+        "sources": [
+          {
+            "title": "ENISA – Threat Landscape",
+            "url": "https://www.enisa.europa.eu/topics/cyber-threats/threat-landscape"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "erp-postimplementierung",
@@ -18,7 +97,12 @@
         "title": "Training und Wissenstransfer",
         "summary": "Im Mittelpunkt stehen wirksame Schulungen nach dem Go-live, der Erhalt erworbenen Wissens und dessen Weitergabe im Arbeitsalltag. Der Themenbereich betrachtet Lernangebote gemeinsam mit kontinuierlicher Unterstützung und der Anwendung im tatsächlichen Prozess.",
         "relevance": "Themenbereich aus dem ausgewerteten Projektbriefing.",
-        "sources": []
+        "sources": [
+          {
+            "title": "SAP Learning – Learning and Enablement in SAP Projects",
+            "url": "https://learning.sap.com/courses/sap-learning-and-enablement"
+          }
+        ]
       },
       {
         "id": "akzeptanz-nutzung",
@@ -30,6 +114,10 @@
           {
             "title": "ERP Post-Implementation Phase: UTAUT und Nutzerakzeptanz (2023)",
             "url": "https://ir.uitm.edu.my/81138/1/81138.pdf"
+          },
+          {
+            "title": "Ergänzend: SAP Learning – Enablement und Nutzerakzeptanz",
+            "url": "https://learning.sap.com/courses/sap-learning-and-enablement"
           }
         ]
       },
@@ -50,17 +138,27 @@
         "id": "standardisierung-autonomie",
         "date": "2026-10-21",
         "title": "Globale Standardisierung und lokale Autonomie",
-        "summary": "Der Themenbereich beleuchtet die Spannung zwischen einheitlichen ERP-Vorlagen und begründeten lokalen Anpassungen. Im Fokus stehen betriebliche Anforderungen, lokale Handlungsspielräume sowie transparente Verfahren für Änderungen und Ausnahmen.",
+        "summary": "Der Themenbereich beleuchtet die Spannung zwischen einheitlichen ERP-Vorlagen und begründeten lokalen Anpassungen. Im Fokus stehen betriebliche Anforderungen, lokale Handlungsspielräume sowie transparente Verfahren für Änderungen und Ausnahmen. Die ergänzende SAP-Dokumentation erläutert das Template-Konzept im Solution Manager.",
         "relevance": "Themenbereich aus dem ausgewerteten Projektbriefing.",
-        "sources": []
+        "sources": [
+          {
+            "title": "SAP-Dokumentation – Global Rollout with a Template (Solution Manager)",
+            "url": "https://help.sap.com/saphelp_snc70/helpdata/EN/6a/bf1603d4f0944c81366cef7427bd12/content.htm"
+          }
+        ]
       },
       {
         "id": "soziotechnische-governance",
         "date": "2026-10-21",
         "title": "Soziotechnische und ethische Governance",
-        "summary": "Hier werden Rollen, Berechtigungen, Verantwortlichkeit und menschliche Aufsicht zusammen betrachtet. Weitere Schwerpunkte sind Fairness, Datenschutz, Transparenz, Nachvollziehbarkeit und die langfristigen Folgen ungelöster ethischer Entscheidungen im Systembetrieb.",
+        "summary": "Hier werden Rollen, Berechtigungen, Verantwortlichkeit und menschliche Aufsicht zusammen betrachtet. Weitere Schwerpunkte sind Fairness, Datenschutz, Transparenz, Nachvollziehbarkeit und die langfristigen Folgen ungelöster ethischer Entscheidungen im Systembetrieb. Der ergänzende NIST-Leitfaden behandelt Governance speziell für KI-Systeme.",
         "relevance": "Themenbereich aus dem ausgewerteten Projektbriefing.",
-        "sources": []
+        "sources": [
+          {
+            "title": "Ergänzend: NIST – AI Risk Management Framework Core",
+            "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"
+          }
+        ]
       }
     ]
   }
