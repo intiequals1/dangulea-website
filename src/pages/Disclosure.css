@@ -1,0 +1,38 @@
+.content-disclosure > summary {
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  padding-right: 2rem;
+}
+.content-disclosure > summary::-webkit-details-marker { display: none; }
+.content-disclosure > summary::after {
+  content: '+';
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--color-accent);
+  font-size: 1.5rem;
+}
+.content-disclosure[open] > summary::after { content: '−'; }
+.content-disclosure > summary:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 6px;
+}
+.disclosure-preview {
+  display: block;
+  color: var(--color-text-secondary);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+  font-weight: 400;
+  margin-top: var(--space-3);
+}
+.disclosure-hint {
+  display: block;
+  color: var(--color-accent);
+  font-size: var(--text-xs);
+  margin-top: var(--space-3);
+}
+.disclosure-hint::before { content: 'Details anzeigen'; }
+.content-disclosure[open] > summary .disclosure-hint::before { content: 'Details ausblenden'; }
+.disclosure-content { margin-top: var(--space-6); }

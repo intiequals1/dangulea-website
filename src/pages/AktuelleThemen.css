@@ -12,3 +12,4 @@
 .topic-update h3 { font-size: var(--text-2xl); margin: var(--space-4) 0; }
 .topic-update p { white-space: pre-line; margin-bottom: var(--space-4); }
 .topic-update a { overflow-wrap: anywhere; }
+.topic:not([open]) > .topic-header { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }

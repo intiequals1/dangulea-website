@@ -1,5 +1,7 @@
 import { useEffect, useState, type ReactNode } from "react";
 import "./News.css";
+import "./Disclosure.css";
+import { newsPreview } from "../utils/contentPreview";
 
 type NewsItem = {
   date: string;
@@ -135,15 +137,23 @@ export default function News() {
         <ul className="news-list">
           {items.map((item, idx) => (
             <li key={idx} className="news-item">
-              <div className="news-date">{item.date}</div>
-              <h2 className="news-title">{item.title}</h2>
-              <div className="news-text">{renderNewsText(item.text)}</div>
-              {!item.text.includes("Transparenz zur KI-Unterstützung") && (
-                <p className="news-disclosure">
-                  Dieser Beitrag wurde automatisiert unter Einsatz künstlicher Intelligenz
-                  erstellt oder bearbeitet. Stand: {item.date}.
-                </p>
-              )}
+              <details className="content-disclosure">
+                <summary>
+                  <span className="news-date">{item.date}</span>
+                  <h2 className="news-title">{item.title}</h2>
+                  <span className="disclosure-preview">{newsPreview(item.text)}</span>
+                  <span className="disclosure-hint" aria-hidden="true" />
+                </summary>
+                <div className="disclosure-content">
+                  <div className="news-text">{renderNewsText(item.text)}</div>
+                  {!item.text.includes("Transparenz zur KI-Unterstützung") && (
+                    <p className="news-disclosure">
+                      Dieser Beitrag wurde automatisiert unter Einsatz künstlicher Intelligenz
+                      erstellt oder bearbeitet. Stand: {item.date}.
+                    </p>
+                  )}
+                </div>
+              </details>
             </li>
           ))}
         </ul>

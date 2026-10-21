@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import './AktuelleThemen.css'
+import './Disclosure.css'
+import { shortPreview } from '../utils/contentPreview'
 
 type Source = { title: string; url: string }
 type Update = { id: string; date: string; title: string; summary: string; relevance: string; sources: Source[] }
@@ -61,21 +63,29 @@ export default function AktuelleThemen() {
         {error && <p role="alert">Die Themen konnten nicht geladen werden. Bitte versuche es später erneut.</p>}
         {!loading && !error && topics.length === 0 && <p>Noch keine Themen veröffentlicht.</p>}
         {topics.map((topic) => (
-          <section className="topic" key={topic.id} aria-labelledby={`topic-${topic.id}`}>
-            <header className="topic-header">
+          <details className="topic content-disclosure" key={topic.id}>
+            <summary className="topic-header">
               <h2 id={`topic-${topic.id}`}>{topic.title}</h2>
-            </header>
+              <span className="disclosure-preview">{shortPreview(topic.updates.map((update) => update.title).join(' · '), 300)}</span>
+              <span className="disclosure-hint" aria-hidden="true" />
+            </summary>
             {topic.status === 'access_required' && <p className="topic-status">Die Projektinhalte sind derzeit nicht abrufbar. Vorhandene Beiträge bleiben erhalten.</p>}
             {topic.status === 'pending' && <p className="topic-status">Die erste Projektprüfung steht noch aus.</p>}
             {topic.updates.length === 0 ? <p>Aus diesem Projekt liegen noch keine fachlichen Themenbereiche vor.</p> :
               topic.updates.map((update) => (
-                <article key={update.id} className="topic-update" id={`update-${update.id}`}>
-                  <h3>{update.title}</h3>
-                  <p>{update.summary}</p>
-                  <ul aria-label="Originalquellen">{update.sources.filter((source) => !/(^|\.)perplexity\.ai$/.test(new URL(source.url).hostname)).map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗</a></li>)}</ul>
-                </article>
+                <details key={update.id} className="topic-update content-disclosure" id={`update-${update.id}`}>
+                  <summary>
+                    <h3>{update.title}</h3>
+                    <span className="disclosure-preview">{shortPreview(update.summary.split(/(?<=[.!?])\s/)[0], 180)}</span>
+                    <span className="disclosure-hint" aria-hidden="true" />
+                  </summary>
+                  <div className="disclosure-content">
+                    <p>{update.summary}</p>
+                    <ul aria-label="Originalquellen">{update.sources.filter((source) => !/(^|\.)perplexity\.ai$/.test(new URL(source.url).hostname)).map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗</a></li>)}</ul>
+                  </div>
+                </details>
               ))}
-          </section>
+          </details>
         ))}
       </div>
     </div>

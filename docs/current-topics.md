@@ -26,3 +26,7 @@ Bestehende Themen bei Neuigkeiten gezielt aktualisieren statt täglich Duplikate
 ## Veröffentlichung
 
 Vor jedem Lauf sauberen Arbeitsbaum und Branch prüfen, main ohne Überschreiben lokaler Arbeit aktualisieren. Die tägliche Prüfung verändert ausschließlich `public/current-topics.json`. JSON, eindeutige IDs, Quellenlinks sowie `pnpm build`, `pnpm lint` und `git diff --check` prüfen. Mit `Update current ERP topics` auf main committen und pushen, Pages-Deploy bis Abschluss und Live-Datei mit Cache-Bust gegen den Commit prüfen. Fehler niemals als erfolgreiche Veröffentlichung ausgeben.
+
+## Automatische Kurzfassungen
+
+Die Oberfläche bildet Vorschauen direkt aus den bestehenden Inhalten: News aus den Meldungsüberschriften (ersatzweise dem Faktentext), Projekte aus ihren Thementiteln und einzelne Themen aus dem ersten Satz der Beschreibung. Neue automatisierte Einträge erhalten ohne zusätzliche JSON-Felder dieselbe Darstellung. Tage, Projekte und Unterthemen sind zunächst zugeklappt; vollständige Texte und externe Quellen erscheinen beim Öffnen.
