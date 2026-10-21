@@ -1,0 +1,40 @@
+[
+  {
+    "id": "erp-brief",
+    "title": "ERP-Brief",
+    "url": "https://www.perplexity.ai/spaces/erp-brief-ZJfvmnnMT1qTrbUOV6cA8Q",
+    "lastCheckedAt": "2026-10-21T15:21:02+00:00",
+    "status": "ok",
+    "updates": []
+  },
+  {
+    "id": "erp-postimplementierung",
+    "title": "ERP-Postimplementierung",
+    "url": "https://www.perplexity.ai/spaces/erp-postimplementierung-aUI0.a1XT5y1uEspEdODbA",
+    "lastCheckedAt": "2026-10-21T15:21:02+00:00",
+    "status": "ok",
+    "updates": [
+      {
+        "id": "3b5c028d-bcb2-418f-9159-005b4d18d2c3",
+        "date": "2026-10-21",
+        "title": "Nach dem Go-live: Akzeptanz, Unterstützung und lokale Handlungsspielräume",
+        "summary": "Das zuletzt sichtbare Forschungsbriefing verbindet die ERP-Nutzung nach dem Go-live mit Schulung, Unterstützung, Autonomie und Governance. Zwei Literaturstränge stehen im Mittelpunkt: Eine Untersuchung zur ERP-Akzeptanz in Malaysia betrachtet unter anderem erwarteten Nutzen und unterstützende Bedingungen. Eine weitere Arbeit untersucht Zusammenhänge zwischen Arbeitsautonomie, Workarounds, Schatten-IT und individueller Leistung. Es handelt sich um ältere Forschungsarbeiten, die im Projekt aufgegriffen wurden, nicht um neu veröffentlichte Studien. Dieser Eintrag ist am angegebenen Datum erstmals in diese Rubrik aufgenommen worden.",
+        "relevance": "Für die Praxis ergibt sich eine Prüfspur: Nicht nur formale Systemnutzung erfassen, sondern auch Supportbedarf und Gründe für Umgehungslösungen untersuchen. Das ist eine Einordnung, kein allgemeiner Kausalnachweis. Die Befunde zur ERP-Akzeptanz stammen aus einem spezifischen Länderkontext; die Autonomie-Studie ist nicht auf ERP beschränkt. Die Quellenzuordnung im KI-Briefing ist stellenweise uneinheitlich; maßgeblich sind die verlinkten Originalarbeiten.",
+        "sources": [
+          {
+            "title": "Perplexity: Forschungsbriefing ERP-Postimplementierung (Projektzugriff erforderlich)",
+            "url": "https://www.perplexity.ai/search/3b5c028d-bcb2-418f-9159-005b4d18d2c3"
+          },
+          {
+            "title": "Originalarbeit: ERP Post-Implementation Phase – UTAUT und Nutzerakzeptanz (2023, Volltext)",
+            "url": "https://ir.uitm.edu.my/81138/1/81138.pdf"
+          },
+          {
+            "title": "Originalarbeit: Autonomie, Workarounds und Shadow IT (online 2022, Zeitschriftenband 2023)",
+            "url": "https://doi.org/10.1007/s10799-022-00368-6"
+          }
+        ]
+      }
+    ]
+  }
+]
