@@ -101,12 +101,26 @@ export default function News() {
   }, []);
 
 
+  useEffect(() => {
+    const scrollToEntry = () => {
+      const id = window.location.hash.slice(1);
+      if (id.startsWith("news-")) document.getElementById(id)?.scrollIntoView();
+    };
+    scrollToEntry();
+    window.addEventListener("hashchange", scrollToEntry);
+    return () => window.removeEventListener("hashchange", scrollToEntry);
+  }, [items]);
+
   if (loading) return <div className="news-loading">Lade News…</div>;
   if (error) return <div className="news-error">Fehler: {error}</div>;
 
   return (
     <div className="news-page">
       <h1>News</h1>
+      <p className="news-rss">
+        <a href="/rss.xml" type="application/rss+xml">RSS abonnieren ↗</a>
+        <span>Neue Tagesausgaben mit Quellen direkt im RSS-Reader lesen.</span>
+      </p>
       <section className="news-transparency" aria-labelledby="news-transparency-title">
         <p className="news-kicker">Transparenzhinweis</p>
         <h2 id="news-transparency-title">Automatisiert erstellte Inhalte</h2>
@@ -133,8 +147,8 @@ export default function News() {
         <p>Noch keine News vorhanden.</p>
       ) : (
         <ul className="news-list">
-          {items.map((item, idx) => (
-            <li key={idx} className="news-item">
+          {items.map((item) => (
+            <li key={item.date} id={`news-${item.date}`} className="news-item">
               <div className="news-date">{item.date}</div>
               <h2 className="news-title">{item.title}</h2>
               <div className="news-text">{renderNewsText(item.text)}</div>

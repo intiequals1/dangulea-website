@@ -145,3 +145,16 @@
 .news-error {
   color: #d32f2f;
 }
+
+.news-rss {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+
+.news-item {
+  scroll-margin-top: 8rem;
+}
