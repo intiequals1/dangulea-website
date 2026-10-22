@@ -2,6 +2,7 @@ import { readFile, writeFile } from 'node:fs/promises'
 import { pathToFileURL } from 'node:url'
 
 const site = 'https://dangulea.at'
+const aiDisclosure = 'Diese Nachrichten wurden automatisch mithilfe eines KI-Systems recherchiert, ausgewählt und zusammengefasst. Sie wurden vor Veröffentlichung nicht einzeln redaktionell geprüft und können Fehler enthalten. Maßgeblich sind die verlinkten Originalquellen.'
 
 export function escapeXml(value) {
   return value.replace(/[&<>"']/g, (character) => ({
@@ -39,8 +40,9 @@ export function createNewsFeed(items) {
   const entries = [...items].sort((a, b) => b.date.localeCompare(a.date))
   const itemXml = entries.map((item) => {
     const link = `${site}/news#news-${item.date}`
-    const html = item.text.split(/\n{2,}/).filter((block) => block.trim()).map((block) =>
+    const body = item.text.split(/\n{2,}/).filter((block) => block.trim()).map((block) =>
       `<p>${linkedText(block).replace(/\n/g, '<br />')}</p>`).join('\n')
+    const html = `<p><strong>Transparenz zur KI-Unterstützung:</strong> ${escapeXml(aiDisclosure)}</p>\n${body}`
     return `    <item>
       <title>${escapeXml(`${item.date} – ${item.title}`)}</title>
       <link>${link}</link>
@@ -54,7 +56,7 @@ export function createNewsFeed(items) {
   <channel>
     <title>Claudiu Dangulea – News</title>
     <link>${site}/news</link>
-    <description>Automatisiert erstellter täglicher Überblick zu KI, Technologie, ERP, Nachhaltigkeit und Ethik mit Quellen und Transparenzhinweis.</description>
+    <description>Automatisch mithilfe von KI zusammengestellte Nachrichten zu KI, Technologie, ERP, Nachhaltigkeit und Ethik. Nicht einzeln redaktionell geprüft; Fehler sind möglich. Mit Quellenlinks.</description>
     <language>de-at</language>
     <atom:link href="${site}/rss.xml" rel="self" type="application/rss+xml" />
 ${itemXml}
