@@ -145,3 +145,26 @@
 .news-error {
   color: #d32f2f;
 }
+
+.news-rss {
+  margin-top: var(--space-10);
+  padding: var(--space-6);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-alt);
+}
+.news-rss h2 { font-size: var(--text-2xl); margin-bottom: var(--space-4); }
+.news-rss p { font-size: var(--text-sm); margin-bottom: var(--space-4); }
+.news-rss p:last-child { margin-bottom: 0; }
+.news-rss-button {
+  display: inline-block;
+  padding: var(--space-3) var(--space-6);
+  border: 1px solid var(--color-accent);
+  color: var(--color-bg);
+  background: var(--color-accent);
+  margin-bottom: var(--space-4);
+  text-decoration: none;
+}
+.news-rss-button:hover { color: var(--color-accent); background: transparent; }
+.news-rss-button:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 4px; }
+.news-rss-address { overflow-wrap: anywhere; }
+.news-item { scroll-margin-top: 8rem; }

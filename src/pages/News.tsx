@@ -103,6 +103,20 @@ export default function News() {
   }, []);
 
 
+  useEffect(() => {
+    const openLinkedEntry = () => {
+      const id = window.location.hash.slice(1);
+      if (!/^news-\d{4}-\d{2}-\d{2}$/.test(id)) return;
+      const entry = document.getElementById(id);
+      const details = entry?.querySelector("details");
+      if (details) details.open = true;
+      entry?.scrollIntoView();
+    };
+    openLinkedEntry();
+    window.addEventListener("hashchange", openLinkedEntry);
+    return () => window.removeEventListener("hashchange", openLinkedEntry);
+  }, [items]);
+
   if (loading) return <div className="news-loading">Lade News…</div>;
   if (error) return <div className="news-error">Fehler: {error}</div>;
 
@@ -135,8 +149,8 @@ export default function News() {
         <p>Noch keine News vorhanden.</p>
       ) : (
         <ul className="news-list">
-          {items.map((item, idx) => (
-            <li key={idx} className="news-item">
+          {items.map((item) => (
+            <li key={item.date} id={`news-${item.date}`} className="news-item">
               <details className="content-disclosure">
                 <summary>
                   <span className="news-date">{item.date}</span>
@@ -158,6 +172,13 @@ export default function News() {
           ))}
         </ul>
       )}
+      <section className="news-rss" aria-labelledby="news-rss-title">
+        <h2 id="news-rss-title">News per RSS abonnieren</h2>
+        <p>Neue Tagesausgaben mit vollständigen Texten und Quellen direkt in deinem RSS-Reader lesen. Der Feed wird bei jeder Veröffentlichung automatisch aktualisiert.</p>
+        <a className="news-rss-button" href="/rss.xml" type="application/rss+xml">RSS-Feed öffnen ↗</a>
+        <p className="news-rss-address">Feed-Adresse: <a href="/rss.xml">https://dangulea.at/rss.xml</a></p>
+        <p>Zum Abonnieren die Feed-Adresse in einen RSS-Reader einfügen.</p>
+      </section>
     </div>
   );
 }
