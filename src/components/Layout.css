@@ -255,7 +255,7 @@
 }
 
 /* ── Responsive ── */
-@media (max-width: 640px) {
+@media (max-width: 1280px) {
   .nav__burger {
     display: flex;
   }

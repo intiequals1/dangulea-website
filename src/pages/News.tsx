@@ -1,5 +1,7 @@
 import { useEffect, useState, type ReactNode } from "react";
 import "./News.css";
+import "./Disclosure.css";
+import { newsPreview } from "../utils/contentPreview";
 
 type NewsItem = {
   date: string;
@@ -102,13 +104,17 @@ export default function News() {
 
 
   useEffect(() => {
-    const scrollToEntry = () => {
+    const openLinkedEntry = () => {
       const id = window.location.hash.slice(1);
-      if (id.startsWith("news-")) document.getElementById(id)?.scrollIntoView();
+      if (!/^news-\d{4}-\d{2}-\d{2}$/.test(id)) return;
+      const entry = document.getElementById(id);
+      const details = entry?.querySelector("details");
+      if (details) details.open = true;
+      entry?.scrollIntoView();
     };
-    scrollToEntry();
-    window.addEventListener("hashchange", scrollToEntry);
-    return () => window.removeEventListener("hashchange", scrollToEntry);
+    openLinkedEntry();
+    window.addEventListener("hashchange", openLinkedEntry);
+    return () => window.removeEventListener("hashchange", openLinkedEntry);
   }, [items]);
 
   if (loading) return <div className="news-loading">Lade News…</div>;
@@ -117,10 +123,6 @@ export default function News() {
   return (
     <div className="news-page">
       <h1>News</h1>
-      <p className="news-rss">
-        <a href="/rss.xml" type="application/rss+xml">RSS abonnieren ↗</a>
-        <span>Neue Tagesausgaben mit Quellen direkt im RSS-Reader lesen.</span>
-      </p>
       <section className="news-transparency" aria-labelledby="news-transparency-title">
         <p className="news-kicker">Transparenzhinweis</p>
         <h2 id="news-transparency-title">Automatisiert erstellte Inhalte</h2>
@@ -149,19 +151,34 @@ export default function News() {
         <ul className="news-list">
           {items.map((item) => (
             <li key={item.date} id={`news-${item.date}`} className="news-item">
-              <div className="news-date">{item.date}</div>
-              <h2 className="news-title">{item.title}</h2>
-              <div className="news-text">{renderNewsText(item.text)}</div>
-              {!item.text.includes("Transparenz zur KI-Unterstützung") && (
-                <p className="news-disclosure">
-                  Dieser Beitrag wurde automatisiert unter Einsatz künstlicher Intelligenz
-                  erstellt oder bearbeitet. Stand: {item.date}.
-                </p>
-              )}
+              <details className="content-disclosure">
+                <summary>
+                  <span className="news-date">{item.date}</span>
+                  <h2 className="news-title">{item.title}</h2>
+                  <span className="disclosure-preview">{newsPreview(item.text)}</span>
+                  <span className="disclosure-hint" aria-hidden="true" />
+                </summary>
+                <div className="disclosure-content">
+                  <div className="news-text">{renderNewsText(item.text)}</div>
+                  {!item.text.includes("Transparenz zur KI-Unterstützung") && (
+                    <p className="news-disclosure">
+                      Dieser Beitrag wurde automatisiert unter Einsatz künstlicher Intelligenz
+                      erstellt oder bearbeitet. Stand: {item.date}.
+                    </p>
+                  )}
+                </div>
+              </details>
             </li>
           ))}
         </ul>
       )}
+      <section className="news-rss" aria-labelledby="news-rss-title">
+        <h2 id="news-rss-title">News per RSS abonnieren</h2>
+        <p>Neue Tagesausgaben mit vollständigen Texten und Quellen direkt in deinem RSS-Reader lesen. Der Feed wird bei jeder Veröffentlichung automatisch aktualisiert.</p>
+        <a className="news-rss-button" href="/rss.xml" type="application/rss+xml">RSS-Feed öffnen ↗</a>
+        <p className="news-rss-address">Feed-Adresse: <a href="/rss.xml">https://dangulea.at/rss.xml</a></p>
+        <p>Zum Abonnieren die Feed-Adresse in einen RSS-Reader einfügen.</p>
+      </section>
     </div>
   );
 }
