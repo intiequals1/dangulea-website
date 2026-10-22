@@ -2,7 +2,7 @@
   {
     "id": "erp-brief",
     "title": "ERP-Brief",
-    "lastCheckedAt": "2026-10-21T15:48:22+00:00",
+    "lastCheckedAt": "2026-10-22T14:28:24+02:00",
     "status": "ok",
     "updates": [
       {
@@ -88,7 +88,7 @@
   {
     "id": "erp-postimplementierung",
     "title": "ERP-Postimplementierung",
-    "lastCheckedAt": "2026-10-21T15:21:02+00:00",
+    "lastCheckedAt": "2026-10-22T14:28:24+02:00",
     "status": "ok",
     "updates": [
       {
@@ -149,14 +149,18 @@
       },
       {
         "id": "soziotechnische-governance",
-        "date": "2026-10-21",
+        "date": "2026-10-22",
         "title": "Soziotechnische und ethische Governance",
-        "summary": "Hier werden Rollen, Berechtigungen, Verantwortlichkeit und menschliche Aufsicht zusammen betrachtet. Weitere Schwerpunkte sind Fairness, Datenschutz, Transparenz, Nachvollziehbarkeit und die langfristigen Folgen ungelöster ethischer Entscheidungen im Systembetrieb. Der ergänzende NIST-Leitfaden behandelt Governance speziell für KI-Systeme.",
+        "summary": "Hier werden Rollen, Berechtigungen, Verantwortlichkeit und menschliche Aufsicht zusammen betrachtet. Weitere Schwerpunkte sind Fairness, Datenschutz, Transparenz, Nachvollziehbarkeit und die langfristigen Folgen ungelöster ethischer Entscheidungen im Systembetrieb. Ergänzt wird die Perspektive um das Zusammenspiel von KI- und Datenschutz-Governance. Der OECD-Bericht von 2024 vergleicht Prinzipien und politische Ansätze; er liefert keine empirischen ERP-Nutzerdaten. Der ergänzende NIST-Leitfaden behandelt Governance speziell für KI-Systeme.",
         "relevance": "Themenbereich aus dem ausgewerteten Projektbriefing.",
         "sources": [
           {
             "title": "Ergänzend: NIST – AI Risk Management Framework Core",
             "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"
+          },
+          {
+            "title": "OECD – AI, data governance and privacy (2024)",
+            "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/ai-data-governance-and-privacy_2ac13a42/2476b1a4-en.pdf"
           }
         ]
       }
