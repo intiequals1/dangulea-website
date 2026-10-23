@@ -2,14 +2,14 @@
   {
     "id": "erp-brief",
     "title": "ERP-Brief",
-    "lastCheckedAt": "2026-10-22T14:28:24+02:00",
+    "lastCheckedAt": "2026-10-23T15:54:53+02:00",
     "status": "ok",
     "updates": [
       {
         "id": "sap-sicherheit",
-        "date": "2026-10-21",
+        "date": "2026-10-23",
         "title": "SAP-Sicherheit und Patch-Management",
-        "summary": "Im Fokus stehen Sicherheitsmeldungen zu SAP-Komponenten, die Bewertung betroffener Versionen und die Priorisierung von Updates. Dazu gehören Berechtigungen, Schnittstellen und Abhängigkeiten in Eigenentwicklungen ebenso wie die Kontrolle nach einer Behebung.",
+        "summary": "Im Fokus stehen Sicherheitsmeldungen zu SAP-Komponenten, die Bewertung betroffener Versionen und die Priorisierung von Updates. Der Oktober-Patch-Day 2026 behandelt unter anderem OAuth2-SSRF im SAP Cloud SDK for Python, Zugriffskontrollen in NetWeaver Visual Composer und Code-Injection in S/4HANA-Regelverwaltung. Der Themenblock verbindet die Prüfung betroffener Releases mit Berechtigungskontrollen und Tests nach der Behebung. Grundlage ist die SAP-Veröffentlichung vom 13. Oktober 2026.",
         "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
         "sources": [
           {
@@ -33,14 +33,18 @@
       },
       {
         "id": "joule-agenten",
-        "date": "2026-10-21",
+        "date": "2026-10-23",
         "title": "SAP Joule und KI-Agenten",
-        "summary": "Behandelt werden KI-Assistenten und Agenten in SAP-Prozessen: ihre Einbindung in die Systemlandschaft, benötigte Zugriffsrechte und die Abgrenzung zwischen Vorschlägen und ausgeführten Aktionen. Die verlinkte Produktbeschreibung stammt von SAP.",
+        "summary": "Behandelt werden KI-Assistenten und Agenten in SAP-Prozessen: ihre Einbindung in die Systemlandschaft, benötigte Zugriffsrechte und die Abgrenzung zwischen Vorschlägen und ausgeführten Aktionen. Ein weiterer Schwerpunkt ist ein zentrales Agenten-Inventar in SAP LeanIX sowie die Verbindung von Geschäftssemantik, Berechtigungen und Audit-Trails. Die verlinkte SAP-Ankündigung vom 6. Oktober 2026 beschreibt den Herstelleransatz; Produktivitätsversprechen sind damit nicht unabhängig bestätigt.",
         "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
         "sources": [
           {
             "title": "SAP Learning – Getting to Know Joule Agents",
             "url": "https://learning.sap.com/courses/introducing-joule/getting-to-know-joule-agents_f9d18ca0-1021-4c1a-a044-4c00ec8c2898"
+          },
+          {
+            "title": "SAP – Autonomous Enterprise: Agenten, Berechtigungen und Governance (6. Oktober 2026)",
+            "url": "https://news.sap.com/2026/10/sap-connect-sap-puts-autonomous-enterprise-to-work/"
           }
         ]
       },
@@ -88,18 +92,22 @@
   {
     "id": "erp-postimplementierung",
     "title": "ERP-Postimplementierung",
-    "lastCheckedAt": "2026-10-22T14:28:24+02:00",
+    "lastCheckedAt": "2026-10-23T15:54:53+02:00",
     "status": "ok",
     "updates": [
       {
         "id": "training-wissen",
-        "date": "2026-10-21",
+        "date": "2026-10-23",
         "title": "Training und Wissenstransfer",
-        "summary": "Im Mittelpunkt stehen wirksame Schulungen nach dem Go-live, der Erhalt erworbenen Wissens und dessen Weitergabe im Arbeitsalltag. Der Themenbereich betrachtet Lernangebote gemeinsam mit kontinuierlicher Unterstützung und der Anwendung im tatsächlichen Prozess.",
+        "summary": "Im Mittelpunkt stehen wirksame Schulungen nach dem Go-live, der Erhalt erworbenen Wissens und dessen Weitergabe im Arbeitsalltag. Dazu gehören kontinuierliches informelles Lernen, Lernmotivation und Unterstützung durch Kolleginnen und Kollegen. Die verlinkte Studie von Bravo (2022) untersucht Lernabsichten bei 207 ERP-Nutzenden und Unterschiede zwischen Altersgruppen. Sie ist ältere Literatur, keine neue Studie von 2026; das Querschnittsdesign belegt weder kausale Trainingseffekte noch objektive Kompetenzgewinne. Das ergänzende SAP-Lernangebot beschreibt die praktische Enablement-Perspektive.",
         "relevance": "Themenbereich aus dem ausgewerteten Projektbriefing.",
         "sources": [
           {
-            "title": "SAP Learning – Learning and Enablement in SAP Projects",
+            "title": "Bravo (2022) – Understanding ERP post-implementation continuous learning",
+            "url": "https://iacis.org/iis/2022/1_iis_2022_38-52.pdf"
+          },
+          {
+            "title": "Ergänzend: SAP Learning – Learning and Enablement in SAP Projects",
             "url": "https://learning.sap.com/courses/sap-learning-and-enablement"
           }
         ]
