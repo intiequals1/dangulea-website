@@ -2,7 +2,7 @@
   {
     "id": "erp-brief",
     "title": "ERP-Brief",
-    "lastCheckedAt": "2026-10-24T13:16:46+02:00",
+    "lastCheckedAt": "2026-10-25T13:01:29+01:00",
     "status": "ok",
     "updates": [
       {
@@ -76,14 +76,48 @@
       },
       {
         "id": "cyber-resilienz",
-        "date": "2026-10-21",
+        "date": "2026-10-25",
         "title": "Cyber-Resilienz und Schwachstellenmanagement",
-        "summary": "Dieser Bereich behandelt Bedrohungen und Abhängigkeiten in vernetzten ERP-Landschaften. Im Fokus stehen die Zusammenarbeit mit Dienstleistern, transparente Softwareabhängigkeiten sowie abgestimmte Abläufe für Schwachstellen und Sicherheitsvorfälle.",
+        "summary": "Dieser Bereich behandelt Bedrohungen und Abhängigkeiten in vernetzten ERP-Landschaften sowie dokumentierte Zuständigkeiten für Schwachstellen, Vorfälle und Wiederanlauf. Ein Schwerpunkt ist die Umsetzung des österreichischen NISG 2026: Asset-Inventare, Zugriffsrechte, Protokollierung und Lieferantenrisiken werden gemeinsam betrachtet. Die ergänzende FAQ des Bundesamtes für Cybersicherheit erläutert das Inkrafttreten am 1. Oktober 2026; konkrete Pflichten hängen von der Einordnung der jeweiligen Einrichtung ab.",
         "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
         "sources": [
           {
             "title": "ENISA – Threat Landscape",
             "url": "https://www.enisa.europa.eu/topics/cyber-threats/threat-landscape"
+          },
+          {
+            "title": "Ergänzend: Bundesamt für Cybersicherheit – NISG 2026, Gesetzgebung",
+            "url": "https://www.bundesamt-cybersicherheit.gv.at/faq/gesetzgebung.html"
+          }
+        ]
+      },
+      {
+        "id": "sap-release-upgradeplanung",
+        "date": "2026-10-25",
+        "title": "SAP-Releases und Upgrade-Planung",
+        "summary": "Dieser Themenbereich verbindet Release- und Wartungsplanung mit der Bewertung von Add-ons, Eigenentwicklungen, Schnittstellen und Regressionstests. Ausgangspunkt ist SAP S/4HANA beziehungsweise Cloud Private Edition 2025 FPS02 mit Stand Oktober 2026. Betrachtet werden die Auswirkungen neuer Funktionen auf die Zielarchitektur und die Abgrenzung von In-App- und Side-by-Side-Erweiterungen. Die ergänzenden SAP-Quellen beschreiben Produktfunktionen aus Herstellersicht; ihre Eignung ist je Systemlandschaft zu prüfen.",
+        "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
+        "sources": [
+          {
+            "title": "Ergänzend: SAP Help – What’s New in S/4HANA 2025 FPS02",
+            "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f5d3e1005efd4e86acf9a65abf428082/72c5fc3c483f439dac26880326ea074f.html"
+          },
+          {
+            "title": "Ergänzend: SAP – Cloud ERP Private 2025 FPS02 (13. Oktober 2026)",
+            "url": "https://news.sap.com/2026/10/sap-cloud-erp-private-2025-fps02-foundation-autonomous-enterprise/"
+          }
+        ]
+      },
+      {
+        "id": "workforce-skill-intelligence",
+        "date": "2026-10-25",
+        "title": "KI-gestützte Arbeits- und Kompetenzanalysen",
+        "summary": "Im Mittelpunkt stehen die Verbindung von Aufgaben, Rollen und Kompetenzen sowie ihre Nutzung für Weiterbildung und Personalplanung. Der Projektfokus ergibt sich aus SAPs angekündigter TechWolf-Übernahme und der vorgesehenen Verbindung mit SuccessFactors. Die SAP-Mitteilung vom 6. Oktober 2026 beschreibt eine Übernahmevereinbarung mit erwartetem Abschluss im vierten Quartal unter Vorbehalt; sie belegt keinen bereits abgeschlossenen Erwerb. Zweckbindung, Datenqualität und transparente Zugriffsrechte sind zentrale Bewertungsfragen.",
+        "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
+        "sources": [
+          {
+            "title": "SAP – Übernahmevereinbarung mit TechWolf (6. Oktober 2026)",
+            "url": "https://news.sap.com/2026/10/sap-to-acquire-techwolf-evidence-based-work-age-of-ai/"
           }
         ]
       }
@@ -92,7 +126,7 @@
   {
     "id": "erp-postimplementierung",
     "title": "ERP-Postimplementierung",
-    "lastCheckedAt": "2026-10-24T13:16:46+02:00",
+    "lastCheckedAt": "2026-10-25T13:01:29+01:00",
     "status": "ok",
     "updates": [
       {
@@ -131,14 +165,18 @@
       },
       {
         "id": "workarounds-shadow-it",
-        "date": "2026-10-21",
+        "date": "2026-10-25",
         "title": "Workarounds und Schatten-IT",
-        "summary": "Untersucht werden Umgehungslösungen und zusätzliche Werkzeuge außerhalb der vorgesehenen Systemlandschaft. Dabei geht es um praktische Gründe für solche Lösungen, ihren möglichen Nutzen sowie die damit verbundenen Kontroll- und Sicherheitsfragen. Die verlinkte Studie betrachtet IT-Nutzung allgemein und ist nicht auf ERP beschränkt.",
+        "summary": "Untersucht werden Umgehungslösungen und zusätzliche Werkzeuge außerhalb der vorgesehenen Systemlandschaft. Dabei geht es um praktische Nutzerbedürfnisse, Handlungsspielräume und die damit verbundenen Kontroll- und Sicherheitsfragen. Haag und Eckhardt (2024) beschreiben vier archetypische Praktiken, die Cybersicherheit und Nutzerbedürfnisse gemeinsam adressieren. Die Literatur betrachtet Schatten-IT allgemein und ist nicht durchgehend ERP-spezifisch; die älteren Arbeiten sind keine neuen Studien von 2026.",
         "relevance": "Themenbereich aus dem ausgewerteten Projektbriefing.",
         "sources": [
           {
             "title": "Autonomie, Workarounds und Shadow IT (online 2022, Band 2023)",
             "url": "https://doi.org/10.1007/s10799-022-00368-6"
+          },
+          {
+            "title": "Haag und Eckhardt (2024) – Dealing Effectively with Shadow IT by Managing Both Cybersecurity and User Needs",
+            "url": "https://aisel.aisnet.org/misqe/vol23/iss4/5/"
           }
         ]
       },
