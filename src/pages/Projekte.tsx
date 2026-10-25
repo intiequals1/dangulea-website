@@ -8,19 +8,22 @@ interface Website {
 
 const websites: Website[] = [
   { name: 'dangulea.at',                   url: 'https://www.dangulea.at',                    category: 'Persönlich' },
+  { name: 'digitalpath.at',                url: 'https://www.digitalpath.at',                 category: 'Projektlabor' },
+  { name: 'coolwebtoday.org',              url: 'https://www.coolwebtoday.org',               category: 'Werkstatt' },
   { name: 'erp.contact',                   url: 'https://www.erp.contact',                    category: 'Entwurf' },
   { name: 'pertion.io',                    url: 'https://www.pertion.io',                     category: 'Notizen' },
   { name: 'anclaud.io',                    url: 'https://www.anclaud.io',                     category: 'Entwurf' },
   { name: 'aladen.at',                     url: 'https://www.aladen.at',                      category: 'Entwurf' },
   { name: 'etsy.com/at/shop/EffectCenter', url: 'https://www.etsy.com/at/shop/EffectCenter',  category: 'Shop' },
   { name: 'coolweb.today',                 url: 'https://www.coolweb.today',                  category: 'Konzept' },
-  { name: 'coolwebtoday.org',              url: 'https://www.coolwebtoday.org',               category: 'Entwurf' },
   { name: 'susy.be',                       url: 'https://www.susy.be',                        category: 'Entwurf' },
   { name: 'ai-guru.eu',                    url: 'http://www.ai-guru.eu',                          category: 'Entwurf' },
 ]
 
 const categoryColors: Record<string, string> = {
   'Persönlich': 'var(--color-accent)',
+  'Projektlabor': '#d4a86b',
+  'Werkstatt':  '#6bc4d4',
   'Notizen':    '#6b9fd4',
   'Konzept':    '#9d7fd4',
   'Shop':       '#7fd4a8',
@@ -67,6 +70,24 @@ export default function Projekte() {
                 <p className="focus-card__desc">
                   Texte und Materialsammlungen zu Technologie, Ethik und
                   Nachhaltigkeit. Unregelmäßig, ohne Redaktionsplan.
+                </p>
+              </div>
+              <div className="focus-card">
+                <div className="focus-card__number">03</div>
+                <h3 className="focus-card__title">Projektlabor digitalpath</h3>
+                <p className="focus-card__desc">
+                  Meine Vorhaben, offen dokumentiert: Ausgangsfrage, Annahmen, was
+                  gebaut ist und was offen bleibt. Mitarbeit ist möglich auf{' '}
+                  <a href="https://www.digitalpath.at/#labor" target="_blank" rel="noopener noreferrer">digitalpath.at</a>.
+                </p>
+              </div>
+              <div className="focus-card">
+                <div className="focus-card__number">04</div>
+                <h3 className="focus-card__title">Werkstatt CoolWebToday</h3>
+                <p className="focus-card__desc">
+                  Werkzeuge und begleitete Journeys, mit denen andere ihre eigenen
+                  Ideen umsetzen, ohne Druck und ohne Bewertung:{' '}
+                  <a href="https://www.coolwebtoday.org" target="_blank" rel="noopener noreferrer">coolwebtoday.org</a>.
                 </p>
               </div>
             </div>

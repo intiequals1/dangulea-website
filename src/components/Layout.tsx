@@ -141,6 +141,17 @@ export default function Layout({ children }: LayoutProps) {
               LinkedIn
             </a>
           </div>
+          <p className="footer__places">
+            Drei Orte: <span className="footer__place">dangulea.at · Person</span>
+            <span className="footer__sep" aria-hidden="true">·</span>
+            <a href="https://www.digitalpath.at" target="_blank" rel="noopener noreferrer" className="footer__link">
+              digitalpath.at · Projektlabor
+            </a>
+            <span className="footer__sep" aria-hidden="true">·</span>
+            <a href="https://www.coolwebtoday.org" target="_blank" rel="noopener noreferrer" className="footer__link">
+              coolwebtoday.org · Werkstatt
+            </a>
+          </p>
           <p className="footer__copy">
             © {new Date().getFullYear()} Claudiu Dangulea
           </p>
