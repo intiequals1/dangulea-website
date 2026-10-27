@@ -2,7 +2,7 @@
   {
     "id": "erp-brief",
     "title": "ERP-Brief",
-    "lastCheckedAt": "2026-10-25T13:01:29+01:00",
+    "lastCheckedAt": "2026-10-27T12:58:13+01:00",
     "status": "ok",
     "updates": [
       {
@@ -126,14 +126,14 @@
   {
     "id": "erp-postimplementierung",
     "title": "ERP-Postimplementierung",
-    "lastCheckedAt": "2026-10-25T13:01:29+01:00",
+    "lastCheckedAt": "2026-10-27T12:58:13+01:00",
     "status": "ok",
     "updates": [
       {
         "id": "training-wissen",
-        "date": "2026-10-23",
+        "date": "2026-10-27",
         "title": "Training und Wissenstransfer",
-        "summary": "Im Mittelpunkt stehen wirksame Schulungen nach dem Go-live, der Erhalt erworbenen Wissens und dessen Weitergabe im Arbeitsalltag. Dazu gehören kontinuierliches informelles Lernen, Lernmotivation und Unterstützung durch Kolleginnen und Kollegen. Die verlinkte Studie von Bravo (2022) untersucht Lernabsichten bei 207 ERP-Nutzenden und Unterschiede zwischen Altersgruppen. Sie ist ältere Literatur, keine neue Studie von 2026; das Querschnittsdesign belegt weder kausale Trainingseffekte noch objektive Kompetenzgewinne. Das ergänzende SAP-Lernangebot beschreibt die praktische Enablement-Perspektive.",
+        "summary": "Im Mittelpunkt stehen Schulungen nach dem Go-live, kontinuierliches Lernen und die Weitergabe von Erfahrungswissen im Arbeitsalltag. Bravo (2022) untersucht Lernabsichten bei 207 ERP-Nutzenden und Altersunterschiede; das Querschnittsdesign belegt weder kausale Trainingseffekte noch objektive Kompetenzgewinne. Pietruszka-Ortyl und Ćwiek (2026) ergänzen eine Untersuchung mit 620 IT-Wissensarbeitenden in Polen zu Wissensarten und Arbeitsmodellen. Ihre Selbstauskünfte zeigen Zusammenhänge, keine Ursachen: Implizites Wissen ist sowohl für Expertenarbeit als auch für die Zusammenführung verteilter Expertise relevant. Die Studie ist nicht ERP-spezifisch und misst weder Nachhaltigkeitswirkungen noch Wissensretention direkt. Das ergänzende SAP-Lernangebot beschreibt die praktische Enablement-Perspektive.",
         "relevance": "Themenbereich aus dem ausgewerteten Projektbriefing.",
         "sources": [
           {
@@ -143,6 +143,10 @@
           {
             "title": "Ergänzend: SAP Learning – Learning and Enablement in SAP Projects",
             "url": "https://learning.sap.com/courses/sap-learning-and-enablement"
+          },
+          {
+            "title": "Pietruszka-Ortyl und Ćwiek (2026) – Tacit Knowledge, Expert Work and Sustainable Knowledge Management",
+            "url": "https://www.mdpi.com/2071-1050/18/18/9551"
           }
         ]
       },
@@ -165,9 +169,9 @@
       },
       {
         "id": "workarounds-shadow-it",
-        "date": "2026-10-25",
+        "date": "2026-10-27",
         "title": "Workarounds und Schatten-IT",
-        "summary": "Untersucht werden Umgehungslösungen und zusätzliche Werkzeuge außerhalb der vorgesehenen Systemlandschaft. Dabei geht es um praktische Nutzerbedürfnisse, Handlungsspielräume und die damit verbundenen Kontroll- und Sicherheitsfragen. Haag und Eckhardt (2024) beschreiben vier archetypische Praktiken, die Cybersicherheit und Nutzerbedürfnisse gemeinsam adressieren. Die Literatur betrachtet Schatten-IT allgemein und ist nicht durchgehend ERP-spezifisch; die älteren Arbeiten sind keine neuen Studien von 2026.",
+        "summary": "Untersucht werden Umgehungslösungen und zusätzliche Werkzeuge außerhalb der vorgesehenen Systemlandschaft. Dabei geht es um praktische Nutzerbedürfnisse, Handlungsspielräume und Kontroll- und Sicherheitsfragen. Haag und Eckhardt (2024) beschreiben vier archetypische Praktiken, die Cybersicherheit und Nutzerbedürfnisse gemeinsam adressieren. Ein ISACA-Praxisbeitrag von 2024 ergänzt die vorausschauende Bedarfsklärung, das Erkennen inoffizieller Werkzeuge und deren bewertete Integration oder Ablösung. Er ist ein konzeptioneller Governance-Beitrag, keine neue empirische ERP-Studie. Die Literatur ist nicht durchgehend ERP-spezifisch; die älteren Arbeiten sind keine neuen Studien von 2026.",
         "relevance": "Themenbereich aus dem ausgewerteten Projektbriefing.",
         "sources": [
           {
@@ -177,19 +181,27 @@
           {
             "title": "Haag und Eckhardt (2024) – Dealing Effectively with Shadow IT by Managing Both Cybersecurity and User Needs",
             "url": "https://aisel.aisnet.org/misqe/vol23/iss4/5/"
+          },
+          {
+            "title": "Spivey und Mcilveene (2024) – Navigating the Shadows: A Comprehensive Framework for Anticipating, Identifying, and Managing Shadow IT",
+            "url": "https://www.isaca.org/resources/isaca-journal/issues/2024/volume-6/navigating-the-shadows"
           }
         ]
       },
       {
         "id": "standardisierung-autonomie",
-        "date": "2026-10-21",
+        "date": "2026-10-27",
         "title": "Globale Standardisierung und lokale Autonomie",
-        "summary": "Der Themenbereich beleuchtet die Spannung zwischen einheitlichen ERP-Vorlagen und begründeten lokalen Anpassungen. Im Fokus stehen betriebliche Anforderungen, lokale Handlungsspielräume sowie transparente Verfahren für Änderungen und Ausnahmen. Die ergänzende SAP-Dokumentation erläutert das Template-Konzept im Solution Manager.",
+        "summary": "Der Themenbereich beleuchtet die Spannung zwischen einheitlichen ERP-Vorlagen und begründeten lokalen Anpassungen. Im Fokus stehen betriebliche Anforderungen, lokale Handlungsspielräume sowie transparente Verfahren für Änderungen und Ausnahmen. Die NTNU-Falldarstellung zur S/4HANA-Einführung bei ConocoPhillips Norway beschreibt anhand qualitativer Interviews unpassende Standardprozesse, Workarounds sowie Lern- und Beteiligungsbedarf. Grundlage ist eine Bachelorarbeit, keine repräsentative oder kausal angelegte Wirksamkeitsstudie. Die ergänzende SAP-Dokumentation erläutert das Template-Konzept im Solution Manager.",
         "relevance": "Themenbereich aus dem ausgewerteten Projektbriefing.",
         "sources": [
           {
             "title": "SAP-Dokumentation – Global Rollout with a Template (Solution Manager)",
             "url": "https://help.sap.com/saphelp_snc70/helpdata/EN/6a/bf1603d4f0944c81366cef7427bd12/content.htm"
+          },
+          {
+            "title": "NTNU – Fallanalyse: Global Standardization and Local Adaptation in ERP Implementations",
+            "url": "https://www.ntnu.edu/excited/example-5-erp"
           }
         ]
       },
