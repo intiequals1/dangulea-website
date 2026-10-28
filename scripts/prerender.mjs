@@ -20,6 +20,11 @@ const ssrDir = new URL('../dist-ssr/', import.meta.url)
 const { render } = await import(new URL('entry-server.js', ssrDir))
 const template = await readFile(new URL('index.html', dist), 'utf8')
 
+// Datum dieser Veröffentlichung (Build-Datum in Wien). Die Seite wird durch die News täglich neu gebaut.
+const builtOn = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Vienna' }).format(new Date())
+const dateTags = `    <meta name="publish_date" property="og:publish_date" content="${builtOn}" />\n` +
+  `    <meta property="og:updated_time" content="${builtOn}" />\n`
+
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;')
 
 for (const route of routes) {
@@ -29,6 +34,7 @@ for (const route of routes) {
     .replace(/(<link rel="canonical" href=")[^"]*(")/, `$1${url}$2`)
     .replace(/(<meta property="og:url" content=")[^"]*(")/, `$1${url}$2`)
     .replace(/(<meta property="og:title" content=")[^"]*(")/, `$1${esc(route.title)}$2`)
+  html = html.replace(/\n\s*<\/head>/, `\n${dateTags}  </head>`)
   if (route.noindex) html = html.replace('</title>', '</title>\n    <meta name="robots" content="noindex" />')
   const app = render(route.path)
   if (!app) throw new Error(`Leeres Rendering für ${route.path}`)
