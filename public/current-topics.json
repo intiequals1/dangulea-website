@@ -2,7 +2,7 @@
   {
     "id": "erp-brief",
     "title": "ERP-Brief",
-    "lastCheckedAt": "2026-10-27T12:58:13+01:00",
+    "lastCheckedAt": "2026-10-28T13:03:53+01:00",
     "status": "ok",
     "updates": [
       {
@@ -33,9 +33,9 @@
       },
       {
         "id": "joule-agenten",
-        "date": "2026-10-23",
+        "date": "2026-10-28",
         "title": "SAP Joule und KI-Agenten",
-        "summary": "Behandelt werden KI-Assistenten und Agenten in SAP-Prozessen: ihre Einbindung in die Systemlandschaft, benötigte Zugriffsrechte und die Abgrenzung zwischen Vorschlägen und ausgeführten Aktionen. Ein weiterer Schwerpunkt ist ein zentrales Agenten-Inventar in SAP LeanIX sowie die Verbindung von Geschäftssemantik, Berechtigungen und Audit-Trails. Die verlinkte SAP-Ankündigung vom 6. Oktober 2026 beschreibt den Herstelleransatz; Produktivitätsversprechen sind damit nicht unabhängig bestätigt.",
+        "summary": "Behandelt werden KI-Assistenten und Agenten in SAP-Prozessen: ihre Einbindung in die Systemlandschaft, Zugriffsrechte und die Abgrenzung zwischen Vorschlägen und ausgeführten Aktionen. SAPs TechEd-Ankündigung vom 27. Oktober 2026 ergänzt kontrollierten Zugang für Drittanbieter-Agenten, A2A- und MCP-Protokolle sowie ein Enterprise AI Gateway für Authentifizierung, Richtlinien, Überwachung und Auditierung. Die Verbindung von Geschäftssemantik, Datenqualität, Berechtigungen und menschlichen Freigaben bleibt zentral. Funktionsumfang und Verfügbarkeit sind je Angebot zu prüfen; die Herstellerankündigungen belegen weder unabhängig gemessene Produktivitätsgewinne noch automatisch erfüllte Compliance-Anforderungen.",
         "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
         "sources": [
           {
@@ -45,18 +45,22 @@
           {
             "title": "SAP – Autonomous Enterprise: Agenten, Berechtigungen und Governance (6. Oktober 2026)",
             "url": "https://news.sap.com/2026/10/sap-connect-sap-puts-autonomous-enterprise-to-work/"
+          },
+          {
+            "title": "SAP – TechEd 2026: Joule, Agent Gateway und Enterprise AI Gateway (27. Oktober 2026)",
+            "url": "https://news.sap.com/2026/10/sap-teched-ai-developers-build-what-matters-autonomous-execution/"
           }
         ]
       },
       {
         "id": "utilities-energiedaten",
-        "date": "2026-10-21",
+        "date": "2026-10-28",
         "title": "Utilities und Energiedaten",
-        "summary": "Der Themenblock verbindet Smart-Meter-Verbrauchsdaten mit Anforderungen an ERP- und Utilities-Landschaften. Betrachtet werden Zeitreihen, Datenqualität, Abrechnung und konsistente Schnittstellen zwischen den beteiligten Systemen.",
+        "summary": "Der Themenblock verbindet Smart-Meter-Verbrauchsdaten mit ERP- und Utilities-Landschaften. Im Fokus stehen Viertelstundenwerte, Datenqualität, Abrechnung und konsistente Schnittstellen sowie die Zuordnung von Messdaten zu Verträgen und Marktrollen. Für Migration und Betrieb sind Zeitzonen, Zeitstempel, Einheiten, Korrekturen und fachliche Aggregation ausdrücklich zu berücksichtigen. Die ergänzende E-Control-Information erläutert die Messung in 15-Minuten-Intervallen, mögliche Übergangsfristen und Widerspruchsregeln mit Ausnahmen. Daraus folgt keine pauschale Aussage, dass für alle Verbrauchsgruppen dieselben Fristen oder Wahlmöglichkeiten gelten.",
         "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
         "sources": [
           {
-            "title": "E-Control – Ermittlung des Stromverbrauchs",
+            "title": "Ergänzend: E-Control – Smart Meter, Viertelstundenwerte und Widerspruchsregeln",
             "url": "https://www.e-control.at/konsumenten/ermittlung-des-stromverbrauchs"
           }
         ]
@@ -126,7 +130,7 @@
   {
     "id": "erp-postimplementierung",
     "title": "ERP-Postimplementierung",
-    "lastCheckedAt": "2026-10-27T12:58:13+01:00",
+    "lastCheckedAt": "2026-10-28T13:03:53+01:00",
     "status": "ok",
     "updates": [
       {
@@ -207,9 +211,9 @@
       },
       {
         "id": "soziotechnische-governance",
-        "date": "2026-10-22",
+        "date": "2026-10-28",
         "title": "Soziotechnische und ethische Governance",
-        "summary": "Hier werden Rollen, Berechtigungen, Verantwortlichkeit und menschliche Aufsicht zusammen betrachtet. Weitere Schwerpunkte sind Fairness, Datenschutz, Transparenz, Nachvollziehbarkeit und die langfristigen Folgen ungelöster ethischer Entscheidungen im Systembetrieb. Ergänzt wird die Perspektive um das Zusammenspiel von KI- und Datenschutz-Governance. Der OECD-Bericht von 2024 vergleicht Prinzipien und politische Ansätze; er liefert keine empirischen ERP-Nutzerdaten. Der ergänzende NIST-Leitfaden behandelt Governance speziell für KI-Systeme.",
+        "summary": "Hier werden Rollen, Berechtigungen, Verantwortlichkeit und menschliche Aufsicht gemeinsam mit Fairness, Datenschutz und Nachvollziehbarkeit betrachtet. Lee, Yoon und Lee (Juli 2026) ergänzen einen frühen KI-Governance-Ansatz mit einer AHP-Befragung von 28 Fachleuten und vertiefenden Interviews mit 15 davon. Im untersuchten Kriterienmodell erhält menschliche Aufsicht die höchste globale Priorität. Die Studie liefert einen explorativen Entscheidungsrahmen vor der Systemgestaltung, kein validiertes Compliance-Modell und keine empirische Untersuchung klassischer ERP-Postimplementierung. Der OECD-Bericht von 2024 vergleicht KI- und Datenschutzansätze; NIST ergänzt praktische Governance-Leitlinien. Die Übertragung auf ERP-Prozesse erfordert eine kontextspezifische Prüfung.",
         "relevance": "Themenbereich aus dem ausgewerteten Projektbriefing.",
         "sources": [
           {
@@ -219,6 +223,10 @@
           {
             "title": "OECD – AI, data governance and privacy (2024)",
             "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/ai-data-governance-and-privacy_2ac13a42/2476b1a4-en.pdf"
+          },
+          {
+            "title": "Lee, Yoon und Lee (2026) – Operationalising Human-Centred AI Governance Under the EU AI Act",
+            "url": "https://www.mdpi.com/2079-8954/14/7/849"
           }
         ]
       }
