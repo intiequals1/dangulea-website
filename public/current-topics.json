@@ -2,7 +2,7 @@
   {
     "id": "erp-brief",
     "title": "ERP-Brief",
-    "lastCheckedAt": "2026-10-28T13:03:53+01:00",
+    "lastCheckedAt": "2026-10-29T13:02:18+01:00",
     "status": "ok",
     "updates": [
       {
@@ -124,13 +124,26 @@
             "url": "https://news.sap.com/2026/10/sap-to-acquire-techwolf-evidence-based-work-age-of-ai/"
           }
         ]
+      },
+      {
+        "id": "business-data-cloud",
+        "date": "2026-10-29",
+        "title": "Business Data Cloud und semantische Datenprodukte",
+        "summary": "Der Themenbereich verbindet SAP- und Drittanbieterdaten mit fachlicher Semantik, Datenprodukten und Governance als Grundlage für KI-gestützte Unternehmensprozesse. Im gelesenen ERP-Brief stehen Business Data Cloud, Datasphere und Analytics Cloud sowie ihre gemeinsame Architektur- und Roadmap-Planung im Fokus. SAP beschreibt Business Data Cloud als Datenbasis seiner Business AI Platform und führt Datasphere und Analytics Cloud als Bestandteile an. Daraus ergeben sich Fragen zu Datenqualität, Herkunft, fachlicher Verantwortung, Berechtigungen und Reconciliation. Die Produktbeschreibung ist eine Herstellerquelle; sie belegt weder unabhängig gemessene Nutzenwerte noch eine pauschale Pflicht zur Ablösung bestehender Dienste. Konkrete Vertragsbedingungen und regionale Funktionsverfügbarkeit sind gesondert zu prüfen.",
+        "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
+        "sources": [
+          {
+            "title": "SAP – Business Data Cloud: Datenprodukte, Semantik und bestehende Datasphere-/Analytics-Cloud-Dienste",
+            "url": "https://www.sap.com/products/data-cloud.html"
+          }
+        ]
       }
     ]
   },
   {
     "id": "erp-postimplementierung",
     "title": "ERP-Postimplementierung",
-    "lastCheckedAt": "2026-10-28T13:03:53+01:00",
+    "lastCheckedAt": "2026-10-29T13:02:18+01:00",
     "status": "ok",
     "updates": [
       {
@@ -211,9 +224,9 @@
       },
       {
         "id": "soziotechnische-governance",
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "title": "Soziotechnische und ethische Governance",
-        "summary": "Hier werden Rollen, Berechtigungen, Verantwortlichkeit und menschliche Aufsicht gemeinsam mit Fairness, Datenschutz und Nachvollziehbarkeit betrachtet. Lee, Yoon und Lee (Juli 2026) ergänzen einen frühen KI-Governance-Ansatz mit einer AHP-Befragung von 28 Fachleuten und vertiefenden Interviews mit 15 davon. Im untersuchten Kriterienmodell erhält menschliche Aufsicht die höchste globale Priorität. Die Studie liefert einen explorativen Entscheidungsrahmen vor der Systemgestaltung, kein validiertes Compliance-Modell und keine empirische Untersuchung klassischer ERP-Postimplementierung. Der OECD-Bericht von 2024 vergleicht KI- und Datenschutzansätze; NIST ergänzt praktische Governance-Leitlinien. Die Übertragung auf ERP-Prozesse erfordert eine kontextspezifische Prüfung.",
+        "summary": "Hier werden Rollen, Berechtigungen, Verantwortlichkeit und menschliche Aufsicht gemeinsam mit Fairness, Datenschutz und Nachvollziehbarkeit betrachtet. Batool, Zowghi und Bano (2025) ordnen 28 Arbeiten zur KI-Governance nach den Fragen Wer, Was, Wann und Wie sowie nach fünf Ebenen von Team bis internationaler Governance. Das Review berücksichtigt Literatur von 2013 bis 2023 und ist keine neue ERP-Wirksamkeitsstudie. Lee, Yoon und Lee (Juli 2026) ergänzen einen explorativen Ansatz mit 28 Fachleuten und 15 vertiefenden Interviews; menschliche Aufsicht erhält in ihrem Kriterienmodell die höchste globale Priorität. Daraus folgt kein validiertes Compliance-Modell. OECD und NIST ergänzen Datenschutz- und Risikomanagement-Perspektiven. Die Übertragung auf ERP-Postimplementierung und konkrete Kontrollen erfordert eine kontextspezifische Prüfung.",
         "relevance": "Themenbereich aus dem ausgewerteten Projektbriefing.",
         "sources": [
           {
@@ -227,6 +240,10 @@
           {
             "title": "Lee, Yoon und Lee (2026) – Operationalising Human-Centred AI Governance Under the EU AI Act",
             "url": "https://www.mdpi.com/2079-8954/14/7/849"
+          },
+          {
+            "title": "Batool, Zowghi und Bano (2025) – AI governance: a systematic literature review",
+            "url": "https://link.springer.com/article/10.1007/s43681-024-00653-w"
           }
         ]
       }
