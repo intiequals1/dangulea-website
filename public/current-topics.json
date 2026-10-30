@@ -2,7 +2,7 @@
   {
     "id": "erp-brief",
     "title": "ERP-Brief",
-    "lastCheckedAt": "2026-10-29T13:02:18+01:00",
+    "lastCheckedAt": "2026-10-30T14:09:26+01:00",
     "status": "ok",
     "updates": [
       {
@@ -54,14 +54,18 @@
       },
       {
         "id": "utilities-energiedaten",
-        "date": "2026-10-28",
+        "date": "2026-10-30",
         "title": "Utilities und Energiedaten",
-        "summary": "Der Themenblock verbindet Smart-Meter-Verbrauchsdaten mit ERP- und Utilities-Landschaften. Im Fokus stehen Viertelstundenwerte, Datenqualität, Abrechnung und konsistente Schnittstellen sowie die Zuordnung von Messdaten zu Verträgen und Marktrollen. Für Migration und Betrieb sind Zeitzonen, Zeitstempel, Einheiten, Korrekturen und fachliche Aggregation ausdrücklich zu berücksichtigen. Die ergänzende E-Control-Information erläutert die Messung in 15-Minuten-Intervallen, mögliche Übergangsfristen und Widerspruchsregeln mit Ausnahmen. Daraus folgt keine pauschale Aussage, dass für alle Verbrauchsgruppen dieselben Fristen oder Wahlmöglichkeiten gelten.",
+        "summary": "Der Themenblock verbindet Smart-Meter-Verbrauchsdaten mit ERP- und Utilities-Landschaften. Im Fokus stehen Viertelstundenwerte, Datenqualität, Abrechnung, Lieferantenwechsel und konsistente Schnittstellen sowie die Zuordnung zu Verträgen und Marktrollen. Für Migration und Betrieb sind Zeitzonen, Zeitstempel, Einheiten, Korrekturen und fachliche Aggregation zu berücksichtigen. Die EU-Kommission erläutert Interoperabilität und transparente, diskriminierungsfreie Verfahren für den Zugriff auf Wechsel- sowie Mess- und Verbrauchsdaten. Das ist ein bereits bestehender Regelungsrahmen, keine neue Regel vom heutigen Prüftag. Die ergänzende E-Control-Information behandelt 15-Minuten-Messung, Übergangsfristen und Widerspruchsregeln mit Ausnahmen. Für unterschiedliche Verbrauchsgruppen gelten nicht pauschal dieselben Fristen oder Wahlmöglichkeiten.",
         "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
         "sources": [
           {
             "title": "Ergänzend: E-Control – Smart Meter, Viertelstundenwerte und Widerspruchsregeln",
             "url": "https://www.e-control.at/konsumenten/ermittlung-des-stromverbrauchs"
+          },
+          {
+            "title": "Europäische Kommission – Smart Grids and Meters: Datenzugriff und Interoperabilität",
+            "url": "https://energy.ec.europa.eu/topics/markets-and-consumers/smart-grids-and-meters_en"
           }
         ]
       },
@@ -97,9 +101,9 @@
       },
       {
         "id": "sap-release-upgradeplanung",
-        "date": "2026-10-25",
-        "title": "SAP-Releases und Upgrade-Planung",
-        "summary": "Dieser Themenbereich verbindet Release- und Wartungsplanung mit der Bewertung von Add-ons, Eigenentwicklungen, Schnittstellen und Regressionstests. Ausgangspunkt ist SAP S/4HANA beziehungsweise Cloud Private Edition 2025 FPS02 mit Stand Oktober 2026. Betrachtet werden die Auswirkungen neuer Funktionen auf die Zielarchitektur und die Abgrenzung von In-App- und Side-by-Side-Erweiterungen. Die ergänzenden SAP-Quellen beschreiben Produktfunktionen aus Herstellersicht; ihre Eignung ist je Systemlandschaft zu prüfen.",
+        "date": "2026-10-30",
+        "title": "SAP-Releases und Transformationsplanung",
+        "summary": "Dieser Themenbereich verbindet Release- und Wartungsplanung mit Add-ons, Eigenentwicklungen, Schnittstellen und Regressionstests. Ausgangspunkt bleibt S/4HANA beziehungsweise Cloud Private Edition 2025 FPS02. Hinzu kommen SAPs am 28. Oktober vorgestellte Migrations- und Modernisierungsassistenten für Datenmanagement, Testmanagement, Custom Code und Geschäftskonfiguration. Laut Hersteller sind vier Assistenten für Early-Adopter-Kunden verfügbar; Systemanalyse-, Projektmanagement- und Rollout-Assistenten sind geplant. Im Fokus stehen Datenqualität, Reconciliation, Clean Core und nachvollziehbare fachliche Freigaben. Die Herstellerangaben belegen keine allgemeine Verfügbarkeit sämtlicher Funktionen oder unabhängig gemessene Effizienzgewinne. Die Eignung ist je Systemlandschaft zu prüfen.",
         "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
         "sources": [
           {
@@ -109,6 +113,10 @@
           {
             "title": "Ergänzend: SAP – Cloud ERP Private 2025 FPS02 (13. Oktober 2026)",
             "url": "https://news.sap.com/2026/10/sap-cloud-erp-private-2025-fps02-foundation-autonomous-enterprise/"
+          },
+          {
+            "title": "SAP – Migration and Modernization Assistants: Early-Adopter-Einsatz und geplante Erweiterungen (28. Oktober 2026)",
+            "url": "https://news.sap.com/2026/10/migration-and-modernization-assistants-sap-customer-cloud-erp-transformations/"
           }
         ]
       },
@@ -143,7 +151,7 @@
   {
     "id": "erp-postimplementierung",
     "title": "ERP-Postimplementierung",
-    "lastCheckedAt": "2026-10-29T13:02:18+01:00",
+    "lastCheckedAt": "2026-10-30T14:09:26+01:00",
     "status": "ok",
     "updates": [
       {
@@ -207,9 +215,9 @@
       },
       {
         "id": "standardisierung-autonomie",
-        "date": "2026-10-27",
+        "date": "2026-10-30",
         "title": "Globale Standardisierung und lokale Autonomie",
-        "summary": "Der Themenbereich beleuchtet die Spannung zwischen einheitlichen ERP-Vorlagen und begründeten lokalen Anpassungen. Im Fokus stehen betriebliche Anforderungen, lokale Handlungsspielräume sowie transparente Verfahren für Änderungen und Ausnahmen. Die NTNU-Falldarstellung zur S/4HANA-Einführung bei ConocoPhillips Norway beschreibt anhand qualitativer Interviews unpassende Standardprozesse, Workarounds sowie Lern- und Beteiligungsbedarf. Grundlage ist eine Bachelorarbeit, keine repräsentative oder kausal angelegte Wirksamkeitsstudie. Die ergänzende SAP-Dokumentation erläutert das Template-Konzept im Solution Manager.",
+        "summary": "Der Themenbereich beleuchtet die Spannung zwischen einheitlichen ERP-Vorlagen und begründeten lokalen Anpassungen. Im Fokus stehen betriebliche Anforderungen, Beteiligung und transparente Verfahren für Änderungen und Ausnahmen. Fattah-Weil, Bender und Gronau (Juni 2026) untersuchen eine SAP-Einführung an der TU Berlin und ergänzen qualitative Befragungsdaten von neun weiteren Hochschulen. Sie beschreiben Zusammenhänge zwischen anhaltender Stakeholder-Beteiligung, wahrgenommener Prozesspassung und Akzeptanz; kontinuierliche Schulung, Support und langfristige Führungseinbindung gehören zu den identifizierten Faktoren. Das ist kein kausaler Wirksamkeitsnachweis und nicht ohne Weiteres auf privatwirtschaftliche Unternehmen übertragbar. Die NTNU-Falldarstellung zu ConocoPhillips Norway ergänzt qualitative Einblicke aus einer Bachelorarbeit, keine repräsentative Studie. Die ergänzende SAP-Dokumentation erläutert das Template-Konzept im Solution Manager.",
         "relevance": "Themenbereich aus dem ausgewerteten Projektbriefing.",
         "sources": [
           {
@@ -219,6 +227,10 @@
           {
             "title": "NTNU – Fallanalyse: Global Standardization and Local Adaptation in ERP Implementations",
             "url": "https://www.ntnu.edu/excited/example-5-erp"
+          },
+          {
+            "title": "Fattah-Weil, Bender und Gronau (2026) – Stakeholder-driven ERP implementation in German higher education",
+            "url": "https://link.springer.com/article/10.1007/s10257-026-00734-9"
           }
         ]
       },
