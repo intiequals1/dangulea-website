@@ -2,7 +2,7 @@
   {
     "id": "erp-brief",
     "title": "ERP-Brief",
-    "lastCheckedAt": "2026-10-31T18:39:19+01:00",
+    "lastCheckedAt": "2026-11-01T19:58:42+01:00",
     "status": "ok",
     "updates": [
       {
@@ -33,9 +33,9 @@
       },
       {
         "id": "joule-agenten",
-        "date": "2026-10-28",
+        "date": "2026-11-01",
         "title": "SAP Joule und KI-Agenten",
-        "summary": "Behandelt werden KI-Assistenten und Agenten in SAP-Prozessen: ihre Einbindung in die Systemlandschaft, Zugriffsrechte und die Abgrenzung zwischen Vorschlägen und ausgeführten Aktionen. SAPs TechEd-Ankündigung vom 27. Oktober 2026 ergänzt kontrollierten Zugang für Drittanbieter-Agenten, A2A- und MCP-Protokolle sowie ein Enterprise AI Gateway für Authentifizierung, Richtlinien, Überwachung und Auditierung. Die Verbindung von Geschäftssemantik, Datenqualität, Berechtigungen und menschlichen Freigaben bleibt zentral. Funktionsumfang und Verfügbarkeit sind je Angebot zu prüfen; die Herstellerankündigungen belegen weder unabhängig gemessene Produktivitätsgewinne noch automatisch erfüllte Compliance-Anforderungen.",
+        "summary": "Behandelt werden KI-Assistenten und Agenten in SAP-Prozessen: ihre Einbindung in die Systemlandschaft, Zugriffsrechte und die Abgrenzung zwischen Vorschlägen und ausgeführten Aktionen. SAPs TechEd-Ankündigung vom 27. Oktober 2026 ergänzt kontrollierten Zugang für Drittanbieter-Agenten, A2A- und MCP-Protokolle sowie ein Enterprise AI Gateway für Authentifizierung, Richtlinien, Überwachung und Auditierung. Der SAP-Connect-Leitfaden konkretisiert einen Access Governance and Security Assistant für Rollenentwurf, privilegierte Zugriffe und Kontrollen menschlicher sowie KI-Identitäten; die allgemeine Verfügbarkeit ist für das erste Quartal 2027 geplant. Geschäftssemantik, Datenqualität, begrenzte Berechtigungen und menschliche Freigaben bleiben zentral. Die Herstellerankündigungen belegen weder unabhängig gemessene Produktivitätsgewinne noch automatisch erfüllte Compliance-Anforderungen; Verfügbarkeit und Funktionsumfang sind je Angebot zu prüfen.",
         "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
         "sources": [
           {
@@ -49,6 +49,10 @@
           {
             "title": "SAP – TechEd 2026: Joule, Agent Gateway und Enterprise AI Gateway (27. Oktober 2026)",
             "url": "https://news.sap.com/2026/10/sap-teched-ai-developers-build-what-matters-autonomous-execution/"
+          },
+          {
+            "title": "SAP Connect 2026 – Access Governance and Security Assistant: angekündigte Identitätskontrollen und Verfügbarkeit",
+            "url": "https://www.sap.com/topics/events/connect/innovation-news-guide-2026"
           }
         ]
       },
@@ -151,7 +155,7 @@
   {
     "id": "erp-postimplementierung",
     "title": "ERP-Postimplementierung",
-    "lastCheckedAt": "2026-10-31T18:39:19+01:00",
+    "lastCheckedAt": "2026-11-01T19:58:42+01:00",
     "status": "ok",
     "updates": [
       {
@@ -194,9 +198,9 @@
       },
       {
         "id": "workarounds-shadow-it",
-        "date": "2026-10-27",
+        "date": "2026-11-01",
         "title": "Workarounds und Schatten-IT",
-        "summary": "Untersucht werden Umgehungslösungen und zusätzliche Werkzeuge außerhalb der vorgesehenen Systemlandschaft. Dabei geht es um praktische Nutzerbedürfnisse, Handlungsspielräume und Kontroll- und Sicherheitsfragen. Haag und Eckhardt (2024) beschreiben vier archetypische Praktiken, die Cybersicherheit und Nutzerbedürfnisse gemeinsam adressieren. Ein ISACA-Praxisbeitrag von 2024 ergänzt die vorausschauende Bedarfsklärung, das Erkennen inoffizieller Werkzeuge und deren bewertete Integration oder Ablösung. Er ist ein konzeptioneller Governance-Beitrag, keine neue empirische ERP-Studie. Die Literatur ist nicht durchgehend ERP-spezifisch; die älteren Arbeiten sind keine neuen Studien von 2026.",
+        "summary": "Untersucht werden Umgehungslösungen und zusätzliche Werkzeuge außerhalb der vorgesehenen Systemlandschaft. Dabei geht es um praktische Nutzerbedürfnisse, Handlungsspielräume und Kontroll- und Sicherheitsfragen. Haag und Eckhardt (2024) beschreiben vier archetypische Praktiken, die Cybersicherheit und Nutzerbedürfnisse gemeinsam adressieren. Ein ISACA-Praxisbeitrag von 2024 ergänzt die vorausschauende Bedarfsklärung, das Erkennen inoffizieller Werkzeuge und deren bewertete Integration oder Ablösung; er ist keine empirische ERP-Studie. Nugraha, Munir und Dirgantari (2025) ergänzen eine Literaturübersicht über 67 Arbeiten zu Schatten-IT und verteilten Arbeitsformen. Sie betrachten veränderte Nutzungsmotive, Risiken und Governance-Ansätze; daraus folgt kein kausaler Nachweis besserer ERP-Ergebnisse. Die Literatur ist nicht durchgehend ERP-spezifisch und umfasst ältere Arbeiten, keine ausschließlich neuen Studien von 2026.",
         "relevance": "Themenbereich aus dem ausgewerteten Projektbriefing.",
         "sources": [
           {
@@ -210,6 +214,10 @@
           {
             "title": "Spivey und Mcilveene (2024) – Navigating the Shadows: A Comprehensive Framework for Anticipating, Identifying, and Managing Shadow IT",
             "url": "https://www.isaca.org/resources/isaca-journal/issues/2024/volume-6/navigating-the-shadows"
+          },
+          {
+            "title": "Nugraha, Munir und Dirgantari (2025) – Shadow IT Transformation in the Post-Pandemic Digital Workplace: A Systematic Literature Review",
+            "url": "https://thesai.org/Downloads/Volume16No11/Paper_59-Shadow_IT_Transformation_in_the_Post_Pandemic_Digital_Workplace.pdf"
           }
         ]
       },
@@ -236,9 +244,9 @@
       },
       {
         "id": "soziotechnische-governance",
-        "date": "2026-10-29",
+        "date": "2026-11-01",
         "title": "Soziotechnische und ethische Governance",
-        "summary": "Hier werden Rollen, Berechtigungen, Verantwortlichkeit und menschliche Aufsicht gemeinsam mit Fairness, Datenschutz und Nachvollziehbarkeit betrachtet. Batool, Zowghi und Bano (2025) ordnen 28 Arbeiten zur KI-Governance nach den Fragen Wer, Was, Wann und Wie sowie nach fünf Ebenen von Team bis internationaler Governance. Das Review berücksichtigt Literatur von 2013 bis 2023 und ist keine neue ERP-Wirksamkeitsstudie. Lee, Yoon und Lee (Juli 2026) ergänzen einen explorativen Ansatz mit 28 Fachleuten und 15 vertiefenden Interviews; menschliche Aufsicht erhält in ihrem Kriterienmodell die höchste globale Priorität. Daraus folgt kein validiertes Compliance-Modell. OECD und NIST ergänzen Datenschutz- und Risikomanagement-Perspektiven. Die Übertragung auf ERP-Postimplementierung und konkrete Kontrollen erfordert eine kontextspezifische Prüfung.",
+        "summary": "Hier werden Rollen, Berechtigungen, Verantwortlichkeit und menschliche Aufsicht gemeinsam mit Fairness, Datenschutz und Nachvollziehbarkeit betrachtet. Batool, Zowghi und Bano (2025) ordnen 28 Arbeiten zur KI-Governance nach Wer, Was, Wann und Wie sowie nach fünf Governance-Ebenen. Das Review berücksichtigt Literatur von 2013 bis 2023 und ist keine ERP-Wirksamkeitsstudie. Lee, Yoon und Lee (Juli 2026) ergänzen einen explorativen Ansatz mit 28 Fachleuten und 15 vertiefenden Interviews; menschliche Aufsicht erhält in ihrem Kriterienmodell die höchste globale Priorität. Kaiser (September 2026) unterscheidet die Kontrolle von KI-Systemen von der Nutzung von KI in Entscheidungsprozessen und entwickelt einen adaptiven Governance-Rahmen mit sechs Schritten. Der Perspektivbeitrag illustriert Smart-City- und Smart-Nation-Kontexte; er validiert keine ERP-Kontrollen oder Compliance-Wirkung. OECD und NIST ergänzen Datenschutz und Risikomanagement. Die Übertragung auf ERP-Postimplementierung erfordert eine kontextspezifische Prüfung.",
         "relevance": "Themenbereich aus dem ausgewerteten Projektbriefing.",
         "sources": [
           {
@@ -256,6 +264,10 @@
           {
             "title": "Batool, Zowghi und Bano (2025) – AI governance: a systematic literature review",
             "url": "https://link.springer.com/article/10.1007/s43681-024-00653-w"
+          },
+          {
+            "title": "Kaiser (2026) – Adaptive, ethical and responsible AI governance for smart cities and nations (Perspektivbeitrag, September)",
+            "url": "https://link.springer.com/article/10.1007/s44327-026-00349-2"
           }
         ]
       }
