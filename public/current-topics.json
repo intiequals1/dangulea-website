@@ -2,7 +2,7 @@
   {
     "id": "erp-brief",
     "title": "ERP-Brief",
-    "lastCheckedAt": "2026-11-02T13:02:38+01:00",
+    "lastCheckedAt": "2026-11-03T09:23:09+01:00",
     "status": "ok",
     "updates": [
       {
@@ -105,9 +105,9 @@
       },
       {
         "id": "sap-release-upgradeplanung",
-        "date": "2026-10-30",
+        "date": "2026-11-03",
         "title": "SAP-Releases und Transformationsplanung",
-        "summary": "Dieser Themenbereich verbindet Release- und Wartungsplanung mit Add-ons, Eigenentwicklungen, Schnittstellen und Regressionstests. Ausgangspunkt bleibt S/4HANA beziehungsweise Cloud Private Edition 2025 FPS02. Hinzu kommen SAPs am 28. Oktober vorgestellte Migrations- und Modernisierungsassistenten für Datenmanagement, Testmanagement, Custom Code und Geschäftskonfiguration. Laut Hersteller sind vier Assistenten für Early-Adopter-Kunden verfügbar; Systemanalyse-, Projektmanagement- und Rollout-Assistenten sind geplant. Im Fokus stehen Datenqualität, Reconciliation, Clean Core und nachvollziehbare fachliche Freigaben. Die Herstellerangaben belegen keine allgemeine Verfügbarkeit sämtlicher Funktionen oder unabhängig gemessene Effizienzgewinne. Die Eignung ist je Systemlandschaft zu prüfen.",
+        "summary": "Dieser Themenbereich verbindet Release- und Wartungsplanung mit Add-ons, Eigenentwicklungen, Schnittstellen und Regressionstests. Ausgangspunkt bleibt S/4HANA beziehungsweise Cloud Private Edition 2025 FPS02. Hinzu kommen SAPs am 28. Oktober vorgestellte Migrations- und Modernisierungsassistenten für Datenmanagement, Testmanagement, Custom Code und Geschäftskonfiguration. Laut Hersteller sind vier Assistenten für Early-Adopter-Kunden verfügbar; Systemanalyse-, Projektmanagement- und Rollout-Assistenten sind geplant. Im Fokus stehen Datenqualität, Reconciliation, Clean Core und nachvollziehbare fachliche Freigaben. Die Herstellerangaben belegen keine allgemeine Verfügbarkeit sämtlicher Funktionen oder unabhängig gemessene Effizienzgewinne. Die Eignung ist je Systemlandschaft zu prüfen. Für Public Edition ergänzt der gelesene ERP-Brief die Upgrade-Planung: SAP berichtet für Release 2608 über durchschnittlich 13 Minuten für Produktivsystem-Upgrades bei mehr als 2.780 Systemen. Das ist ein Herstellerwert, keine Zusage für einzelne Kundensysteme oder ein Nachweis verkürzter fachlicher Regressionstests. Integrationen, aktivierte Scopes und Freigabeprozesse sind weiterhin gesondert zu prüfen.",
         "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
         "sources": [
           {
@@ -121,6 +121,10 @@
           {
             "title": "SAP – Migration and Modernization Assistants: Early-Adopter-Einsatz und geplante Erweiterungen (28. Oktober 2026)",
             "url": "https://news.sap.com/2026/10/migration-and-modernization-assistants-sap-customer-cloud-erp-transformations/"
+          },
+          {
+            "title": "SAP Community – Public-Cloud-Upgrades mit Release 2608: durchschnittliche Dauer laut Hersteller",
+            "url": "https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/s-4hana-public-cloud-delivers-industry-leading-upgrade-performance/ba-p/14510723"
           }
         ]
       },
@@ -149,14 +153,27 @@
             "url": "https://www.sap.com/products/data-cloud.html"
           }
         ]
+      },
+      {
+        "id": "transformationsbegleitung-adoption",
+        "date": "2026-11-03",
+        "title": "Transformationsbegleitung und KI-Adoption",
+        "summary": "Dieser Bereich behandelt die organisatorische Begleitung von Cloud- und KI-Transformationen: Verantwortlichkeiten, Prozessverbesserung, Einführung konkreter Anwendungsfälle und kontinuierliche Unterstützung nach Projektmeilensteinen. SAP hat Max Success Plan am 2. November 2026 auf Cloud Choice (CCFlex) und Resell (VAR) ausgeweitet; der Zugang über Managed Service Provider befindet sich laut Hersteller noch im Pilotbetrieb. Genannt werden ein zugeordneter Success Plan Manager, lösungsübergreifende Beratung und Prototypen für KI-Anwendungsfälle. Für die Auswahl sind Leistungsumfang, Zuständigkeiten zwischen Kunde, SAP und Partner sowie überprüfbare Ziele zu klären. Die Quelle beschreibt ein kommerzielles Herstellerangebot; sie belegt keine allgemeine Wirksamkeit von Begleitung oder garantierte Nutzenwerte.",
+        "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
+        "sources": [
+          {
+            "title": "SAP – AI and Transformation Guidance for Every Customer (2. November 2026)",
+            "url": "https://news.sap.com/2026/11/ai-transformation-guidance-for-every-customer/"
+          }
+        ]
       }
     ]
   },
   {
     "id": "erp-postimplementierung",
     "title": "ERP-Postimplementierung",
-    "lastCheckedAt": "2026-11-02T13:02:38+01:00",
-    "status": "ok",
+    "lastCheckedAt": "2026-11-03T09:23:09+01:00",
+    "status": "access_required",
     "updates": [
       {
         "id": "training-wissen",
