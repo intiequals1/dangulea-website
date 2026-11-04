@@ -7,7 +7,7 @@
     "dev": "node scripts/prepare-news.mjs && vite",
     "news:sync": "node scripts/prepare-news.mjs --sync",
     "build": "node scripts/prepare-news.mjs && tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && node scripts/prerender.mjs && node scripts/generate-news-feed.mjs && python3 scripts/render-news-images.py && python3 scripts/validate-news.py",
-    "test": "node --test scripts/*.test.mjs && python3 -m unittest discover -s scripts -p '*_test.py'",
+    "test": "node --experimental-strip-types --test scripts/*.test.mjs && python3 -m unittest discover -s scripts -p '*_test.py'",
     "validate:news": "python3 scripts/validate-news.py",
     "verify:live": "python3 scripts/validate-news.py --base-url https://dangulea.at",
     "lint": "eslint .",

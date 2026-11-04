@@ -30,6 +30,9 @@ try {
   await writeFile(page, originalPage.toString().replace(`data-share-url="${article.url}"`, 'data-share-url="https://dangulea.at/news"'))
   rejected('python3', ['scripts/validate-news.py'], /Share-Button/)
   console.log('OK: falscher Share-Link stoppt Veröffentlichung')
+  await writeFile(page, originalPage.toString().replace(`data-story-url="${article.url}"`, 'data-story-url="https://dangulea.at/news"'))
+  rejected('python3', ['scripts/validate-news.py'], /Story-Teilen-Button/)
+  console.log('OK: falscher Story-Artikellink stoppt Veröffentlichung')
   await writeFile(page, originalPage)
   await writeFile(image, originalImage.subarray(0, 100))
   rejected('python3', ['scripts/validate-news.py'], /2026-|PNG|truncated/)
@@ -45,4 +48,4 @@ try {
   await writeFile(image, originalImage)
   await writeFile(news, originalNews)
 }
-console.log('Alle 5 Fehlerfälle wurden vom verpflichtenden Release-Gate zurückgewiesen; Originaldateien wiederhergestellt.')
+console.log('Alle 6 Fehlerfälle wurden vom verpflichtenden Release-Gate zurückgewiesen; Originaldateien wiederhergestellt.')
