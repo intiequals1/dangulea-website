@@ -2,6 +2,8 @@
 
 Quellcode meiner persönlichen Website: [dangulea.at](https://dangulea.at)
 
+News-Einzelartikel, individuelle Social-Bilder und die verpflichtende Build-/Deploy-Prüfung sind in [docs/news-sharing.md](docs/news-sharing.md) beschrieben. Nach einer News-Änderung zuerst `pnpm news:sync` ausführen und die News-Datei gemeinsam mit `data/news-archive.json` committen.
+
 Die Seite stellt meinen beruflichen Hintergrund, meine fachlichen Schwerpunkte und meine laufenden Vorhaben dar. Sie ist als Einzelprojekt gedacht und nicht als Vorlage. Die Inhalte sind auf Deutsch.
 
 ## Zur Person

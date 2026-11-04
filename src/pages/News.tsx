@@ -1,108 +1,12 @@
-import { useEffect, useState, type ReactNode } from "react";
+import { useEffect } from "react";
 import "./News.css";
 import "./Disclosure.css";
-import { newsPreview } from "../utils/contentPreview";
+import articles from '../generated/news-articles.json';
+import NewsShare from '../components/NewsShare';
 
-type NewsItem = {
-  date: string;
-  title: string;
-  text: string;
-};
-
-const urlPattern = /https?:\/\/[^\s|]+/g;
-
-
-function renderLinkedText(text: string) {
-  const parts: ReactNode[] = [];
-  let lastIndex = 0;
-
-  for (const match of text.matchAll(urlPattern)) {
-    const rawUrl = match[0];
-    const start = match.index ?? 0;
-    const trailing = rawUrl.match(/[.,;:!?)]*$/)?.[0] ?? "";
-    const url = rawUrl.slice(0, rawUrl.length - trailing.length);
-
-    if (start > lastIndex) {
-      parts.push(text.slice(lastIndex, start));
-    }
-
-    parts.push(
-      <a key={`${url}-${start}`} href={url} target="_blank" rel="noopener noreferrer">
-        {url}
-      </a>
-    );
-
-    if (trailing) {
-      parts.push(trailing);
-    }
-
-    lastIndex = start + rawUrl.length;
-  }
-
-  if (lastIndex < text.length) {
-    parts.push(text.slice(lastIndex));
-  }
-
-  return parts;
-}
-
-function renderNewsText(text: string) {
-  return text
-    .split(/\n{2,}/)
-    .map((block) => block.trim())
-    .filter(Boolean)
-    .map((block, index) => {
-      const numberedHeading = block.match(/^(\d+)\.\s+(.+)$/);
-      if (numberedHeading) {
-        return (
-          <h3 key={index} className="news-entry-heading">
-            <span className="news-entry-heading__number">{numberedHeading[1]}</span>
-            {numberedHeading[2]}
-          </h3>
-        );
-      }
-
-      const labelledBlock = block.match(/^([^:\n]+):\s*([\s\S]*)$/);
-      if (labelledBlock) {
-        const [, label, body] = labelledBlock;
-        return (
-          <p key={index} className={`news-entry-block news-entry-block--${label.toLowerCase().replace(/\s+/g, "-")}`}>
-            <strong>{label}:</strong>
-            {body ? <> {renderLinkedText(body)}</> : null}
-          </p>
-        );
-      }
-
-      return (
-        <p key={index} className="news-entry-block">
-          {renderLinkedText(block)}
-        </p>
-      );
-    });
-}
+const dates = [...new Set(articles.map(article => article.date))];
 
 export default function News() {
-  const [items, setItems] = useState<NewsItem[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    fetch("/news-updates.json")
-      .then((res) => {
-        if (!res.ok) throw new Error("News konnten nicht geladen werden");
-        return res.json();
-      })
-      .then((data: NewsItem[]) => {
-        setItems(data);
-        setLoading(false);
-      })
-      .catch((e) => {
-        setError(e instanceof Error ? e.message : "Unbekannter Fehler");
-        setLoading(false);
-      });
-  }, []);
-
-
   useEffect(() => {
     const openLinkedEntry = () => {
       const id = window.location.hash.slice(1);
@@ -115,10 +19,7 @@ export default function News() {
     openLinkedEntry();
     window.addEventListener("hashchange", openLinkedEntry);
     return () => window.removeEventListener("hashchange", openLinkedEntry);
-  }, [items]);
-
-  if (loading) return <div className="news-loading">Lade News…</div>;
-  if (error) return <div className="news-error">Fehler: {error}</div>;
+  }, []);
 
   return (
     <div className="news-page">
@@ -145,27 +46,28 @@ export default function News() {
         </p>
       </section>
 
-      {items.length === 0 ? (
+      {dates.length === 0 ? (
         <p>Noch keine News vorhanden.</p>
       ) : (
         <ul className="news-list">
-          {items.map((item) => (
-            <li key={item.date} id={`news-${item.date}`} className="news-item">
+          {dates.map((date) => (
+            <li key={date} id={`news-${date}`} className="news-item">
               <details className="content-disclosure">
                 <summary>
-                  <span className="news-date">{item.date}</span>
-                  <h2 className="news-title">{item.title}</h2>
-                  <span className="disclosure-preview">{newsPreview(item.text)}</span>
+                  <span className="news-date">{date}</span>
+                  <h2 className="news-title">Täglicher Überblick: KI, Technologie, ERP, Nachhaltigkeit und Ethik</h2>
+                  <span className="disclosure-preview">{articles.filter(article => article.date === date).map(article => article.title).join(' · ')}</span>
                   <span className="disclosure-hint" aria-hidden="true" />
                 </summary>
                 <div className="disclosure-content">
-                  <div className="news-text">{renderNewsText(item.text)}</div>
-                  {!item.text.includes("Transparenz zur KI-Unterstützung") && (
-                    <p className="news-disclosure">
-                      Dieser Beitrag wurde automatisiert unter Einsatz künstlicher Intelligenz
-                      erstellt oder bearbeitet. Stand: {item.date}.
-                    </p>
-                  )}
+                  {articles.filter(article => article.date === date).map(article => (
+                    <article key={article.id} className="news-teaser">
+                      <h3 className="news-entry-heading"><a href={article.path}>{article.number}. {article.title}</a></h3>
+                      <p>{article.description}</p>
+                      <a href={article.path}>Vollständige Meldung und Quellen lesen →</a>
+                      <NewsShare article={article} />
+                    </article>
+                  ))}
                 </div>
               </details>
             </li>
