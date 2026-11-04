@@ -1,7 +1,8 @@
 // Rendert jede Route beim Build zu statischem HTML (dist/<route>.html).
 // So sehen Suchmaschinen und Link-Vorschauen den Inhalt ohne JavaScript,
 // und GitHub Pages liefert die Unterseiten mit Status 200 statt über 404.html aus.
-import { readFile, writeFile, rm } from 'node:fs/promises'
+import { readFile, writeFile, rm, mkdir } from 'node:fs/promises'
+import { articleHead } from './news-head.mjs'
 
 const SITE = 'https://dangulea.at'
 const NAME = 'Claudiu Dangulea'
@@ -19,6 +20,7 @@ const dist = new URL('../dist/', import.meta.url)
 const ssrDir = new URL('../dist-ssr/', import.meta.url)
 const { render } = await import(new URL('entry-server.js', ssrDir))
 const template = await readFile(new URL('index.html', dist), 'utf8')
+const articles = JSON.parse(await readFile(new URL('../src/generated/news-articles.json', import.meta.url), 'utf8'))
 
 // Datum dieser Veröffentlichung (Build-Datum in Wien). Die Seite wird durch die News täglich neu gebaut.
 const builtOn = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Vienna' }).format(new Date())
@@ -45,4 +47,26 @@ for (const route of routes) {
   console.log(`vorgerendert: ${route.path} → dist/${file}`)
 }
 
+for (const article of articles) {
+  // Replace generic profile metadata completely. Crawlers receive article data
+  // and content in the first HTTP response, with no JavaScript requirement.
+  const head = template.match(/<head>([\s\S]*?)<\/head>/)[1]
+    .replace(/\s*<title>[\s\S]*?<\/title>/g, '')
+    .replace(/\s*<meta\s+(?:name="(?:description|author|twitter:[^"]+)"|property="(?:og:[^"]+|article:[^"]+)")[^>]*>/g, '')
+    .replace(/\s*<link rel="canonical"[^>]*>/g, '')
+    .replace(/\s*<script type="application\/ld\+json">[\s\S]*?<\/script>/g, '')
+  const app = render(article.path)
+  if (!app || !app.includes('data-share-url=')) throw new Error(`Artikel-Rendering unvollständig: ${article.id}`)
+  const html = template.replace(/<head>[\s\S]*?<\/head>/, `<head>${head}\n${articleHead(article)}\n</head>`)
+    .replace('<div id="root"></div>', `<div id="root">${app}</div>`)
+  const directory = new URL(`.${article.path}`, dist)
+  await mkdir(directory, { recursive: true })
+  await writeFile(new URL('index.html', directory), html)
+}
+await writeFile(new URL('news-manifest.json', dist), `${JSON.stringify(articles, null, 2)}\n`)
+const sitemapPath = new URL('sitemap.xml', dist)
+const sitemap = await readFile(sitemapPath, 'utf8')
+await writeFile(sitemapPath, sitemap.replace('</urlset>', articles.map(article =>
+  `  <url><loc>${esc(article.url)}</loc><lastmod>${article.date}</lastmod></url>`).join('\n') + '\n</urlset>'))
+console.log(`Einzelartikel vorgerendert: ${articles.length}, einschließlich Metadaten, Manifest und Sitemap`)
 await rm(ssrDir, { recursive: true, force: true })

@@ -1,0 +1,1195 @@
+{
+  "version": 1,
+  "articles": [
+    {
+      "id": "2026-11-04-1",
+      "date": "2026-11-04",
+      "number": 1,
+      "title": "SAP meldet allgemeine Verfügbarkeit von Cohere North auf seiner KI-Plattform",
+      "text": "Fakten: SAP kündigte am 3. November an, Cohere North auf SAP Business AI Platform allgemein verfügbar zu machen. Das Angebot verbindet KI-Agenten und Workflow-Automatisierung mit Unternehmenswissen und SAP-Umgebungen. SAP beschreibt eine verwaltete Bereitstellung für Organisationen mit besonderen Anforderungen an Datenresidenz und Kontrolle.\nEinordnung: Für regulierte Branchen und ERP-Architekturen ist entscheidend, wo Daten verarbeitet werden und wer Zugriff erhält. Konkrete Region, Betriebsmodell und Vertragsbedingungen müssen je Einsatz geprüft werden. Es liegt ausschließlich die Herstellerquelle vor; die Ankündigung belegt weder automatisch erfüllte Compliance noch unabhängig gemessene Nutzenwerte.\nQuellen: SAP, Originalmitteilung: https://news.sap.com/2026/11/sap-cohere-empower-regulated-industries-innovate-deploy-ai-faster/"
+    },
+    {
+      "id": "2026-11-04-2",
+      "date": "2026-11-04",
+      "number": 2,
+      "title": "Fachbeitrag fordert aussagekräftige Versionskennungen für KI-Systeme",
+      "text": "Fakten: Ein am 2. November in Nature Machine Intelligence veröffentlichter Beitrag kritisiert, dass Modell- und Integrationsänderungen nicht immer mit geänderten öffentlichen Kennungen einhergehen. Die Autorenschaft fordert eine Versionierung, die wissenschaftliche Reproduzierbarkeit und regulatorische Aufsicht besser unterstützt. Es handelt sich um einen argumentativen Fachbeitrag, nicht um eine neue verbindliche Norm. Die beteiligten EU-Kommissionsmitarbeitenden schreiben ausdrücklich in persönlicher Eigenschaft.\nEinordnung: Für KI in Unternehmensprozessen sollten Modellstand, Konfiguration und Änderungen nachvollziehbar dokumentiert werden. Gleichbleibende Produktnamen allein garantieren kein unverändertes Verhalten. Der Beitrag bietet eine Governance-Perspektive und keinen Wirksamkeitsnachweis eines bereits flächendeckend eingesetzten Versionssystems.\nQuellen: Originalpublikation: https://www.nature.com/articles/s42256-026-01323-8"
+    },
+    {
+      "id": "2026-11-04-3",
+      "date": "2026-11-04",
+      "number": 3,
+      "title": "Microsoft erläutert automatische Sperren gegen betrügerische Website-Benachrichtigungen",
+      "text": "Fakten: Microsoft beschrieb am 2. November einen seit Edge 156 ausgerollten Mechanismus: Erkennt SmartScreen oder Scareware blocker einen über eine Benachrichtigung vermittelten Betrug, deaktiviert Edge die Benachrichtigungen der auslösenden Website. Zusätzlich gibt es eine Option zum Blockieren und Melden verdächtiger Berechtigungsanfragen.\nEinordnung: Der Ansatz adressiert einen wiederkehrenden Weg zu gefälschten Virenwarnungen. Für Organisationen bleiben Browserrichtlinien und Schulungen wichtig; automatische Erkennung erfasst nicht jeden unerwünschten Hinweis. Die Funktionsbeschreibung stammt ausschließlich von Microsoft und ist kein unabhängiger Vergleichstest der Erkennungsleistung. Der Beitrag erläutert einen bestehenden Rollout, keinen am heutigen Tag erschienenen Browser.\nQuellen: Microsoft, Originalbeitrag: https://blogs.windows.com/msedgedev/2026/11/02/client-side-threat-detection-how-scareware-blocker-uncovered-malicious-notification-abuse/"
+    },
+    {
+      "id": "2026-11-04-4",
+      "date": "2026-11-04",
+      "number": 4,
+      "title": "EU startet Konsultation zu leichter reparierbaren Produkten",
+      "text": "Fakten: Die Kommission eröffnete am 3. November eine Konsultation und einen Aufruf zur Stellungnahme für mögliche übergreifende Reparierbarkeitsanforderungen unter der Ökodesign-Verordnung für nachhaltige Produkte. Themen sind Ersatzteile, Reparaturinformationen, Software und Firmware sowie Demontage und Reparierbarkeitsangaben. Rückmeldungen sind bis 9. Februar 2027 möglich; ein möglicher delegierter Rechtsakt ist derzeit für 2027 geplant.\nEinordnung: Für Hersteller und Produktdatenmanagement können daraus Anforderungen an Serviceinformationen und Ersatzteilprozesse entstehen. Gegenwärtig handelt es sich um eine Vorbereitung mit Folgenabschätzung. Produktumfang und endgültige Pflichten stehen noch nicht fest; die Konsultation selbst schafft keine neuen verbindlichen Reparaturvorgaben.\nQuellen: Europäische Kommission: https://environment.ec.europa.eu/news/commission-launches-consultation-easier-product-repairs-2026-11-03_en"
+    },
+    {
+      "id": "2026-11-04-5",
+      "date": "2026-11-04",
+      "number": 5,
+      "title": "EU veröffentlicht Leitlinien zur Krisenvorsorge und Empfehlung zu Kontinuitäts-Stresstests",
+      "text": "Fakten: Die Kommission veröffentlichte am 3. November Leitlinien zur Bevölkerungsvorsorge und eine Empfehlung zu Stresstests für betriebliche Kontinuität. Begleitende Hinweise behandeln unter anderem Risikokommunikation, Vorsorgebildung, mindestens 72 Stunden Selbstversorgung und inklusive Vorbereitung. Die übergeordnete Strategie betrachtet Abhängigkeiten zwischen Energie, Verkehr, digitalen Netzen und weiteren lebenswichtigen Diensten.\nEinordnung: Für Systemarchitektur und Wiederanlaufplanung ist relevant, dass ein Ausfall mehrere Sektoren gleichzeitig treffen kann. Gegenüber der kürzlich angekündigten Beratungsgruppe liegen damit konkrete neue Orientierungsunterlagen vor. Empfehlungen und Leitlinien sind jedoch nicht mit einer neuen pauschalen gesetzlichen Pflicht für jedes Unternehmen gleichzusetzen.\nQuellen: Europäische Kommission, Originalunterlagen und Downloads: https://civil-protection-humanitarian-aid.ec.europa.eu/what/civil-protection/preparedness_en"
+    },
+    {
+      "id": "2026-11-03-1",
+      "date": "2026-11-03",
+      "number": 1,
+      "title": "SAP öffnet Max Success Plan für zusätzliche Partner-Vertriebswege",
+      "text": "Fakten: SAP teilte am 2. November mit, dass Max Success Plan nun auch über Cloud Choice (CCFlex) und Resell (VAR) zugänglich ist. Der Zugang über Managed Service Provider wird als kommend beschrieben. Damit erweitert SAP die Vertriebswege für sein umfassendes Begleitangebot zu Cloud- und KI-Transformationen.\nEinordnung: Für ERP-Kunden ist relevant, welche Unterstützung sie über ihren bestehenden Partner beziehen können. Konkreter Leistungsumfang und Vertragsbedingungen müssen geprüft werden. Es liegt ausschließlich eine Herstellerquelle vor; die Mitteilung belegt keine unabhängig gemessenen Projekt- oder Produktivitätsverbesserungen.\nQuellen: SAP, Originalmitteilung: https://news.sap.com/2026/11/ai-transformation-guidance-for-every-customer/"
+    },
+    {
+      "id": "2026-11-03-2",
+      "date": "2026-11-03",
+      "number": 2,
+      "title": "Descartes verbindet Seefracht-Ereignisse mit SAP-Transportplattformen",
+      "text": "Fakten: Descartes kündigte am 2. November die Integration von MacroPoint Advanced Ocean Visibility mit SAP Business Network Freight Collaboration und Global Track and Trace an. Über das Descartes Global Logistics Network sollen Container-Ereignisse wie Abfahrten, Ankünfte und Verladevorgänge in bestehende SAP-Abläufe gelangen. Der Anbieter nennt standardisierte Schnittstellen und harmonisierte Datenmodelle als Grundlage.\nEinordnung: Für Unternehmen mit internationalen Lieferketten verbindet die Neuerung Transportstatus mit operativer Planung. Datenabdeckung, Zeitverzug und die Zuordnung von Ereignissen zu konkreten Sendungen bleiben wichtige Prüfpunkte. Es liegt ausschließlich die Unternehmensmitteilung vor; Aussagen zu Produktionsreife und Nutzen sind keine unabhängige Bestätigung.\nQuellen: Descartes, Originalmitteilung: https://www.descartes.com/resources/news/descartes-advanced-ocean-visibility-solution-now-integrated-sap-transportation"
+    },
+    {
+      "id": "2026-11-03-3",
+      "date": "2026-11-03",
+      "number": 3,
+      "title": "OPENTUNITY berichtet über digitale Werkzeuge und Pilotversuche für flexible Stromnetze",
+      "text": "Fakten: CORDIS stellte am 2. November Ergebnisse des EU-geförderten Projekts OPENTUNITY vor. Vier Bereiche bündeln Netzbeobachtung, Flexibilitätsmanagement, Datenaustausch und Interoperabilität. Erprobungen fanden in Griechenland, Slowenien, Spanien und der Schweiz statt, unter anderem zu lokalem Flexibilitätshandel, intelligentem Laden und Netzen mit vielen dezentralen Solaranlagen.\nEinordnung: Für europäische Netzbetreiber und Energiedaten-Architekturen ist das Zusammenspiel technischer Schnittstellen und nutzbarer Flexibilität relevant. Der Projektbericht beschreibt Entwicklung und Erprobung; daraus folgt weder eine flächendeckende Einführung noch eine unabhängig bestätigte Einsparung für alle Netztypen. Die Übertragbarkeit muss am jeweiligen Netz und Marktmodell geprüft werden.\nQuellen: Europäische Kommission/CORDIS, Projektbericht: https://cordis.europa.eu/article/id/468347-digital-solutions-for-a-more-flexible-efficient-and-sustainable-energy-system"
+    },
+    {
+      "id": "2026-11-03-4",
+      "date": "2026-11-03",
+      "number": 4,
+      "title": "Erklärbare KI: Neue Studie filtert visuelle Aufmerksamkeitskarten",
+      "text": "Fakten: Eine am 2. November veröffentlichte, begutachtete Vorabfassung in Scientific Reports stellt „Entropy-Guided Attention Filtering“ vor. Das Verfahren kombiniert Aufmerksamkeitsmechanismen und Entropiefilter, um verrauschte visuelle Erklärungen zu verbessern. Getestet wurde unter anderem auf CIFAR-10, ISIC 2019 und SST-2; die Autorenschaft fordert zusätzliche Validierung mit industriellen Wärmebildern.\nEinordnung: Für KI-gestützte Überwachung und Fehlerdiagnose ist nachvollziehbarere Darstellung relevant. Die heterogenen Benchmark-Tests belegen jedoch keine Einsatzreife in realen thermischen Anlagen. Anschauliche Aufmerksamkeitskarten allein ersetzen weder eine Prüfung der Modellzuverlässigkeit noch eine fachliche Ursachenanalyse. Die Vorabfassung kann noch redaktionell geändert werden.\nQuellen: Wissenschaftliche Originalpublikation: https://www.nature.com/articles/s41598-026-77387-8"
+    },
+    {
+      "id": "2026-11-03-5",
+      "date": "2026-11-03",
+      "number": 5,
+      "title": "OECD diskutiert heute Plattformdesign, Kinderschutz und Datenschutz",
+      "text": "Fakten: Die OECD startet am 3. November von 17:00 bis 18:15 Uhr MEZ ihre Webinarreihe „Growing up online“. Die angekündigte Diskussion behandelt den Meta-Vergleich in den USA und dessen mögliche Bedeutung für Kinderschutz, Datenschutz, Plattformgestaltung und Durchsetzung. Ergebnisse der heutigen Veranstaltung liegen zum Redaktionszeitpunkt noch nicht vor.\nEinordnung: Für europäische Digitalpolitik sind die Fragen nach altersgerechten Voreinstellungen und Schutzmechanismen bei global genutzten Diensten relevant. Die Veranstaltung ist ein Austauschformat, keine neue OECD-Regel oder EU-Rechtsänderung. Aus einem US-Vergleich lassen sich zudem keine unveränderten Pflichten für europäische Angebote ableiten.\nQuellen: OECD, offizielle Veranstaltungsankündigung: https://www.oecd.org/en/events/2026/11/the-meta-settlement-implications-for-child-safety-and-privacy-online.html"
+    },
+    {
+      "id": "2026-11-02-1",
+      "date": "2026-11-02",
+      "number": 1,
+      "title": "Dokument-KI: Neues Trainingsverfahren verbessert die Erkennung satzübergreifender Beziehungen",
+      "text": "Fakten: Eine am 29. Oktober in Scientific Reports veröffentlichte, begutachtete Vorabfassung stellt das „Document World Model“ vor. Zwei zusätzliche Trainingsziele sollen Informationen über erwähnte Entitäten und ihre Beziehungen beim schrittweisen Lesen eines Dokuments stabilisieren. In Tests auf Re-DocRED und HacRED berichten die Forschenden Verbesserungen gegenüber den verglichenen Basismodellen, besonders bei Beziehungen über größere Textabstände.\nEinordnung: Das ist für die strukturierte Auswertung langer Dokumente und den Aufbau von Wissensbeständen relevant. Die Benchmark-Ergebnisse belegen jedoch weder fehlerfreie Extraktion noch Einsatzreife für Verträge, Rechnungen oder ERP-Prozesse; dafür wären eigene fachliche Tests erforderlich. Die veröffentlichte Fassung kann noch redaktionell geändert werden.\nQuellen: Wissenschaftliche Originalpublikation: https://www.nature.com/articles/s41598-026-77327-6"
+    },
+    {
+      "id": "2026-11-02-2",
+      "date": "2026-11-02",
+      "number": 2,
+      "title": "SAP-Fallbericht zeigt Integrationsprobleme zwischen Zählern, Abrechnung und Kundensystemen",
+      "text": "Fakten: Ein von SAP am 30. Oktober gelisteter Beitrag beschreibt Modernisierungsvorhaben bei Severn Trent Water und dem belgischen Wasserversorger Farys. Laut Hersteller wurden bestehende Integrationslücken mit Cloud Integration, API Management und ereignisbasierter Verarbeitung adressiert. Bei Farys sollen Smart-Meter-Daten zeitnäher an Abrechnung, Analyse und Kundenanwendungen weitergegeben werden.\nEinordnung: Die Fälle verdeutlichen, warum Datenabgleich, Fehlerbehandlung und nachvollziehbare Schnittstellen schon vor einer CRM- oder ERP-Migration geplant werden müssen. Es liegt hier ausschließlich eine Unternehmensquelle vor; die berichteten Verbesserungen sind keine unabhängig bestätigten Vergleichsmessungen und lassen sich nicht pauschal auf andere Versorger übertragen.\nQuellen: SAP, Hersteller-Fallbericht: https://www.sap.com/korea/blogs/how-two-utilities-transformed-their-operations-with-sap-integration-suite"
+    },
+    {
+      "id": "2026-11-02-3",
+      "date": "2026-11-02",
+      "number": 3,
+      "title": "EU-Kommission setzt Beratungsgremium für Katastrophenvorsorge ein",
+      "text": "Fakten: Die Kommission kündigte am 30. Oktober die Einrichtung der PreparEU-Beratungsgruppe an. Elf Fachleute aus Katastrophenschutz und Krisenmanagement sowie sechs Personen aus Wissenschaft und Forschung sollen Bedrohungen und vorhandene Fähigkeiten untersuchen. Empfehlungen zur Stärkung der europäischen Vorsorge sind für das Frühjahr 2027 vorgesehen.\nEinordnung: Für organisatorische Systemarchitektur und Betriebsresilienz ist der Blick auf grenzüberschreitende Abhängigkeiten wichtig: Ausfälle von Energie, Kommunikation oder Lieferketten können sich gegenseitig verstärken. Das Gremium ist ein Beratungsschritt; seine Einrichtung schafft für sich genommen keine neuen verbindlichen technischen Unternehmenspflichten.\nQuellen: Europäische Kommission, Originalankündigung mit Transkript: https://audiovisual.ec.europa.eu/en/media/video/I-297052"
+    },
+    {
+      "id": "2026-11-02-4",
+      "date": "2026-11-02",
+      "number": 4,
+      "title": "Eurostat: EU-Bahnverkehr erreicht 2025 neuen Höchststand",
+      "text": "Fakten: Laut der am 30. Oktober veröffentlichten Eurostat-Auswertung stieg die Verkehrsleistung der großen Bahnunternehmen 2025 auf 457 Milliarden Personenkilometer, um 2,6 Prozent gegenüber 2024. Das ist der höchste gemeldete Wert seit Beginn der Erhebung 2004. Österreich lag mit 1.588 Personenkilometern je Einwohner hinter Ungarn und Frankreich an dritter Stelle.\nEinordnung: Die Daten sind ein Bezugspunkt für nachhaltige Mobilität und Verkehrsplanung. Personenkilometer messen die zurückgelegte Entfernung aller Reisenden, nicht die Zahl unterschiedlicher Menschen. Ein höheres Bahnaufkommen allein belegt weder eine entsprechende Verlagerung vom Auto noch eine bestimmte Emissionsminderung; dafür braucht es zusätzliche Verkehrsmittel- und Energiedaten.\nQuellen: Eurostat, Datensätze rail_pa_typepas und rail_pa_quartal: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261030-1"
+    },
+    {
+      "id": "2026-11-02-5",
+      "date": "2026-11-02",
+      "number": 5,
+      "title": "IEA unterscheidet finanzierbare Projektrisiken und strukturelle Energiewende-Hürden",
+      "text": "Fakten: Ein am 28. Oktober veröffentlichter gemeinsamer Bericht von IEA und Convergence untersucht Mischfinanzierung für erneuerbare Energien in Indonesien, den Philippinen und Vietnam. Betrachtet werden Dachsolaranlagen, dezentrale Versorgung, Offshore-Windkraft und Batteriespeicher. Vergünstigte Finanzierung kann dem Bericht zufolge bestimmte Projektrisiken abfedern; bei überwiegend strukturellen oder regulatorischen Investitionshemmnissen ist ihre Wirkung begrenzter.\nEinordnung: Die Untersuchung ist wegen der Bedeutung der Region für die globale Energiewende relevant. Auch für internationale Nachhaltigkeitsprogramme ist die Unterscheidung zwischen konkretem Projektrisiko und ungeklärten Marktregeln wichtig. Der Bericht analysiert Finanzierungswege; er ist keine Finanzierungszusage und kein Nachweis bereits gebauter Anlagen.\nQuellen: IEA und Convergence, Originalbericht: https://www.iea.org/reports/developing-blended-finance-pathways-for-renewable-energy-in-southeast-asia"
+    },
+    {
+      "id": "2026-11-01-1",
+      "date": "2026-11-01",
+      "number": 1,
+      "title": "Kanada tritt dem europäischen Supercomputing-Verbund EuroHPC bei",
+      "text": "Fakten: Kanada ist am 30. Oktober dem EuroHPC Joint Undertaking als teilnehmender Staat beigetreten. Nach Angaben der EU-Kommission umfasst die Zusammenarbeit Hochleistungsrechnen, KI-Infrastruktur, Quantentechnologien und wissenschaftliche Anwendungen. Kanadische Forschende können damit an gemeinsamen Vorhaben mit europäischen Partnern mitwirken.\nEinordnung: Für europäische Forschung und datenintensive Anwendungen erweitert sich das Netz internationaler Partner. Die Mitgliedschaft bedeutet jedoch keine automatische Rechenzeitzuteilung für einzelne Projekte; dafür gelten die jeweiligen Zugangsverfahren.\nQuellen: Europäische Kommission: https://digital-strategy.ec.europa.eu/en/news/eu-and-canada-team-supercomputing-and-quantum"
+    },
+    {
+      "id": "2026-11-01-2",
+      "date": "2026-11-01",
+      "number": 2,
+      "title": "KI-Kompetenz: Neues Modell trennt bessere Arbeitsergebnisse von tatsächlichem Lernen",
+      "text": "Fakten: Ein am 30. Oktober in Communications Psychology veröffentlichter Perspektivbeitrag stellt das SYNC-Modell vor. Es unterscheidet zwischen KI-gestützter Aufgabenleistung und dem Aufbau eigener Kenntnisse und Fähigkeiten. Im Mittelpunkt stehen das Auslagern von Planung und Kontrolle an KI sowie die bewusste eigene Überprüfung. Der Beitrag entwickelt einen konzeptionellen Rahmen und Forschungshypothesen; er berichtet keine neue Wirksamkeitsstudie.\nEinordnung: Für Schulungen und KI-Einführung in Organisationen ist diese Unterscheidung relevant: Ein gutes KI-unterstütztes Ergebnis allein belegt noch keinen individuellen Kompetenzzuwachs. Eigenständiges Prüfen und Aufgaben ohne KI können bei der Bewertung helfen; konkrete Maßnahmen benötigen weiterhin empirische Prüfung.\nQuellen: Wissenschaftliche Originalpublikation: https://www.nature.com/articles/s44271-026-00548-y"
+    },
+    {
+      "id": "2026-11-01-3",
+      "date": "2026-11-01",
+      "number": 3,
+      "title": "Eurostat: Haushaltsstrom im ersten Halbjahr 2026 etwas günstiger",
+      "text": "Fakten: Laut der am 30. Oktober veröffentlichten Eurostat-Auswertung sank der durchschnittliche EU-Haushaltsstrompreis gegenüber dem zweiten Halbjahr 2025 um 2,2 Prozent auf rund 0,28 Euro je Kilowattstunde. Das Niveau blieb über jenem vor der Energiekrise 2022. Zwischen den Mitgliedstaaten bestanden weiterhin erhebliche Preisunterschiede.\nEinordnung: Die Daten liefern einen aktuellen statistischen Bezugspunkt für Energiekosten und soziale Nachhaltigkeit. Sie beschreiben das erste Halbjahr und Haushalte, nicht heutige Spotpreise oder industrielle Stromverträge. Aus dem EU-Durchschnitt lässt sich deshalb keine einheitliche Entlastung österreichischer Haushalte ableiten.\nQuellen: Eurostat, Datensatz nrg_pc_204: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261030-2"
+    },
+    {
+      "id": "2026-11-01-4",
+      "date": "2026-11-01",
+      "number": 4,
+      "title": "OECD vergleicht datenbasierte Abgrenzungen ländlicher Räume",
+      "text": "Fakten: Der am 30. Oktober veröffentlichte OECD-Bericht „The Geography of Choice“ untersucht unterschiedliche funktionale Raumabgrenzungen, darunter Arbeitsmarktgebiete und funktionale ländliche Räume. Auch Mobilfunkdaten dienen dazu, Alltagsmobilität über Pendelwege hinaus zu untersuchen. Die Ansätze sollen bestehende nationale Definitionen ergänzen; ihre Eignung hängt von Fragestellung, Maßstab und Datenlage ab.\nEinordnung: Für Data Science und regionale Infrastrukturplanung ist die räumliche Bezugsgröße entscheidend: Verwaltungsgrenzen bilden tatsächliche Versorgungs- und Mobilitätsbeziehungen nicht immer ab. Vergleichbare Indikatoren benötigen daher nachvollziehbare Gebietsdefinitionen. Der Bericht ist ein methodischer Beitrag und kein Nachweis bereits verbesserter regionaler Versorgung.\nQuellen: OECD, Originalbericht: https://www.oecd.org/en/publications/the-geography-of-choice_a5e46a1f-en/full-report.html"
+    },
+    {
+      "id": "2026-11-01-5",
+      "date": "2026-11-01",
+      "number": 5,
+      "title": "EIB und Kanada schaffen Rahmen für Investitionen in Rohstoff-Lieferketten",
+      "text": "Fakten: Die Europäische Investitionsbank und Kanada haben am 30. Oktober ein Rahmenabkommen unterzeichnet, das EIB-Investitionen in Kanada ermöglichen soll. Ein früher Schwerpunkt liegt auf kritischen Rohstoffen, einschließlich Gewinnung, Verarbeitung, Raffination und Recycling. Einzelne Finanzierungen unterliegen weiterhin den üblichen Prüfungs- und Genehmigungsverfahren der Bank.\nEinordnung: Für Europas Energie- und Digitalwirtschaft ist die Diversifizierung kritischer Rohstofflieferketten relevant. Aus Sicht von Beschaffung und ERP-Datenmanagement unterstreicht dies die Bedeutung nachvollziehbarer Materialherkunft und Lieferanteninformationen. Das Rahmenabkommen allein ist weder eine konkrete Projektfinanzierung noch ein Beleg für die Nachhaltigkeit einzelner Lieferketten.\nQuellen: EIB, institutionelle Originalmitteilung: https://www.eib.org/en/press/all/2026-398-eib-and-canada-open-new-chapter-for-investment-at-eu-canada-summit"
+    },
+    {
+      "id": "2026-10-31-1",
+      "date": "2026-10-31",
+      "number": 1,
+      "title": "SAP konkretisiert Kontrollen für KI-Agenten und menschliche Freigaben",
+      "text": "Fakten: SAP erläuterte am 30. Oktober neue Governance-Funktionen von der TechEd. Der Enterprise AI Gateway soll Authentifizierung, Richtlinien, Routing und Überwachung zur Laufzeit verbinden. Neue LeanIX-Funktionen sollen Architekturinformationen erst nach menschlicher Freigabe für Agenten bereitstellen. Ein AI Governance Assistant soll Dokumentationslücken und mögliche Klassifizierungsprobleme im Agentenbestand markieren; seine Ergebnisse bleiben Entwürfe für die Rechts- und Compliance-Prüfung. Es handelt sich um Herstellerangaben, nicht um unabhängig bestätigte Wirksamkeitsnachweise.\n\nEinordnung: Für ERP-Prozesse werden technische Kontrollen und dokumentierte Verantwortlichkeiten enger verbunden. Die Funktionen ersetzen weder die fachliche Risikobewertung noch eine rechtliche Prüfung. Verfügbarkeit und Eignung sind je Produkt und Einsatzfall zu prüfen.\n\nQuellen: https://news.sap.com/2026/10/sap-teched-shows-how-to-lead-with-ai-governance/"
+    },
+    {
+      "id": "2026-10-31-2",
+      "date": "2026-10-31",
+      "number": 2,
+      "title": "EZB: KI-Nutzung am Arbeitsplatz wächst, Befragungen bleiben unterschiedlich",
+      "text": "Fakten: Die EZB stellte am 30. Oktober Befunde zur KI-Verbreitung vor. In ihrer Consumer Expectations Survey berichten 52 Prozent der Beschäftigten von KI-Nutzung bei der Arbeit, gegenüber 26 Prozent 2024. Die EZB weist zugleich darauf hin, dass diese Quote im oberen Bereich anderer Befragungen liegt und die breite Fragestellung eine Rolle spielen kann. Unter Unternehmen mit geplanten KI-Investitionen nennen 46 Prozent Weiterbildung als Investitionsbereich; Mehrfachnennungen waren möglich.\n\nEinordnung: Für ERP-Einführungen gehört Qualifizierung zur technischen Einführung. Nutzungsquoten aus unterschiedlich formulierten Erhebungen sind nicht unmittelbar vergleichbar. Selbstauskünfte und Investitionsabsichten belegen weder realisierte Produktivitätsgewinne noch einen kausalen Effekt der KI auf Beschäftigung.\n\nQuellen: https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html"
+    },
+    {
+      "id": "2026-10-31-3",
+      "date": "2026-10-31",
+      "number": 3,
+      "title": "EU und Kanada schließen Verhandlungen über digitalen Handel ab",
+      "text": "Fakten: EU und Kanada meldeten am 30. Oktober den politischen Abschluss der Verhandlungen über ein Digital Trade Agreement. Der vereinbarte Rahmen behandelt grenzüberschreitende Datenflüsse, elektronische Verträge, Signaturen und Rechnungen sowie Verbraucherschutz und unerwünschte elektronische Werbung. Laut EU-Kommission folgen juristische Überprüfung, Übersetzungen und die jeweiligen Verfahren zur förmlichen Unterzeichnung und zum Abschluss. Der Verhandlungsabschluss bedeutet noch kein Inkrafttreten.\n\nEinordnung: Für international tätige Unternehmen sind verlässliche digitale Nachweise und Datenflüsse eng mit ERP-, Vertrags- und Rechnungsprozessen verbunden. Konkrete Anpassungen sollten anhand des endgültigen Textes und seiner tatsächlichen Anwendbarkeit erfolgen; bestehende Datenschutzanforderungen werden durch die politische Ankündigung nicht aufgehoben.\n\nQuellen: https://policy.trade.ec.europa.eu/news/eu-and-canada-conclude-negotiations-digital-trade-agreement-2026-10-30_en"
+    },
+    {
+      "id": "2026-10-31-4",
+      "date": "2026-10-31",
+      "number": 4,
+      "title": "Destination Earth: EU und Kanada vertiefen Zusammenarbeit bei Klimamodellen",
+      "text": "Fakten: Die EU-Kommission und Environment and Climate Change Canada unterzeichneten am 30. Oktober eine Verwaltungsvereinbarung zur Zusammenarbeit unter Destination Earth. Zusammengeführt werden sollen Daten, wissenschaftliche Expertise und hochauflösende Modellierung. Schwerpunkte sind KI-gestützte Vorhersagen von Waldbränden, arktische Klimadynamik und regionale Klimarisiken, unter anderem in der Karibik. Die Mitteilung beschreibt vereinbarte Zusammenarbeit und geplante Anwendungen, keine bereits gemessene Verbesserung der Vorhersagegüte.\n\nEinordnung: Für Data Science und Nachhaltigkeitsplanung wird die Verbindung belastbarer Messdaten mit nachvollziehbaren Modellen wichtiger. Digitale Zwillinge können Szenarien und Vorsorge unterstützen, bleiben aber von Datenqualität, Unsicherheiten und regionaler Validierung abhängig. Bessere Modelle ersetzen keine Maßnahmen zur Emissionsminderung.\n\nQuellen: https://digital-strategy.ec.europa.eu/en/news/eu-and-canada-partner-tackle-climate-risks-through-destination-earth"
+    },
+    {
+      "id": "2026-10-31-5",
+      "date": "2026-10-31",
+      "number": 5,
+      "title": "OECD-Steuerforum vertieft Arbeit zu Digitalisierung und KI in der Verwaltung",
+      "text": "Fakten: Das OECD/G20 Inclusive Framework zu BEPS tagte vom 28. bis 30. Oktober in Paris. Laut OECD nahmen mehr als 410 Personen aus 131 Rechtsordnungen teil. Die Mitglieder vereinbarten weitere Arbeit zu steuerlichen Herausforderungen der Digitalisierung und zur globalen Mobilität von Arbeitskräften. Auch KI in Steuerverwaltungen wurde diskutiert. Die Veröffentlichung dokumentiert Arbeitsrichtungen und Dialog; daraus ergibt sich keine pauschale neue Steuer- oder Meldepflicht für Unternehmen.\n\nEinordnung: Für Finance- und ERP-Architekturen bleiben konsistente grenzüberschreitende Steuerdaten und nachvollziehbare Verarbeitung relevant. Politische Arbeitsprogramme müssen von verabschiedeten Regeln und nationaler Umsetzung getrennt werden. Der Einsatz von KI bei Behörden erfordert überprüfbare Daten und klare Verantwortlichkeit.\n\nQuellen: https://www.oecd.org/en/about/news/announcements/2026/10/international-tax-co-operation-inclusive-framework-on-beps-marks-10th-anniversary-at-plenary-meeting-in-paris.html"
+    },
+    {
+      "id": "2026-10-30-1",
+      "date": "2026-10-30",
+      "number": 1,
+      "title": "EU bündelt drei Projekte für generative KI in der Cybersicherheit",
+      "text": "Fakten: Das ECCC stellte am 29. Oktober einen Cyber AI Cluster mit AICYROS, AIGENTIC und GENESIS-AI vor. Die drei Horizon-Europe-Projekte umfassen rund 42 Millionen Euro Investitionen und mehr als 70 Partner aus 14 EU-Mitgliedstaaten und dem Vereinigten Königreich. Sie laufen seit 1. Oktober für 36 Monate und entwickeln unter anderem überprüfbare KI-Agenten für Bedrohungsanalyse, Vorfallbearbeitung und Wiederherstellung. Die erste öffentliche Zusammenkunft fand am 27. Oktober in Brüssel statt.\n\nEinordnung: Gegenüber der bisherigen Veranstaltungsankündigung liegen nun konkrete Projektangaben vor. Für ERP-Betrieb und Sicherheitsarchitektur sind kontrollierte Berechtigungen, Auditierbarkeit und Tests wichtig. Fördervolumen und Projektstart sind noch kein Nachweis wirksamer Schutzfunktionen im produktiven Einsatz.\n\nQuellen: https://cybersecurity-centre.europa.eu/news/eccc-launches-cluster-projects-ai-cybersecurity-2026-10-29_en"
+    },
+    {
+      "id": "2026-10-30-2",
+      "date": "2026-10-30",
+      "number": 2,
+      "title": "SAP konkretisiert Lakehouse, Stammdaten und Geschäftssemantik für KI-Agenten",
+      "text": "Fakten: SAP erläuterte am 29. Oktober neue Business-Data-Cloud-Funktionen: native Unterstützung für Apache Iceberg, einen auf Apache Polaris basierenden Katalog und föderierte Datenabfragen mit Dremio. Ein neuer Ontology Manager soll aufgabenspezifische Sichten auf den SAP Knowledge Graph ermöglichen. SAP bezeichnet Reltio nach abgeschlossener Übernahme als allgemein verfügbar in Business Data Cloud. Diese Produkt- und Verfügbarkeitsangaben stammen ausschließlich vom Hersteller und sind nicht unabhängig bestätigt.\n\nEinordnung: Für Unternehmensarchitekturen verbindet dies Datenzugriff, gemeinsame fachliche Begriffe und Stammdatenabgleich. Weniger Datenkopien bedeuten nicht automatisch einfachere Berechtigungen oder niedrigere Gesamtkosten. Funktionsumfang, Vertragsmodell, Datenschutz und Leistung sollten anhand der konkreten Systemlandschaft geprüft werden.\n\nQuellen: https://news.sap.com/2026/10/sap-lakehouse-new-data-fabric-innovations-sap-bdc-autonomous-enterprise/"
+    },
+    {
+      "id": "2026-10-30-3",
+      "date": "2026-10-30",
+      "number": 3,
+      "title": "Europäische digitale Identitäten: Wallet-Teams testen in Brüssel gemeinsam",
+      "text": "Fakten: Die EU-Kommission veranstaltet laut offizieller Programmseite am 29. und 30. Oktober den EUDI Wallets Launchpad 2026 in Brüssel. Vorgesehen sind praktische Tests, Demonstrationen und Workshops mit nationalen Wallet-Teams, Pilotprojekten, Zertifizierungsstellen sowie Organisationen, die digitale Nachweise ausstellen oder entgegennehmen. Die Veranstaltung ist auf Einladung zugänglich. Die Quelle beschreibt das Programm, keinen abschließenden Test- oder Ergebnisbericht.\n\nEinordnung: Für digitale Verwaltungs- und Unternehmensprozesse rücken interoperable Identitätsnachweise und ihre Einbindung in bestehende Systeme näher an die Umsetzung. Die Veranstaltung belegt weder die flächendeckende Verfügbarkeit aller nationalen Wallets noch eine bestandene Zertifizierung. Zugriffskontrolle und datensparsame Nachweisprüfung bleiben eigenständige Architekturaufgaben.\n\nQuellen: https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/973932074/Launchpad%2Babout%2B2026"
+    },
+    {
+      "id": "2026-10-30-4",
+      "date": "2026-10-30",
+      "number": 4,
+      "title": "Eurostat veröffentlicht neue EU-Abfalldaten für 2024",
+      "text": "Fakten: Nach der Veröffentlichung vom 29. Oktober erzeugte die EU 2024 rund 765 Millionen Tonnen Abfall ohne große mineralische Abfälle aus Bergbau, Gewinnung, Bau und Abbruch. Das entspricht 1.697 Kilogramm je Person und 35 Prozent des gesamten Abfallaufkommens. Beim behandelten Abfall entfielen 42 Prozent auf Recycling. Die Mitteilung verlinkt die Datensätze env_wasgen und env_wastrt und weist ausdrücklich auf unterschiedliche Abgrenzungen von Erzeugung und Behandlung hin.\n\nEinordnung: Für Nachhaltigkeitsberichte und ERP-Materialdaten müssen Abfallarten, Mengen und Behandlungswege getrennt erfasst werden. Die Pro-Kopf-Zahl ist keine Haushaltsmüllkennzahl. Erzeugungs- und Behandlungsmengen sind wegen importierter beziehungsweise exportierter Abfälle nicht direkt vergleichbar; aus Recyclinganteilen allein folgt keine umfassende Kreislaufbewertung.\n\nQuellen: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261029-2"
+    },
+    {
+      "id": "2026-10-30-5",
+      "date": "2026-10-30",
+      "number": 5,
+      "title": "OECD sieht Umsetzungslücken bei Österreichs nachhaltiger Politiksteuerung",
+      "text": "Fakten: Der am 29. Oktober erschienene OECD Policy Coherence Scan of Austria untersucht institutionelle und rechtliche Rahmenbedingungen mit Schwerpunkt Entwicklungspolitik und Entwicklungszusammenarbeit. Die OECD erkennt etablierte Instrumente für Planung, Budgetierung und Folgenabschätzung an, sieht sie aber nicht systematisch verbunden. Empfohlen werden klarere Zuständigkeiten, wirksamere ressortübergreifende Abstimmung und eine engere Rückkopplung von Monitoring und Evaluation in Entscheidungen.\n\nEinordnung: Für organisatorische Systemarchitektur und Nachhaltigkeitssteuerung ist die Verbindung von Zielen, Daten, Verantwortlichkeit und Ressourcen zentral. Der Bericht liefert eine institutionelle Analyse und Empfehlungen, keine neue verbindliche Unternehmenspflicht. Die Übertragung seiner Ansätze auf betriebliche Governance ist eine Einordnung und kein vom Bericht gemessener Unternehmenserfolg.\n\nQuellen: https://www.oecd.org/en/publications/oecd-policy-coherence-scan-of-austria_dbbee414-en/full-report/executive-summary_4b67b16b.html"
+    },
+    {
+      "id": "2026-10-29-1",
+      "date": "2026-10-29",
+      "number": 1,
+      "title": "SAP bringt vier Migrations- und Modernisierungsassistenten in erste Kundenprojekte",
+      "text": "Fakten: SAP berichtete am 28. Oktober, dass vier Assistenten für Datenmanagement, Testmanagement, kundeneigenen Code und Geschäftskonfiguration für Early-Adopter-Kunden verfügbar sind. Sie sollen unter anderem Datenqualitätsprobleme priorisieren, Tests unterstützen und Anpassungen für Cloud-ERP vorbereiten. Systemanalyse-, Projektmanagement- und Rollout-Assistenten bleiben als Erweiterungen geplant. Die Aussagen zum Einsatz und Nutzen stammen vom Hersteller und sind nicht unabhängig bestätigt.\n\nEinordnung: Für ERP-Transformationen werden Datenbereinigung, Tests und der Umgang mit Eigenentwicklungen stärker miteinander verbunden. Early-Adopter-Verfügbarkeit ist von einem allgemein verfügbaren Angebot zu unterscheiden. Automatische Korrekturen benötigen weiterhin kontrollierte Berechtigungen, fachliche Abnahme und nachvollziehbare Änderungen.\n\nQuellen: https://news.sap.com/2026/10/migration-and-modernization-assistants-sap-customer-cloud-erp-transformations/"
+    },
+    {
+      "id": "2026-10-29-2",
+      "date": "2026-10-29",
+      "number": 2,
+      "title": "SAP und NTT planen Zusammenarbeit bei souveräner Cloud und Unternehmens-KI",
+      "text": "Fakten: SAP und NTT kündigten am 28. Oktober ihre Absicht zur Zusammenarbeit bei SAP Sovereign Cloud und Business AI an. Zunächst soll SAP Sovereign Cloud On-Site mit von NTT verwalteter Infrastruktur und Betriebsleistungen kombiniert werden. Das SAP-Angebot ermöglicht den Betrieb SAP-verwalteter Cloud-Lösungen in einem kundeneigenen oder vom Kunden ausgewählten Rechenzentrum. Die Mitteilung beschreibt eine geplante Kooperation für regulierte Branchen, keine bereits vollständig umgesetzte gemeinsame Leistung. Es liegt eine Unternehmensquelle vor.\n\nEinordnung: Für Architekturentscheidungen müssen Datenstandort, physische Kontrolle, Betriebsverantwortung und rechtliche Zugriffsmöglichkeiten getrennt geprüft werden. Die Bezeichnung „souverän“ ersetzt keine Prüfung konkreter Verträge, Zugriffsrechte und regional verfügbarer Leistungen.\n\nQuellen: https://news.sap.com/2026/10/sap-ntt-to-cooperate-deliver-trusted-sovereign-cloud-sap-business-ai-capabilities/"
+    },
+    {
+      "id": "2026-10-29-3",
+      "date": "2026-10-29",
+      "number": 3,
+      "title": "UN-Bericht fordert bessere Dateninfrastruktur für den Kohlenstoffkreislauf der Ozeane",
+      "text": "Fakten: Der am 28. Oktober vorgestellte Climate Technology Progress Report 2026 verbindet unter dem Begriff Ocean Carbon Intelligence Meeresforschung, Beobachtungstechnik, Dateninfrastruktur und Modellierung. UNEP und seine Partner sehen anhaltende Wissens- und Beobachtungslücken, während Erwärmung, Versauerung und weitere Belastungen die Kohlenstoffaufnahme der Meere beeinflussen. Ozeanbasierte Klimaverfahren sollen wissenschaftlich abgesichert, transparent und unter Umweltauflagen entwickelt werden.\n\nEinordnung: Für Data Science zeigt der Bericht, dass belastbare Klimamodelle kontinuierliche Messungen und verlässliche Datenketten benötigen. Neue Verfahren zur CO₂-Entnahme sind keine pauschal bewiesene Lösung und sollen rasche Emissionssenkungen ergänzen. Die Veröffentlichung ist eine fachpolitische Bewertung, kein Wirksamkeitsnachweis für einzelne kommerzielle Technologien.\n\nQuellen: https://www.unep.org/en/news-and-stories/press-release/un-report-urges-investment-ocean-carbon-intelligence-safeguard"
+    },
+    {
+      "id": "2026-10-29-4",
+      "date": "2026-10-29",
+      "number": 4,
+      "title": "OECD legt zwölf Leitlinien für Wohlbefinden und Resilienz in Bergbauregionen vor",
+      "text": "Fakten: Die OECD führt seit 28. Oktober neue Leitlinien für Regionen mit Bergbauaktivitäten. Das Papier bündelt zwölf Leitlinien mit konkreten Handlungsschritten und Praxisbeispielen und aktualisiert das Instrumentarium zur Messung regionalen Wohlbefindens. Grundlage sind regionale Studien, Datenanalysen, Konferenzen und Perspektiven beteiligter Akteure seit 2017. Es handelt sich um politische Handlungsempfehlungen, nicht um verbindliche neue Unternehmenspflichten.\n\nEinordnung: Für die Beschaffung kritischer Rohstoffe und Nachhaltigkeitsbewertungen reicht der Blick auf Fördermenge und Preis nicht aus. Regionale soziale und ökologische Bedingungen sowie langfristige Widerstandsfähigkeit gehören in die Bewertung. Die Leitlinien belegen für sich weder die Nachhaltigkeit einzelner Minen noch die Wirkung konkreter Lieferantenmaßnahmen.\n\nQuellen: https://www.oecd.org/en/publications/guidelines-for-well-being-and-resilience-in-mining-regions_6ef73946-en.html"
+    },
+    {
+      "id": "2026-10-29-5",
+      "date": "2026-10-29",
+      "number": 5,
+      "title": "Eurostat: Armutsgefährdete Menschen berichten häufiger Einschränkungen bei Alltagsaktivitäten",
+      "text": "Fakten: Eurostat veröffentlichte am 28. Oktober EU-Daten für 2025. Moderate oder schwere Schwierigkeiten beim Gehen berichteten 24,9 Prozent der armutsgefährdeten Menschen, gegenüber 16,9 Prozent der nicht armutsgefährdeten Gruppe. Auch bei Erinnern und Konzentration bestehen Unterschiede: 20,6 gegenüber 14,5 Prozent. Der Datensatz ilc_hch19 ist direkt verlinkt. Armutsgefährdung bezeichnet hier ein verfügbares Äquivalenzeinkommen unter 60 Prozent des jeweiligen nationalen Medians nach Sozialtransfers.\n\nEinordnung: Für soziale Nachhaltigkeit und die Gestaltung zugänglicher digitaler Dienste sind solche Verteilungsunterschiede relevant. Die Angaben sind Selbstauskünfte zu 2025 und zeigen Zusammenhänge, keine Ursache-Wirkungs-Beziehung zwischen Einkommen und Einschränkungen. Der relative Einkommensindikator misst weder Vermögen noch individuelle Lebensqualität umfassend.\n\nQuellen: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261028-1"
+    },
+    {
+      "id": "2026-10-28-1",
+      "date": "2026-10-28",
+      "number": 1,
+      "title": "SAP TechEd: Neue Gateways sollen KI-Agenten über Systemgrenzen hinweg kontrollierbar machen",
+      "text": "Fakten: SAP kündigte am 27. Oktober Erweiterungen für Joule Work, Joule Studio und die Business AI Platform an. Vorgesehen sind ein kontrollierter Zugang für Agenten anderer Anbieter sowie ein Enterprise AI Gateway für Authentifizierung, Richtlinien, Routing, Überwachung und Auditierung. Im Early-Adopter-Programm lassen sich auch n8n-Workflows in Joule Studio ausführen; eine breitere Verfügbarkeit soll folgen. Die Angaben stammen vom Hersteller und sind nicht unabhängig bestätigt.\n\nEinordnung: Für ERP-Architekturen werden Identität, Berechtigungen und nachvollziehbare Aktionen über mehrere Systeme hinweg zentral. Die Ankündigungen konkretisieren die bisherige Plattformstrategie, belegen aber weder allgemeine Verfügbarkeit sämtlicher Funktionen noch automatisch erfüllte Compliance-Anforderungen.\n\nQuellen: https://news.sap.com/2026/10/sap-teched-ai-developers-build-what-matters-autonomous-execution/"
+    },
+    {
+      "id": "2026-10-28-2",
+      "date": "2026-10-28",
+      "number": 2,
+      "title": "SAP verbindet Robotik und Inspektionen mit Lager- und Instandhaltungsprozessen",
+      "text": "Fakten: SAP stellte am 27. Oktober einen Ansatz für Physical AI vor: Geschäftsprozesse sollen physische Aufträge auslösen und deren Ergebnisse als strukturierte Daten zurückerhalten. Genannt werden Lageraufgaben aus SAP Extended Warehouse Management sowie Inspektionen aus der Anlageninstandhaltung. Der Intel-Fall ist ausdrücklich ein Proof of Concept; weitere Beispiele betreffen Arçelik-LG und Holcim. Beschreibungen und Nutzenversprechen stammen von SAP beziehungsweise beteiligten Partnern, nicht aus einer unabhängigen Wirkungsprüfung.\n\nEinordnung: Für Systemarchitektur und Betrieb rückt der geschlossene Datenfluss zwischen ERP, Sensorik und ausführenden Maschinen in den Vordergrund. Audit-Trails und Prozessberechtigungen ergänzen technische Schutzmaßnahmen; sie ersetzen keine gesonderte Bewertung der physischen Sicherheit.\n\nQuellen: https://news.sap.com/2026/10/sap-unveils-physical-ai-extends-autonomous-enterprise-real-world-sap-teched/"
+    },
+    {
+      "id": "2026-10-28-3",
+      "date": "2026-10-28",
+      "number": 3,
+      "title": "OECD: Emissionen wachsen langsamer, liegen aber weiterhin über dem Niveau von 2015",
+      "text": "Fakten: Das OECD-Arbeitspapier „Emissions unpacked“ vom 27. Oktober untersucht globale Emissions- und Energiedaten von 1990 bis 2024. Die jährliche Wachstumsrate der Treibhausgasemissionen sank demnach von einem Trend von 1,8 Prozent vor 2015 auf 0,7 Prozent danach. Die Emissionen liegen dennoch rund zehn Prozent über dem Niveau von 2015. Die Analyse unterscheidet Veränderungen im Energiesystem von Effekten langsameren Wirtschaftswachstums.\n\nEinordnung: Für Nachhaltigkeitskennzahlen und Szenarioplanung sollten absolute Emissionen, Emissionsintensität und wirtschaftliche Aktivität getrennt bleiben. Langsameres Wachstum bedeutet noch keine Emissionssenkung; die Befunde sind eine historische Analyse und keine Prognose für einzelne Unternehmen.\n\nQuellen: https://www.oecd.org/en/publications/emissions-unpacked_099cc74a-en.html"
+    },
+    {
+      "id": "2026-10-28-4",
+      "date": "2026-10-28",
+      "number": 4,
+      "title": "UNEP konkretisiert Kreislaufwirtschaft als Ansatz gegen Natur- und Lieferkettenrisiken",
+      "text": "Fakten: UNEP stellte am 27. Oktober ein Papier des International Resource Panel zur Rolle von Unternehmen und Kreislaufwirtschaft vor. Zu den empfohlenen Ansätzen gehören geringerer Primärmaterialbedarf, langlebigere Produkte, Wiederverwendung, weniger Abfall und Schadstoffe sowie eine naturverträgliche Nutzung biologischer Ressourcen. Unternehmen sollen Materialherkunft und Auswirkungen auf Ökosysteme nachvollziehbar erfassen. Der Beitrag fasst Handlungsansätze zusammen; er belegt keine garantierte Rentabilität einzelner Maßnahmen.\n\nEinordnung: Für ERP und Beschaffung verbindet dies Materialstammdaten, Lieferketteninformationen und Lebenszyklusbetrachtung. Recyclingquoten allein reichen zur Bewertung nicht aus: Auch absolute Rohstoffnachfrage und Auswirkungen auf Natur und Flächennutzung sind zu berücksichtigen.\n\nQuellen: https://www.unep.org/en/news-and-stories/technical-highlight/why-circular-economy-increasingly-crucial-and-profitable"
+    },
+    {
+      "id": "2026-10-28-5",
+      "date": "2026-10-28",
+      "number": 5,
+      "title": "Eurostat veröffentlicht neue Daten zur Sicherheit europäischer Schifffahrt",
+      "text": "Fakten: Eurostat meldete am 27. Oktober für 2025 weltweit 22 Todesfälle bei Seeunfällen mit EU-registrierten Schiffen, sieben mehr als 2024. Davon betrafen 19 Besatzungsmitglieder; Passagiertodesfälle wurden nicht erfasst. Je acht Todesfälle entfielen auf Fracht- und Fischereischiffe. Die Mitteilung verlinkt den Datensatz tran_sf_marv und eine ausführlichere methodische Darstellung. Die Zahlen beziehen sich auf 2025, nicht auf das laufende Jahr.\n\nEinordnung: Für Logistik, soziale Nachhaltigkeit und HSEQ-Berichte ist die klare Abgrenzung von Schiffsregistrierung, Unfallort und Personengruppe wichtig. Absolute Fallzahlen erlauben ohne Angaben zu Verkehrsleistung oder Exposition keinen direkten Vergleich des Risikos verschiedener Verkehrsträger und erklären keine Unfallursachen.\n\nQuellen: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261027-2"
+    },
+    {
+      "id": "2026-10-27-1",
+      "date": "2026-10-27",
+      "number": 1,
+      "title": "Neue Studie: KI verbessert Aufgabenleistung, ersetzt aber keinen nachgewiesenen Kompetenzaufbau",
+      "text": "Fakten: Nature Human Behaviour veröffentlichte am 26. Oktober eine randomisierte Studie mit 487 Unternehmensberatenden. Mit Zugang zu ChatGPT und entsprechender Schulung erzielten sie bei drei fachfremden Data-Science-Aufgaben bessere Ergebnisse als die Kontrollgruppe, erreichten jedoch nicht das Niveau der Fachleute. Bei technischen Fragen ohne KI zeigte sich anschließend kein nachweisbarer Wissensvorsprung. BCG und OpenAI waren an der Forschung beteiligt; die Untersuchung ist daher keine vollständig unabhängige Produktbewertung.\n\nEinordnung: Für ERP-Einführungen und Weiterbildung sollten unterstützte Arbeitsleistung und selbstständig verfügbare Kompetenz getrennt gemessen werden. Die Ergebnisse betreffen konkrete Aufgaben und einen begrenzten Versuch; sie beweisen nicht, dass KI grundsätzlich keinen langfristigen Lernerfolg ermöglichen kann.\n\nQuellen: https://www.nature.com/articles/s41562-026-02566-6"
+    },
+    {
+      "id": "2026-10-27-2",
+      "date": "2026-10-27",
+      "number": 2,
+      "title": "Europäische Cybersicherheit: KI-gestützte Schwachstellenbehebung steht heute in Brüssel im Fokus",
+      "text": "Fakten: ECCC und die EU-Kommission veranstalten laut Programm am 27. Oktober in Brüssel einen Fachtag zu KI und Cybersicherheit. Vorgesehen sind Beiträge aus EU-geförderten Projekten, Forschung und Industrie sowie ein Ausblick auf eine kommende europäische Grand Challenge zur KI-gestützten Behebung von Schwachstellen. Die Veranstalter behandeln sowohl defensive Anwendungen als auch die missbräuchliche Automatisierung von Angriffen. Zum Recherchezeitpunkt liegt eine Veranstaltungsankündigung vor, kein Ergebnisbericht.\n\nEinordnung: Für Unternehmensarchitekturen ist entscheidend, ob KI-Werkzeuge Sicherheitslücken nachvollziehbar erkennen und Änderungen kontrolliert umsetzen können. Angekündigte Wettbewerbe oder Demonstrationen belegen noch keine verlässliche Absicherung produktiver ERP-Systeme.\n\nQuellen: https://cybersecurity-centre.europa.eu/events/cybersecurity-and-artificial-intelligence-innovation-impact-27-october-2026-brussels-belgium-2026-10-27_en"
+    },
+    {
+      "id": "2026-10-27-3",
+      "date": "2026-10-27",
+      "number": 3,
+      "title": "HaDEA sucht Gutachtende für KI-Skalierung, Energiedatenplattformen und Photonik",
+      "text": "Fakten: Die europäische Exekutivagentur HaDEA veröffentlichte am 26. Oktober einen Aufruf für Fachgutachtende zu digitalen Horizon-Europe-Ausschreibungen für 2027. Gesucht werden Kompetenzen unter anderem in autonomen Mobilitätsdiensten, KI-gestützten Energieplattformen, Skalierung leistungsfähiger KI-Modelle und integrierter Photonik. Für den Bereich Frontier AI soll die Interessenbekundung möglichst bis 8. November erfolgen. Eine Registrierung garantiert keine Auswahl.\n\nEinordnung: Die Ausschreibung zeigt, welche technischen und organisatorischen Kompetenzen europäische Forschungsvorhaben bewerten lassen wollen. Für Data Science und Systemarchitektur sind insbesondere interoperable Dateninfrastrukturen, Cloud-Edge-Systeme und die Bewertung von Sicherheit und gesellschaftlichen Auswirkungen relevant. Der Aufruf ist keine Bewilligung konkreter Projekte.\n\nQuellen: https://hadea.ec.europa.eu/news/hadea-looking-expert-evaluators-fields-applying-and-scaling-ai-various-domains-and-photonic-2026-10-26_en"
+    },
+    {
+      "id": "2026-10-27-4",
+      "date": "2026-10-27",
+      "number": 4,
+      "title": "Springer Nature und Google DeepMind entwickeln Assistenten für wissenschaftliche Begutachtung",
+      "text": "Fakten: Springer Nature kündigte am 26. Oktober eine Forschungspartnerschaft mit Google DeepMind an. Ein derzeit getesteter Prototyp soll Gutachtende beim Navigieren durch Manuskripte und beim Erkennen prüfbedürftiger Stellen unterstützen. Laut Verlag verarbeitet er Texte, Diagramme und Abbildungen innerhalb einer privaten Gemini-Enterprise-Umgebung; das fachliche Urteil soll beim Menschen bleiben. Diese Angaben stammen vom beteiligten Unternehmen und sind nicht unabhängig bestätigt.\n\nEinordnung: Für Forschungs- und KI-Governance sind Vertraulichkeit, überprüfbare Hinweise und klar zugewiesene Verantwortung zentrale Kriterien. Die Ankündigung beschreibt einen Prototyp, keinen allgemein verfügbaren Dienst und keinen Nachweis verbesserter Begutachtungsqualität.\n\nQuellen: https://group.springernature.com/gp/group/media/press-releases/research-partnership-with-googledeepmind-to-support-peer-review/53891572"
+    },
+    {
+      "id": "2026-10-27-5",
+      "date": "2026-10-27",
+      "number": 5,
+      "title": "Biodiversitätsfinanzierung: UNEP fordert bessere Offenlegung und nachvollziehbare Finanzströme",
+      "text": "Fakten: Bei der COP17 forderte UNEP am 26. Oktober stärkere politische Anreize für private Biodiversitätsfinanzierung. Die Rede verweist auf naturbezogene Berichtsstandards und verlangt klarere Offenlegung, die Überprüfung schädlicher Subventionen sowie eine verlässlichere Erfassung privater Mittel. UNEP stellt Fortschritte bei Berichtsansätzen einer weiterhin unzureichenden Finanzierung gegenüber. Die Veröffentlichung dokumentiert politische Forderungen, keine bereits beschlossene neue Berichtspflicht.\n\nEinordnung: Für Nachhaltigkeitsmanagement und ERP-Datenmodelle werden neben Emissionen auch Abhängigkeiten von Ökosystemen, Auswirkungen und Finanzierungszwecke relevant. Bestehende Standards und politische Vorschläge müssen dabei von tatsächlich geltenden Pflichten und gemessenen Naturschutzwirkungen unterschieden werden.\n\nQuellen: https://www.unep.org/en/news-and-stories/speech/putting-private-finance-tools-work-biodiversity"
+    },
+    {
+      "id": "2026-10-26-1",
+      "date": "2026-10-26",
+      "number": 1,
+      "title": "KI-generierte Mathematik: Beratungsgremium fordert unabhängige Prüfung und gleichen Zugang",
+      "text": "Fakten: Die Advisory Group on Mathematics and Artificial Intelligence (AGMAI) präzisierte am 25. Oktober ihre Veröffentlichungsempfehlungen. Sie rät KI-Unternehmen davon ab, einzelne Mathematikerinnen oder Mathematiker für die Aufarbeitung von KI-Ergebnissen auszuwählen. Als Gründe nennt sie ungleichen Zugang, Einfluss auf wissenschaftliche Prioritäten und die Nutzung persönlicher Reputation zur Absicherung von Veröffentlichungen. Stattdessen empfiehlt sie zitierbare Repositorien, dokumentierte Entstehungsprozesse und unabhängig organisierte wissenschaftliche Aufarbeitung. Es handelt sich um Empfehlungen der Gruppe, nicht um verbindliche Standards oder eine empirische Wirksamkeitsstudie.\n\nEinordnung: Für Forschungs- und KI-Governance verdeutlicht die Stellungnahme den Unterschied zwischen früher Expertenbeteiligung und unabhängiger fachlicher Bewertung. Die Empfehlungen beziehen sich ausdrücklich auf Mathematik; ihre Übertragung auf andere Fachgebiete erfordert eine eigene Begründung.\n\nQuellen: https://agmai.org/"
+    },
+    {
+      "id": "2026-10-26-2",
+      "date": "2026-10-26",
+      "number": 2,
+      "title": "EU-Emissionshandel: Vorläufige Einigung stärkt Puffer der Marktstabilitätsreserve",
+      "text": "Fakten: Rat und Parlament einigten sich am 20. Oktober vorläufig auf eine gezielte Änderung der Marktstabilitätsreserve des EU-Emissionshandelssystems; der Rat veröffentlichte die Mitteilung am 21. Oktober. Die Schwelle, oberhalb derer Zertifikate in der Reserve ungültig werden, soll von 400 auf 700 Millionen steigen. Der Ungültigkeitsmechanismus bleibt erhalten. Beide Institutionen müssen die Einigung noch bestätigen und den Text formell verabschieden.\n\nEinordnung: Für industrielle Nachhaltigkeits- und Szenarioplanung ist die künftige Verfügbarkeit von Zertifikaten relevant. Die Regelung betrifft den bestehenden EU ETS und ist von den bereits berichteten Änderungen an ETS2 zu unterscheiden. Aus der Einigung folgt keine verlässliche Prognose für künftige CO₂-Preise.\n\nQuellen: https://www.consilium.europa.eu/en/press/press-releases/2026/10/21/ets-market-stability-reserve-council-and-parliament-reach-provisional-agreement-on-targeted-amendment/"
+    },
+    {
+      "id": "2026-10-26-3",
+      "date": "2026-10-26",
+      "number": 3,
+      "title": "SOPHOS: Datenverarbeitung im Orbit soll Engpässe bei Erdbeobachtung verringern",
+      "text": "Fakten: CORDIS veröffentlichte am 23. Oktober einen Ergebnisbericht zum EU-geförderten Projekt SOPHOS. Das Konsortium entwickelte kompakte Verarbeitungshardware, Speichertechnik und Algorithmen zur Kompression und Bildbildung direkt an Bord kleiner Satelliten. Die Komponenten wurden in einem bodengebundenen Demonstrator getestet. Laut Projektkoordination werden SOPHOS-Technologien bereits auf mehreren Missionen im Orbit eingesetzt; der Bericht enthält hierfür keine unabhängige vergleichende Leistungsbewertung. Das Projekt endete im Februar 2026, neu ist die Ergebnisdarstellung.\n\nEinordnung: Für Data Science und Systemarchitektur zeigt der Ansatz, wie Vorverarbeitung nahe der Datenquelle knappe Übertragungskapazität entlasten kann. Bei Erdbeobachtungsdiensten bleiben Auswahl relevanter Informationen, Nachvollziehbarkeit der Verarbeitung und die begrenzten Energie- und Rechenressourcen gemeinsam zu berücksichtigen.\n\nQuellen: https://cordis.europa.eu/article/id/467899-orbital-processing-helps-small-satellites-deliver-big-data"
+    },
+    {
+      "id": "2026-10-26-4",
+      "date": "2026-10-26",
+      "number": 4,
+      "title": "Biodiversität: UNECE verbindet Kreislaufwirtschaft mit nachhaltiger Ressourcennutzung",
+      "text": "Fakten: Die UNECE berichtete am 23. Oktober über eine Diskussionsrunde zur Kreislaufwirtschaft für die Natur auf der Biodiversitätskonferenz COP17. Im Mittelpunkt stand die Frage, wie Instrumente der Kreislaufwirtschaft den Verlust biologischer Vielfalt begrenzen und die Ziele des globalen Biodiversitätsrahmens unterstützen können. Die Organisation verweist auf Erfahrungen mit nachhaltiger Forstwirtschaft und kaskadierender Ressourcennutzung sowie Schwierigkeiten beim Transfer auf andere Branchen. Der Bericht beschreibt einen fachpolitischen Austausch, keine neu beschlossene Rechtsvorschrift.\n\nEinordnung: Für Beschaffung und Nachhaltigkeitsmanagement reicht die Betrachtung einzelner Recyclingquoten nicht aus: Auch Rohstoffherkunft, Nutzungsdauer und Folgen für Ökosysteme sind relevant. Ein solcher Austausch belegt noch keine messbare Biodiversitätswirkung konkreter Unternehmensmaßnahmen.\n\nQuellen: https://unece.org/media/press/417626"
+    },
+    {
+      "id": "2026-10-26-5",
+      "date": "2026-10-26",
+      "number": 5,
+      "title": "Eurostat: Einkommensungleichheit in der EU sinkt 2025 leicht",
+      "text": "Fakten: Eurostat veröffentlichte am 23. Oktober einen Gini-Koeffizienten von 29,2 für die EU im Jahr 2025, nach 29,4 im Vorjahr. Die Länderwerte reichen von 23,0 in der Slowakei bis 37,7 in Bulgarien. Die Skala verläuft von null für vollständige Gleichverteilung bis 100 für maximale Konzentration. Die Veröffentlichung bietet außerdem eine interaktive Karte und einen direkten Zugang zum zugrunde liegenden Datensatz.\n\nEinordnung: Für soziale Nachhaltigkeit und evidenzbasierte Analysen ist die Verteilungsperspektive eine Ergänzung zu Durchschnittseinkommen oder Wirtschaftsleistung. Ein geringerer Gini-Wert beschreibt eine gleichmäßigere Einkommensverteilung, belegt aber weder einen höheren Lebensstandard noch eine bestimmte Ursache. Die Daten betreffen 2025, nicht das laufende Jahr.\n\nQuellen: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261023-2"
+    },
+    {
+      "id": "2026-10-25-1",
+      "date": "2026-10-25",
+      "number": 1,
+      "title": "Großbritannien kündigt Investitionen in KI-Sicherheit und eigene Technologie an",
+      "text": "Fakten: Das britische Finanzministerium kündigte am 24. Oktober ein KI-Paket für den bevorstehenden Haushalt an. Vorgesehen sind unter anderem 165 Millionen Pfund für eine nationale KI-Biosicherheitsinitiative, davon 100 Millionen für ein neues Labor, zusätzlich 120 Millionen für das AI Security Institute sowie 60 Millionen für einen National Cyber Shield. Weitere Maßnahmen betreffen Chipdesign, industrielle KI und die Untersuchung von Arbeitsmarktauswirkungen. Die Quelle beschreibt Regierungsankündigungen, noch keine nachgewiesenen Wirkungen.\n\nEinordnung: Für europäische Technologie- und Governance-Arbeit verbindet das Paket Sicherheitsforschung, Infrastruktur und industrielle Fähigkeiten. Die genannten Vorhaben sind von bereits betriebsbereiten Einrichtungen und endgültig umgesetzten Haushaltsmaßnahmen zu unterscheiden.\n\nQuellen: https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai"
+    },
+    {
+      "id": "2026-10-25-2",
+      "date": "2026-10-25",
+      "number": 2,
+      "title": "Europäische 6G-Forschung: Fünf Vorhaben für 22 Millionen Euro ausgewählt",
+      "text": "Fakten: Die europäische Partnerschaft SNS JU gab am 22. Oktober fünf ausgewählte Projektvorschläge bekannt. Sie betreffen KI-geeignete Netzdaten, gemeinsame Testumgebungen, vernetzte Geräte, Zusammenarbeit mit Indien und die Nutzung von Forschungsergebnissen. HEMES-6G soll acht Teststandorte in sechs EU-Ländern verbinden; 6G-AID soll reale und synthetische Datensätze für KI-Anwendungen bereitstellen. Insgesamt sind 22 Millionen Euro Förderung vorgesehen.\n\nEinordnung: Für Systemarchitektur und Data Science sind gemeinsame Daten und überprüfbare Tests vor einer breiten Einführung relevant. Die Auswahl der Vorschläge bedeutet weder, dass kommerzielle 6G-Netze verfügbar sind, noch dass die angestrebten Sicherheits- und Nachhaltigkeitsvorteile bereits belegt wurden.\n\nQuellen: https://smart-networks.europa.eu/e22-million-to-turn-europes-6g-research-into-industrial-innovation/"
+    },
+    {
+      "id": "2026-10-25-3",
+      "date": "2026-10-25",
+      "number": 3,
+      "title": "EU Inc: Rat beschließt Verhandlungsposition für gemeinsamen Unternehmensrahmen",
+      "text": "Fakten: Der Rat der EU nahm am 23. Oktober seine Position zu einem optionalen gemeinsamen Gesellschaftsrechtsrahmen für Start-ups und wachsende Unternehmen an. Der Ansatz soll die bestehenden nationalen Rechtsformen ergänzen und eine digitale Registrierung innerhalb von zwei Tagen für höchstens 100 Euro ermöglichen. Der Rat präzisiert unter anderem Register, Missbrauchskontrollen und Beschäftigtenbeteiligung. Als nächster Schritt sind Verhandlungen mit dem Parlament vorgesehen, sobald dieses seine Position festgelegt hat.\n\nEinordnung: Für grenzüberschreitende Technologieunternehmen könnten einheitlichere digitale Gründungsabläufe relevant werden. Dies ist ein Verhandlungsmandat und keine bereits nutzbare neue Rechtsform; daraus folgt auch keine automatische Vereinheitlichung sämtlicher nationaler Unternehmenspflichten.\n\nQuellen: https://www.consilium.europa.eu/en/press/press-releases/2026/10/23/eu-inc-council-adopts-position-on-a-new-eu-corporate-law-for-innovative-companies/"
+    },
+    {
+      "id": "2026-10-25-4",
+      "date": "2026-10-25",
+      "number": 4,
+      "title": "Recyclingwerbung: Getränkehersteller sagen präzisere Angaben auf Flaschen zu",
+      "text": "Fakten: Die EU-Kommission begrüßte am 22. Oktober Zusagen von Coca-Cola, Nestlé Waters und Danone nach Gesprächen mit Verbraucherschutzbehörden. Wenn Angaben zum Recyclingmaterial nur den Flaschenkörper betreffen, sollen Verschluss und Etikett ausdrücklich ausgenommen werden. Werbung soll keinen garantierten geschlossenen Recyclingkreislauf suggerieren; auch digitale Kampagnen sind anzupassen. Nationale Behörden werden die Umsetzung überwachen. Die auf der offiziellen Seite dokumentierten Zusagen wurden zu unterschiedlichen Zeitpunkten abgegeben.\n\nEinordnung: Für Produktstammdaten, Verpackungsinformationen und Nachhaltigkeitskommunikation müssen Materialanteil, Recyclingfähigkeit und tatsächliches Recycling sauber getrennt bleiben. Die Meldung dokumentiert konkrete Unternehmenszusagen und ist keine neue pauschale Verbotsregel für alle Recyclingangaben.\n\nQuellen: https://commission.europa.eu/topics/consumers/consumer-rights-and-complaints/enforcement-consumer-protection/coordinated-actions/sustainable-consumption-actions_en\nhttps://commission.europa.eu/topics/consumers_en"
+    },
+    {
+      "id": "2026-10-25-5",
+      "date": "2026-10-25",
+      "number": 5,
+      "title": "EMNLP in Budapest: Sprach-KI-Forschung rückt kulturelle Bewertung und Agentenkontrolle in den Fokus",
+      "text": "Fakten: Die EMNLP 2026 findet laut Konferenz- und Ausstellerangaben vom 24. bis 29. Oktober in Budapest statt. Google nennt 31 angenommene Arbeiten und stellt Beiträge zu Sprachmodellen, multimodalem Verstehen und verantwortlicher KI vor. Für den 25. Oktober ist eine Demonstration zur Bewertung kultureller Fähigkeiten und Fehler in realen KI-Anfragen angekündigt; spätere Programmpunkte behandeln wertebasierte Agenten und deren Kontrolle. Dies sind Programm- und Beteiligungsangaben des Unternehmens, keine unabhängige Bewertung seiner Modelle.\n\nEinordnung: Für internationale ERP- und Assistenzanwendungen sind kulturelle Passung, nachvollziehbare Fehleranalysen und menschliche Aufsicht wichtige Bewertungskriterien. Angekündigte Demonstrationen oder Vorträge belegen für sich keine allgemeine Zuverlässigkeit im produktiven Einsatz.\n\nQuellen: https://research.google/conferences-and-events/google-at-emnlp-2026/"
+    },
+    {
+      "id": "2026-10-24-1",
+      "date": "2026-10-24",
+      "number": 1,
+      "title": "EU-Kommission: KI-Einsatz am Arbeitsplatz braucht gezielte Weiterbildung",
+      "text": "Fakten: Die EU-Kommission stellte am 23. Oktober einen JRC-Kurzbericht zu KI und Kompetenzen vor. Die Mitteilung beschreibt Unterschiede zwischen Berufsgruppen, Unternehmensgrößen und Regionen: Rund 40 Prozent der Beschäftigten in Büro- und Wissensberufen nutzen KI, gegenüber sechs Prozent in einfachen Tätigkeiten. Für die bis 2025 untersuchten Entwicklungen nennt sie keinen klaren Zusammenhang zwischen KI-Exposition und Arbeitslosigkeit, Einkommen oder Arbeitszeit.\n\nEinordnung: Für ERP- und Organisationsprojekte sind Zugang zu Werkzeugen und passende Weiterbildung gemeinsam zu betrachten. Technische Automatisierbarkeit ist keine Prognose eines Stellenabbaus; die Angaben beschreiben unterschiedliche Gruppen und frühere Beobachtungszeiträume.\n\nQuellen: https://employment-social-affairs.ec.europa.eu/news/ai-and-skills-europe-closing-adoption-gap-2026-10-23_en\nhttps://op.europa.eu/en/publication-detail/-/publication/2350f91b-c83f-11f1-a77b-01aa75ed71a1/language-en"
+    },
+    {
+      "id": "2026-10-24-2",
+      "date": "2026-10-24",
+      "number": 2,
+      "title": "Digitaler Euro: EZB veröffentlicht Unterlagen zur technischen Markteinführung",
+      "text": "Fakten: Die EZB führt seit 23. Oktober neue Unterlagen zur Diskussion des Markt-Rollouts im ERPB. Die Präsentation selbst trägt das Datum 13. Oktober. Sie behandelt eine mögliche schrittweise Einführung, Erfahrungen mit früheren Zahlungslösungen sowie technische und verhaltensbezogene Voraussetzungen für Akzeptanz und Nutzung. Banken, Zahlungsdienstleister, Handel und Verbrauchervertretungen wurden in technische Gespräche einbezogen. Die Unterlage trennt diese Diskussion ausdrücklich vom laufenden Gesetzgebungsverfahren.\n\nEinordnung: Für Zahlungsverkehr, E-Commerce und ERP-Schnittstellen werden Integrationsfähigkeit und Einführungskomplexität greifbarer. Die Veröffentlichung ist weder ein endgültiger Einführungsbeschluss noch ein verbindlicher Rollout-Termin.\n\nQuellen: https://www.ecb.europa.eu/euro/digital_euro/timeline/profuse/shared/pdf/ecb.dep261023_Item_1_ECB_Presentation_Market_Rollout_Plan_Discussion.en.pdf\nhttps://www.ecb.europa.eu/euro/digital_euro/timeline/profuse/html/index.en.html"
+    },
+    {
+      "id": "2026-10-24-3",
+      "date": "2026-10-24",
+      "number": 3,
+      "title": "Microsoft Research stellt Sprache für interaktive KI-Diagramme vor",
+      "text": "Fakten: Microsoft Research beschrieb am 22. Oktober Flint-interactive. Die Sprache ergänzt KI-generierte Visualisierungen um Auswahl, Filter, Zoom und gekoppelte Ansichten. Ein Compiler übersetzt Interaktionen in semantische Ereignisse und Aktualisierungen; auch Tabellen, Texte und andere Anwendungselemente können verbunden werden. Die Aussagen zu geringerem Entwicklungsaufwand und höherer Zuverlässigkeit stammen vom Entwicklerteam und sind hier nicht unabhängig bestätigt.\n\nEinordnung: Für Data Science und Unternehmensberichte ist die Verbindung von Diagrammen mit nachvollziehbaren Detailansichten relevant. Bedienbare Interaktionen ersetzen weder Datenprüfung noch eine sachgerechte Auswahl von Kennzahlen und Darstellungsformen.\n\nQuellen: https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/"
+    },
+    {
+      "id": "2026-10-24-4",
+      "date": "2026-10-24",
+      "number": 4,
+      "title": "EU-Forschungsprojekt verbindet Sprachmodelle mit Sicherheitsfiltern für Roboter",
+      "text": "Fakten: CORDIS berichtete am 23. Oktober über Ergebnisse des Projekts SSDM an der Technischen Universität München. Der Ansatz verbindet semantische Umgebungsmodelle, sprachgestützte Gefahrenerkennung und berechenbare Einschränkungen für die Robotersteuerung. Demonstrationen in Küchen- und Büroumgebungen behandeln gefährliche Objektplatzierungen und Veränderungen in der Umgebung. Es handelt sich um einen Projektbericht zu Forschung und Demonstrationen, nicht um eine allgemeine Sicherheitszertifizierung.\n\nEinordnung: Für KI-gestützte Automatisierung ist die Trennung zwischen flexibler Interpretation und durchsetzbaren Sicherheitsgrenzen wesentlich. Ergebnisse aus begrenzten Versuchsumgebungen lassen sich nicht pauschal auf industrielle Anlagen oder alle Alltagssituationen übertragen.\n\nQuellen: https://cordis.europa.eu/article/id/467913-raising-the-safety-awareness-of-robots"
+    },
+    {
+      "id": "2026-10-24-5",
+      "date": "2026-10-24",
+      "number": 5,
+      "title": "EU-Parlament legt Verhandlungsposition zu kritischen Rohstoffen fest",
+      "text": "Fakten: Nach dem Plenarüberblick des parlamentarischen Forschungsdienstes vom 23. Oktober nahm das EU-Parlament einen Bericht zur Änderung des Critical Raw Materials Act an. Die Position unterstützt ein europäisches Rohstoffzentrum, das unter anderem gemeinsame Beschaffung, Vorsorgebestände, Schwachstellen in Lieferketten und Risikoanalysen behandeln soll. Die Abstimmung legt das Mandat für Verhandlungen mit den anderen EU-Institutionen fest; sie ist noch keine abgeschlossene Rechtsänderung.\n\nEinordnung: Für Beschaffung und Nachhaltigkeitsmanagement gewinnen nachvollziehbare Materialabhängigkeiten und Lieferkettenrisiken an Bedeutung. Unternehmen können entsprechende Datenbestände prüfen, sollten aus dieser Verhandlungsposition aber keine bereits geltenden neuen Meldepflichten ableiten.\n\nQuellen: https://eprs.europarl.europa.eu/contents/publications/EPRS/2026/10/EPRS_ATA%282026%29796999.html"
+    },
+    {
+      "id": "2026-10-23-1",
+      "date": "2026-10-23",
+      "number": 1,
+      "title": "ENISA veröffentlicht Leitfaden für Software-Stücklisten in Lieferketten",
+      "text": "Fakten: ENISA legte am 22. Oktober eine technische Handlungshilfe zu Software Bills of Materials (SBOM) vor. Sie richtet sich insbesondere an kleinere Unternehmen und Organisationen, die erste Fähigkeiten für transparente Softwarelieferketten aufbauen. Beschrieben werden eine Implementierungsarchitektur, Datenflüsse über den Lebenszyklus, ein beispielhaftes Bedrohungsmodell und Schutzmaßnahmen für das SBOM-Ökosystem.\n\nEinordnung: Für ERP-Erweiterungen, Cloud-Dienste und zugekaufte Komponenten erleichtern nachvollziehbare Abhängigkeiten die Bewertung von Sicherheitsmeldungen. Eine Stückliste ersetzt allerdings weder die Prüfung der eigenen Exposition noch einen funktionierenden Aktualisierungsprozess.\n\nQuellen: https://www.enisa.europa.eu/publications/enisa-technical-advisory-for-software-bill-of-materials"
+    },
+    {
+      "id": "2026-10-23-2",
+      "date": "2026-10-23",
+      "number": 2,
+      "title": "SAP meldet kräftiges Wachstum bei Cloud ERP im dritten Quartal",
+      "text": "Fakten: SAP veröffentlichte am 21. Oktober die Ergebnisse für das dritte Quartal 2026. Laut Unternehmen stieg der Cloud-Umsatz um 26 Prozent beziehungsweise währungsbereinigt um 25 Prozent; die Cloud ERP Suite legte um 29 beziehungsweise 28 Prozent zu. Der kurzfristig erwartete Cloud-Auftragsbestand erreichte rund 24,1 Milliarden Euro. Der Gesamtumsatz überschritt erstmals zehn Milliarden Euro pro Quartal. Die Zahlen stammen aus SAPs eigener Finanzberichterstattung.\n\nEinordnung: Für die ERP-Planung unterstreichen die Ergebnisse die Bedeutung des Cloud-Geschäfts im SAP-Portfolio. Unternehmenswachstum belegt für sich weder den Nutzen einer konkreten Migration noch die Wirtschaftlichkeit einzelner KI-Funktionen; diese sind projektbezogen zu prüfen.\n\nQuellen: https://news.sap.com/2026/10/sap-announces-q3-2026-results/"
+    },
+    {
+      "id": "2026-10-23-3",
+      "date": "2026-10-23",
+      "number": 3,
+      "title": "Eurostat: Kunststoffverpackungsabfall steigt trotz höherer Recyclingquote",
+      "text": "Fakten: Eurostat veröffentlichte am 22. Oktober Zahlen für 2024: In der EU entstanden durchschnittlich 35,9 Kilogramm Kunststoffverpackungsabfall pro Person, davon wurden 15,3 Kilogramm recycelt. Gegenüber 2023 stiegen beide Mengen um jeweils 0,6 Kilogramm. Die Recyclingquote erhöhte sich von 41,6 auf 42,4 Prozent. Die Statistik umfasst die gesamte Wirtschaft einschließlich Haushalten, Unternehmen und öffentlicher Hand.\n\nEinordnung: Für Nachhaltigkeitsberichte und Verpackungsdaten in ERP-Systemen sollten Abfallaufkommen und Recyclingquote getrennt betrachtet werden. Eine steigende Quote bedeutet nicht automatisch weniger Abfall; die veröffentlichten Werte beschreiben 2024, nicht das laufende Jahr.\n\nQuellen: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261022-1"
+    },
+    {
+      "id": "2026-10-23-4",
+      "date": "2026-10-23",
+      "number": 4,
+      "title": "Bio-based Europe Alliance soll Nachfrage nach biobasierten Materialien bündeln",
+      "text": "Fakten: Die EU-Kommission berichtete am 22. Oktober über den Start der Bio-based Europe Alliance am Vortag in Dublin. Die freiwillige Initiative verbindet Käufer, Erzeuger, Lieferanten und Behörden entlang biobasierter Wertschöpfungsketten; laut Kommission haben sich bereits mehr als 100 Beteiligte angeschlossen. Sie soll Nachfrage sichtbarer machen und den Übergang von Demonstrationsprojekten in die kommerzielle Anwendung unterstützen.\n\nEinordnung: Für Beschaffung und Lieferkettenplanung ist dies ein Ansatz zur besseren Abstimmung von Nachfrage und Angebot. Die Allianz ist von der separat laufenden Verpackungskonsultation zu unterscheiden: Ihre Gründung begründet keine neue Materialquote und garantiert keine Umweltvorteile einzelner Produkte.\n\nQuellen: https://environment.ec.europa.eu/news/bio-based-alliance-launches-drive-sustainable-solutions-2026-10-22_en"
+    },
+    {
+      "id": "2026-10-23-5",
+      "date": "2026-10-23",
+      "number": 5,
+      "title": "Interparlamentarische Union fordert demokratische Kontrolle fortgeschrittener KI",
+      "text": "Fakten: Die Interparlamentarische Union stellte am 22. Oktober einen neuen Bericht zur parlamentarischen Kontrolle extremer KI-Risiken vor. Er behandelt unter anderem große Cyberangriffe, Manipulation demokratischer Prozesse und möglichen Kontrollverlust bei hochautonomen Systemen. Als Ansatzpunkte nennt die Organisation nationale Risikobewertungen, Sicherheitsanforderungen, klarere Haftung und Meldungen schwerwiegender Vorfälle. Es handelt sich um politische Handlungsempfehlungen, nicht um neu geltendes Recht.\n\nEinordnung: Für KI-Governance in Unternehmen verdeutlicht die Veröffentlichung die Bedeutung nachvollziehbarer Verantwortlichkeiten und wirksamer menschlicher Aufsicht. Die diskutierten Risikoszenarien sind nicht mit einer Prognose ihres Eintritts oder einem Nachweis allgemeiner Gefährlichkeit jeder KI-Anwendung gleichzusetzen.\n\nQuellen: https://www.ipu.org/news/news-in-brief/2026-10/cyberattacks-election-threats-strengthening-democratic-oversight-ai"
+    },
+    {
+      "id": "2026-10-22-1",
+      "date": "2026-10-22",
+      "number": 1,
+      "title": "PHP: Kritische Sicherheitslücken lösen europaweite Update-Warnung aus",
+      "text": "Fakten: ENISA, CERT-EU und weitere europäische Stellen warnten am 21. Oktober vor zwei kritischen PHP-Schwachstellen, CVE-2026-109618 und CVE-2026-109619. Sie können nicht authentifizierte Codeausführung auf betroffenen Servern ermöglichen. Das PHP-Projekt veröffentlichte Sicherheitsupdates für die unterstützten Versionszweige. Die Behörden empfehlen, auch Produkte mit eingebetteter PHP-Laufzeit zu erfassen und Hostinganbieter einzubeziehen.\n\nEinordnung: Für Webanwendungen und ERP-nahe Portale zählt die tatsächlich eingesetzte Laufzeit, nicht allein die sichtbare Anwendung. Betreiber sollten die offiziellen Versionshinweise und Anbieterinformationen prüfen; aus der Warnung folgt nicht, dass jede Website betroffen ist.\n\nQuellen: https://www.enisa.europa.eu/news/joint-statement-on-critical-php-vulnerabilities\nhttps://www.php.net/archive/2026.php"
+    },
+    {
+      "id": "2026-10-22-2",
+      "date": "2026-10-22",
+      "number": 2,
+      "title": "Digital Omnibus: EU-Rat legt Verhandlungsposition zu Datenschutz und Cybermeldungen fest",
+      "text": "Fakten: Der Rat der EU beschloss am 21. Oktober seine Position zur Vereinfachung digitaler Regeln. Das Mandat umfasst unter anderem Datenschutz, Cookies und Meldungen von Cyber- und Datenvorfällen. Für Meldungen schlägt der Rat nationale Eingangspunkte statt des vorgeschlagenen zentralen EU-Eingangspunkts vor. Verhandlungen mit dem Parlament sollen nach dessen eigener Positionsfestlegung folgen; es handelt sich noch nicht um endgültig geltendes Recht.\n\nEinordnung: Für Compliance- und Systemarchitekturen ist die Richtung relevant, bestehende Meldeprozesse sollten aber nicht allein aufgrund einer Verhandlungsposition umgestellt werden. Nationale und europäische Verfahren bleiben im weiteren Gesetzgebungsverlauf zu unterscheiden.\n\nQuellen: https://www.consilium.europa.eu/en/press/press-releases/2026/10/21/digital-rulebook-council-agrees-position-to-simplify-data-protection-privacy-and-cyber-reporting-rules/"
+    },
+    {
+      "id": "2026-10-22-3",
+      "date": "2026-10-22",
+      "number": 3,
+      "title": "SAP konkretisiert KI-Assistenten für Vertrieb, Service und Commerce",
+      "text": "Fakten: SAP beschreibt im CX-Releaseüberblick vom 21. Oktober neue Assistenten für Lead-Qualifizierung, Fallbearbeitung sowie Kampagnen und Inhalte. Ergänzend nennt der Hersteller Integrationen zwischen Commerce und Cloud ERP für Preise, Verfügbarkeit, Aufträge und Rechnungen. Laut Beitrag sind die vorgestellten Fähigkeiten ausgewählten Kunden zugänglich. Dies sind Herstellerangaben; eine unabhängige Leistungsbewertung liegt dieser Meldung nicht zugrunde.\n\nEinordnung: Für ERP- und CRM-Projekte wird die Verbindung von Kundeninteraktion und ausführenden Geschäftsprozessen wichtiger. Vor einer Planung sind konkrete Verfügbarkeit, Integrationsumfang und Berechtigungen je Produkt zu prüfen; der Beitrag belegt keine allgemeine Freigabe sämtlicher Funktionen für alle Kunden.\n\nQuellen: https://news.sap.com/2026/10/new-sap-cx-q3-2026-autonomous-cx-arrives/"
+    },
+    {
+      "id": "2026-10-22-4",
+      "date": "2026-10-22",
+      "number": 4,
+      "title": "EU startet Konsultation zu biobasierten Rohstoffen in Kunststoffverpackungen",
+      "text": "Fakten: Die Europäische Kommission eröffnete am 21. Oktober eine öffentliche Konsultation, die bis 13. Januar 2027 läuft. Sie soll technologische Entwicklung und Umweltleistung biobasierter Kunststoffverpackungen bewerten. Zur Diskussion stehen mögliche nachfrageseitige Maßnahmen und Ziele sowie Nachhaltigkeitsanforderungen an Rohstoffe. Die Ergebnisse können in einen späteren Gesetzgebungsvorschlag einfließen; die Konsultation selbst schafft keine neue verbindliche Quote.\n\nEinordnung: Für Beschaffung, Produktdaten und Nachhaltigkeitsmanagement lohnt sich eine getrennte Bewertung von Rohstoffherkunft, Umweltwirkung und Recyclingfähigkeit. Biobasiert ist keine pauschale Aussage über die gesamte Umweltbilanz einer Verpackung.\n\nQuellen: https://environment.ec.europa.eu/news/commission-opens-consultation-bio-based-plastic-packaging-2026-10-21_en"
+    },
+    {
+      "id": "2026-10-22-5",
+      "date": "2026-10-22",
+      "number": 5,
+      "title": "EWSA verbindet digitale Souveränität mit Beschäftigtenrechten",
+      "text": "Fakten: Der Europäische Wirtschafts- und Sozialausschuss berichtete am 21. Oktober über seine Plenardebatte und verabschiedete Stellungnahmen zu technologischen Abhängigkeiten und Halbleitern. Er fordert Investitionen in europäische digitale Infrastruktur, stärkere Berücksichtigung europäischer und quelloffener Alternativen in der Beschaffung sowie Transparenz und Beteiligung bei KI und Algorithmen. Dies sind politische Empfehlungen des beratenden Ausschusses, keine neuen verbindlichen Beschaffungspflichten.\n\nEinordnung: Für Unternehmensarchitektur und öffentliche IT-Beschaffung erweitert dies die Debatte um Anbieterabhängigkeit um Arbeitsbedingungen, Kompetenzen und Beteiligung. Solche Kriterien können in Bewertungsmodelle einfließen, ersetzen aber keine Prüfung konkreter Technik und geltender Vergaberegeln.\n\nQuellen: https://www.eesc.europa.eu/en/news-media/press-releases/european-commissions-executive-vice-president-henna-virkkunen-technological-sovereignty-must-put-people-its-heart"
+    },
+    {
+      "id": "2026-10-21-1",
+      "date": "2026-10-21",
+      "number": 1,
+      "title": "Österreich: Mehr Unternehmen verkaufen online, Umsatzanteil bleibt stabil",
+      "text": "Fakten: Statistik Austria meldete am 20. Oktober, dass 2025 rund 30 Prozent der erfassten Unternehmen über Websites, Apps oder Online-Marktplätze verkauften, drei Prozentpunkte mehr als 2024. Der Anteil dieser Web-Verkäufe am Gesamtumsatz blieb gerundet bei sieben Prozent. Eigene Websites und Apps sind wichtiger als externe Marktplätze. Die IKT-Erhebung 2026 erfasste Unternehmen ab zehn Beschäftigten in ausgewählten Wirtschaftszweigen; die Verkaufszahlen beziehen sich auf 2025.\n\nEinordnung: Für CRM- und ERP-Planung zeigt sich eine breitere Nutzung digitaler Vertriebskanäle, aber kein entsprechend höherer Umsatzanteil. Die Zahlen sprechen dafür, Reichweite, Konversion und durchgängige Auftragsprozesse getrennt zu bewerten; sie erfassen nicht sämtliche Kleinstunternehmen oder alle Formen elektronischer Bestellungen.\n\nQuellen: https://www.statistik.at/fileadmin/announcement/2026/10/20261020IKTU2026.pdf"
+    },
+    {
+      "id": "2026-10-21-2",
+      "date": "2026-10-21",
+      "number": 2,
+      "title": "SAP erweitert Zertifizierungsverlängerung um KI-gestützte Rollenspiele",
+      "text": "Fakten: SAP kündigte am 20. Oktober neue Stay-Certified-Formate ab Oktober an. Für mehr als 100 Zertifizierungen sollen neben Wissensprüfungen kurze KI-gestützte Rollenspiele mit simulierten Kundensituationen angeboten werden. Eine Prüfung ohne KI bleibt als Option erhalten. Außerdem beschreibt SAP ein 90-tägiges Verlängerungsfenster und einen gesonderten Praxissitzungs-Pilotversuch auf der SAP TechEd in Berlin. Dies sind Herstellerangaben, keine unabhängig bestätigte Wirksamkeitsbewertung.\n\nEinordnung: Für SAP-Fachkräfte und Weiterbildungsteams wird die Anwendung von Wissen stärker Teil des Kompetenznachweises. Welche Variante für eine konkrete Zertifizierung verfügbar ist, sollte im jeweiligen Lernkonto geprüft werden; der Event-Pilot ist von einem allgemeinen Angebot zu unterscheiden.\n\nQuellen: https://news.sap.com/2026/10/sap-introduces-ai-powered-roleplays-learners-stay-certified/"
+    },
+    {
+      "id": "2026-10-21-3",
+      "date": "2026-10-21",
+      "number": 3,
+      "title": "Eurostat: EU-Handel mit Windturbinen wächst, Solarimporte werden günstiger",
+      "text": "Fakten: Nach Eurostat vom 20. Oktober exportierte die EU 2025 Windturbinen im Wert von 3,1 Milliarden Euro, 10,8 Prozent mehr als im Vorjahr; das Exportvolumen stieg um 9,5 Prozent. Windturbinenimporte legten wertmäßig um 40,6 Prozent auf 0,7 Milliarden Euro zu. Bei Solarpanelen sank der Importwert um 27,7 Prozent auf acht Milliarden Euro, während das Volumen nur um vier Prozent zurückging. China stellte 98,6 Prozent der Solarpanelimporte.\n\nEinordnung: Die unterschiedlichen Entwicklungen von Wert und Menge sind für Beschaffung und Lieferkettenanalysen wesentlich. Handelswerte allein messen weder den tatsächlichen Ausbau erneuerbarer Energien noch die Nachhaltigkeit einzelner Anlagen; die hohe Lieferantenkonzentration bleibt ein eigener Analysepunkt.\n\nQuellen: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261020-1"
+    },
+    {
+      "id": "2026-10-21-4",
+      "date": "2026-10-21",
+      "number": 4,
+      "title": "Virtuelle menschliche Zwillinge: EU-Veranstaltung konkretisiert Plattformanforderungen",
+      "text": "Fakten: Für den 20. und 21. Oktober ist in Brüssel und online das erste Jahrestreffen der Advanced Virtual Human Twins Platform angesetzt. Laut offizieller Agenda sollen Interoperabilität, Nutzbarkeit, Akzeptanz und Anforderungen an die erste Plattformversion besprochen werden. Die heutige Anforderungssitzung ist Mitgliedern der Nutzergruppe vorbehalten und umfasst unter anderem föderierte Repositorien, Zugang, Orchestrierung und Rechteverwaltung. Die Quelle beschreibt das Programm, noch keine beschlossenen Ergebnisse oder validierten klinischen Anwendungen.\n\nEinordnung: Für Data Science und Systemarchitektur zeigt die Agenda, dass digitale Gesundheitsmodelle neben Rechenleistung auch gemeinsame Schnittstellen, Zugangsregeln und klare Rechte benötigen. Die Veranstaltung ist ein Entwicklungsschritt und kein Nachweis medizinischer Wirksamkeit.\n\nQuellen: https://digital-strategy.ec.europa.eu/en/events/advanced-virtual-human-twins-vht-platform-annual-event"
+    },
+    {
+      "id": "2026-10-21-5",
+      "date": "2026-10-21",
+      "number": 5,
+      "title": "Demokratie-Resilienz: Kommission berichtet über gemeinsame Standards und Schulungsprojekte",
+      "text": "Fakten: Die EU-Kommission berichtete am 20. Oktober über den Besuch einer Delegation des parlamentarischen Sonderausschusses zum Europäischen Demokratieschild am 14. Oktober. Vorgestellt wurden laufende Arbeiten an gemeinsamen Begriffen, Methoden und Standards, einer Stakeholder-Plattform und einem Train-the-Trainer-Programm. Auch ein Handbuch zu EU-Regeln und Instrumenten zum Schutz von Wahlen ist in Arbeit. Die Veröffentlichung dokumentiert einen Fortschrittsaustausch, keine neuen verbindlichen Vorschriften.\n\nEinordnung: Für den Umgang mit Informationsmanipulation sind abgestimmte Methoden und Schulung ebenso relevant wie technische Erkennung. Der Bericht benennt organisatorische Vorhaben, enthält aber keinen unabhängigen Nachweis ihrer Wirkung auf Desinformation oder Wahlbeeinflussung.\n\nQuellen: https://commission.europa.eu/news-and-media/news/parliaments-euds-special-committee-visits-centre-2026-10-20_en?prefLang=de"
+    },
+    {
+      "id": "2026-10-20-1",
+      "date": "2026-10-20",
+      "number": 1,
+      "title": "SAP stellt tabellarische KI für Prognosen aus Geschäftsdaten in den Mittelpunkt",
+      "text": "Fakten: SAP erläutert in einem Beitrag vom 19. Oktober den Einsatz tabellarischer Foundation-Modelle für strukturierte Unternehmensdaten. Als Beispiele nennt der Hersteller Zahlungsrisiken und Bedarfsprognosen und bezeichnet SAP-RPT-1.6 als für Kunden verfügbar. Der Beitrag empfiehlt, Sprachmodelle für Interaktion und Wissen mit Modellen für strukturierte Prognosen zu kombinieren. Dies sind Herstellerangaben; eine unabhängige Leistungsbestätigung liegt dieser Meldung nicht zugrunde.\n\nEinordnung: Für ERP-Architekturen ist die Auswahl des passenden Modelltyps eine konkrete Entscheidung. Nutzen und Qualität sollten anhand eigener Daten, Vergleichsmodelle und messbarer Prozessziele geprüft werden; aus dem Herstellerbeitrag lässt sich keine allgemeine Überlegenheit oder garantierte Einsparung ableiten.\n\nQuellen: https://news.sap.com/2026/10/gap-no-llm-can-close/"
+    },
+    {
+      "id": "2026-10-20-2",
+      "date": "2026-10-20",
+      "number": 2,
+      "title": "Europäischer Datenschutzausschuss konkretisiert Risiken von Smart Glasses",
+      "text": "Fakten: In seiner am 13. Oktober angenommenen Stellungnahme behandelt der Europäische Datenschutzausschuss Kameras, Mikrofone und KI-Funktionen in Smart Glasses. Er hebt hervor, dass unbeteiligte Personen die Verarbeitung ihrer Daten häufig nicht erkennen können. Das Papier behandelt Verantwortlichkeiten, Rechtsgrundlagen und wirksame Hinweise auf Aufnahmen. Es beschreibt vorläufige datenschutzrechtliche Überlegungen und ist kein neues pauschales Verbot solcher Geräte.\n\nEinordnung: Für den Einsatz in Unternehmen zählen neben Assistenzfunktionen auch der Schutz von Beschäftigten, Besuchern und vertraulichen Informationen. Sichtbare Aufnahmesignale allein ersetzen weder die Prüfung des konkreten Verwendungszwecks noch eine tragfähige Rechtsgrundlage.\n\nQuellen: https://www.edpb.europa.eu/documents/statement/statement-of-the-edpb-on-smart-glasses_en"
+    },
+    {
+      "id": "2026-10-20-3",
+      "date": "2026-10-20",
+      "number": 3,
+      "title": "Horizon Europe: Neue Brückenförderung soll Forschungsergebnisse in die Anwendung bringen",
+      "text": "Fakten: Nach der REA-Ankündigung sollen am 20. Oktober zwei Förderbereiche öffnen: 32,5 Millionen Euro für die Weiterentwicklung ausreichend reifer Ergebnisse abgeschlossener gemeinschaftlicher Horizon-Europe-Projekte und 20 Millionen Euro für die Verwertung von Forschungsergebnissen über Innovationsökosysteme. Letzterer Bereich umfasst unter anderem saubere Energie und Verkehr, Bioökonomie sowie Rohstoffe und fortgeschrittene Materialien. Maßgeblich für Antragstellung und Fristen sind die jeweiligen Ausschreibungsunterlagen.\n\nEinordnung: Für europäische Forschungs- und Umsetzungspartner ist dies ein konkreter Anlass, vorhandene Projektergebnisse auf Anschlussfähigkeit zu prüfen. Die angekündigten Budgets sind Fördervolumina und keine bereits bewilligten Mittel für einzelne Antragsteller.\n\nQuellen: https://rea.ec.europa.eu/news/horizon-europes-horizontal-actions-2027-extra-funding-nature-innovation-and-competitiveness-2026-10-09_en?prefLang=nl"
+    },
+    {
+      "id": "2026-10-20-4",
+      "date": "2026-10-20",
+      "number": 4,
+      "title": "Erneuerbare Energie: Kommission betont frühe Beteiligung und lokale Vorteile",
+      "text": "Fakten: Die EU-Kommission veröffentlichte am 19. Oktober einen Überblick zur Akzeptanz erneuerbarer Energieprojekte. Er beschreibt Beteiligung an der Standortplanung, lokale Fonds und finanzielle Teilhabe als Instrumente. Als österreichisches Beispiel nennt die Kommission gemeinsame Raumplanungsprozesse mit Bevölkerung, Projektentwicklern und NGOs im Burgenland. Der Beitrag verweist auf die bereits im Juli vorgestellte Toolbox zur Öffentlichkeitsbeteiligung.\n\nEinordnung: Für Energieprojekte ergänzt Beteiligung die technische und wirtschaftliche Planung. Der neue Beitrag bündelt Umsetzungspraxis; er schafft keine neue allgemeine österreichische Beteiligungs- oder Vergütungspflicht. Die Aussagen zum Burgenland sind der Darstellung der Kommission zugeordnet.\n\nQuellen: https://energy.ec.europa.eu/news/focus-renewable-energy-building-trust-and-sharing-benefits-2026-10-19_en"
+    },
+    {
+      "id": "2026-10-20-5",
+      "date": "2026-10-20",
+      "number": 5,
+      "title": "Eurostat veröffentlicht neue Daten zu Fischanlandungen und Fangmengen",
+      "text": "Fakten: Laut Eurostat vom 19. Oktober hatten die 2025 in der EU angelandeten Fischereiprodukte einen Wert von 5,5 Milliarden Euro, ähnlich wie 2024. Die Fangmenge der EU-Flotte in den sieben erfassten Meeresgebieten betrug schätzungsweise 3,3 Millionen Tonnen. 72 Prozent der Fangmenge entfielen auf den Nordostatlantik. Eurostat unterscheidet ausdrücklich Fangmengen und Anlandungen: Nicht alles Gefangene erreicht einen Hafen.\n\nEinordnung: Für nachhaltige Lieferketten sind saubere Begriffsabgrenzungen und Herkunftsdaten wichtig. Fangwert und Fangmenge allein zeigen weder den Zustand einzelner Bestände noch die ökologische Nachhaltigkeit eines Produkts; dafür sind zusätzliche Bestands- und Bewirtschaftungsdaten erforderlich.\n\nQuellen: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261019-1"
+    },
+    {
+      "id": "2026-10-19-1",
+      "date": "2026-10-19",
+      "number": 1,
+      "title": "Österreich erreicht Platz drei bei der European Cybersecurity Challenge",
+      "text": "Fakten: Laut ENISA vom 16. Oktober gewann Schweden die European Cybersecurity Challenge in Bochum vor Finnland und Österreich. Vertreten waren 35 europäische Teams sowie sieben internationale Gastteams. Die Aufgaben umfassten unter anderem Web-Sicherheit, Kryptografie, Reverse Engineering sowie den Angriff auf und die Verteidigung von Diensten.\n\nEinordnung: Das Ergebnis macht österreichische Nachwuchskompetenz in einem für Unternehmen und öffentliche Infrastruktur wichtigen Feld sichtbar. Der Wettbewerb trainiert neben Technik auch Zusammenarbeit und Entscheidungen unter Zeitdruck; er ist kein Maßstab für die Sicherheitslage eines ganzen Landes.\n\nQuellen: https://www.enisa.europa.eu/news/sweden-sweeps-the-winning-title-of-the-european-cybersecurity-challenge"
+    },
+    {
+      "id": "2026-10-19-2",
+      "date": "2026-10-19",
+      "number": 2,
+      "title": "Eurobarometer: Nutzung automatisierter Managementsysteme trifft auf Vertrauenslücken",
+      "text": "Fakten: Die EU-Kommission veröffentlichte am 14. Oktober eine Befragung von rund 12.826 Unternehmensleitungen aus allen 27 EU-Staaten, erhoben im März und April 2026. 42 Prozent der befragten KMU und Mid-Cap-Unternehmen nutzen KI und/oder algorithmisches Management, überwiegend begrenzt oder experimentell; weitere 21 Prozent planen den Einsatz. 49 Prozent vertrauen KI oder automatisierten Systemen bei Personalentscheidungen nicht. Algorithmisches Management umfasst auch Systeme ohne KI.\n\nEinordnung: Für ERP- und Personalprozesse sind nachvollziehbare Entscheidungen, klare Zuständigkeiten und Kompetenzen ebenso wichtig wie technische Integration. Die Befragungswerte sind nicht mit der separat erhobenen KI-Nutzungsquote von Eurostat gleichzusetzen und belegen keine flächendeckende Automatisierung von Personalentscheidungen.\n\nQuellen: https://employment-social-affairs.ec.europa.eu/news/growing-use-ai-european-companies-2026-10-14_en"
+    },
+    {
+      "id": "2026-10-19-3",
+      "date": "2026-10-19",
+      "number": 3,
+      "title": "EU-Gipfel fordert stärkeren Schutz vor Wahlmanipulation und Risiken für Minderjährige",
+      "text": "Fakten: In den Ergebnissen des Europäischen Rates vom 15. und 16. Oktober fordern die Staats- und Regierungschefs eine rasche Fertigstellung überarbeiteter DSA-Leitlinien zu systemischen Risiken für Wahlen. Für den Schutz Minderjähriger verlangen sie die wirksame Durchsetzung bestehender Regeln und eine zügige Prüfung des vorgeschlagenen EU KIDS Act einschließlich eines vorgeschlagenen Mindestalters für soziale Medien. Datenschutz und nationale Zuständigkeiten sollen gewahrt bleiben.\n\nEinordnung: Für Plattformbetreiber und digitale Angebote werden Risikobewertung, Gestaltung und Verantwortung weiter politisch priorisiert. Die Gipfelforderungen sind von verabschiedetem Recht zu unterscheiden; aus ihnen folgt noch kein neu geltendes EU-weites Mindestalter.\n\nQuellen: https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/"
+    },
+    {
+      "id": "2026-10-19-4",
+      "date": "2026-10-19",
+      "number": 4,
+      "title": "SatSeaBio: Datenreduktion soll langfristiges Biodiversitätsmonitoring auf See ermöglichen",
+      "text": "Fakten: Die am 16. Oktober aktualisierte ESA-Projektseite beschreibt den Abschluss der vorbereitenden SatSeaBio-Aktivität. Unterwasserkameras, Verarbeitung an Bord und Mobilfunk- oder Satellitenkommunikation sollen Meeresleben an Offshore-Windanlagen längerfristig beobachten. Nach Projektangaben reduzierten zwei Tests die zu übertragende Datenmenge um mehr als 99,8 Prozent, indem ausgewählte Videosequenzen statt vollständiger Aufnahmen übertragen wurden. Die Integration und Validierung des Gesamtsystems bei einem längeren Offshore-Einsatz steht als nächster Schritt an.\n\nEinordnung: Das Konzept verbindet Datenarchitektur und Naturschutz: lokale Vorauswahl kann Übertragungsbedarf senken. Die Testwerte sind Angaben aus dem geförderten Projekt, keine unabhängige Bestätigung eines bereits umfassend validierten Betriebsdienstes.\n\nQuellen: https://business.esa.int/projects/satseabio"
+    },
+    {
+      "id": "2026-10-19-5",
+      "date": "2026-10-19",
+      "number": 5,
+      "title": "Eurostat zeigt große regionale Unterschiede bei Armuts- und Ausgrenzungsrisiken",
+      "text": "Fakten: Nach der Eurostat-Veröffentlichung vom 16. Oktober waren 2025 in der EU 92,7 Millionen Menschen beziehungsweise 20,9 Prozent der Bevölkerung von Armut oder sozialer Ausgrenzung bedroht. In 24 der 243 Regionen mit verfügbaren Daten lag der Anteil bei mindestens 31,5 Prozent. Weitere 24 Regionen verzeichneten weniger als 13 Prozent; dazu gehörte auch eine österreichische Region. Eurostat verweist auf das regionale Jahrbuch 2026 und mögliche spätere Datenaktualisierungen.\n\nEinordnung: Für soziale Nachhaltigkeit und öffentliche Planung reichen EU-Durchschnittswerte nicht aus. Regionale Daten helfen, Unterschiede sichtbar zu machen; der Indikator beschreibt ein Armuts- oder Ausgrenzungsrisiko und darf nicht pauschal als Zahl akut verarmter Menschen ausgelegt werden.\n\nQuellen: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20261016-1"
+    },
+    {
+      "id": "2026-10-18-1",
+      "date": "2026-10-18",
+      "number": 1,
+      "title": "Europäische Open Science Cloud: Erste 13 Forschungsknoten sind in Betrieb",
+      "text": "Fakten: Nach Mitteilung der EU-Kommission vom 16. Oktober haben die ersten 13 zusätzlichen Knoten der European Open Science Cloud (EOSC) ihren Betrieb aufgenommen. Sie verbinden Daten und digitale Dienste verschiedener Forschungseinrichtungen über Länder- und Fachgrenzen hinweg. Damit wächst die Föderation erstmals über den bisherigen EOSC EU Node hinaus; weitere Knoten sollen folgen.\n\nEinordnung: Für Data Science und KI-Forschung verbessert eine solche Infrastruktur den Zugang zu wiederverwendbaren Daten und Rechenressourcen. Ob sie im eigenen Projekt nutzbar sind, hängt weiterhin von Zugangsvoraussetzungen, Datenqualität und Datenschutz ab.\n\nQuellen: https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/europe-expands-access-sharing-and-use-research-data-and-digital-services-through-first-13-open-2026-10-16_en"
+    },
+    {
+      "id": "2026-10-18-2",
+      "date": "2026-10-18",
+      "number": 2,
+      "title": "RAISE: Kommission wirbt um zusätzliche Unterstützung für KI-Forschung",
+      "text": "Fakten: Die EU-Kommission kündigte am 15. Oktober eine RAISE-Zusageninitiative an. Sie soll private Unternehmen und philanthropische Organisationen mobilisieren, um europäische Forschung an der Schnittstelle von KI und Wissenschaft über die öffentliche Finanzierung hinaus zu unterstützen. Die Ankündigung beschreibt das Ziel der Initiative; daraus folgt noch kein Nachweis bereits bereitgestellter Mittel.\n\nEinordnung: Für Forschungseinrichtungen kann zusätzliche Unterstützung neue Möglichkeiten eröffnen. Entscheidend werden die konkreten Zugangsbedingungen sowie Regeln zu wissenschaftlicher Unabhängigkeit und Interessenkonflikten sein.\n\nQuellen: https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2175 | https://research-and-innovation.ec.europa.eu/index_en"
+    },
+    {
+      "id": "2026-10-18-3",
+      "date": "2026-10-18",
+      "number": 3,
+      "title": "Cloud-Wettbewerb: Britische CMA fordert weitere Verbesserungen bei der Anbieterwahl",
+      "text": "Fakten: Die britische Wettbewerbsbehörde CMA veröffentlichte am 16. Oktober einen neuen Stand zu den Cloud-Maßnahmen von AWS und Microsoft. Sie berichtet über die Umsetzung zuvor angekündigter Änderungen und sieht weiteren Handlungsspielraum zur Verbesserung der Anbieterwahl. Gleichzeitig veröffentlichte sie einen Vorschlag, Microsofts Unternehmenssoftware-Ökosystem einen strategischen Marktstatus zuzuweisen. Dies ist ein vorgeschlagener Verfahrensschritt, keine endgültige Entscheidung.\n\nEinordnung: Für ERP- und Cloud-Architekturen sind Wechselmöglichkeiten und Abhängigkeiten von Software-Ökosystemen relevant. Die britischen Verfahren liefern hierzu konkrete Prüfpunkte, begründen aber keine neuen Verpflichtungen in Österreich oder der EU.\n\nQuellen: https://www.gov.uk/government/publications/business-software-and-cloud-services"
+    },
+    {
+      "id": "2026-10-18-4",
+      "date": "2026-10-18",
+      "number": 4,
+      "title": "TikTok und Digital Markets Act: Schlussanträge zu ByteDances Rechtsmittel",
+      "text": "Fakten: In den Schlussanträgen vom 15. Oktober im Verfahren C-627/24 P wird empfohlen, die dort geprüften Teile von ByteDances Rechtsmittel gegen die Gatekeeper-Einstufung zurückzuweisen. Für eine verpflichtende Marktuntersuchung müssten Einwände die gesetzliche Vermutung ernsthaft erschüttern; bloße Zweifel reichten nicht. Die Schlussanträge sind für den Gerichtshof nicht bindend. Das Urteil steht noch aus.\n\nEinordnung: Der Fall betrifft die Durchsetzung des Digital Markets Act gegenüber großen Plattformen. Für Unternehmen, die Plattformdienste nutzen, ist die Abgrenzung zwischen laufender gerichtlicher Prüfung und rechtskräftigem Ergebnis wesentlich.\n\nQuellen: https://curia.europa.eu/site/upload/docs/application/pdf/2026-10/cp260151en.pdf"
+    },
+    {
+      "id": "2026-10-18-5",
+      "date": "2026-10-18",
+      "number": 5,
+      "title": "Vor COP17: Digitale Genressourcen und Biodiversitätsfinanzierung im Fokus",
+      "text": "Fakten: Die EU-Kommission konkretisierte am 16. Oktober ihre Vorhaben für die Biodiversitätskonferenz COP17, die vom 19. bis 30. Oktober in Jerewan stattfinden soll. Für den 19. Oktober ist eine Sitzung zur praktischen Umsetzung des multilateralen Mechanismus für digitale Sequenzinformationen und des Cali-Fonds angekündigt. Der Fonds soll Vorteile aus der Nutzung digitaler Informationen zu genetischen Ressourcen gerechter teilen. Außerdem steht die erste globale Überprüfung der neuen Planungs- und Berichtsverfahren zum Biodiversitätsrahmen an.\n\nEinordnung: Die Verbindung von Datenverwendung und Naturschutzfinanzierung ist besonders für Biotechnologie, Pharma und Agrifood relevant. Die angekündigten Sitzungen sind noch keine neuen Konferenzbeschlüsse.\n\nQuellen: https://environment.ec.europa.eu/news/eu-delivering-cop17-nature-biodiversity-targets-2026-10-16_en"
+    },
+    {
+      "id": "2026-10-17-1",
+      "date": "2026-10-17",
+      "number": 1,
+      "title": "EU aktualisiert Forschungsleitlinien für generative und agentische KI",
+      "text": "Fakten: Die Kommission veröffentlichte am 16. Oktober eine umfassende Aktualisierung der ERA Living Guidelines zum verantwortlichen Einsatz generativer KI in der Forschung. Neu sind Empfehlungen zu agentischer KI sowie detailliertere Hinweise zu Peer Review und zur Bewertung von Förderanträgen. Aufsicht, Zuverlässigkeit, Transparenz und Verantwortlichkeit bleiben zentrale Bezugspunkte. Die vorherige Überarbeitung erfolgte im Mai 2026. Es handelt sich um praktische Empfehlungen, nicht um einen neuen Gesetzestext.\n\nEinordnung: Je selbstständiger KI Werkzeuge nutzt und Arbeitsschritte übernimmt, desto wichtiger werden nachvollziehbare Zuständigkeiten und Kontrollen. Für Forschungseinrichtungen und Gutachtende ist die Aktualisierung ein konkreter Anlass, interne Regeln und tatsächliche Arbeitsabläufe abzugleichen.\n\nQuellen: https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/era-living-guidelines-responsible-use-generative-ai-research-updated-2026-10-16_en"
+    },
+    {
+      "id": "2026-10-17-2",
+      "date": "2026-10-17",
+      "number": 2,
+      "title": "JRC: KI-Nutzung in strategischen EU-Sektoren steigt auf 18 Prozent",
+      "text": "Fakten: Eine am 14. Oktober veröffentlichte JRC-Analyse beziffert den Anteil KI-nutzender Unternehmen in strategischen EU-Sektoren für 2025 auf 18 Prozent, gegenüber sieben Prozent 2021. Alle zehn untersuchten Sektoren verzeichneten Zuwächse, allerdings unterschiedlich stark. Medien, Energie und Elektronik liegen vorne; Mobilität, Tourismus und Agrar-Lebensmittelwirtschaft zurück. Das JRC nennt leichter verfügbare allgemeine KI, insbesondere Sprachmodelle, als wesentlichen Wachstumstreiber.\n\nEinordnung: Der sektorale Befund ergänzt allgemeine Unternehmensstatistiken und darf nicht als Nutzungsquote aller EU-Unternehmen gelesen werden. Für ERP- und Organisationsentwicklung ist entscheidend, ob KI in Kernprozesse integriert wird oder überwiegend einzelne allgemeine Aufgaben unterstützt.\n\nQuellen: https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/ai-adoption-more-doubles-almost-every-eu-strategic-sector-2026-10-14_en"
+    },
+    {
+      "id": "2026-10-17-3",
+      "date": "2026-10-17",
+      "number": 3,
+      "title": "SAP eröffnet Verwaltungs-Demonstrationszentrum mit durchgängigen Prozessszenarien",
+      "text": "Fakten: SAP berichtete am 16. Oktober über das am 12. Oktober eröffnete S.Public Experience Center in Berlin. Gezeigt werden unter anderem die Verbindung einer Schadensmeldung mit Instandhaltung, Beschaffung und Finanzverwaltung sowie KI-gestützte Prüfung von Förderanträgen auf Vollständigkeit und Konsistenz. Die endgültige Förderentscheidung verbleibt im dargestellten Szenario bei der zuständigen Behörde. Die Angaben stammen ausschließlich vom Hersteller und betreffen Demonstrationen, keine unabhängig gemessenen Ergebnisse eines flächendeckenden Verwaltungseinsatzes.\n\nEinordnung: Der Architekturansatz verbindet digitale Zugänge mit den dahinterliegenden Fachprozessen. Für öffentliche Organisationen sind klare Zuständigkeiten, prüfbare Empfehlungen und kontrollierte Datenzugriffe wichtiger als die bloße Einführung eines Chatbots.\n\nQuellen: https://news.sap.com/2026/10/next-leap-public-services-behind-the-scenes-spublic-berlin/"
+    },
+    {
+      "id": "2026-10-17-4",
+      "date": "2026-10-17",
+      "number": 4,
+      "title": "Österreichs fossile CO₂-Emissionen sanken 2024 um 4,3 Prozent",
+      "text": "Fakten: Statistik Austria veröffentlichte am 16. Oktober die Luftemissionsrechnung für 2024. Die fossilen CO₂-Emissionen der in Österreich ansässigen Unternehmen, Institutionen und Haushalte sanken gegenüber 2023 um 4,3 Prozent. Als Einflussfaktoren nennt die Behörde weniger Dieselverbrauch, geringeren Heizbedarf und schwächere Industrieproduktion. Gegenüber 2008 lag der Ausstoß 27 Prozent niedriger. Die Rechnung folgt dem Inländerprinzip und umfasst damit auch Emissionen österreichischer Akteure im Ausland; sie ist nicht mit einer rein territorialen Bilanz gleichzusetzen.\n\nEinordnung: Für Nachhaltigkeitsberichte zählt neben der Veränderungsrate die Bilanzgrenze. Der Rückgang darf außerdem nicht vollständig struktureller Dekarbonisierung zugeschrieben werden, weil Wetter und wirtschaftliche Aktivität ebenfalls beitrugen.\n\nQuellen: https://www.statistik.at/fileadmin/announcement/2026/10/20261016Luftemissionsrechnung2024.pdf"
+    },
+    {
+      "id": "2026-10-17-5",
+      "date": "2026-10-17",
+      "number": 5,
+      "title": "EU-Kommission und Europol untersuchen Lücken in digitaler Forensik",
+      "text": "Fakten: Kommission und Europol veröffentlichten am 16. Oktober eine Bedarfsanalyse zur digitalen Forensik. Sie beschreibt Defizite bei Ressourcen und Fachwissen, fehlende Standardisierung und Interoperabilität sowie Herausforderungen bei Cloud-, Fahrzeug- und IoT-Forensik. Auch KI-Einsatz und die Einhaltung rechtlicher Rahmenbedingungen werden behandelt. Die Analyse soll künftige Maßnahmen und geförderte Projekte unterstützen; sie schafft selbst keine neuen Ermittlungsbefugnisse.\n\nEinordnung: Digitale Beweissicherung hängt von technischen Schnittstellen, qualifiziertem Personal und rechtlich nachvollziehbaren Verfahren ab. Für Organisationen mit komplexen Systemlandschaften unterstreicht die Analyse die Bedeutung überprüfbarer Datenherkunft und belastbarer Prozesse zur Untersuchung von Vorfällen.\n\nQuellen: https://home-affairs.ec.europa.eu/news/new-analysis-digital-forensic-gaps-and-needs-eu-law-enforcement-2026-10-16_en"
+    },
+    {
+      "id": "2026-10-16-1",
+      "date": "2026-10-16",
+      "number": 1,
+      "title": "EU-Gipfel fordert schnellere Fortschritte bei Binnenmarkt und Energie",
+      "text": "Fakten: Am ersten Tag des Europäischen Rates vom 15.–16. Oktober verabschiedeten die Staats- und Regierungschefs Schlussfolgerungen zur Wettbewerbsfähigkeit. Sie drängen auf Fortschritte bei der digitalen und umweltbezogenen Vereinfachung, dem europäischen Netzpaket und weiteren Binnenmarktvorhaben. Zugleich fordern sie schnellere Elektrifizierung, erneuerbare und CO2-arme Energie, Netze, Speicher und Effizienz. Weitere kurzfristige Maßnahmen gegen hohe Energiepreise sollen geprüft werden. Dies sind politische Aufträge; die genannten Gesetzgebungsvorhaben sind dadurch nicht automatisch beschlossen.\n\nEinordnung: Für Technologie- und Nachhaltigkeitsinvestitionen treffen Entlastungsziele auf weiterhin laufende Gesetzgebungsverfahren. Planung sollte politische Richtung und tatsächlich geltende Anforderungen getrennt verfolgen. Der Gipfel setzt seine Beratungen heute fort.\n\nQuellen: https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15/"
+    },
+    {
+      "id": "2026-10-16-2",
+      "date": "2026-10-16",
+      "number": 2,
+      "title": "Ericsson-Fallbericht unterscheidet digitale Angebotsprozesse und KI-Erprobung",
+      "text": "Fakten: SAP veröffentlichte am 15. Oktober einen Bericht über Ericsson. Mit SAP Commerce Cloud können Kunden vertragsspezifische Produkte abrufen, Angebote erstellen und Bestellungen selbst auslösen. Laut Bericht wurden früher teils wochenlange Abläufe auf Minuten oder Sekunden verkürzt. KI-Agenten für Angebotsvorbereitung, Produktbeschreibungen und Suche werden dagegen erst untersucht beziehungsweise bewertet; vorgeschlagene Angebote sollen menschlich geprüft werden. Quelle ist ausschließlich ein Hersteller- und Kundenbericht, keine unabhängige Leistungsprüfung.\n\nEinordnung: Der Fall zeigt, warum Nutzen aus Digitalisierung nicht pauschal KI zugeschrieben werden sollte. Für ERP-nahe Vertriebsarchitekturen sind Vertragsdaten, Preisregeln, Berechtigungen und Freigaben die Grundlage, bevor Agenten weitere Aufgaben übernehmen.\n\nQuellen: https://news.sap.com/2026/10/how-ericsson-is-reimagining-b2b-commerce-with-ai/"
+    },
+    {
+      "id": "2026-10-16-3",
+      "date": "2026-10-16",
+      "number": 3,
+      "title": "Neue Ergebnisse für strategische nachhaltige IT-Beschaffung veröffentlicht",
+      "text": "Fakten: Die Public Buyers Community veröffentlichte am 15. Oktober Ergebnisse einer von Jänner bis Juli durchgeführten Aktivität zur nachhaltigen IT-Beschaffung. Sechs öffentliche Organisationen entwickelten organisationsbezogene Beschaffungspläne. Workshops behandelten strategische Prioritäten, Mindestkriterien für Produktgruppen sowie messbare Indikatoren und Nachverfolgung. Ein Abschlussbericht ist verlinkt. Die Veröffentlichung berichtet über die Arbeit der beteiligten Gemeinschaft; sie belegt keine allgemeingültige Wirkungsmessung aller Beschaffungen.\n\nEinordnung: Nachhaltige IT-Beschaffung braucht mehr als zusätzliche Ausschreibungskriterien. Die Verbindung von Zielen, Zuständigkeiten und überprüfbaren Kennzahlen ist auch für Unternehmensbeschaffung und ERP-gestützte Lieferantenprozesse nützlich. Ein einheitlicher Plan passt jedoch nicht zu jeder Organisation.\n\nQuellen: https://public-buyers-community.ec.europa.eu/communities/sustainability-ict-digital/news/building-your-sustainable-procurement-ict-roadmap"
+    },
+    {
+      "id": "2026-10-16-4",
+      "date": "2026-10-16",
+      "number": 4,
+      "title": "Österreich: Baukosten steigen auch bei Wasserinfrastruktur deutlich",
+      "text": "Fakten: Statistik Austria meldete am 15. Oktober vorläufige Septemberdaten. Die Kosten für Wohnhaus- und Siedlungsbau lagen 5,7 Prozent über dem Vorjahresmonat. Im Straßenbau betrug das Plus 8,8 Prozent, im Brückenbau 7,4 Prozent und im Siedlungswasserbau 8,1 Prozent. Alle vier Sparten verzeichneten auch gegenüber August höhere Kosten. Der Index erfasst unter anderem Material, Energie, Transport, Maschinen und Löhne; Baukosten sind von den tatsächlich verrechneten Baupreisen zu unterscheiden.\n\nEinordnung: Die neuen Werte sind für Infrastruktur- und Klimaanpassungsprojekte relevant, insbesondere für Wassermaßnahmen. Projektcontrolling sollte aktuelle Kostenannahmen nachvollziehbar abbilden, ohne den Index als exakte Preisprognose für ein einzelnes Vorhaben zu verwenden.\n\nQuellen: https://www.statistik.at/fileadmin/announcement/2026/10/20261015BaukostenindexSeptember2026.pdf"
+    },
+    {
+      "id": "2026-10-16-5",
+      "date": "2026-10-16",
+      "number": 5,
+      "title": "SAP veröffentlicht Fragenkatalog zu Sicherheits- und KI-Aufsicht für Leitungsgremien",
+      "text": "Fakten: Ein SAP-Fachbeitrag vom 15. Oktober strukturiert Sicherheits- und Compliance-Aufsicht in zehn Fragen. Dazu gehören klare Verantwortlichkeiten, technische Schulden, KI-Freigaben und Überwachung, Zugriffsrechte, Lieferantenrisiken sowie geübte Wiederherstellung nach Vorfällen. Gefordert werden nachvollziehbare Belege statt bloßer Aktivitätsberichte. Der Text ist eine fachliche Empfehlung aus Herstellersicht, keine neue Regulierung und kein unabhängig geprüfter Sicherheitsstandard.\n\nEinordnung: Für die organisatorische Einbettung von KI ist die Verbindung zwischen Geschäftsverantwortung und technischen Kontrollen hilfreich. Ein Fragenkatalog kann bestehende Aufsichtsgespräche strukturieren, ersetzt aber weder die Prüfung tatsächlicher Kontrollwirksamkeit noch organisationsspezifische Entscheidungen.\n\nQuellen: https://news.sap.com/2026/10/10-questions-board-members-should-be-asking-about-security-compliance/"
+    },
+    {
+      "id": "2026-10-15-1",
+      "date": "2026-10-15",
+      "number": 1,
+      "title": "Digital Talent EU Days setzen KI-Kompetenzen und Teilhabe auf die Agenda",
+      "text": "Fakten: Am 15. und 16. Oktober sind die Digital Talent EU Days in Dublin angesetzt. Laut der am 14. Oktober veröffentlichten EU-Ankündigung stehen digitale Kompetenzlücken, eine stärkere Beteiligung von Frauen und unterrepräsentierten Gruppen sowie die Zusammenarbeit von Unternehmen, Bildung und Verwaltung im Mittelpunkt. Behandelt werden unter anderem KI und Cybersicherheit. Die Quelle beschreibt das Programm; Ergebnisse der Veranstaltung stehen noch aus.\n\nEinordnung: Für die Einführung von KI in Organisationen sind Anwendungskompetenzen und Weiterbildung ebenso wichtig wie Technik. Das Programm verbindet diese Fragen mit Teilhabe und Personalentwicklung, ohne bereits messbare Wirkungen zu belegen.\n\nQuellen: https://digital-strategy.ec.europa.eu/en/news/digital-talent-eu-days-2026-building-skills-europes-digital-future"
+    },
+    {
+      "id": "2026-10-15-2",
+      "date": "2026-10-15",
+      "number": 2,
+      "title": "DACHSER-Fallbericht zeigt schrittweise Migration einer gemischten SAP-Landschaft",
+      "text": "Fakten: SAP veröffentlichte am 14. Oktober einen Bericht über DACHSER. Demnach wurden Personalabrechnung und Zeitwirtschaft für 19 000 Beschäftigte in Deutschland im Juni 2026 über RISE with SAP in die Cloud migriert. Finanzsoftware läuft bereits seit 2024 auf Azure; Transport- und Lagerverwaltung bleiben auf eigenen Systemen. SAP BTP und Integration Suite unterstützen die Verbindungen. Es handelt sich ausschließlich um einen Hersteller- und Kundenbericht, nicht um eine unabhängige Projektprüfung oder einen neuen Go-live im Oktober.\n\nEinordnung: Der Fall ist für Systemarchitektur relevant, weil er eine schrittweise Modernisierung mit unterschiedlichen Betriebsmodellen zeigt. Migrationsreihenfolge, Schnittstellen und Übergabe an den Betrieb bleiben eigenständige Planungsaufgaben.\n\nQuellen: https://news.sap.com/2026/10/dachser-migrates-hcm-to-sap-s-4hana-cloud-rise-with-sap/"
+    },
+    {
+      "id": "2026-10-15-3",
+      "date": "2026-10-15",
+      "number": 3,
+      "title": "Eurostat: EU sammelt 12,3 Kilogramm Elektroschrott pro Person",
+      "text": "Fakten: Eurostat veröffentlichte am 14. Oktober Daten für 2024. In der EU wurden 12,3 Kilogramm Elektro- und Elektronikaltgeräte pro Person gesammelt, 0,7 Kilogramm mehr als 2023. Gleichzeitig kamen 32,4 Kilogramm neue Geräte pro Person auf den Markt. Österreich verzeichnete mit 38,2 Kilogramm den höchsten Wert bei neu in Verkehr gebrachten Geräten. Die Kategorie umfasst auch große Geräte und Photovoltaikmodule, nicht nur Computer und Smartphones.\n\nEinordnung: Für nachhaltige IT-Beschaffung zählen Nutzungsdauer, Wiederverwendung und nachvollziehbare Entsorgung. Die Differenz zwischen Neugeräten und gesammelten Altgeräten ist keine direkte Messung illegaler Entsorgung: Ein Teil der Geräte bleibt in Gebrauch oder wird gelagert.\n\nQuellen: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261014-1"
+    },
+    {
+      "id": "2026-10-15-4",
+      "date": "2026-10-15",
+      "number": 4,
+      "title": "EU stellt Investitionsbeschleuniger für Wasserresilienz vor",
+      "text": "Fakten: Die Kommission präsentierte am 14. Oktober den Water Resilience Investment Accelerator von Green Assist. Die Beratungsinitiative unter InvestEU, finanziert aus LIFE, soll 20 innovative Pilotprojekte zu Wassereffizienz, sauberem Wasser und naturbasiertem Wasserrückhalt unterstützen. Sie soll Projekte für private Investoren attraktiver machen und Anbieter mit potenziellen Nutzern verbinden. Angesprochen sind insbesondere EU-Unternehmen, Landwirtschaft und lokale Behörden; Anfragen und Bewerbungen werden bis Ende Oktober erbeten.\n\nEinordnung: Die Initiative verbindet Klimaanpassung und nachhaltige Infrastruktur mit Projektfinanzierung. Beratung zur Finanzierungsreife ist jedoch keine Investitionszusage. Für digitale Wasserlösungen müssen technische Wirkung, Geschäftsmodell und langfristiger Betrieb gemeinsam tragfähig sein.\n\nQuellen: https://environment.ec.europa.eu/news/commission-presents-water-resilience-investment-accelerator-2026-10-14_en"
+    },
+    {
+      "id": "2026-10-15-5",
+      "date": "2026-10-15",
+      "number": 5,
+      "title": "EU unterzeichnet Zusatzprotokoll gegen Geldwäsche und kriminelle Vermögenswerte",
+      "text": "Fakten: Die EU unterzeichnete am 14. Oktober das Zusatzprotokoll zur Warschauer Konvention des Europarats. Es enthält verstärkte Regeln zu Einfrieren und Einziehung, Vermögensverwaltung sowie polizeilicher und justizieller Zusammenarbeit. Die beabsichtigte grenzüberschreitende Wirkung setzt das Inkrafttreten voraus. Über den Abschluss muss der Rat noch entscheiden; auch die Zustimmung des Europäischen Parlaments ist erforderlich. Die Unterzeichnung allein bedeutet daher keine vollständige neue Rechtsanwendung.\n\nEinordnung: Für Governance und Compliance ist die Entwicklung ein weiterer Schritt zur grenzüberschreitenden Bekämpfung von Finanzkriminalität. Konkrete Anpassungen von Kontrollen oder IT-Prozessen müssen sich nach den tatsächlich anwendbaren Vorschriften richten.\n\nQuellen: https://home-affairs.ec.europa.eu/news/eu-signs-protocol-strengthen-asset-recovery-and-anti-money-laundering-cooperation-2026-10-14_en"
+    },
+    {
+      "id": "2026-10-14-1",
+      "date": "2026-10-14",
+      "number": 1,
+      "title": "SAP konkretisiert neue Funktionen von Cloud ERP Private 2025 FPS02",
+      "text": "Fakten: SAP erläuterte am 13. Oktober den Feature Pack Stack 02 für Cloud ERP Private 2025. Genannt werden KI-Unterstützung für Finanz- und Vertriebsprozesse, Dokumentenverarbeitung im Qualitätsmanagement und zusätzliche Compliance-Funktionen. Im Handel sollen unter anderem GS1-2D-Barcodes und eine erweiterte Rückverfolgbarkeit über Seriennummern unterstützt werden. Die Angaben stammen ausschließlich vom Hersteller; Nutzen und Verfügbarkeit je Kundenumgebung sind nicht unabhängig bestätigt.\n\nEinordnung: Die Veröffentlichung liefert konkrete Ansatzpunkte für eine Upgrade-Bewertung. Für ERP-Architekturen zählen dabei Prozesskontrollen, Berechtigungen und Datenqualität ebenso wie KI-Funktionen. Produktankündigungen ersetzen keine Prüfung der eigenen Konfiguration und Lizenzen.\n\nQuellen: https://news.sap.com/2026/10/sap-cloud-erp-private-2025-fps02-foundation-autonomous-enterprise/"
+    },
+    {
+      "id": "2026-10-14-2",
+      "date": "2026-10-14",
+      "number": 2,
+      "title": "Digital Europe: HaDEA veröffentlicht Einreichungszahlen neuer Förderaufrufe",
+      "text": "Fakten: HaDEA meldete am 13. Oktober 25 Anträge für DIGITAL-2026-BESTUSE-10 und 73 für DIGITAL-2026-SKILLS-10 zum Stichtag 1. Oktober. Im Skills-Aufruf entfielen 44 Anträge auf EdTech, 27 auf Digital Health STEP und zwei auf nationale Koalitionen. Die Bewertungen werden zwischen Oktober und Dezember erwartet. Trotz der Überschrift „call results“ nennt die Mitteilung Einreichungszahlen und keine bereits vergebenen Förderungen.\n\nEinordnung: Für digitale Bildungs- und Gesundheitsprojekte ist dies ein aktueller Stand des Förderverfahrens. Die Zahlen zeigen Bewerbungsaktivität, belegen jedoch weder Projektqualität noch Förderchancen oder eine Finanzierungszusage.\n\nQuellen: https://hadea.ec.europa.eu/news/digital-europe-programme-new-call-results-published-2026-10-13_en"
+    },
+    {
+      "id": "2026-10-14-3",
+      "date": "2026-10-14",
+      "number": 3,
+      "title": "Eurostat: EU-Handel mit Elektro- und Hybridautos wächst",
+      "text": "Fakten: Eurostat veröffentlichte am 13. Oktober neue Daten für 2025. Die EU importierte Elektro- und Hybrid-Pkw im Wert von 45,1 Milliarden Euro, vier Prozent mehr als 2024. Die Exporte stiegen um zehn Prozent auf 64,7 Milliarden Euro. Von 12,6 Millionen in der EU produzierten Pkw waren 4,8 Millionen hybrid oder elektrisch. China war mit 42 Prozent der wichtigste Partner bei Importen rein elektrischer Pkw.\n\nEinordnung: Die Daten verbinden industrielle Transformation mit Lieferkettenabhängigkeiten. Handelswerte sind keine Stückzahlen; zudem unterscheiden sich rein elektrische Fahrzeuge, Plug-in-Hybride und andere Hybride deutlich. Für Nachhaltigkeitsbewertungen müssen Nutzung und Lebenszyklus zusätzlich berücksichtigt werden.\n\nQuellen: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261013-1"
+    },
+    {
+      "id": "2026-10-14-4",
+      "date": "2026-10-14",
+      "number": 4,
+      "title": "EU-Rat fordert transparente Beteiligung für demokratische Resilienz",
+      "text": "Fakten: Der Rat verabschiedete am 13. Oktober Schlussfolgerungen zu inklusiver demokratischer Beteiligung und gesellschaftlicher Resilienz. Er betont transparente öffentliche Konsultationen, die Beteiligung einer unabhängigen und vielfältigen Zivilgesellschaft sowie koordinierte Maßnahmen gegen politische Entfremdung. Die Schlussfolgerungen folgen dem Europäischen Demokratieschild und fordern ergänzende statt doppelte Strukturen. Es handelt sich um politische Schlussfolgerungen, nicht um ein neues unmittelbar geltendes Plattformgesetz.\n\nEinordnung: Für digitale Beteiligungsangebote sind Zugänglichkeit, nachvollziehbare Entscheidungen und Vertrauen zentrale Gestaltungsfragen. Auch bei KI-gestützter Kommunikation lässt sich Beteiligungsqualität nicht allein an Reichweite oder automatisierter Interaktion messen.\n\nQuellen: https://www.consilium.europa.eu/en/press/press-releases/2026/10/13/council-approves-conclusions-on-inclusive-democratic-participation-and-societal-and-community-resilience/"
+    },
+    {
+      "id": "2026-10-14-5",
+      "date": "2026-10-14",
+      "number": 5,
+      "title": "EU legt Verhandlungspositionen für Klima- und Biodiversitätsgipfel fest",
+      "text": "Fakten: Der Rat billigte am 12. Oktober zwei Schlussfolgerungen zu den EU-Verhandlungspositionen für COP31 und COP17. Im Mittelpunkt stehen die beschleunigte Umsetzung des Pariser Abkommens und des globalen Biodiversitätsrahmens sowie wissenschaftsbasierte internationale Zusammenarbeit. Für COP31 fordert die EU insbesondere die wirksame Umsetzung nationaler Klimabeiträge und die Einreichung noch fehlender Pläne. Damit sind EU-Positionen festgelegt; Ergebnisse der bevorstehenden Gipfel stehen noch aus.\n\nEinordnung: Gegenüber den zuvor berichteten Klimafinanzierungszielen erweitert die Meldung den Blick auf Umsetzung und Biodiversität. Für Nachhaltigkeitsstrategie und Risikobewertung sollten politische Ziele, verabschiedete Maßnahmen und nachgewiesene Wirkungen getrennt verfolgt werden.\n\nQuellen: https://www.consilium.europa.eu/en/press/press-releases/2026/10/12/multilateralism-council-sets-eu-position-ahead-of-climate-change-and-biodiversity-summits/"
+    },
+    {
+      "id": "2026-10-13-1",
+      "date": "2026-10-13",
+      "number": 1,
+      "title": "EU-Kommission veröffentlicht Empfehlungen nach KI-Sicherheitsvorfällen",
+      "text": "Fakten: In ihrem Bericht vom 12. Oktober zur Sondersitzung des wissenschaftlichen KI-Panels am 9. Oktober beschreibt die Kommission Untersuchungen zu jüngsten Kontrollverlust-Vorfällen. Das AI Office hat bereits Berichte über schwerwiegende Vorfälle angefordert und erhalten sowie Auskunftsersuchen zu Sicherheitspraktiken versandt. Weitere Fragen sollen folgen. Empfohlen werden unter anderem stärkere Fähigkeiten zur Untersuchung solcher Vorfälle und genauere Prüfung von Trainingsverfahren, die die Überwachbarkeit von Modellen vermindern. Ursachen und Umfang der Vorfälle werden in der Quelle nicht abschließend geklärt.\n\nEinordnung: Für KI-Governance zählen nachvollziehbare Tests, Überwachung und geregelte Reaktionen auf Vorfälle. Die Empfehlungen sind keine abschließende technische Bewertung einzelner Modelle und kein neuer Gesetzestext.\n\nQuellen: https://digital-strategy.ec.europa.eu/en/news/special-meeting-ai-scientific-panel"
+    },
+    {
+      "id": "2026-10-13-2",
+      "date": "2026-10-13",
+      "number": 2,
+      "title": "SAP konkretisiert Zahlungsintegration und neue Finanzkonsolidierung",
+      "text": "Fakten: SAP erläuterte am 12. Oktober neue Finanzfunktionen. SAP Pay verbindet genehmigte Rechnungen mit Zahlungsausführung und Abstimmung innerhalb von SAP Cloud ERP; laut Hersteller ist der Dienst allgemein in den USA und Großbritannien verfügbar. SAP Enterprise Financial Consolidation soll auf der Business Data Cloud gesetzliche und interne Konsolidierung mit Abschluss und Offenlegung verbinden. Das Early-Adopter-Programm ist für das erste Quartal 2027 geplant. Die Quelle stammt ausschließlich von SAP; Leistungsversprechen und Verfügbarkeit je Kundenumgebung sind nicht unabhängig bestätigt.\n\nEinordnung: Die Meldung präzisiert Umfang und Zeitplan gegenüber allgemeinen SAP-Connect-Ankündigungen. Für österreichische Unternehmen darf aus der Verfügbarkeit in USA und Großbritannien keine lokale Nutzbarkeit abgeleitet werden. Berechtigungen, Zahlungsfreigaben und Prüfpfade bleiben entscheidend.\n\nQuellen: https://news.sap.com/2026/10/sap-advances-finance-operations-embedded-payments-new-consolidation-capabilities-expanded-ai/"
+    },
+    {
+      "id": "2026-10-13-3",
+      "date": "2026-10-13",
+      "number": 3,
+      "title": "Österreichs Straßengüterverkehr erreicht niedrigstes Aufkommen seit 2016",
+      "text": "Fakten: Statistik Austria veröffentlichte am 12. Oktober neue Ergebnisse für 2025. Auf Österreichs Straßen wurden 549,4 Millionen Tonnen Güter befördert, 0,6 Prozent weniger als 2024 und der niedrigste Wert seit 2016. Die Transportleistung auf österreichischem Territorium sank um 0,9 Prozent auf 52,9 Milliarden Tonnenkilometer. Während das Aufkommen im Inlandsverkehr um 2,5 Prozent zurückging, stiegen grenzüberschreitender Empfang und Versand. Es handelt sich um Daten für 2025, nicht um laufende Transportzahlen für Oktober 2026.\n\nEinordnung: Für Logistik- und ERP-Planung sind die unterschiedlichen Verkehrsströme aussagekräftiger als der Gesamtrückgang. Weniger transportierte Tonnen belegen für sich keine entsprechende Emissionssenkung; Strecke, Auslastung und Antrieb müssen zusätzlich betrachtet werden.\n\nQuellen: https://www.statistik.at/fileadmin/announcement/2026/10/20261012Strassengueterverkehr2025.pdf"
+    },
+    {
+      "id": "2026-10-13-4",
+      "date": "2026-10-13",
+      "number": 4,
+      "title": "Copernicus meldet zweitwärmsten September weltweit",
+      "text": "Fakten: Der am 12. Oktober veröffentlichte Copernicus-Bericht weist September 2026 im ERA5-Datensatz als zweitwärmsten September weltweit aus. Die globale Durchschnittstemperatur lag bei 16,27 Grad Celsius, 0,82 Grad über dem Mittel 1991–2020 und geschätzt 1,63 Grad über dem vorindustriellen Referenzzeitraum 1850–1900. Für Europa war es der drittwärmste September. Der Bericht beschreibt zugleich verbreitete Trockenheit und außergewöhnlich niedrige Flussabflüsse in Teilen Europas.\n\nEinordnung: Die Daten sind für Klimaanpassung, Wasser- und Lieferkettenrisiken relevant. Ein einzelner Monat oberhalb von 1,5 Grad ist von der langfristigen Erwärmung zu unterscheiden; er belegt allein keine dauerhafte Überschreitung des langfristigen Pariser Temperaturziels.\n\nQuellen: https://climate.copernicus.eu/copernicus-second-warmest-september-global-temperatures-stay-above-15degc"
+    },
+    {
+      "id": "2026-10-13-5",
+      "date": "2026-10-13",
+      "number": 5,
+      "title": "Neues EU-Dashboard zeigt Beschäftigung in Bereichen mit hoher KI-Nutzung",
+      "text": "Fakten: Die EU-Kommission veröffentlichte am 9. Oktober eine Erläuterung zu ihrem neuen vierteljährlichen Dashboard-Modul für KI-Nutzung. Es zeigt Beschäftigungsreihen seit 2011 für Sektoren und Berufe mit hoher KI-Adoption. Die Einordnung der KI-Nutzung beruht auf der repräsentativen AIM-WORK-Erhebung zu digitalen Werkzeugen, digitaler Überwachung und algorithmischem Management in den 27 EU-Ländern. Vergleiche sind nach Land und Altersgruppe möglich; Diagramme und Karten können heruntergeladen werden.\n\nEinordnung: Das Werkzeug verbindet Arbeitsmarkt- und Digitalisierungsanalyse. Historische Beschäftigungsreihen dürfen jedoch nicht als historische Messung heutiger KI-Werkzeuge gelesen werden. Auch beweisen Veränderungen in den ausgewählten Berufen für sich keinen kausalen Beschäftigungseffekt von KI.\n\nQuellen: https://employment-social-affairs.ec.europa.eu/policies-and-activities/analysis-evaluation-impact-assessment-and-databases/employment-and-social-analysis/european-employment-and-social-outlook-dashboard_en"
+    },
+    {
+      "id": "2026-10-11-1",
+      "date": "2026-10-11",
+      "number": 1,
+      "title": "EU-Papier zu generativer KI in der Bildung unterscheidet Nutzungserfolg und Lernen",
+      "text": "Fakten: Die EU-Kommission stellte am 9. Oktober neue Evidenz zur Nutzung generativer KI in Lehre und Lernen vor. Das Papier „Friend or foe?“ und die zugrunde liegenden ENESET-Berichte behandeln Chancen personalisierten Lernens sowie Risiken durch Verzerrungen, Datenschutzprobleme und übermäßige Abhängigkeit. Ein zentraler Befund: Erfolgreich mit KI bearbeitete Aufgaben belegen nicht automatisch dauerhaft erworbene Fähigkeiten. Die Berichte betonen klare institutionelle Regeln und KI-Kompetenzen auch für Lehrende.\n\nEinordnung: Für Bildungsangebote und betriebliche Weiterbildung sollten Lernziele und eigenständige Leistung getrennt von der Qualität KI-gestützter Ergebnisse geprüft werden. Das ist auch für die Gestaltung digitaler Lernplattformen relevant.\n\nQuellen: https://education-socioeconomic-experts.ec.europa.eu/news/eneset-evidence-feeds-commissions-new-paper-generative-ai-education-2026-10-09_en"
+    },
+    {
+      "id": "2026-10-11-2",
+      "date": "2026-10-11",
+      "number": 2,
+      "title": "SAP meldet allgemeine Verfügbarkeit von Reltio in der Business Data Cloud",
+      "text": "Fakten: In einem Beitrag vom 8. Oktober erklärt SAP, dass SAP Reltio in der SAP Business Data Cloud allgemein verfügbar ist. Die Lösung soll fragmentierte Stammdaten zu Kunden, Lieferanten, Produkten und Beschäftigten über SAP- und Fremdsysteme hinweg zusammenführen. SAP verbindet diese Datenbasis mit seiner Business-AI-Plattform und Joule Work. Die Quelle ist eine Herstellerveröffentlichung; Nutzen- und Leistungsversprechen sind nicht unabhängig bestätigt.\n\nEinordnung: Die neue Verfügbarkeitsmeldung betrifft eine konkrete Voraussetzung für Unternehmens-KI: konsistente Stammdaten. Für ERP-Architekturen sind Verantwortlichkeiten, Dublettenabgleich, Zugriffsrechte und Datenherkunft weiterhin entscheidend; die Produktintegration ersetzt deren Prüfung nicht.\n\nQuellen: https://news.sap.com/2026/10/joule-work-sap-business-ai-platform-power-next-generation-business-ai/"
+    },
+    {
+      "id": "2026-10-11-3",
+      "date": "2026-10-11",
+      "number": 3,
+      "title": "Österreich: Elektro-Pkw-Neuzulassungen steigen im September um 80,6 Prozent",
+      "text": "Fakten: Statistik Austria veröffentlichte am 9. Oktober die Zulassungszahlen für September. In diesem Monat wurden 9 723 rein elektrische Pkw neu zugelassen, 80,6 Prozent mehr als im Vorjahresmonat; ihr Anteil lag bei 33,6 Prozent. Von Jänner bis September wurden insgesamt 241 108 neue Pkw zugelassen, ein Plus von 12,1 Prozent. Rein elektrische Fahrzeuge machten in diesem Zeitraum 26,2 Prozent aus. Statistik Austria führt den starken Septemberanstieg teilweise auf zusätzliche Modelle zurück.\n\nEinordnung: Die Daten liefern einen aktuellen Maßstab für Flotten- und Ladeinfrastrukturplanung. Neuzulassungen beschreiben jedoch weder den gesamten Fahrzeugbestand noch automatisch eine entsprechende Senkung der Verkehrsemissionen.\n\nQuellen: https://www.statistik.at/fileadmin/announcement/2026/10/20261009KfzNeuzulassungenSeptember2026.pdf"
+    },
+    {
+      "id": "2026-10-11-4",
+      "date": "2026-10-11",
+      "number": 4,
+      "title": "EU-Finanzminister bekräftigen Klimafinanzierungsziel vor COP31",
+      "text": "Fakten: Der Rat der EU verabschiedete am 9. Oktober Schlussfolgerungen zur internationalen Klimafinanzierung vor der COP31 im November. Darin bekräftigen EU und Mitgliedstaaten das internationale kollektive Ziel, bis 2035 jährlich 300 Milliarden US-Dollar für Entwicklungsländer zu mobilisieren. Der Rat fordert weitere Länder mit finanziellen Möglichkeiten zu stärkeren Beiträgen auf. Das Ziel ist eine gemeinsame internationale Zusage und keine alleinige EU-Zahlungsverpflichtung über diesen Betrag.\n\nEinordnung: Für Nachhaltigkeitsstrategie und Projektbewertung ist die Unterscheidung zwischen politischen Finanzierungszielen, konkreten Programmen und tatsächlich ausgezahlten Mitteln wichtig. Die Schlussfolgerungen liefern den aktuellen politischen Rahmen, aber keine Zusage für einzelne Projekte.\n\nQuellen: https://data.consilium.europa.eu/doc/document/ST-14090-2026-INIT/en/pdf"
+    },
+    {
+      "id": "2026-10-11-5",
+      "date": "2026-10-11",
+      "number": 5,
+      "title": "EU-Rat vereinbart Eckpunkte für Kapitalmarktaufsicht und DLT-Pilotregime",
+      "text": "Fakten: Der Rat erzielte am 9. Oktober eine politische Einigung über Kernelemente seiner Verhandlungsposition zum Marktintegrations- und Aufsichtspaket. Vorgesehen sind stärkere ESMA-Aufsicht über bedeutende grenzüberschreitende Marktakteure sowie ein breiter nutzbares Pilotregime für Distributed-Ledger-Technologie. Bei Krypto-Dienstleistern sollen nach der Ratsposition zunächst nur die bedeutendsten grenzüberschreitenden Anbieter unmittelbar unter ESMA fallen. Die Position muss noch formalisiert werden; Verhandlungen mit dem Parlament stehen aus. Die Regelungen gelten daher noch nicht als verabschiedetes Gesamtpaket.\n\nEinordnung: Für digitale Finanzinfrastruktur verbindet die Initiative technische Experimentierräume mit veränderter Aufsicht. Bei System- und Compliance-Planungen bleibt der endgültige Gesetzestext maßgeblich.\n\nQuellen: https://www.consilium.europa.eu/en/press/press-releases/2026/10/09/savings-and-investments-union-council-agrees-key-elements-of-crucial-measures-to-deepen-eu-capital-markets/"
+    },
+    {
+      "id": "2026-10-10-1",
+      "date": "2026-10-10",
+      "number": 1,
+      "title": "EU fordert kohärente Regeln für internationale KI-Governance",
+      "text": "Fakten: In einer am 9. Oktober veröffentlichten Erklärung vor dem zuständigen Ausschuss der UN-Generalversammlung bekräftigen EU und Mitgliedstaaten ihre Unterstützung für den Global Digital Compact. Zugleich kritisieren sie einen Resolutionsentwurf zur Unterstützung des internationalen wissenschaftlichen KI-Panels und des globalen KI-Governance-Dialogs: Aus ihrer Sicht überschneidet er sich mit bereits vereinbarten Strukturen. Es handelt sich um eine politische Stellungnahme, nicht um einen neuen verabschiedeten Rechtsakt.\n\nEinordnung: Für die Bewertung internationaler KI-Regeln zählt neben ihrem Inhalt auch, welche Institution zuständig ist. Der Streit zeigt, dass zusätzliche Gremien nicht automatisch klarere Verantwortlichkeiten schaffen.\n\nQuellen: https://www.eeas.europa.eu/delegations/un-new-york/eu-statement-un-general-assembly-second-committee-information-and-communications-technologies_en"
+    },
+    {
+      "id": "2026-10-10-2",
+      "date": "2026-10-10",
+      "number": 2,
+      "title": "Kommission schlägt längere Nutzung von Instrumenten gegen Umsatzsteuerbetrug vor",
+      "text": "Fakten: Die EU-Kommission erläuterte am 9. Oktober ihren am 1. Oktober angenommenen Vorschlag, den optionalen Reverse-Charge-Mechanismus und den Schnellreaktionsmechanismus gegen Umsatzsteuerbetrug bis zum 30. Juni 2030 zu verlängern. Reverse Charge verlagert in bestimmten Fällen die Steuerschuld vom Verkäufer zum Käufer. Der Vorschlag muss noch im Rat beraten werden. Die Kommission stellt ihn in den Zusammenhang mit der Vorbereitung digitaler Umsatzsteuer-Meldeverfahren unter der Reform VAT in the Digital Age.\n\nEinordnung: Für ERP- und SAP-Verantwortliche bleibt die Trennung zwischen geltenden Steuervorschriften und geplanten Änderungen zentral. Steuerkennzeichen, Rechnungsprozesse und digitale Meldungen sollten anhand der tatsächlich verabschiedeten Regeln geplant werden.\n\nQuellen: https://taxation-customs.ec.europa.eu/news/commission-proposes-extending-key-anti-vat-fraud-tools-until-june-2030-2026-10-09_en"
+    },
+    {
+      "id": "2026-10-10-3",
+      "date": "2026-10-10",
+      "number": 3,
+      "title": "EU nimmt zweite Liste strategischer Rohstoffprojekte an",
+      "text": "Fakten: Laut offizieller Projektseite wurde am 9. Oktober die zweite Liste strategischer Projekte nach dem Critical Raw Materials Act angenommen. Die Projekte sollen die Gewinnung, Verarbeitung und das Recycling strategischer Rohstoffe ausbauen sowie Bezugsquellen außerhalb der EU diversifizieren. Die Auswahl berücksichtigt unter anderem technische Machbarkeit und nachhaltige Umsetzung. Der strategische Status bedeutet nicht, dass ein Projekt bereits produziert.\n\nEinordnung: Die Versorgung mit kritischen Rohstoffen verbindet Digitalisierung und Energiewende mit Beschaffung und Kreislaufwirtschaft. Für Unternehmen ist die Liste ein Ausgangspunkt zur Prüfung künftiger Lieferketten; sie ersetzt keine Bewertung konkreter Lieferfähigkeit oder Umweltwirkungen.\n\nQuellen: https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/strategic-projects-under-crma_en"
+    },
+    {
+      "id": "2026-10-10-4",
+      "date": "2026-10-10",
+      "number": 4,
+      "title": "Rat beschließt stärkere Marktstabilitätsreserve für ETS2",
+      "text": "Fakten: Der Rat der EU verabschiedete am 9. Oktober Änderungen an der Marktstabilitätsreserve für ETS2, das Gebäude, Straßenverkehr und weitere Sektoren erfasst. Die Reserve soll über 2030 hinaus bestehen. Bei Überschreiten des vorgesehenen Schwellenwerts von 45 Euro je Tonne CO2-Äquivalent in Preisen von 2020 sollen 40 statt 20 Millionen Zertifikate freigegeben werden. Das Inkrafttreten erfolgt erst 20 Tage nach Veröffentlichung im EU-Amtsblatt. Der Rat nennt 2028 als geplanten vollständigen Start von ETS2.\n\nEinordnung: Die Reserve soll starke Preisschwankungen abfedern; der Schwellenwert ist keine garantierte Preisobergrenze. Für Energie- und Mobilitätsplanung sind deshalb weiterhin mehrere Kostenszenarien sinnvoll.\n\nQuellen: https://www.consilium.europa.eu/en/press/press-releases/2026/10/09/ets2-council-signs-off-on-rules-strengthening-the-market-stability-reserve/"
+    },
+    {
+      "id": "2026-10-10-5",
+      "date": "2026-10-10",
+      "number": 5,
+      "title": "EFRAG stellt praktische Umsetzung freiwilliger Nachhaltigkeitsberichte in den Mittelpunkt",
+      "text": "Fakten: EFRAG und EU-Kommission hatten für den 9. Oktober eine Veranstaltung zum Übergang von der VSME-Empfehlung zum freiwilligen Nachhaltigkeitsstandard angesetzt. Das veröffentlichte Programm behandelt Änderungen durch den delegierten Rechtsakt, praktische Leitfäden, digitale Werkzeuge und Erfahrungen von Unternehmen. Zielgruppe sind unter anderem KMU und Unternehmen außerhalb des CSRD-Anwendungsbereichs. Die vorliegende Quelle ist eine Veranstaltungsankündigung; sie belegt keine nachträglich beschlossenen Ergebnisse.\n\nEinordnung: Freiwillige Berichtsstandards können die strukturierte Bereitstellung von Nachhaltigkeitsdaten für Geschäftspartner erleichtern. Für kleinere Unternehmen sind insbesondere wiederverwendbare Daten und praktische Werkzeuge relevant; aus dem Veranstaltungsprogramm folgt keine zusätzliche Berichtspflicht.\n\nQuellen: https://www.efrag.org/en/news-and-calendar/news/save-the-date-from-vsme-to-the-voluntary-standard-a-practical-approach-to-sustainability-reporting"
+    },
+    {
+      "id": "2026-10-09-1",
+      "date": "2026-10-09",
+      "number": 1,
+      "title": "Britische Datenschutzaufsicht startet Konsultation zu KI-Agenten",
+      "text": "Fakten: Die britische Datenschutzaufsicht ICO veröffentlichte am 8. Oktober einen Bericht über Änderungen beziehungsweise Zusagen von zehn großen KI-Modellentwicklern. Genannt werden bessere Transparenz, Möglichkeiten zur Ausübung von Betroffenenrechten und Sicherheitsbewertungen. Zugleich startete sie eine Konsultation zu Datenschutzrisiken agentischer KI mit Frist bis 20. November. Untersuchungen zu berichteten Vorfällen beim Testen von Agenten laufen noch; bestätigte Rechtsverstöße werden daraus nicht abgeleitet.\n\nEinordnung: Die Aufsicht verlagert ihren Blick vom Modelltraining auf eigenständige Handlungen von Agenten. Das ist auch für europäische Unternehmen mit internationalen Anbietern relevant: Berechtigungen, Überwachung und Verantwortlichkeiten müssen zum tatsächlichen Handlungsspielraum passen. Die Mitteilung betrifft britische Aufsicht und begründet keine neue EU-Pflicht.\n\nQuellen: https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/10/ico-secures-changes-from-leading-ai-developers-as-scrutiny-extends-to-ai-agents/"
+    },
+    {
+      "id": "2026-10-09-2",
+      "date": "2026-10-09",
+      "number": 2,
+      "title": "SAP kündigt konkrete Joule-Funktionen für Lieferketten an",
+      "text": "Fakten: SAP präzisierte am 8. Oktober Erweiterungen für sechs Joule Assistants und spezialisierte Agenten. Die Szenarien umfassen Produktänderungen, Planungsausnahmen, Produktionsstörungen, Logistik, Instandhaltung und Zusammenarbeit mit Geschäftspartnern. Die allgemeine Verfügbarkeit der neuen Funktionen ist laut SAP für das vierte Quartal 2026 geplant. Grundlage sind ausschließlich Herstellerangaben; Nutzen und produktive Verfügbarkeit je Kundenumgebung sind nicht unabhängig bestätigt.\n\nEinordnung: Die neuen Details ergänzen die allgemeinen SAP-Ankündigungen der Vortage. Für ERP-Architektur ist die Koordination zwischen Planung, Produktion und Logistik entscheidend: Eine automatisierte Entscheidung muss Auswirkungen auf nachgelagerte Prozesse berücksichtigen und innerhalb klarer Berechtigungen bleiben.\n\nQuellen: https://news.sap.com/2026/10/joule-assistants-agents-advance-autonomous-scm/"
+    },
+    {
+      "id": "2026-10-09-3",
+      "date": "2026-10-09",
+      "number": 3,
+      "title": "Europäisches Energie-Cybersecurity-Forum rückt verteilte Netze in den Fokus",
+      "text": "Fakten: ENISA, E.DSO, EE-ISAC und ENCS kündigten für den 8. Oktober in Brüssel das neunte Cybersecurity Energy Forum an. Die Veranstaltungsbeschreibung behandelt Cyberresilienz und Vorbereitung in zunehmend dezentralen Stromnetzen, den Einfluss intelligenter Technologien sowie Abhängigkeiten von globalen Lieferketten. Sie betont die Zusammenarbeit über einzelne Versorgungsunternehmen hinweg. Die Quelle belegt den angesetzten Termin und die Themen, keine veröffentlichten Beschlüsse oder gemessenen Ergebnisse.\n\nEinordnung: Digitalisierung und Energiewende verbinden operative Technik, Datenplattformen und externe Anbieter immer enger. Für nachhaltige Energieinfrastruktur wird deshalb die Sicherheit von Schnittstellen und Lieferketten ebenso wichtig wie die Leistungsfähigkeit der einzelnen Anlagen.\n\nQuellen: https://www.enisa.europa.eu/events/9th-edso-ee-isac-encs-enisa-cybersecurity-energy-forum"
+    },
+    {
+      "id": "2026-10-09-4",
+      "date": "2026-10-09",
+      "number": 4,
+      "title": "Eurostat bündelt Statistikbildung in überarbeitetem Lernportal",
+      "text": "Fakten: Eurostat stellte am 5. Oktober den überarbeiteten European Statistics Learning Hub vor. Er bündelt Einführungsartikel, Videos, ein Glossar und Veröffentlichungen sowie neun Themenbereiche, darunter Wissenschaft, Technologie und digitale Gesellschaft. Hinzu kommen Visualisierungen, Webinare, Podcasts und Verweise auf Angebote nationaler Statistikämter. Das Portal richtet sich sowohl an Einsteiger als auch an Nutzer mit konkreten Vertiefungsfragen.\n\nEinordnung: Für Data Science und die Bewertung KI-generierter Informationen ist statistische Grundbildung eine praktische Voraussetzung. Das Angebot hilft, Begriffe, Bezugszeiträume und Kennzahlen zu verstehen, bevor daraus Entscheidungen oder öffentliche Aussagen abgeleitet werden.\n\nQuellen: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20261005-1"
+    },
+    {
+      "id": "2026-10-09-5",
+      "date": "2026-10-09",
+      "number": 5,
+      "title": "EU-Umweltarbeitsgruppe führt Unterlagen zu interoperabler CO₂-Bilanzierung",
+      "text": "Fakten: Die offizielle Seite zur Sitzung der Ratsarbeitsgruppe Umwelt am 8. Oktober verlinkt Unterlagen zu einer gemeinsamen Climate-Club-Erklärung über CO₂-Bilanzierungsansätze und freiwillige technische Leitlinien zur Interoperabilität. Das Dokument betrifft einen Antrag der Kommission, ein nicht verbindliches Instrument unterstützen zu dürfen. Weitere verlinkte Unterlagen betreffen grüne Industrialisierung und die Verringerung von SF6-Emissionen im Stromsektor. Die Sitzungsseite belegt keine endgültige Annahme dieser Instrumente.\n\nEinordnung: Vergleichbare Emissionsdaten brauchen nachvollziehbare Methoden und anschlussfähige Datenmodelle. Für Nachhaltigkeits- und ERP-Systeme ist die Interoperabilität deshalb relevant; freiwillige internationale Leitlinien müssen dabei von verbindlichen Berichtspflichten unterschieden werden.\n\nQuellen: https://www.consilium.europa.eu/en/meetings/mpo/2026/10/wp-on-the-environment-%28371774%29/"
+    },
+    {
+      "id": "2026-10-08-1",
+      "date": "2026-10-08",
+      "number": 1,
+      "title": "OpenAI kündigt GPT-6 und interaktive Antworten in ChatGPT an",
+      "text": "Fakten: Laut den Release Notes vom 7. Oktober startet OpenAI die globale Einführung von GPT-6 mit „Intelligent UI“ in ChatGPT. Antworten können Text, Grafiken und interaktive Elemente kombinieren. Der Rollout beginnt bei Plus, Pro, Business und Enterprise und soll anschließend Free und Go erreichen; bei Enterprise hängt die Verfügbarkeit von Administratoreinstellungen ab. Grundlage sind Herstellerangaben, keine unabhängige Leistungsprüfung.\n\nEinordnung: Interaktive Antworten können Recherche und Vergleichsaufgaben verändern. Organisationen sollten nachvollziehbare Quellen und die Prüfung erzeugter Inhalte auch dann sicherstellen, wenn Ergebnisse als Diagramm oder interaktives Werkzeug erscheinen.\n\nQuellen: https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    {
+      "id": "2026-10-08-2",
+      "date": "2026-10-08",
+      "number": 2,
+      "title": "SAP konkretisiert neue SuccessFactors-Assistenten und integrierte Personalplanung",
+      "text": "Fakten: In einer Veröffentlichung vom 7. Oktober beschreibt SAP KI-Assistenten für unter anderem Payroll, HR-Service, Recruiting und Lernen als im Oktober verfügbar. Ein weiterer Workforce Planning Assistant ist angekündigt und soll Personal-, Fremdarbeits- und Finanzdaten aus SuccessFactors, Fieldglass und SAP Cloud ERP verbinden. SAP beschreibt außerdem eine Integration von WalkMe Learning Arc in SuccessFactors Learning zur Erstellung von Kursen und Quizzen. Die Angaben stammen ausschließlich von SAP; Nutzen und Verfügbarkeit je Kundenumgebung sind nicht unabhängig geprüft.\n\nEinordnung: Gegenüber den allgemeinen Ankündigungen der Vortage werden konkrete Anwendungen und Datenverbindungen sichtbar. Für die Einführung zählen deshalb fachliche Zuständigkeiten, Zugriffsrechte und die Abstimmung zwischen Personal- und Finanzplanung ebenso wie die Funktionen selbst.\n\nQuellen: https://news.sap.com/2026/10/sap-accelerates-autonomous-hcm/"
+    },
+    {
+      "id": "2026-10-08-3",
+      "date": "2026-10-08",
+      "number": 3,
+      "title": "Eurostat: EU erzielt 32,4 Milliarden Euro Überschuss im Hightech-Handel",
+      "text": "Fakten: Eurostat veröffentlichte am 6. Oktober neue Daten für 2025: Hightech-Exporte der EU beliefen sich auf 566,5 Milliarden Euro, Importe auf 534,1 Milliarden Euro. Daraus ergibt sich ein Überschuss von 32,4 Milliarden Euro. China und die USA stellten zusammen mehr als die Hälfte der Hightech-Importe. Die statistische Kategorie umfasst neben Elektronik auch etwa Pharma- und Luftfahrtprodukte und ist kein reiner Indikator für KI oder Halbleiter.\n\nEinordnung: Der positive Gesamtsaldo ersetzt keine Betrachtung einzelner Lieferketten. Für Beschaffung und Systemarchitektur sind Abhängigkeiten bei konkreten Produkten aussagekräftiger als ein aggregierter Handelswert.\n\nQuellen: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261006-3"
+    },
+    {
+      "id": "2026-10-08-4",
+      "date": "2026-10-08",
+      "number": 4,
+      "title": "ENISA setzt Gesundheits-Cybersicherheit auf die aktuelle europäische Agenda",
+      "text": "Fakten: Für die eHealth Security Conference in Nikosia am 7. Oktober nennt ENISA die Umsetzung von NIS2 im Gesundheitssektor, den Europäischen Gesundheitsdatenraum und den EU-Aktionsplan für die Cybersicherheit von Krankenhäusern als Programmschwerpunkte. Bereits im Juli veröffentlichte Beschaffungsleitlinien behandeln Sicherheitsanforderungen an Lieferanten und den gesamten Beschaffungszyklus. Die verfügbaren Quellen beschreiben Programm und Leitlinien; neue Konferenzbeschlüsse werden damit nicht belegt.\n\nEinordnung: Die Verbindung von Beschaffung, Infrastruktur und Cyberresilienz ist für Krankenhäuser und ihre Technologieanbieter unmittelbar relevant. Sicherheitsanforderungen müssen in Produktauswahl, Schnittstellen und Betrieb berücksichtigt werden, damit digitale Gesundheitsprozesse belastbar bleiben.\n\nQuellen: https://www.enisa.europa.eu/events/11th-ehealth-security-conference | https://www.enisa.europa.eu/news/first-steps-forward-for-the-implementation-of-the-health-action-plan"
+    },
+    {
+      "id": "2026-10-08-5",
+      "date": "2026-10-08",
+      "number": 5,
+      "title": "EU-Rat legt Position zur Beschleunigung von Umweltprüfungen fest",
+      "text": "Fakten: Der Rat beschloss am 30. September seine Verhandlungsposition zu vereinfachten und schnelleren Umweltprüfungen im Paket „Omnibus VIII“. Vorgesehen sind unter anderem zentrale Kontaktstellen, Digitalisierung und abgestimmte Fristen. Die Position betrifft auch Prüfungsverfahren für strategische Projekte etwa unter dem Net-Zero Industry Act, Chips Act und Critical Raw Materials Act. Der Rat verlängerte vorgeschlagene Fristen und änderte Bestimmungen zur Übereinstimmung mit der Aarhus-Konvention. Es handelt sich um ein Verhandlungsmandat, nicht um bereits geltende neue Regeln.\n\nEinordnung: Die Entwicklung verbindet Nachhaltigkeit, industrielle Investitionen und digitale Verwaltungsprozesse. Für Projektplanung bleibt entscheidend, Beschleunigung und prüfbare Umweltinformationen gemeinsam abzubilden und den weiteren Gesetzgebungsverlauf zu verfolgen.\n\nQuellen: https://www.consilium.europa.eu/en/press/press-releases/2026/09/30/simplification-council-agrees-negotiating-stance-to-fast-track-environmental-assessments/"
+    },
+    {
+      "id": "2026-10-07-1",
+      "date": "2026-10-07",
+      "number": 1,
+      "title": "Österreich: KI-Nutzung wächst schneller als das Wissen darüber",
+      "text": "Fakten: Statistik Austria veröffentlichte am 7. Oktober eine Auswertung zur generativen KI: 2025 nutzten rund 39 % der 16- bis 74-Jährigen solche Werkzeuge in den drei Monaten vor der Befragung, gegenüber 28 % im Vorjahr. Der EU-Durchschnitt lag bei 33 %. Der Anteil mit selbst eingeschätztem umfangreichem KI-Wissen stieg hingegen nur von rund 27 % auf 30 %. Die Ergebnisse beziehen sich auf die Erhebung 2025, nicht auf eine aktuelle Messung für 2026.\n\nEinordnung: Die Differenz zwischen Nutzung und Wissen macht verständliche Schulungen und überprüfbare Arbeitsregeln relevant. Für Organisationen reicht die Bereitstellung eines KI-Werkzeugs allein nicht als Kompetenznachweis.\n\nQuellen: https://www.statistik.at/fileadmin/announcement/2026/10/20261007KINutzungEinstellung2025EN.pdf"
+    },
+    {
+      "id": "2026-10-07-2",
+      "date": "2026-10-07",
+      "number": 2,
+      "title": "SAP plant Übernahme von TechWolf für KI-gestützte Personal- und Arbeitsanalysen",
+      "text": "Fakten: SAP kündigte am 6. Oktober die geplante Übernahme von TechWolf an. Dessen Plattform verknüpft Informationen über Fähigkeiten, Tätigkeiten und Arbeitsmarktentwicklungen und arbeitet mit SAP SuccessFactors sowie anderen Anwendungen zusammen. Laut SAP soll TechWolf vorbehaltlich Abschluss und erforderlicher Konsultation eigenständig bleiben und weiterhin SAP- und Nicht-SAP-Kunden bedienen. Grundlage ist eine Unternehmensmitteilung; Produktwirkung und erwartete Vorteile sind nicht unabhängig bestätigt.\n\nEinordnung: Die Ankündigung verbindet ERP- und Personalarchitektur mit der Frage, welche Aufgaben sich durch KI verändern. Bei einer Einführung wären Datenqualität, nachvollziehbare Analysen und klare Grenzen für die Nutzung von Beschäftigtendaten zentrale Bewertungspunkte.\n\nQuellen: https://news.sap.com/2026/10/sap-to-acquire-techwolf-evidence-based-work-age-of-ai/"
+    },
+    {
+      "id": "2026-10-07-3",
+      "date": "2026-10-07",
+      "number": 3,
+      "title": "EU-Kommission registriert Bürgerinitiative für einen souveränen KI-Digitalraum",
+      "text": "Fakten: Die Kommission registrierte am 6. Oktober eine Europäische Bürgerinitiative zur Schaffung eines europäischen Digitalraums für souveräne KI-Governance. Die Initiatoren fordern einen Rahmen für vertrauenswürdige digitale Räume und europäische Verhandlungen mit ISO und ICANN zur Domain .IA. Sie haben sechs Monate Zeit, die Unterschriftensammlung zu beginnen. Die Registrierung bedeutet weder, dass dieser Digitalraum besteht, noch dass der Vorschlag bereits beschlossen ist.\n\nEinordnung: Die Initiative bringt digitale Souveränität und Governance in die öffentliche Beteiligung. Für Architekturentscheidungen liefert sie derzeit ein politisches Diskussionsthema, keine neue technische Norm oder verbindliche Vorgabe.\n\nQuellen: https://citizens-initiative.europa.eu/news/new-initiative-registered-sovereign-european-ai-domains-2026-10-06_en"
+    },
+    {
+      "id": "2026-10-07-4",
+      "date": "2026-10-07",
+      "number": 4,
+      "title": "Digitaler Euro: EZB sucht Händler für den Pilotversuch",
+      "text": "Fakten: Die EZB lädt Online- und Mobile-Commerce-Händler ein, bis 27. Oktober Interesse an ihrem Pilotversuch zu bekunden; für Interessierte war am 6. Oktober eine Informationsveranstaltung angesetzt. Der zwölfmonatige Pilot ist ab der zweiten Jahreshälfte 2027 geplant. 36 Zahlungsdienstleister wurden ausgewählt. Eine mögliche Ausgabe des digitalen Euro bleibt vom Gesetzgebungsverfahren und einer späteren Entscheidung der EZB abhängig.\n\nEinordnung: Für Zahlungs- und ERP-Architektur bietet der Aufruf einen konkreten Anlass, Schnittstellen und Anforderungen an Zahlungsabwicklung zu prüfen. Der Pilot sollte dabei klar von einem bereits verfügbaren Zahlungsmittel unterschieden werden.\n\nQuellen: https://www.ecb.europa.eu/euro/digital_euro/pilot/html/index.en.html"
+    },
+    {
+      "id": "2026-10-07-5",
+      "date": "2026-10-07",
+      "number": 5,
+      "title": "Niedrigwasser halbiert sommerlichen Gütertransport auf Österreichs Donau",
+      "text": "Fakten: Laut der am 5. Oktober veröffentlichten vorläufigen Statistik wurden im Juli und August 2026 auf dem österreichischen Donauabschnitt rund 414.227 Tonnen Güter transportiert, 56,6 % weniger als im Vorjahreszeitraum. Statistik Austria nennt anhaltende Trockenheit und niedrige Wasserstände als Ursachen. Die durchschnittliche Auslastung je Transport sank von 55,1 % auf 39,6 %.\n\nEinordnung: Die Daten zeigen ein konkretes Umweltrisiko für Lieferketten. Nachhaltigkeits- und Logistikplanung profitieren davon, Wasserstände, Transportkapazitäten und alternative Routen gemeinsam zu betrachten und entsprechende Risiken in Planungsdaten abzubilden.\n\nQuellen: https://www.statistik.at/fileadmin/announcement/2026/10/20261005BinnenschifffahrtSommer2026EN.pdf"
+    },
+    {
+      "id": "2026-10-06-1",
+      "date": "2026-10-06",
+      "number": 1,
+      "title": "SAP stellt auf der SAP Connect das „Autonomous Enterprise“ mit Joule Work und Joule Assistants vor",
+      "text": "Fakten: SAP hat am 6. Oktober 2026 auf der SAP Connect neue Bausteine rund um Joule Work, Joule Assistants und die SAP Business AI Platform vorgestellt. Laut SAP sollen Assistenten und Agenten operative Arbeit in Kernfunktionen wie Finance, Procurement, Supply Chain, HR und Customer Experience unterstützen. SAP betont dabei Geschäftskontext, Berechtigungen, Auditierbarkeit und Governance über SAP Business AI Platform, SAP Knowledge Graph und SAP AI Agent Hub.\n\nEinordnung: Für ERP- und Organisationsarchitektur ist diese Entwicklung relevant, weil KI-Agenten zunehmend direkt in Geschäftsprozesse eingebettet werden. Entscheidend wird, ob Unternehmen Datenqualität, Rollenmodelle, Prozessverantwortung und Kontrollmechanismen ausreichend sauber gestalten, bevor sie autonome oder teilautonome Abläufe produktiv nutzen.\n\nQuellen: https://news.sap.com/2026/10/sap-connect-sap-puts-autonomous-enterprise-to-work/ | https://news.sap.com/germany/2026/10/sap-verwirklicht-autonomes-unternehmen/"
+    },
+    {
+      "id": "2026-10-06-2",
+      "date": "2026-10-06",
+      "number": 2,
+      "title": "EU-Kommission präzisiert Durchsetzung und Zuständigkeiten rund um den AI Act",
+      "text": "Fakten: Die Europäische Kommission beschreibt den Durchsetzungsrahmen des AI Act als geteiltes Modell zwischen AI Office, Europäischem Datenschutzbeauftragten und national zuständigen Behörden. Die Informationsseiten erläutern Zuständigkeiten, Aufsicht über KI-Systeme und die Rolle der Mitgliedstaaten bei Umsetzung und Kontrolle. Ergänzend verweist die Kommission weiterhin auf Fristen, Transparenzpflichten und Regeln für General-Purpose-AI-Modelle.\n\nEinordnung: Für Organisationen in Österreich und der EU wird KI-Governance damit operativer. Unternehmen sollten KI-Systeme, Anbieterrollen, Risikoklassen, Dokumentationspflichten und Verantwortlichkeiten nicht erst bei einer Prüfung rekonstruieren, sondern fortlaufend in Beschaffung, Entwicklung, Betrieb und Compliance-Prozesse einbauen.\n\nQuellen: https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act | https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai | https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "id": "2026-10-06-3",
+      "date": "2026-10-06",
+      "number": 3,
+      "title": "Eurostat zeigt weiterhin deutliche Lücke zwischen digitaler Basisfähigkeit und KI-Nutzung in Unternehmen",
+      "text": "Fakten: Eurostat berichtet in der Ausgabe „Digitalisation in Europe – 2026“, dass 2025 rund 72 % der EU-Unternehmen ein zumindest grundlegendes Niveau digitaler Intensität erreichten. Gleichzeitig nutzten etwa 20 % der EU-Unternehmen KI-Technologien; bei großen Unternehmen lag der Anteil deutlich höher als bei KMU. Österreich wird in Eurostat- und Statistik-Austria-Daten als Land mit vergleichsweise hoher KI-Nutzung in Unternehmen sichtbar.\n\nEinordnung: Die Zahlen zeigen, dass KI-Einführung nicht allein eine Modell- oder Toolfrage ist. Viele Organisationen müssen zunächst Cloud, Daten, Prozesse, Kompetenzen und Sicherheitspraktiken stabilisieren. Für KMU ist die Lücke besonders wichtig, weil sie sonst bei Automatisierung, Produktivität und regulatorischer Umsetzungsfähigkeit zurückfallen können.\n\nQuellen: https://ec.europa.eu/eurostat/en/web/interactive-publications/digitalisation-2026 | https://ec.europa.eu/eurostat/web/products-statistical-reports/w/ks-01-26-009 | https://www.statistik.at/fileadmin/announcement/2026/06/20260624IKTU2025.pdf"
+    },
+    {
+      "id": "2026-10-06-4",
+      "date": "2026-10-06",
+      "number": 4,
+      "title": "ENISA und EU-Institutionen rücken Cybersicherheit am Arbeitsplatz stärker in den Fokus",
+      "text": "Fakten: ENISA verweist im Kontext des European Cybersecurity Month auf Cyberbedrohungen am Arbeitsplatz, Kompetenzen von Beschäftigten und die Bedeutung organisatorischer Sicherheitsmaßnahmen. EU-nahe Auswertungen betonen, dass Beschäftigte regelmäßig mit Phishing, Betrugsversuchen, Malware oder anderen digitalen Risiken konfrontiert sind. Der Fokus liegt nicht nur auf Technik, sondern auch auf Awareness, Prozessen und Fähigkeiten.\n\nEinordnung: Für Unternehmen, die KI- und Automatisierungssysteme einführen, steigt die Bedeutung von Cybersecurity nochmals. Agenten, Schnittstellen und automatisierte Workflows vergrößern mögliche Angriffsflächen. Schulung, Zugriffskontrolle, Protokollierung und klare Eskalationswege werden damit Teil der Systemarchitektur, nicht nur Aufgabe der IT-Sicherheit.\n\nQuellen: https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass | https://digital-strategy.ec.europa.eu/en/news/three-four-eu-employees-faced-cyber-threats-work-new-eurobarometer-finds"
+    },
+    {
+      "id": "2026-10-06-5",
+      "date": "2026-10-06",
+      "number": 5,
+      "title": "EEA mahnt mehr Kreislaufwirtschaft für nachhaltigen Konsum in Europa ein",
+      "text": "Fakten: Die Europäische Umweltagentur hebt in einer aktuellen Mitteilung hervor, dass Europa für nachhaltigen Konsum deutlich mehr Kreislaufwirtschaft benötigt. Wiederverwendung, Abfallvermeidung, geringerer Ressourcenverbrauch und bessere Berücksichtigung von Biodiversität werden als zentrale Hebel genannt. Die EEA verweist dabei auf Analysen zu Bedingungen und Wegen für nachhaltigen und zirkulären Konsum.\n\nEinordnung: Für Technologie-, ERP- und Datenarchitektur ist das relevant, weil Nachhaltigkeit zunehmend messbare Material-, Produkt- und Lieferkettendaten benötigt. Systeme müssen künftig stärker abbilden können, wo Produkte herkommen, wie sie genutzt werden, welche Ressourcen enthalten sind und wie Wiederverwendung oder Recycling nachgewiesen werden.\n\nQuellen: https://www.eea.europa.eu/en/newsroom/news/more-circular-economy-needed"
+    },
+    {
+      "id": "2026-10-05-1",
+      "date": "2026-10-05",
+      "number": 1,
+      "title": "SAP Connect 2026 startet mit Fokus auf integrierte Unternehmenslösungen und autonome Prozesse",
+      "text": "Fakten: SAP Connect findet vom 5. bis 7. Oktober 2026 in Las Vegas statt; eine virtuelle Teilnahme ist für den 6. und 7. Oktober vorgesehen. SAP kündigt Keynotes und Fachsessions dazu an, wie Unternehmen Lösungen über verschiedene Geschäftsbereiche hinweg integrieren und ihre Entwicklung zum „Autonomous Enterprise“ vorantreiben können. Die verfügbaren Angaben stammen derzeit unmittelbar von SAP; unabhängige Ergebnisse oder Produktbewertungen aus der Veranstaltung liegen zum Zeitpunkt dieses Überblicks noch nicht vor.\n\nEinordnung: Für SAP- und ERP-Verantwortliche ist die Veranstaltung relevant, weil neue Funktionen und Architekturentscheidungen rund um Business AI, Datenintegration und Prozessautomatisierung häufig zuerst auf solchen Herstellerveranstaltungen konkretisiert werden. Unternehmen sollten Ankündigungen dennoch getrennt von produktiv verfügbaren Funktionen, Lizenzbedingungen und belastbaren Referenzimplementierungen bewerten.\n\nQuellen: https://www.sap.com/events/connect.html | https://www.sap.com/events.html"
+    },
+    {
+      "id": "2026-10-05-2",
+      "date": "2026-10-05",
+      "number": 2,
+      "title": "EU startet gemeinsame digitale Infrastruktur für Landwirtschaft und Lebensmittelwirtschaft",
+      "text": "Fakten: Die Europäische Kommission meldete am 1. Oktober 2026 den Start des European Digital Infrastructure Consortium for Agri-Food. Das Konsortium soll unter anderem eine föderierte, interoperable digitale Identität für landwirtschaftliche Betriebe entwickeln, den sicheren Zugang zu hochwertigen Daten erleichtern und KI-Anwendungen etwa für Risikomanagement, Produktrückverfolgbarkeit und Kohlenstoffzertifizierung unterstützen. Rechtsgrundlage ist der Durchführungsbeschluss (EU) 2026/1978 vom 8. September 2026.\n\nEinordnung: Die Initiative verbindet Datenräume, KI und Nachhaltigkeit mit grenzüberschreitender Systemarchitektur. Für ERP- und Data-Governance-Teams in der Agrar- und Lebensmittelwirtschaft entstehen damit mögliche Anforderungen an interoperable Stammdaten, Identitäten, Nachweise und Schnittstellen zu europäischen Datenökosystemen.\n\nQuellen: https://digital-strategy.ec.europa.eu/en/policies/edic | https://eur-lex.europa.eu/eli/dec_impl/2026/1978/oj"
+    },
+    {
+      "id": "2026-10-05-3",
+      "date": "2026-10-05",
+      "number": 3,
+      "title": "Europäischer Cybersicherheitsmonat rückt Kompetenzen am Arbeitsplatz in den Mittelpunkt",
+      "text": "Fakten: ENISA und die Europäische Kommission starteten den Europäischen Cybersicherheitsmonat 2026 mit Schwerpunkt auf Beschäftigten und digitalen Kompetenzen. Laut dem begleitenden Eurobarometer berichteten 74 Prozent der befragten Beschäftigten, in den vorherigen sechs Monaten verdächtige E-Mails, Nachrichten oder Links erhalten zu haben; nur 45 Prozent gaben an, regelmäßig Informationen oder Awareness-Updates ihres Arbeitgebers zu bekommen.\n\nEinordnung: Die Zahlen zeigen, dass Cyberresilienz nicht allein durch technische Kontrollen entsteht. Organisationen mit Cloud-ERP, KI-Agenten und automatisierten Datenflüssen benötigen zusätzlich kontinuierliche Schulungen, klare Meldewege, Rollenmodelle und überprüfbare Reaktionsprozesse.\n\nQuellen: https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass | https://www.enisa.europa.eu/topics/cyber-hygiene/european-cybersecurity-month"
+    },
+    {
+      "id": "2026-10-05-4",
+      "date": "2026-10-05",
+      "number": 4,
+      "title": "EEA warnt vor Fachkräfteengpässen bei Europas Ausbau sauberer Energietechnologien",
+      "text": "Fakten: Die Europäische Umweltagentur berichtet, dass Windkraft, Photovoltaik, Wärmepumpen und Batterien bereits Hunderttausende Menschen in der EU beschäftigen. Für 2023 nennt sie rund 273.500 direkte Stellen in der Windenergie, mehr als 227.000 in der Photovoltaik, etwa 80.100 bei Wärmepumpen und rund 33.000 im Batteriesektor. Gleichzeitig sieht die EEA Fachkräftemangel sowie die Unterrepräsentation von Frauen und jungen Menschen als Hindernisse für weiteres Wachstum.\n\nEinordnung: Nachhaltigkeitstransformation ist damit auch eine Organisations- und Qualifikationsaufgabe. Unternehmen und öffentliche Stellen müssen Investitionsplanung, Personalentwicklung, Lieferketten und operative Daten zusammenführen, damit Ausbauziele nicht an fehlenden Kompetenzen oder Umsetzungskapazitäten scheitern.\n\nQuellen: https://www.eea.europa.eu/en/newsroom/news/clean-energy-technologies-are-driving-job-creation-in-the-eu-but-challenges-remain-around-skill-shortages-and-inclusion | https://www.eea.europa.eu/en/newsroom/editorial"
+    },
+    {
+      "id": "2026-10-05-5",
+      "date": "2026-10-05",
+      "number": 5,
+      "title": "EU-Kommission sammelt Rückmeldungen zum geplanten Schutz Minderjähriger im Netz",
+      "text": "Fakten: Die Europäische Kommission sucht seit 2. Oktober 2026 Rückmeldungen zum vorgeschlagenen EU KIDS Act. Nach Angaben der Kommission soll der Vorschlag digitale Dienste stärker zu sicherem und altersgerechtem Design verpflichten und ein EU-weites Mindestalter von 15 Jahren für ein eigenständiges Konto vorsehen; unter 13-Jährige sollen keinen Zugang zu sozialen Plattformen erhalten. Der Vorschlag befindet sich im politischen und gesetzgeberischen Verfahren und ist noch kein geltendes Recht.\n\nEinordnung: Die Initiative berührt Ethik, Datenschutz, Altersverifikation und Plattformregulierung zugleich. Anbieter digitaler Dienste müssen deshalb mögliche Schutzpflichten frühzeitig in Produktarchitektur, Identitätsmanagement, Datenminimierung und Risikobewertungen einbeziehen, ohne Minderjährige durch unverhältnismäßige Datenerhebung zusätzlich zu gefährden.\n\nQuellen: https://digital-strategy.ec.europa.eu/en/policies/eu-age-verification | https://digital-strategy.ec.europa.eu/en/policies/digital-services-act"
+    },
+    {
+      "id": "2026-10-04-1",
+      "date": "2026-10-04",
+      "number": 1,
+      "title": "EU-KI-Gesetz: Umsetzung, Zeitplan und Governance bleiben zentral für Unternehmen",
+      "text": "Fakten: Die Europäische Kommission stellt auf ihren Informationsseiten zum AI Act weiterhin den Umsetzungsrahmen, Governance-Strukturen und zentrale Fristen dar. Ergänzende Informationsangebote wie artificialintelligenceact.eu und Lumenova AI fassen die Anwendungsstufen, Pflichten und erwarteten Anforderungen für Anbieter und Anwender zusammen.\n\nEinordnung: Für Unternehmen in Österreich und der EU bleibt der AI Act ein operatives Governance-Thema. Entscheidend ist nicht nur, ob ein KI-System erlaubt ist, sondern wie Risiko, Dokumentation, Transparenz, Kompetenzaufbau und Verantwortlichkeiten in bestehende Prozesse eingebettet werden.\n\nQuellen: https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act | https://artificialintelligenceact.eu/implementation-timeline/ | https://www.lumenova.ai/"
+    },
+    {
+      "id": "2026-10-04-2",
+      "date": "2026-10-04",
+      "number": 2,
+      "title": "SAP AI Agent Hub und Joule Agents rücken Governance von KI-Agenten in den Vordergrund",
+      "text": "Fakten: SAP beschreibt Joule als KI-Lösung, die Assistenten und Agents über SAP- und Nicht-SAP-Systeme hinweg zusammenführt. SAPs Produktseite zu Joule Agents und AI Agent Hub positioniert den Hub als Ort, um Agents zu entdecken, bereitzustellen und zu steuern. Ergänzende SAP-Dokumentation beschreibt Guidelines für Capability-Entwicklung und agentenbasierte Erweiterungen.\n\nEinordnung: Für ERP-Architektur ist das wichtig, weil KI-Agenten nicht isoliert betrachtet werden können. Sie greifen in Prozesse, Berechtigungen und Datenflüsse ein. Daher werden Agent-Governance, Protokollierung, Rollenmodelle und fachliche Verantwortung zu Kernfragen der ERP-Modernisierung.\n\nQuellen: https://www.sap.com/products/artificial-intelligence/ai-agents.html | https://help.sap.com/docs/joule/serviceguide/guidelines-for-capability-development | https://www.sap.com/products/erp/rise.html"
+    },
+    {
+      "id": "2026-10-04-3",
+      "date": "2026-10-04",
+      "number": 3,
+      "title": "Eurostat SDG-Monitoring 2026 liefert Referenzrahmen für Nachhaltigkeitsdaten",
+      "text": "Fakten: Eurostat veröffentlichte die 2026-Ausgabe des Berichts „Sustainable development in the European Union – Monitoring report on progress towards the SDGs in an EU context“. Der Bericht beobachtet die EU-Fortschritte anhand eines Sets von SDG-Indikatoren. Zusätzlich dokumentiert Eurostat die Überarbeitung des Indikatorensets für die 2026-Ausgabe.\n\nEinordnung: Für Nachhaltigkeits- und Datenarbeit ist der Bericht relevant, weil er eine offizielle, vergleichbare Grundlage für Fortschritt und Rückstand bei SDGs liefert. Organisationen können ihn als Referenz für ESG-Berichte, Datenmodelle und Priorisierung von Nachhaltigkeitsmaßnahmen verwenden.\n\nQuellen: https://ec.europa.eu/eurostat/de/web/products-flagship-publications/w/ks-01-25-064 | https://ec.europa.eu/eurostat/documents/d/sdi/eu-sdg-indicators-2026-review-report | https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260603-1"
+    },
+    {
+      "id": "2026-10-04-4",
+      "date": "2026-10-04",
+      "number": 4,
+      "title": "Statistik Austria: Österreich bei KI-Nutzung in Unternehmen im EU-Spitzenfeld",
+      "text": "Fakten: Statistik Austria berichtet, dass 30 Prozent der österreichischen Unternehmen KI-Technologien einsetzen, während der EU-Wert bei 20 Prozent liegt. Die zugrunde liegende IKT-Erhebung betrifft Unternehmen ab zehn Beschäftigten in ausgewählten Wirtschaftszweigen. Ergänzende Veröffentlichungen zeigen, dass die Nutzung mit der Unternehmensgröße stark steigt.\n\nEinordnung: Für österreichische Unternehmen ist das ein deutliches Signal: KI ist nicht mehr nur Pilot- oder Laborthema. Zugleich zeigen die Daten, dass viele Unternehmen ohne KI-Nutzung diese Technologien noch nicht ernsthaft geprüft haben. Daraus ergeben sich Fragen zu Qualifikation, Prozessauswahl, Governance und Investitionsplanung.\n\nQuellen: https://www.statistik.at/fileadmin/announcement/2026/06/20260624IKTU2025.pdf | https://www.statistik.at/ueber-uns/erhebungen/unternehmen/ikt-einsatz-in-unternehmen | https://www.statistik.at/statistiken/forschung-innovation-digitalisierung/digitale-wirtschaft-und-gesellschaft/ikt-einsatz-in-unternehmen"
+    },
+    {
+      "id": "2026-10-04-5",
+      "date": "2026-10-04",
+      "number": 5,
+      "title": "OECD Digital Government Outlook 2026 betont Umsetzungslücke bei KI und digitaler Verwaltung",
+      "text": "Fakten: Der OECD Digital Government Outlook 2026 beschreibt Fortschritte bei digitaler Verwaltung, Daten-Governance und öffentlicher digitaler Infrastruktur. Gleichzeitig verweist die OECD darauf, dass viele Regierungen digitale Strategien und KI-Ansätze aufgebaut haben, aber Wirkung, Umsetzung und Evaluation oft hinter der Ambition zurückbleiben. Der Bericht nennt unter anderem KI-Strategien, digitale Identität, Datenflüsse, Skills und Investitionssteuerung als zentrale Handlungsfelder.\n\nEinordnung: Die OECD-Befunde sind auch für Unternehmensarchitektur nützlich: Strategie allein reicht nicht. Ob in Verwaltung oder Unternehmen, digitale Transformation braucht belastbare Governance, Datenqualität, messbare Wirkung, Kompetenzen und eine Architektur, die nicht nur Projekte startet, sondern Betriebsfähigkeit schafft.\n\nQuellen: https://www.oecd.org/en/publications/digital-government-outlook_0496b2bc-en.html | https://www.oecd.org/en/publications/digital-government-outlook_0496b2bc-en/full-report/executive-summary_c88a4d43.html | https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/digital-government-outlook_4585678e/0496b2bc-en.pdf"
+    },
+    {
+      "id": "2026-10-03-1",
+      "date": "2026-10-03",
+      "number": 1,
+      "title": "Eurobarometer: Drei von vier EU-Beschäftigten erleben Cyber-Bedrohungen am Arbeitsplatz",
+      "text": "Fakten: Die Europäische Kommission berichtet auf Basis eines neuen Eurobarometers, dass drei von vier Beschäftigten in der EU am Arbeitsplatz Cyber-Bedrohungen ausgesetzt waren. ENISA ordnet die Ergebnisse im Europäischen Cybersicherheitsmonat ein und betont die Bedeutung von Kompetenzen, Awareness und organisatorischen Schutzmaßnahmen.\n\nEinordnung: Für KI, Technologie und Organisationsarchitektur ist das relevant, weil Cyberrisiken nicht nur technische Fragen sind. Unternehmen müssen Schulung, Governance, sichere Prozesse und technische Schutzmaßnahmen zusammenführen. Das betrifft besonders Organisationen, die KI-Agenten, Cloud-ERP und automatisierte Workflows einsetzen.\n\nQuellen: https://digital-strategy.ec.europa.eu/en/news/three-four-eu-employees-faced-cyber-threats-work-new-eurobarometer-finds | https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass"
+    },
+    {
+      "id": "2026-10-03-2",
+      "date": "2026-10-03",
+      "number": 2,
+      "title": "SAP positioniert RISE with SAP und agentenbasierte ERP-Transformation stärker zusammen",
+      "text": "Fakten: SAP beschreibt RISE with SAP weiterhin als Transformationsangebot für Cloud ERP Private. Begleitende SAP-Materialien und Webinar-Inhalte stellen agentenbasierte ERP-Transformation, Joule Agents und SAP AI Agent Hub in den Zusammenhang von Cloud ERP, Prozessmodernisierung und Unternehmenssteuerung.\n\nEinordnung: Für ERP- und Systemarchitektur ist das bedeutsam, weil KI-Agenten zunehmend direkt in betriebliche Kernprozesse eingebettet werden. Dadurch verschiebt sich der Fokus von einzelnen KI-Funktionen hin zu Governance, Rollenmodellen, Prozessverantwortung und sicherer Integration in ERP-Landschaften.\n\nQuellen: https://www.sap.com/products/erp/rise.html | https://www.sap.com/cmp/wlp/rise-into-the-future-webinar-series/index.html?video=38e5d9b6-0e7f-0010-bca6-c68f7e60039b"
+    },
+    {
+      "id": "2026-10-03-3",
+      "date": "2026-10-03",
+      "number": 3,
+      "title": "Europe Sustainable Development Report 2026 warnt vor stagnierendem SDG-Fortschritt",
+      "text": "Fakten: Der Europe Sustainable Development Report 2026 des UN Sustainable Development Solutions Network und des SDG Transformation Center bewertet die Fortschritte Europas bei den Sustainable Development Goals. Der Europäische Wirtschafts- und Sozialausschuss verweist in seiner Kommunikation auf stagnierende Fortschritte und nachlassende politische Dynamik. Ergänzende Analysen betonen regionale Unterschiede innerhalb Europas.\n\nEinordnung: Für Nachhaltigkeitsstrategie, Datenanalyse und Organisationssteuerung ist der Bericht relevant, weil er offizielle und vergleichbare Indikatoren für Fortschritt, Lücken und regionale Unterschiede liefert. Unternehmen und öffentliche Einrichtungen können daraus Prioritäten für Reporting, Maßnahmenplanung und Datenqualität ableiten.\n\nQuellen: https://sdgtransformationcenter.org/reports/europe-sustainable-development-report-2026 | https://www.eesc.europa.eu/en/news-media/press-releases/europes-sdg-progress-stalls-political-commitment-fades-2026-sdsn-report-warns | https://newpolis.media/europe-sustainable-development-report-2026-progress-gaps-and-the-regional-divide/"
+    },
+    {
+      "id": "2026-10-03-4",
+      "date": "2026-10-03",
+      "number": 4,
+      "title": "EU-Kommission konsultiert zu Technologie, KI und Urheberrecht",
+      "text": "Fakten: Die Europäische Kommission hat eine gezielte Konsultation zu Herausforderungen und möglichen weiteren Schritten im Bereich Technologie und Urheberrecht gestartet. Der Schwerpunkt liegt auf der Wirkung neuer Technologien, einschließlich KI, auf das Urheberrecht. Fachkommentare sehen darin einen möglichen Schritt in Richtung weiterer Reformen und präziserer Regeln für KI-bezogene Nutzungen geschützter Inhalte.\n\nEinordnung: Für KI-Systeme, automatisierte Inhalte und Datenstrategie ist diese Entwicklung wichtig, weil urheberrechtliche Fragen direkt auf Training, Output, Quellenverwendung, Text- und Bildnutzung sowie automatisierte Veröffentlichungen wirken. Für öffentliche News- und Briefing-Systeme bleibt saubere Quellenarbeit besonders wichtig.\n\nQuellen: https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-challenges-and-way-forward-area-effect-technology-copyright | https://legalblogs.wolterskluwer.com/copyright-blog/europes-next-copyright-reform-moves-a-step-closer-to-reality-what-can-we-tell-from-the-twin-commission-consultations/"
+    },
+    {
+      "id": "2026-10-03-5",
+      "date": "2026-10-03",
+      "number": 5,
+      "title": "KI, ERP, Nachhaltigkeit und Regulierung wachsen organisatorisch zusammen",
+      "text": "Fakten: Die heutigen Entwicklungen zeigen eine gemeinsame Linie: Cyberkompetenz am Arbeitsplatz, agentenbasierte ERP-Transformation, SDG-Monitoring und KI-bezogene Urheberrechtsfragen werden stärker zu Fragen der Unternehmensorganisation. Die relevanten Quellen stammen aus EU-Institutionen, ENISA, SAP, SDSN/EESC und Fachanalysen.\n\nEinordnung: Für deine Themenfelder ist die Verbindung wichtiger als die Einzelmeldung. KI-Automatisierung wird nur tragfähig, wenn Quellenqualität, rechtliche Rahmenbedingungen, ERP-Governance, Sicherheitskompetenz und Nachhaltigkeitsdaten zusammen gedacht werden. Das spricht für robuste Prozesse statt isolierter Tool-Einführung.\n\nQuellen: https://digital-strategy.ec.europa.eu/en/news/three-four-eu-employees-faced-cyber-threats-work-new-eurobarometer-finds | https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass | https://www.sap.com/products/erp/rise.html | https://sdgtransformationcenter.org/reports/europe-sustainable-development-report-2026"
+    },
+    {
+      "id": "2026-10-02-1",
+      "date": "2026-10-02",
+      "number": 1,
+      "title": "EDIC for Agri-Food startet als europäische Infrastruktur für digitale Landwirtschaft",
+      "text": "Fakten: Die Europäische Kommission meldet den offiziellen Start des European Digital Infrastructure Consortium for Agri-Food. Das Konsortium soll digitale Innovation im europäischen Agrar- und Lebensmittelsektor bündeln. Ein Schwerpunkt ist ein gemeinsamer Digital Farm ID, der mit bestehenden nationalen Systemen und dem europäischen Digital-Identity-Ökosystem zusammenspielen soll. Die Initiative soll außerdem KI-basierte Dienste für Risikomanagement, Rückverfolgbarkeit und Carbon Certification unterstützen.\n\nEinordnung: Für Nachhaltigkeit, Datenarchitektur und KI in regulierten Branchen ist das relevant, weil die EU hier digitale Identität, Agrardaten und KI-Anwendungen organisatorisch zusammenführt. Für Unternehmen bedeutet das langfristig mehr standardisierte Datenflüsse, aber auch neue Anforderungen an Interoperabilität und Governance.\n\nQuellen: https://digital-strategy.ec.europa.eu/en/policies/edic | https://digital-strategy.ec.europa.eu/en/news/edic-agri-food-launches-support-digital-innovation-across-europes-food-and-agriculture-sector"
+    },
+    {
+      "id": "2026-10-02-2",
+      "date": "2026-10-02",
+      "number": 2,
+      "title": "European AI Innovation Month bündelt EU-Aktivitäten zu KI-Anwendung und Wettbewerbsfähigkeit",
+      "text": "Fakten: Die Europäische Kommission beschreibt den European AI Innovation Month als Veranstaltungsreihe von 14. Oktober bis 17. November 2026. Geplant sind unter anderem der International AI Summit in Dublin, ein AI in Science Summit und der Apply AI Summit in Brüssel und online. Der Schwerpunkt liegt auf KI-Innovation, industrieller Anwendung und europäischer Wettbewerbsfähigkeit.\n\nEinordnung: Die Initiative zeigt, dass die EU nach dem AI Act stärker auf Umsetzung, Adoption und industrielle Wirkung schaut. Für KI-Strategie und Organisationsarchitektur ist das wichtig, weil Regulierung und Anwendung nun stärker gemeinsam gedacht werden.\n\nQuellen: https://digital-strategy.ec.europa.eu/en/policies/european-ai-innovation-month | https://digital-strategy.ec.europa.eu/en/news/european-ai-innovation-month-save-date"
+    },
+    {
+      "id": "2026-10-02-3",
+      "date": "2026-10-02",
+      "number": 3,
+      "title": "SAP konkretisiert Joule Agents und AI Agent Hub für Unternehmensprozesse",
+      "text": "Fakten: SAP-Dokumentation und SAP-Materialien beschreiben Joule als KI-Schicht, die Assistenten und Agents über SAP- und Nicht-SAP-Systeme hinweg verbinden soll. Joule Studio unterstützt den Aufbau eigener Agents, während der SAP AI Agent Hub als Kontrollpunkt für Agents, LLMs und MCP-Server im Unternehmen positioniert wird. SAP beschreibt außerdem Einsatzszenarien für operative Prozesse, etwa in SAP Cloud ALM.\n\nEinordnung: Für ERP- und Systemarchitektur ist das relevant, weil KI-Agenten nicht nur Chat-Funktionen sind, sondern zunehmend in Geschäftsprozesse, Berechtigungen, Monitoring und Governance eingebettet werden. Unternehmen müssen daher Agenten nicht nur funktional, sondern auch revisionssicher und organisatorisch steuerbar betrachten.\n\nQuellen: https://help.sap.com/docs/joule/serviceguide/guidelines-for-capability-development | https://news.sap.com/2026/07/sap-business-ai-release-highlights-q2-2026/ | https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/joule-agentic.html"
+    },
+    {
+      "id": "2026-10-02-4",
+      "date": "2026-10-02",
+      "number": 4,
+      "title": "Eurostat-SDG-Monitoring 2026 zeigt Fortschritte und offene Nachhaltigkeitsrisiken",
+      "text": "Fakten: Eurostat veröffentlichte den Monitoringbericht 2026 zu den Sustainable Development Goals im EU-Kontext. Laut Eurostat gab es Fortschritte in mehreren Zielbereichen, während sich die EU bei Life on Land und Clean Water and Sanitation von den Nachhaltigkeitszielen entfernte. Der Bericht enthält zusätzlich eine querschnittliche Analyse der EU-SDG-Indikatoren.\n\nEinordnung: Für Nachhaltigkeitsstrategie und Datenarbeit ist der Bericht wichtig, weil er offizielle EU-Indikatoren für Fortschritt, Rückstand und Zielkonflikte liefert. Er kann als belastbare Grundlage für ESG-Reporting, politische Einordnung und datengetriebene Nachhaltigkeitsentscheidungen dienen.\n\nQuellen: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260603-1 | https://ec.europa.eu/eurostat/en/web/products-flagship-publications/w/ks-01-25-064 | https://ec.europa.eu/eurostat/documents/15234730/23770550/KS-01-25-064-EN-N.pdf/da8914eb-29e9-f890-3901-e020d98c0f3c"
+    },
+    {
+      "id": "2026-10-02-5",
+      "date": "2026-10-02",
+      "number": 5,
+      "title": "OECD bewertet Österreichs Umweltleistung 2026 mit Schwerpunkt Kreislaufwirtschaft",
+      "text": "Fakten: Die OECD Environmental Performance Review Austria 2026 bewertet Österreichs Fortschritte bei Umweltzielen und legt einen besonderen Fokus auf Kreislaufwirtschaft. Die OECD verweist unter anderem auf die Bedeutung umweltbezogener Fiskalpolitik, Landnutzung, Bodenschutz, Abfallbehandlung und nachhaltiger Ressourcennutzung. Ergänzend fasst Environment at a Glance: Austria zentrale Indikatoren zusammen.\n\nEinordnung: Für österreichische Nachhaltigkeits- und Organisationsentscheidungen ist der Bericht besonders relevant, weil er internationale Vergleichsdaten und konkrete Politikempfehlungen verbindet. Für Unternehmen können daraus mittelbar strengere Anforderungen an Ressourceneffizienz, Berichtswesen und Kreislaufwirtschaft entstehen.\n\nQuellen: https://www.oecd-ilibrary.org/en/publications/oecd-environmental-performance-reviews-austria-2026_520533a1-en.html | https://www.oecd.org/en/publications/oecd-environmental-performance-reviews-austria-2026_520533a1-en/full-report/assessment-and-recommendations_4427faa1.html | https://www.oecd.org/en/publications/environment-at-a-glance-country-notes_59ce6fe6-en/austria_e1859e3e-en.html"
+    },
+    {
+      "id": "2026-10-01-1",
+      "date": "2026-10-01",
+      "number": 1,
+      "title": "NVIDIA und SAP vertiefen Zusammenarbeit für sichere KI-Agenten in Unternehmen",
+      "text": "Fakten: NVIDIA hat am 28. September 2026 die allgemeine Verfügbarkeit von OpenShell bekanntgegeben, einer Open-Source-Secure-Runtime für autonome KI-Agenten. SAP integriert OpenShell in Joule Studio Runtime, um technische Ausführungsgrenzen mit unternehmerischen Governance-Modellen, IAM-Frameworks und Audit-Trails zu verbinden. Über 100 Organisationen arbeiten mit der Plattform, darunter Anthropic, Microsoft, Salesforce und IBM.\n\nEinordnung: Die Integration adressiert wachsende Sicherheitsbedenken gegenüber autonomen KI-Agenten in kritischen Unternehmenssystemen wie ERP. Durch die Kombination von Joule Studio (business authorization) und OpenShell (runtime isolation) entsteht ein zweischichtiges Governance-Modell für auditable KI-Agenten.\n\nQuellen: https://news.sap.com/2026/09/sap-nvidia-openshell-auditable-ai-agents-enterprise-systems/ | https://nvidianews.nvidia.com/news/open-agent-safety-platform | https://www.wired.com/story/nvidias-answer-to-rogue-agents-is-an-open-source-ai-security-system/"
+    },
+    {
+      "id": "2026-10-01-2",
+      "date": "2026-10-01",
+      "number": 2,
+      "title": "EU-KI-Gesetz: Europäische Kommission beginnt offizielle Durchsetzung ab 2. August 2026",
+      "text": "Fakten: Das KI-Büro der Europäischen Kommission und nationale Behörden sind seit 2. August 2026 für die Umsetzung, Überwachung und Durchsetzung des EU AI Act verantwortlich. Das KI-Büro verfügt über Befugnisse gegenüber GPAI-Modellen, kann technische Dokumentation anfordern, Modelle bewerten, Korrekturmaßnahmen verlangen und Bußgelder verhängen. Verbotene KI-Praktiken und KI-Kompetenzpflichten gelten bereits seit 2. Februar 2025.\n\nEinordnung: Die volle Anwendbarkeit markiert einen Wendepunkt für KI-Entwickler und -Anwender in der EU. Unternehmen müssen Risikoklassifizierungen, Dokumentation und Mitarbeiterschulungen nachweisen. Österreichische Behörden wirken bei der Durchsetzung mit.\n\nQuellen: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai | https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"
+    },
+    {
+      "id": "2026-10-01-3",
+      "date": "2026-10-01",
+      "number": 3,
+      "title": "Digital Product Passport: EU-Register seit 20. Juli 2026 operativ, erste Pflicht ab Februar 2027",
+      "text": "Fakten: Das Digital Product Passport (DPP)-Register der Europäischen Kommission ist seit 20. Juli 2026 zusammen mit einer Testumgebung in Betrieb. Die rechtliche Grundlage bildet die Ökodesign-Verordnung (ESPR) (EU) 2024/1781. Ab 18. Februar 2027 werden DPPs für bestimmte Batterietypen (Elektrofahrzeuge, leichte Transportmittel, Industriebatterien über 2 kWh) verpflichtend. Weitere Produktgruppen wie Eisen und Stahl (2026), Textilien und Reifen (2027) sowie Möbel (2028) folgen schrittweise.\n\nEinordnung: Das DPP ist ein zentrales Instrument der EU-Kreislaufwirtschaftsstrategie. Es schafft transparente, standardisierte Produktinformationen über den gesamten Lebenszyklus und betrifft auch österreichische Hersteller und Importeure. Unternehmen müssen sich auf strukturierte, maschinenlesbare Produktdaten vorbereiten.\n\nQuellen: https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en | https://en.ilsole24ore.com/art/digital-passport-produced-at-lower-cost-AJu3n2RB"
+    },
+    {
+      "id": "2026-10-01-4",
+      "date": "2026-10-01",
+      "number": 4,
+      "title": "ENISA veröffentlicht Empfehlungen zur Cybersicherheit im Zeitalter fortgeschrittener KI",
+      "text": "Fakten: Die Europäische Agentur für Cybersicherheit (ENISA) hat am 7. Juli 2026 den Bericht \"ENISA's view on Cybersecurity in the Frontier AI Era\" veröffentlicht. Er richtet sich an nationale Behörden, EU-Politiker, Verteidiger und Dienstleister mit ersten Empfehlungen zur Entwicklung operativer Fähigkeiten gegen maschinenschnelle Bedrohungen. ENISA plant weitere Verfeinerungen in Abstimmung mit Mitgliedstaaten und Ausrichtung auf einen kommenden Aktionsplan der Kommission.\n\nEinordnung: Der Bericht unterstreicht die wachsende Bedeutung von KI-spezifischen Cybersicherheitsmaßnahmen parallel zur AI-Act-Durchsetzung. Für Österreich und andere Mitgliedstaaten bilden die Empfehlungen eine Grundlage für nationale KI-Sicherheitsstrategien und Aufsichtsstrukturen.\n\nQuellen: https://www.enisa.europa.eu/publications/enisas-view-on-cybersecurity-in-the-frontier-ai-era | https://www.enisa.europa.eu/publications"
+    },
+    {
+      "id": "2026-10-01-5",
+      "date": "2026-10-01",
+      "number": 5,
+      "title": "Statistik Austria: IKT-Erhebung 2026 abgeschlossen, Ergebnisse zu KI-Nutzung in Unternehmen im Herbst erwartet",
+      "text": "Fakten: Die jährliche Erhebung zum IKT-Einsatz in Unternehmen für 2026 ist laut Statistik Austria abgeschlossen. Österreichische Ergebnisse stehen im Herbst 2026 zur Verfügung, EU-weite Ergebnisse folgen Ende des Jahres. Die Erhebung umfasst Unternehmen ab zehn Beschäftigten in ausgewählten Wirtschaftszweigen und erfasst auch die Nutzung von Technologien basierend auf Künstlicher Intelligenz.\n\nEinordnung: Die Daten bieten eine evidenzbasierte Grundlage für die Digitalisierungsstrategie Österreichs und ermöglichen Vergleiche der KI-Adoption zwischen Branchen und Unternehmensgrößen. Für Forschung, Politik und Unternehmen sind die Ergebnisse relevant, um Förderbedarf und Qualifizierungsmaßnahmen abzuleiten.\n\nQuellen: https://www.statistik.at/ueber-uns/erhebungen/unternehmen/ikt-einsatz-in-unternehmen | https://www.statistik.at/statistiken/forschung-innovation-digitalisierung/digitale-wirtschaft-und-gesellschaft/ikt-einsatz-in-unternehmen"
+    }
+  ]
+}

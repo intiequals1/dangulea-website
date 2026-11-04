@@ -1,23 +1,43 @@
 name: Deploy
 on:
   push: { branches: [main] }
+  pull_request: { branches: [main] }
   workflow_dispatch:
 permissions: { contents: read, pages: write, id-token: write }
-concurrency: { group: pages, cancel-in-progress: true }
+concurrency:
+  group: pages-${{ github.event_name == 'pull_request' && github.ref || 'production' }}
+  cancel-in-progress: true
 jobs:
   build:
+    name: Build and validate every news article
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
       - uses: pnpm/action-setup@v4
         with: { version: 10 }
       - uses: actions/setup-node@v4
-        with: { node-version: 20, cache: pnpm }
+        with: { node-version: 22, cache: pnpm }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12', cache: pip, cache-dependency-path: scripts/requirements-news.txt }
       - run: pnpm install --frozen-lockfile
-      - run: pnpm build
+      - run: python3 -m pip install -r scripts/requirements-news.txt
+      - name: Preserve every previously published article identity
+        run: node scripts/check-news-history.mjs
+        env:
+          NEWS_BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before || github.sha }}
+      - name: Regression and failure tests
+        run: pnpm test
+      - name: Generate pages and both images, then validate the complete artifact
+        run: pnpm build
+      - name: Verify validator rejects damaged deployment artifacts
+        run: node scripts/check-news-artifact.mjs
+      # Only a fully validated artifact can reach the deployment job.
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         with: { path: dist }
   deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     environment:
@@ -26,3 +46,16 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+  verify-live:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: python3 -m pip install -r scripts/requirements-news.txt
+      - run: node scripts/prepare-news.mjs
+      - name: Verify all public URLs, metadata, shares and both PNG formats
+        run: python3 scripts/validate-news.py --base-url https://dangulea.at
