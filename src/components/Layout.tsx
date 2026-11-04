@@ -1,6 +1,7 @@
 import { type ReactNode, useState, useEffect } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import './Layout.css'
+import disclosure from '../content/news-disclosure.json'
 
 interface LayoutProps {
   children: ReactNode
@@ -10,9 +11,11 @@ export default function Layout({ children }: LayoutProps) {
   const [menuOpen, setMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const location = useLocation()
+  const isNews = location.pathname === '/news' || location.pathname.startsWith('/news/')
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView()
+    else window.scrollTo(0, 0)
   }, [location])
 
   useEffect(() => {
@@ -119,6 +122,7 @@ export default function Layout({ children }: LayoutProps) {
         <aside className="site-notice" aria-label="Hinweis zum Entwicklungsstand">
           <p><strong>Diese Website ist noch im Aufbau.</strong> Inhalte und Funktionen werden laufend ergänzt und verbessert.</p>
         </aside>
+        {isNews && <aside className="news-workflow-strip" aria-label="News als Proof of Concept" data-news-poc="persistent"><span>{disclosure.persistent}</span><a href="/news#news-workflow">Ablauf erklärt</a></aside>}
         {children}
       </main>
 
@@ -154,6 +158,9 @@ export default function Layout({ children }: LayoutProps) {
             <a href="https://www.coolwebtoday.org" target="_blank" rel="noopener noreferrer" className="footer__link">
               coolwebtoday.org · Werkstatt
             </a>
+          </p>
+          <p className="footer__copy">
+            <a href="/news#news-workflow" className="footer__link">News-PoC: autonome KI-Synthese und Veröffentlichung</a>
           </p>
           <p className="footer__copy">
             © {new Date().getFullYear()} Claudiu Dangulea

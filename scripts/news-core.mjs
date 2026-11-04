@@ -1,8 +1,9 @@
 import { createHash } from 'node:crypto'
+import disclosure from '../src/content/news-disclosure.json' with { type: 'json' }
 
 export const SITE = 'https://dangulea.at'
 // Increment when changing image composition, so social crawlers see a new URL.
-export const IMAGE_VERSION = 1
+export const IMAGE_VERSION = 2
 const controls = /[\u0000-\u0008\u000B\u000C\u000E-\u001F]/u
 
 export function assertArticle(article) {
@@ -68,7 +69,7 @@ export function articleView(article) {
   const facts = article.text.match(/Fakten:\s*([\s\S]*?)(?:\n\s*(?:Einordnung|Quellen):|$)/)?.[1] ?? article.text
   const clean = facts.replace(/https?:\/\/\S+/g, '').replace(/\s+/g, ' ').trim()
   const short = clean.length <= 220 ? clean : `${clean.slice(0, 217).replace(/\s+\S*$/, '')}…`
-  const revision = createHash('sha256').update(JSON.stringify([IMAGE_VERSION, article])).digest('hex').slice(0, 16)
+  const revision = createHash('sha256').update(JSON.stringify([IMAGE_VERSION, disclosure, article])).digest('hex').slice(0, 16)
   const path = `/news/${article.date}/${article.number}/`
-  return { ...article, description: short, path, url: `${SITE}${path}`, ogImage: `/news-media/${article.id}-${revision}-og.png`, storyImage: `/news-media/${article.id}-${revision}-story.png` }
+  return { ...article, description: short, shareTitle: `${disclosure.label} · ${article.title}`, shareDescription: `${disclosure.socialPrefix} ${short}`, path, url: `${SITE}${path}`, ogImage: `/news-media/${article.id}-${revision}-og.png`, storyImage: `/news-media/${article.id}-${revision}-story.png` }
 }

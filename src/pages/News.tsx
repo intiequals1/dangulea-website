@@ -4,6 +4,8 @@ import "./Disclosure.css";
 import articles from '../generated/news-articles.json';
 import NewsShare from '../components/NewsShare';
 import NewsFactCheck from '../components/NewsFactCheck';
+import NewsWorkflowNotice from '../components/NewsWorkflowNotice';
+import disclosure from '../content/news-disclosure.json';
 
 const dates = [...new Set(articles.map(article => article.date))];
 
@@ -25,28 +27,7 @@ export default function News() {
   return (
     <div className="news-page">
       <h1>News</h1>
-      <section className="news-transparency" aria-labelledby="news-transparency-title">
-        <p className="news-kicker">Transparenzhinweis</p>
-        <h2 id="news-transparency-title">Automatisiert erstellte Inhalte</h2>
-        <p>
-          Die auf dieser Seite veröffentlichten Beiträge können vollständig oder teilweise
-          automatisiert und unter Einsatz künstlicher Intelligenz, insbesondere durch
-          Perplexity-Automatisierungen, erstellt, zusammengefasst oder sprachlich
-          bearbeitet werden.
-        </p>
-        <p>
-          Automatisierte Inhalte können Fehler enthalten, unvollständig sein, Quellen
-          falsch gewichten oder nach Veröffentlichung veralten. Sie dienen allgemeinen
-          Informationszwecken und ersetzen keine individuelle rechtliche, steuerliche,
-          finanzielle, technische oder sonstige fachliche Beratung.
-        </p>
-        <p>Neue und inhaltlich geänderte Meldungen müssen vor Veröffentlichung einen Quellenabgleich und eine Gegenprüfung durchlaufen. Der jeweilige Prüfstatus steht beim Beitrag. Die Bezeichnung „Quellenaussagen“ stellt keine Garantie für die Richtigkeit einer Meldung dar.</p>
-        <p>
-          Quellen werden, soweit verfügbar, im jeweiligen Beitrag angegeben. Hinweise auf
-          Fehler, unklare Quellen oder notwendige Korrekturen können per E-Mail an{' '}
-          <a href="mailto:claudiu@dangulea.at">claudiu@dangulea.at</a> gesendet werden.
-        </p>
-      </section>
+      <NewsWorkflowNotice />
 
       {dates.length === 0 ? (
         <p>Noch keine News vorhanden.</p>
@@ -57,6 +38,7 @@ export default function News() {
               <details className="content-disclosure">
                 <summary>
                   <span className="news-date">{date}</span>
+                  <span className="news-poc-label">{disclosure.label} · autonomer KI-Workflow</span>
                   <h2 className="news-title">Täglicher Überblick: KI, Technologie, ERP, Nachhaltigkeit und Ethik</h2>
                   <span className="disclosure-preview">{articles.filter(article => article.date === date).map(article => article.title).join(' · ')}</span>
                   <span className="disclosure-hint" aria-hidden="true" />
@@ -64,6 +46,7 @@ export default function News() {
                 <div className="disclosure-content">
                   {articles.filter(article => article.date === date).map(article => (
                     <article key={article.id} className="news-teaser">
+                      <p className="news-poc-label" data-news-poc="teaser">{disclosure.label} · KI-Synthese · automatisch veröffentlicht</p>
                       <h3 className="news-entry-heading"><a href={article.path}>{article.number}. {article.title}</a></h3>
                       <p>{article.description}</p>
                       <NewsFactCheck check={article.factCheck} />

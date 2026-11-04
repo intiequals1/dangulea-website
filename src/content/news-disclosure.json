@@ -1,0 +1,10 @@
+{
+  "label": "News-PoC",
+  "title": "Proof of Concept: autonomer News-Workflow",
+  "summary": "Ein autonomer KI-Workflow bezieht Nachrichten aus externen Quellen, synthetisiert daraus eigenständige Zusammenfassungen und veröffentlicht sie selbstständig.",
+  "review": "Auch der Quellenabgleich und die Gegenprüfung erfolgen automatisiert. Die Beiträge werden vor Veröffentlichung nicht einzeln redaktionell geprüft.",
+  "limits": "Dieser Proof of Concept (PoC) demonstriert einen experimentellen Workflow. Zusammenfassungen und Prüfungen können Fehler enthalten, Quellen falsch gewichten oder veralten. Maßgeblich sind die verlinkten Originalquellen. Die Inhalte dienen allgemeinen Informationszwecken und ersetzen keine individuelle fachliche Beratung.",
+  "persistent": "News-PoC · KI-Synthese und eigenständige Veröffentlichung",
+  "socialPrefix": "News-PoC · autonom durch KI synthetisiert und veröffentlicht:",
+  "imageLabel": "KI-Synthese · automatisch veröffentlicht"
+}

@@ -193,3 +193,5 @@
 .news-factcheck { border-left: 2px solid var(--color-accent-muted); padding-left: var(--space-3); margin: var(--space-4) 0; font-size: var(--text-sm); color: var(--color-text-secondary); }
 .news-factcheck p { margin-bottom: var(--space-2); }
 .news-factcheck summary { cursor: pointer; color: var(--color-accent-light); }
+.news-poc-label { display: block; margin-bottom: var(--space-2); font-size: var(--text-xs); color: var(--color-accent-light); }
+.news-item, #news-workflow { scroll-margin-top: 10rem; }

@@ -1,8 +1,9 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { pathToFileURL } from 'node:url'
+import disclosure from '../src/content/news-disclosure.json' with { type: 'json' }
 
 const site = 'https://dangulea.at'
-const aiDisclosure = 'Diese Nachrichten wurden automatisch mithilfe eines KI-Systems recherchiert, ausgewählt und zusammengefasst. Sie wurden vor Veröffentlichung nicht einzeln redaktionell geprüft und können Fehler enthalten. Maßgeblich sind die verlinkten Originalquellen.'
+const aiDisclosure = `${disclosure.label}. ${disclosure.summary} ${disclosure.review} ${disclosure.limits}`
 
 export function escapeXml(value) {
   return value.replace(/[&<>"']/g, (character) => ({
@@ -44,7 +45,7 @@ export function createNewsFeed(items) {
       `<p>${linkedText(block).replace(/\n/g, '<br />')}</p>`).join('\n')
     const html = `<p><strong>Transparenz zur KI-Unterstützung:</strong> ${escapeXml(aiDisclosure)}</p>\n${body}`
     return `    <item>
-      <title>${escapeXml(`${item.date} – ${item.title}`)}</title>
+      <title>${escapeXml(`${disclosure.label} · ${item.date} – ${item.title}`)}</title>
       <link>${link}</link>
       <guid isPermaLink="true">${link}</guid>
       <pubDate>${new Date(`${item.date}T00:00:00Z`).toUTCString()}</pubDate>
@@ -54,9 +55,9 @@ export function createNewsFeed(items) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Claudiu Dangulea – News</title>
+    <title>Claudiu Dangulea – ${disclosure.label}</title>
     <link>${site}/news</link>
-    <description>Automatisch mithilfe von KI zusammengestellte Nachrichten zu KI, Technologie, ERP, Nachhaltigkeit und Ethik. Nicht einzeln redaktionell geprüft; Fehler sind möglich. Mit Quellenlinks.</description>
+    <description>${escapeXml(aiDisclosure)}</description>
     <language>de-at</language>
     <atom:link href="${site}/rss.xml" rel="self" type="application/rss+xml" />
 ${itemXml}

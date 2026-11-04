@@ -14,6 +14,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = 'https://dangulea.at'
+DISCLOSURE = json.loads((ROOT / 'src/content/news-disclosure.json').read_text())
 
 
 class Page(HTMLParser):
@@ -22,6 +23,7 @@ class Page(HTMLParser):
         self.meta, self.canonicals, self.links, self.shares, self.story_shares, self.ld = {}, [], [], [], [], []
         self.title, self.h1, self.text = [], [], []
         self.factchecks = []
+        self.pocs = []
         self.in_head = self.in_title = self.in_h1 = self.in_ld = False
         self.ld_text = ''
         self.feed(html)
@@ -32,6 +34,7 @@ class Page(HTMLParser):
         if tag == 'title': self.in_title = True
         if tag == 'h1': self.in_h1 = True
         if 'data-factcheck' in attrs: self.factchecks.append(attrs['data-factcheck'])
+        if 'data-news-poc' in attrs: self.pocs.append(attrs['data-news-poc'])
         if not self.in_head and tag in ['p', 'div', 'article', 'h1', 'h2', 'h3', 'section', 'li']:
             self.text.append('\n')
         if tag == 'meta' and self.in_head:
@@ -68,17 +71,17 @@ def require(condition, message):
 
 def check_page(html, article):
     page = Page(html)
-    require(''.join(page.title) == f'{article["title"]} · Claudiu Dangulea', 'HTML-Titel falsch')
+    require(''.join(page.title) == f'{article["shareTitle"]} · Claudiu Dangulea', 'HTML-Titel falsch')
     require(''.join(page.h1) == article['title'], 'Artikelüberschrift fehlt/falsch')
     require(page.canonicals == [article['url']], 'Canonical fehlt, doppelt oder falsch')
     metadata = {
-        'description': article['description'], 'og:type': 'article', 'og:title': article['title'],
-        'og:description': article['description'], 'og:url': article['url'],
+        'description': article['shareDescription'], 'og:type': 'article', 'og:title': article['shareTitle'],
+        'og:description': article['shareDescription'], 'og:url': article['url'],
         'og:image': SITE + article['ogImage'], 'og:image:secure_url': SITE + article['ogImage'],
         'og:image:width': '1200', 'og:image:height': '630', 'og:image:type': 'image/png',
         'og:image:alt': article['title'], 'og:locale': 'de_AT',
         'article:published_time': article['date'], 'twitter:card': 'summary_large_image',
-        'twitter:title': article['title'], 'twitter:description': article['description'],
+        'twitter:title': article['shareTitle'], 'twitter:description': article['shareDescription'],
         'twitter:image': SITE + article['ogImage'],
     }
     for key, value in metadata.items():
@@ -93,10 +96,14 @@ def check_page(html, article):
     require(page.story_shares == [(article['storyImage'], article['url'])], 'Story-Teilen-Button oder Bild-/Link-Zuordnung fehlt/falsch')
     require(len(page.ld) == 1, 'NewsArticle JSON-LD fehlt/doppelt')
     ld = page.ld[0]
-    for key, value in {'@type': 'NewsArticle', 'headline': article['title'], 'description': article['description'], 'url': article['url'], 'mainEntityOfPage': article['url'], 'datePublished': article['date'], 'image': [SITE + article['ogImage']]}.items():
+    for key, value in {'@type': 'NewsArticle', 'headline': article['title'], 'description': article['shareDescription'], 'url': article['url'], 'mainEntityOfPage': article['url'], 'datePublished': article['date'], 'image': [SITE + article['ogImage']]}.items():
         require(ld.get(key) == value, f'Falsches JSON-LD: {key}')
     text = ' '.join(''.join(page.text).split())
     require('Diese Website ist noch im Aufbau.' in text, 'Hinweis zum Entwicklungsstand fehlt')
+    require(sorted(page.pocs) == ['autonomous', 'persistent'], 'PoC-Hinweis fehlt: Artikel oder dauerhafte Kennzeichnung')
+    for value in ['title', 'summary', 'review', 'limits']:
+        require(DISCLOSURE[value] in text, f'PoC-Erklärung fehlt: {value}')
+    require(article['shareDescription'].startswith(DISCLOSURE['socialPrefix']), 'PoC-Kennzeichnung in Metadaten fehlt')
     require(page.factchecks == [article['factCheck']['status']], 'Faktencheck-Status fehlt/falsch')
     if article['factCheck']['status'] == 'unreviewed':
         require('noch kein zweistufiger Faktencheck dokumentiert' in text, 'Ungeprüfter Beitrag irreführend gekennzeichnet')
@@ -113,10 +120,12 @@ def check_page(html, article):
     return page
 
 
-def check_image(data, expected_size):
+def check_image(data, expected_size, require_poc=False):
     require(len(data) < 5_000_000, 'Bild überschreitet 5 MB')
     with Image.open(io.BytesIO(data)) as image:
         require(image.format == 'PNG' and image.size == expected_size, f'Bildformat/-größe falsch: {image.format} {image.size}')
+        if require_poc:
+            require(image.info.get('news_poc') == DISCLOSURE['label'] and image.info.get('news_workflow') == DISCLOSURE['summary'], 'PoC-Kennzeichnung im PNG fehlt/falsch')
         image.verify()
     with Image.open(io.BytesIO(data)) as image:
         image.load()  # verify alone does not decode all pixel data
@@ -151,7 +160,7 @@ def main():
             with urlopen(request, timeout=45) as response:
                 require(response.status == 200, f'HTTP {response.status}: {target}')
                 require(response.url == target, f'Unerwartete Weiterleitung: {response.url}')
-                allowed_types = ['application/xml', 'text/xml'] if kind == 'application/xml' else [kind]
+                allowed_types = ['application/xml', 'text/xml', 'application/rss+xml'] if kind == 'application/xml' else [kind]
                 require(response.headers.get_content_type() in allowed_types, f'Falscher Content-Type: {target}')
                 require('noindex' not in response.headers.get('X-Robots-Tag', '').lower(), 'HTTP noindex')
                 return response.read()
@@ -165,18 +174,24 @@ def main():
         path = route if args.base_url or route == '/' else route + '.html'
         require('Diese Website ist noch im Aufbau.' in read(path, 'text/html').decode(), f'Aufbauhinweis fehlt auf {route}')
     overview = Page(read('/news.html' if not args.base_url else '/news', 'text/html').decode())
+    require(overview.pocs.count('autonomous') == 1 and overview.pocs.count('persistent') == 1 and overview.pocs.count('teaser') == len(expected), 'PoC-Kennzeichnung in News-Übersicht fehlt')
     overview_links = {link.get('href') for link in overview.links}
     for article in expected:
         require(article['path'] in overview_links and article['url'] in overview.shares, f'Artikel fehlt in Übersicht: {article["id"]}')
     sitemap = ET.fromstring(read('/sitemap.xml', 'application/xml'))
     locations = [element.text for element in sitemap.iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
     require(all(locations.count(url) == 1 for url in urls), 'Artikel in Sitemap fehlt/doppelt')
+    rss = ET.fromstring(read('/rss.xml', 'application/xml'))
+    require(DISCLOSURE['summary'] in rss.findtext('./channel/description', ''), 'PoC-Erklärung im RSS-Kanal fehlt')
+    for item in rss.findall('./channel/item'):
+        require(item.findtext('title', '').startswith(DISCLOSURE['label']), 'PoC-Kennzeichnung im RSS-Titel fehlt')
+        require(DISCLOSURE['summary'] in item.findtext('description', ''), 'PoC-Erklärung in RSS-Ausgabe fehlt')
 
     def check(article):
         try:
             check_page(read(article['path'], 'text/html').decode(), article)
-            og = check_image(read(article['ogImage'], 'image/png'), (1200, 630))
-            story = check_image(read(article['storyImage'], 'image/png'), (1080, 1920))
+            og = check_image(read(article['ogImage'], 'image/png'), (1200, 630), require_poc=True)
+            story = check_image(read(article['storyImage'], 'image/png'), (1080, 1920), require_poc=True)
             return og, story
         except Exception as error:
             raise ValueError(f'{article["id"]}: {error}') from error

@@ -3,10 +3,12 @@ import json
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
+from PIL.PngImagePlugin import PngInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 FONTS = ROOT / 'scripts/fonts'
 BG, PANEL, GOLD, TEXT, MUTED = '#1a1714', '#221e1a', '#c8935a', '#e8e0d5', '#c4b49d'
+DISCLOSURE = json.loads((ROOT / 'src/content/news-disclosure.json').read_text())
 
 
 def font(size, bold=False):
@@ -66,9 +68,13 @@ def render(article, story=False):
     draw.rectangle((0, 0, 18, height), fill=GOLD)
     draw.rectangle((margin, height - 200 if story else 510, width - margin, height - margin), fill=PANEL)
     draw.text((margin, 250 if story else 48), 'CLAUDIU DANGULEA', font=font(32 if story else 24, True), fill=TEXT)
-    draw.text((margin, 315 if story else 92), f'NEWS · {article["date"][8:10]}.{article["date"][5:7]}.{article["date"][:4]} · {article["number"]:02}', font=font(27 if story else 19), fill=GOLD)
-    draw.line((margin, 385 if story else 138, width - margin, 385 if story else 138), fill=GOLD, width=2)
-    draw_block(draw, article['title'], (margin, 435 if story else 166), width - 2 * margin,
+    date = f'{article["date"][8:10]}.{article["date"][5:7]}.{article["date"][:4]} · {article["number"]:02}'
+    kicker = f'{DISCLOSURE["label"]} · {date}' if story else f'{DISCLOSURE["label"]} · {DISCLOSURE["imageLabel"]} · {date}'
+    draw.text((margin, 315 if story else 92), kicker, font=font(27 if story else 18), fill=GOLD)
+    if story:
+        draw.text((margin, 365), DISCLOSURE['imageLabel'], font=font(24), fill=GOLD)
+    draw.line((margin, 415 if story else 138, width - margin, 415 if story else 138), fill=GOLD, width=2)
+    draw_block(draw, article['title'], (margin, 455 if story else 166), width - 2 * margin,
                620 if story else 265, 68 if story else 49, 44 if story else 30, bold=True)
     draw_block(draw, article['description'], (margin, 1140 if story else 450), width - 2 * margin,
                420 if story else 55, 36 if story else 20, 30 if story else 20, truncate=True)
@@ -85,7 +91,10 @@ def main():
         for key, story in [('ogImage', False), ('storyImage', True)]:
             path = ROOT / 'dist' / article[key].lstrip('/')
             path.parent.mkdir(parents=True, exist_ok=True)
-            render(article, story).save(path, 'PNG', optimize=True)
+            info = PngInfo()
+            info.add_text('news_poc', DISCLOSURE['label'])
+            info.add_text('news_workflow', DISCLOSURE['summary'])
+            render(article, story).save(path, 'PNG', optimize=True, pnginfo=info)
     print(f'News-Bilder erzeugt: {len(articles)} × (1200×630 und 1080×1920)')
 
 
