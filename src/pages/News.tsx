@@ -3,6 +3,7 @@ import "./News.css";
 import "./Disclosure.css";
 import articles from '../generated/news-articles.json';
 import NewsShare from '../components/NewsShare';
+import NewsFactCheck from '../components/NewsFactCheck';
 
 const dates = [...new Set(articles.map(article => article.date))];
 
@@ -39,6 +40,7 @@ export default function News() {
           Informationszwecken und ersetzen keine individuelle rechtliche, steuerliche,
           finanzielle, technische oder sonstige fachliche Beratung.
         </p>
+        <p>Neue und inhaltlich geänderte Meldungen müssen vor Veröffentlichung einen Quellenabgleich und eine Gegenprüfung durchlaufen. Der jeweilige Prüfstatus steht beim Beitrag. Die Bezeichnung „Quellenaussagen“ stellt keine Garantie für die Richtigkeit einer Meldung dar.</p>
         <p>
           Quellen werden, soweit verfügbar, im jeweiligen Beitrag angegeben. Hinweise auf
           Fehler, unklare Quellen oder notwendige Korrekturen können per E-Mail an{' '}
@@ -64,6 +66,7 @@ export default function News() {
                     <article key={article.id} className="news-teaser">
                       <h3 className="news-entry-heading"><a href={article.path}>{article.number}. {article.title}</a></h3>
                       <p>{article.description}</p>
+                      <NewsFactCheck check={article.factCheck} />
                       <a href={article.path}>Vollständige Meldung und Quellen lesen →</a>
                       <NewsShare article={article} />
                     </article>

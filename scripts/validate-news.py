@@ -21,6 +21,7 @@ class Page(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.meta, self.canonicals, self.links, self.shares, self.story_shares, self.ld = {}, [], [], [], [], []
         self.title, self.h1, self.text = [], [], []
+        self.factchecks = []
         self.in_head = self.in_title = self.in_h1 = self.in_ld = False
         self.ld_text = ''
         self.feed(html)
@@ -30,6 +31,7 @@ class Page(HTMLParser):
         if tag == 'head': self.in_head = True
         if tag == 'title': self.in_title = True
         if tag == 'h1': self.in_h1 = True
+        if 'data-factcheck' in attrs: self.factchecks.append(attrs['data-factcheck'])
         if not self.in_head and tag in ['p', 'div', 'article', 'h1', 'h2', 'h3', 'section', 'li']:
             self.text.append('\n')
         if tag == 'meta' and self.in_head:
@@ -94,10 +96,20 @@ def check_page(html, article):
     for key, value in {'@type': 'NewsArticle', 'headline': article['title'], 'description': article['description'], 'url': article['url'], 'mainEntityOfPage': article['url'], 'datePublished': article['date'], 'image': [SITE + article['ogImage']]}.items():
         require(ld.get(key) == value, f'Falsches JSON-LD: {key}')
     text = ' '.join(''.join(page.text).split())
+    require('Diese Website ist noch im Aufbau.' in text, 'Hinweis zum Entwicklungsstand fehlt')
+    require(page.factchecks == [article['factCheck']['status']], 'Faktencheck-Status fehlt/falsch')
+    if article['factCheck']['status'] == 'unreviewed':
+        require('noch kein zweistufiger Faktencheck dokumentiert' in text, 'Ungeprüfter Beitrag irreführend gekennzeichnet')
+    else:
+        require('Quellenabgleich und Gegenprüfung dokumentiert.' in text, 'Dokumentierter Prüfstatus fehlt')
+    for limitation in article['factCheck']['limitations']:
+        require(' '.join(limitation.split()) in text, 'Quellenvorbehalt fehlt in der öffentlichen Darstellung')
+    require('Quellenaussagen:' in text, 'Neutrale Quellenkennzeichnung fehlt')
     require('Transparenz zur KI-Unterstützung:' in text, 'KI-Hinweis fehlt')
     # Ensure the full body and source URLs are present, not only a generic shell.
     for line in article['text'].splitlines():
-        require(' '.join(line.split()) in text, 'Artikeltext/Quellen fehlen im statischen HTML')
+        visible_line = line.replace('Fakten:', 'Quellenaussagen:', 1) if line.startswith('Fakten:') else line
+        require(' '.join(visible_line.split()) in text, 'Artikeltext/Quellen fehlen im statischen HTML')
     return page
 
 
@@ -149,6 +161,9 @@ def main():
 
     manifest = json.loads(read('/news-manifest.json', 'application/json'))
     require(manifest == expected, 'Veröffentlichtes Manifest gehört nicht zum geprüften Build')
+    for route in ['/', '/person', '/projekte', '/news', '/aktuelle-themen', '/ressourcen', '/impressum']:
+        path = route if args.base_url or route == '/' else route + '.html'
+        require('Diese Website ist noch im Aufbau.' in read(path, 'text/html').decode(), f'Aufbauhinweis fehlt auf {route}')
     overview = Page(read('/news.html' if not args.base_url else '/news', 'text/html').decode())
     overview_links = {link.get('href') for link in overview.links}
     for article in expected:

@@ -31,6 +31,8 @@ Bei verwalteten Python-Installationen eine virtuelle Umgebung verwenden und sie 
 
 ## Verpflichtender Veröffentlichungsablauf
 
+Für neue oder inhaltlich geänderte Meldungen gilt vor der Archiv-Synchronisierung der gemeinsame zweistufige [Faktencheck](news-fact-checking.md). `pnpm news:factcheck` muss erfolgreich sein. News-Datei, Archiv und `data/news-fact-checks.json` werden gemeinsam committed. Unveränderte, noch ungeprüfte Bestandsmeldungen sind ausdrücklich als solche gekennzeichnet.
+
 1. Aktuellen `main` holen und neue Tagesausgabe ergänzen.
 2. `pnpm news:sync`: Archiv übernehmen, Artikelstruktur und Identitäten prüfen.
 3. Tests und vollständigen Build ausführen. Dieser erzeugt alle statischen Seiten, Metadaten, JSON-LD, die Sitemap und je Artikel ein individuelles PNG mit 1200×630 sowie 1080×1920 Pixeln.

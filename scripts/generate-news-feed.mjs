@@ -40,7 +40,7 @@ export function createNewsFeed(items) {
   const entries = [...items].sort((a, b) => b.date.localeCompare(a.date))
   const itemXml = entries.map((item) => {
     const link = `${site}/news#news-${item.date}`
-    const body = item.text.split(/\n{2,}/).filter((block) => block.trim()).map((block) =>
+    const body = item.text.replace(/^Fakten:/gm, 'Quellenaussagen:').split(/\n{2,}/).filter((block) => block.trim()).map((block) =>
       `<p>${linkedText(block).replace(/\n/g, '<br />')}</p>`).join('\n')
     const html = `<p><strong>Transparenz zur KI-Unterstützung:</strong> ${escapeXml(aiDisclosure)}</p>\n${body}`
     return `    <item>

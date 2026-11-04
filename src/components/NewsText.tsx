@@ -39,7 +39,7 @@ function renderLinkedText(text: string) {
 
 function renderNewsText(text: string) {
   return text
-    .split(/\n{2,}/)
+    .split(/\n{2,}|\n(?=(?:Fakten|Einordnung|Quellen):)/)
     .map((block) => block.trim())
     .filter(Boolean)
     .map((block, index) => {
@@ -58,7 +58,7 @@ function renderNewsText(text: string) {
         const [, label, body] = labelledBlock;
         return (
           <p key={index} className={`news-entry-block news-entry-block--${label.toLowerCase().replace(/\s+/g, "-")}`}>
-            <strong>{label}:</strong>
+            <strong>{label === 'Fakten' ? 'Quellenaussagen' : label}:</strong>
             {body ? <> {renderLinkedText(body)}</> : null}
           </p>
         );
