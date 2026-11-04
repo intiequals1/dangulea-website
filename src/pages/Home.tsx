@@ -99,7 +99,7 @@ export default function Home() {
         </div>
       </section>
 
-     /* {/* ── Vision strip 
+     {/* ── Vision strip 
       <section className="vision">
         <div className="container container--text">
           <p className="section-label">Richtung</p>
