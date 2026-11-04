@@ -99,7 +99,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Vision strip ── */}
+     /* {/* ── Vision strip 
       <section className="vision">
         <div className="container container--text">
           <p className="section-label">Richtung</p>
@@ -111,6 +111,7 @@ export default function Home() {
           <p className="vision__author">— Claudiu Dangulea</p>
         </div>
       </section>
+      ── */}
 
       {/* ── Contact CTA ── */}
       <section className="cta">
