@@ -38,6 +38,9 @@ try {
   await writeFile(page, originalPage.toString().replace('Diese Website ist noch im Aufbau.', ''))
   rejected('python3', ['scripts/validate-news.py'], /Entwicklungsstand/)
   console.log('OK: fehlender Aufbauhinweis stoppt Veröffentlichung')
+  await writeFile(page, originalPage.toString().replace('data-news-poc="autonomous"', ''))
+  rejected('python3', ['scripts/validate-news.py'], /PoC-Hinweis/)
+  console.log('OK: fehlende PoC-Erklärung stoppt Veröffentlichung')
   await writeFile(page, originalPage)
   await writeFile(image, originalImage.subarray(0, 100))
   rejected('python3', ['scripts/validate-news.py'], /2026-|PNG|truncated/)
@@ -60,4 +63,4 @@ try {
   await writeFile(news, originalNews)
   await writeFile(factChecks, originalFactChecks)
 }
-console.log('Alle 8 Fehlerfälle wurden vom verpflichtenden Release-Gate zurückgewiesen; Originaldateien wiederhergestellt.')
+console.log('Alle 9 Fehlerfälle wurden vom verpflichtenden Release-Gate zurückgewiesen; Originaldateien wiederhergestellt.')

@@ -200,6 +200,16 @@
 .site-notice p { max-width: var(--max-width-wide); margin: 0 auto; }
 .site-notice strong { color: var(--color-accent-light); }
 
+.news-workflow-strip {
+  position: sticky; top: 80px; z-index: 150;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+  gap: var(--space-1) var(--space-4); padding: var(--space-2) var(--space-4);
+  border-bottom: 1px solid var(--color-accent-muted); background: var(--color-bg-alt);
+  color: var(--color-text-primary); font-size: 0.8125rem; line-height: 1.5;
+}
+.news-workflow-strip a { color: var(--color-accent-light); text-underline-offset: 3px; }
+.news-workflow-strip a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+
 /* ── Footer ── */
 .footer {
   border-top: 1px solid var(--color-border);

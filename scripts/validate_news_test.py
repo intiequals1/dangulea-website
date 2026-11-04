@@ -4,6 +4,7 @@ from pathlib import Path
 import unittest
 
 from PIL import Image
+from PIL.PngImagePlugin import PngInfo
 
 
 def module(filename):
@@ -45,6 +46,17 @@ class ImagesTest(unittest.TestCase):
             renderer.render({**self.article, 'title': ('Sehr lange Überschrift mit Umlauten äöü ' * 8)[:300]}, story)
         with self.assertRaises(ValueError):
             renderer.render({**self.article, 'title': 'Unzulässig lang ' * 500})
+
+    def test_release_requires_current_poc_context_in_image_metadata(self):
+        output = io.BytesIO()
+        renderer.render(self.article).save(output, 'PNG')
+        with self.assertRaises(ValueError): validator.check_image(output.getvalue(), (1200, 630), require_poc=True)
+        info = PngInfo()
+        info.add_text('news_poc', renderer.DISCLOSURE['label'])
+        info.add_text('news_workflow', renderer.DISCLOSURE['summary'])
+        current = io.BytesIO()
+        renderer.render(self.article).save(current, 'PNG', pnginfo=info)
+        validator.check_image(current.getvalue(), (1200, 630), require_poc=True)
 
 
 if __name__ == '__main__':

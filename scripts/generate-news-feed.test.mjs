@@ -33,12 +33,13 @@ test('rejects malformed data, invalid dates and duplicate editions', () => {
 test('puts an explicit AI notice first in every edition, including older entries without disclosure', () => {
   const items = [{ ...entry, text: 'Fakten: ältere Meldung ohne Hinweis' }, { ...entry, date: '2026-10-20' }]
   const xml = createNewsFeed(items)
-  assert.ok(xml.includes('Automatisch mithilfe von KI zusammengestellte Nachrichten'))
+  assert.ok(xml.includes('Proof of Concept (PoC)'))
   const descriptions = [...xml.matchAll(/<item>[\s\S]*?<description>([\s\S]*?)<\/description>/g)]
   assert.equal(descriptions.length, items.length)
   for (const [, description] of descriptions) {
     assert.ok(description.startsWith('&lt;p&gt;&lt;strong&gt;Transparenz zur KI-Unterstützung:'))
-    assert.ok(description.includes('automatisch mithilfe eines KI-Systems'))
+    assert.ok(description.includes('Ein autonomer KI-Workflow'))
+    assert.ok(description.includes('synthetisiert daraus eigenständige Zusammenfassungen und veröffentlicht sie selbstständig'))
     assert.ok(description.includes('nicht einzeln redaktionell geprüft'))
   }
   assert.equal(items[0].text, 'Fakten: ältere Meldung ohne Hinweis')
