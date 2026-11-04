@@ -28,6 +28,8 @@ jobs:
           NEWS_BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before || github.sha }}
       - name: Regression and failure tests
         run: pnpm test
+      - name: Require both content reviews for every new or changed news article
+        run: pnpm news:factcheck
       - name: Generate pages and both images, then validate the complete artifact
         run: pnpm build
       - name: Verify validator rejects damaged deployment artifacts

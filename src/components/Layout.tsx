@@ -116,6 +116,9 @@ export default function Layout({ children }: LayoutProps) {
 
       {/* ── Page content ── */}
       <main className="main">
+        <aside className="site-notice" aria-label="Hinweis zum Entwicklungsstand">
+          <p><strong>Diese Website ist noch im Aufbau.</strong> Inhalte und Funktionen werden laufend ergänzt und verbessert.</p>
+        </aside>
         {children}
       </main>
 

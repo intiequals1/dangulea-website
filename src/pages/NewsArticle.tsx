@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom'
 import articles from '../generated/news-articles.json'
 import NewsShare from '../components/NewsShare'
 import NewsText from '../components/NewsText'
+import NewsFactCheck from '../components/NewsFactCheck'
 import './News.css'
 
 export default function NewsArticle() {
@@ -13,6 +14,7 @@ export default function NewsArticle() {
       <a href={`/news#news-${article.date}`}>← Zur News-Übersicht</a>
       <p className="news-date"><time dateTime={article.date}>{article.date}</time> · Meldung {article.number}</p>
       <h1>{article.title}</h1>
+      <NewsFactCheck check={article.factCheck} />
       <NewsShare article={article} />
       <img className="news-article-image" src={article.ogImage} width="1200" height="630" alt={article.title} />
       <div className="news-text"><NewsText text={article.text} /></div>

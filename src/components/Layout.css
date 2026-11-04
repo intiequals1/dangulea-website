@@ -189,6 +189,17 @@
   padding-top: 80px;
 }
 
+.site-notice {
+  border-block: 1px solid var(--color-border);
+  background: var(--color-bg-alt);
+  padding: var(--space-3) var(--space-6);
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+}
+.site-notice p { max-width: var(--max-width-wide); margin: 0 auto; }
+.site-notice strong { color: var(--color-accent-light); }
+
 /* ── Footer ── */
 .footer {
   border-top: 1px solid var(--color-border);

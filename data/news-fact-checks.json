@@ -1,0 +1,313 @@
+{
+  "version": 1,
+  "legacyUnreviewed": {
+    "2026-11-04-1": "456293be0d064c89189c8de29cce2b983442fecddd9fb229d5676a55aa154d7e",
+    "2026-11-04-2": "048a76a353859b30e9007dccf4ec1ff8fcfc92858d81bf0e88aa988968c08924",
+    "2026-11-04-3": "e0aeaa8f10231ffa618cfc66114c77c9615d6df2d4de7333f79f205a7d384c5e",
+    "2026-11-04-4": "9fb852de93cb56751886c43700fab2dbd673a65ea7946157b2049e83d8febbb7",
+    "2026-11-04-5": "b895552670ff937848fb0fb7bf47441f3021749a87582e34d1654ece9498c516",
+    "2026-11-03-1": "a63f3bef375011160a68698d5831d61968f65b0a5a4ae686e22f51ba0109889d",
+    "2026-11-03-2": "e2a4005c75f5b0c1f35f5b5050ee621692f50da4f32409364ff4b4f8f2de3403",
+    "2026-11-03-3": "7ba1001d9d9ddbb0e78f74600ec658c5c5b45deed18f4e588ee58067f09cb0c4",
+    "2026-11-03-4": "464b395891ec6bf2339b87fd384eeb6731d70112f8c0ff04cd9e94f9014a93be",
+    "2026-11-03-5": "c84cb9023ed37de1d278259d97e020fb5fcc62bf799a8dc8dca190fcc5c2e564",
+    "2026-11-02-1": "7b9f446a9ced9aedfbbf4157ea20beb807b7b7443042d0b9932c9325705c4397",
+    "2026-11-02-2": "8c69cff10a7c4a526d773156cdaead3a6a99dd13824735bc36c9234901be1d91",
+    "2026-11-02-3": "affbb6ba476d83db068ea703792e69a86b72f75547624312116e023af19ca89b",
+    "2026-11-02-4": "0134198c73963329433469edb135ced0da6e7e588e4ce9e568b590287c0baa35",
+    "2026-11-02-5": "5c499a9530ae7140504c108615e1ca1b8c9343ebc937715ebc08931b87d52723",
+    "2026-11-01-1": "b85f3c1b68c8e6e6f6fed2592ae08296b03cb3748a114226892392041f27b8c7",
+    "2026-11-01-2": "f1c4c14eda4394f50a8f0b7f63f64ffd748a402d84927c54c859353986200ac3",
+    "2026-11-01-3": "546e67e9cce231991ad5f0e6eacb1c37dd6613171b595430c28b1cff0ec46b38",
+    "2026-11-01-4": "abf862a8c9c9789ce533b54573dddb4ee67c346d9345dd17434afb7dd75d6aa1",
+    "2026-11-01-5": "54ab83fb50b8ce0deb2faa956f9b0557a7360d14f58726af733d5aa3bc29b009",
+    "2026-10-31-1": "ea54a6050ba5cdbab84ad493caa2961de04d0b828221424e2983026a8d58fc79",
+    "2026-10-31-2": "6bfe3b37114f88f52be69eeed5dd3c1169da9ef27ee91f652f27e5914d97a4fe",
+    "2026-10-31-3": "405f98c985e7806838ada1ab332683aab6ff649403bca8e7c9dd66a3a0068495",
+    "2026-10-31-4": "1bb7ebb841dc7b656441b54a5e5259b534cc543ed2cd7415e2191224a60c2cba",
+    "2026-10-31-5": "d3a23af6ebea5e7a1dee53eae1be64e9af429f05b4520c62c2b42941df455357",
+    "2026-10-30-1": "b9d38902ff268f5c48f430058e2a248511a5ba24f95cfc489efa70f4e42a4e84",
+    "2026-10-30-2": "7476307f4359fdc7f824da2520cb5d8545f3b42686f8b821bdc772713320363e",
+    "2026-10-30-3": "5fa6910086cafb7f78f88a27c7356ea5d4d48db7f3b12896b612755ae07a4ff7",
+    "2026-10-30-4": "f493faafe2da661dcc4252519be4b90c60f54bd0fc532bc81d9ee2fdadf5d1ad",
+    "2026-10-30-5": "557067500bf6f3bd038a57d0afec604b1fdddba489640ccf2619287aabb916fe",
+    "2026-10-29-1": "29cc93ede0980eb675eade1b0e05b9a4d11f3f49ca708b27e9fda683c501c461",
+    "2026-10-29-2": "bcac3b27955d6d6ed19eaeedff500ec0705f64d2b59fdc83dc8a41d4b0cc20ee",
+    "2026-10-29-3": "300a91fc8c8a2b6459dc67acb91f13382d228a7aa78c9a490c8be5a06370044b",
+    "2026-10-29-4": "8d8a0a1934c2d89ac384f406385a6e3380efd6aba04062098af5ad7600c9b513",
+    "2026-10-29-5": "8984ccbd06b8605507352bb0def4dcf6a1ffac363fea7f3f516c4ef58839263c",
+    "2026-10-28-1": "973097078487b8630e6ce7f7e05c87a6efe28a0aa48b6ff36a730e6cdf18af24",
+    "2026-10-28-2": "2979c765622cca7f6d038a03975f6260aa3ace0d0cf1b7516a7e2acaa1701e23",
+    "2026-10-28-3": "9d3dd9c7b0391136aed2ce1403586820db7cd1d3821c7e1434b56151471cde27",
+    "2026-10-28-4": "d909c6d5a6fe9a4988f794c846fcaba876a5458df2c7fb0e932a6a792eceb936",
+    "2026-10-28-5": "36491a2f9169fe7348876661e1818fddff2ba179d05123821ec487d569259a1c",
+    "2026-10-27-1": "f5a92c3dabd2fe468019fcdaa8c14ae0f3edf7a7f88a630f8c686c159a83b46f",
+    "2026-10-27-2": "d40fdb4df1bdd6c5a588a415ea8a6518acbc9c9f48bd9666b2b2cc158f66aa9d",
+    "2026-10-27-3": "0a71a37becbb14eb22d2e17ec11b60a5096d504b301e594b50642de36a294865",
+    "2026-10-27-4": "10bd9ba8913d4e06323c7f0962e0fc7aeda2f320e34d2ddd0f5673752a37dc01",
+    "2026-10-27-5": "7fb75af7c0edead63ed30f4795145e0c65a0b9424467c4d3a58114e73af551bf",
+    "2026-10-26-1": "9e45fd7c0ab55734a4797754dc95abda5a99771a5885d20d428052ca93691847",
+    "2026-10-26-2": "08dc601d980790fbfd9368f41f759b3dade0ce83ce8a550f5ccff7300a7aa920",
+    "2026-10-26-3": "7fc432ef97d1055ed6646b8117602c417d0aac15cab0a357068591adeca454f0",
+    "2026-10-26-4": "34fd7167f36a806ae118208348c0d91e5532e96ff50dc8c19c4cda538bd04d76",
+    "2026-10-26-5": "2f4c97ec4a1f27c5511f8fb770ee701ecdae102e870696f28a0b5c70eb14f680",
+    "2026-10-25-1": "35d556f55fafaadb8ebe9a6c89709fafe12462af435c1692187e7b5ac1952f31",
+    "2026-10-25-2": "92c16d26d84e2703e6d1a2e9cb537687ff7edd00747e9380ae9841ebcf64494e",
+    "2026-10-25-3": "4b7dc4c2b6df07e55a3dfd56138f553b8ba0eb3c1278f159d96861a563dd8cd2",
+    "2026-10-25-4": "042b68b7cfbea1a59e6cf92cc8dfc5b01bda4befef0ab92ce7bb570e87e4bb94",
+    "2026-10-25-5": "e018b60c516d0cacc4304c195255c041187a1baf30724b0db7cb0f47f4dc6966",
+    "2026-10-24-1": "30c50e20c5ff309dea0a01a4c06c4248a47979d770c11c1ede3b31108378b97e",
+    "2026-10-24-2": "8ee04db9f603300b8e523b12f77a6c01740fe9e85193bc30c3a4f672451fdbc1",
+    "2026-10-24-3": "a4146a1dc3e560b24908fe72bd4990e1b73a1fda8dad6e4bd37d8251be7b941d",
+    "2026-10-24-4": "c9bfb2d8a6191cc38eedfe7f98839595c829b881dad69c876c4810704c5afe37",
+    "2026-10-24-5": "7eed47966cc440c844410d63361ff984f059ce5514ef528861a0178ed4163385",
+    "2026-10-23-1": "fd383a79a4af40c4f80618018112316dd199ca22ead0eef7e1f0b5c35a265ca8",
+    "2026-10-23-2": "4c9e81e939433bf607d094ca9c5dcd2062661c6a8a0f293ee842f10141070a50",
+    "2026-10-23-3": "4a307adea78df4c054ee3f1ef003beb3e919910f906a7d5d4b9af34c0cb3d933",
+    "2026-10-23-4": "eedd1a0fc1c4570ab552de506683c82904c052448133ffdb87e704f432663c54",
+    "2026-10-23-5": "e87e58d93996d5638927a6e0e57aa66d3eb9f1f0561198c5da31c9fe56c2576b",
+    "2026-10-22-1": "a2d35990f4460415b3a01a304a96c6c219e6675b14ad48dd620897a6880fa9f7",
+    "2026-10-22-2": "3cffb87d2c24ef575a550e49008a97ab66143f21259cea54e138a669ec85fc5b",
+    "2026-10-22-3": "af6fb75fff333bcc84ba4aa4d5b6c34573eb4245678c2e80c497fc557ba1d499",
+    "2026-10-22-4": "35d1d89bac3f25643f8423b25149876b9a2d2c4e21feeb38ecc857af162a1ae4",
+    "2026-10-22-5": "4b0d0e6c029201d8c3d699aa77680666f07d61307802f04b584dfec3e0722c04",
+    "2026-10-21-1": "4f12a6d46ea7bad37410b782045e93001dee50ea9a790cda16e048c6a66536b9",
+    "2026-10-21-2": "43790ec2e548766022064c082bd9549c0d438396f07bfb8c074599b3a802ca7b",
+    "2026-10-21-3": "1947fc6aed9a2e85781ebcf6bad35309fce8a4ba342690b7c345263290c1280a",
+    "2026-10-21-4": "7f9a264303fcd33bb8c1695189f032e85e881800c58ed7aa05399d2c5de8fb8e",
+    "2026-10-21-5": "f894a40bff7b1858d3b1a4100eba0a088a3317a1880ad7d061f116db48b5895a",
+    "2026-10-20-1": "8cf4e2236d2dde154f54ccea0324fe195a77297e07140b7e70a5c80baf20c0ac",
+    "2026-10-20-2": "72f931e6eec14537751ae562789e51cf65f95fb7d3c164422917ef8747d5c56a",
+    "2026-10-20-3": "a8186f7ca84e3fbfe11e8edde31e0264ae7e4572553a8769644936d54e128154",
+    "2026-10-20-4": "ae94f534414846cff5aa0d8e59172342244addfacc03e50334e7feb59d61d739",
+    "2026-10-20-5": "46b65c90a1e3fcaaf8be8351877ddc44673da9befbd9659ce68f53f4d48a8154",
+    "2026-10-19-1": "7ceafd8786fb5d5b2e36fc458fb4f5813737b703733566ff07516fda0c13d677",
+    "2026-10-19-2": "66d40ff407c99a5180f52000bb875012631b723c861984534f42015f32068a63",
+    "2026-10-19-3": "c1cd9dd413256ecaf2980411f108df10e2c3befaa92a6f9b72469d640ae37ab7",
+    "2026-10-19-4": "22f0627387f1e9d85108ea162d15af7e5625665f3f723ebe5d918956750e1d33",
+    "2026-10-19-5": "4f2557926b8fc07edc29ad988c2b2aa5a99bbe6269d7182a2c79074eed31bb87",
+    "2026-10-18-1": "d67bdbdfaf41ab8002efc8daf17df80e50a9d47085efada316a025afe14c0d19",
+    "2026-10-18-2": "bab9a2250f566605631ff13e02785dc9247a7ad71de7919126f530881b474845",
+    "2026-10-18-3": "0014239eea3d1f08fb3e76f5be8fd970af85fb2ac817016841f8830a94100fc4",
+    "2026-10-18-4": "cfa4c87522e2383b4a6dbe14017c38fdeeaf7f7fc6d534ee41fa2a6f07157cb1",
+    "2026-10-18-5": "ea2f067dc20703198251be4adca0242845009929b2c59a21a59c6a7dfdb6bb29",
+    "2026-10-17-1": "d587faffd7067f4724dc9f07fd3bd769abf74453b7321bc805bd6e966eca636b",
+    "2026-10-17-2": "dfb5bd4e5af5b7fed24221d1bf7f319f13f3531be8dc7a484eb987f514cda52f",
+    "2026-10-17-3": "170c6614b04eb15e1c91e92569ec5cb34c1024d8bb37502b1aa85ac6d0657563",
+    "2026-10-17-4": "f5c7ffb1c8de05edaae792c47182e75e43ab30777220b5e6f2a1de346878b0f4",
+    "2026-10-17-5": "20243aabd6c63ee8310bfa89c0953f071d47b148bf8873f64a5a57e7ad5cb287",
+    "2026-10-16-1": "f7f586fd8b60466e0231577a77f7392aeb8f36827da21871152d3a77b03349fc",
+    "2026-10-16-2": "c5dd1cac1c1b028102bd732baae8030a283214b1dd7c1b4420cdea1125024bce",
+    "2026-10-16-3": "d207f5f9627dde7cd98784ff426a3a2bce0fc76847d0a17c912dd791a14ec8f0",
+    "2026-10-16-4": "b5d1fe16df171779f24a98e3910f5401a3cb8550697b8fdaaf3a1cf1fffcda7a",
+    "2026-10-16-5": "2f84cdc0d5f83efae961bddc8de274d9bd929319e8478f9afbb6b500c6e22d4f",
+    "2026-10-15-1": "ba48a2aacd8aafea903cb760a5cf994618e6a3ac72e2600d95a92a312b21bf37",
+    "2026-10-15-2": "ed240e4afffed36dbd38f3973a75452b2ff54c83418a2a62f0e76b28d166da22",
+    "2026-10-15-3": "4df9b61e65941ec3c887230e0708ce414cda4b6d1a8c15f795117c45b3420d3e",
+    "2026-10-15-4": "d3247202178a2b6444d79da0a850842498441c9da45e597ef1b2e4d55b3ec25c",
+    "2026-10-15-5": "74e8796f99aac45608a22531d35d78ef68b1253c4cd25f06ca4d48eb7092887e",
+    "2026-10-14-1": "0f50b342f03d7b9f43629b3b1ccf7bf632be56157ea1f812a7861c648a064e43",
+    "2026-10-14-2": "87b83cf727023866a06384eea96d6350e32d8f9e2ddd1dd6e35ab50124abe490",
+    "2026-10-14-3": "407acabea3c6d29d9ba4a44de5e2891ff56289f21006fbf1528af8aa115cb138",
+    "2026-10-14-4": "9acb8954f51f726fad2c1ce0b2fa551851ba9e01da9cb12ce65d4befbfc3067a",
+    "2026-10-14-5": "1ddec72fb3dd655b69b14018edd28d5bfa9910ecdf73919470313465e75a33a1",
+    "2026-10-13-1": "664d2aa872085c686d0209babec8d657709d0962655e6d3a35cd34ae82a56c0e",
+    "2026-10-13-2": "5bc78bf5c8007c184a4f41cd40026936d5c2323281d5bb9145b1cdc9a560f9ab",
+    "2026-10-13-3": "6233c1f84eb8dba557795cce95808c11bb3f25da0a648a5ae86b51002f11fc98",
+    "2026-10-13-4": "d29bcf1ddb7cb8613dc847deb3b7174d1f100511bc338af8bf7fd92092b985ef",
+    "2026-10-13-5": "6df40761c9e4379638939a91e571fe0eaeabbf15b2f08a22c6285b91c0fea8a8",
+    "2026-10-11-1": "90329a8f4d70e72d471116158cbb7cf54b1351e88bceb49b580dbc67db994d96",
+    "2026-10-11-2": "36b7cb724c3b56f33db3864a6c53dddce5a561fe02abfda86fd5da94f9b07fe9",
+    "2026-10-11-3": "262e81352389cb7bb49330b9a3bb43e8bed23fc1b6dd15318b1994770c9583a9",
+    "2026-10-11-4": "0fd728283014a4706516aedc4e9b29209675b10e62c16c4411cdaaf3a6f51934",
+    "2026-10-11-5": "135932eb81d80f31ad037f4b562d53ab6e0dbf1b71c88dcb7e928fb423a59c27",
+    "2026-10-10-1": "62baf82037ec42e167bcc54b86689cd2e4e8dc006c42acdcf68cb404e262af23",
+    "2026-10-10-2": "b544b6a1466168a3a95fcf5f9340076befbad4791dceb57b38efedd08e6420ef",
+    "2026-10-10-3": "6879674e983c82ac88cb1e88e986e4b31d127058bbd90b87ecd7e0734b1a665d",
+    "2026-10-10-4": "dc4172c2171ca4ea35d56a4b80245f07b4233e3cd4c126992099f0546f2076f9",
+    "2026-10-10-5": "c27c86fab0e5122da64fe265b4e619c3c5ea68144d87a7cfba5fc44377d863ca",
+    "2026-10-09-1": "3faf11c83e5bf6e4b0cccfd60c8cdc5512caf1e3ed65f390678bfd1bb813db13",
+    "2026-10-09-2": "e6980bba225ba3a3df46a779efd28813540863a9be2b09c2070a64063a640fa4",
+    "2026-10-09-3": "b63353391f61b810ad5f6ffc7368bc030b102d8ed60ec747cfec118b19857699",
+    "2026-10-09-4": "9b9df2ac5f3d53842d884503c068263d57f964a04813eda4317c2acb37f04554",
+    "2026-10-09-5": "c5fe46a2f54cb9802d7ca7e4f4e8332d019c3cbfcc79e87c98ad48e314aea658",
+    "2026-10-08-1": "e19864e6e30b74f16f1005421320029496816e8140393094d91f372869ff08f2",
+    "2026-10-08-2": "7ca92228a75695db200acbd33a34386e0a80a058cd83c68de7959dd124932ed8",
+    "2026-10-08-3": "aa956b4724829f77c12baccc01a12dcd9abb7717ea51d289f4732c72d82db414",
+    "2026-10-08-4": "fbc6248fee9481b2a3697be6031ec3b1a15c5ce43534e6885bce8eab510585b6",
+    "2026-10-08-5": "0108bd2481c0bac07a27ace3a6d6e36d78283992d1f4938d561726e5ce4fb966",
+    "2026-10-07-1": "87616d1713c08a03c017f43abf37c337c510db38637fa1b3d9fc6169bddfb981",
+    "2026-10-07-2": "ea32ef717955a5b355a2d771a8b32b48686b1d69f0795e09250f78bce0030520",
+    "2026-10-07-3": "b630f32dfd2f9bd803501bcaab21a8ad8dc1cfb2757af92a913f70e3a876f99e",
+    "2026-10-07-4": "cf27c07539bfbc9ef8607e90edb1381311a99fa043c7a88f48157456c0216944",
+    "2026-10-07-5": "f63338abe15d3d0a83752348e6846b7eddc3674383fa4572904b97288183bd9a",
+    "2026-10-06-1": "a8c3641d4bf5078a5a3a42aa8685bdb496e9b8207fc1896c1e5b011f9d61f899",
+    "2026-10-06-2": "68f67685533f90c182049b0249a98c2ce4f5a9c682b8b85f8c839afd81c0d39a",
+    "2026-10-06-3": "6d77108e0cfbe20dfc21d69d1f743c98e0ecee84283f4a7bc5410e9848fd3b66",
+    "2026-10-06-4": "ffc5608bac242b8b19b78fa9eff50f761908aae73c83eccc21af4a0b4718e599",
+    "2026-10-06-5": "45a20d8a856c0c5effcb8565cefc28aff66cc1d9d7c12c6cfeaf93170a67c580",
+    "2026-10-05-1": "c4fd51ff1a7fa2794a4a47155da9018c84f286ddd8a69f9dab19be9fb831e0ac",
+    "2026-10-05-2": "927bda4d221861942788d799f7ed977dff042f5bb2427142b80b5db7de75ac88",
+    "2026-10-05-3": "67569352d3a4e016c05d870e3f90c92f51d5427a47c0bfd9301d081e868304e1",
+    "2026-10-05-4": "73ac7d88fbc93dea45067bdcdf194ed61d1d715eca6f0e4ec6c30bbf611a2a8a",
+    "2026-10-05-5": "22655903e193aa05006ec854ad60cbde27e922087be608c62d34324d2a17ba7b",
+    "2026-10-04-1": "7449785d64dde2fa3bd9a867f7daec98256e8ef3c4a548a8500f71d978ae6cf6",
+    "2026-10-04-2": "e9966eea2ab555449dcc2ce88e7c8ca61b9afc4bf3e087d4517c84bf04cc0ce9",
+    "2026-10-04-3": "578089a41162a2061b1b7aec5d79bce4a07d951d5fad57fa73d7d978e543b1b2",
+    "2026-10-04-4": "e1b2b49c239f5b7a7c573ba2c074055e1e67f1dc7b4e9daadbb6d5417fae6d0f",
+    "2026-10-04-5": "b6daf599db40550af8afedf2d11db668218ec29f8874d9f5012d069a2e0abdad",
+    "2026-10-03-1": "5048639a38afa6a2a4133507375df86a8d1cde7c421148644d464bf97c4bf570",
+    "2026-10-03-2": "7072ae62b8cf44519de84f0f349b05b4dfd5312c8808c2c5d1c99be846138810",
+    "2026-10-03-3": "fb3aa9b7d19cda0a81b4ed0f664b9052936e2948f1d6b808d1894fdf4a3b93a7",
+    "2026-10-03-4": "12ffe89de60ba67349e7c8f68daf71a2dafba973fe1b7ab40e374b427d027bb1",
+    "2026-10-03-5": "0fce48a5eca4725869c9c31a800f211fc06c7840cfb26322c2d33c74f3080ed2",
+    "2026-10-02-1": "2734d8852b783df5ed0b845c66521cbca255314cc3702687a5e7b6c3878e3504",
+    "2026-10-02-2": "8e77cb309af8785a722c58bf2cab19ec7efb3a65573c4d1877411115ec976130",
+    "2026-10-02-3": "ffd15b042987a5af2e8d72fbbd69bef6cb3cb10677d690ce4b3155b2ab89a948",
+    "2026-10-02-4": "ff90057e89898cf499c0885a8a06c046db7b5c812d206c6cc4b6c91e1251c84a",
+    "2026-10-02-5": "6b50794e2ef8d93e28a6f1bba40848d81134a7472255f06c836b5fd19bdded34",
+    "2026-10-01-1": "9f446ad99997f4c6509e368180eca7a74a9e66ef926cddd13070f4ef1398f63a",
+    "2026-10-01-2": "03c25462cae043c7319c4ffedf5d87e9ffd4b007a05a7410845b3fc9a10d68c1",
+    "2026-10-01-3": "bbfdefa23fe299baad5805fca0676005e3fc52034174fda6c05d80dd6821129d",
+    "2026-10-01-4": "c0a250555d6fa3c2ea654478e04760da8285ce52a4c1864cb1bab481e9c51965",
+    "2026-10-01-5": "e0dede24433ce97b1ea9ca959b40e06b6d7c2e71fecef7a5322fc19219de9aef"
+  },
+  "reviews": [
+    {
+      "id": "2026-11-04-1",
+      "contentHash": "456293be0d064c89189c8de29cce2b983442fecddd9fb229d5676a55aa154d7e",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-04T13:38:52.464Z",
+          "reviewer": "Codex – Originalquellenabgleich",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP meldet allgemeine Verfügbarkeit von Cohere North auf seiner KI-Plattform",
+              "verdict": "supported",
+              "reason": "Überschrift als Meldung einer SAP-Ankündigung durch deren Originalbeitrag belegt.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-cohere-empower-regulated-industries-innovate-deploy-ai-faster/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP kündigte am 3. November an, Cohere North auf SAP Business AI Platform allgemein verfügbar zu machen.",
+              "verdict": "supported",
+              "reason": "Veröffentlichungsdatum und Ankündigung der allgemeinen Verfügbarkeit stehen im SAP-Originalbeitrag.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-cohere-empower-regulated-industries-innovate-deploy-ai-faster/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Angebot verbindet KI-Agenten und Workflow-Automatisierung mit Unternehmenswissen und SAP-Umgebungen.",
+              "verdict": "supported",
+              "reason": "Der Beitrag beschreibt Agenten, Workflows und die Nutzung von Unternehmenswissen in SAP-Umgebungen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-cohere-empower-regulated-industries-innovate-deploy-ai-faster/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "SAP beschreibt eine verwaltete Bereitstellung für Organisationen mit besonderen Anforderungen an Datenresidenz und Kontrolle.",
+              "verdict": "supported",
+              "reason": "Die Originalmitteilung beschreibt SAPs verwaltete Bereitstellung sowie Datenresidenz und Kontrolle als Zielsetzung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-cohere-empower-regulated-industries-innovate-deploy-ai-faster/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-04T13:38:52.464Z",
+          "reviewer": "Codex – gesonderter adversarialer Gegenprüfungsdurchgang",
+          "limitations": [
+            "Die Leistungs- und Compliance-Angaben stammen von den Anbietern; sie sind damit nicht unabhängig bestätigt.",
+            "Die Produktseite nennt SAP Sovereign Cloud als Planung für 2027. Eine bereits verfügbare vollständige Souveränität ist damit nicht belegt."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP meldet allgemeine Verfügbarkeit von Cohere North auf seiner KI-Plattform",
+              "verdict": "supported",
+              "reason": "Die Überschrift berichtet eine Herstellerankündigung und behauptet keine unabhängige Wirksamkeitsbestätigung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-cohere-empower-regulated-industries-innovate-deploy-ai-faster/",
+                "https://www.sap.com/products/technology-platform/cohere-north-on-sap-business-ai-platform.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP kündigte am 3. November an, Cohere North auf SAP Business AI Platform allgemein verfügbar zu machen.",
+              "verdict": "supported",
+              "reason": "Das Datum der Ankündigung passt zum Original. Die Produktseite trennt das aktuelle Angebot von der erst für 2027 geplanten Sovereign-Cloud-Verfügbarkeit.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-cohere-empower-regulated-industries-innovate-deploy-ai-faster/",
+                "https://www.sap.com/products/technology-platform/cohere-north-on-sap-business-ai-platform.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Angebot verbindet KI-Agenten und Workflow-Automatisierung mit Unternehmenswissen und SAP-Umgebungen.",
+              "verdict": "qualified",
+              "reason": "Produktseite und Originalmitteilung stützen die Funktionsbeschreibung als Anbieterangabe; unabhängige Leistungsdaten wurden dadurch nicht belegt.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-cohere-empower-regulated-industries-innovate-deploy-ai-faster/",
+                "https://www.sap.com/products/technology-platform/cohere-north-on-sap-business-ai-platform.html",
+                "https://cohere.com/security"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "SAP beschreibt eine verwaltete Bereitstellung für Organisationen mit besonderen Anforderungen an Datenresidenz und Kontrolle.",
+              "verdict": "qualified",
+              "reason": "Anbieterunterlagen nennen unterschiedliche Betriebsmodelle und Einschränkungen. Der Artikel fordert bereits die Prüfung des konkreten Betriebsmodells und verspricht keine pauschale Compliance.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-cohere-empower-regulated-industries-innovate-deploy-ai-faster/",
+                "https://www.sap.com/products/technology-platform/cohere-north-on-sap-business-ai-platform.html",
+                "https://cohere.com/security"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "SAP Cohere North generally available November 3 2026 data residency",
+              "finding": "Die Ankündigung ist auffindbar. Die SAP-Produktseite enthält die zusätzliche zeitliche Einschränkung zur Sovereign-Cloud-Variante.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-cohere-empower-regulated-industries-innovate-deploy-ai-faster/",
+                "https://www.sap.com/products/technology-platform/cohere-north-on-sap-business-ai-platform.html"
+              ]
+            },
+            {
+              "query": "site:cohere.com North deployment private infrastructure SAP control limitations",
+              "finding": "Cohere beschreibt verschiedene Bereitstellungsmodelle. Diese Anbieterinformationen sind keine unabhängige Bestätigung konkreter Compliance-Eigenschaften des SAP-Angebots.",
+              "sourceUrls": [
+                "https://cohere.com/security"
+              ]
+            },
+            {
+              "query": "site:news.sap.com Cohere North compliance sovereign managed delivery November 2026",
+              "finding": "Die gezielte Suche nach Betriebsmodell und Einschränkungen stützt die Unterscheidung zwischen Ankündigung, Produktumfang und später geplanter Variante.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-cohere-empower-regulated-industries-innovate-deploy-ai-faster/",
+                "https://www.sap.com/products/technology-platform/cohere-north-on-sap-business-ai-platform.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Originaldatum 3. November 2026 abgeglichen; geplante Sovereign-Cloud-Verfügbarkeit 2027 von aktueller allgemeiner Verfügbarkeit unterschieden.",
+            "scopeAndQualifications": "Funktions- und Betriebsmodellangaben werden als Anbieterbeschreibung behandelt. Der Artikel verlangt die Prüfung konkreter Regionen, Verträge und Zugriffsrechte.",
+            "sourceIndependence": "SAP und Cohere sind beteiligte Anbieter. Weitere wiedergebende Meldungen zählen nicht als unabhängige Wirksamkeits- oder Compliance-Prüfung.",
+            "contradictions": "Kein Widerspruch zur wiedergegebenen Ankündigung festgestellt. Die Einschränkung zur erst 2027 geplanten Variante ist zusätzlich im sichtbaren Prüfhinweis festgehalten."
+          }
+        }
+      ]
+    }
+  ]
+}

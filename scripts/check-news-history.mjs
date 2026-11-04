@@ -1,5 +1,6 @@
 import { execFileSync } from 'node:child_process'
 import { readFile } from 'node:fs/promises'
+import { assertLegacyBaselineUnchanged } from './news-factcheck.mjs'
 
 const base = process.env.NEWS_BASE_SHA
 if (!base || /^0+$/.test(base)) {
@@ -21,5 +22,12 @@ if (!base || /^0+$/.test(base)) {
     console.log(`Archivschutz OK: ${old.articles.length} bestehende Artikel-URLs erhalten`)
   } else {
     console.log('Erstmalige Einführung des dauerhaften Artikelarchivs.')
+  }
+  const checksPath = 'data/news-fact-checks.json'
+  if (execFileSync('git', ['ls-tree', base, '--', checksPath], { encoding: 'utf8' }).trim()) {
+    const previous = JSON.parse(execFileSync('git', ['show', `${base}:${checksPath}`], { encoding: 'utf8', maxBuffer: 20_000_000 }))
+    const current = JSON.parse(await readFile(new URL('../data/news-fact-checks.json', import.meta.url), 'utf8'))
+    assertLegacyBaselineUnchanged(previous, current)
+    console.log('Faktencheck: Ausnahme für ungeprüften Bestand unverändert.')
   }
 }
