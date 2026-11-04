@@ -19,7 +19,7 @@ SITE = 'https://dangulea.at'
 class Page(HTMLParser):
     def __init__(self, html):
         super().__init__(convert_charrefs=True)
-        self.meta, self.canonicals, self.links, self.shares, self.ld = {}, [], [], [], []
+        self.meta, self.canonicals, self.links, self.shares, self.story_shares, self.ld = {}, [], [], [], [], []
         self.title, self.h1, self.text = [], [], []
         self.in_head = self.in_title = self.in_h1 = self.in_ld = False
         self.ld_text = ''
@@ -39,6 +39,8 @@ class Page(HTMLParser):
             self.canonicals.append(attrs.get('href'))
         if tag == 'a': self.links.append(attrs)
         if tag == 'button' and 'data-share-url' in attrs: self.shares.append(attrs['data-share-url'])
+        if tag == 'button' and 'data-story-image' in attrs:
+            self.story_shares.append((attrs['data-story-image'], attrs.get('data-story-url')))
         if tag == 'script' and attrs.get('type') == 'application/ld+json' and self.in_head:
             self.in_ld, self.ld_text = True, ''
 
@@ -86,7 +88,7 @@ def check_page(html, article):
         require(len(matches) == 1, f'Teilen-Link fehlt/doppelt: {host}')
         target = urlsplit(matches[0]['href'])
         require(target.scheme == 'https' and target.path == path and parse_qs(target.query).get(parameter) == [article['url']], f'Falsche Share-URL: {host}')
-    require(any(link.get('href') == article['storyImage'] and 'download' in link for link in page.links), 'Story-Download fehlt')
+    require(page.story_shares == [(article['storyImage'], article['url'])], 'Story-Teilen-Button oder Bild-/Link-Zuordnung fehlt/falsch')
     require(len(page.ld) == 1, 'NewsArticle JSON-LD fehlt/doppelt')
     ld = page.ld[0]
     for key, value in {'@type': 'NewsArticle', 'headline': article['title'], 'description': article['description'], 'url': article['url'], 'mainEntityOfPage': article['url'], 'datePublished': article['date'], 'image': [SITE + article['ogImage']]}.items():

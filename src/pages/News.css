@@ -184,3 +184,6 @@
 .news-story-help, .news-share [role="status"] { margin-top: var(--space-3); font-size: var(--text-sm); }
 .news-article .news-date { margin-top: var(--space-6); color: var(--color-text-secondary); }
 .news-article-image { width: 100%; height: auto; margin: var(--space-4) 0 var(--space-8); }
+.news-share-actions button:disabled { opacity: 0.65; cursor: progress; }
+.news-story-preview { margin-top: var(--space-4); }
+.news-story-preview img { display: block; width: min(100%, 270px); height: auto; margin-top: var(--space-4); }
