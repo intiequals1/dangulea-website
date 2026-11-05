@@ -308,6 +308,559 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-05-1",
+      "contentHash": "3e222cad638eb34ff697d9388de615b2f6edcefbef5e1174c170085d9fceb09b",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-05T08:13:45.556Z",
+          "reviewer": "Codex – tatsächlich gelesene Originalquellen, Quellenabgleich",
+          "limitations": [
+            "Beide Quellen sind Vertragsparteien; ein bereits laufender Dienst oder unabhängig bestätigte Sicherheitswirkungen sind damit nicht belegt."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP kündigt souveräne Cloud für die niederländische Verteidigung an",
+              "verdict": "supported",
+              "reason": "SAP-Beitrag: Vereinbarung, nicht Betriebsaufnahme.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/dutch-ministry-of-defense-chooses-sap-sovereign-cloud/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP berichtete am 4. November über eine Vereinbarung mit dem niederländischen Verteidigungsministerium zur Entwicklung und zum Betrieb einer souveränen Cloud in den Niederlanden.",
+              "verdict": "supported",
+              "reason": "Datierter SAP-Beitrag, Absätze 2–3: Entwicklung und Betrieb in den Niederlanden.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/dutch-ministry-of-defense-chooses-sap-sovereign-cloud/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Betriebsstart ist laut SAP für den 1. Januar 2028 vorgesehen.",
+              "verdict": "supported",
+              "reason": "SAP nennt ausdrücklich den geplanten 01.01.2028.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/dutch-ministry-of-defense-chooses-sap-sovereign-cloud/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-05T08:14:53.461Z",
+          "reviewer": "Codex – gesonderter kritischer Gegenprüfungsdurchgang (gleiches KI-System)",
+          "limitations": [
+            "Beide Quellen sind Vertragsparteien; ein bereits laufender Dienst oder unabhängig bestätigte Sicherheitswirkungen sind damit nicht belegt."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP kündigt souveräne Cloud für die niederländische Verteidigung an",
+              "verdict": "supported",
+              "reason": "Ankündigung bleibt zutreffend; die ältere Ministeriumsbekanntgabe ist offengelegt.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/dutch-ministry-of-defense-chooses-sap-sovereign-cloud/",
+                "https://www.defensie.nl/nieuws/20261022-defensie-zet-volgende-stap-in-cloudstrategie"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP berichtete am 4. November über eine Vereinbarung mit dem niederländischen Verteidigungsministerium zur Entwicklung und zum Betrieb einer souveränen Cloud in den Niederlanden.",
+              "verdict": "supported",
+              "reason": "Ministerium bestätigt Vereinbarung und Ort; Novemberdatum bezeichnet ausdrücklich den SAP-Bericht.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/dutch-ministry-of-defense-chooses-sap-sovereign-cloud/",
+                "https://www.defensie.nl/nieuws/20261022-defensie-zet-volgende-stap-in-cloudstrategie"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Betriebsstart ist laut SAP für den 1. Januar 2028 vorgesehen.",
+              "verdict": "supported",
+              "reason": "Terminabgleich beider Vertragsparteien ergibt 01.01.2028 als Planung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/dutch-ministry-of-defense-chooses-sap-sovereign-cloud/",
+                "https://www.defensie.nl/nieuws/20261022-defensie-zet-volgende-stap-in-cloudstrategie"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Dutch Ministry\" \"SAP\" \"January 1, 2028\" delay sovereign cloud",
+              "finding": "Keine belegte Terminverschiebung gefunden; Ministeriumsmitteilung vom 22.10. nennt ebenfalls 01.01.2028.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/dutch-ministry-of-defense-chooses-sap-sovereign-cloud/",
+                "https://www.defensie.nl/nieuws/20261022-defensie-zet-volgende-stap-in-cloudstrategie"
+              ]
+            },
+            {
+              "query": "site.defensie.nl SAP soevereine cloud 2026 2028",
+              "finding": "Gelesene Ministeriumsquelle zeigt frühere Bekanntmachung. SAP-Beitrag vom 04.11. ist keine erstmalige Vertragsbekanntgabe; im endgültigen Text offengelegt.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/dutch-ministry-of-defense-chooses-sap-sovereign-cloud/",
+                "https://www.defensie.nl/nieuws/20261022-defensie-zet-volgende-stap-in-cloudstrategie"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "04.11. ist SAP-Berichtsdatum, 22.10. Ministeriumsdatum; Zieltermin 01.01.2028 deckungsgleich.",
+            "scopeAndQualifications": "Vereinbarung und geplanter Betrieb, keine bereits nachgewiesene Verfügbarkeit oder Sicherheitswirkung.",
+            "sourceIndependence": "SAP und Ministerium sind Vertragsparteien; zwei Originalquellen, keine unabhängige Wirksamkeitsprüfung.",
+            "contradictions": "Frühere Meldung ist relevante zeitliche Einschränkung und sichtbar ergänzt; kein Widerspruch zum Zieltermin gefunden."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-2",
+      "contentHash": "9b58b244ebdc36594863a2f6684556928b6db4ca7a1c230c9a760310c67221cc",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-05T08:13:45.556Z",
+          "reviewer": "Codex – tatsächlich gelesene Originalquellen, Quellenabgleich",
+          "limitations": [
+            "Statistische Zuschreibungen sind keine Kausalitätsbeweise.",
+            "Das Arbeitspapier vertritt die Auffassung des Autors, keine offizielle EZB-Position; seine Modelltests belegen keine allgemein überlegene Echtzeitprognose und keine Validierung für Österreich."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Neues EZB-Arbeitspapier untersucht erklärbare neuronale Inflationsmodelle",
+              "verdict": "supported",
+              "reason": "Originalpapier, Abstract: neuronales Trendmodell mit erklärenden Zuschreibungen.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3307~d3d2e0c5e4.en.pdf"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Das am 4. November gelistete EZB-Arbeitspapier 3307 stellt Deep-π* vor: Neuronale Netze verknüpfen US-Makroindikatoren mit der geschätzten Trendinflation; Shapley-Werte ordnen den Indikatoren statistische Beiträge zu.",
+              "verdict": "supported",
+              "reason": "EZB-Liste datiert Nr. 3307 auf 04.11.; Abstract erläutert Netze und Shapley-Werte.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3307~d3d2e0c5e4.en.pdf",
+                "https://www.ecb.europa.eu/home/html/index.en.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Untersuchung verwendet US-Daten und unterscheidet einen gegenwärtigen von einem vorausschauenden Trend.",
+              "verdict": "supported",
+              "reason": "Zusammenfassung S. 2 beschreibt US-Anwendung und beide Trendbegriffe.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3307~d3d2e0c5e4.en.pdf"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-05T08:14:53.463Z",
+          "reviewer": "Codex – gesonderter kritischer Gegenprüfungsdurchgang (gleiches KI-System)",
+          "limitations": [
+            "Statistische Zuschreibungen sind keine Kausalitätsbeweise.",
+            "Das Arbeitspapier vertritt die Auffassung des Autors, keine offizielle EZB-Position; seine Modelltests belegen keine allgemein überlegene Echtzeitprognose und keine Validierung für Österreich."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Neues EZB-Arbeitspapier untersucht erklärbare neuronale Inflationsmodelle",
+              "verdict": "supported",
+              "reason": "Methodenbeitrag, nicht verbindliche Geldpolitik oder kausaler Befund.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3307~d3d2e0c5e4.en.pdf",
+                "https://www.ecb.europa.eu/home/html/index.en.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Das am 4. November gelistete EZB-Arbeitspapier 3307 stellt Deep-π* vor: Neuronale Netze verknüpfen US-Makroindikatoren mit der geschätzten Trendinflation; Shapley-Werte ordnen den Indikatoren statistische Beiträge zu.",
+              "verdict": "supported",
+              "reason": "Abstract und EZB-Listung tragen Satz; statistische Bedeutung durch S. 43 begrenzt.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3307~d3d2e0c5e4.en.pdf",
+                "https://www.ecb.europa.eu/home/html/index.en.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Untersuchung verwendet US-Daten und unterscheidet einen gegenwärtigen von einem vorausschauenden Trend.",
+              "verdict": "supported",
+              "reason": "Originalüberblick bestätigt US-Anwendung und beide Begriffe; keine Österreichvalidierung behauptet.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3307~d3d2e0c5e4.en.pdf",
+                "https://www.ecb.europa.eu/home/html/index.en.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Deep-π\" \"real-time\" revised data limitations",
+              "finding": "Suche lieferte keine unabhängige Replikation; Originalpapier Abschnitt 7.1 verwendet revidierte September-2026-Daten, also Quasi-Echtzeit.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3307~d3d2e0c5e4.en.pdf",
+                "https://www.ecb.europa.eu/home/html/index.en.html"
+              ]
+            },
+            {
+              "query": "\"Deep-π\" \"causal\" \"forecasters\"",
+              "finding": "Originalpapier S. 43: keine identifizierten Kausaleffekte; S. 3/57: professionelle Prognostiker erkannten den Rückgang früher. Kein allgemeiner Überlegenheitsanspruch im Text.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3307~d3d2e0c5e4.en.pdf",
+                "https://www.ecb.europa.eu/home/html/index.en.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Nr. 3307 und Listung 04.11. geprüft; US-Daten und zwei Trendbegriffe im Abstract/Überblick.",
+            "scopeAndQualifications": "Statistische Attribution, keine Kausalidentifikation; Quasi-Echtzeit und Prognosegrenzen aus Abschnitt 7 geprüft.",
+            "sourceIndependence": "Ein Original-Arbeitspapier, keine unabhängige Replikation gefunden; EZB-Hosting macht Autorenmeinung nicht zur EZB-Position.",
+            "contradictions": "Überlegenheitsverallgemeinerung wäre falsch: Original nennt frühere Rückgangserkennung durch Prognostiker; endgültiger Text schließt diese Verallgemeinerung aus."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-3",
+      "contentHash": "9928841072f51694d5df9737123987b82b2248ba322d5c5d981b2ae9563f4d5d",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-05T08:13:45.556Z",
+          "reviewer": "Codex – tatsächlich gelesene Originalquellen, Quellenabgleich",
+          "limitations": [
+            "Die Meldung betrifft die Forschungsplattform; sie belegt weder neue gesicherte Klimabefunde noch die sofortige Verfügbarkeit sämtlicher Forschungsdaten."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "ESA und Kommission bündeln Erdsystemforschung auf neuer Plattform",
+              "verdict": "supported",
+              "reason": "ESA-Beitrag beschreibt den neuen Zugang zur bestehenden Initiative.",
+              "sourceUrls": [
+                "https://eo4society.esa.int/2026/11/04/a-new-website-for-the-ec-esa-earth-system-science-initiative/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die ESA stellte am 4. November die neue Website der gemeinsamen Earth System Science Initiative mit der Europäischen Kommission vor.",
+              "verdict": "supported",
+              "reason": "ESA-Veröffentlichungsdatum 04.11.; Einleitung nennt gemeinsame Trägerschaft.",
+              "sourceUrls": [
+                "https://eo4society.esa.int/2026/11/04/a-new-website-for-the-ec-esa-earth-system-science-initiative/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Plattform erschließt Forschungsallianzen, Projekte und Beiträge zu Themen wie Biodiversität, Klimaextremen, Ozeanen und Kohlenstoffkreisläufen.",
+              "verdict": "supported",
+              "reason": "ESA-Absätze 2 und 5 sowie Plattformrubriken nennen diese Themen und Projektzugänge.",
+              "sourceUrls": [
+                "https://eo4society.esa.int/2026/11/04/a-new-website-for-the-ec-esa-earth-system-science-initiative/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-05T08:14:53.463Z",
+          "reviewer": "Codex – gesonderter kritischer Gegenprüfungsdurchgang (gleiches KI-System)",
+          "limitations": [
+            "Die Meldung betrifft die Forschungsplattform; sie belegt weder neue gesicherte Klimabefunde noch die sofortige Verfügbarkeit sämtlicher Forschungsdaten."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "ESA und Kommission bündeln Erdsystemforschung auf neuer Plattform",
+              "verdict": "supported",
+              "reason": "Website-Neuerung anhand aktiver Plattform belegt, Initiative schon vorhanden.",
+              "sourceUrls": [
+                "https://eo4society.esa.int/2026/11/04/a-new-website-for-the-ec-esa-earth-system-science-initiative/",
+                "https://ec-esa-essi.eu/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die ESA stellte am 4. November die neue Website der gemeinsamen Earth System Science Initiative mit der Europäischen Kommission vor.",
+              "verdict": "supported",
+              "reason": "ESA datiert neue Website auf 04.11.; keine Initiative-Gründung behauptet.",
+              "sourceUrls": [
+                "https://eo4society.esa.int/2026/11/04/a-new-website-for-the-ec-esa-earth-system-science-initiative/",
+                "https://ec-esa-essi.eu/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Plattform erschließt Forschungsallianzen, Projekte und Beiträge zu Themen wie Biodiversität, Klimaextremen, Ozeanen und Kohlenstoffkreisläufen.",
+              "verdict": "supported",
+              "reason": "Plattformrubriken decken genannte Themen; Statusunterschiede widersprechen dem begrenzten Zugangssatz nicht.",
+              "sourceUrls": [
+                "https://eo4society.esa.int/2026/11/04/a-new-website-for-the-ec-esa-earth-system-science-initiative/",
+                "https://ec-esa-essi.eu/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"EC-ESA\" \"ESSI\" \"November 4\" 2026 launch new initiative",
+              "finding": "Datierte ESA-Meldung beschreibt Website-Start, nicht Gründung der Initiative. Keine gegenteilige belastbare Originalquelle gefunden.",
+              "sourceUrls": [
+                "https://eo4society.esa.int/2026/11/04/a-new-website-for-the-ec-esa-earth-system-science-initiative/",
+                "https://ec-esa-essi.eu/"
+              ]
+            },
+            {
+              "query": "\"ec-esa-essi.eu\" projects active preparation data",
+              "finding": "Keine unabhängige Bestätigung vollständiger Datenverfügbarkeit gefunden. Geöffnete Plattform unterscheidet aktive, abgeschlossene und vorbereitete Allianzen; Meldung behauptet nur Zugang zu Projekten/Themen.",
+              "sourceUrls": [
+                "https://eo4society.esa.int/2026/11/04/a-new-website-for-the-ec-esa-earth-system-science-initiative/",
+                "https://ec-esa-essi.eu/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "ESA-Datierung 04.11. geprüft; neue Website bei bestehender Initiative. Keine Zählwerte im Artikel.",
+            "scopeAndQualifications": "Projektzugang und Themenübersicht, keine neuen Klimawahrheiten oder vollständige Datenfreigabe behauptet.",
+            "sourceIndependence": "ESA und gemeinsame Projektplattform sind verbundene Primärquellen; keine unabhängige Wirkungsbewertung.",
+            "contradictions": "Vorbereitete/abgeschlossene Allianzen auf Plattform verhindern Interpretation als ausschließlich fertige Projekte; Text bleibt entsprechend begrenzt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-4",
+      "contentHash": "333038c3a76f8aad44e92b3e987e4207bfc2ac6a467cddccd2e4690ab0e96f21",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-05T08:13:45.556Z",
+          "reviewer": "Codex – tatsächlich gelesene Originalquellen, Quellenabgleich",
+          "limitations": [
+            "Die Angaben sind eine IEA-Bewertung der europäischen Lage, keine Feststellung einer bereits eingetretenen österreichischen Versorgungskrise und keine sichere Preisprognose."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IEA warnt vor geringeren europäischen Gasspeicher-Puffern",
+              "verdict": "supported",
+              "reason": "IEA-Mitteilung beschreibt verminderten Speicherpuffer.",
+              "sourceUrls": [
+                "https://www.iea.org/news/low-storage-buffers-in-europe-could-prolong-global-gas-market-tightness-well-into-2027"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die IEA veröffentlichte am 3. November ihren Global Gas Security Review 2026 einschließlich des Gasmarktberichts für das vierte Quartal.",
+              "verdict": "supported",
+              "reason": "Berichtsseite: Veröffentlichung 03.11.2026, einschließlich Gas Market Report Q4.",
+              "sourceUrls": [
+                "https://www.iea.org/news/low-storage-buffers-in-europe-could-prolong-global-gas-market-tightness-well-into-2027"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut IEA startet die EU mit den niedrigsten Speicherbeständen seit 2013 in die Heizperiode 2026/27; ein kalter Winter oder weitere Lieferausfälle könnten die Versorgungslage verschärfen.",
+              "verdict": "supported",
+              "reason": "IEA-Mitteilung Absatz 6 nennt 2013 und die bedingten Winter-/Ausfallrisiken.",
+              "sourceUrls": [
+                "https://www.iea.org/news/low-storage-buffers-in-europe-could-prolong-global-gas-market-tightness-well-into-2027"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-05T08:14:53.463Z",
+          "reviewer": "Codex – gesonderter kritischer Gegenprüfungsdurchgang (gleiches KI-System)",
+          "limitations": [
+            "Die Angaben sind eine IEA-Bewertung der europäischen Lage, keine Feststellung einer bereits eingetretenen österreichischen Versorgungskrise und keine sichere Preisprognose."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IEA warnt vor geringeren europäischen Gasspeicher-Puffern",
+              "verdict": "supported",
+              "reason": "Warnung bleibt bedingte IEA-Bewertung, keine Gewissheit.",
+              "sourceUrls": [
+                "https://www.iea.org/news/low-storage-buffers-in-europe-could-prolong-global-gas-market-tightness-well-into-2027",
+                "https://www.iea.org/reports/global-gas-security-review-2026",
+                "https://www.iea.org/reports/global-gas-security-review-2026/executive-summary"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die IEA veröffentlichte am 3. November ihren Global Gas Security Review 2026 einschließlich des Gasmarktberichts für das vierte Quartal.",
+              "verdict": "supported",
+              "reason": "Original-Metadaten passen; keine Verwechslung mit Ukraine-Bericht vom 04.11.",
+              "sourceUrls": [
+                "https://www.iea.org/news/low-storage-buffers-in-europe-could-prolong-global-gas-market-tightness-well-into-2027",
+                "https://www.iea.org/reports/global-gas-security-review-2026",
+                "https://www.iea.org/reports/global-gas-security-review-2026/executive-summary"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut IEA startet die EU mit den niedrigsten Speicherbeständen seit 2013 in die Heizperiode 2026/27; ein kalter Winter oder weitere Lieferausfälle könnten die Versorgungslage verschärfen.",
+              "verdict": "supported",
+              "reason": "Executive Summary bestätigt EU-Vergleich und Bedingungen; kein Transfer auf österreichische Einzelbestände.",
+              "sourceUrls": [
+                "https://www.iea.org/news/low-storage-buffers-in-europe-could-prolong-global-gas-market-tightness-well-into-2027",
+                "https://www.iea.org/reports/global-gas-security-review-2026",
+                "https://www.iea.org/reports/global-gas-security-review-2026/executive-summary"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Global Gas Security Review 2026\" storage correction 2013",
+              "finding": "Keine Korrektur der 2013-Angabe gefunden; gelesene Original-Zusammenfassung bestätigt EU und Heizperiode, nicht einzelne Staaten.",
+              "sourceUrls": [
+                "https://www.iea.org/news/low-storage-buffers-in-europe-could-prolong-global-gas-market-tightness-well-into-2027",
+                "https://www.iea.org/reports/global-gas-security-review-2026",
+                "https://www.iea.org/reports/global-gas-security-review-2026/executive-summary"
+              ]
+            },
+            {
+              "query": "\"IEA\" \"November 2026\" gas storage cold winter forecast uncertainty",
+              "finding": "Original-Zusammenfassung macht die Verschärfung von Wetter und LNG-Unterbrechungen abhängig. Keine zwingende Österreich-Krise daraus abgeleitet.",
+              "sourceUrls": [
+                "https://www.iea.org/news/low-storage-buffers-in-europe-could-prolong-global-gas-market-tightness-well-into-2027",
+                "https://www.iea.org/reports/global-gas-security-review-2026",
+                "https://www.iea.org/reports/global-gas-security-review-2026/executive-summary"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Bericht 03.11., Q4 und Speichervergleich seit 2013 für EU-Heizperiode 2026/27 abgeglichen.",
+            "scopeAndQualifications": "Bedingte Risiken; keine sichere Krise, Temperatur- oder Preisprognose.",
+            "sourceIndependence": "Mitteilung, Berichtsseite und Zusammenfassung stammen sämtlich von IEA; Wiederholungen nicht als unabhängige Bestätigung gezählt.",
+            "contradictions": "Keine Korrektur gefunden. Executive Summary nennt ausdrücklich die Wetter-/Lieferannahmen; Artikel lässt sie sichtbar."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-5",
+      "contentHash": "2252abb585a644e5112b228e1252622821f81dad233b6c39da55ff2c524f6111",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-05T08:13:45.556Z",
+          "reviewer": "Codex – tatsächlich gelesene Originalquellen, Quellenabgleich",
+          "limitations": [
+            "Eine Strategie und angekündigte Maßnahmen sind keine bereits vollständig umgesetzten Dienste und schaffen für sich genommen keine pauschalen neuen Unternehmenspflichten."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Tourismusstrategie setzt auf Nachhaltigkeit und gemeinsame Daten",
+              "verdict": "supported",
+              "reason": "Kommissionsbeitrag nennt Nachhaltigkeit und Daten als Strategieelemente.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/commission-strengthens-europes-position-worlds-leading-tourism-destination-2026-11-04_en"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Europäische Kommission stellte am 4. November eine neue Strategie für nachhaltigen Tourismus vor.",
+              "verdict": "supported",
+              "reason": "Datierung 04.11.2026 und erster Absatz belegen die Vorstellung.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/commission-strengthens-europes-position-worlds-leading-tourism-destination-2026-11-04_en"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Zu den angekündigten Schwerpunkten gehören ein gemeinsamer europäischer Tourismusdatenraum, Kompetenzaufbau sowie eine bessere Steuerung von Besucherströmen und Krisenvorsorge.",
+              "verdict": "supported",
+              "reason": "Absätze 4–6 nennen Datenraum, Kompetenzen, Besuchersteuerung und Krisennetzwerk.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/commission-strengthens-europes-position-worlds-leading-tourism-destination-2026-11-04_en"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-05T08:14:53.463Z",
+          "reviewer": "Codex – gesonderter kritischer Gegenprüfungsdurchgang (gleiches KI-System)",
+          "limitations": [
+            "Eine Strategie und angekündigte Maßnahmen sind keine bereits vollständig umgesetzten Dienste und schaffen für sich genommen keine pauschalen neuen Unternehmenspflichten."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Tourismusstrategie setzt auf Nachhaltigkeit und gemeinsame Daten",
+              "verdict": "supported",
+              "reason": "Schwerpunkte belegt; keine Wirkungsgarantie behauptet.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/commission-strengthens-europes-position-worlds-leading-tourism-destination-2026-11-04_en",
+                "https://www.enterprise.gov.ie/en/news-and-events/department-news/2026/november/20261104.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Europäische Kommission stellte am 4. November eine neue Strategie für nachhaltigen Tourismus vor.",
+              "verdict": "supported",
+              "reason": "Irisches Ministerium bestätigt neue Veröffentlichung vor Gipfel am 05.11.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/commission-strengthens-europes-position-worlds-leading-tourism-destination-2026-11-04_en",
+                "https://www.enterprise.gov.ie/en/news-and-events/department-news/2026/november/20261104.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Zu den angekündigten Schwerpunkten gehören ein gemeinsamer europäischer Tourismusdatenraum, Kompetenzaufbau sowie eine bessere Steuerung von Besucherströmen und Krisenvorsorge.",
+              "verdict": "supported",
+              "reason": "Kommission benennt Maßnahmen; bestehende Vorarbeiten sind kein Widerspruch zu ihrer Aufnahme in die neue Strategie.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/commission-strengthens-europes-position-worlds-leading-tourism-destination-2026-11-04_en",
+                "https://www.enterprise.gov.ie/en/news-and-events/department-news/2026/november/20261104.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"EU Sustainable Tourism Strategy\" \"4 November 2026\" regulation binding",
+              "finding": "Gelesene irische Ministeriumsmitteilung bestätigt Veröffentlichung am 04.11.; Termin 05.11. betrifft Präsentation beim Gipfel. Keine neue allgemeine Verordnung belegt.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/commission-strengthens-europes-position-worlds-leading-tourism-destination-2026-11-04_en",
+                "https://www.enterprise.gov.ie/en/news-and-events/department-news/2026/november/20261104.html"
+              ]
+            },
+            {
+              "query": "\"Common European Tourism Data Space\" \"2026\" \"strategy\" implementation",
+              "finding": "Kommissionsbeitrag kündigt Maßnahmen an; Suchtreffer enthalten schon Vorarbeiten zum Datenraum vor November. Artikel behauptet keinen erstmaligen Aufbau oder fertigen Dienst.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/commission-strengthens-europes-position-worlds-leading-tourism-destination-2026-11-04_en",
+                "https://www.enterprise.gov.ie/en/news-and-events/department-news/2026/november/20261104.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "04.11. Veröffentlichung bestätigt; 05.11. Gipfeltermin nicht damit verwechselt.",
+            "scopeAndQualifications": "Strategie, Datenraum, Qualifizierung und Krisenvorsorge als angekündigte Schwerpunkte, nicht geltende pauschale Pflichten.",
+            "sourceIndependence": "Kommission als Herausgeberin; irisches Ministerium bestätigt politischen Vorgang, keine unabhängige Erfolgsmessung.",
+            "contradictions": "Vorarbeiten am Datenraum vor Strategie bestehen; Text behauptet weder erstmalige Erfindung noch abgeschlossene Einführung."
+          }
+        }
+      ]
     }
   ]
 }

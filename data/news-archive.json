@@ -2,6 +2,41 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-05-1",
+      "date": "2026-11-05",
+      "number": 1,
+      "title": "SAP kündigt souveräne Cloud für die niederländische Verteidigung an",
+      "text": "Fakten: SAP berichtete am 4. November über eine Vereinbarung mit dem niederländischen Verteidigungsministerium zur Entwicklung und zum Betrieb einer souveränen Cloud in den Niederlanden. Der Betriebsstart ist laut SAP für den 1. Januar 2028 vorgesehen.\nEinordnung: Für europäische ERP- und Cloud-Architekturen zeigt das Vorhaben die Bedeutung von Betriebskontrolle und Wiederanlaufplanung. SAP greift eine bereits am 22. Oktober vom Ministerium veröffentlichte Vereinbarung auf. Beide Quellen sind Vertragsparteien; ein bereits laufender Dienst oder unabhängig bestätigte Sicherheitswirkungen sind damit nicht belegt.\nQuellen: https://news.sap.com/2026/11/dutch-ministry-of-defense-chooses-sap-sovereign-cloud/ https://www.defensie.nl/nieuws/20261022-defensie-zet-volgende-stap-in-cloudstrategie"
+    },
+    {
+      "id": "2026-11-05-2",
+      "date": "2026-11-05",
+      "number": 2,
+      "title": "Neues EZB-Arbeitspapier untersucht erklärbare neuronale Inflationsmodelle",
+      "text": "Fakten: Das am 4. November gelistete EZB-Arbeitspapier 3307 stellt Deep-π* vor: Neuronale Netze verknüpfen US-Makroindikatoren mit der geschätzten Trendinflation; Shapley-Werte ordnen den Indikatoren statistische Beiträge zu. Die Untersuchung verwendet US-Daten und unterscheidet einen gegenwärtigen von einem vorausschauenden Trend.\nEinordnung: Der Ansatz ist für nachvollziehbare Data-Science-Modelle relevant. Statistische Zuschreibungen sind keine Kausalitätsbeweise. Das Arbeitspapier vertritt die Auffassung des Autors, keine offizielle EZB-Position; seine Modelltests belegen keine allgemein überlegene Echtzeitprognose und keine Validierung für Österreich.\nQuellen: https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3307~d3d2e0c5e4.en.pdf"
+    },
+    {
+      "id": "2026-11-05-3",
+      "date": "2026-11-05",
+      "number": 3,
+      "title": "ESA und Kommission bündeln Erdsystemforschung auf neuer Plattform",
+      "text": "Fakten: Die ESA stellte am 4. November die neue Website der gemeinsamen Earth System Science Initiative mit der Europäischen Kommission vor. Die Plattform erschließt Forschungsallianzen, Projekte und Beiträge zu Themen wie Biodiversität, Klimaextremen, Ozeanen und Kohlenstoffkreisläufen.\nEinordnung: Der Zugang kann die Suche nach europäischen Umweltforschungsprojekten und Datennutzungspartnern erleichtern. Die Meldung betrifft die Forschungsplattform; sie belegt weder neue gesicherte Klimabefunde noch die sofortige Verfügbarkeit sämtlicher Forschungsdaten.\nQuellen: https://eo4society.esa.int/2026/11/04/a-new-website-for-the-ec-esa-earth-system-science-initiative/ https://ec-esa-essi.eu/"
+    },
+    {
+      "id": "2026-11-05-4",
+      "date": "2026-11-05",
+      "number": 4,
+      "title": "IEA warnt vor geringeren europäischen Gasspeicher-Puffern",
+      "text": "Fakten: Die IEA veröffentlichte am 3. November ihren Global Gas Security Review 2026 einschließlich des Gasmarktberichts für das vierte Quartal. Laut IEA startet die EU mit den niedrigsten Speicherbeständen seit 2013 in die Heizperiode 2026/27; ein kalter Winter oder weitere Lieferausfälle könnten die Versorgungslage verschärfen.\nEinordnung: Für Österreich und europäische Unternehmen sind Energieszenarien und belastbare Beschaffungsplanung relevant. Die Angaben sind eine IEA-Bewertung der europäischen Lage, keine Feststellung einer bereits eingetretenen österreichischen Versorgungskrise und keine sichere Preisprognose.\nQuellen: https://www.iea.org/news/low-storage-buffers-in-europe-could-prolong-global-gas-market-tightness-well-into-2027 https://www.iea.org/reports/global-gas-security-review-2026"
+    },
+    {
+      "id": "2026-11-05-5",
+      "date": "2026-11-05",
+      "number": 5,
+      "title": "EU-Tourismusstrategie setzt auf Nachhaltigkeit und gemeinsame Daten",
+      "text": "Fakten: Die Europäische Kommission stellte am 4. November eine neue Strategie für nachhaltigen Tourismus vor. Zu den angekündigten Schwerpunkten gehören ein gemeinsamer europäischer Tourismusdatenraum, Kompetenzaufbau sowie eine bessere Steuerung von Besucherströmen und Krisenvorsorge.\nEinordnung: Für Österreich verbindet das Vorhaben Tourismusentwicklung mit Datenarchitektur und Ressourcenschonung. Eine Strategie und angekündigte Maßnahmen sind keine bereits vollständig umgesetzten Dienste und schaffen für sich genommen keine pauschalen neuen Unternehmenspflichten.\nQuellen: https://transport.ec.europa.eu/news-events/news/commission-strengthens-europes-position-worlds-leading-tourism-destination-2026-11-04_en"
+    },
+    {
       "id": "2026-11-04-1",
       "date": "2026-11-04",
       "number": 1,
