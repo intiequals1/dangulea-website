@@ -11,8 +11,8 @@
 .news-transparency {
   border: 1px solid var(--color-border);
   background: var(--color-bg-alt);
-  padding: var(--space-6);
-  margin-bottom: var(--space-10);
+  padding: var(--space-3) var(--space-4);
+  margin: var(--space-4) 0 var(--space-6);
 }
 
 .news-kicker {
@@ -25,13 +25,13 @@
 }
 
 .news-transparency h2 {
-  font-size: var(--text-2xl);
-  margin-bottom: var(--space-4);
+  font-size: var(--text-lg);
+  margin: var(--space-3) 0;
 }
 
 .news-transparency p {
   font-size: var(--text-sm);
-  margin-bottom: var(--space-4);
+  margin-bottom: var(--space-2);
 }
 
 .news-transparency p:last-child {
@@ -195,3 +195,27 @@
 .news-factcheck summary { cursor: pointer; color: var(--color-accent-light); }
 .news-poc-label { display: block; margin-bottom: var(--space-2); font-size: var(--text-xs); color: var(--color-accent-light); }
 .news-item, #news-workflow { scroll-margin-top: 10rem; }
+
+.news-page { overflow-wrap: anywhere; }
+.news-page .news-date, .news-page .news-disclosure { color: var(--color-text-secondary); }
+.news-page a { text-decoration: underline; text-underline-offset: 0.2em; }
+.news-page :is(a, button, summary, input):focus-visible {
+  outline: 3px solid var(--color-accent-light);
+  outline-offset: 4px;
+}
+.news-page :is(a, button, summary, input) { scroll-margin-block: 10rem 2rem; }
+.news-page summary { min-height: 44px; padding-block: 0.5rem; cursor: pointer; }
+.news-page .news-factcheck { border: 0; padding: 0; margin: var(--space-2) 0; }
+.news-factcheck summary { color: var(--color-text-secondary); }
+.news-factcheck details[open] > p { padding-left: var(--space-3); }
+.news-transparency > p { margin-bottom: 0; }
+.news-transparency details { margin-top: var(--space-2); }
+#news-methodology { scroll-margin-top: 10rem; }
+.news-page .news-share-actions :is(a, button) { min-width: 44px; min-height: 44px; }
+.news-lead { font-size: var(--text-lg); line-height: var(--leading-relaxed); margin-bottom: var(--space-4); }
+@media (max-width: 480px) {
+  .news-page { padding-block: var(--space-6); }
+  .news-page h1 { font-size: 2rem; }
+  .news-title { font-size: var(--text-xl); }
+  .news-transparency { padding: var(--space-3); }
+}

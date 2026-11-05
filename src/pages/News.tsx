@@ -13,6 +13,12 @@ export default function News() {
   useEffect(() => {
     const openLinkedEntry = () => {
       const id = window.location.hash.slice(1);
+      if (id === 'news-methodology') {
+        const methodology = document.getElementById(id);
+        if (methodology instanceof HTMLDetailsElement) methodology.open = true;
+        methodology?.scrollIntoView();
+        return;
+      }
       if (!/^news-\d{4}-\d{2}-\d{2}$/.test(id)) return;
       const entry = document.getElementById(id);
       const details = entry?.querySelector("details");
@@ -46,9 +52,9 @@ export default function News() {
                 <div className="disclosure-content">
                   {articles.filter(article => article.date === date).map(article => (
                     <article key={article.id} className="news-teaser">
-                      <p className="news-poc-label" data-news-poc="teaser">{disclosure.label} · KI-Synthese · automatisch veröffentlicht</p>
                       <h3 className="news-entry-heading"><a href={article.path}>{article.number}. {article.title}</a></h3>
                       <p>{article.description}</p>
+                      <p className="news-poc-label" data-news-poc="teaser">{disclosure.label} · KI-Synthese · automatisch veröffentlicht</p>
                       <NewsFactCheck check={article.factCheck} />
                       <a href={article.path}>Vollständige Meldung und Quellen lesen →</a>
                       <NewsShare article={article} />
