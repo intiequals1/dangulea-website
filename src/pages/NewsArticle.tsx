@@ -4,7 +4,6 @@ import NewsShare from '../components/NewsShare'
 import NewsText from '../components/NewsText'
 import NewsFactCheck from '../components/NewsFactCheck'
 import NewsWorkflowNotice from '../components/NewsWorkflowNotice'
-import disclosure from '../content/news-disclosure.json'
 import './News.css'
 
 export default function NewsArticle() {
@@ -16,12 +15,12 @@ export default function NewsArticle() {
       <a href={`/news#news-${article.date}`}>← Zur News-Übersicht</a>
       <p className="news-date"><time dateTime={article.date}>{article.date}</time> · Meldung {article.number}</p>
       <h1>{article.title}</h1>
-      <NewsWorkflowNotice />
+      <p className="news-lead">{article.description}</p>
       <NewsFactCheck check={article.factCheck} />
-      <NewsShare article={article} />
       <img className="news-article-image" src={article.ogImage} width="1200" height="630" alt={article.title} />
       <div className="news-text"><NewsText text={article.text} /></div>
-      <p className="news-disclosure"><strong>Transparenz zur KI-Unterstützung:</strong> {disclosure.label}. {disclosure.summary} {disclosure.review} Stand: {article.date}. Hinweise auf Fehler bitte an <a href="mailto:claudiu@dangulea.at">claudiu@dangulea.at</a>.</p>
+      <NewsShare article={article} />
+      <NewsWorkflowNotice />
     </article>
   )
 }
