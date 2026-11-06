@@ -2,6 +2,41 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-06-1",
+      "date": "2026-11-06",
+      "number": 1,
+      "title": "OECD-Digitalbericht zeigt deutliche Größenunterschiede bei der KI-Nutzung",
+      "text": "Fakten: Die OECD veröffentlichte am 5. November den Digital Economy and Society Outlook 2026. Für 2025 schätzt der Bericht die KI-Nutzung im OECD-Vergleich auf 20 Prozent bei Unternehmen ab zehn Beschäftigten und 52 Prozent bei großen Unternehmen ab 250 Beschäftigten.\nEinordnung: Für österreichische Digitalisierungs- und ERP-Projekte ist relevant, dass Infrastruktur, Daten und Kompetenzen gemeinsam betrachtet werden. Die Berichtswerte beziehen sich auf 2025 und die jeweilige Länder- und Erhebungsabdeckung; sie sind weder eine österreichische Quote noch ein Nachweis, dass KI-Einsatz automatisch Produktivität steigert.\nQuellen: https://www.oecd.org/en/publications/oecd-digital-economy-and-society-outlook-2026_022ed474-en/full-report/executive-summary_98d03f1f.html https://www.oecd.org/en/about/news/press-releases/2026/11/oecd-digital-economy-and-society-outlook-2026.html"
+    },
+    {
+      "id": "2026-11-06-2",
+      "date": "2026-11-06",
+      "number": 2,
+      "title": "SAP meldet Starter Edition für Incentive Management als verfügbar",
+      "text": "Fakten: SAP stellte am 4. November eine als verfügbar angekündigte Starter Edition von SAP Incentive Management vor. Laut Hersteller gehören ein Portal für Vergütungsempfänger, eine mobile Anwendung, Planverwaltung, XDL-Datenaustausch und integrierte Analysen zum beschriebenen Funktionsumfang.\nEinordnung: Die Verbindung von Vergütungsregeln mit ERP-, Personal- und Vertriebsdaten betrifft Schnittstellen, Datenqualität und nachvollziehbare Berechnungen. Es liegt ausschließlich eine Herstellerquelle vor. Der Beitrag ist kein unabhängiger Produkttest; Lizenzumfang, regionale Verfügbarkeit und konkrete Integrationsbedingungen müssen im Einzelfall geprüft werden.\nQuellen: https://news.sap.com/2026/11/sap-incentive-management-starter-edition-now-available/"
+    },
+    {
+      "id": "2026-11-06-3",
+      "date": "2026-11-06",
+      "number": 3,
+      "title": "OECD-Klimamonitor meldet langsameres Wachstum klimapolitischer Anstrengungen",
+      "text": "Fakten: Der am 5. November veröffentlichte Climate Action Monitor 2026 der OECD bewertet Emissionen, Klimarisiken und Minderungsmaßnahmen. Nach der verwendeten Messung stieg die klimapolitische Minderungsanstrengung 2025 nur um ein Prozent.\nEinordnung: Der Indikator beschreibt politische Maßnahmen und deren Ausprägung, keine entsprechende prozentuale Emissionssenkung. Länderabdeckung und Datenjahre variieren nach Indikator. Für Nachhaltigkeitssteuerung sollten Maßnahmen, tatsächliche Umsetzung und gemessene Emissionen getrennt verfolgt werden.\nQuellen: https://www.oecd.org/en/publications/the-climate-action-monitor-2026_8f3c692e-en.html"
+    },
+    {
+      "id": "2026-11-06-4",
+      "date": "2026-11-06",
+      "number": 4,
+      "title": "IEA fordert mehrjährige Planung für die ukrainische Energieversorgung",
+      "text": "Fakten: Die IEA veröffentlichte am 4. November eine Bewertung der ukrainischen Energieversorgung vor dem Winter 2026/27. Sie empfiehlt mehrjährige Resilienzplanung, koordinierte Beschaffung und strategische Ausrüstungsreserven; bei kritischer Energieausrüstung nennt sie Lieferzeiten von sechs bis neun Monaten.\nEinordnung: Die Analyse ist für europäische Wiederaufbau- und Infrastrukturpartnerschaften relevant und betont neben Beschaffung auch Installation und Inbetriebnahme. Es handelt sich um eine IEA-Lagebewertung und Empfehlungen unter Kriegsbedingungen; der Verlauf möglicher Ausfälle bleibt insbesondere von Angriffen und Wetter abhängig.\nQuellen: https://www.iea.org/news/ukraine-s-energy-system-faces-significant-risks-this-winter-as-russian-threat-evolves https://www.iea.org/reports/ukraine-s-energy-security-2026"
+    },
+    {
+      "id": "2026-11-06-5",
+      "date": "2026-11-06",
+      "number": 5,
+      "title": "EU-Berufsbildungsstrategie verbindet Technologiekompetenzen und Betriebe",
+      "text": "Fakten: Die Europäische Kommission stellte am 5. November eine neue europäische Berufsbildungsstrategie als Teil des Bildungs- und Kompetenzpakets vor. Angekündigt sind unter anderem gemeinsame Ausbildungszentren von Betrieben und Bildungseinrichtungen sowie ein sektoraler Trainingsbeschleuniger mit einem für 2027 vorgesehenen Pilotstart.\nEinordnung: Das Vorhaben adressiert Kompetenzen für neue Technologien und kann für österreichische Unternehmen bei der Qualifizierung zur digitalen und grünen Transformation relevant werden. Die Strategie beschreibt geplante Unterstützung und Zusammenarbeit; sie ist keine bereits flächendeckend verfügbare Ausbildung und keine pauschale neue Weiterbildungspflicht für alle Betriebe.\nQuellen: https://employment-social-affairs.ec.europa.eu/news/commission-launches-strategy-strengthen-vocational-skills-across-europe-2026-11-05_en"
+    },
+    {
       "id": "2026-11-05-1",
       "date": "2026-11-05",
       "number": 1,

@@ -861,6 +861,556 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-06-1",
+      "contentHash": "cdbb52cfcfb997bedf7967d592f41d5a81d8853dca0b3154e46af5a990696b68",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-06T05:35:42.651Z",
+          "reviewer": "Codex – erneuter Originalquellenabgleich des endgültig begrenzten Texts",
+          "limitations": [
+            "Die Berichtswerte beziehen sich auf 2025 und die jeweilige Länder- und Erhebungsabdeckung; sie sind weder eine österreichische Quote noch ein Nachweis, dass KI-Einsatz automatisch Produktivität steigert."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "OECD-Digitalbericht zeigt deutliche Größenunterschiede bei der KI-Nutzung",
+              "verdict": "supported",
+              "reason": "Original-Zusammenfassung und Pressemitteilung bestätigen Größenunterschiede.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/oecd-digital-economy-and-society-outlook-2026_022ed474-en/full-report/executive-summary_98d03f1f.html",
+                "https://www.oecd.org/en/about/news/press-releases/2026/11/oecd-digital-economy-and-society-outlook-2026.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die OECD veröffentlichte am 5. November den Digital Economy and Society Outlook 2026.",
+              "verdict": "supported",
+              "reason": "OECD-Metadaten und Pressemitteilung datieren den Bericht auf 05.11.2026.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/oecd-digital-economy-and-society-outlook-2026_022ed474-en/full-report/executive-summary_98d03f1f.html",
+                "https://www.oecd.org/en/about/news/press-releases/2026/11/oecd-digital-economy-and-society-outlook-2026.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Für 2025 schätzt der Bericht die KI-Nutzung im OECD-Vergleich auf 20 Prozent bei Unternehmen ab zehn Beschäftigten und 52 Prozent bei großen Unternehmen ab 250 Beschäftigten.",
+              "verdict": "supported",
+              "reason": "Gelesene Pressemitteilung: geschätzte 20 % ab zehn Beschäftigten, 52 % ab 250 Beschäftigten, Bezugsjahr 2025.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/oecd-digital-economy-and-society-outlook-2026_022ed474-en/full-report/executive-summary_98d03f1f.html",
+                "https://www.oecd.org/en/about/news/press-releases/2026/11/oecd-digital-economy-and-society-outlook-2026.html"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-06T05:36:51.733Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung, gleiches KI-System",
+          "limitations": [
+            "Die Berichtswerte beziehen sich auf 2025 und die jeweilige Länder- und Erhebungsabdeckung; sie sind weder eine österreichische Quote noch ein Nachweis, dass KI-Einsatz automatisch Produktivität steigert."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "OECD-Digitalbericht zeigt deutliche Größenunterschiede bei der KI-Nutzung",
+              "verdict": "supported",
+              "reason": "Die Größenunterschiede sind mit der eingeschränkten Population nachvollziehbar.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/oecd-digital-economy-and-society-outlook-2026_022ed474-en/full-report/executive-summary_98d03f1f.html",
+                "https://www.oecd.org/en/about/news/press-releases/2026/11/oecd-digital-economy-and-society-outlook-2026.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die OECD veröffentlichte am 5. November den Digital Economy and Society Outlook 2026.",
+              "verdict": "supported",
+              "reason": "Originaldatierung bleibt 05.11.; kein Datenjahr 2026 behauptet.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/oecd-digital-economy-and-society-outlook-2026_022ed474-en/full-report/executive-summary_98d03f1f.html",
+                "https://www.oecd.org/en/about/news/press-releases/2026/11/oecd-digital-economy-and-society-outlook-2026.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Für 2025 schätzt der Bericht die KI-Nutzung im OECD-Vergleich auf 20 Prozent bei Unternehmen ab zehn Beschäftigten und 52 Prozent bei großen Unternehmen ab 250 Beschäftigten.",
+              "verdict": "supported",
+              "reason": "Pressemitteilung bestätigt beide Schwellen und Schätzcharakter; keine Ausdehnung auf Kleinstfirmen.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/oecd-digital-economy-and-society-outlook-2026_022ed474-en/full-report/executive-summary_98d03f1f.html",
+                "https://www.oecd.org/en/about/news/press-releases/2026/11/oecd-digital-economy-and-society-outlook-2026.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"OECD Digital Economy and Society Outlook 2026\" \"20%\" \"52%\" coverage estimates",
+              "finding": "Gelesene OECD-Pressemitteilung präzisiert die Schwellen zehn und 250 Beschäftigte; endgültiger Faktenabschnitt entsprechend begrenzt.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/oecd-digital-economy-and-society-outlook-2026_022ed474-en/full-report/executive-summary_98d03f1f.html",
+                "https://www.oecd.org/en/about/news/press-releases/2026/11/oecd-digital-economy-and-society-outlook-2026.html"
+              ]
+            },
+            {
+              "query": "\"OECD Digital Economy and Society Outlook 2026\" AI uptake 2025 nowcasting limitations",
+              "finding": "Suchtreffer zeigen Nowcast-Methodik. Detailkapitel war beim Öffnen nicht zugänglich und wird nicht als gelesen gewertet. Gelesene Pressemitteilung bezeichnet Zahlen als Schätzungen; endgültiger Text übernimmt diesen Vorbehalt.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/oecd-digital-economy-and-society-outlook-2026_022ed474-en/full-report/executive-summary_98d03f1f.html",
+                "https://www.oecd.org/en/about/news/press-releases/2026/11/oecd-digital-economy-and-society-outlook-2026.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Publikation 05.11.2026; geschätzte Nutzung 2025: 20 % ab zehn Beschäftigten, 52 % ab 250.",
+            "scopeAndQualifications": "Keine Österreichquote oder Produktivitätskausalität; Zeitraum, Unternehmensgrößen und Schätzcharakter sichtbar.",
+            "sourceIndependence": "Bericht und Pressemitteilung stammen beide von OECD; keine unabhängige Replikation behauptet.",
+            "contradictions": "Ursprünglich zu breite Formulierung korrigiert und neu quellengeprüft; endgültige begrenzte Fassung durch gelesene Pressemitteilung gestützt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-2",
+      "contentHash": "2b2e2363fe049bc94d6f85945ff773ec86ff4bf3dd6ec27f2e25b70a2f0eae4c",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-06T05:34:28.574Z",
+          "reviewer": "Codex – tatsächlich gelesene Originalquellen, Quellenabgleich",
+          "limitations": [
+            "Es liegt ausschließlich eine Herstellerquelle vor.",
+            "Der Beitrag ist kein unabhängiger Produkttest; Lizenzumfang, regionale Verfügbarkeit und konkrete Integrationsbedingungen müssen im Einzelfall geprüft werden."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP meldet Starter Edition für Incentive Management als verfügbar",
+              "verdict": "supported",
+              "reason": "Überschrift des SAP-Originalbeitrags nennt die neue Starter Edition als verfügbar.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-incentive-management-starter-edition-now-available/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP stellte am 4. November eine als verfügbar angekündigte Starter Edition von SAP Incentive Management vor.",
+              "verdict": "supported",
+              "reason": "SAP-Beitrag datiert 04.11.2026; Produktvorstellung in Einleitung und Überschrift.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-incentive-management-starter-edition-now-available/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut Hersteller gehören ein Portal für Vergütungsempfänger, eine mobile Anwendung, Planverwaltung, XDL-Datenaustausch und integrierte Analysen zum beschriebenen Funktionsumfang.",
+              "verdict": "supported",
+              "reason": "Die fünf aufgezählten Kernfunktionen stehen in der Herstellerliste unter Building a foundation.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-incentive-management-starter-edition-now-available/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-06T05:36:51.734Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung, gleiches KI-System",
+          "limitations": [
+            "Es liegt ausschließlich eine Herstellerquelle vor.",
+            "Der Beitrag ist kein unabhängiger Produkttest; Lizenzumfang, regionale Verfügbarkeit und konkrete Integrationsbedingungen müssen im Einzelfall geprüft werden."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP meldet Starter Edition für Incentive Management als verfügbar",
+              "verdict": "supported",
+              "reason": "Titel berichtet nur SAPs Verfügbarkeitsmeldung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-incentive-management-starter-edition-now-available/",
+                "https://www.sap.com/products/crm/incentive-compensation-management.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP stellte am 4. November eine als verfügbar angekündigte Starter Edition von SAP Incentive Management vor.",
+              "verdict": "supported",
+              "reason": "Originaldatum geprüft; keine unabhängig verifizierte allgemeine Verfügbarkeit behauptet.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-incentive-management-starter-edition-now-available/",
+                "https://www.sap.com/products/crm/incentive-compensation-management.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut Hersteller gehören ein Portal für Vergütungsempfänger, eine mobile Anwendung, Planverwaltung, XDL-Datenaustausch und integrierte Analysen zum beschriebenen Funktionsumfang.",
+              "verdict": "supported",
+              "reason": "Funktionsliste stimmt; Satz bleibt explizit Herstellerzuschreibung, kein Leistungstest.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-incentive-management-starter-edition-now-available/",
+                "https://www.sap.com/products/crm/incentive-compensation-management.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"SAP Incentive Management\" \"starter edition\" limitations pricing November 2026",
+              "finding": "Keine unabhängige Funktions-/Preisprüfung gefunden; Sekundärtreffer wiederholen Herstellerankündigung. Lizenz- und Regionalfragen bleiben ausdrücklich offen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-incentive-management-starter-edition-now-available/",
+                "https://www.sap.com/products/crm/incentive-compensation-management.html"
+              ]
+            },
+            {
+              "query": "\"SAP Incentive Management\" \"starter edition\" \"XDL\" availability",
+              "finding": "Original-SAP-Liste nennt XDL. Geöffnete allgemeine Produktseite enthält keine Starter-spezifische Bestätigung; Funktionssatz daher ausdrücklich nur Herstellerbeschreibung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-incentive-management-starter-edition-now-available/",
+                "https://www.sap.com/products/crm/incentive-compensation-management.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Originaldatum 04.11.2026; Medien vom 05.11. sind keine neue Produktveröffentlichung.",
+            "scopeAndQualifications": "Portal, App, Verwaltung, XDL und Analysen als Herstellerangaben; keine Preis-/Region-/Integrationsgarantie.",
+            "sourceIndependence": "Nur SAP als Produkt-Originalquelle; wiedergebende Branchenberichte nicht als unabhängige Tests gezählt.",
+            "contradictions": "Kein Gegenbeleg zur begrenzten Ankündigungsdarstellung gefunden; allgemeine Produktseite allein erlaubt keine zusätzliche Starter-Zusage."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-3",
+      "contentHash": "fbe72dd3c36194534cd7b347a54426c0c70f5de3fe39482187f747d30cf266d6",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-06T05:34:28.574Z",
+          "reviewer": "Codex – tatsächlich gelesene Originalquellen, Quellenabgleich",
+          "limitations": [
+            "Der Indikator beschreibt politische Maßnahmen und deren Ausprägung, keine entsprechende prozentuale Emissionssenkung.",
+            "Länderabdeckung und Datenjahre variieren nach Indikator."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "OECD-Klimamonitor meldet langsameres Wachstum klimapolitischer Anstrengungen",
+              "verdict": "supported",
+              "reason": "OECD-Überblick unterscheidet fortgesetzten Ausbau und deutlich verlangsamtes Tempo.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/the-climate-action-monitor-2026_8f3c692e-en.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der am 5. November veröffentlichte Climate Action Monitor 2026 der OECD bewertet Emissionen, Klimarisiken und Minderungsmaßnahmen.",
+              "verdict": "supported",
+              "reason": "Berichtsseite: Datum 05.11.2026; Einführung nennt Emissionstrends, Gefahren und Minderungsmaßnahmen.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/the-climate-action-monitor-2026_8f3c692e-en.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Nach der verwendeten Messung stieg die klimapolitische Minderungsanstrengung 2025 nur um ein Prozent.",
+              "verdict": "supported",
+              "reason": "Abschnitt National mitigation policies: nur 1 % Zuwachs des policy effort 2025, nicht 1 % Emissionsminderung.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/the-climate-action-monitor-2026_8f3c692e-en.html"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-06T05:36:51.734Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung, gleiches KI-System",
+          "limitations": [
+            "Der Indikator beschreibt politische Maßnahmen und deren Ausprägung, keine entsprechende prozentuale Emissionssenkung.",
+            "Länderabdeckung und Datenjahre variieren nach Indikator."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "OECD-Klimamonitor meldet langsameres Wachstum klimapolitischer Anstrengungen",
+              "verdict": "supported",
+              "reason": "Langsamerer Politikzuwachs im OECD-Überblick belegt; keine neue Emissionszahl im Titel.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/the-climate-action-monitor-2026_8f3c692e-en.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der am 5. November veröffentlichte Climate Action Monitor 2026 der OECD bewertet Emissionen, Klimarisiken und Minderungsmaßnahmen.",
+              "verdict": "supported",
+              "reason": "Datum und drei Bewertungsbereiche im zugänglichen Originalüberblick bestätigt.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/the-climate-action-monitor-2026_8f3c692e-en.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Nach der verwendeten Messung stieg die klimapolitische Minderungsanstrengung 2025 nur um ein Prozent.",
+              "verdict": "supported",
+              "reason": "Ein-Prozent-Angabe dort ausdrücklich policy effort 2025; Einheit nicht Emissionen.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/the-climate-action-monitor-2026_8f3c692e-en.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Climate Action Monitor 2026\" \"1%\" methodology emissions reduction",
+              "finding": "Gelesener OECD-Überblick trennt policy effort und Emissionsentwicklung; ein Prozent ist keine Emissionssenkung.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/the-climate-action-monitor-2026_8f3c692e-en.html"
+              ]
+            },
+            {
+              "query": "\"Climate Action Monitor 2026\" correction policy effort 2025 coverage",
+              "finding": "Keine Korrektur der Zahl gefunden. Überblick nennt variierende Länder-/Jahresabdeckung und Umsetzung als Einfluss; Detailkapitel nicht zugänglich, nicht als Beleg verwendet.",
+              "sourceUrls": [
+                "https://www.oecd.org/en/publications/the-climate-action-monitor-2026_8f3c692e-en.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Veröffentlichung 05.11.2026; Messjahr 2025; ein Prozent Zuwachs der policy effort.",
+            "scopeAndQualifications": "Keine Gleichsetzung von Indikator mit Emissionssenkung; Abdeckung variiert nach Indikator und Jahr.",
+            "sourceIndependence": "Ein OECD-Bericht/Überblick, keine unabhängige Wirkungsevaluation; Suchwiederholungen nicht als neue Belege.",
+            "contradictions": "Kein Widerspruch zur Zahl gefunden; Überblick warnt ausdrücklich vor Gleichsetzung von policy effort und Emissionsreduktion."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-4",
+      "contentHash": "0c912cb92a609506dbe7f954af66300b6f1f6a67eff609a529e86e970dee37b2",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-06T05:34:28.574Z",
+          "reviewer": "Codex – tatsächlich gelesene Originalquellen, Quellenabgleich",
+          "limitations": [
+            "Es handelt sich um eine IEA-Lagebewertung und Empfehlungen unter Kriegsbedingungen; der Verlauf möglicher Ausfälle bleibt insbesondere von Angriffen und Wetter abhängig."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IEA fordert mehrjährige Planung für die ukrainische Energieversorgung",
+              "verdict": "supported",
+              "reason": "Originalbeitrag fordert ausdrücklich multiyear resilience planning.",
+              "sourceUrls": [
+                "https://www.iea.org/news/ukraine-s-energy-system-faces-significant-risks-this-winter-as-russian-threat-evolves",
+                "https://www.iea.org/reports/ukraine-s-energy-security-2026"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die IEA veröffentlichte am 4. November eine Bewertung der ukrainischen Energieversorgung vor dem Winter 2026/27.",
+              "verdict": "supported",
+              "reason": "IEA-Mitteilung und Berichtsseite datieren 04.11.2026 und beziehen sich auf den Winter 2026/27.",
+              "sourceUrls": [
+                "https://www.iea.org/news/ukraine-s-energy-system-faces-significant-risks-this-winter-as-russian-threat-evolves",
+                "https://www.iea.org/reports/ukraine-s-energy-security-2026"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Sie empfiehlt mehrjährige Resilienzplanung, koordinierte Beschaffung und strategische Ausrüstungsreserven; bei kritischer Energieausrüstung nennt sie Lieferzeiten von sechs bis neun Monaten.",
+              "verdict": "supported",
+              "reason": "Schlussabsätze nennen Planung, Beschaffungskoordination, Reserven und sechs bis neun Monate Lieferzeit.",
+              "sourceUrls": [
+                "https://www.iea.org/news/ukraine-s-energy-system-faces-significant-risks-this-winter-as-russian-threat-evolves",
+                "https://www.iea.org/reports/ukraine-s-energy-security-2026"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-06T05:36:51.734Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung, gleiches KI-System",
+          "limitations": [
+            "Es handelt sich um eine IEA-Lagebewertung und Empfehlungen unter Kriegsbedingungen; der Verlauf möglicher Ausfälle bleibt insbesondere von Angriffen und Wetter abhängig."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IEA fordert mehrjährige Planung für die ukrainische Energieversorgung",
+              "verdict": "supported",
+              "reason": "Mehrjährige Planung in IEA-Schlussfolgerungen ausdrücklich gefordert.",
+              "sourceUrls": [
+                "https://www.iea.org/news/ukraine-s-energy-system-faces-significant-risks-this-winter-as-russian-threat-evolves",
+                "https://www.iea.org/reports/ukraine-s-energy-security-2026/key-findings"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die IEA veröffentlichte am 4. November eine Bewertung der ukrainischen Energieversorgung vor dem Winter 2026/27.",
+              "verdict": "supported",
+              "reason": "Originaldatum und Winterbezug stimmen mit Berichtsmetadaten überein.",
+              "sourceUrls": [
+                "https://www.iea.org/news/ukraine-s-energy-system-faces-significant-risks-this-winter-as-russian-threat-evolves",
+                "https://www.iea.org/reports/ukraine-s-energy-security-2026/key-findings"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Sie empfiehlt mehrjährige Resilienzplanung, koordinierte Beschaffung und strategische Ausrüstungsreserven; bei kritischer Energieausrüstung nennt sie Lieferzeiten von sechs bis neun Monaten.",
+              "verdict": "supported",
+              "reason": "Key findings bestätigen Zeitspanne für kritische Ausrüstung sowie gemeinsame Beschaffung/Reserven; als Empfehlung wiedergegeben.",
+              "sourceUrls": [
+                "https://www.iea.org/news/ukraine-s-energy-system-faces-significant-risks-this-winter-as-russian-threat-evolves",
+                "https://www.iea.org/reports/ukraine-s-energy-security-2026/key-findings"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Ukraine\" \"IEA\" \"November 4, 2026\" \"six\" \"nine\"",
+              "finding": "Suche lieferte keine unabhängige Verifikation der Lieferzeit. Gelesene IEA-Key-findings nennen sechs bis neun Monate für kritische Komponenten, nicht jede Beschaffung.",
+              "sourceUrls": [
+                "https://www.iea.org/news/ukraine-s-energy-system-faces-significant-risks-this-winter-as-russian-threat-evolves",
+                "https://www.iea.org/reports/ukraine-s-energy-security-2026/key-findings"
+              ]
+            },
+            {
+              "query": "\"Ukraine’s Energy Security 2026\" shortages weather equipment installation",
+              "finding": "Gelesene IEA-Key-findings warnen vor monatelanger Anschlussverzögerung trotz gelieferter Anlagen. Risiken bleiben bestehen; Empfehlungen sind kein Nachweis fertig umgesetzter Schutzmaßnahmen.",
+              "sourceUrls": [
+                "https://www.iea.org/news/ukraine-s-energy-system-faces-significant-risks-this-winter-as-russian-threat-evolves",
+                "https://www.iea.org/reports/ukraine-s-energy-security-2026/key-findings"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "IEA-Bericht 04.11.2026 für Winter 2026/27; sechs bis neun Monate für kritische Ausrüstung.",
+            "scopeAndQualifications": "Empfehlungen und Lagebild, keine garantierte Winterprognose oder allgemeine Liefergarantie; Angriffe und Wetter als Bedingungen.",
+            "sourceIndependence": "Mitteilung und Key findings sind dieselbe IEA-Analyse; keine unabhängige Prognosebestätigung behauptet.",
+            "contradictions": "Anschlussverzögerungen sind kein Gegenbeleg zu Beschaffungsempfehlungen, sondern wichtige Einschränkung; Installation und Inbetriebnahme werden im Text getrennt benannt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-5",
+      "contentHash": "228753414ffc1f7a307dc3af73e7fe0542012eeb2ccd44f058db586dd9aabe63",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-06T05:34:28.574Z",
+          "reviewer": "Codex – tatsächlich gelesene Originalquellen, Quellenabgleich",
+          "limitations": [
+            "Die Strategie beschreibt geplante Unterstützung und Zusammenarbeit; sie ist keine bereits flächendeckend verfügbare Ausbildung und keine pauschale neue Weiterbildungspflicht für alle Betriebe."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Berufsbildungsstrategie verbindet Technologiekompetenzen und Betriebe",
+              "verdict": "supported",
+              "reason": "Kommissionsbeitrag verbindet Berufsbildung mit technologischer Erneuerung und Unternehmenspartnerschaften.",
+              "sourceUrls": [
+                "https://employment-social-affairs.ec.europa.eu/news/commission-launches-strategy-strengthen-vocational-skills-across-europe-2026-11-05_en"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Europäische Kommission stellte am 5. November eine neue europäische Berufsbildungsstrategie als Teil des Bildungs- und Kompetenzpakets vor.",
+              "verdict": "supported",
+              "reason": "Kommissionsdatum 05.11.2026; Einleitung ordnet Strategie in Education and Skills package ein.",
+              "sourceUrls": [
+                "https://employment-social-affairs.ec.europa.eu/news/commission-launches-strategy-strengthen-vocational-skills-across-europe-2026-11-05_en"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Angekündigt sind unter anderem gemeinsame Ausbildungszentren von Betrieben und Bildungseinrichtungen sowie ein sektoraler Trainingsbeschleuniger mit einem für 2027 vorgesehenen Pilotstart.",
+              "verdict": "supported",
+              "reason": "Abschnitt Main initiatives nennt gemeinsame Zentren und Pilotbeginn 2027 für den Training Accelerator.",
+              "sourceUrls": [
+                "https://employment-social-affairs.ec.europa.eu/news/commission-launches-strategy-strengthen-vocational-skills-across-europe-2026-11-05_en"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-06T05:36:51.734Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung, gleiches KI-System",
+          "limitations": [
+            "Die Strategie beschreibt geplante Unterstützung und Zusammenarbeit; sie ist keine bereits flächendeckend verfügbare Ausbildung und keine pauschale neue Weiterbildungspflicht für alle Betriebe."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Berufsbildungsstrategie verbindet Technologiekompetenzen und Betriebe",
+              "verdict": "supported",
+              "reason": "Strategie beschreibt technologische Kompetenzen und Unternehmenskooperation.",
+              "sourceUrls": [
+                "https://employment-social-affairs.ec.europa.eu/news/commission-launches-strategy-strengthen-vocational-skills-across-europe-2026-11-05_en",
+                "https://employment-social-affairs.ec.europa.eu/policies-and-activities/skills-and-qualifications/skills-jobs/vocational-education-and-training-vet/vocational-education-and-training-strategy_en"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Europäische Kommission stellte am 5. November eine neue europäische Berufsbildungsstrategie als Teil des Bildungs- und Kompetenzpakets vor.",
+              "verdict": "supported",
+              "reason": "Datierter Kommissionsbeitrag bestätigt Einordnung als Teil des Pakets.",
+              "sourceUrls": [
+                "https://employment-social-affairs.ec.europa.eu/news/commission-launches-strategy-strengthen-vocational-skills-across-europe-2026-11-05_en",
+                "https://employment-social-affairs.ec.europa.eu/policies-and-activities/skills-and-qualifications/skills-jobs/vocational-education-and-training-vet/vocational-education-and-training-strategy_en"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Angekündigt sind unter anderem gemeinsame Ausbildungszentren von Betrieben und Bildungseinrichtungen sowie ein sektoraler Trainingsbeschleuniger mit einem für 2027 vorgesehenen Pilotstart.",
+              "verdict": "supported",
+              "reason": "Pilot 2027 und gemeinsame Zentren explizit genannt; keine bereits abgeschlossene Einführung behauptet.",
+              "sourceUrls": [
+                "https://employment-social-affairs.ec.europa.eu/news/commission-launches-strategy-strengthen-vocational-skills-across-europe-2026-11-05_en",
+                "https://employment-social-affairs.ec.europa.eu/policies-and-activities/skills-and-qualifications/skills-jobs/vocational-education-and-training-vet/vocational-education-and-training-strategy_en"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"European VET strategy\" \"2027\" \"5 November 2026\" pilot",
+              "finding": "Originalmeldung nennt 2027 als Pilotstart, nicht bereits laufenden flächendeckenden Dienst. Strategieübersicht bestätigt geplante Instrumente.",
+              "sourceUrls": [
+                "https://employment-social-affairs.ec.europa.eu/news/commission-launches-strategy-strengthen-vocational-skills-across-europe-2026-11-05_en",
+                "https://employment-social-affairs.ec.europa.eu/policies-and-activities/skills-and-qualifications/skills-jobs/vocational-education-and-training-vet/vocational-education-and-training-strategy_en"
+              ]
+            },
+            {
+              "query": "\"European VET strategy\" \"2026\" mandatory companies recommendation",
+              "finding": "Suche findet ältere Arbeitgeberforderungen und politische Empfehlungen, keinen Beleg einer durch diese Meldung geschaffenen pauschalen Pflicht. Gelesene Kommissionsstrategie beschreibt Unterstützung und Kooperation.",
+              "sourceUrls": [
+                "https://employment-social-affairs.ec.europa.eu/news/commission-launches-strategy-strengthen-vocational-skills-across-europe-2026-11-05_en",
+                "https://employment-social-affairs.ec.europa.eu/policies-and-activities/skills-and-qualifications/skills-jobs/vocational-education-and-training-vet/vocational-education-and-training-strategy_en"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Vorstellung 05.11.2026; Pilot für 2027 angekündigt; kein Startdatum für jedes Zentrum behauptet.",
+            "scopeAndQualifications": "Geplante Unterstützung/Kooperation, keine fertige flächendeckende Ausbildung oder pauschale Pflicht.",
+            "sourceIndependence": "Kommissionsmeldung und Strategieübersicht verbundene Herausgeberquellen, keine unabhängige Erfolgsmessung.",
+            "contradictions": "Keine widersprechende aktuelle Originalquelle gefunden; frühere Stellungnahmen beschreiben vorbereitende Debatte, nicht geltende neue Verpflichtungen."
+          }
+        }
+      ]
     }
   ]
 }
