@@ -1411,6 +1411,552 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-07-1",
+      "contentHash": "26b79a30addcd67f6739bf84f64d3b105c79bf8266df4157c9a9d722602d7ca0",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-07T05:52:48.352Z",
+          "reviewer": "Codex – Originalquellenabgleich",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Statistik Austria meldet weniger fertiggestellte Wohnungen",
+              "verdict": "supported",
+              "reason": "Die Mitteilung und der Vergleich mit 55.442 Einheiten im Vorjahr tragen die Überschrift.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106Baufertigstellungen2025.pdf"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Statistik Austria meldete am 6. November vorläufig 48.597 fertiggestellte Wohnungen für das Jahr 2025, 12,3 Prozent weniger als 2024.",
+              "verdict": "supported",
+              "reason": "Einleitung und Abschnitt Rückgang nennen Meldedatum, Bezugsjahr, vorläufigen Stand und die Veränderung.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106Baufertigstellungen2025.pdf"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Davon entfielen 34.217 Wohnungen auf neue Gebäude und 14.380 auf An-, Auf- und Umbauten an bestehenden Gebäuden.",
+              "verdict": "supported",
+              "reason": "Tabelle 1 weist beide Teilmengen aus. Ihre Summe entspricht der Gesamtzahl.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106Baufertigstellungen2025.pdf"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-07T05:54:07.502Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Die vorläufigen Zahlen enthalten Schätzungen für erwartete Nachmeldungen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Statistik Austria meldet weniger fertiggestellte Wohnungen",
+              "verdict": "supported",
+              "reason": "Vorjahresvergleich rechnerisch nachvollzogen.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106Baufertigstellungen2025.pdf",
+                "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/baufertigstellungen"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Statistik Austria meldete am 6. November vorläufig 48.597 fertiggestellte Wohnungen für das Jahr 2025, 12,3 Prozent weniger als 2024.",
+              "verdict": "supported",
+              "reason": "Datum, vorläufiger Stand und Bezugsjahre stimmen mit der Originalmitteilung überein.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106Baufertigstellungen2025.pdf",
+                "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/baufertigstellungen"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Davon entfielen 34.217 Wohnungen auf neue Gebäude und 14.380 auf An-, Auf- und Umbauten an bestehenden Gebäuden.",
+              "verdict": "supported",
+              "reason": "Aufteilung anhand der Tabellenzeile für Österreich und durch Summenabgleich bestätigt.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106Baufertigstellungen2025.pdf",
+                "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/baufertigstellungen"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"48 597\" \"55 442\" Statistik Austria Fertigstellungen 2025 Revision",
+              "finding": "Der Rückgang aus 48.597 und 55.442 beträgt gerundet 12,3 Prozent. Die datierte Mitteilung beschreibt Fertigstellungen im Jahr 2025.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106Baufertigstellungen2025.pdf",
+                "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/baufertigstellungen"
+              ]
+            },
+            {
+              "query": "site:statistik.at Baufertigstellungen 2025 34217 Nachmeldungen vorläufig",
+              "finding": "Die Methodikseite bestätigt Schätzungen und Revisionen. Die Teilmengen sind mit der Fußnote zu möglichen unvollständigen Wiener Meldungen vereinbar.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106Baufertigstellungen2025.pdf",
+                "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/baufertigstellungen"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Meldung 06.11.2026. 34.217 plus 14.380 ergibt 48.597. Der Vorjahresvergleich ergibt gerundet minus 12,3 Prozent.",
+            "scopeAndQualifications": "Vorläufige Fertigstellungen einschließlich Wohnungen aus Arbeiten am Bestand. Schätzungen und Nachmeldungen sind berücksichtigt.",
+            "sourceIndependence": "Mitteilung und Methodikseite stammen beide von Statistik Austria und verwenden dieselbe Baumaßnahmenstatistik.",
+            "contradictions": "Kein Beleg für abweichende Werte derselben Veröffentlichung. Revisionen sind in der Methodik ausdrücklich vorgesehen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-2",
+      "contentHash": "0ccb1acc9b8c243c64d89fbb3e777dcc7609cd31489612be430e185b1ef67f1e",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-07T05:52:48.353Z",
+          "reviewer": "Codex – Originalquellenabgleich",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Kommission erläutert digitale Zollabwicklung für Stromimporte",
+              "verdict": "supported",
+              "reason": "Die datierte Kommissionsmeldung und Abschnitt III des Leitfadens behandeln die Einfuhr über CCI.",
+              "sourceUrls": [
+                "https://taxation-customs.ec.europa.eu/news/new-guidance-electricity-imports-under-centralised-clearance-import-cci-2026-11-06_en",
+                "https://taxation-customs.ec.europa.eu/document/download/f88a93fa-a9f7-4c9c-8d9a-4aafb5117153_en?filename=Guidance_+Import+of+electricity+and+natural+gas+under+CCI_final+ver.+12_10_2026.pdf"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EU-Kommission stellte am 6. November einen Leitfaden zur zentralen Einfuhrabwicklung von Strom vor.",
+              "verdict": "supported",
+              "reason": "Der 6. November ist das Datum der öffentlichen Kommissionsmeldung. Die interne Billigung der Endfassung war laut PDF bereits am 12. Oktober.",
+              "sourceUrls": [
+                "https://taxation-customs.ec.europa.eu/news/new-guidance-electricity-imports-under-centralised-clearance-import-cci-2026-11-06_en",
+                "https://taxation-customs.ec.europa.eu/document/download/f88a93fa-a9f7-4c9c-8d9a-4aafb5117153_en?filename=Guidance_+Import+of+electricity+and+natural+gas+under+CCI_final+ver.+12_10_2026.pdf"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Er beschreibt den Eintrag in die Aufzeichnungen des Anmelders mit anschließender ergänzender Zollanmeldung sowie die Prüfung der CBAM-Kontonummer bei Stromimporten aus Drittländern.",
+              "verdict": "supported",
+              "reason": "Abschnitt III nennt den Eintrag und die ergänzende Anmeldung. Die Folgeseite beschreibt die Validierung der CBAM-Kontonummer bei Einreichung im CCI-System.",
+              "sourceUrls": [
+                "https://taxation-customs.ec.europa.eu/news/new-guidance-electricity-imports-under-centralised-clearance-import-cci-2026-11-06_en",
+                "https://taxation-customs.ec.europa.eu/document/download/f88a93fa-a9f7-4c9c-8d9a-4aafb5117153_en?filename=Guidance_+Import+of+electricity+and+natural+gas+under+CCI_final+ver.+12_10_2026.pdf"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-07T05:54:07.503Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Der Leitfaden erläutert den Ablauf für die zentrale Abwicklung mit den dafür vorgesehenen Bewilligungen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Kommission erläutert digitale Zollabwicklung für Stromimporte",
+              "verdict": "supported",
+              "reason": "Die öffentliche Vorstellung und der Leitfaden benennen CCI für Stromimporte.",
+              "sourceUrls": [
+                "https://taxation-customs.ec.europa.eu/news/new-guidance-electricity-imports-under-centralised-clearance-import-cci-2026-11-06_en",
+                "https://taxation-customs.ec.europa.eu/document/download/f88a93fa-a9f7-4c9c-8d9a-4aafb5117153_en?filename=Guidance_+Import+of+electricity+and+natural+gas+under+CCI_final+ver.+12_10_2026.pdf"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EU-Kommission stellte am 6. November einen Leitfaden zur zentralen Einfuhrabwicklung von Strom vor.",
+              "verdict": "supported",
+              "reason": "Das Datum bezeichnet die Vorstellung in der Kommissionsmeldung.",
+              "sourceUrls": [
+                "https://taxation-customs.ec.europa.eu/news/new-guidance-electricity-imports-under-centralised-clearance-import-cci-2026-11-06_en",
+                "https://taxation-customs.ec.europa.eu/document/download/f88a93fa-a9f7-4c9c-8d9a-4aafb5117153_en?filename=Guidance_+Import+of+electricity+and+natural+gas+under+CCI_final+ver.+12_10_2026.pdf"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Er beschreibt den Eintrag in die Aufzeichnungen des Anmelders mit anschließender ergänzender Zollanmeldung sowie die Prüfung der CBAM-Kontonummer bei Stromimporten aus Drittländern.",
+              "verdict": "supported",
+              "reason": "Der Ablauf und die CBAM-Kontonummer wurden mit den Abschnitten II und III im PDF abgeglichen.",
+              "sourceUrls": [
+                "https://taxation-customs.ec.europa.eu/news/new-guidance-electricity-imports-under-centralised-clearance-import-cci-2026-11-06_en",
+                "https://taxation-customs.ec.europa.eu/document/download/f88a93fa-a9f7-4c9c-8d9a-4aafb5117153_en?filename=Guidance_+Import+of+electricity+and+natural+gas+under+CCI_final+ver.+12_10_2026.pdf"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "CCI electricity imports guidance 6 November 2026 12 October approval customs EIDR",
+              "finding": "Der Leitfaden nennt die Billigung der Endfassung am 12. Oktober. Der 6. November datiert die öffentliche Vorstellung.",
+              "sourceUrls": [
+                "https://taxation-customs.ec.europa.eu/news/new-guidance-electricity-imports-under-centralised-clearance-import-cci-2026-11-06_en",
+                "https://taxation-customs.ec.europa.eu/document/download/f88a93fa-a9f7-4c9c-8d9a-4aafb5117153_en?filename=Guidance_+Import+of+electricity+and+natural+gas+under+CCI_final+ver.+12_10_2026.pdf"
+              ]
+            },
+            {
+              "query": "CCI electricity CBAM account number supplementary declaration waiver 2026 EU",
+              "finding": "Abschnitt III bindet die ergänzende Erklärung an die Bewilligungsfristen. Die CBAM-Validierung erfolgt bei der ergänzenden Erklärung über CCI.",
+              "sourceUrls": [
+                "https://taxation-customs.ec.europa.eu/news/new-guidance-electricity-imports-under-centralised-clearance-import-cci-2026-11-06_en",
+                "https://taxation-customs.ec.europa.eu/document/download/f88a93fa-a9f7-4c9c-8d9a-4aafb5117153_en?filename=Guidance_+Import+of+electricity+and+natural+gas+under+CCI_final+ver.+12_10_2026.pdf"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "06.11.2026 bezeichnet die öffentliche Meldung. Die Billigung der Endfassung erfolgte schon im Oktober.",
+            "scopeAndQualifications": "Der beschriebene Ablauf betrifft CCI mit EIDR und den vorgesehenen Bewilligungen. Der Leitfaden erläutert bestehende Verfahren.",
+            "sourceIndependence": "Kommissionsmeldung und PDF gehören zum selben amtlichen Veröffentlichungsvorgang.",
+            "contradictions": "Die beiden Daten bezeichnen unterschiedliche Schritte. Das PDF stützt die beschriebene Reihenfolge und die CBAM-Prüfung."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-3",
+      "contentHash": "4a577d53709750bf1d0289cf621fd1673c437b4af6d0f77cd2472881ce8a263d",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-07T05:52:48.353Z",
+          "reviewer": "Codex – Originalquellenabgleich",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP stellt gesponserte Befragung zum organisatorischen KI-Einsatz vor",
+              "verdict": "supported",
+              "reason": "Datum, Auftraggeber und Gegenstand sind in der SAP-Veröffentlichung genannt.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/new-economist-enterprise-research-ai-moving-faster-than-organizations-can-adapt/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP berichtete am 6. November über eine von SAP finanzierte Befragung von Economist Enterprise unter 2.015 Führungskräften mittelgroßer Organisationen.",
+              "verdict": "supported",
+              "reason": "Der Einleitungsabsatz nennt Economist Enterprise, SAP als Sponsor und 2.015 Führungskräfte. SAP grenzt mittelgroße Organisationen über den Umsatz ab.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/new-economist-enterprise-research-ai-moving-faster-than-organizations-can-adapt/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut SAP gaben 59 Prozent der befragten Verantwortlichen für operative Funktionen an, dass die KI-Einführung schneller vorankomme als der Wandel der Belegschaft.",
+              "verdict": "supported",
+              "reason": "Der Abschnitt zu operativen Funktionen weist die 59 Prozent für diese Teilgruppe aus.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/new-economist-enterprise-research-ai-moving-faster-than-organizations-can-adapt/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-07T05:54:07.503Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Die Angaben stammen aus der Veröffentlichung des Sponsors und beruhen auf Selbstauskünften."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP stellt gesponserte Befragung zum organisatorischen KI-Einsatz vor",
+              "verdict": "supported",
+              "reason": "Die Überschrift benennt die Veröffentlichung durch den Sponsor.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/new-economist-enterprise-research-ai-moving-faster-than-organizations-can-adapt/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP berichtete am 6. November über eine von SAP finanzierte Befragung von Economist Enterprise unter 2.015 Führungskräften mittelgroßer Organisationen.",
+              "verdict": "supported",
+              "reason": "Der öffentliche SAP-Text nennt Datum, Sponsor, Befragungsunternehmen und Gesamtstichprobe.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/new-economist-enterprise-research-ai-moving-faster-than-organizations-can-adapt/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut SAP gaben 59 Prozent der befragten Verantwortlichen für operative Funktionen an, dass die KI-Einführung schneller vorankomme als der Wandel der Belegschaft.",
+              "verdict": "supported",
+              "reason": "Die 59 Prozent bleiben als SAP-Angabe für operative Funktionen gekennzeichnet.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/new-economist-enterprise-research-ai-moving-faster-than-organizations-can-adapt/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "Economist Enterprise SAP \"2015\" \"59%\" operations workforce November 2026",
+              "finding": "Die 2.015 betreffen die Befragung insgesamt. Die 59 Prozent stehen im Abschnitt zu operativen Funktionen und bleiben auf diese Teilgruppe beschränkt.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/new-economist-enterprise-research-ai-moving-faster-than-organizations-can-adapt/"
+              ]
+            },
+            {
+              "query": "SAP Economist Enterprise Building for a World of What-Ifs 2026 methodology operations 59 sponsor",
+              "finding": "Der weiterführende Bericht verlangt Authentifizierung. Die verwendete öffentliche SAP-Meldung nennt Sponsor und Befunde ausdrücklich. Eine unabhängige Prüfung der Rohdaten ist damit nicht belegt.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/new-economist-enterprise-research-ai-moving-faster-than-organizations-can-adapt/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "SAP-Meldung vom 06.11.2026. 2.015 ist die Gesamtstichprobe laut SAP. Die 59 Prozent werden für operative Funktionen berichtet.",
+            "scopeAndQualifications": "Der Text bleibt bei der gesponserten Befragung und den Selbstauskünften. Er verallgemeinert nicht auf alle Unternehmen.",
+            "sourceIndependence": "SAP ist Sponsor und Herausgeber der verwendeten Meldung. Der weiterführende Bericht ist zugangsbeschränkt und wird nicht als gelesen oder unabhängig gewertet.",
+            "contradictions": "Die 66 Prozent aus dem Finanzabschnitt betreffen eine andere Gruppe. Der auf operative Funktionen begrenzte Satz bleibt bei 59 Prozent."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-4",
+      "contentHash": "e260edfb6b66bc03e36d620358b893f50e6fdd0897f992314df5c694b63aec55",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-07T05:52:48.353Z",
+          "reviewer": "Codex – Originalquellenabgleich",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IEA erwartet deutlich mehr erneuerbare Stromkapazität bis 2031",
+              "verdict": "supported",
+              "reason": "Der Kapazitätsabschnitt der Zusammenfassung beschreibt die erwartete Ausweitung bis 2031.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/renewables-2026",
+                "https://www.iea.org/reports/renewables-2026/executive-summary"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Internationale Energieagentur veröffentlichte am 6. November ihren Bericht Renewables 2026.",
+              "verdict": "supported",
+              "reason": "Die Berichtsseite nennt Titel und Publikationsdatum.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/renewables-2026",
+                "https://www.iea.org/reports/renewables-2026/executive-summary"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Für den Zeitraum von 2025 bis 2031 erwartet sie weltweit einen Zuwachs der erneuerbaren Stromkapazität um knapp 85 Prozent, wobei Photovoltaik mehr als drei Viertel des Zuwachses ausmacht.",
+              "verdict": "supported",
+              "reason": "Die Executive Summary nennt Bezugsjahr 2025, Endjahr 2031 und beide Anteile im selben Absatz.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/renewables-2026",
+                "https://www.iea.org/reports/renewables-2026/executive-summary"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-07T05:54:07.503Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Die Werte sind eine globale Kapazitätsprognose auf Basis der von der IEA berücksichtigten Politik- und Marktentwicklung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IEA erwartet deutlich mehr erneuerbare Stromkapazität bis 2031",
+              "verdict": "supported",
+              "reason": "Die Überschrift beschreibt eine Kapazitätsprognose bis 2031.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/renewables-2026",
+                "https://www.iea.org/reports/renewables-2026/executive-summary",
+                "https://www.iea.org/reports/renewables-2026/renewable-electricity"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Internationale Energieagentur veröffentlichte am 6. November ihren Bericht Renewables 2026.",
+              "verdict": "supported",
+              "reason": "Datum und Berichtstitel stimmen mit der IEA-Berichtsseite überein.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/renewables-2026",
+                "https://www.iea.org/reports/renewables-2026/executive-summary",
+                "https://www.iea.org/reports/renewables-2026/renewable-electricity"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Für den Zeitraum von 2025 bis 2031 erwartet sie weltweit einen Zuwachs der erneuerbaren Stromkapazität um knapp 85 Prozent, wobei Photovoltaik mehr als drei Viertel des Zuwachses ausmacht.",
+              "verdict": "supported",
+              "reason": "Die Zahlen der Kurzfassung sind mit dem getrennten Fachkapitel und dessen gerundeten PV-Teilwerten vereinbar.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/renewables-2026",
+                "https://www.iea.org/reports/renewables-2026/executive-summary",
+                "https://www.iea.org/reports/renewables-2026/renewable-electricity"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "IEA Renewables 2026 almost 85% 2031 capacity correction",
+              "finding": "Die Executive Summary bezieht knapp 85 Prozent auf den Kapazitätsbestand 2025 bis 2031. Die Zahl ist von der Wachstumsrate der Zubauten gegenüber der vorherigen Sechsjahresperiode zu unterscheiden.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/renewables-2026",
+                "https://www.iea.org/reports/renewables-2026/executive-summary",
+                "https://www.iea.org/reports/renewables-2026/renewable-electricity"
+              ]
+            },
+            {
+              "query": "IEA Renewables 2026 three quarters solar growth accelerated case generation capacity",
+              "finding": "Das Fachkapitel nennt rund drei Viertel und beziffert die PV-Zubauten auf zusammen 3.605 GW bei insgesamt gut 4.770 GW. Es behandelt Stromerzeugung getrennt von Kapazität.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/renewables-2026",
+                "https://www.iea.org/reports/renewables-2026/executive-summary",
+                "https://www.iea.org/reports/renewables-2026/renewable-electricity"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Berichtsdatum 06.11.2026. Knapp 85 Prozent Bestandserhöhung von 2025 bis 2031. Die PV-Teilwerte entsprechen rechnerisch etwas mehr als 75 Prozent des Zubaus.",
+            "scopeAndQualifications": "Globale Kapazitätsprognose unter Markt- und Politikannahmen. Die Stromerzeugung wird separat ausgewiesen.",
+            "sourceIndependence": "Übersicht, Kurzfassung und Fachkapitel stammen alle von der IEA. Keine unabhängige Modellbestätigung beansprucht.",
+            "contradictions": "Die gerundete Angabe von drei Vierteln im Fachkapitel ist mit der genaueren Formulierung der Executive Summary vereinbar."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-5",
+      "contentHash": "3f37ca4e2d019a18d3367dc20ddbf6794a1c07bb878598bc3d9435de9fee6668",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-07T05:52:48.353Z",
+          "reviewer": "Codex – Originalquellenabgleich",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Staats- und Regierungschefs planen KI-Beratungen in Dublin",
+              "verdict": "supported",
+              "reason": "Die Einladung bezeichnet die Zusammenkunft als informelles KI-Treffen in Dublin.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/ga/press/press-releases/2026/11/03/informal-meeting-of-heads-of-state-or-government-of-13-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Einladung des Europäischen Rates vom 3. November sieht für den 13. November ein informelles Treffen in Dublin mit Schwerpunkt KI vor.",
+              "verdict": "supported",
+              "reason": "Datumszeile und erster Absatz unterscheiden Veröffentlichungsdatum und geplanten Sitzungstermin.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/ga/press/press-releases/2026/11/03/informal-meeting-of-heads-of-state-or-government-of-13-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Auf der Agenda stehen Europas technologische Abhängigkeiten und Infrastruktur sowie Fragen zu Grundrechten, Kinderschutz und internationaler KI-Governance.",
+              "verdict": "supported",
+              "reason": "Die Abschnitte zum Vormittagsprogramm nennen Infrastruktur, Abhängigkeiten, Grundrechte, Kinderschutz und internationale Zusammenarbeit zur KI-Sicherheit.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/ga/press/press-releases/2026/11/03/informal-meeting-of-heads-of-state-or-government-of-13-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-07T05:54:07.503Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Die Einladung beschreibt die geplanten Diskussionen. Der Stand möglicher Beschlüsse lässt sich erst anhand der Ergebnisse bewerten."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Staats- und Regierungschefs planen KI-Beratungen in Dublin",
+              "verdict": "supported",
+              "reason": "Gastgeberseite und Einladung führen ein geplantes informelles Treffen.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/ga/press/press-releases/2026/11/03/informal-meeting-of-heads-of-state-or-government-of-13-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/",
+                "https://irish-presidency.consilium.europa.eu/en/events/informal-meeting-of-eu-heads-of-state-or-government/",
+                "https://enterprise.gov.ie/en/publications/dublin-declaration-on-trustworthy-safe-sovereign-ai.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Einladung des Europäischen Rates vom 3. November sieht für den 13. November ein informelles Treffen in Dublin mit Schwerpunkt KI vor.",
+              "verdict": "supported",
+              "reason": "Einladungsdatum und Sitzungstermin wurden getrennt geprüft.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/ga/press/press-releases/2026/11/03/informal-meeting-of-heads-of-state-or-government-of-13-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/",
+                "https://irish-presidency.consilium.europa.eu/en/events/informal-meeting-of-eu-heads-of-state-or-government/",
+                "https://enterprise.gov.ie/en/publications/dublin-declaration-on-trustworthy-safe-sovereign-ai.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Auf der Agenda stehen Europas technologische Abhängigkeiten und Infrastruktur sowie Fragen zu Grundrechten, Kinderschutz und internationaler KI-Governance.",
+              "verdict": "supported",
+              "reason": "Die Themen sind im Programmtext der Einladung genannt. Die ältere Dublin-Erklärung ändert ihren Status als Agenda nicht.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/ga/press/press-releases/2026/11/03/informal-meeting-of-heads-of-state-or-government-of-13-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/",
+                "https://irish-presidency.consilium.europa.eu/en/events/informal-meeting-of-eu-heads-of-state-or-government/",
+                "https://enterprise.gov.ie/en/publications/dublin-declaration-on-trustworthy-safe-sovereign-ai.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "Dublin informal European Council 13 November 2026 AI meeting postponed agenda",
+              "finding": "Die irische Präsidentschaft führt das informelle Treffen weiterhin für den 13. November in Dublin. Das Treffen der Europäischen Politischen Gemeinschaft am 12. November ist ein eigener Termin.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/ga/press/press-releases/2026/11/03/informal-meeting-of-heads-of-state-or-government-of-13-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/",
+                "https://irish-presidency.consilium.europa.eu/en/events/informal-meeting-of-eu-heads-of-state-or-government/",
+                "https://enterprise.gov.ie/en/publications/dublin-declaration-on-trustworthy-safe-sovereign-ai.html"
+              ]
+            },
+            {
+              "query": "Dublin November 13 2026 informal EU AI summit conclusions fundamental rights steering note",
+              "finding": "Das irische Ministerium datiert die ähnlich benannte Dublin-Erklärung auf den 14. Oktober. Sie ist kein Ergebnis des geplanten Novembertreffens. Die Einladung belegt die Themen der Beratungen.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/ga/press/press-releases/2026/11/03/informal-meeting-of-heads-of-state-or-government-of-13-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/",
+                "https://irish-presidency.consilium.europa.eu/en/events/informal-meeting-of-eu-heads-of-state-or-government/",
+                "https://enterprise.gov.ie/en/publications/dublin-declaration-on-trustworthy-safe-sovereign-ai.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Einladung 03.11.2026. Treffen 13.11.2026 in Dublin laut Einladung und irischer Terminseite.",
+            "scopeAndQualifications": "Die Themen sind geplante Beratungen. Der Beitrag enthält keine Aussage über gefasste Beschlüsse.",
+            "sourceIndependence": "Einladung und Gastgeberseite sind Veranstalterquellen. Die Mitteilung des irischen Ministeriums dient der Abgrenzung der Oktober-Erklärung.",
+            "contradictions": "Die Dublin-Erklärung vom Oktober und das Treffen vom 12. November sind getrennte Vorgänge. Kein Beleg für eine Verschiebung des 13. November gefunden."
+          }
+        }
+      ]
     }
   ]
 }
