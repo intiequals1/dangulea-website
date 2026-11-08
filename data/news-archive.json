@@ -2,6 +2,41 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-08-1",
+      "date": "2026-11-08",
+      "number": 1,
+      "title": "Österreichs Großhandel meldet höhere Preise für IKT-Geräte",
+      "text": "Fakten: Statistik Austria veröffentlichte am 6. November vorläufige Großhandelspreise für Oktober 2026. Geräte der Informations- und Kommunikationstechnik lagen 19,3 Prozent über Oktober 2025. Der Gesamtindex stieg im Jahresvergleich um 10,0 Prozent und sank gegenüber September 2026 um 0,2 Prozent.\nEinordnung: Der Branchenwert liefert einen Anhaltspunkt für die Beschaffung von IT-Ausrüstung. Er misst eine Warengruppe im Großhandel und lässt sich nur mit Vorsicht auf einzelne Angebote übertragen.\nQuellen: https://www.statistik.at/fileadmin/announcement/2026/11/20261106GHPI_Oktober2026.pdf"
+    },
+    {
+      "id": "2026-11-08-2",
+      "date": "2026-11-08",
+      "number": 2,
+      "title": "EU-Rat legt Position zur Energie- und Reifenkennzeichnung fest",
+      "text": "Fakten: Der Rat der EU einigte sich am 6. November auf ein Verhandlungsmandat zur Vereinfachung der Energie- und Reifenkennzeichnung. Für Produkte mit einem noch nicht an die neue Skala angepassten Energielabel sieht das Mandat nach einer Umstellung der Skala grundsätzlich vier Monate weiteren Verkauf vor.\nEinordnung: Bei einer Umstellung müssen Produktdaten und Kennzeichnungen in Vertriebskanälen zusammenpassen. Das Mandat sieht auch Ausnahmen vor. Der endgültige Text hängt vom weiteren Gesetzgebungsverfahren ab.\nQuellen: https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/simplification-council-agrees-position-to-simplify-energy-and-tyre-labelling/"
+    },
+    {
+      "id": "2026-11-08-3",
+      "date": "2026-11-08",
+      "number": 3,
+      "title": "SAP beschreibt Fertigungspilot bei ifm",
+      "text": "Fakten: SAP berichtete am 6. November, dass der Sensorhersteller ifm bei der Standardisierung seiner Fertigungsprozesse SAP Digital Manufacturing ausgewählt hat. Nach einem Pilotbetrieb bereitet ifm laut SAP den Einsatz an weiteren Standorten vor.\nEinordnung: Der Fall illustriert, wie ein Hersteller individuell entwickelte Produktionsfunktionen auf Standardsoftware abbildet. Die Angaben stammen aus einem Anbieterbericht. Umfang und Nutzen eines standortübergreifenden Betriebs lassen sich daraus noch nicht beurteilen.\nQuellen: https://news.sap.com/2026/11/what-manufacturers-can-learn-from-ifm/"
+    },
+    {
+      "id": "2026-11-08-4",
+      "date": "2026-11-08",
+      "number": 4,
+      "title": "IEA vergleicht zwei Pfade zur Gebäudeeffizienz bis 2035",
+      "text": "Fakten: Die Internationale Energieagentur veröffentlichte am 5. November einen Sonderbericht zur Energieeffizienz von Gebäuden. Im Szenario mit heutigen politischen Rahmenbedingungen sinkt die weltweite Energieintensität von Gebäuden bis 2035 um 7 Prozent gegenüber 2025. Ein Pfad mit zusätzlichen Maßnahmen kommt auf 26 Prozent.\nEinordnung: Die Szenarien machen sichtbar, wie stark das Ergebnis von Maßnahmen wie besseren Gebäudehüllen und effizienteren Geräten abhängt. Die Prozentwerte beziehen sich auf die globale Energieintensität und liefern keine Einsparschätzung für ein einzelnes Gebäude.\nQuellen: https://www.iea.org/reports/special-report-on-buildings-efficiency https://www.iea.org/reports/special-report-on-buildings-efficiency/executive-summary"
+    },
+    {
+      "id": "2026-11-08-5",
+      "date": "2026-11-08",
+      "number": 5,
+      "title": "EU-Rat legt Nachweisfrist für Methanregeln bei Importen vor",
+      "text": "Fakten: Der Rat der EU legte am 6. November seine Position zu Änderungen der Methanverordnung fest. Der Mandatstext nennt den 31. Mai 2029 als ersten Termin für den Nachweis gleichwertiger Methanüberwachung bei bestimmten Einfuhrverträgen über Erdöl, Erdgas und Kohle.\nEinordnung: Die Nachweisfrist ist für die Planung der Emissionsdaten in der Lieferkette relevant. Der Termin steht im Verhandlungsmandat. Die endgültige Frist hängt von der Einigung zwischen Rat und Parlament ab.\nQuellen: https://www.consilium.europa.eu/sl/press/press-releases/2026/11/06/methane-regulation-council-agrees-to-postpone-monitoring-rules-for-one-year/ https://data.consilium.europa.eu/doc/document/ST-15503-2026-INIT/en/pdf"
+    },
+    {
       "id": "2026-11-07-1",
       "date": "2026-11-07",
       "number": 1,

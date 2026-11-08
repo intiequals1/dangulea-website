@@ -1957,6 +1957,602 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-08-1",
+      "contentHash": "cf910355ceb59e6475518add5e2586e8b444bb5303ba265111ac5719f61285a6",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-08T09:19:47.298Z",
+          "reviewer": "Codex – Originalquellenabgleich",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Österreichs Großhandel meldet höhere Preise für IKT-Geräte",
+              "verdict": "supported",
+              "reason": "Der Jahresvergleich für die Geräte steht im Abschnitt zu den Preistreibern.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106GHPI_Oktober2026.pdf"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Statistik Austria veröffentlichte am 6. November vorläufige Großhandelspreise für Oktober 2026.",
+              "verdict": "supported",
+              "reason": "Der Einleitungsabsatz nennt Veröffentlichungsdatum, Bezugsmonat und vorläufigen Status.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106GHPI_Oktober2026.pdf"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Geräte der Informations- und Kommunikationstechnik lagen 19,3 Prozent über Oktober 2025.",
+              "verdict": "supported",
+              "reason": "Der zweite Absatz zum Jahresvergleich nennt die IKT-Rate für die Warengruppe.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106GHPI_Oktober2026.pdf"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Gesamtindex stieg im Jahresvergleich um 10,0 Prozent und sank gegenüber September 2026 um 0,2 Prozent.",
+              "verdict": "supported",
+              "reason": "Die Tabelle zum Gesamtindex weist für Oktober beide Veränderungsraten getrennt aus.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106GHPI_Oktober2026.pdf"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-08T09:21:51.148Z",
+          "reviewer": "Codex – gezielte Gegenrecherche",
+          "limitations": [
+            "Der vorläufige Teilindex bildet die Warengruppe im Großhandel ab."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Österreichs Großhandel meldet höhere Preise für IKT-Geräte",
+              "verdict": "supported",
+              "reason": "Der IKT-Teilwert im Jahresvergleich stützt die Überschrift.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106GHPI_Oktober2026.pdf",
+                "https://www.statistik.at/statistiken/volkswirtschaft-und-oeffentliche-finanzen/preise-und-preisindizes/grosshandelspreisindex"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Statistik Austria veröffentlichte am 6. November vorläufige Großhandelspreise für Oktober 2026.",
+              "verdict": "supported",
+              "reason": "Originalmitteilung und Datenseite kennzeichnen Oktober als vorläufig.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106GHPI_Oktober2026.pdf",
+                "https://www.statistik.at/statistiken/volkswirtschaft-und-oeffentliche-finanzen/preise-und-preisindizes/grosshandelspreisindex"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Geräte der Informations- und Kommunikationstechnik lagen 19,3 Prozent über Oktober 2025.",
+              "verdict": "supported",
+              "reason": "Der Teilwert steht im Abschnitt über die Entwicklung gegenüber Oktober 2025.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106GHPI_Oktober2026.pdf",
+                "https://www.statistik.at/statistiken/volkswirtschaft-und-oeffentliche-finanzen/preise-und-preisindizes/grosshandelspreisindex"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Gesamtindex stieg im Jahresvergleich um 10,0 Prozent und sank gegenüber September 2026 um 0,2 Prozent.",
+              "verdict": "supported",
+              "reason": "Der Gesamtindex in der Tabelle enthält beide genannten Raten in getrennten Spalten.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106GHPI_Oktober2026.pdf",
+                "https://www.statistik.at/statistiken/volkswirtschaft-und-oeffentliche-finanzen/preise-und-preisindizes/grosshandelspreisindex"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "Statistik Austria Oktober 2026 Großhandel IKT 19,3 vorläufig Korrektur",
+              "finding": "Keine Berichtigung für den IKT-Teilwert gefunden. Der Originalbericht ordnet 19,3 Prozent der Gerätegruppe und dem Vorjahresvergleich zu.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106GHPI_Oktober2026.pdf",
+                "https://www.statistik.at/statistiken/volkswirtschaft-und-oeffentliche-finanzen/preise-und-preisindizes/grosshandelspreisindex"
+              ]
+            },
+            {
+              "query": "GHPI Oktober 2026 109,7 10,0 minus 0,2 Index Großhandel Basis Statistik Austria",
+              "finding": "Die Datenseite nennt 109,7 Punkte und die Basis 2025. Die Tabelle im PDF unterscheidet 10,0 Prozent zum Vorjahresmonat von minus 0,2 Prozent zur Vorperiode.",
+              "sourceUrls": [
+                "https://www.statistik.at/fileadmin/announcement/2026/11/20261106GHPI_Oktober2026.pdf",
+                "https://www.statistik.at/statistiken/volkswirtschaft-und-oeffentliche-finanzen/preise-und-preisindizes/grosshandelspreisindex"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "6. November als Veröffentlichungsdatum geprüft. +19,3 und +10,0 Prozent gegenüber Oktober 2025, −0,2 Prozent gegenüber September 2026.",
+            "scopeAndQualifications": "Vorläufige Großhandelswerte. IKT ist ein Teilindex, Gesamtindex und Teilindex haben unterschiedliche Warenumfänge.",
+            "sourceIndependence": "PDF und Datenseite stammen von Statistik Austria. Wiederholungen der Meldung ergeben keine zweite Messung.",
+            "contradictions": "Keine widersprechende amtliche Veröffentlichung gefunden. Punkte und Veränderungsraten sind getrennte Größen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-08-2",
+      "contentHash": "46010494fa750fa7dbc307c21c357ef1acfe40ca111a4b7b8ae03fa75e21bc0f",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-08T09:19:47.299Z",
+          "reviewer": "Codex – Originalquellenabgleich",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Rat legt Position zur Energie- und Reifenkennzeichnung fest",
+              "verdict": "supported",
+              "reason": "Die datierte Ratsmitteilung beschreibt die eigene Position zu beiden Kennzeichnungsbereichen.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/simplification-council-agrees-position-to-simplify-energy-and-tyre-labelling/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der Rat der EU einigte sich am 6. November auf ein Verhandlungsmandat zur Vereinfachung der Energie- und Reifenkennzeichnung.",
+              "verdict": "supported",
+              "reason": "Datum und Verhandlungsstand ergeben sich aus der Kopfzeile, dem Mandatslink und dem Abschnitt zu den nächsten Schritten.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/simplification-council-agrees-position-to-simplify-energy-and-tyre-labelling/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Für Produkte mit einem noch nicht an die neue Skala angepassten Energielabel sieht das Mandat nach einer Umstellung der Skala grundsätzlich vier Monate weiteren Verkauf vor.",
+              "verdict": "supported",
+              "reason": "Der Abschnitt zur Energieskala nennt vier Monate für den weiteren Verkauf und daneben eine eigene Frist für Ausnahmen.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/simplification-council-agrees-position-to-simplify-energy-and-tyre-labelling/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-08T09:21:51.149Z",
+          "reviewer": "Codex – gezielte Gegenrecherche",
+          "limitations": [
+            "Das Mandat sieht Ausnahmen vor. Der endgültige Text hängt vom weiteren Gesetzgebungsverfahren ab."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Rat legt Position zur Energie- und Reifenkennzeichnung fest",
+              "verdict": "supported",
+              "reason": "Das Mandat und die Verfahrensakte bestätigen die Ratsposition als Verhandlungsschritt.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/simplification-council-agrees-position-to-simplify-energy-and-tyre-labelling/",
+                "https://data.consilium.europa.eu/doc/document/ST-15528-2026-INIT/en/pdf",
+                "https://oeil.europarl.europa.eu/oeil/de/procedure-file?reference=2026%2F0169%28COD%29"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der Rat der EU einigte sich am 6. November auf ein Verhandlungsmandat zur Vereinfachung der Energie- und Reifenkennzeichnung.",
+              "verdict": "supported",
+              "reason": "Kopfzeile und Mandatsdokument tragen das Datum 6. November.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/simplification-council-agrees-position-to-simplify-energy-and-tyre-labelling/",
+                "https://data.consilium.europa.eu/doc/document/ST-15528-2026-INIT/en/pdf",
+                "https://oeil.europarl.europa.eu/oeil/de/procedure-file?reference=2026%2F0169%28COD%29"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Für Produkte mit einem noch nicht an die neue Skala angepassten Energielabel sieht das Mandat nach einer Umstellung der Skala grundsätzlich vier Monate weiteren Verkauf vor.",
+              "verdict": "supported",
+              "reason": "Absatz 13 bestätigt die allgemeine Viermonatsfrist für die Umstellung am Verkaufsort. Ausnahmen werden im Meldungstext berücksichtigt.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/simplification-council-agrees-position-to-simplify-energy-and-tyre-labelling/",
+                "https://data.consilium.europa.eu/doc/document/ST-15528-2026-INIT/en/pdf",
+                "https://oeil.europarl.europa.eu/oeil/de/procedure-file?reference=2026%2F0169%28COD%29"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "EU energy tyre labelling 6 November 2026 four months 12 months 15528 mandate exceptions",
+              "finding": "Das Mandat in Artikel 11 Absatz 13 unterscheidet die Viermonatsfrist für das Label am Verkaufsort von zwölf Monaten für bestimmte Restbestände.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/simplification-council-agrees-position-to-simplify-energy-and-tyre-labelling/",
+                "https://data.consilium.europa.eu/doc/document/ST-15528-2026-INIT/en/pdf",
+                "https://oeil.europarl.europa.eu/oeil/de/procedure-file?reference=2026%2F0169%28COD%29"
+              ]
+            },
+            {
+              "query": "energy and tyre labelling November 2026 Parliament position final adoption 2026/0168",
+              "finding": "Die Verfahrensakte 2026/0169(COD) führt das Dossier beim zuständigen Ausschuss. Der Ratsstand ist ein Verhandlungsmandat.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/simplification-council-agrees-position-to-simplify-energy-and-tyre-labelling/",
+                "https://data.consilium.europa.eu/doc/document/ST-15528-2026-INIT/en/pdf",
+                "https://oeil.europarl.europa.eu/oeil/de/procedure-file?reference=2026%2F0169%28COD%29"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Ratsmandat vom 6. November. Vier Monate ab Umstellung, zwölf Monate unter besonderen Voraussetzungen.",
+            "scopeAndQualifications": "Die allgemeine Frist betrifft das alte Label bei der Umstellung. Ausnahmen betreffen unter anderem bestimmte Lagerbestände.",
+            "sourceIndependence": "Ratsmitteilung und Mandat bilden denselben institutionellen Stand ab. Die Parlamentsakte gibt den Verfahrensstand aus eigener Zuständigkeit wieder.",
+            "contradictions": "Vier und zwölf Monate beziehen sich auf unterschiedliche Fälle. Ein endgültiger Rechtsakt ist im Verfahrensstand nicht belegt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-08-3",
+      "contentHash": "2faf48c47ee113a83488d5e2d5553b2dd7edb825a229d58cd555729c9c8ce0ac",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-08T09:19:47.299Z",
+          "reviewer": "Codex – Originalquellenabgleich",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP beschreibt Fertigungspilot bei ifm",
+              "verdict": "supported",
+              "reason": "Der Anbieterbeitrag beschreibt in seinem Ausblick einen Pilotbetrieb.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/what-manufacturers-can-learn-from-ifm/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP berichtete am 6. November, dass der Sensorhersteller ifm bei der Standardisierung seiner Fertigungsprozesse SAP Digital Manufacturing ausgewählt hat.",
+              "verdict": "supported",
+              "reason": "Das Veröffentlichungsdatum steht über dem Beitrag. Der Abschnitt zur Standardisierung nennt die Auswahl des Produkts durch ifm.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/what-manufacturers-can-learn-from-ifm/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Nach einem Pilotbetrieb bereitet ifm laut SAP den Einsatz an weiteren Standorten vor.",
+              "verdict": "supported",
+              "reason": "Im Ausblick folgt die Vorbereitung der Ausweitung ausdrücklich auf den Pilotbetrieb.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/what-manufacturers-can-learn-from-ifm/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-08T09:21:51.149Z",
+          "reviewer": "Codex – gezielte Gegenrecherche",
+          "limitations": [
+            "Die Angaben stammen aus einem Anbieterbericht."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP beschreibt Fertigungspilot bei ifm",
+              "verdict": "supported",
+              "reason": "Die Überschrift schreibt den Pilotbericht SAP zu.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/what-manufacturers-can-learn-from-ifm/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP berichtete am 6. November, dass der Sensorhersteller ifm bei der Standardisierung seiner Fertigungsprozesse SAP Digital Manufacturing ausgewählt hat.",
+              "verdict": "supported",
+              "reason": "SAP nennt Datum und Produktauswahl im Abschnitt zur Standardisierung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/what-manufacturers-can-learn-from-ifm/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Nach einem Pilotbetrieb bereitet ifm laut SAP den Einsatz an weiteren Standorten vor.",
+              "verdict": "supported",
+              "reason": "Der Ausblick des Anbieterberichts spricht von geplanter Ausweitung nach dem Pilot.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/what-manufacturers-can-learn-from-ifm/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "ifm SAP Digital Manufacturing pilot rollout cbs 2026 ifm customer project",
+              "finding": "Die Recherche zum Umsetzungspartner ergab keine unabhängig geprüfte ifm-Implementierungsbilanz. Die verwendete SAP-Fallbeschreibung nennt die Produktauswahl und die Mitwirkung von cbs.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/what-manufacturers-can-learn-from-ifm/"
+              ]
+            },
+            {
+              "query": "ifm Digital Manufacturing November 2026 rollout all sites already live SAP pilot",
+              "finding": "Der SAP-Beitrag unterscheidet den Pilotbetrieb von der Vorbereitung weiterer Standorte. Gefundene Produkt-Release-Termine betreffen die Plattform und belegen keinen ifm-Rollout.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/what-manufacturers-can-learn-from-ifm/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "6. November datiert den Beitrag. Ein konkreter Pilot- oder Rollouttermin wird im Meldungstext nicht behauptet.",
+            "scopeAndQualifications": "Die dokumentierte Auswahl und der berichtete Pilot bilden den Umfang. Die Ausweitung ist in Vorbereitung.",
+            "sourceIndependence": "Die verwendete Quelle stammt vom Lösungsanbieter. Das Kundenstatement darin ist Teil derselben Fallbeschreibung.",
+            "contradictions": "Kein Beleg für bereits abgeschlossene Einführung im gesamten Netz gefunden. Release-Plan und Kundenprojekt sind getrennt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-08-4",
+      "contentHash": "3e5d2acd83fdc608625baf392c8dad56b86fce1bdd632259176d9eec5cf35c42",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-08T09:19:47.299Z",
+          "reviewer": "Codex – Originalquellenabgleich",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IEA vergleicht zwei Pfade zur Gebäudeeffizienz bis 2035",
+              "verdict": "supported",
+              "reason": "Die Kurzfassung stellt die geltenden politischen Rahmenbedingungen einem Maßnahmenpfad gegenüber.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency",
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency/executive-summary"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Internationale Energieagentur veröffentlichte am 5. November einen Sonderbericht zur Energieeffizienz von Gebäuden.",
+              "verdict": "supported",
+              "reason": "Die Berichtsseite nennt Thema und Datum der Veröffentlichung.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency",
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency/executive-summary"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Im Szenario mit heutigen politischen Rahmenbedingungen sinkt die weltweite Energieintensität von Gebäuden bis 2035 um 7 Prozent gegenüber 2025.",
+              "verdict": "supported",
+              "reason": "Die Kurzfassung nennt 7 Prozent gegenüber 2025 für das Szenario mit heutiger Politik.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency",
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency/executive-summary"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Ein Pfad mit zusätzlichen Maßnahmen kommt auf 26 Prozent.",
+              "verdict": "supported",
+              "reason": "Im folgenden Absatz beziffert die IEA den Rückgang im Maßnahmenpfad bei gleicher Basis auf 26 Prozent.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency",
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency/executive-summary"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-08T09:21:51.149Z",
+          "reviewer": "Codex – gezielte Gegenrecherche",
+          "limitations": [
+            "Die Prozentwerte beziehen sich auf die globale Energieintensität."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IEA vergleicht zwei Pfade zur Gebäudeeffizienz bis 2035",
+              "verdict": "supported",
+              "reason": "Die Kurzfassung stellt die Szenarien mit demselben Zieljahr gegenüber.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency",
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency/executive-summary",
+                "https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Internationale Energieagentur veröffentlichte am 5. November einen Sonderbericht zur Energieeffizienz von Gebäuden.",
+              "verdict": "supported",
+              "reason": "Publikationsseite belegt den Sonderbericht und sein Datum.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency",
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency/executive-summary",
+                "https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Im Szenario mit heutigen politischen Rahmenbedingungen sinkt die weltweite Energieintensität von Gebäuden bis 2035 um 7 Prozent gegenüber 2025.",
+              "verdict": "supported",
+              "reason": "Die 7 Prozent sind dem Szenario mit heutiger Politik und Basisjahr 2025 zugeordnet.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency",
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency/executive-summary",
+                "https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Ein Pfad mit zusätzlichen Maßnahmen kommt auf 26 Prozent.",
+              "verdict": "supported",
+              "reason": "Der Maßnahmenpfad erreicht in der Kurzfassung 26 Prozent gegenüber demselben Basisjahr.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency",
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency/executive-summary",
+                "https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "IEA buildings efficiency 2035 26% 7% 2025 baseline 2026 corrections",
+              "finding": "Die IEA-Kurzfassung nennt für beide Werte das Basisjahr 2025 und das Zieljahr 2035. Mit Basisjahr 2020 nennt sie 11 beziehungsweise 28 Prozent.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency",
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency/executive-summary",
+                "https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings"
+              ]
+            },
+            {
+              "query": "COP31 Antalya buildings efficiency 25% 2035 proposed not adopted IEA 2026",
+              "finding": "Die COP31-Präsidentschaft nennt im Antalya Compact ein Ziel von 25 Prozent gegenüber 2020. Das Ziel und die IEA-Szenarien sind unterschiedliche Aussagen.",
+              "sourceUrls": [
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency",
+                "https://www.iea.org/reports/special-report-on-buildings-efficiency/executive-summary",
+                "https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Publikation am 5. November, Modellhorizont 2035, 7 und 26 Prozent jeweils gegenüber 2025.",
+            "scopeAndQualifications": "Globale Energieintensität und zwei Szenarien. Die Zahlen liefern keinen Gebäudewert und keine garantierte Einsparung.",
+            "sourceIndependence": "Berichtsseite und Kurzfassung stammen von der IEA. Die COP31-Präsidentschaft belegt ihr eigenes politisches Ziel, keine unabhängige Szenariovalidierung.",
+            "contradictions": "Die abweichenden Zahlen ergeben sich aus anderen Basisjahren oder der Unterscheidung zwischen politischem Ziel und Szenario."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-08-5",
+      "contentHash": "603f41c19c2867c6dee3c62473f5088e49bbc1821e3f0ee493eb445f04d0fd5c",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-08T09:20:46.849Z",
+          "reviewer": "Codex – erneuter Originalquellenabgleich am Mandatstext",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Rat legt Nachweisfrist für Methanregeln bei Importen vor",
+              "verdict": "supported",
+              "reason": "Artikel 1 des Ratsmandats enthält einen Vorschlag für den ersten Nachweistermin in Artikel 28 Absatz 1.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/sl/press/press-releases/2026/11/06/methane-regulation-council-agrees-to-postpone-monitoring-rules-for-one-year/",
+                "https://data.consilium.europa.eu/doc/document/ST-15503-2026-INIT/en/pdf"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der Rat der EU legte am 6. November seine Position zu Änderungen der Methanverordnung fest.",
+              "verdict": "supported",
+              "reason": "Die Ratsmitteilung datiert die Einigung über die Position auf den 6. November.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/sl/press/press-releases/2026/11/06/methane-regulation-council-agrees-to-postpone-monitoring-rules-for-one-year/",
+                "https://data.consilium.europa.eu/doc/document/ST-15503-2026-INIT/en/pdf"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Mandatstext nennt den 31. Mai 2029 als ersten Termin für den Nachweis gleichwertiger Methanüberwachung bei bestimmten Einfuhrverträgen über Erdöl, Erdgas und Kohle.",
+              "verdict": "supported",
+              "reason": "Die Neufassung von Artikel 28 Absatz 1 nennt den 31. Mai 2029 und erfasst seit dem 4. August 2024 geschlossene oder erneuerte Lieferverträge für die genannten Energieträger.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/sl/press/press-releases/2026/11/06/methane-regulation-council-agrees-to-postpone-monitoring-rules-for-one-year/",
+                "https://data.consilium.europa.eu/doc/document/ST-15503-2026-INIT/en/pdf"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-08T09:21:51.149Z",
+          "reviewer": "Codex – gezielte Gegenrecherche",
+          "limitations": [
+            "Die endgültige Frist hängt von der Einigung zwischen Rat und Parlament ab."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Rat legt Nachweisfrist für Methanregeln bei Importen vor",
+              "verdict": "supported",
+              "reason": "Das Mandat nennt eine vorgeschlagene Frist. Der Vergleich mit dem Parlamentsstand bestätigt ihren Verhandlungscharakter.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/sl/press/press-releases/2026/11/06/methane-regulation-council-agrees-to-postpone-monitoring-rules-for-one-year/",
+                "https://data.consilium.europa.eu/doc/document/ST-15503-2026-INIT/en/pdf",
+                "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1920882",
+                "https://eur-lex.europa.eu/eli/reg/2024/1787/oj/eng"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der Rat der EU legte am 6. November seine Position zu Änderungen der Methanverordnung fest.",
+              "verdict": "supported",
+              "reason": "Datierte Ratsmitteilung ordnet das Dokument als Ratsposition ein.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/sl/press/press-releases/2026/11/06/methane-regulation-council-agrees-to-postpone-monitoring-rules-for-one-year/",
+                "https://data.consilium.europa.eu/doc/document/ST-15503-2026-INIT/en/pdf",
+                "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1920882",
+                "https://eur-lex.europa.eu/eli/reg/2024/1787/oj/eng"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Mandatstext nennt den 31. Mai 2029 als ersten Termin für den Nachweis gleichwertiger Methanüberwachung bei bestimmten Einfuhrverträgen über Erdöl, Erdgas und Kohle.",
+              "verdict": "supported",
+              "reason": "Artikel 28 Absatz 1 im Mandat nennt die erste Frist und die relevanten Vertragsarten. Der Parlamentsentwurf mit 2031 betrifft einen eigenen Verhandlungsstand.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/sl/press/press-releases/2026/11/06/methane-regulation-council-agrees-to-postpone-monitoring-rules-for-one-year/",
+                "https://data.consilium.europa.eu/doc/document/ST-15503-2026-INIT/en/pdf",
+                "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1920882",
+                "https://eur-lex.europa.eu/eli/reg/2024/1787/oj/eng"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"31 May 2029\" \"15503/26\" methane Article 28 Council deadline contracts 2028",
+              "finding": "Artikel 28 Absatz 1 im Mandat ST 15503/26 nennt den 31. Mai 2029 für den Nachweis zu Lieferungen im vorangegangenen Kalenderjahr und grenzt die betroffenen Verträge ein.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/sl/press/press-releases/2026/11/06/methane-regulation-council-agrees-to-postpone-monitoring-rules-for-one-year/",
+                "https://data.consilium.europa.eu/doc/document/ST-15503-2026-INIT/en/pdf",
+                "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1920882",
+                "https://eur-lex.europa.eu/eli/reg/2024/1787/oj/eng"
+              ]
+            },
+            {
+              "query": "\"31 May 2031\" methane Parliament \"31 May 2029\" November 2026 final agreement Article 28",
+              "finding": "Das parlamentarische Dossier weist auf einen anderen vorgeschlagenen Termin hin. Der Parlamentsstand nennt den 31. Mai 2031. Die Fassung für die Veröffentlichung schreibt den Termin von 2029 ausschließlich dem Ratsmandat zu.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/sl/press/press-releases/2026/11/06/methane-regulation-council-agrees-to-postpone-monitoring-rules-for-one-year/",
+                "https://data.consilium.europa.eu/doc/document/ST-15503-2026-INIT/en/pdf",
+                "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1920882",
+                "https://eur-lex.europa.eu/eli/reg/2024/1787/oj/eng"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Ratsposition vom 6. November. 31. Mai 2029 ist der im Mandat formulierte erste Nachweistermin zu Vorjahreslieferungen.",
+            "scopeAndQualifications": "Artikel 28 Absatz 1 betrifft bestimmte Verträge für Einfuhren von Erdöl, Erdgas und Kohle. Artikel 27 enthält eigene Informationspflichten.",
+            "sourceIndependence": "Ratsmitteilung und Mandat dokumentieren dieselbe Position. Die Parlamentsakte belegt einen eigenen Änderungsstand.",
+            "contradictions": "Der Januar 2028 in der Ratsmitteilung bezeichnet die vorgesehene Anwendung. Der präzisierte Text verwendet den Nachweistermin aus dem Mandat. Der Parlamentsvorschlag für 2031 bleibt getrennt."
+          }
+        }
+      ]
     }
   ]
 }
