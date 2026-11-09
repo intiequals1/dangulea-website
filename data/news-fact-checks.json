@@ -2553,6 +2553,573 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-09-1",
+      "contentHash": "b9fa603f8587254489102bb9fce797cd6fec4902e2933ae8ed8fc22eed001f66",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-09T08:24:21Z",
+          "reviewer": "Codex – Abgleich mit den geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU startet Plattform für europäisches Chipdesign",
+              "verdict": "supported",
+              "reason": "Die Kommission beschreibt den offiziellen EuroCDP-Start bei dem Treffen der Halbleiterallianz in Brüssel.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/semiconductor-alliance-meets-discuss-tech-sovereignty-package",
+                "https://digital-strategy.ec.europa.eu/en/news/eu525-million-investment-set-drive-new-generation-european-chip-design-companies"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Europäische Kommission meldet den offiziellen Start der European Chip Design Platform am 4. November 2026.",
+              "verdict": "supported",
+              "reason": "Der Bericht über das Treffen nennt den 4. November ausdrücklich als Starttermin. Die gesonderte Mitteilung ist auf denselben Tag datiert.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/semiconductor-alliance-meets-discuss-tech-sovereignty-package",
+                "https://digital-strategy.ec.europa.eu/en/news/eu525-million-investment-set-drive-new-generation-european-chip-design-companies"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die cloudbasierte Plattform verschafft Start-ups Zugang zu Entwurfswerkzeugen, wiederverwendbaren Schaltungsbausteinen und Fertigungskapazitäten.",
+              "verdict": "supported",
+              "reason": "Der Absatz zu EuroCDP nennt den cloudbasierten Zugang für Start-ups zu Designwerkzeugen, IP-Blöcken und Fertigungskapazitäten.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/semiconductor-alliance-meets-discuss-tech-sovereignty-package",
+                "https://digital-strategy.ec.europa.eu/en/news/eu525-million-investment-set-drive-new-generation-european-chip-design-companies"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-09T08:25:35.187Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [
+            "Der Plattformstart belegt noch keine zusätzlichen produzierten Chips."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU startet Plattform für europäisches Chipdesign",
+              "verdict": "supported",
+              "reason": "Das österreichische ERA-Portal bezeichnet EuroCDP als gestartete Chipdesign-Plattform. Das bezeichnet einen Infrastrukturstart und keinen Produktionsanlauf.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/semiconductor-alliance-meets-discuss-tech-sovereignty-package",
+                "https://digital-strategy.ec.europa.eu/en/news/eu525-million-investment-set-drive-new-generation-european-chip-design-companies",
+                "https://www.era.gv.at/news-items/ec-launches-european-chip-design-platform/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Europäische Kommission meldet den offiziellen Start der European Chip Design Platform am 4. November 2026.",
+              "verdict": "supported",
+              "reason": "Die Mitteilung zur Mobilisierung der Investitionen nennt den 4. November 2026. Die Meldung vom 5. November berichtet rückblickend über den Start am Vortag.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/semiconductor-alliance-meets-discuss-tech-sovereignty-package",
+                "https://digital-strategy.ec.europa.eu/en/news/eu525-million-investment-set-drive-new-generation-european-chip-design-companies",
+                "https://www.era.gv.at/news-items/ec-launches-european-chip-design-platform/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die cloudbasierte Plattform verschafft Start-ups Zugang zu Entwurfswerkzeugen, wiederverwendbaren Schaltungsbausteinen und Fertigungskapazitäten.",
+              "verdict": "supported",
+              "reason": "Der Bericht zur Allianz beschreibt den Zugang als Funktion der Plattform. Die Investitionsmitteilung bestätigt den Fokus auf die Entwicklung europäischer Chipdesign-Unternehmen.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/semiconductor-alliance-meets-discuss-tech-sovereignty-package",
+                "https://digital-strategy.ec.europa.eu/en/news/eu525-million-investment-set-drive-new-generation-european-chip-design-companies",
+                "https://www.era.gv.at/news-items/ec-launches-european-chip-design-platform/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "EuroCDP 4 November 2026 official launch cloud chip design tools early stage grants delivered European Chips Act",
+              "finding": "Das ERA-Portal nennt den 4. November als Starttermin. Der Kommissionsbericht beschreibt Werkzeugzugang und Fertigungskapazitäten als Plattformangebot.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/semiconductor-alliance-meets-discuss-tech-sovereignty-package",
+                "https://digital-strategy.ec.europa.eu/en/news/eu525-million-investment-set-drive-new-generation-european-chip-design-companies",
+                "https://www.era.gv.at/news-items/ec-launches-european-chip-design-platform/"
+              ]
+            },
+            {
+              "query": "EuroCDP 500 million November 2026 funding planned not awarded chips JU official platform",
+              "finding": "Die Kommission beziffert das zu mobilisierende Investitionsvolumen gesondert auf 525 Millionen Euro. Der Bericht über das Treffen rundet auf etwa 500 Millionen. Die Meldung enthält keinen Investitionsbetrag und behauptet keine Auszahlung.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/semiconductor-alliance-meets-discuss-tech-sovereignty-package",
+                "https://digital-strategy.ec.europa.eu/en/news/eu525-million-investment-set-drive-new-generation-european-chip-design-companies",
+                "https://www.era.gv.at/news-items/ec-launches-european-chip-design-platform/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Start am 4. November, Bericht des Treffens vom 5. November. Die verschiedenen Rundungen beim geplanten Investitionsvolumen bleiben getrennt.",
+            "scopeAndQualifications": "Gemeinsamer Zugang für Chipdesign-Start-ups. Plattformstart ist keine Produktionsstatistik und kein Nachweis ausgezahlter Mittel.",
+            "sourceIndependence": "Beide Kommissionsmeldungen stammen vom selben Herausgeber. Das ERA-Portal greift die Ankündigung auf und ist keine unabhängige Evaluation.",
+            "contradictions": "Kein abweichender Starttermin in den geöffneten Seiten. Die unterschiedliche Genauigkeit bei den angekündigten Mitteln wurde nicht in den Artikel übernommen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-2",
+      "contentHash": "2b0c0c5429188f42fe7543667d5697c3db669a51439003fd54861b8ec3489d70",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-09T08:24:21Z",
+          "reviewer": "Codex – Abgleich mit den geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP plant Partner-Vorschau für Business One 11",
+              "verdict": "supported",
+              "reason": "Der Abschnitt zur nächsten Produktversion nennt ausdrücklich eine erste Vorschau für Partner im Jahr 2027.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-business-one-30-years-of-growing-together/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "In seinem Beitrag vom 5. November 2026 stellt SAP für Business One Version 11 eine erste Partner-Vorschau im Jahr 2027 in Aussicht.",
+              "verdict": "supported",
+              "reason": "Der Beitrag ist auf den 5. November 2026 datiert. Der Absatz zu Version 11 unterscheidet die Partner-Vorschau von bereits eingeführten Funktionen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-business-one-30-years-of-growing-together/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Zu den angekündigten Änderungen zählen Werkzeuge für containerisiertes Lifecycle-Management und Unterstützung für die Bereitstellung bei großen Cloud-Anbietern.",
+              "verdict": "supported",
+              "reason": "SAP nennt dort containerisiertes Lifecycle-Management und die Unterstützung der Bereitstellung auf Hyperscaler-Plattformen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-business-one-30-years-of-growing-together/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-09T08:25:35.187Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [
+            "Die Angaben stammen vom Hersteller und betreffen geplante Funktionen. Eine allgemeine Freigabe ist damit nicht belegt."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP plant Partner-Vorschau für Business One 11",
+              "verdict": "supported",
+              "reason": "Das Hersteller-Infoblatt behandelt Version 11 als Teil der Roadmap. Die konkrete Formulierung im News-Center nennt eine anfängliche Partner-Vorschau.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-business-one-30-years-of-growing-together/",
+                "https://www.sap.com/documents/2026/10/7c68b8f8-6c7f-0010-bca6-c68f7e60039b.html",
+                "https://support.sap.com/en/offerings-programs/support-small-medium-enterprises/business-one.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "In seinem Beitrag vom 5. November 2026 stellt SAP für Business One Version 11 eine erste Partner-Vorschau im Jahr 2027 in Aussicht.",
+              "verdict": "supported",
+              "reason": "Die bestehenden Support- und Wartungsangebote auf der Produktseite enthalten keine Freigabebestätigung für Version 11. Der News-Center-Beitrag nennt 2027 nur für die erste Vorschau.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-business-one-30-years-of-growing-together/",
+                "https://www.sap.com/documents/2026/10/7c68b8f8-6c7f-0010-bca6-c68f7e60039b.html",
+                "https://support.sap.com/en/offerings-programs/support-small-medium-enterprises/business-one.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Zu den angekündigten Änderungen zählen Werkzeuge für containerisiertes Lifecycle-Management und Unterstützung für die Bereitstellung bei großen Cloud-Anbietern.",
+              "verdict": "supported",
+              "reason": "Die Angaben zu containerisierten Werkzeugen und Hyperscalern stehen im Absatz über Version 11. Der darauffolgende Absatz beschreibt ältere KI-Funktionen separat.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-business-one-30-years-of-growing-together/",
+                "https://www.sap.com/documents/2026/10/7c68b8f8-6c7f-0010-bca6-c68f7e60039b.html",
+                "https://support.sap.com/en/offerings-programs/support-small-medium-enterprises/business-one.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "SAP Business One version 11 partner preview 2027 general availability SAP roadmap containerized",
+              "finding": "Der SAP-Beitrag gibt 2027 für die erste Partner-Vorschau an. Das Hersteller-Infoblatt ordnet Version 11 der Roadmap zu, ohne die Vorschau als allgemeine Freigabe auszugeben.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-business-one-30-years-of-growing-together/",
+                "https://www.sap.com/documents/2026/10/7c68b8f8-6c7f-0010-bca6-c68f7e60039b.html",
+                "https://support.sap.com/en/offerings-programs/support-small-medium-enterprises/business-one.html"
+              ]
+            },
+            {
+              "query": "SAP Business One 11 November 2026 partner preview vs existing 10 web client release SAP Help",
+              "finding": "Die SAP-Supportseite beschreibt laufende Wartung und Partner-Support, bietet aber keinen Beleg für einen allgemeinen Rollout der angekündigten Version. Bereits eingeführte Funktionen im News-Center-Beitrag sind getrennt beschrieben.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-business-one-30-years-of-growing-together/",
+                "https://www.sap.com/documents/2026/10/7c68b8f8-6c7f-0010-bca6-c68f7e60039b.html",
+                "https://support.sap.com/en/offerings-programs/support-small-medium-enterprises/business-one.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "5. November 2026 ist das Artikeldatum. 2027 ist der geplante Zeitraum der ersten Partner-Vorschau.",
+            "scopeAndQualifications": "Vorschau und geplante Betriebswerkzeuge gelten für die Version 11. Eine allgemeine Freigabe oder bestätigte Ausfallfreiheit ist nicht Gegenstand der Meldung.",
+            "sourceIndependence": "News-Center, Infoblatt und Supportseite sind SAP-Quellen. Es liegt keine unabhängige Bestätigung der geplanten Funktionen vor.",
+            "contradictions": "Keine entgegenstehende Freigabemeldung in den geprüften Produktquellen. Bereits bestehende Funktionen belegen keinen Start von Version 11."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-3",
+      "contentHash": "ced30eeae5ab2bffff425d4c4ac631de9f84be4145d016e484d79072c32b9401",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-09T08:24:21Z",
+          "reviewer": "Codex – Abgleich mit den geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Copernicus meldet globalen Oktober-Temperaturrekord in ERA5",
+              "verdict": "supported",
+              "reason": "Der Abschnitt Global-average temperature ordnet Oktober 2026 in der ERA5-Reihe als weltweit wärmsten Oktober ein.",
+              "sourceUrls": [
+                "https://climate.copernicus.eu/surface-air-temperature-october-2026",
+                "https://climate.copernicus.eu/copernicus-warmest-october-record-2026-virtually-certain-exceed-15degc"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der Copernicus-Klimadienst stuft Oktober 2026 in der ERA5-Auswertung als weltweit wärmsten Oktober ein.",
+              "verdict": "supported",
+              "reason": "Der globale ERA5-Vergleich stellt den Oktober 2026 über den bisherigen Oktoberrekord von 2023.",
+              "sourceUrls": [
+                "https://climate.copernicus.eu/surface-air-temperature-october-2026",
+                "https://climate.copernicus.eu/copernicus-warmest-october-record-2026-virtually-certain-exceed-15degc"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die globale mittlere bodennahe Lufttemperatur lag bei 15,35 Grad Celsius und damit 0,90 Grad über dem Oktobermittel von 1991 bis 2020.",
+              "verdict": "supported",
+              "reason": "Die erste Aufzählung unter Global-average temperature nennt 15,35 Grad Celsius und eine Abweichung von 0,90 Grad vom Mittel 1991–2020.",
+              "sourceUrls": [
+                "https://climate.copernicus.eu/surface-air-temperature-october-2026",
+                "https://climate.copernicus.eu/copernicus-warmest-october-record-2026-virtually-certain-exceed-15degc"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-09T08:25:35.187Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [
+            "Die Rangfolge bezieht sich auf die ERA5-Datenreihe."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Copernicus meldet globalen Oktober-Temperaturrekord in ERA5",
+              "verdict": "supported",
+              "reason": "Die Pressefassung bestätigt den Rekord für das globale ERA5-Mittel. Das europäische Landmittel und die globale Landtemperatur verwenden getrennte räumliche Abgrenzungen.",
+              "sourceUrls": [
+                "https://climate.copernicus.eu/surface-air-temperature-october-2026",
+                "https://climate.copernicus.eu/copernicus-warmest-october-record-2026-virtually-certain-exceed-15degc",
+                "https://climate.copernicus.eu/climate-indicators/about-data"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der Copernicus-Klimadienst stuft Oktober 2026 in der ERA5-Auswertung als weltweit wärmsten Oktober ein.",
+              "verdict": "supported",
+              "reason": "Der Detailbericht und die Pressefassung stimmen für den globalen Oktober überein. Die Formulierung bleibt auf ERA5 beschränkt.",
+              "sourceUrls": [
+                "https://climate.copernicus.eu/surface-air-temperature-october-2026",
+                "https://climate.copernicus.eu/copernicus-warmest-october-record-2026-virtually-certain-exceed-15degc",
+                "https://climate.copernicus.eu/climate-indicators/about-data"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die globale mittlere bodennahe Lufttemperatur lag bei 15,35 Grad Celsius und damit 0,90 Grad über dem Oktobermittel von 1991 bis 2020.",
+              "verdict": "supported",
+              "reason": "Beide Fassungen weisen global 15,35 Grad und plus 0,90 Grad gegenüber 1991–2020 aus. Die präindustrielle Referenz ergibt einen anderen Vergleichswert.",
+              "sourceUrls": [
+                "https://climate.copernicus.eu/surface-air-temperature-october-2026",
+                "https://climate.copernicus.eu/copernicus-warmest-october-record-2026-virtually-certain-exceed-15degc",
+                "https://climate.copernicus.eu/climate-indicators/about-data"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "October 2026 15.35 0.90 ERA5 global warmest October Europe second warmest Copernicus November 2026",
+              "finding": "Globale Zahlen sind in Detailbericht und Pressefassung identisch. Die europäischen Absolutwerte unterscheiden sich dort, der europäische Wert wurde deshalb nicht übernommen.",
+              "sourceUrls": [
+                "https://climate.copernicus.eu/surface-air-temperature-october-2026",
+                "https://climate.copernicus.eu/copernicus-warmest-october-record-2026-virtually-certain-exceed-15degc",
+                "https://climate.copernicus.eu/climate-indicators/about-data"
+              ]
+            },
+            {
+              "query": "Copernicus October 2026 record independent NOAA Berkeley Earth October 2026 15.35 Paris long term ERA5",
+              "finding": "Die Methodenseite beschreibt Unterschiede zwischen Datensätzen und Referenzen. Die gelesenen Belege tragen die Rangfolge innerhalb ERA5. Daraus wird kein datensatzübergreifender Rekord und keine langfristige Schwellenüberschreitung abgeleitet.",
+              "sourceUrls": [
+                "https://climate.copernicus.eu/surface-air-temperature-october-2026",
+                "https://climate.copernicus.eu/copernicus-warmest-october-record-2026-virtually-certain-exceed-15degc",
+                "https://climate.copernicus.eu/climate-indicators/about-data"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Oktober 2026, global 15,35 Grad, plus 0,90 Grad gegenüber dem Oktobermittel 1991–2020. Der Wert von 1,75 Grad gehört zur anderen Referenz 1850–1900.",
+            "scopeAndQualifications": "Globales Monatsmittel in ERA5. Europa, globales Landmittel, Jahresprognose und langfristige Erwärmung sind unterschiedliche Größen.",
+            "sourceIndependence": "Pressefassung und Detailbericht stammen von C3S/ECMWF und nutzen dieselbe ERA5-Auswertung. Die Methodenseite dient der Abgrenzung.",
+            "contradictions": "Detailbericht und Pressefassung nennen für europäisches Land unterschiedliche absolute Werte (11,08 beziehungsweise 11,51 Grad). Die veröffentlichten globalen Angaben stimmen überein."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-4",
+      "contentHash": "6c31e71c844e4ed65c5fc5764e172151d7b6b240e1dbc9ec081b6c62784884ac",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-09T08:24:21Z",
+          "reviewer": "Codex – Abgleich mit den geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Österreichs Stromkundschaft wechselt häufiger den Lieferanten",
+              "verdict": "supported",
+              "reason": "Die E-Control-Meldung stellt für Strom 4,1 Prozent im aktuellen und 3,9 Prozent im entsprechenden Vorjahreszeitraum gegenüber.",
+              "sourceUrls": [
+                "https://ots2023.ots.at/presseaussendung/OTS_20261104_OTS0017/e-control-weiterer-anstieg-beim-wechsel-des-strom-oder-gaslieferanten",
+                "https://www.bmwet.gv.at/Presse/AktuellePressemeldungen/stromanbieterwechseln.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "E-Control meldet für Jänner bis September 2026 insgesamt 261.238 Wechsel des Stromlieferanten in Österreich, davon 215.650 bei Haushalten.",
+              "verdict": "supported",
+              "reason": "Die E-Control-Presseaussendung nennt Jänner bis September, 261.238 Stromkund:innen und davon 215.650 Haushalte. Das Ministerium nennt dieselbe Strom-Gesamtzahl.",
+              "sourceUrls": [
+                "https://ots2023.ots.at/presseaussendung/OTS_20261104_OTS0017/e-control-weiterer-anstieg-beim-wechsel-des-strom-oder-gaslieferanten",
+                "https://www.bmwet.gv.at/Presse/AktuellePressemeldungen/stromanbieterwechseln.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Wechselrate für Strom lag bei 4,1 Prozent nach 3,9 Prozent im Vorjahreszeitraum.",
+              "verdict": "supported",
+              "reason": "Die Mitteilung der Regulierungsbehörde nennt beide Wechselraten im Absatz zur Aufschlüsselung von Strom und Gas.",
+              "sourceUrls": [
+                "https://ots2023.ots.at/presseaussendung/OTS_20261104_OTS0017/e-control-weiterer-anstieg-beim-wechsel-des-strom-oder-gaslieferanten",
+                "https://www.bmwet.gv.at/Presse/AktuellePressemeldungen/stromanbieterwechseln.html"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-09T08:25:35.187Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [
+            "Die Zahlen erfassen den Strommarkt einschließlich Unternehmen. Für sich genommen belegen sie weder eine bestimmte Ersparnis noch, welche Ursachen den Anstieg erklären."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Österreichs Stromkundschaft wechselt häufiger den Lieferanten",
+              "verdict": "supported",
+              "reason": "Das Ministerium führt 261.238 Stromwechsel an. Der Branchenvergleich der E-Control zeigt eine höhere Stromwechselrate als im Vorjahreszeitraum.",
+              "sourceUrls": [
+                "https://ots2023.ots.at/presseaussendung/OTS_20261104_OTS0017/e-control-weiterer-anstieg-beim-wechsel-des-strom-oder-gaslieferanten",
+                "https://www.bmwet.gv.at/Presse/AktuellePressemeldungen/stromanbieterwechseln.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "E-Control meldet für Jänner bis September 2026 insgesamt 261.238 Wechsel des Stromlieferanten in Österreich, davon 215.650 bei Haushalten.",
+              "verdict": "supported",
+              "reason": "Die Regulierungsmitteilung grenzt 261.238 Stromwechsel, darunter 215.650 Haushalte, von 65.494 Gaswechseln und der kombinierten Zahl 326.732 ab.",
+              "sourceUrls": [
+                "https://ots2023.ots.at/presseaussendung/OTS_20261104_OTS0017/e-control-weiterer-anstieg-beim-wechsel-des-strom-oder-gaslieferanten",
+                "https://www.bmwet.gv.at/Presse/AktuellePressemeldungen/stromanbieterwechseln.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Wechselrate für Strom lag bei 4,1 Prozent nach 3,9 Prozent im Vorjahreszeitraum.",
+              "verdict": "supported",
+              "reason": "Der Vergleich 4,1 zu 3,9 Prozent bezieht sich auf Strom. Die höheren Gaswechselraten von 5,6 und 4,4 Prozent gehören nicht dazu.",
+              "sourceUrls": [
+                "https://ots2023.ots.at/presseaussendung/OTS_20261104_OTS0017/e-control-weiterer-anstieg-beim-wechsel-des-strom-oder-gaslieferanten",
+                "https://www.bmwet.gv.at/Presse/AktuellePressemeldungen/stromanbieterwechseln.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "E-Control 261238 4.1 September 2026 November 4 electricity households businesses 215650",
+              "finding": "Der Regulierer trennt die Haushaltszahl von allen Stromwechseln. Die Zahlenangabe des Ministeriums stimmt bei der Strom-Gesamtzahl überein.",
+              "sourceUrls": [
+                "https://ots2023.ots.at/presseaussendung/OTS_20261104_OTS0017/e-control-weiterer-anstieg-beim-wechsel-des-strom-oder-gaslieferanten",
+                "https://www.bmwet.gv.at/Presse/AktuellePressemeldungen/stromanbieterwechseln.html"
+              ]
+            },
+            {
+              "query": "E-Control 326732 combined gas electricity 261238 Austrian Strom Anbieterwechsel 2026 4.1 methodology Q3",
+              "finding": "Die E-Control-Meldung trennt Strom- und Gaswechsel. Die kombinierte Zahl ist größer. Die Zahlen werden ohne Zuschreibung einer konkreten Ursache wiedergegeben.",
+              "sourceUrls": [
+                "https://ots2023.ots.at/presseaussendung/OTS_20261104_OTS0017/e-control-weiterer-anstieg-beim-wechsel-des-strom-oder-gaslieferanten",
+                "https://www.bmwet.gv.at/Presse/AktuellePressemeldungen/stromanbieterwechseln.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Jänner bis September 2026. 261.238 Stromwechsel, davon 215.650 Haushalte. 4,1 gegenüber 3,9 Prozent für Strom im Vorjahreszeitraum.",
+            "scopeAndQualifications": "Die Grundgesamtheit umfasst Haushalte und Unternehmen. Gaswechsel, Jahresgesamtzahlen und tatsächlich erzielte Einsparungen sind nicht erfasst.",
+            "sourceIndependence": "Das Ministerium beruft sich auf E-Control. Die APA-OTS-Seite übermittelt die Originalaussendung der Regulierungsbehörde. Die Zahlen stammen aus derselben Marktstatistik.",
+            "contradictions": "Die Ministeriumsmitteilung verbindet den Anstieg politisch mit der Reform. Der Artikel lässt Kausalbehauptungen und separat genannte Wachstumsprozente weg."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-5",
+      "contentHash": "915a6fe20bc6974220f2f018c96a9d5ac253e1157908c502b6dee3a756cc0fe0",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-09T08:24:21Z",
+          "reviewer": "Codex – Abgleich mit den geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Kommission veröffentlicht vorläufigen DSA-Befund zu TikToks Empfehlungsfeed",
+              "verdict": "supported",
+              "reason": "Die datierte Kommissionsmitteilung ordnet den Befund zum For-You-Empfehlungsfeed dem Digital Services Act zu und nennt ihn ausdrücklich vorläufig.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
+                "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2361/IP_26_2361_EN.pdf"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Europäische Kommission legte am 6. November 2026 vorläufige Feststellungen zum personalisierten TikTok-Feed „Für dich“ vor.",
+              "verdict": "supported",
+              "reason": "Das Original-PDF trägt das Datum 6. November 2026. Der erste Absatz bezeichnet das Empfehlungssystem im personalisierten For-You-Feed.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
+                "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2361/IP_26_2361_EN.pdf"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Nach vorläufiger Einschätzung der Kommission hat TikTok Risiken durch die wiederholte Empfehlung ähnlicher potenziell schädlicher Inhalte unzureichend bewertet und begrenzt.",
+              "verdict": "supported",
+              "reason": "Die Abschnitte Risk assessment und Risk mitigation measures führen die vorläufig beanstandete Bewertung und Eindämmung von Risiken wiederholter ähnlicher Empfehlungen getrennt aus.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
+                "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2361/IP_26_2361_EN.pdf"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-09T08:25:35.187Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [
+            "TikTok kann zu den Feststellungen Stellung nehmen. Eine endgültige Entscheidung steht aus."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Kommission veröffentlicht vorläufigen DSA-Befund zu TikToks Empfehlungsfeed",
+              "verdict": "supported",
+              "reason": "Die nächsten Verfahrensschritte im Original-PDF sehen eine Stellungnahme des Unternehmens vor. Die Überschrift gibt deshalb eine vorläufige Feststellung wieder.",
+              "sourceUrls": [
+                "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2361/IP_26_2361_EN.pdf",
+                "https://www.euronews.com/2026/11/06/eu-tells-tiktok-to-change-harmful-for-you-feed-over-rabbit-hole-effect",
+                "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-addictive-design-breach-digital-services-act"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Europäische Kommission legte am 6. November 2026 vorläufige Feststellungen zum personalisierten TikTok-Feed „Für dich“ vor.",
+              "verdict": "supported",
+              "reason": "Die Hintergrundpassage des PDFs unterscheidet die November-Feststellungen vom eigenen Februar-Befund zu suchtförderndem Design innerhalb desselben Verfahrens.",
+              "sourceUrls": [
+                "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2361/IP_26_2361_EN.pdf",
+                "https://www.euronews.com/2026/11/06/eu-tells-tiktok-to-change-harmful-for-you-feed-over-rabbit-hole-effect",
+                "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-addictive-design-breach-digital-services-act"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Nach vorläufiger Einschätzung der Kommission hat TikTok Risiken durch die wiederholte Empfehlung ähnlicher potenziell schädlicher Inhalte unzureichend bewertet und begrenzt.",
+              "verdict": "supported",
+              "reason": "Die Kommission erkennt an, dass TikTok bereits Maßnahmen ergriffen hat, beurteilt diese vorläufig als unzureichend. Euronews gibt TikToks Widerspruch wieder. Die Meldung schreibt die Einschätzung ausdrücklich der Kommission zu.",
+              "sourceUrls": [
+                "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2361/IP_26_2361_EN.pdf",
+                "https://www.euronews.com/2026/11/06/eu-tells-tiktok-to-change-harmful-for-you-feed-over-rabbit-hole-effect",
+                "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-addictive-design-breach-digital-services-act"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "TikTok November 6 2026 For You rabbit holes preliminary not final right defence DSA 34 35 Commission",
+              "finding": "Das Original-PDF nennt das Recht auf schriftliche Stellungnahme und eine mögliche spätere Entscheidung. Die Meldung setzt keinen endgültigen Verstoß voraus.",
+              "sourceUrls": [
+                "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2361/IP_26_2361_EN.pdf",
+                "https://www.euronews.com/2026/11/06/eu-tells-tiktok-to-change-harmful-for-you-feed-over-rabbit-hole-effect",
+                "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-addictive-design-breach-digital-services-act"
+              ]
+            },
+            {
+              "query": "TikTok statement November 2026 For You rabbit holes fundamentally inaccurate EU decision November 6 risk assessment separate addictive design",
+              "finding": "Euronews dokumentiert TikToks Zurückweisung des Vorwurfs. Die Kommissionsmitteilung vom Februar betraf einen anderen Befund im selben Verfahren.",
+              "sourceUrls": [
+                "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2361/IP_26_2361_EN.pdf",
+                "https://www.euronews.com/2026/11/06/eu-tells-tiktok-to-change-harmful-for-you-feed-over-rabbit-hole-effect",
+                "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-addictive-design-breach-digital-services-act"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Die Feststellungen zum Empfehlungsfeed datieren vom 6. November 2026. Der Befund zum suchtfördernden Design datiert vom 6. Februar 2026.",
+            "scopeAndQualifications": "Beanstandet werden Risikobewertung und Wirksamkeit der Minderungsmaßnahmen. Die Meldung spricht keine Sanktion aus.",
+            "sourceIndependence": "Beide amtlichen Fassungen geben dieselbe Kommissionsposition wieder. Euronews trägt als Gegenperspektive die Antwort des Plattformbetreibers bei, ohne den Befund unabhängig zu bestätigen.",
+            "contradictions": "TikTok weist die Feststellungen zurück. Der Artikel behandelt die Bewertung als vorläufige Position der Kommission und behauptet keinen feststehenden Verstoß."
+          }
+        }
+      ]
     }
   ]
 }

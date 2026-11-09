@@ -2,6 +2,41 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-09-1",
+      "date": "2026-11-09",
+      "number": 1,
+      "title": "EU startet Plattform für europäisches Chipdesign",
+      "text": "Fakten: Die Europäische Kommission meldet den offiziellen Start der European Chip Design Platform am 4. November 2026. Die cloudbasierte Plattform verschafft Start-ups Zugang zu Entwurfswerkzeugen, wiederverwendbaren Schaltungsbausteinen und Fertigungskapazitäten.\nEinordnung: Gemeinsame Infrastruktur kann Einstiegshürden für kleinere Chipentwickler senken. Der Plattformstart belegt noch keine zusätzlichen produzierten Chips.\nQuellen:\nhttps://digital-strategy.ec.europa.eu/en/news/semiconductor-alliance-meets-discuss-tech-sovereignty-package\nhttps://digital-strategy.ec.europa.eu/en/news/eu525-million-investment-set-drive-new-generation-european-chip-design-companies"
+    },
+    {
+      "id": "2026-11-09-2",
+      "date": "2026-11-09",
+      "number": 2,
+      "title": "SAP plant Partner-Vorschau für Business One 11",
+      "text": "Fakten: In seinem Beitrag vom 5. November 2026 stellt SAP für Business One Version 11 eine erste Partner-Vorschau im Jahr 2027 in Aussicht. Zu den angekündigten Änderungen zählen Werkzeuge für containerisiertes Lifecycle-Management und Unterstützung für die Bereitstellung bei großen Cloud-Anbietern.\nEinordnung: Für kleine und mittlere Unternehmen und ihre Implementierungspartner sind Betriebsmodell und Update-Prozesse relevant. Die Angaben stammen vom Hersteller und betreffen geplante Funktionen. Eine allgemeine Freigabe ist damit nicht belegt.\nQuellen:\nhttps://news.sap.com/2026/11/sap-business-one-30-years-of-growing-together/"
+    },
+    {
+      "id": "2026-11-09-3",
+      "date": "2026-11-09",
+      "number": 3,
+      "title": "Copernicus meldet globalen Oktober-Temperaturrekord in ERA5",
+      "text": "Fakten: Der Copernicus-Klimadienst stuft Oktober 2026 in der ERA5-Auswertung als weltweit wärmsten Oktober ein. Die globale mittlere bodennahe Lufttemperatur lag bei 15,35 Grad Celsius und damit 0,90 Grad über dem Oktobermittel von 1991 bis 2020.\nEinordnung: Die Rangfolge bezieht sich auf die ERA5-Datenreihe. Ein einzelner Monatswert erlaubt keine Aussage darüber, ob die langfristige Temperaturschwelle des Pariser Abkommens bereits überschritten ist.\nQuellen:\nhttps://climate.copernicus.eu/surface-air-temperature-october-2026\nhttps://climate.copernicus.eu/copernicus-warmest-october-record-2026-virtually-certain-exceed-15degc"
+    },
+    {
+      "id": "2026-11-09-4",
+      "date": "2026-11-09",
+      "number": 4,
+      "title": "Österreichs Stromkundschaft wechselt häufiger den Lieferanten",
+      "text": "Fakten: E-Control meldet für Jänner bis September 2026 insgesamt 261.238 Wechsel des Stromlieferanten in Österreich, davon 215.650 bei Haushalten. Die Wechselrate für Strom lag bei 4,1 Prozent nach 3,9 Prozent im Vorjahreszeitraum.\nEinordnung: Die Zahlen erfassen den Strommarkt einschließlich Unternehmen. Für sich genommen belegen sie weder eine bestimmte Ersparnis noch, welche Ursachen den Anstieg erklären.\nQuellen:\nhttps://ots2023.ots.at/presseaussendung/OTS_20261104_OTS0017/e-control-weiterer-anstieg-beim-wechsel-des-strom-oder-gaslieferanten\nhttps://www.bmwet.gv.at/Presse/AktuellePressemeldungen/stromanbieterwechseln.html"
+    },
+    {
+      "id": "2026-11-09-5",
+      "date": "2026-11-09",
+      "number": 5,
+      "title": "EU-Kommission veröffentlicht vorläufigen DSA-Befund zu TikToks Empfehlungsfeed",
+      "text": "Fakten: Die Europäische Kommission legte am 6. November 2026 vorläufige Feststellungen zum personalisierten TikTok-Feed „Für dich“ vor. Nach vorläufiger Einschätzung der Kommission hat TikTok Risiken durch die wiederholte Empfehlung ähnlicher potenziell schädlicher Inhalte unzureichend bewertet und begrenzt.\nEinordnung: Der Vorgang zeigt, wie die EU Risiken von Empfehlungssystemen im Rahmen des Digital Services Act untersucht. TikTok kann zu den Feststellungen Stellung nehmen. Eine endgültige Entscheidung steht aus.\nQuellen:\nhttps://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes\nhttps://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2361/IP_26_2361_EN.pdf"
+    },
+    {
       "id": "2026-11-08-1",
       "date": "2026-11-08",
       "number": 1,
