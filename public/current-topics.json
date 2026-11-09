@@ -2,7 +2,7 @@
   {
     "id": "erp-brief",
     "title": "ERP-Brief",
-    "lastCheckedAt": "2026-11-03T09:23:09+01:00",
+    "lastCheckedAt": "2026-11-09T05:50:59+01:00",
     "status": "ok",
     "updates": [
       {
@@ -143,14 +143,18 @@
       },
       {
         "id": "business-data-cloud",
-        "date": "2026-10-29",
+        "date": "2026-11-09",
         "title": "Business Data Cloud und semantische Datenprodukte",
-        "summary": "Der Themenbereich verbindet SAP- und Drittanbieterdaten mit fachlicher Semantik, Datenprodukten und Governance als Grundlage für KI-gestützte Unternehmensprozesse. Im gelesenen ERP-Brief stehen Business Data Cloud, Datasphere und Analytics Cloud sowie ihre gemeinsame Architektur- und Roadmap-Planung im Fokus. SAP beschreibt Business Data Cloud als Datenbasis seiner Business AI Platform und führt Datasphere und Analytics Cloud als Bestandteile an. Daraus ergeben sich Fragen zu Datenqualität, Herkunft, fachlicher Verantwortung, Berechtigungen und Reconciliation. Die Produktbeschreibung ist eine Herstellerquelle; sie belegt weder unabhängig gemessene Nutzenwerte noch eine pauschale Pflicht zur Ablösung bestehender Dienste. Konkrete Vertragsbedingungen und regionale Funktionsverfügbarkeit sind gesondert zu prüfen.",
-        "relevance": "Themenbereich aus dem ausgewerteten ERP-Briefing.",
+        "summary": "Der Themenbereich verbindet SAP- und Drittanbieterdaten mit fachlicher Semantik, Datenprodukten und Governance als Grundlage für KI-gestützte Unternehmensprozesse. Im gelesenen ERP-Brief stehen Business Data Cloud, Datasphere und Analytics Cloud sowie ihre gemeinsame Architektur- und Roadmap-Planung im Fokus. SAP beschreibt Business Data Cloud als Datenbasis seiner Business AI Platform und führt Datasphere und Analytics Cloud als Bestandteile an. Daraus ergeben sich Fragen zu Datenqualität, Herkunft, fachlicher Verantwortung, Berechtigungen und Reconciliation. Die Produktbeschreibung ist eine Herstellerquelle; sie belegt weder unabhängig gemessene Nutzenwerte noch eine pauschale Pflicht zur Ablösung bestehender Dienste. Konkrete Vertragsbedingungen und regionale Funktionsverfügbarkeit sind gesondert zu prüfen. SAP beschreibt seit der TechEd im Oktober 2026 native Unterstützung für das Tabellenformat Apache Iceberg und einen auf Apache Polaris basierenden Katalog. Für die ERP-Architektur ist daran relevant, dass Daten plattformübergreifend katalogisiert und geteilt werden können. SAPs technische Beschreibung belegt den Ansatz aus Herstellersicht.",
+        "relevance": "Fassung vom 2026-11-09 um 05:50 Uhr (Europe/Vienna).",
         "sources": [
           {
             "title": "SAP – Business Data Cloud: Datenprodukte, Semantik und bestehende Datasphere-/Analytics-Cloud-Dienste",
             "url": "https://www.sap.com/products/data-cloud.html"
+          },
+          {
+            "title": "SAP News – Lakehouse und Data Fabric in SAP Business Data Cloud",
+            "url": "https://news.sap.com/2026/10/sap-lakehouse-new-data-fabric-innovations-sap-bdc-autonomous-enterprise/"
           }
         ]
       },
@@ -166,13 +170,30 @@
             "url": "https://news.sap.com/2026/11/ai-transformation-guidance-for-every-customer/"
           }
         ]
+      },
+      {
+        "id": "sap-sovereign-cloud",
+        "date": "2026-11-09",
+        "title": "Souveräne Cloud für regulierte ERP-Umgebungen",
+        "summary": "Souveräne Cloud-Architekturen verbinden Datenstandort, operative Zuständigkeiten und Kontrolle über Datenverarbeitung. Das niederländische Verteidigungsministerium und SAP vereinbarten die Entwicklung und den Betrieb einer Cloud in den Niederlanden. Die Umgebung ist Teil der Multicloud-Strategie des Ministeriums und soll am 1. Januar 2028 in Betrieb gehen. Das Beispiel zeigt, welche Anforderungen an Datenkontrolle, Wartung und Betrieb Auftraggeber getrennt festlegen können.",
+        "relevance": "Fassung vom 2026-11-09 um 05:50 Uhr (Europe/Vienna).",
+        "sources": [
+          {
+            "title": "SAP News – Vereinbarung zur Sovereign Cloud",
+            "url": "https://news.sap.com/2026/11/dutch-ministry-of-defense-chooses-sap-sovereign-cloud/"
+          },
+          {
+            "title": "Ergänzende Originalquelle: Niederländisches Verteidigungsministerium – Cloudstrategie",
+            "url": "https://www.defensie.nl/nieuws/20261022-defensie-zet-volgende-stap-in-cloudstrategie"
+          }
+        ]
       }
     ]
   },
   {
     "id": "erp-postimplementierung",
     "title": "ERP-Postimplementierung",
-    "lastCheckedAt": "2026-11-03T09:23:09+01:00",
+    "lastCheckedAt": "2026-11-09T05:50:59+01:00",
     "status": "access_required",
     "updates": [
       {
