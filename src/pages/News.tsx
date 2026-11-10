@@ -6,8 +6,10 @@ import NewsShare from '../components/NewsShare';
 import NewsFactCheck from '../components/NewsFactCheck';
 import NewsWorkflowNotice from '../components/NewsWorkflowNotice';
 import disclosure from '../content/news-disclosure.json';
+import withdrawnEditions from '../../data/news-withdrawn-editions.json';
 
-const dates = [...new Set(articles.map(article => article.date))];
+const listedArticles = articles.filter(article => !withdrawnEditions.includes(article.date));
+const dates = [...new Set(listedArticles.map(article => article.date))];
 
 export default function News() {
   useEffect(() => {
@@ -46,11 +48,11 @@ export default function News() {
                   <span className="news-date">{date}</span>
                   <span className="news-poc-label">{disclosure.label} · autonomer KI-Workflow</span>
                   <h2 className="news-title">Täglicher Überblick: KI, Technologie, ERP, Nachhaltigkeit und Ethik</h2>
-                  <span className="disclosure-preview">{articles.filter(article => article.date === date).map(article => article.title).join(' · ')}</span>
+                  <span className="disclosure-preview">{listedArticles.filter(article => article.date === date).map(article => article.title).join(' · ')}</span>
                   <span className="disclosure-hint" aria-hidden="true" />
                 </summary>
                 <div className="disclosure-content">
-                  {articles.filter(article => article.date === date).map(article => (
+                  {listedArticles.filter(article => article.date === date).map(article => (
                     <article key={article.id} className="news-teaser">
                       <h3 className="news-entry-heading"><a href={article.path}>{article.number}. {article.title}</a></h3>
                       <p>{article.description}</p>

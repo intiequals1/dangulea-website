@@ -173,23 +173,43 @@ def main():
     for route in ['/', '/person', '/projekte', '/news', '/aktuelle-themen', '/ressourcen', '/impressum']:
         path = route if args.base_url or route == '/' else route + '.html'
         require('Diese Website ist noch im Aufbau.' in read(path, 'text/html').decode(), f'Aufbauhinweis fehlt auf {route}')
+    withdrawn_editions = json.loads((ROOT / 'data/news-withdrawn-editions.json').read_text())
+    known_dates = {article['date'] for article in expected}
+    require(len(set(withdrawn_editions)) == len(withdrawn_editions)
+            and set(withdrawn_editions) <= known_dates, 'Unbekannte oder doppelte zurückgezogene Ausgabe')
+    listed = [article for article in expected if article['date'] not in withdrawn_editions]
     overview = Page(read('/news.html' if not args.base_url else '/news', 'text/html').decode())
-    require(overview.pocs.count('autonomous') == 1 and overview.pocs.count('persistent') == 1 and overview.pocs.count('teaser') == len(expected), 'PoC-Kennzeichnung in News-Übersicht fehlt')
+    require(overview.pocs.count('autonomous') == 1 and overview.pocs.count('persistent') == 1 and overview.pocs.count('teaser') == len(listed), 'PoC-Kennzeichnung in News-Übersicht fehlt')
     overview_links = {link.get('href') for link in overview.links}
     for article in expected:
-        require(article['path'] in overview_links and article['url'] in overview.shares, f'Artikel fehlt in Übersicht: {article["id"]}')
+        if article['date'] in withdrawn_editions:
+            require(article['path'] not in overview_links and article['url'] not in overview.shares,
+                    f'Zurückgezogener Artikel in Übersicht: {article["id"]}')
+        else:
+            require(article['path'] in overview_links and article['url'] in overview.shares,
+                    f'Artikel fehlt in Übersicht: {article["id"]}')
     sitemap = ET.fromstring(read('/sitemap.xml', 'application/xml'))
     locations = [element.text for element in sitemap.iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
     require(all(locations.count(url) == 1 for url in urls), 'Artikel in Sitemap fehlt/doppelt')
     rss = ET.fromstring(read('/rss.xml', 'application/xml'))
     require(DISCLOSURE['summary'] in rss.findtext('./channel/description', ''), 'PoC-Erklärung im RSS-Kanal fehlt')
-    for item in rss.findall('./channel/item'):
+    editions = json.loads((ROOT / 'public/news-updates.json').read_text())
+    rss_items = rss.findall('./channel/item')
+    rss_guids = [item.findtext('guid') for item in rss_items]
+    expected_guids = {f'{SITE}/news#news-{edition["date"]}' for edition in editions
+                      if edition['date'] not in withdrawn_editions}
+    require(len(rss_guids) == len(expected_guids) and set(rss_guids) == expected_guids,
+            'Falsche Ausgaben im RSS-Feed')
+    for item in rss_items:
         require(item.findtext('title', '').startswith(DISCLOSURE['label']), 'PoC-Kennzeichnung im RSS-Titel fehlt')
         require(DISCLOSURE['summary'] in item.findtext('description', ''), 'PoC-Erklärung in RSS-Ausgabe fehlt')
 
     def check(article):
         try:
-            check_page(read(article['path'], 'text/html').decode(), article)
+            page = check_page(read(article['path'], 'text/html').decode(), article)
+            withdrawal_notice = 'Diese Ausgabe wurde wegen der Themenauswahl'
+            require((withdrawal_notice in ''.join(page.text)) == (article['date'] in withdrawn_editions),
+                    'Redaktioneller Rückzugshinweis fehlt oder erscheint bei aktiver Ausgabe')
             og = check_image(read(article['ogImage'], 'image/png'), (1200, 630), require_poc=True)
             story = check_image(read(article['storyImage'], 'image/png'), (1080, 1920), require_poc=True)
             return og, story

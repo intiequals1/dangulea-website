@@ -1,6 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { pathToFileURL } from 'node:url'
 import disclosure from '../src/content/news-disclosure.json' with { type: 'json' }
+import withdrawnEditions from '../data/news-withdrawn-editions.json' with { type: 'json' }
 
 const site = 'https://dangulea.at'
 const aiDisclosure = `${disclosure.label}. ${disclosure.summary} ${disclosure.review} ${disclosure.limits}`
@@ -68,6 +69,7 @@ ${itemXml}
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const items = JSON.parse(await readFile(new URL('../public/news-updates.json', import.meta.url), 'utf8'))
-  await writeFile(new URL('../dist/rss.xml', import.meta.url), createNewsFeed(items))
-  console.log(`RSS feed generated with ${items.length} daily editions`)
+  const listed = items.filter(item => !withdrawnEditions.includes(item.date))
+  await writeFile(new URL('../dist/rss.xml', import.meta.url), createNewsFeed(listed))
+  console.log(`RSS feed generated with ${listed.length} daily editions`)
 }
