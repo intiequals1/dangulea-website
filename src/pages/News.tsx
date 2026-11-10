@@ -8,7 +8,8 @@ import NewsWorkflowNotice from '../components/NewsWorkflowNotice';
 import disclosure from '../content/news-disclosure.json';
 import withdrawnEditions from '../../data/news-withdrawn-editions.json';
 
-const listedArticles = articles.filter(article => !withdrawnEditions.includes(article.date));
+const withdrawnCounts: Record<string, number> = withdrawnEditions;
+const listedArticles = articles.filter(article => article.number > (withdrawnCounts[article.date] ?? 0));
 const dates = [...new Set(listedArticles.map(article => article.date))];
 
 export default function News() {
@@ -54,7 +55,7 @@ export default function News() {
                 <div className="disclosure-content">
                   {listedArticles.filter(article => article.date === date).map(article => (
                     <article key={article.id} className="news-teaser">
-                      <h3 className="news-entry-heading"><a href={article.path}>{article.number}. {article.title}</a></h3>
+                      <h3 className="news-entry-heading"><a href={article.path}>{article.number - (withdrawnCounts[date] ?? 0)}. {article.title}</a></h3>
                       <p>{article.description}</p>
                       <p className="news-poc-label" data-news-poc="teaser">{disclosure.label} · KI-Synthese · automatisch veröffentlicht</p>
                       <NewsFactCheck check={article.factCheck} />

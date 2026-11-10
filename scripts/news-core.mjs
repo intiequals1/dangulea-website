@@ -19,7 +19,7 @@ export function assertArticle(article) {
   }
 }
 
-export function splitEditions(editions) {
+export function splitEditions(editions, withdrawnCounts = {}) {
   if (!Array.isArray(editions) || editions.length === 0) throw new Error('News-Quelle muss ein nicht leeres Array sein')
   const dates = new Set()
   return editions.flatMap(edition => {
@@ -34,14 +34,15 @@ export function splitEditions(editions) {
       if (Number(heading[1]) !== index + 1) throw new Error(`Lückenhafte/doppelte Nummerierung: ${edition.date}`)
       const body = text.slice(heading.index + heading[0].length, headings[index + 1]?.index ?? text.length)
         .split(/\n+Transparenz zur KI-Unterstützung:/)[0].trim()
-      const article = { id: `${edition.date}-${index + 1}`, date: edition.date, number: index + 1, title: heading[2].trim(), text: body }
+      const number = (withdrawnCounts[edition.date] ?? 0) + index + 1
+      const article = { id: `${edition.date}-${number}`, date: edition.date, number, title: heading[2].trim(), text: body }
       assertArticle(article)
       return article
     })
   })
 }
 
-export function mergeArchive(archive, editions) {
+export function mergeArchive(archive, editions, withdrawnCounts = {}) {
   if (archive.version !== 1 || !Array.isArray(archive.articles)) throw new Error('Ungültiges News-Archiv')
   const articles = new Map()
   for (const article of archive.articles) {
@@ -49,11 +50,21 @@ export function mergeArchive(archive, editions) {
     if (articles.has(article.id)) throw new Error(`Doppelte Archiv-ID: ${article.id}`)
     articles.set(article.id, article)
   }
-  const incoming = splitEditions(editions)
+  for (const [date, count] of Object.entries(withdrawnCounts)) {
+    if (!Number.isSafeInteger(count) || count < 1 || count > articles.size) {
+      throw new Error(`Ungültiger Rückzug: ${date}`)
+    }
+    for (let number = 1; number <= count; number++) {
+      if (!articles.has(`${date}-${number}`)) throw new Error(`Zurückgezogene Meldung fehlt im Archiv: ${date}-${number}`)
+    }
+  }
+  const incoming = splitEditions(editions, withdrawnCounts)
   const incomingIds = new Set(incoming.map(article => article.id))
   const incomingDates = new Set(incoming.map(article => article.date))
   for (const old of articles.values()) {
-    if (incomingDates.has(old.date) && !incomingIds.has(old.id)) throw new Error(`Artikel aus bestehender Ausgabe entfernt: ${old.id}`)
+    if (old.number > (withdrawnCounts[old.date] ?? 0) && incomingDates.has(old.date) && !incomingIds.has(old.id)) {
+      throw new Error(`Artikel aus bestehender Ausgabe entfernt: ${old.id}`)
+    }
   }
   for (const article of incoming) {
     const old = articles.get(article.id)

@@ -173,16 +173,16 @@ def main():
     for route in ['/', '/person', '/projekte', '/news', '/aktuelle-themen', '/ressourcen', '/impressum']:
         path = route if args.base_url or route == '/' else route + '.html'
         require('Diese Website ist noch im Aufbau.' in read(path, 'text/html').decode(), f'Aufbauhinweis fehlt auf {route}')
-    withdrawn_editions = json.loads((ROOT / 'data/news-withdrawn-editions.json').read_text())
-    known_dates = {article['date'] for article in expected}
-    require(len(set(withdrawn_editions)) == len(withdrawn_editions)
-            and set(withdrawn_editions) <= known_dates, 'Unbekannte oder doppelte zurückgezogene Ausgabe')
-    listed = [article for article in expected if article['date'] not in withdrawn_editions]
+    withdrawn_counts = json.loads((ROOT / 'data/news-withdrawn-editions.json').read_text())
+    withdrawn_ids = {f'{date}-{number}' for date, count in withdrawn_counts.items()
+                     for number in range(1, count + 1)}
+    require(withdrawn_ids <= ids, 'Zurückgezogene Meldung fehlt im Archiv')
+    listed = [article for article in expected if article['id'] not in withdrawn_ids]
     overview = Page(read('/news.html' if not args.base_url else '/news', 'text/html').decode())
     require(overview.pocs.count('autonomous') == 1 and overview.pocs.count('persistent') == 1 and overview.pocs.count('teaser') == len(listed), 'PoC-Kennzeichnung in News-Übersicht fehlt')
     overview_links = {link.get('href') for link in overview.links}
     for article in expected:
-        if article['date'] in withdrawn_editions:
+        if article['id'] in withdrawn_ids:
             require(article['path'] not in overview_links and article['url'] not in overview.shares,
                     f'Zurückgezogener Artikel in Übersicht: {article["id"]}')
         else:
@@ -196,8 +196,11 @@ def main():
     editions = json.loads((ROOT / 'public/news-updates.json').read_text())
     rss_items = rss.findall('./channel/item')
     rss_guids = [item.findtext('guid') for item in rss_items]
-    expected_guids = {f'{SITE}/news#news-{edition["date"]}' for edition in editions
-                      if edition['date'] not in withdrawn_editions}
+    def edition_guid(date):
+        count = withdrawn_counts.get(date, 0)
+        return f'{SITE}/news/{date}/{count + 1}/' if count else f'{SITE}/news#news-{date}'
+
+    expected_guids = {edition_guid(edition['date']) for edition in editions}
     require(len(rss_guids) == len(expected_guids) and set(rss_guids) == expected_guids,
             'Falsche Ausgaben im RSS-Feed')
     for item in rss_items:
@@ -208,7 +211,7 @@ def main():
         try:
             page = check_page(read(article['path'], 'text/html').decode(), article)
             withdrawal_notice = 'Diese Ausgabe wurde wegen der Themenauswahl'
-            require((withdrawal_notice in ''.join(page.text)) == (article['date'] in withdrawn_editions),
+            require((withdrawal_notice in ''.join(page.text)) == (article['id'] in withdrawn_ids),
                     'Redaktioneller Rückzugshinweis fehlt oder erscheint bei aktiver Ausgabe')
             og = check_image(read(article['ogImage'], 'image/png'), (1200, 630), require_poc=True)
             story = check_image(read(article['storyImage'], 'image/png'), (1080, 1920), require_poc=True)

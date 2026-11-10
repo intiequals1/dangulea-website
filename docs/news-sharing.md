@@ -8,6 +8,8 @@ Jede nummerierte Meldung aus `public/news-updates.json` wird ein eigener, ohne J
 
 Veröffentlichte Nummern und Überschriften niemals neu zuordnen oder durch andere Meldungen ersetzen. Auch ein zweiter Lauf am selben Tag muss die veröffentlichte Ausgabe erhalten. Faktenkorrekturen im Text sind möglich; danach erneut synchronisieren. Eine notwendige Überschriftenkorrektur erfordert eine bewusste, gesonderte Änderung des Identitätsvertrags und des historischen Prüfschritts. Der automatische Lauf darf diese Sperre nicht umgehen.
 
+Bei einer ausdrücklich freigegebenen Neuausgabe nach redaktionellem Rückzug zählt `data/news-withdrawn-editions.json` pro Datum die zurückgezogenen Meldungen ab Nummer 1. Sie bleiben unter ihren bisherigen URLs im Archiv. Die Neuausgabe steht in `public/news-updates.json` und beginnt sichtbar wieder bei 1. Ihre Artikel-URLs verwenden die nächsten freien Nummern. Der RSS-GUID verweist auf den ersten neuen Artikel, sodass Reader die Neuausgabe separat erkennen können.
+
 Vor jedem Actions-Build vergleicht `check-news-history.mjs` das Archiv mit dem vorherigen Commit bzw. der PR-Basis. Eine entfernte oder neu zugeordnete bereits veröffentlichte Identität stoppt die Veröffentlichung.
 
 ## Lokale Voraussetzungen

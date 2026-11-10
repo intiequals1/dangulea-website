@@ -14,6 +14,12 @@ test('sorts editions without changing input and keeps stable date permalinks', (
   assert.equal(createNewsFeed([{ ...entry, text: 'Korrektur' }]).match(/<guid.*<\/guid>/)[0], xml.match(/<guid.*<\/guid>/)[0])
 })
 
+test('a replacement has a new feed identity and retains the daily overview link', () => {
+  const xml = createNewsFeed([entry], { [entry.date]: 5 })
+  assert.ok(xml.includes('<link>https://dangulea.at/news#news-2026-10-21</link>'))
+  assert.ok(xml.includes('<guid isPermaLink="true">https://dangulea.at/news/2026-10-21/6/</guid>'))
+})
+
 test('escapes XML and HTML but preserves clickable source links and disclosure', () => {
   const xml = createNewsFeed([entry])
   assert.ok(xml.includes('KI &amp; ERP'))

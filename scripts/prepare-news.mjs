@@ -1,3 +1,4 @@
+import withdrawnEditions from '../data/news-withdrawn-editions.json' with { type: 'json' }
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { mergeArchive, articleView } from './news-core.mjs'
 import { validateFactChecks } from './news-factcheck.mjs'
@@ -11,7 +12,7 @@ catch (error) {
   if (!process.argv.includes('--sync')) throw new Error('News-Archiv fehlt. Zuerst pnpm news:sync ausführen und Archiv committen.')
   archive = { version: 1, articles: [] }
 }
-const merged = mergeArchive(archive, source)
+const merged = mergeArchive(archive, source, withdrawnEditions)
 const checks = validateFactChecks(merged.articles, JSON.parse(await readFile(new URL('data/news-fact-checks.json', root), 'utf8')))
 if (process.argv.includes('--sync')) {
   await writeFile(new URL('data/news-archive.json', root), `${JSON.stringify(merged, null, 2)}\n`)

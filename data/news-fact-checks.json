@@ -3733,6 +3733,596 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-10-6",
+      "contentHash": "a0819d1e7c05e533cd042ac2ecfe0a4f5c94f468206dac090ac25b8df60fa3b4",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T08:26:37Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "KI-Sicherheit: Was der Blick ins Modell leisten kann",
+              "verdict": "supported",
+              "reason": "Der Preprint untersucht mechanistische Modellanalyse und ihre Anwendung auf KI-Sicherheit. Der Titel stellt ihren Nutzen als Frage dar.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.08438v2"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein am 9. November überarbeiteter Preprint vergleicht Methoden, die interne Modellberechnungen untersuchen, mit Tests des beobachtbaren Verhaltens.",
+              "verdict": "supported",
+              "reason": "Der Volltext bezeichnet die Version als v2 vom 9. November 2026. Abstract und Abschnitte 2 und 3 vergleichen Verhaltensprüfungen mit mechanistischen Methoden.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.08438v2"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Er schlägt einen Rahmen vor, um die Aussagekraft solcher Analysen zu bewerten.",
+              "verdict": "supported",
+              "reason": "Der Abstract beschreibt einen vorgeschlagenen Rahmen zur Bewertung mechanistischer Interpretierbarkeitsaussagen.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.08438v2"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T08:27:44.606Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [
+            "Die Arbeit ist eine Forschungsübersicht und liefert keinen Sicherheitsnachweis für einzelne Modelle."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "KI-Sicherheit: Was der Blick ins Modell leisten kann",
+              "verdict": "supported",
+              "reason": "Die Metadaten und der Volltext belegen die Abgrenzung als Methodenübersicht zu Mechanismen und Sicherheit.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.08438v2",
+                "https://arxiv.org/abs/2611.08438"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein am 9. November überarbeiteter Preprint vergleicht Methoden, die interne Modellberechnungen untersuchen, mit Tests des beobachtbaren Verhaltens.",
+              "verdict": "supported",
+              "reason": "Der Versionsverlauf trennt die Ersteinreichung vom 5. November und die Überarbeitung vom 9. November.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.08438v2",
+                "https://arxiv.org/abs/2611.08438"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Er schlägt einen Rahmen vor, um die Aussagekraft solcher Analysen zu bewerten.",
+              "verdict": "supported",
+              "reason": "Die Publikation beschreibt den Rahmen als Vorschlag und diskutiert in Abschnitt 7.5.4 dessen Grenzen.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.08438v2",
+                "https://arxiv.org/abs/2611.08438"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"2611.08438v2\" November 9 revised mechanistic interpretability survey framework behavioral evaluation claims",
+              "finding": "Der arXiv-Verlauf weist die aktuelle Version für den 9. November aus. Der Volltext betrachtet interne Berechnungen und Verhaltensdaten als unterschiedliche Belege.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.08438v2",
+                "https://arxiv.org/abs/2611.08438"
+              ]
+            },
+            {
+              "query": "\"Understanding AI from the Inside\" 2611.08438 mechanistic interpretability evaluation framework limitations six research orientations Barez survey",
+              "finding": "Der Überblick stellt einen Bewertungsrahmen vor und enthält eigene Abschnitte zu methodischen Grenzen. Der Artikel leitet daraus keinen allgemeinen Sicherheitsnachweis ab.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.08438v2",
+                "https://arxiv.org/abs/2611.08438"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Ersteinreichung am 5. und Überarbeitung am 9. November 2026.",
+            "scopeAndQualifications": "Methodische Forschungsübersicht, kein Sicherheitsnachweis für ein bestimmtes Modell.",
+            "sourceIndependence": "Abstract, Versionshistorie und Volltext sind Teile derselben Originalpublikation.",
+            "contradictions": "Beide arXiv-Ansichten stimmen bei der Version überein. Die Autoren behandeln Verhaltensprüfungen weiterhin als relevant."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-7",
+      "contentHash": "9c061e40b225e6cbcd4d2dd9299467c990f77a19e3dd78888555ee972c1273ab",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T08:26:37Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Cloud-ERP: SAP dokumentiert eine Migration über mehrere Gesellschaften",
+              "verdict": "supported",
+              "reason": "SAP schildert ein ERP-Migrationsprojekt für einen Betrieb mit mehreren Gesellschaften und nennt die Public Edition als Ziel.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/oliva-cigar-crafting-digital-legacy-for-next-century/",
+                "https://leverx.com/blog/oliva-cigar-co-partners-with-leverx"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP beschreibt in einem Fallbericht vom 9. November den Wechsel von Oliva Cigar zu SAP S/4HANA Cloud Public Edition.",
+              "verdict": "supported",
+              "reason": "Der SAP-Fallbericht trägt das Datum 9. November und nennt Oliva sowie S/4HANA Cloud Public Edition.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/oliva-cigar-crafting-digital-legacy-for-next-century/",
+                "https://leverx.com/blog/oliva-cigar-co-partners-with-leverx"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Projekt soll Finanz-, Fertigungs- und Lieferkettendaten mehrerer Gesellschaften in einem gemeinsamen System zusammenführen.",
+              "verdict": "supported",
+              "reason": "Der Implementierungspartner nennt Finanzwesen, Fertigung und Lieferkette als gemeinsamen Daten- und Prozessbereich. SAP nennt Gesellschaften in drei Ländern.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/oliva-cigar-crafting-digital-legacy-for-next-century/",
+                "https://leverx.com/blog/oliva-cigar-co-partners-with-leverx"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T08:27:44.606Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [
+            "SAP und LeverX sind am Projekt beteiligt. Ihre Berichte liefern keine unabhängige Wirkungsmessung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Cloud-ERP: SAP dokumentiert eine Migration über mehrere Gesellschaften",
+              "verdict": "supported",
+              "reason": "Der frühere Kundenbeitrag auf der SAP-Website beschreibt die Migration von Business ByDesign für das Wachstum über mehrere Gesellschaften.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/oliva-cigar-crafting-digital-legacy-for-next-century/",
+                "https://leverx.com/blog/oliva-cigar-co-partners-with-leverx",
+                "https://www.sap.com/assetdetail/2026/08/84902cb1-607f-0010-bca6-c68f7e60039b.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP beschreibt in einem Fallbericht vom 9. November den Wechsel von Oliva Cigar zu SAP S/4HANA Cloud Public Edition.",
+              "verdict": "supported",
+              "reason": "LeverX kündigte das Projekt im Juni an. Das Novemberdatum bezeichnet den späteren Fallbericht und keinen belegten Go-live-Termin.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/oliva-cigar-crafting-digital-legacy-for-next-century/",
+                "https://leverx.com/blog/oliva-cigar-co-partners-with-leverx",
+                "https://www.sap.com/assetdetail/2026/08/84902cb1-607f-0010-bca6-c68f7e60039b.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Projekt soll Finanz-, Fertigungs- und Lieferkettendaten mehrerer Gesellschaften in einem gemeinsamen System zusammenführen.",
+              "verdict": "supported",
+              "reason": "Die Projektpartner nennen denselben Integrationsumfang. Der Wortlaut der Meldung beschreibt das Projektziel und übernimmt keine behaupteten Leistungsgewinne.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/oliva-cigar-crafting-digital-legacy-for-next-century/",
+                "https://leverx.com/blog/oliva-cigar-co-partners-with-leverx",
+                "https://www.sap.com/assetdetail/2026/08/84902cb1-607f-0010-bca6-c68f7e60039b.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "Oliva Cigar SAP S/4HANA Cloud Public Edition November 9 2026 finance manufacturing supply chain LeverX case older June no go live",
+              "finding": "Die Juni-Mitteilung von LeverX belegt den Projektumfang. Der SAP-Fallbericht ist vom 9. November. Beide Daten beziehen sich auf verschiedene Veröffentlichungen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/oliva-cigar-crafting-digital-legacy-for-next-century/",
+                "https://leverx.com/blog/oliva-cigar-co-partners-with-leverx",
+                "https://www.sap.com/assetdetail/2026/08/84902cb1-607f-0010-bca6-c68f7e60039b.html"
+              ]
+            },
+            {
+              "query": "Oliva Cigar LeverX SAP multi-company migration Business ByDesign official SAP asset consolidation",
+              "finding": "Der Kundenbeitrag auf SAPs Website nennt Business ByDesign als Ausgangspunkt und das Wachstum über mehrere Gesellschaften. Es fehlen unabhängige Ergebnismessungen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/oliva-cigar-crafting-digital-legacy-for-next-century/",
+                "https://leverx.com/blog/oliva-cigar-co-partners-with-leverx",
+                "https://www.sap.com/assetdetail/2026/08/84902cb1-607f-0010-bca6-c68f7e60039b.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "9. November 2026 ist das Datum des SAP-Fallberichts. Die Partnerankündigung erschien im Juni.",
+            "scopeAndQualifications": "Fall eines einzelnen Unternehmens. Beschrieben sind Produktwahl und angestrebte Zusammenführung.",
+            "sourceIndependence": "SAP, Kunde und LeverX sind beteiligte Quellen. Die Übereinstimmung ist keine unabhängige Wirksamkeitsprüfung.",
+            "contradictions": "Die Quellen unterscheiden sich im Zeitpunkt und Blickwinkel. Die Meldung setzt keinen konkreten Produktivstart voraus."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-8",
+      "contentHash": "d5b17afbe6225cca52fc6167c40bed40d7fa32871517d3fdb4a89dbe2bab695d",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T08:26:37Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "KI-Agenten: Wann lohnt sich eine zusätzliche Prüfung?",
+              "verdict": "supported",
+              "reason": "Der Preprint fragt, wann Interventionen wie eine Prüfung von Agentenaktionen den späteren Ausgang verändern.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.09792v1"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein Preprint vom 6. November untersucht, wie sich Eingriffe während eines Agentenlaufs testen lassen.",
+              "verdict": "supported",
+              "reason": "Der Volltext ist auf den 6. November 2026 datiert. Die Einleitung und Abschnitt 2 behandeln Eingriffe während eines laufenden Agentenprozesses.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.09792v1"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Forschenden wiesen Prüfschritte an ausgewählten Punkten zufällig zu.",
+              "verdict": "supported",
+              "reason": "Abschnitt 2 beschreibt die zufällige Zuweisung von Intervention oder Kontrollbedingung an geeigneten Entscheidungspunkten.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.09792v1"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "In drei Benchmarks hing die Wirkung davon ab, welche Aktion der Agent ausführen wollte und wie weit die Aufgabe fortgeschritten war.",
+              "verdict": "supported",
+              "reason": "Der Abstract nennt Retail, ToolSandbox und ImpossibleBench und Unterschiede nach Aktion und Zustand. Die Experimente betrachten unter anderem Aufgabennähe zum Abschluss.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.09792v1"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T08:27:44.606Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [
+            "Ob dieselben Eingriffe im produktiven Betrieb helfen, bleibt offen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "KI-Agenten: Wann lohnt sich eine zusätzliche Prüfung?",
+              "verdict": "supported",
+              "reason": "Die Studie misst die Wirkung bestimmter Eingriffe. Sie belegt keine allgemeine Regel, bei jedem Schritt zu prüfen.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.09792v1",
+                "https://arxiv.org/abs/2611.09792"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein Preprint vom 6. November untersucht, wie sich Eingriffe während eines Agentenlaufs testen lassen.",
+              "verdict": "supported",
+              "reason": "Versionshistorie und Volltext bestätigen die Einreichung am 6. November und das Untersuchungsziel.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.09792v1",
+                "https://arxiv.org/abs/2611.09792"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Forschenden wiesen Prüfschritte an ausgewählten Punkten zufällig zu.",
+              "verdict": "supported",
+              "reason": "Die Methode randomisiert die Zuweisung an berechtigten Zwischenpunkten, nicht den Ausgang oder die Auswahl des Benchmarks.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.09792v1",
+                "https://arxiv.org/abs/2611.09792"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "In drei Benchmarks hing die Wirkung davon ab, welche Aktion der Agent ausführen wollte und wie weit die Aufgabe fortgeschritten war.",
+              "verdict": "supported",
+              "reason": "Die Ergebnisse beziehen sich auf drei Benchmark-Umgebungen und unterschiedliche Zustandsgruppen. Die Arbeit diskutiert weitere Annahmen und Anschlussversuche.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.09792v1",
+                "https://arxiv.org/abs/2611.09792"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "2611.09792 causal evaluation random interventions tau bench Retail ToolSandbox ImpossibleBench state action three benchmarks",
+              "finding": "Versionshistorie und Abschnitt 2 bestätigen Datierung und zufällige Zuweisung an Zwischenpunkten. Im Abstract sind die drei Benchmarks einzeln genannt.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.09792v1",
+                "https://arxiv.org/abs/2611.09792"
+              ]
+            },
+            {
+              "query": "Knowing When to Intervene 2611.09792 causal interventions limits generalization tool review assumptions benchmark November",
+              "finding": "Abschnitt 4 sowie die Hinweise zur statistischen Interpretation begrenzen die Übertragbarkeit. Die Ergebnisse werden daher nur für die Benchmarks beschrieben.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.09792v1",
+                "https://arxiv.org/abs/2611.09792"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Erste Version am 6. November 2026. Drei benannte Benchmarks.",
+            "scopeAndQualifications": "Die Effekte betreffen getestete Aktionen und Zustände unter den Versuchsbedingungen. Eine Übertragbarkeit auf Produktivsysteme wurde nicht belegt.",
+            "sourceIndependence": "arXiv-Abstract und Volltext sind dieselbe Untersuchung. Es wird keine externe Replikation behauptet.",
+            "contradictions": "Die Arbeit berichtet je nach Zustand unterschiedliche Effekte. Das ist mit der vorsichtigen Einordnung vereinbar."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-9",
+      "contentHash": "1c6a231d61f11c28bbab6b22e0808951ce154cd334a0d3ff33aae53a678a1bfa",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T08:26:37Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Oracle dokumentiert einen neuen Verbindungsweg zwischen EPM und ERP",
+              "verdict": "supported",
+              "reason": "Die November-Release-Notiz führt einen eigenen Verbindungstyp für Verbindungen von EPM zu Fusion Cloud ERP ein.",
+              "sourceUrls": [
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-f52354.htm"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Oracle führt im November-Update für Fusion Cloud EPM einen eigenen Verbindungstyp zu Fusion Cloud ERP auf.",
+              "verdict": "supported",
+              "reason": "Die produktspezifische Notiz benennt den Oracle Fusion Application Cloud Provider und dessen Zielanwendungen.",
+              "sourceUrls": [
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-f52354.htm"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Er ist für Server-zu-Server-Verbindungen vorgesehen und betrifft unter anderem Planung und Finanzkonsolidierung.",
+              "verdict": "supported",
+              "reason": "Business Benefit und Applies to nennen Server-zu-Server-Integration sowie Planning und Financial Consolidation and Close.",
+              "sourceUrls": [
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-f52354.htm"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Einrichtung erfordert Konfiguration.",
+              "verdict": "supported",
+              "reason": "Die Notiz enthält einen Abschnitt zur Aktivierung und Konfiguration. Die Funktionsübersicht kennzeichnet Setup als erforderlich.",
+              "sourceUrls": [
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-f52354.htm"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T08:27:44.606Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [
+            "Die Angaben stammen aus der Herstellerdokumentation."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Oracle dokumentiert einen neuen Verbindungsweg zwischen EPM und ERP",
+              "verdict": "supported",
+              "reason": "Die Oktober-Dokumentation kannte bereits OAuth-Zugriff auf Fusion-REST-APIs. Die November-Meldung bezieht sich auf den neuen Verbindungstyp.",
+              "sourceUrls": [
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-f52354.htm",
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51820.htm",
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-t79416.htm"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Oracle führt im November-Update für Fusion Cloud EPM einen eigenen Verbindungstyp zu Fusion Cloud ERP auf.",
+              "verdict": "supported",
+              "reason": "Die November-Übersicht führt den Verbindungstyp als separates Feature für Cross-Environment Connections.",
+              "sourceUrls": [
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-f52354.htm",
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51820.htm",
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-t79416.htm"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Er ist für Server-zu-Server-Verbindungen vorgesehen und betrifft unter anderem Planung und Finanzkonsolidierung.",
+              "verdict": "supported",
+              "reason": "Die Notiz beschränkt die Anwendbarkeit auf vier EPM-Dienste. Planung und Konsolidierung sind zwei davon.",
+              "sourceUrls": [
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-f52354.htm",
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51820.htm",
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-t79416.htm"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Einrichtung erfordert Konfiguration.",
+              "verdict": "supported",
+              "reason": "Die Release-Übersicht nennt Setup Required. Damit ist kein automatischer Wechsel bestehender Integrationen belegt.",
+              "sourceUrls": [
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-f52354.htm",
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51820.htm",
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-t79416.htm"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "Oracle EPM November 2026 f52354 new connection type Fusion Cloud ERP setup Financial Consolidation and Close Planning 26.11",
+              "finding": "Die November-Übersicht und die Detailnotiz nennen den neuen Verbindungstyp. Die Detailnotiz belegt die betreffenden Dienste und die Server-zu-Server-Verbindung.",
+              "sourceUrls": [
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-f52354.htm",
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51820.htm",
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-t79416.htm"
+              ]
+            },
+            {
+              "query": "Oracle EPM November 26.11 cross environment OAuth ERP provider difference October Fusion REST API connection",
+              "finding": "Die Oktober-Notiz beschreibt bereits einen konfigurierbaren OAuth-Zugang. Der neue Verbindungstyp bedeutet daher nicht die erstmalige technische Integration von EPM und ERP.",
+              "sourceUrls": [
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-f52354.htm",
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51820.htm",
+                "https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-nov26/26nov-epm-wn-t79416.htm"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Die Detailnotiz gehört zur November-Ausgabe 2026. Die vergleichbare OAuth-Konfiguration ist in der Oktober-Ausgabe dokumentiert.",
+            "scopeAndQualifications": "Der neue Typ gilt unter anderem für Planning und Financial Consolidation and Close. Einrichtung ist erforderlich.",
+            "sourceIndependence": "Alle technischen Angaben stammen aus Oracle-Dokumentation. Es wird kein unabhängiger Funktionstest behauptet.",
+            "contradictions": "Die Oktober- und November-Notizen beschreiben unterschiedliche Neuerungen. Der Text schreibt nur den neuen Verbindungstyp dem November zu."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-10",
+      "contentHash": "65baec195998b479e418682d956158fa3ed55903e27a245b29806456c5cf9647",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T08:26:37Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Dynamics 365: Microsoft adressiert Buchungsfehler in der Projektabrechnung",
+              "verdict": "supported",
+              "reason": "Microsoft führt den Buchungsblocker unter den Qualitätskorrekturen für Project Operations mit ERP auf.",
+              "sourceUrls": [
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/whats-new/whats-new-nov-2026-resource-based"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "In den November-Release-Notes für Project Operations mit ERP-Integration führt Microsoft einen Fehler auf, bei dem Dual-write das Buchen eines Integrationsjournals blockierte.",
+              "verdict": "supported",
+              "reason": "Die Tabelle nennt unter Actuals den Eintrag 6791609 zu Accounting-transactions dual-write und blockiertem Posting des Integrationsjournals.",
+              "sourceUrls": [
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/whats-new/whats-new-nov-2026-resource-based"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Für dieselbe Ausgabe meldet Microsoft keine Änderungen an den Dual-write-Zuordnungen.",
+              "verdict": "supported",
+              "reason": "Der Abschnitt Project Operations dual-write map updates sagt ausdrücklich, dass die Ausgabe keine Änderungen an diesen Zuordnungen enthält.",
+              "sourceUrls": [
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/whats-new/whats-new-nov-2026-resource-based"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T08:27:44.606Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Dynamics 365: Microsoft adressiert Buchungsfehler in der Projektabrechnung",
+              "verdict": "supported",
+              "reason": "Die Übersicht zur Produktarchitektur grenzt Project Operations mit ERP und die Projektbuchhaltung in Finance ab. Die konkrete Fehlernummer stammt aus den Release-Notes.",
+              "sourceUrls": [
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/whats-new/whats-new-nov-2026-resource-based",
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/whats-new/project-operations-updates",
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/project-accounting/project-operations-integration-journal"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "In den November-Release-Notes für Project Operations mit ERP-Integration führt Microsoft einen Fehler auf, bei dem Dual-write das Buchen eines Integrationsjournals blockierte.",
+              "verdict": "supported",
+              "reason": "Microsofts Journal-Dokumentation beschreibt den Buchungsablauf in Finance. Das stützt die Einordnung des Fehlers in der Projektbuchhaltung.",
+              "sourceUrls": [
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/whats-new/whats-new-nov-2026-resource-based",
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/whats-new/project-operations-updates",
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/project-accounting/project-operations-integration-journal"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Für dieselbe Ausgabe meldet Microsoft keine Änderungen an den Dual-write-Zuordnungen.",
+              "verdict": "supported",
+              "reason": "Die Release-Notes trennen den Fehlerbehebungsabschnitt von Mapping-Versionen. Die Korrektur impliziert keine Änderung an den Zuordnungen.",
+              "sourceUrls": [
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/whats-new/whats-new-nov-2026-resource-based",
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/whats-new/project-operations-updates",
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/project-accounting/project-operations-integration-journal"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "Microsoft Project Operations November 2026 6791609 integration journal posting accounting dual-write no changes 10.0.49",
+              "finding": "Die Release-Notes nennen Eintrag 6791609. Microsofts separate Dokumentation beschreibt, wie Ist-Transaktionen im Integrationsjournal ankommen.",
+              "sourceUrls": [
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/whats-new/whats-new-nov-2026-resource-based",
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/whats-new/project-operations-updates",
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/project-accounting/project-operations-integration-journal"
+              ]
+            },
+            {
+              "query": "Microsoft Dynamics Project Operations November 2026 release dual-write map versions deployment schedule integrated ERP not core",
+              "finding": "Microsofts Versions- und Produktdokumentation unterscheidet Dataverse und die Finance-Komponente. Die unveränderten Maps beziehen sich laut Release-Notes nur auf diese Ausgabe.",
+              "sourceUrls": [
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/whats-new/whats-new-nov-2026-resource-based",
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/whats-new/project-operations-updates",
+                "https://learn.microsoft.com/en-us/dynamics365/project-operations/project-accounting/project-operations-integration-journal"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "November-Ausgabe 2026. Fehler-ID 6791609. Die Release-Notes wurden am 3. November aktualisiert.",
+            "scopeAndQualifications": "Nur Project Operations Integrated with ERP. Die Meldung behauptet keine universelle Behebung aller Dual-write-Probleme.",
+            "sourceIndependence": "Release-Notes und Journal-Dokumentation sind Microsoft-Originalquellen. Kein eigener Test in einer Kundenumgebung.",
+            "contradictions": "Fehlerbehebung und unveränderte Maps betreffen unterschiedliche Ebenen. Der Artikel hält beides getrennt."
+          }
+        }
+      ]
     }
   ]
 }

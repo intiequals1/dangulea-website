@@ -1,3 +1,4 @@
+import withdrawnEditions from '../data/news-withdrawn-editions.json' with { type: 'json' }
 import { createHash } from 'node:crypto'
 import { readFile, writeFile } from 'node:fs/promises'
 import { pathToFileURL } from 'node:url'
@@ -93,7 +94,7 @@ export function reviewDraft(article) {
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const archive = JSON.parse(await readFile(new URL('data/news-archive.json', root), 'utf8'))
   const source = JSON.parse(await readFile(new URL('public/news-updates.json', root), 'utf8'))
-  const articles = mergeArchive(archive, source).articles
+  const articles = mergeArchive(archive, source, withdrawnEditions).articles
   const ledger = JSON.parse(await readFile(new URL('data/news-fact-checks.json', root), 'utf8'))
   if (process.argv.includes('--draft')) {
     const dateIndex = process.argv.indexOf('--date')

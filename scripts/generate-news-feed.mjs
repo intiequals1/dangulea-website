@@ -25,7 +25,7 @@ function linkedText(text) {
   return result + escapeXml(text.slice(end))
 }
 
-export function createNewsFeed(items) {
+export function createNewsFeed(items, withdrawnCounts = {}) {
   if (!Array.isArray(items)) throw new Error('News must be an array')
   const dates = new Set()
   for (const item of items) {
@@ -42,13 +42,15 @@ export function createNewsFeed(items) {
   const entries = [...items].sort((a, b) => b.date.localeCompare(a.date))
   const itemXml = entries.map((item) => {
     const link = `${site}/news#news-${item.date}`
+    const count = withdrawnCounts[item.date] ?? 0
+    const guid = count ? `${site}/news/${item.date}/${count + 1}/` : link
     const body = item.text.replace(/^Fakten:/gm, 'Quellenaussagen:').split(/\n{2,}/).filter((block) => block.trim()).map((block) =>
       `<p>${linkedText(block).replace(/\n/g, '<br />')}</p>`).join('\n')
     const html = `<p><strong>Transparenz zur KI-Unterstützung:</strong> ${escapeXml(aiDisclosure)}</p>\n${body}`
     return `    <item>
       <title>${escapeXml(`${disclosure.label} · ${item.date} – ${item.title}`)}</title>
       <link>${link}</link>
-      <guid isPermaLink="true">${link}</guid>
+      <guid isPermaLink="true">${guid}</guid>
       <pubDate>${new Date(`${item.date}T00:00:00Z`).toUTCString()}</pubDate>
       <description>${escapeXml(html)}</description>
     </item>`
@@ -69,7 +71,6 @@ ${itemXml}
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const items = JSON.parse(await readFile(new URL('../public/news-updates.json', import.meta.url), 'utf8'))
-  const listed = items.filter(item => !withdrawnEditions.includes(item.date))
-  await writeFile(new URL('../dist/rss.xml', import.meta.url), createNewsFeed(listed))
-  console.log(`RSS feed generated with ${listed.length} daily editions`)
+  await writeFile(new URL('../dist/rss.xml', import.meta.url), createNewsFeed(items, withdrawnEditions))
+  console.log(`RSS feed generated with ${items.length} daily editions`)
 }

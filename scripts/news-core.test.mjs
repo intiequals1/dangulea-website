@@ -33,6 +33,17 @@ test('rejects changed identities, reordered or removed published stories', () =>
   assert.throws(() => mergeArchive({ ...initial, articles: [...initial.articles, initial.articles[0]] }, [edition]), /Doppelte/)
 })
 
+test('an explicitly withdrawn edition keeps its archive and gives the replacement new stable URLs', () => {
+  const replacement = { ...edition, text: edition.text.replace('SAP & ERP', 'Neue SAP-Meldung') }
+  const withdrawn = { [edition.date]: 2 }
+  const merged = mergeArchive(initial, [replacement], withdrawn)
+  assert.deepEqual(merged.articles.slice(0, 2), initial.articles)
+  assert.equal(articleView(merged.articles[2]).url, 'https://dangulea.at/news/2026-11-04/3/')
+  assert.deepEqual(mergeArchive(merged, [replacement], withdrawn), merged)
+  assert.throws(() => mergeArchive(initial, [replacement], { [edition.date]: 3 }), /Rückzug|Archiv/)
+  assert.throws(() => mergeArchive(merged, [{ ...replacement, text: replacement.text.split('2. KI')[0] }], withdrawn), /entfernt/)
+})
+
 test('body corrections keep page URLs and refresh social image cache keys', () => {
   const corrected = mergeArchive(initial, [{ ...edition, text: edition.text.replace('Eine Meldung.', 'Eine korrigierte Meldung.') }])
   const before = articleView(initial.articles[0]), after = articleView(corrected.articles[0])
