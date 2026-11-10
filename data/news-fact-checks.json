@@ -3120,6 +3120,619 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-10-1",
+      "contentHash": "3dbf008994bfeb708edb2c4b61379694ded6b418eeeadc361dbe34409e4d7557",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T07:34:26Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Österreich startet Verkauf der digitalen Vignette für 2027",
+              "verdict": "supported",
+              "reason": "Das Ministerium überschreibt den Abschnitt mit dem Verkaufsstart am 9. November. Die ASFINAG-Mitteilung vom selben Tag bestätigt ihn.",
+              "sourceUrls": [
+                "https://infothek.bmimi.gv.at/oesterreich-digitale-vignette-2027/",
+                "https://www.ots.at/presseaussendung/OTS_20261109_OTS0048/asfinag-oesterreich-steigt-ab-2027-vollstaendig-auf-die-digitale-vignette-um"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der Online-Verkauf der digitalen Vignette für das Vignettenjahr 2027 begann am 9. November 2026.",
+              "verdict": "supported",
+              "reason": "Die Ministeriumsmitteilung nennt den 9. November 2026 und präzisiert die Online-Verfügbarkeit. Die Originalaussendung der ASFINAG trägt dasselbe Datum.",
+              "sourceUrls": [
+                "https://infothek.bmimi.gv.at/oesterreich-digitale-vignette-2027/",
+                "https://www.ots.at/presseaussendung/OTS_20261109_OTS0048/asfinag-oesterreich-steigt-ab-2027-vollstaendig-auf-die-digitale-vignette-um"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Ab dem 1. Februar 2027 gilt auf Österreichs vignettenpflichtigen Autobahnen und Schnellstraßen ausschließlich die digitale Vignette.",
+              "verdict": "supported",
+              "reason": "Beide Mitteilungen nennen den 1. Februar 2027 als Beginn der ausschließlich digitalen Gültigkeit auf Autobahnen und Schnellstraßen.",
+              "sourceUrls": [
+                "https://infothek.bmimi.gv.at/oesterreich-digitale-vignette-2027/",
+                "https://www.ots.at/presseaussendung/OTS_20261109_OTS0048/asfinag-oesterreich-steigt-ab-2027-vollstaendig-auf-die-digitale-vignette-um"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T07:36:01.691Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Österreich startet Verkauf der digitalen Vignette für 2027",
+              "verdict": "supported",
+              "reason": "Der am 9. November erschienene ÖAMTC-Hinweis bestätigt die Verfügbarkeit des Jahrgangs 2027 an den eigenen Verkaufsstellen. Der ASFINAG-Abschnitt belegt den Online-Start.",
+              "sourceUrls": [
+                "https://infothek.bmimi.gv.at/oesterreich-digitale-vignette-2027/",
+                "https://www.ots.at/presseaussendung/OTS_20261109_OTS0048/asfinag-oesterreich-steigt-ab-2027-vollstaendig-auf-die-digitale-vignette-um",
+                "https://help.orf.at/stories/3238118/",
+                "https://www.oeamtc.at/presse/oeamtc-vignette-2027-jetzt-erhaeltlich-kauf-heuer-noch-zum-alten-preis-90476210"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der Online-Verkauf der digitalen Vignette für das Vignettenjahr 2027 begann am 9. November 2026.",
+              "verdict": "supported",
+              "reason": "Der ORF meldete am 9. November den Verkaufsbeginn. Die ASFINAG unterscheidet ihn ausdrücklich von der Gültigkeit der neuen Jahresvignette.",
+              "sourceUrls": [
+                "https://infothek.bmimi.gv.at/oesterreich-digitale-vignette-2027/",
+                "https://www.ots.at/presseaussendung/OTS_20261109_OTS0048/asfinag-oesterreich-steigt-ab-2027-vollstaendig-auf-die-digitale-vignette-um",
+                "https://help.orf.at/stories/3238118/",
+                "https://www.oeamtc.at/presse/oeamtc-vignette-2027-jetzt-erhaeltlich-kauf-heuer-noch-zum-alten-preis-90476210"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Ab dem 1. Februar 2027 gilt auf Österreichs vignettenpflichtigen Autobahnen und Schnellstraßen ausschließlich die digitale Vignette.",
+              "verdict": "supported",
+              "reason": "Der ORF nennt den 31. Jänner 2027 als letzten Gültigkeitstag der alten Jahresklebevignette. Dies stimmt mit der ASFINAG-Umstellung am folgenden Tag überein.",
+              "sourceUrls": [
+                "https://infothek.bmimi.gv.at/oesterreich-digitale-vignette-2027/",
+                "https://www.ots.at/presseaussendung/OTS_20261109_OTS0048/asfinag-oesterreich-steigt-ab-2027-vollstaendig-auf-die-digitale-vignette-um",
+                "https://help.orf.at/stories/3238118/",
+                "https://www.oeamtc.at/presse/oeamtc-vignette-2027-jetzt-erhaeltlich-kauf-heuer-noch-zum-alten-preis-90476210"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "Österreich digitale Vignette 2027 9 November Online Verkaufsstart 1 Februar alte Klebevignette 31 Jänner ASFINAG",
+              "finding": "Der ORF trennt den laufenden Verkauf von der Gültigkeit der alten Jahresvignette bis 31. Jänner. Die Umstellung der Gültigkeit beginnt deshalb am 1. Februar.",
+              "sourceUrls": [
+                "https://infothek.bmimi.gv.at/oesterreich-digitale-vignette-2027/",
+                "https://www.ots.at/presseaussendung/OTS_20261109_OTS0048/asfinag-oesterreich-steigt-ab-2027-vollstaendig-auf-die-digitale-vignette-um",
+                "https://help.orf.at/stories/3238118/",
+                "https://www.oeamtc.at/presse/oeamtc-vignette-2027-jetzt-erhaeltlich-kauf-heuer-noch-zum-alten-preis-90476210"
+              ]
+            },
+            {
+              "query": "ÖAMTC 2027 digitale Vignette 1 Dezember keine Klebevignette 1 Februar 18 Tage persönlich Verkauf November 2026",
+              "finding": "Der ÖAMTC bestätigt persönliche Verkaufsstellen und nennt den 1. Dezember als Beginn der Jahresgültigkeit. Sein Hinweis auf die Online-Wartefrist betrifft die Gültigkeit eines Kaufs und verschiebt den Verkaufsstart nicht.",
+              "sourceUrls": [
+                "https://infothek.bmimi.gv.at/oesterreich-digitale-vignette-2027/",
+                "https://www.ots.at/presseaussendung/OTS_20261109_OTS0048/asfinag-oesterreich-steigt-ab-2027-vollstaendig-auf-die-digitale-vignette-um",
+                "https://help.orf.at/stories/3238118/",
+                "https://www.oeamtc.at/presse/oeamtc-vignette-2027-jetzt-erhaeltlich-kauf-heuer-noch-zum-alten-preis-90476210"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "9. November 2026 ist Online-Verkaufsbeginn. 1. Dezember ist der früheste Beginn der neuen Jahresgültigkeit und 1. Februar 2027 der Stichtag nach Ablauf der alten Jahresklebevignette.",
+            "scopeAndQualifications": "Die Aussage gilt für vignettenpflichtige Straßen und lässt separate Mautregime unberührt. Persönliche Verkaufsstellen bleiben verfügbar.",
+            "sourceIndependence": "BMIMI und ASFINAG kommunizieren denselben Umstieg. ÖAMTC bestätigt die Verfügbarkeit als eigener Vertriebspartner. Der ORF berichtet über die Daten.",
+            "contradictions": "Die verschiedenen Daten betreffen Verkauf, Jahresgültigkeit und Ende der Übergangszeit. Daraus ergibt sich kein Widerspruch."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-2",
+      "contentHash": "7d33d480d9850b1a74dab343c85e5e36db3aa2d92a616981aeb9724298e83a20",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T07:34:26Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Pariser KI-Erklärung sieht gemeinsame Sicherheitsbewertungen vor",
+              "verdict": "supported",
+              "reason": "Das Präsidialamt beschreibt ausdrücklich einen gemeinsamen Rahmen für die Bewertung und das Risikomanagement fortgeschrittener Modelle.",
+              "sourceUrls": [
+                "https://www.elysee.fr/emmanuel-macron/2026/11/09/communique-reunion-ia-et-securite"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Das französische Präsidialamt veröffentlichte am 9. November 2026 die Ergebnisse eines Treffens von Staaten, KI-Entwicklern und Forschenden zur Sicherheit fortgeschrittener Modelle.",
+              "verdict": "supported",
+              "reason": "Die amtliche Mitteilung trägt das Datum 9. November 2026. Die Einführung und der Teilnehmerkreis nennen Staaten, Unternehmen und Forschende.",
+              "sourceUrls": [
+                "https://www.elysee.fr/emmanuel-macron/2026/11/09/communique-reunion-ia-et-securite"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Beteiligten wollen einen gemeinsamen Rahmen zur Risikobewertung aufbauen und bestehende Meldewege für schwere Vorfälle stärken.",
+              "verdict": "supported",
+              "reason": "Die Absätze über Bewertung und Informationsaustausch nennen die beabsichtigte Einrichtung eines gemeinsamen Rahmens und die Stärkung bestehender Melde- und Frühwarnwege für schwere Vorfälle.",
+              "sourceUrls": [
+                "https://www.elysee.fr/emmanuel-macron/2026/11/09/communique-reunion-ia-et-securite"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T07:36:01.691Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [
+            "Wie die Beteiligten den Bewertungsrahmen und die angekündigten Verbesserungen der Meldewege umsetzen, bleibt offen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Pariser KI-Erklärung sieht gemeinsame Sicherheitsbewertungen vor",
+              "verdict": "supported",
+              "reason": "Le Monde beschreibt die Erklärung als Vorhaben zu gemeinsamen Standards und unabhängigen Bewertungen. Der Élysée-Text formuliert die Entwicklung des Rahmens als Verpflichtung für die Zukunft.",
+              "sourceUrls": [
+                "https://www.elysee.fr/emmanuel-macron/2026/11/09/communique-reunion-ia-et-securite",
+                "https://www.lemonde.fr/economie/article/2026/11/09/securite-de-l-ia-l-elysee-fait-signer-un-appel-de-paris-a-huit-pays-ainsi-qu-a-sam-altman-dario-amodei-et-arthur-mensch_6808706_3234.html",
+                "https://www.oecd.org/en/publications/towards-a-common-reporting-framework-for-ai-incidents_f326d4ac-en.html",
+                "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Das französische Präsidialamt veröffentlichte am 9. November 2026 die Ergebnisse eines Treffens von Staaten, KI-Entwicklern und Forschenden zur Sicherheit fortgeschrittener Modelle.",
+              "verdict": "supported",
+              "reason": "Das Datum unterscheidet die Veranstaltung von der Pariser Erklärung vom 11. Februar 2025. Le Monde berichtet über die Zusammenkunft am 9. November vor dem Friedensforum.",
+              "sourceUrls": [
+                "https://www.elysee.fr/emmanuel-macron/2026/11/09/communique-reunion-ia-et-securite",
+                "https://www.lemonde.fr/economie/article/2026/11/09/securite-de-l-ia-l-elysee-fait-signer-un-appel-de-paris-a-huit-pays-ainsi-qu-a-sam-altman-dario-amodei-et-arthur-mensch_6808706_3234.html",
+                "https://www.oecd.org/en/publications/towards-a-common-reporting-framework-for-ai-incidents_f326d4ac-en.html",
+                "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Beteiligten wollen einen gemeinsamen Rahmen zur Risikobewertung aufbauen und bestehende Meldewege für schwere Vorfälle stärken.",
+              "verdict": "supported",
+              "reason": "Das Präsidialamt will vorhandene Rahmen und Meldewege nutzen. Das ältere OECD-Papier zeigt, dass Arbeiten an einem gemeinsamen Meldestandard bereits vor dem Treffen existierten.",
+              "sourceUrls": [
+                "https://www.elysee.fr/emmanuel-macron/2026/11/09/communique-reunion-ia-et-securite",
+                "https://www.lemonde.fr/economie/article/2026/11/09/securite-de-l-ia-l-elysee-fait-signer-un-appel-de-paris-a-huit-pays-ainsi-qu-a-sam-altman-dario-amodei-et-arthur-mensch_6808706_3234.html",
+                "https://www.oecd.org/en/publications/towards-a-common-reporting-framework-for-ai-incidents_f326d4ac-en.html",
+                "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "Paris call AI safety security November 9 2026 text common framework advanced models incident reporting non binding",
+              "finding": "Élysée und Le Monde nennen einen aufzubauenden Bewertungsrahmen und Standards für schwere Vorfälle. Die Artikelversion spricht von Vorhaben und behauptet keinen bereits betriebsbereiten Mechanismus.",
+              "sourceUrls": [
+                "https://www.elysee.fr/emmanuel-macron/2026/11/09/communique-reunion-ia-et-securite",
+                "https://www.lemonde.fr/economie/article/2026/11/09/securite-de-l-ia-l-elysee-fait-signer-un-appel-de-paris-a-huit-pays-ainsi-qu-a-sam-altman-dario-amodei-et-arthur-mensch_6808706_3234.html",
+                "https://www.oecd.org/en/publications/towards-a-common-reporting-framework-for-ai-incidents_f326d4ac-en.html",
+                "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet"
+              ]
+            },
+            {
+              "query": "November 9 2026 Paris AI safety declaration signatories voluntary incident reporting implementation existing framework France Canada NAAIMES",
+              "finding": "Der Vergleich mit der OECD-Arbeit von 2025 zeigt bestehende Vorarbeiten für Meldestandards. Die ältere Erklärung des Pariser KI-Gipfels hatte ein anderes Datum und einen breiteren Gegenstand.",
+              "sourceUrls": [
+                "https://www.elysee.fr/emmanuel-macron/2026/11/09/communique-reunion-ia-et-securite",
+                "https://www.lemonde.fr/economie/article/2026/11/09/securite-de-l-ia-l-elysee-fait-signer-un-appel-de-paris-a-huit-pays-ainsi-qu-a-sam-altman-dario-amodei-et-arthur-mensch_6808706_3234.html",
+                "https://www.oecd.org/en/publications/towards-a-common-reporting-framework-for-ai-incidents_f326d4ac-en.html",
+                "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Die Mitteilung erschien am 9. November 2026. Die Erklärung vom Pariser KI-Gipfel 2025 gehört zu einem anderen Ereignis.",
+            "scopeAndQualifications": "Es geht um Sicherheitsrisiken fortgeschrittener Modelle. Die Stärkung vorhandener Meldewege und die Entwicklung eines Bewertungsrahmens sind Vorhaben.",
+            "sourceIndependence": "Das Präsidialamt ist Veranstalter und Originalquelle. Le Monde berichtet getrennt über das Treffen. OECD dokumentiert ältere Arbeiten und bestätigt nicht die Umsetzung der Erklärung.",
+            "contradictions": "Die Existenz früherer Rahmen widerspricht der geplanten Zusammenarbeit nicht. Die Meldung behauptet keine bereits umgesetzten Pflichten."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-3",
+      "contentHash": "3cad19ca6e8de3a1244ca6304468acc0874a32b051b181cfb6bc7bf8c80c5392",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T07:34:26Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP meldet gestaffelte Einführung von Joule-Angeboten",
+              "verdict": "supported",
+              "reason": "Der Abschnitt Autonomous Enterprise in production bezeichnet die Auslieferung als gestaffelten Rollout.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-a-leader-2026-gartner-magic-quadrant-cloud-erp-product-centric-enterprises/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP teilte am 9. November 2026 mit, dass die allgemeine Verfügbarkeit von Joule Work, Joule Studio und Agenten für das Autonomous Enterprise gestaffelt eingeführt werde.",
+              "verdict": "supported",
+              "reason": "Der SAP-Beitrag ist auf den 9. November datiert und nennt Joule Work, Joule Studio und Autonomous-Enterprise-Agenten zusammen im Absatz zum Rollout.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-a-leader-2026-gartner-magic-quadrant-cloud-erp-product-centric-enterprises/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "SAP beschreibt für den Einsatz der Agenten in Transaktionen Freigaben, Ausnahmebehandlung und Prüfprotokolle.",
+              "verdict": "supported",
+              "reason": "Der Absatz zu Joule Assistants beschreibt Aktionen in Transaktionen mit approvals, exception handling und audit trails.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-a-leader-2026-gartner-magic-quadrant-cloud-erp-product-centric-enterprises/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T07:36:01.691Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [
+            "Die Angaben stammen vom Hersteller. Der gestaffelte Rollout lässt keine pauschale Aussage zur Verfügbarkeit in einzelnen Kundenumgebungen zu."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP meldet gestaffelte Einführung von Joule-Angeboten",
+              "verdict": "supported",
+              "reason": "Die ältere SAP-Referenzarchitektur weist darauf hin, dass einige Bausteine noch nicht allgemein verfügbar waren. Der neuere Anbietertext beschreibt eine gestaffelte Auslieferung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-a-leader-2026-gartner-magic-quadrant-cloud-erp-product-centric-enterprises/",
+                "https://news.sap.com/2026/10/sap-teched-ai-developers-build-what-matters-autonomous-execution/",
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP teilte am 9. November 2026 mit, dass die allgemeine Verfügbarkeit von Joule Work, Joule Studio und Agenten für das Autonomous Enterprise gestaffelt eingeführt werde.",
+              "verdict": "supported",
+              "reason": "Das SAP-TechEd-Dokument unterscheidet das Produkt von einzelnen Funktionen im Early-Adopter-Programm. Die Referenzarchitektur beschreibt gesonderte Voraussetzungen für SAP-verwaltete Bereitstellung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-a-leader-2026-gartner-magic-quadrant-cloud-erp-product-centric-enterprises/",
+                "https://news.sap.com/2026/10/sap-teched-ai-developers-build-what-matters-autonomous-execution/",
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "SAP beschreibt für den Einsatz der Agenten in Transaktionen Freigaben, Ausnahmebehandlung und Prüfprotokolle.",
+              "verdict": "supported",
+              "reason": "Die konkret genannten Kontrollen stehen im Bericht über in Transaktionen eingebundene Agenten. Die Architekturquelle beschreibt Identitäts- und Zugriffskontrollen, belegt aber keine Wirksamkeit in jeder Umgebung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-a-leader-2026-gartner-magic-quadrant-cloud-erp-product-centric-enterprises/",
+                "https://news.sap.com/2026/10/sap-teched-ai-developers-build-what-matters-autonomous-execution/",
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "SAP November 9 2026 phased rollout Joule Work Joule Studio Autonomous Enterprise agents general availability SAP TechEd 2026 limits",
+              "finding": "Die Referenzarchitektur beschreibt einen Übergangszustand. SAPs späterer Bericht nennt ausdrücklich einen gestaffelten Rollout für die drei genannten Angebote.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-a-leader-2026-gartner-magic-quadrant-cloud-erp-product-centric-enterprises/",
+                "https://news.sap.com/2026/10/sap-teched-ai-developers-build-what-matters-autonomous-execution/",
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811"
+              ]
+            },
+            {
+              "query": "SAP Joule Work Joule Studio November 2026 phased rollout plans only SAP Discovery Center Joule assistants approvals exception handling audit trail",
+              "finding": "SAPs TechEd-Mitteilung kennzeichnet n8n-Workflows als Early-Adopter-Funktion. Die Architektur trennt SAP-verwaltete Bereitstellung vom bisherigen kundenverwalteten Joule. Der Artikel enthält keine Pauschalaussage zur Verfügbarkeit.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-a-leader-2026-gartner-magic-quadrant-cloud-erp-product-centric-enterprises/",
+                "https://news.sap.com/2026/10/sap-teched-ai-developers-build-what-matters-autonomous-execution/",
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "9. November 2026 ist das Datum des Anbieterberichts. Das Datum bezeichnet keinen universellen Produktivstart.",
+            "scopeAndQualifications": "Angebote und einzelne Komponenten können unterschiedliche Voraussetzungen haben. Beschrieben sind Freigaben und Protokolle als Herstellerangabe, ohne Wirksamkeitsnachweis.",
+            "sourceIndependence": "Die Produktmeldung, TechEd-Mitteilung und Referenzarchitektur stammen von SAP. Eine unabhängige Implementierungsprüfung liegt nicht vor.",
+            "contradictions": "Die frühere Einschränkung bei Komponenten und die spätere gestaffelte Einführung sind vereinbar. Der Artikel übernimmt keine behaupteten Produktivitätsgewinne."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-4",
+      "contentHash": "6ff8421f479fcbda121d91adaa1ae3ee0720df578390c6ee9d54245d432ed206",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T07:34:26Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "UN-Klimakonferenz COP31 beginnt in Antalya",
+              "verdict": "supported",
+              "reason": "IISD berichtet direkt aus Antalya über Eröffnungsreden und den Beginn der Beratungen. Die UNFCCC-Veranstaltungsseite identifiziert die Sitzung als COP31.",
+              "sourceUrls": [
+                "https://enb.iisd.org/antalya-un-climate-change-conference-cop31-daily-report-9nov2026",
+                "https://unfccc.int/event/cop-31",
+                "https://www.consilium.europa.eu/en/meetings/env/2026/10/12/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die UN-Klimakonferenz COP31 wurde am 9. November 2026 in Antalya eröffnet.",
+              "verdict": "supported",
+              "reason": "Der Tagesbericht vom 9. November beschreibt die tatsächliche Eröffnung und Aufnahme der Arbeit in Antalya.",
+              "sourceUrls": [
+                "https://enb.iisd.org/antalya-un-climate-change-conference-cop31-daily-report-9nov2026",
+                "https://unfccc.int/event/cop-31",
+                "https://www.consilium.europa.eu/en/meetings/env/2026/10/12/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das UN-Klimasekretariat führt den 20. November als geplanten Schlusstag.",
+              "verdict": "supported",
+              "reason": "Die offizielle UNFCCC-Veranstaltungsseite nennt den Zeitraum vom 9. bis 20. November 2026.",
+              "sourceUrls": [
+                "https://enb.iisd.org/antalya-un-climate-change-conference-cop31-daily-report-9nov2026",
+                "https://unfccc.int/event/cop-31",
+                "https://www.consilium.europa.eu/en/meetings/env/2026/10/12/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Rat der EU hatte am 12. Oktober seine Verhandlungsposition gebilligt.",
+              "verdict": "supported",
+              "reason": "Im Bericht der Ratstagung vom 12. Oktober steht, dass die gebilligten Schlussfolgerungen die EU-Verhandlungsposition für COP31 festlegen.",
+              "sourceUrls": [
+                "https://enb.iisd.org/antalya-un-climate-change-conference-cop31-daily-report-9nov2026",
+                "https://unfccc.int/event/cop-31",
+                "https://www.consilium.europa.eu/en/meetings/env/2026/10/12/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T07:36:01.691Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [
+            "Ergebnisse der Verhandlungen lassen sich daraus noch nicht ableiten."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "UN-Klimakonferenz COP31 beginnt in Antalya",
+              "verdict": "supported",
+              "reason": "Der Bericht von vor Ort beschreibt angenommene Tagesordnungen und den Start der Arbeiten. Der Staats- und Regierungschefsgipfel beginnt laut eigener Veranstaltungsseite später.",
+              "sourceUrls": [
+                "https://enb.iisd.org/antalya-un-climate-change-conference-cop31-daily-report-9nov2026",
+                "https://unfccc.int/event/cop-31",
+                "https://www.consilium.europa.eu/en/meetings/env/2026/10/12/",
+                "https://unfccc.int/cop31/high-level"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die UN-Klimakonferenz COP31 wurde am 9. November 2026 in Antalya eröffnet.",
+              "verdict": "supported",
+              "reason": "Der IISD-Bericht vom ersten Sitzungstag dokumentiert die Eröffnungsreden. Die separate UNFCCC-Gipfelseite zeigt, dass der 11. November nicht das Datum der Konferenzeröffnung ist.",
+              "sourceUrls": [
+                "https://enb.iisd.org/antalya-un-climate-change-conference-cop31-daily-report-9nov2026",
+                "https://unfccc.int/event/cop-31",
+                "https://www.consilium.europa.eu/en/meetings/env/2026/10/12/",
+                "https://unfccc.int/cop31/high-level"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das UN-Klimasekretariat führt den 20. November als geplanten Schlusstag.",
+              "verdict": "supported",
+              "reason": "Die UNFCCC-Terminangaben und der Ratsbericht nennen den 20. November als Ende des angesetzten Konferenzzeitraums.",
+              "sourceUrls": [
+                "https://enb.iisd.org/antalya-un-climate-change-conference-cop31-daily-report-9nov2026",
+                "https://unfccc.int/event/cop-31",
+                "https://www.consilium.europa.eu/en/meetings/env/2026/10/12/",
+                "https://unfccc.int/cop31/high-level"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Rat der EU hatte am 12. Oktober seine Verhandlungsposition gebilligt.",
+              "verdict": "supported",
+              "reason": "Der Rat beschreibt ausdrücklich die Vorbereitung auf COP31. Der Tagesbericht verzeichnet noch Beratungen über Klimafinanzierung und keine abschließende Einigung.",
+              "sourceUrls": [
+                "https://enb.iisd.org/antalya-un-climate-change-conference-cop31-daily-report-9nov2026",
+                "https://unfccc.int/event/cop-31",
+                "https://www.consilium.europa.eu/en/meetings/env/2026/10/12/",
+                "https://unfccc.int/cop31/high-level"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "COP31 opened Antalya 9 November 2026 first day actual IISD 20 November conference leaders summit separate",
+              "finding": "Der Beobachterbericht dokumentiert den Beginn der Arbeit am 9. November. Der UNFCCC-Sondergipfel am 11. und 12. November gehört zur Konferenz, ist aber ein eigener Termin.",
+              "sourceUrls": [
+                "https://enb.iisd.org/antalya-un-climate-change-conference-cop31-daily-report-9nov2026",
+                "https://unfccc.int/event/cop-31",
+                "https://www.consilium.europa.eu/en/meetings/env/2026/10/12/",
+                "https://unfccc.int/cop31/high-level"
+              ]
+            },
+            {
+              "query": "EU Council negotiating position COP31 Antalya 12 October 2026 agreement final outcome 9 November 20 November",
+              "finding": "Die Ratstagung vom 12. Oktober verabschiedete die EU-Verhandlungsposition. Sie setzt Ziele der EU, während der UNFCCC-Kalender den geplanten Schlusstag der Gesamtkonferenz ausweist.",
+              "sourceUrls": [
+                "https://enb.iisd.org/antalya-un-climate-change-conference-cop31-daily-report-9nov2026",
+                "https://unfccc.int/event/cop-31",
+                "https://www.consilium.europa.eu/en/meetings/env/2026/10/12/",
+                "https://unfccc.int/cop31/high-level"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Eröffnung am 9. November, angesetztes Ende am 20. November und EU-Ratsposition vom 12. Oktober 2026.",
+            "scopeAndQualifications": "Die Meldung behandelt Konferenzbeginn, Termin und EU-Mandat. Die getrennte Tagung der Staats- und Regierungschefs und spätere Beschlüsse sind davon zu unterscheiden.",
+            "sourceIndependence": "UNFCCC veröffentlicht den eigenen Konferenzkalender. Der Rat dokumentiert die eigene Position. IISD liefert die direkte Sitzungsbeobachtung.",
+            "contradictions": "Unterschiedliche Eröffnungstermine betreffen Konferenz und Staats- und Regierungschefsgipfel. Die EU-Position enthält keine bereits beschlossenen COP-Ergebnisse."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-5",
+      "contentHash": "4e5f761eb5c8733d546da7f3b43a26e792b6c027009fe61c03ccecfa26bfb4d3",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T07:34:26Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Frankreich ordnet Angriff auf Kühlanlagen einer iranischen Einheit zu",
+              "verdict": "supported",
+              "reason": "ANSSI beschreibt die französische Zuschreibung des Angriffs auf Kühlsteuerungen an eine Einheit des iranischen Cyberapparats.",
+              "sourceUrls": [
+                "https://cyber.gouv.fr/actualites/campagnes-de-d%C3%A9stabilisation-et-sabotage-men%C3%A9es-%C3%A0-lencontre-des-int%C3%A9r%C3%AAts-fran%C3%A7ais-par-la-r%C3%A9publique-islamique-diran/",
+                "https://digital-strategy.ec.europa.eu/en/news/joint-statement-cyber-incidents-refrigeration-systems-across-eu"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die französische Cybersicherheitsbehörde ANSSI veröffentlichte am 9. November 2026 die französische Zuschreibung des Oktober-Angriffs auf Kühlsteuerungen im Einzelhandel an die Einheit Shahid Kaveh.",
+              "verdict": "supported",
+              "reason": "Die ANSSI-Mitteilung ist auf den 9. November datiert. Der Absatz zur Untersuchung nennt die Einheit Shahid Kaveh und beschreibt ihre organisatorische Zuordnung.",
+              "sourceUrls": [
+                "https://cyber.gouv.fr/actualites/campagnes-de-d%C3%A9stabilisation-et-sabotage-men%C3%A9es-%C3%A0-lencontre-des-int%C3%A9r%C3%AAts-fran%C3%A7ais-par-la-r%C3%A9publique-islamique-diran/",
+                "https://digital-strategy.ec.europa.eu/en/news/joint-statement-cyber-incidents-refrigeration-systems-across-eu"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut ANSSI zielte der Angriff in der Nacht vom 11. auf den 12. Oktober auf Kühlsteuerungen an rund 700 Standorten in Frankreich.",
+              "verdict": "supported",
+              "reason": "Der Abschnitt zum Vorfall nennt rund 700 Standorte im französischen Einzelhandel und die Nacht vom 11. zum 12. Oktober.",
+              "sourceUrls": [
+                "https://cyber.gouv.fr/actualites/campagnes-de-d%C3%A9stabilisation-et-sabotage-men%C3%A9es-%C3%A0-lencontre-des-int%C3%A9r%C3%AAts-fran%C3%A7ais-par-la-r%C3%A9publique-islamique-diran/",
+                "https://digital-strategy.ec.europa.eu/en/news/joint-statement-cyber-incidents-refrigeration-systems-across-eu"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-10T07:36:01.691Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [
+            "Die Zuschreibung betrifft die französische Untersuchung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Frankreich ordnet Angriff auf Kühlanlagen einer iranischen Einheit zu",
+              "verdict": "supported",
+              "reason": "Die separate Erklärung des französischen Außenministeriums nennt ebenfalls Shahid Kaveh. ENISA nennt für die länderübergreifende Serie keinen gemeinsamen Urheber.",
+              "sourceUrls": [
+                "https://cyber.gouv.fr/actualites/campagnes-de-d%C3%A9stabilisation-et-sabotage-men%C3%A9es-%C3%A0-lencontre-des-int%C3%A9r%C3%AAts-fran%C3%A7ais-par-la-r%C3%A9publique-islamique-diran/",
+                "https://digital-strategy.ec.europa.eu/en/news/joint-statement-cyber-incidents-refrigeration-systems-across-eu",
+                "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/declaration-d-attribution-a-l-iran-de-cyberattaques-visant-la-france",
+                "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die französische Cybersicherheitsbehörde ANSSI veröffentlichte am 9. November 2026 die französische Zuschreibung des Oktober-Angriffs auf Kühlsteuerungen im Einzelhandel an die Einheit Shahid Kaveh.",
+              "verdict": "supported",
+              "reason": "Das Außenministerium datiert die öffentliche Zuschreibung auf den 9. November und stützt sich auf die Arbeit des französischen Koordinierungszentrums. Die Meldung kennzeichnet die Zuschreibung als französische Einschätzung.",
+              "sourceUrls": [
+                "https://cyber.gouv.fr/actualites/campagnes-de-d%C3%A9stabilisation-et-sabotage-men%C3%A9es-%C3%A0-lencontre-des-int%C3%A9r%C3%AAts-fran%C3%A7ais-par-la-r%C3%A9publique-islamique-diran/",
+                "https://digital-strategy.ec.europa.eu/en/news/joint-statement-cyber-incidents-refrigeration-systems-across-eu",
+                "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/declaration-d-attribution-a-l-iran-de-cyberattaques-visant-la-france",
+                "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut ANSSI zielte der Angriff in der Nacht vom 11. auf den 12. Oktober auf Kühlsteuerungen an rund 700 Standorten in Frankreich.",
+              "verdict": "supported",
+              "reason": "Das Außenministerium nennt mehr als 700 Standorte. Die im Artikel wiedergegebene Angabe rund 700 ist ausdrücklich die Formulierung der ANSSI. Beide Texte beziehen sich auf Frankreich und dieselbe Oktobernacht.",
+              "sourceUrls": [
+                "https://cyber.gouv.fr/actualites/campagnes-de-d%C3%A9stabilisation-et-sabotage-men%C3%A9es-%C3%A0-lencontre-des-int%C3%A9r%C3%AAts-fran%C3%A7ais-par-la-r%C3%A9publique-islamique-diran/",
+                "https://digital-strategy.ec.europa.eu/en/news/joint-statement-cyber-incidents-refrigeration-systems-across-eu",
+                "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/declaration-d-attribution-a-l-iran-de-cyberattaques-visant-la-france",
+                "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "France ANSSI Shahid Kaveh 9 November 2026 refrigeration attribution October France only November EU statement cyber.gouv.fr",
+              "finding": "Der französische diplomatische Text benennt dieselbe Einheit. Die europäische Warnung betrifft mehrere Mitgliedstaaten und enthält keine länderübergreifende Zuschreibung.",
+              "sourceUrls": [
+                "https://cyber.gouv.fr/actualites/campagnes-de-d%C3%A9stabilisation-et-sabotage-men%C3%A9es-%C3%A0-lencontre-des-int%C3%A9r%C3%AAts-fran%C3%A7ais-par-la-r%C3%A9publique-islamique-diran/",
+                "https://digital-strategy.ec.europa.eu/en/news/joint-statement-cyber-incidents-refrigeration-systems-across-eu",
+                "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/declaration-d-attribution-a-l-iran-de-cyberattaques-visant-la-france",
+                "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu"
+              ]
+            },
+            {
+              "query": "CERT-FR CTI 2026 Shahid Kaveh Iran refrigeration October 11 November 9 attribution France 700 no EU November scope",
+              "finding": "ANSSI nennt rund 700 Standorte, das Außenministerium mehr als 700. Die Meldung schreibt die ungefähre Zahl klar der ANSSI zu und unterscheidet die Oktobernacht von der späteren europäischen Welle.",
+              "sourceUrls": [
+                "https://cyber.gouv.fr/actualites/campagnes-de-d%C3%A9stabilisation-et-sabotage-men%C3%A9es-%C3%A0-lencontre-des-int%C3%A9r%C3%AAts-fran%C3%A7ais-par-la-r%C3%A9publique-islamique-diran/",
+                "https://digital-strategy.ec.europa.eu/en/news/joint-statement-cyber-incidents-refrigeration-systems-across-eu",
+                "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/declaration-d-attribution-a-l-iran-de-cyberattaques-visant-la-france",
+                "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "11. auf 12. Oktober ist die Nacht des beschriebenen Angriffs. 9. November ist das Datum der Zuschreibung. Rund 700 bezieht sich laut ANSSI auf französische Standorte.",
+            "scopeAndQualifications": "Die Zuschreibung gilt für die französische Untersuchung. ENISA berichtet über weitere Vorfälle am 1. und 2. November ohne gemeinsame Täterbenennung.",
+            "sourceIndependence": "ANSSI und das Außenministerium geben französische Behördenbefunde aus demselben Ermittlungszusammenhang wieder. Die EU-Mitteilung ist eine getrennte Warnung, keine unabhängige Bestätigung der Zuschreibung.",
+            "contradictions": "Die französischen Quellen formulieren die Standortzahl unterschiedlich genau. Die veröffentlichten Aussagen halten sich an die ANSSI-Angabe und übertragen den Befund nicht auf andere Länder."
+          }
+        }
+      ]
     }
   ]
 }

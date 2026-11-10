@@ -2,6 +2,41 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-10-1",
+      "date": "2026-11-10",
+      "number": 1,
+      "title": "Österreich startet Verkauf der digitalen Vignette für 2027",
+      "text": "Fakten: Der Online-Verkauf der digitalen Vignette für das Vignettenjahr 2027 begann am 9. November 2026. Ab dem 1. Februar 2027 gilt auf Österreichs vignettenpflichtigen Autobahnen und Schnellstraßen ausschließlich die digitale Vignette.\nEinordnung: Die digitale Vignette ist dem Kennzeichen zugeordnet. Persönliche Verkaufsstellen bleiben auch nach der Umstellung verfügbar.\nQuellen:\nhttps://infothek.bmimi.gv.at/oesterreich-digitale-vignette-2027/\nhttps://www.ots.at/presseaussendung/OTS_20261109_OTS0048/asfinag-oesterreich-steigt-ab-2027-vollstaendig-auf-die-digitale-vignette-um"
+    },
+    {
+      "id": "2026-11-10-2",
+      "date": "2026-11-10",
+      "number": 2,
+      "title": "Pariser KI-Erklärung sieht gemeinsame Sicherheitsbewertungen vor",
+      "text": "Fakten: Das französische Präsidialamt veröffentlichte am 9. November 2026 die Ergebnisse eines Treffens von Staaten, KI-Entwicklern und Forschenden zur Sicherheit fortgeschrittener Modelle. Die Beteiligten wollen einen gemeinsamen Rahmen zur Risikobewertung aufbauen und bestehende Meldewege für schwere Vorfälle stärken.\nEinordnung: Die Erklärung formuliert gemeinsame Vorhaben. Wie die Beteiligten den Bewertungsrahmen und die angekündigten Verbesserungen der Meldewege umsetzen, bleibt offen.\nQuellen:\nhttps://www.elysee.fr/emmanuel-macron/2026/11/09/communique-reunion-ia-et-securite"
+    },
+    {
+      "id": "2026-11-10-3",
+      "date": "2026-11-10",
+      "number": 3,
+      "title": "SAP meldet gestaffelte Einführung von Joule-Angeboten",
+      "text": "Fakten: SAP teilte am 9. November 2026 mit, dass die allgemeine Verfügbarkeit von Joule Work, Joule Studio und Agenten für das Autonomous Enterprise gestaffelt eingeführt werde. SAP beschreibt für den Einsatz der Agenten in Transaktionen Freigaben, Ausnahmebehandlung und Prüfprotokolle.\nEinordnung: Die Angaben stammen vom Hersteller. Der gestaffelte Rollout lässt keine pauschale Aussage zur Verfügbarkeit in einzelnen Kundenumgebungen zu.\nQuellen:\nhttps://news.sap.com/2026/11/sap-a-leader-2026-gartner-magic-quadrant-cloud-erp-product-centric-enterprises/"
+    },
+    {
+      "id": "2026-11-10-4",
+      "date": "2026-11-10",
+      "number": 4,
+      "title": "UN-Klimakonferenz COP31 beginnt in Antalya",
+      "text": "Fakten: Die UN-Klimakonferenz COP31 wurde am 9. November 2026 in Antalya eröffnet. Das UN-Klimasekretariat führt den 20. November als geplanten Schlusstag. Der Rat der EU hatte am 12. Oktober seine Verhandlungsposition gebilligt.\nEinordnung: Die EU geht mit einer gemeinsamen Position in die Gespräche. Ergebnisse der Verhandlungen lassen sich daraus noch nicht ableiten.\nQuellen:\nhttps://enb.iisd.org/antalya-un-climate-change-conference-cop31-daily-report-9nov2026\nhttps://unfccc.int/event/cop-31\nhttps://www.consilium.europa.eu/en/meetings/env/2026/10/12/"
+    },
+    {
+      "id": "2026-11-10-5",
+      "date": "2026-11-10",
+      "number": 5,
+      "title": "Frankreich ordnet Angriff auf Kühlanlagen einer iranischen Einheit zu",
+      "text": "Fakten: Die französische Cybersicherheitsbehörde ANSSI veröffentlichte am 9. November 2026 die französische Zuschreibung des Oktober-Angriffs auf Kühlsteuerungen im Einzelhandel an die Einheit Shahid Kaveh. Laut ANSSI zielte der Angriff in der Nacht vom 11. auf den 12. Oktober auf Kühlsteuerungen an rund 700 Standorten in Frankreich.\nEinordnung: Die Zuschreibung betrifft die französische Untersuchung. Die EU-Mitteilung vom 4. November erfasst Vorfälle in mehreren Mitgliedstaaten und nennt keinen gemeinsamen Urheber.\nQuellen:\nhttps://cyber.gouv.fr/actualites/campagnes-de-d%C3%A9stabilisation-et-sabotage-men%C3%A9es-%C3%A0-lencontre-des-int%C3%A9r%C3%AAts-fran%C3%A7ais-par-la-r%C3%A9publique-islamique-diran/\nhttps://digital-strategy.ec.europa.eu/en/news/joint-statement-cyber-incidents-refrigeration-systems-across-eu"
+    },
+    {
       "id": "2026-11-09-1",
       "date": "2026-11-09",
       "number": 1,
