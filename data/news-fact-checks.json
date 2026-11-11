@@ -4323,6 +4323,550 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-11-1",
+      "contentHash": "c6daa0e3631574a9f54c4466ba517a0c58d6ad6ca5da72ab9908a63382cdaa3d",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-11T07:21:18.158Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Microsoft zeigt eine Hintertür in den Gewichten von KI-Agenten",
+              "verdict": "supported",
+              "reason": "Die Zusammenfassung beschreibt Lazarus als gezielte Änderung im letzten Feedforward-Block.",
+              "sourceUrls": [
+                "https://www.microsoft.com/en-us/research/publication/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+                "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Microsoft Research demonstrierte, dass sich im Testmodell Nemotron-Terminal-8B sieben Neuronen so verändern ließen, dass ein definierter Auslöser eine eingeschleuste Tokenfolge aktiviert.",
+              "verdict": "supported",
+              "reason": "Die Versuchsbeschreibung nennt Nemotron-Terminal-8B, sieben Neuronen und eine durch den Trigger ausgelöste Tokenfolge.",
+              "sourceUrls": [
+                "https://www.microsoft.com/en-us/research/publication/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+                "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Versuch setzt Schreibzugriff auf die Modellgewichte voraus.",
+              "verdict": "supported",
+              "reason": "Der Forschungsblog nennt Schreibzugriff auf einen Modell-Checkpoint ausdrücklich als Voraussetzung.",
+              "sourceUrls": [
+                "https://www.microsoft.com/en-us/research/publication/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+                "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-11T07:21:18.158Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Microsoft zeigt eine Hintertür in den Gewichten von KI-Agenten",
+              "verdict": "supported",
+              "reason": "Der Februar-Beitrag untersucht primär Backdoors aus dem Training. Der November-Bericht belegt demgegenüber direkte Gewichtsänderungen.",
+              "sourceUrls": [
+                "https://www.microsoft.com/en-us/research/publication/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+                "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+                "https://www.microsoft.com/en-us/security/blog/2026/02/04/detecting-backdoored-language-models-at-scale/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Microsoft Research demonstrierte, dass sich im Testmodell Nemotron-Terminal-8B sieben Neuronen so verändern ließen, dass ein definierter Auslöser eine eingeschleuste Tokenfolge aktiviert.",
+              "verdict": "supported",
+              "reason": "Sieben ist die Versuchszahl für Nemotron-Terminal-8B. Die Autoren geben weder eine einheitliche Zahl für alle Modelle noch einen Einsatznachweis an.",
+              "sourceUrls": [
+                "https://www.microsoft.com/en-us/research/publication/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+                "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+                "https://www.microsoft.com/en-us/security/blog/2026/02/04/detecting-backdoored-language-models-at-scale/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Versuch setzt Schreibzugriff auf die Modellgewichte voraus.",
+              "verdict": "supported",
+              "reason": "Die Methode verändert Modellgewichte. Ein Trigger im laufenden Betrieb aktiviert die zuvor eingebrachte Hintertür.",
+              "sourceUrls": [
+                "https://www.microsoft.com/en-us/research/publication/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+                "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+                "https://www.microsoft.com/en-us/security/blog/2026/02/04/detecting-backdoored-language-models-at-scale/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "Microsoft Research Lazare dormant neurons November 10 write access model evaluation seven neurons limitations",
+              "finding": "Suche nach Voraussetzungen: Der November-Bericht grenzt den Angriff durch erforderlichen Checkpoint-Schreibzugriff ein.",
+              "sourceUrls": [
+                "https://www.microsoft.com/en-us/research/publication/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+                "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+                "https://www.microsoft.com/en-us/security/blog/2026/02/04/detecting-backdoored-language-models-at-scale/"
+              ]
+            },
+            {
+              "query": "Microsoft Lazare dormant neurons backdoor paper replication auditing false positive multiple models",
+              "finding": "Suche nach Replikation und Grenzen: Die älteren Scanner-Experimente sind ein anderer Versuchsaufbau. Keine unabhängige Replikation der neuen Demonstration gefunden.",
+              "sourceUrls": [
+                "https://www.microsoft.com/en-us/research/publication/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+                "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+                "https://www.microsoft.com/en-us/security/blog/2026/02/04/detecting-backdoored-language-models-at-scale/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "November-Bericht vom 10. November, sieben Neuronen im konkret benannten Versuch.",
+            "scopeAndQualifications": "Experiment unter vorausgesetztem Checkpoint-Schreibzugriff. Keine Aussage über Angriffe im Feld oder garantierte Erkennung.",
+            "sourceIndependence": "Originalveröffentlichung und Vergleichsartikel stammen von Microsoft. Keine unabhängige Replikation gefunden.",
+            "contradictions": "Ältere Arbeiten behandeln auch Training als Einbringungsweg. Die Meldung bezieht sich ausdrücklich auf den neuen Versuch durch Gewichtsänderung."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-2",
+      "contentHash": "c7d4d367acb179e5dfcce629d5bb1fb61f5b30259a9072706506c80fe6581ffe",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-11T07:21:18.158Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP patcht kritische Lücken in NetWeaver und Web Dispatcher",
+              "verdict": "supported",
+              "reason": "Das SAP-Bulletin führt die Korrekturen 3778530 und 3778556 auf.",
+              "sourceUrls": [
+                "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/november-2026.html",
+                "https://onapsis.com/blog/icm2shell-cve-2026-76964-cve-2026-89126-sap-netweaver-web-dispatcher-threat-advisory/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP führt im Sicherheitsbulletin vom 10. November 2026 zwei Speicherfehler im Internet Communication Manager von NetWeaver AS ABAP und im Web Dispatcher auf.",
+              "verdict": "supported",
+              "reason": "SAP nennt den Patch Day am 10. November und ordnet die beiden Memory-Corruption-Einträge ICM und Web Dispatcher zu.",
+              "sourceUrls": [
+                "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/november-2026.html",
+                "https://onapsis.com/blog/icm2shell-cve-2026-76964-cve-2026-89126-sap-netweaver-web-dispatcher-threat-advisory/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Hersteller bewertet CVE-2026-76964 und CVE-2026-89126 jeweils mit dem maximalen CVSS-Wert von 10.",
+              "verdict": "supported",
+              "reason": "Die zwei Tabellenzeilen weisen je 10.0 aus und verknüpfen den Wert mit der konkreten CVE.",
+              "sourceUrls": [
+                "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/november-2026.html",
+                "https://onapsis.com/blog/icm2shell-cve-2026-76964-cve-2026-89126-sap-netweaver-web-dispatcher-threat-advisory/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-11T07:21:18.158Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP patcht kritische Lücken in NetWeaver und Web Dispatcher",
+              "verdict": "supported",
+              "reason": "Das Advisory des Finders unterscheidet zwei Patch-Anweisungen und vorläufige Maßnahmen.",
+              "sourceUrls": [
+                "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/november-2026.html",
+                "https://onapsis.com/blog/icm2shell-cve-2026-76964-cve-2026-89126-sap-netweaver-web-dispatcher-threat-advisory/",
+                "https://onapsis.com/blog/sap-security-patch-day-nov-2026/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP führt im Sicherheitsbulletin vom 10. November 2026 zwei Speicherfehler im Internet Communication Manager von NetWeaver AS ABAP und im Web Dispatcher auf.",
+              "verdict": "supported",
+              "reason": "Der Finder beschreibt eine verwandte Ursache in zwei Komponenten und separate Versionslisten. Die Meldung setzt keine flächendeckende Betroffenheit voraus.",
+              "sourceUrls": [
+                "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/november-2026.html",
+                "https://onapsis.com/blog/icm2shell-cve-2026-76964-cve-2026-89126-sap-netweaver-web-dispatcher-threat-advisory/",
+                "https://onapsis.com/blog/sap-security-patch-day-nov-2026/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Hersteller bewertet CVE-2026-76964 und CVE-2026-89126 jeweils mit dem maximalen CVSS-Wert von 10.",
+              "verdict": "supported",
+              "reason": "Die Onapsis-Übersicht führt weitere Schwachstellen mit 10.0 auf. Die Meldung beschränkt sich auf die zwei benannten CVEs.",
+              "sourceUrls": [
+                "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/november-2026.html",
+                "https://onapsis.com/blog/icm2shell-cve-2026-76964-cve-2026-89126-sap-netweaver-web-dispatcher-threat-advisory/",
+                "https://onapsis.com/blog/sap-security-patch-day-nov-2026/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "November 2026 SAP patch day CVE-2026-76964 CVE-2026-89126 affected versions score NVD CERT",
+              "finding": "Das technische Advisory ordnet beiden CVEs getrennte SAP-Notes und Patchstände zu.",
+              "sourceUrls": [
+                "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/november-2026.html",
+                "https://onapsis.com/blog/icm2shell-cve-2026-76964-cve-2026-89126-sap-netweaver-web-dispatcher-threat-advisory/",
+                "https://onapsis.com/blog/sap-security-patch-day-nov-2026/"
+              ]
+            },
+            {
+              "query": "November 10 2026 SAP patch day 35 new 4 GitHub advisories 3 updates SecurityBridge Onapsis counts",
+              "finding": "Die zweite Suche fand unterschiedliche Gesamtsummen je Zählumfang. Der Artikel nennt gezielt nur die beiden CVEs und ihre Herstellerbewertungen.",
+              "sourceUrls": [
+                "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/november-2026.html",
+                "https://onapsis.com/blog/icm2shell-cve-2026-76964-cve-2026-89126-sap-netweaver-web-dispatcher-threat-advisory/",
+                "https://onapsis.com/blog/sap-security-patch-day-nov-2026/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "SAP datiert den Patch Day auf den 10. November und bewertet beide IDs mit 10.0.",
+            "scopeAndQualifications": "Betroffenheit anhand der Versions- und Komponentenlisten, einschließlich separat betriebenem Web Dispatcher, prüfen.",
+            "sourceIndependence": "SAP ist Hersteller. Onapsis hat die Fehler gemeldet und war an der koordinierten Offenlegung beteiligt.",
+            "contradictions": "Die Unterschiede bei der Gesamtzahl in Übersichten ändern die zwei konkreten Einträge nicht."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-3",
+      "contentHash": "6cfe4193e8486ca2e1676429afe050159343be5cf5953b867be938ddcea3b23d",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-11T07:21:18.158Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "AstraZeneca migriert laut SAP von ECC zu Cloud ERP Private",
+              "verdict": "supported",
+              "reason": "SAPs Mitteilung nennt ECC als Ausgangslandschaft und Cloud ERP Private als Ziel.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-expands-collaboration-astrazeneca-rise-with-sap-business-ai/",
+                "https://careers.astrazeneca.com/job/chennai/lead-sac-functional-consultant-finance-planning/7684/103060649872"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP meldete am 10. November 2026, dass AstraZeneca im Axial-Programm von SAP ERP Central Component auf SAP Cloud ERP Private umstellt.",
+              "verdict": "supported",
+              "reason": "SAP datiert die Mitteilung auf den 10. November und ordnet die Migration dem Programm Axial zu.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-expands-collaboration-astrazeneca-rise-with-sap-business-ai/",
+                "https://careers.astrazeneca.com/job/chennai/lead-sac-functional-consultant-finance-planning/7684/103060649872"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut SAP prüft AstraZeneca den Einsatz von Joule und KI-Agenten für Finanzen, Lieferkette und Fertigung.",
+              "verdict": "supported",
+              "reason": "SAP beschreibt Joule und Agentenanwendungen in den drei genannten Bereichen als Gegenstand einer Prüfung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-expands-collaboration-astrazeneca-rise-with-sap-business-ai/",
+                "https://careers.astrazeneca.com/job/chennai/lead-sac-functional-consultant-finance-planning/7684/103060649872"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-11T07:21:18.158Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "AstraZeneca migriert laut SAP von ECC zu Cloud ERP Private",
+              "verdict": "supported",
+              "reason": "Die Projektausschreibung des Kunden nennt ein unternehmensweites S/4HANA-Programm. Das konkrete Zielprodukt ist SAP zugeschrieben.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-expands-collaboration-astrazeneca-rise-with-sap-business-ai/",
+                "https://careers.astrazeneca.com/job/chennai/lead-sac-functional-consultant-finance-planning/7684/103060649872",
+                "https://www.erp-leaders.com/news/astrazeneca-is-moving-to-sap-s-cloud-after-a-20-year-relationship-sap/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP meldete am 10. November 2026, dass AstraZeneca im Axial-Programm von SAP ERP Central Component auf SAP Cloud ERP Private umstellt.",
+              "verdict": "supported",
+              "reason": "AstraZenecas Ausschreibung stützt das Projekt und den Standardisierungsumfang. Sie belegt weder Cutover noch Fertigstellung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-expands-collaboration-astrazeneca-rise-with-sap-business-ai/",
+                "https://careers.astrazeneca.com/job/chennai/lead-sac-functional-consultant-finance-planning/7684/103060649872",
+                "https://www.erp-leaders.com/news/astrazeneca-is-moving-to-sap-s-cloud-after-a-20-year-relationship-sap/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut SAP prüft AstraZeneca den Einsatz von Joule und KI-Agenten für Finanzen, Lieferkette und Fertigung.",
+              "verdict": "supported",
+              "reason": "Der Fachbericht stellt die Formulierung zur KI-Einführung in der Überschrift der SAP-Mitteilung der Evaluierung im eigentlichen Text gegenüber.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-expands-collaboration-astrazeneca-rise-with-sap-business-ai/",
+                "https://careers.astrazeneca.com/job/chennai/lead-sac-functional-consultant-finance-planning/7684/103060649872",
+                "https://www.erp-leaders.com/news/astrazeneca-is-moving-to-sap-s-cloud-after-a-20-year-relationship-sap/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site:astrazeneca.com Axial SAP ECC cloud ERP private November 2026 go live",
+              "finding": "Die Suche beim Kunden ergab eine Axial-Ausschreibung mit S/4HANA, Prozessstandardisierung und Integrationsanforderungen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-expands-collaboration-astrazeneca-rise-with-sap-business-ai/",
+                "https://careers.astrazeneca.com/job/chennai/lead-sac-functional-consultant-finance-planning/7684/103060649872",
+                "https://www.erp-leaders.com/news/astrazeneca-is-moving-to-sap-s-cloud-after-a-20-year-relationship-sap/"
+              ]
+            },
+            {
+              "query": "AstraZeneca SAP Axial November 2026 migration completed Joule exploring delay ERP Leaders",
+              "finding": "Die Suche nach Abschluss und Joule fand einen Fachbericht, der keinen Abschlusstermin meldet und die Evaluierung aus SAPs Text hervorhebt.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-expands-collaboration-astrazeneca-rise-with-sap-business-ai/",
+                "https://careers.astrazeneca.com/job/chennai/lead-sac-functional-consultant-finance-planning/7684/103060649872",
+                "https://www.erp-leaders.com/news/astrazeneca-is-moving-to-sap-s-cloud-after-a-20-year-relationship-sap/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "10. November ist das Datum der SAP-Meldung, ein Abschlussdatum wird im Artikel nicht behauptet.",
+            "scopeAndQualifications": "Unternehmensweite ERP-Umstellung im Programm Axial. KI-Anwendungen werden evaluiert.",
+            "sourceIndependence": "SAP und AstraZeneca sind Projektbeteiligte. ERP Leaders stützt sich für die Ankündigung auf SAP.",
+            "contradictions": "Die Überschrift der SAP-Mitteilung klingt nach KI-Einführung. Der Text spricht von Erkundung, wie in der Meldung wiedergegeben."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-4",
+      "contentHash": "faa764ea4a6b85f66d9042e37265a20b23967d837d3ea1501f616cfcd9fdd0f8",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-11T07:21:18.158Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "LEGION misst Fehlalarme bei KI-gestützten Sicherheitsanalysen",
+              "verdict": "supported",
+              "reason": "Einleitung und Ergebnisse beschreiben falsche Zuordnungen von Angriffsindikatoren und messen die Indikatorenpräzision.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.11896"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein am 9. November 2026 veröffentlichter Preprint stellt LEGION vor, einen Benchmark mit 74 Angriffsvorlagen für simulierte Unternehmensdaten.",
+              "verdict": "supported",
+              "reason": "Die Datumszeile nennt den 9. November. Abschnitt 3 beschreibt 74 Angriffsvorlagen und den Generator für simulierte Telemetrie.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.11896"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "In zwei simulierten Unternehmen erreichten fünf getestete Agentenarchitekturen laut Studie bei der Zuordnung von Angriffsindikatoren eine Präzision von 61 bis 72 Prozent.",
+              "verdict": "supported",
+              "reason": "Methoden und Ergebnisse nennen zwei simulierte Firmen, fünf Architekturen und 0,61 bis 0,72 IoC-Präzision.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.11896"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-11T07:21:18.158Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "LEGION misst Fehlalarme bei KI-gestützten Sicherheitsanalysen",
+              "verdict": "supported",
+              "reason": "Abschnitt 6 zeigt anhand von Szenarien, warum gemeldete Indikatoren falsche Treffer sein können. Der Artikel behauptet keine gemessene Feld-Fehlalarmrate.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.11896"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein am 9. November 2026 veröffentlichter Preprint stellt LEGION vor, einen Benchmark mit 74 Angriffsvorlagen für simulierte Unternehmensdaten.",
+              "verdict": "supported",
+              "reason": "Die Suche nach Revisionen führte zum datierten Preprint. Die 74 sind Vorlagen und stehen für wiederholbare Simulationsszenarien.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.11896"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "In zwei simulierten Unternehmen erreichten fünf getestete Agentenarchitekturen laut Studie bei der Zuordnung von Angriffsindikatoren eine Präzision von 61 bis 72 Prozent.",
+              "verdict": "supported",
+              "reason": "Abschnitt 5.3 enthält zusätzliche Modellvarianten mit anderen Werten. Die Meldung verwendet den Wertebereich aus dem Hauptversuch.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.11896"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "LEGION 2611.11896 benchmark revision 74 five precision recall simulation real telemetry",
+              "finding": "Abgleich von Methodik und Zusammenfassung: 74 Vorlagen und zwei simulierte Unternehmen im Hauptversuch.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.11896"
+              ]
+            },
+            {
+              "query": "legion-security legion-bench 2611.11896 replication limitations precision github",
+              "finding": "Suche nach Replikation: Der Preprint verweist auf Code und Daten. Die gefundenen Wiedergaben ersetzen keine externe Validierung; der Limitations-Abschnitt grenzt die Übertragbarkeit ein.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.11896"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Datumszeile 9. November, 74 Vorlagen, fünf Architekturen und 61 bis 72 Prozent Indikatorenpräzision im Hauptversuch.",
+            "scopeAndQualifications": "Zwei simulierte Organisationen mit unterschiedlichen Testumfängen. Keine Aussage über Trefferquoten in produktiven Umgebungen.",
+            "sourceIndependence": "Zahlen und Testaufbau stammen von den Preprint-Autoren. Keine unabhängige Replikation gefunden.",
+            "contradictions": "Zusatzversuche wechseln Modelle und Stichproben; ihre Ergebnisse werden nicht mit dem Hauptversuch vermischt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-5",
+      "contentHash": "deff62601ce735ee105a5c619640eb8e3929ed1dc5b8c00bf7d956810fdd1979",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-11T07:21:18.158Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Kommission konsultiert Tests für Empfehlungsalgorithmen vor Wahlen",
+              "verdict": "supported",
+              "reason": "Die Kommission nennt Manipulationstests an Empfehlungssystemen unter den vorgeschlagenen Änderungen.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-revised-election-guidelines-under-digital-services-act-dsa"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EU-Kommission konsultiert vom 10. bis 23. November 2026 einen Entwurf zur Überarbeitung der DSA-Wahlleitlinien für sehr große Online-Plattformen und Suchmaschinen.",
+              "verdict": "supported",
+              "reason": "Die Konsultationsseite nennt Öffnung und Schlussdatum sowie die zwei Kategorien sehr großer Dienste.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-revised-election-guidelines-under-digital-services-act-dsa"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Entwurf sieht Manipulationstests für Empfehlungsalgorithmen vor nationalen Wahlen und fortbestehende Deepfake-Kennzeichnungen beim Teilen vor.",
+              "verdict": "supported",
+              "reason": "Die offizielle Übersicht nennt Tests vor nationalen Wahlen und Beibehaltung der Kennzeichnung beim Teilen.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-revised-election-guidelines-under-digital-services-act-dsa"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-11T07:21:18.158Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Kommission konsultiert Tests für Empfehlungsalgorithmen vor Wahlen",
+              "verdict": "supported",
+              "reason": "Die Fachanalyse erläutert vorgeschlagene Red-Teaming-Übungen und bestätigt, dass die Revision noch nicht angenommen war.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-revised-election-guidelines-under-digital-services-act-dsa",
+                "https://2eu.brussels/index.php/en/news/commission-proposes-pre-election-algorithm-tests-and-stronger-safeguards-against-deepfakes"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EU-Kommission konsultiert vom 10. bis 23. November 2026 einen Entwurf zur Überarbeitung der DSA-Wahlleitlinien für sehr große Online-Plattformen und Suchmaschinen.",
+              "verdict": "supported",
+              "reason": "Die Gegenrecherche unterscheidet die 2024 verabschiedeten ursprünglichen Leitlinien von der neuen Konsultation vom 10. bis 23. November 2026.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-revised-election-guidelines-under-digital-services-act-dsa",
+                "https://2eu.brussels/index.php/en/news/commission-proposes-pre-election-algorithm-tests-and-stronger-safeguards-against-deepfakes"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Entwurf sieht Manipulationstests für Empfehlungsalgorithmen vor nationalen Wahlen und fortbestehende Deepfake-Kennzeichnungen beim Teilen vor.",
+              "verdict": "supported",
+              "reason": "Der Abgleich trennt fortbestehende Labels von der rechtlich gesonderten Behandlung illegaler Inhalte. Die Meldung behauptet keine Löschpflicht.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-revised-election-guidelines-under-digital-services-act-dsa",
+                "https://2eu.brussels/index.php/en/news/commission-proposes-pre-election-algorithm-tests-and-stronger-safeguards-against-deepfakes"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "November 10 2026 DSA revised election guidelines 23 November draft recommender algorithm national elections scope",
+              "finding": "Konsultationsseite und Fachanalyse bestätigen den technischen Vorschlag für Empfehlungssysteme vor nationalen Wahlen.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-revised-election-guidelines-under-digital-services-act-dsa",
+                "https://2eu.brussels/index.php/en/news/commission-proposes-pre-election-algorithm-tests-and-stronger-safeguards-against-deepfakes"
+              ]
+            },
+            {
+              "query": "EU DSA revised election guidelines November 2026 adopted correction deepfake label reshare legal content consultation",
+              "finding": "Suche nach Verabschiedung und Löschregeln ergab einen Entwurf. Die Fachanalyse unterscheidet Kennzeichnungen beim Teilen von Eingriffen bei illegalen Inhalten.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-revised-election-guidelines-under-digital-services-act-dsa",
+                "https://2eu.brussels/index.php/en/news/commission-proposes-pre-election-algorithm-tests-and-stronger-safeguards-against-deepfakes"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "10. bis 23. November 2026 gemäß Konsultationsseite.",
+            "scopeAndQualifications": "Entwurf für sehr große Online-Plattformen und Suchmaschinen nach dem DSA.",
+            "sourceIndependence": "Offizielle Kommissionsseite belegt den Entwurfsstand. Die Fachanalyse bespricht denselben Entwurf und bestätigt ihn nicht unabhängig als geltendes Recht.",
+            "contradictions": "Die früheren Leitlinien von 2024 sind verabschiedet. Die Meldung behandelt die konsultierte Überarbeitung als Entwurf."
+          }
+        }
+      ]
     }
   ]
 }

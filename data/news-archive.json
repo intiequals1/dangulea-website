@@ -2,6 +2,41 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-11-1",
+      "date": "2026-11-11",
+      "number": 1,
+      "title": "Microsoft zeigt eine Hintertür in den Gewichten von KI-Agenten",
+      "text": "Fakten: Microsoft Research demonstrierte, dass sich im Testmodell Nemotron-Terminal-8B sieben Neuronen so verändern ließen, dass ein definierter Auslöser eine eingeschleuste Tokenfolge aktiviert. Der Versuch setzt Schreibzugriff auf die Modellgewichte voraus.\nEinordnung: Für Teams, die Modelle selbst betreiben, ist das ein konkretes Lieferkettenrisiko. Ein Vergleich mit einem vertrauenswürdigen Ausgangsmodell und eng begrenzte Werkzeugrechte adressieren unterschiedliche Teile des Risikos. Die Ergebnisse stammen aus Versuchen von Microsoft Research.\nQuellen: https://www.microsoft.com/en-us/research/publication/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/ https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/"
+    },
+    {
+      "id": "2026-11-11-2",
+      "date": "2026-11-11",
+      "number": 2,
+      "title": "SAP patcht kritische Lücken in NetWeaver und Web Dispatcher",
+      "text": "Fakten: SAP führt im Sicherheitsbulletin vom 10. November 2026 zwei Speicherfehler im Internet Communication Manager von NetWeaver AS ABAP und im Web Dispatcher auf. Der Hersteller bewertet CVE-2026-76964 und CVE-2026-89126 jeweils mit dem maximalen CVSS-Wert von 10.\nEinordnung: Für SAP-Betriebsteams ist die Netzexposition entscheidend. Extern erreichbare Komponenten lassen sich anhand ihrer Kernel- und Patchstände priorisieren. Der Web Dispatcher gehört dabei als eigener Eintrag ins Inventar.\nQuellen: https://support.sap.com/en/my-support/knowledge-base/security-notes-news/november-2026.html https://onapsis.com/blog/icm2shell-cve-2026-76964-cve-2026-89126-sap-netweaver-web-dispatcher-threat-advisory/"
+    },
+    {
+      "id": "2026-11-11-3",
+      "date": "2026-11-11",
+      "number": 3,
+      "title": "AstraZeneca migriert laut SAP von ECC zu Cloud ERP Private",
+      "text": "Fakten: SAP meldete am 10. November 2026, dass AstraZeneca im Axial-Programm von SAP ERP Central Component auf SAP Cloud ERP Private umstellt. Laut SAP prüft AstraZeneca den Einsatz von Joule und KI-Agenten für Finanzen, Lieferkette und Fertigung.\nEinordnung: Die Projektunterlagen der beteiligten Unternehmen zeigen, wie eng ERP-Migration und Prozessstandardisierung zusammenhängen. Für ein vergleichbares Programm lassen sich gemeinsame Datenmodelle, Schnittstellen und Prozessvorlagen als eigene Arbeitspakete planen. Die Angaben zum Projektstand stammen von den beteiligten Unternehmen.\nQuellen: https://news.sap.com/2026/11/sap-expands-collaboration-astrazeneca-rise-with-sap-business-ai/ https://careers.astrazeneca.com/job/chennai/lead-sac-functional-consultant-finance-planning/7684/103060649872"
+    },
+    {
+      "id": "2026-11-11-4",
+      "date": "2026-11-11",
+      "number": 4,
+      "title": "LEGION misst Fehlalarme bei KI-gestützten Sicherheitsanalysen",
+      "text": "Fakten: Ein am 9. November 2026 veröffentlichter Preprint stellt LEGION vor, einen Benchmark mit 74 Angriffsvorlagen für simulierte Unternehmensdaten. In zwei simulierten Unternehmen erreichten fünf getestete Agentenarchitekturen laut Studie bei der Zuordnung von Angriffsindikatoren eine Präzision von 61 bis 72 Prozent.\nEinordnung: Für Security Operations ist entscheidend, wie viele gemeldete Indikatoren tatsächlich zum Angriff gehören. Ein Test mit realistischen harmlosen Störsignalen kann zeigen, wie viel Sichtungsarbeit beim Team verbleibt. Die Zahlen stammen aus der Simulation der Studienautoren.\nQuellen: https://arxiv.org/abs/2611.11896"
+    },
+    {
+      "id": "2026-11-11-5",
+      "date": "2026-11-11",
+      "number": 5,
+      "title": "EU-Kommission konsultiert Tests für Empfehlungsalgorithmen vor Wahlen",
+      "text": "Fakten: Die EU-Kommission konsultiert vom 10. bis 23. November 2026 einen Entwurf zur Überarbeitung der DSA-Wahlleitlinien für sehr große Online-Plattformen und Suchmaschinen. Der Entwurf sieht Manipulationstests für Empfehlungsalgorithmen vor nationalen Wahlen und fortbestehende Deepfake-Kennzeichnungen beim Teilen vor.\nEinordnung: Für Plattformteams betrifft der Entwurf zwei technische Abläufe: realistische Angriffssimulationen für Empfehlungssysteme und die Weitergabe von Kennzeichnungen beim Teilen. Beide Abläufe brauchen überprüfbare Ergebnisse für das Risikomanagement.\nQuellen: https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-revised-election-guidelines-under-digital-services-act-dsa"
+    },
+    {
       "id": "2026-11-10-1",
       "date": "2026-11-10",
       "number": 1,
