@@ -173,8 +173,12 @@ export default function Intern() {
     <div className="intern">
       <header className="intern-header">
         <div className="container">
-          <p className="section-label">Interner Bereich</p>
+          <p className="section-label">Privater Bereich</p>
           <h1 className="intern-header__title">Skill-Radar</h1>
+          <p className="intern-private" role="note">
+            Privater Bereich. Die Informationen auf dieser Seite dienen ausschließlich Claudiu Dangulea und sind nicht für andere
+            Personen bestimmt.
+          </p>
           <p className="intern-header__lead">
             Skills, ihre Abhängigkeiten und die wöchentlichen Meldungen dazu. Die Daten liegen in einem privaten Google Sheet
             und werden erst nach der Anmeldung mit Google geladen. Ohne Leserecht auf das Sheet bleibt die Seite leer.

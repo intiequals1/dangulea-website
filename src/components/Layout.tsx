@@ -74,7 +74,7 @@ export default function Layout({ children }: LayoutProps) {
             <NavLink to="/impressum" className={({ isActive }) => `nav__link${isActive ? ' nav__link--active' : ''}`}>
               Impressum
             </NavLink>
-            <NavLink to="/intern" aria-label="Interner Bereich" title="Interner Bereich" className={({ isActive }) => `nav__link nav__link--icon${isActive ? ' nav__link--active' : ''}`}>
+            <NavLink to="/intern" aria-label="Privater Bereich" title="Privater Bereich" className={({ isActive }) => `nav__link nav__link--icon${isActive ? ' nav__link--active' : ''}`}>
               <LockIcon />
             </NavLink>
           </nav>
@@ -125,7 +125,7 @@ export default function Layout({ children }: LayoutProps) {
             <NavLink to="/impressum" className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`} onClick={() => setMenuOpen(false)}>
               Impressum
             </NavLink>
-            <NavLink to="/intern" aria-label="Interner Bereich" title="Interner Bereich" className={({ isActive }) => `nav__link nav__link--mobile nav__link--icon${isActive ? ' nav__link--active' : ''}`} onClick={() => setMenuOpen(false)}>
+            <NavLink to="/intern" aria-label="Privater Bereich" title="Privater Bereich" className={({ isActive }) => `nav__link nav__link--mobile nav__link--icon${isActive ? ' nav__link--active' : ''}`} onClick={() => setMenuOpen(false)}>
               <LockIcon />
             </NavLink>
           </nav>
