@@ -3,10 +3,12 @@ import argparse
 import hashlib
 import io
 import json
+import time
 from concurrent.futures import ThreadPoolExecutor
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
@@ -133,6 +135,20 @@ def check_image(data, expected_size, require_poc=False):
     return hashlib.sha256(data).hexdigest()
 
 
+def open_with_retry(request, attempts=5):
+    """GitHub Pages liefert direkt nach einem Deploy vereinzelt 5xx/429; nur diese Fälle werden wiederholt."""
+    for attempt in range(attempts):
+        try:
+            return urlopen(request, timeout=45)
+        except HTTPError as error:
+            if error.code < 500 and error.code != 429 or attempt == attempts - 1:
+                raise
+        except (URLError, TimeoutError):
+            if attempt == attempts - 1:
+                raise
+        time.sleep(5 * 2 ** attempt)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--base-url', help='Validate HTTP responses instead of local dist files')
@@ -157,7 +173,7 @@ def main():
         if args.base_url:
             target = args.base_url.rstrip('/') + path
             request = Request(target, headers={'User-Agent': 'Dangulea-News-Validator/1.0', 'Cache-Control': 'no-cache'})
-            with urlopen(request, timeout=45) as response:
+            with open_with_retry(request) as response:
                 require(response.status == 200, f'HTTP {response.status}: {target}')
                 require(response.url == target, f'Unerwartete Weiterleitung: {response.url}')
                 allowed_types = ['application/xml', 'text/xml', 'application/rss+xml'] if kind == 'application/xml' else [kind]
