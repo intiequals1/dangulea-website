@@ -14,6 +14,7 @@ const routes = [
   { path: '/aktuelle-themen', title: `Aktuelle Themen · ${NAME}` },
   { path: '/ressourcen', title: `Ressourcen · ${NAME}` },
   { path: '/impressum', title: `Impressum · ${NAME}`, noindex: true },
+  { path: '/intern', title: `Intern · ${NAME}`, noindex: true },
 ]
 
 const dist = new URL('../dist/', import.meta.url)
