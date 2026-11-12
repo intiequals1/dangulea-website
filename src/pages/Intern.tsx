@@ -44,7 +44,7 @@ const AUTH_ERRORS: Record<string, string> = {
   'auth/popup-closed-by-user': 'Die Anmeldung wurde abgebrochen.',
   'auth/cancelled-popup-request': 'Die Anmeldung wurde abgebrochen.',
   'auth/popup-blocked': 'Der Browser hat das Anmeldefenster blockiert. Bitte Pop-ups für diese Seite erlauben.',
-  'auth/unauthorized-domain': 'Diese Domain ist in Firebase nicht als Anmeldedomain eingetragen.',
+  'auth/unauthorized-domain': 'Die Anmeldung ist für diese Adresse nicht freigegeben.',
 }
 
 type Data = { skills: Skill[]; meldungen: Meldung[]; fristen: Frist[]; quellen: Quelle[]; trends: Trend[] }
@@ -97,7 +97,7 @@ export default function Intern() {
       }
       if (res.status === 403 || res.status === 404) {
         setPhase('error')
-        setError('Dieses Google-Konto hat keinen Lesezugriff auf das Register.')
+        setError('Dieses Konto hat keinen Zugriff auf diesen Bereich.')
         return
       }
       if (!res.ok) throw new Error(`Sheets-API: HTTP ${res.status}`)
@@ -135,7 +135,7 @@ export default function Intern() {
       provider.setCustomParameters({ prompt: 'select_account' })
       const result = await m.signInWithPopup(auth, provider)
       const token = m.GoogleAuthProvider.credentialFromResult(result)?.accessToken
-      if (!token) throw new Error('Google hat keinen Zugriff auf Google Sheets erteilt.')
+      if (!token) throw new Error('Der Lesezugriff wurde nicht erteilt.')
       const s = store()
       s?.setItem(KEY_TOKEN, token)
       s?.setItem(KEY_EXPIRES, String(Date.now() + TOKEN_LIFETIME_MS))
@@ -180,8 +180,8 @@ export default function Intern() {
             Personen bestimmt.
           </p>
           <p className="intern-header__lead">
-            Skills, ihre Abhängigkeiten und die wöchentlichen Meldungen dazu. Die Daten liegen in einem privaten Google Sheet
-            und werden erst nach der Anmeldung mit Google geladen. Ohne Leserecht auf das Sheet bleibt die Seite leer.
+            Skills, ihre Abhängigkeiten und die wöchentlichen Meldungen dazu. Die Daten werden erst nach der Anmeldung
+            geladen. Ohne Berechtigung bleibt die Seite leer.
           </p>
           <div className="intern-actions">
             {phase === 'ready' || phase === 'loading' ? (
@@ -192,7 +192,7 @@ export default function Intern() {
                 {account && <span className="intern-account">Angemeldet als {account}</span>}
               </>
             ) : configured && phase !== 'init' ? (
-              <button type="button" className="intern-btn intern-btn--primary" onClick={() => void signIn()}>Mit Google anmelden</button>
+              <button type="button" className="intern-btn intern-btn--primary" onClick={() => void signIn()}>Anmelden</button>
             ) : null}
           </div>
         </div>
@@ -200,10 +200,10 @@ export default function Intern() {
 
       <div className="container intern-body">
         {!configured && (
-          <p className="intern-note">Der Bereich ist noch nicht eingerichtet: Es fehlt die Firebase-Konfiguration oder die Sheet-ID.</p>
+          <p className="intern-note">Der Bereich ist noch nicht eingerichtet.</p>
         )}
         {error && <p className="intern-note intern-note--error" role="alert">{error}</p>}
-        {phase === 'loading' && <p className="intern-note" aria-live="polite">Lade Daten aus dem Sheet …</p>}
+        {phase === 'loading' && <p className="intern-note" aria-live="polite">Lade Daten …</p>}
         {phase === 'ready' && data && (
           <Dashboard
             data={data}
