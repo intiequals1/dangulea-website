@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  buildAuthUrl, daysUntil, parseAuthHash, parseDate, rowsToObjects, safeUrl, splitIds,
+  daysUntil, parseDate, rowsToObjects, safeUrl, splitIds,
   toFristen, toMeldungen, toSkills, trends, upcoming,
 } from '../src/utils/skillRadar.ts'
 
@@ -55,18 +55,6 @@ test('computes demand trends per search term', () => {
   ])
   assert.deepEqual(t.werte, [80, 60])
   assert.equal(t.veraenderung, -25)
-})
-
-test('builds the Google sign-in URL and reads the returned fragment', () => {
-  const url = new URL(buildAuthUrl('id.apps.googleusercontent.com', 'https://dangulea.at/intern', 'abc'))
-  assert.equal(url.origin, 'https://accounts.google.com')
-  assert.equal(url.searchParams.get('response_type'), 'token')
-  assert.equal(url.searchParams.get('scope'), 'https://www.googleapis.com/auth/spreadsheets.readonly')
-  assert.equal(url.searchParams.get('redirect_uri'), 'https://dangulea.at/intern')
-  assert.deepEqual(parseAuthHash('#state=abc&access_token=t0k&expires_in=3599&token_type=Bearer'),
-    { accessToken: 't0k', expiresIn: 3599, state: 'abc', error: undefined })
-  assert.equal(parseAuthHash('#news-workflow'), null)
-  assert.equal(parseAuthHash('#error=access_denied&state=abc')?.error, 'access_denied')
 })
 
 test('only links http(s) sources', () => {

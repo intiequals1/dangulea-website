@@ -305,3 +305,12 @@
 .footer__place {
   color: var(--color-text-secondary);
 }
+
+/* Symbol-Link zum internen Bereich */
+.nav__link--icon {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+.nav__link--icon svg { display: block; }
+.nav__link--mobile.nav__link--icon svg { width: 26px; height: 26px; }

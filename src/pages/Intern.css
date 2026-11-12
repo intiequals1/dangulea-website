@@ -54,6 +54,7 @@
 .intern-btn--primary { background: var(--color-accent); border-color: var(--color-accent); color: var(--color-bg); }
 .intern-btn--primary:hover { background: var(--color-accent-light); color: var(--color-bg); }
 .intern-btn--ghost { border-color: var(--color-border-light); color: var(--color-text-secondary); }
+.intern-account { align-self: center; font-size: var(--text-xs); color: var(--color-text-tertiary); }
 .intern-btn--small { margin-top: var(--space-4); padding: var(--space-2) var(--space-4); }
 
 .intern-body { padding-top: var(--space-10); }

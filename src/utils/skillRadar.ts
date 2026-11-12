@@ -1,7 +1,7 @@
 // Hilfsfunktionen für den internen Bereich (/intern).
 // Die Daten liegen nicht im Repository, sondern im privaten Google Sheet „Skill-Radar Register“.
-// Die Seite liest es nach der Google-Anmeldung mit dem Token der angemeldeten Person;
-// ohne Leserecht auf das Sheet liefert die Sheets-API nichts.
+// Die Seite liest es nach der Anmeldung über Firebase Authentication (Google) mit dem
+// OAuth-Token der angemeldeten Person; ohne Leserecht auf das Sheet liefert die Sheets-API nichts.
 
 export type Row = Record<string, string>
 
@@ -196,34 +196,6 @@ export function trends(points: NachfragePunkt[]): Trend[] {
     const veraenderung = letzter !== null && vorher ? Math.round(((letzter - vorher) / vorher) * 100) : null
     return { suchbegriff, skill: list[0].skill, werte, letzter, veraenderung }
   }).sort((a, b) => a.suchbegriff.localeCompare(b.suchbegriff, 'de'))
-}
-
-export function buildAuthUrl(clientId: string, redirectUri: string, state: string): string {
-  const params = new URLSearchParams({
-    client_id: clientId,
-    redirect_uri: redirectUri,
-    response_type: 'token',
-    scope: OAUTH_SCOPE,
-    include_granted_scopes: 'true',
-    prompt: 'select_account',
-    state,
-  })
-  return `https://accounts.google.com/o/oauth2/v2/auth?${params}`
-}
-
-export type AuthResult = { accessToken?: string; expiresIn?: number; state?: string; error?: string }
-
-/** Liest die Antwort von Google aus dem URL-Fragment (#access_token=…&state=…). */
-export function parseAuthHash(hash: string): AuthResult | null {
-  const raw = hash.startsWith('#') ? hash.slice(1) : hash
-  if (!/(^|&)(access_token|error)=/.test(raw)) return null
-  const p = new URLSearchParams(raw)
-  return {
-    accessToken: p.get('access_token') ?? undefined,
-    expiresIn: p.has('expires_in') ? Number(p.get('expires_in')) : undefined,
-    state: p.get('state') ?? undefined,
-    error: p.get('error') ?? undefined,
-  }
 }
 
 export function sheetUrl(sheetId: string): string {
