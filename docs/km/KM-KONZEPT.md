@@ -102,6 +102,65 @@ Regeln, die der Code erzwingt (eine reine Funktion mit Tests, siehe KM-T5):
   als Modulkandidat markiert werden. Das Modul entsteht weiterhin nur über den verbindlichen Ablauf im LearnSpace-Repo,
   nach Bedarf und ohne Automatik.
 
+## KI-Assistent (LLM)
+
+Ein Fragefeld im Wissensbereich: Das LLM antwortet nur aus freigegebenen Unterlagen und nennt die Quellen. Dazu
+Zusammenfassungen und Lernfragen zu einem Dokument. Entscheidung des Owners (12.11.2026): LLM nur für Unterlagen, die
+damit verwendet werden dürfen.
+
+### Freigaberegel `llmPolicy`
+
+| Klasse | ans LLM | Grund |
+| --- | --- | --- |
+| A · Eigene Unterlagen | nur mit Register-Feld „KI erlaubt = ja“ (je Datei oder per Ordnerregel) | eigene Unterlagen können Vertrauliches enthalten |
+| C · Öffentliche Quellen | ja, außer bei „KI erlaubt = nein“ | öffentlich zugänglich |
+| B · Kursunterlagen Dritter | nie | Rechte Dritter; Entscheidung „nur mit Titel“ |
+| D · Lizenzierte Inhalte | nie | Rechte Dritter |
+| E · Persönliches | nie | Daten Dritter, nicht öffentlich |
+| ohne Klasse | nie | unklar heißt eingeschränkt |
+
+`llmPolicy` ist eine reine, getestete Funktion. Nur ihr Ergebnis entscheidet, welcher Text das Gerät verlässt.
+
+### Ablauf einer Frage
+
+1. Drive-Suche wie im Abschnitt Funktionen; behalten werden nur Dateien mit `llmPolicy = erlaubt`.
+2. Text der besten Treffer holen (höchstens fünf, gekürzt auf die Abschnitte um den Treffer, feste Zeichengrenze).
+3. Frage und Auszüge (mit Datei-ID und Titel) gehen an die Server-Funktion `askKnowledge` im Firebase-Projekt
+   `dangulea-intern`, Region `europe-west3`.
+4. Die Funktion prüft das Firebase-ID-Token und die Owner-Adresse, begrenzt Größe und Anfragen je Tag und ruft die
+   Claude API auf. Der API-Schlüssel liegt im Secret Manager (`defineSecret`), nie im Browser oder Repo.
+5. Antwort mit nummerierten Quellen (Titel, Link nach Drive) und dem Hinweis „KI-Antwort, ungeprüft“.
+
+Kein eigener Suchindex, keine Vektordatenbank.
+
+### Schutzregeln
+
+- **Keine Speicherung:** Fragen und Antworten nur in der geöffneten Seite; die Funktion protokolliert Größen und Zeiten,
+  keine Inhalte.
+- **Keine Werkzeuge:** kein Webzugriff, keine Schreibrechte, keine Aktionen. Der Systemprompt behandelt Dokumenttext als
+  Daten; eingeschleuste Anweisungen können höchstens die Antwort verfälschen.
+- **Ausgabe als Text:** nie als HTML; Links setzt nur die App (Quellen), nicht das LLM.
+- **Kein Automatismus:** KI-Antworten fließen nie automatisch ins Register oder ins LearnSpace. Für Module gilt das
+  Modulkonzept im Repo learn.dangulea.at (nur öffentlich belegbare Fakten, Policy-Prüfung).
+- **Not-Aus und Kostenbremse:** Schalter `llm.enabled` im Tab Konfiguration und in der Funktion; monatliches
+  Ausgabenlimit in der Claude Console.
+
+### Datenschutz beim Anbieter
+
+Claude API (Anthropic): Ein- und Ausgaben werden standardmäßig innerhalb von 30 Tagen gelöscht; von den
+Sicherheitssystemen markierte Anfragen bis zu zwei Jahre
+([Privacy Center](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-commercial-api-data)).
+Gespeicherte Daten werden ohne ausdrückliche Zustimmung nicht fürs Training verwendet
+([API-Doku](https://platform.claude.com/docs/en/build-with-claude/api-and-data-retention)).
+
+### Anbindung (Entscheidung offen, Empfehlung Option 1)
+
+| Option | Vorteil | Nachteil |
+| --- | --- | --- |
+| 1 · Claude API über Server-Funktion | Schlüssel nie im Browser; Owner-Prüfung und Limits auf dem Server | Blaze-Tarif für `dangulea-intern` nötig ([Firebase FAQ](https://firebase.google.com/docs/functions/faq-and-troubleshooting)); API-Kosten je Nutzung |
+| 2 · Claude API direkt aus dem Browser, Schlüssel je Sitzung | kein Server | Schlüssel bei einer Skript-Lücke angreifbar; nur mit engem Ausgabenlimit vertretbar |
+| 3 · Gemini über Vertex AI mit Google-Anmeldung | kein eigener Schlüssel | braucht den sehr breiten Scope `cloud-platform` |
+
 ## Abgleich mit ISO 30401
 
 Zuordnung nach der Gliederung der Norm
@@ -116,7 +175,7 @@ Geprüft sind die Abschnittstitel, nicht der Normtext.
 | 4.4.4 Befähiger | Technik (Drive, App), Prozesse (Register, Prüfungen), Steuerung (Klassen, Regeln) |
 | 4.5 Wissenskultur | für eine Person eingeschränkt anwendbar: feste Lernroutine über Skill-Radar |
 | 5 Führung | dieses Konzept als Leitlinie; einzige Rolle ist der Owner |
-| 6.1 Risiken und Chancen | Funktion Wissensrisiken, Tab Risiken |
+| 6.1 Risiken und Chancen | Funktion Wissensrisiken, Tab Risiken; Freigaberegel und Schutzregeln des KI-Assistenten |
 | 6.2 Ziele | Ziele im Tab Konfiguration |
 | 7.5 Dokumentierte Information | Register, Prüfprotokoll, diese Doku |
 | 9.1 Überwachung | Kennzahlen auf der Startseite: eingestuft, geprüft, überfällig |
@@ -137,9 +196,13 @@ gemeinsam (jede Funktion, die Wissen nutzbar macht, hat eine Schranke) und veran
 | Geheimnisse im öffentlichen Repo | Ordner und Register werden zur Laufzeit gefunden; Prüfung im Test auf Drive-IDs |
 | Große Ordnerbäume | Ordnermenge einmal je Sitzung ermitteln, im `sessionStorage` halten |
 | Hinweis „nicht verifizierte App“ | bewusst akzeptiert; Veröffentlichung mit eingeschränktem Scope verlangt eine Google-Sicherheitsprüfung |
+| KI-Antworten falsch oder durch Dokumenttext manipuliert | Quellenpflicht, Hinweis „ungeprüft“, keine Werkzeuge, kein Automatismus |
+| Text Dritter verlässt das Gerät | `llmPolicy` mit Tests; Abnahme prüft das Netzwerkprotokoll |
+| Kosten laufen aus dem Ruder | Ausgabenlimit in der Claude Console, Anfragelimit in der Funktion, Not-Aus |
 
 ## Offene Punkte
 
 - Buchkapitel für den genauen Abgleich mit Durst und Khadir.
 - Ordnerregeln für die Erststufung (welche Unterordner in Study sind Kursunterlagen, Klasse B).
 - Phase 2: Prüfungen direkt auf der Seite eintragen (bräuchte Schreibrechte für das Register).
+- Anbindung des KI-Assistenten (Option 1, 2 oder 3) und Modell (Claude Haiku oder Sonnet, je nach Kosten).
