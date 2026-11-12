@@ -48,7 +48,7 @@ const AUTH_ERRORS: Record<string, string> = {
 }
 
 type Data = { skills: Skill[]; meldungen: Meldung[]; fristen: Frist[]; quellen: Quelle[]; trends: Trend[] }
-type Phase = 'init' | 'signedOut' | 'loading' | 'ready' | 'error'
+type Phase = 'init' | 'signedOut' | 'loading' | 'ready' | 'error' | 'framed'
 
 const EINORDNUNGEN = ['erneuern', 'veraltet', 'entwertet', 'Chance']
 const ENTSCHEIDUNGEN = ['offen', 'übernehmen', 'beobachten', 'verwerfen']
@@ -119,11 +119,22 @@ export default function Intern() {
 
   useEffect(() => {
     if (!configured) return
-    void firebase().catch(() => undefined) // vorab laden, damit das Anmeldefenster nicht blockiert wird
-    const token = readToken()
-    setAccount(store()?.getItem(KEY_ACCOUNT) ?? '')
-    if (token) void load(token)
-    else setPhase('signedOut')
+    // Schutz gegen Clickjacking: frame-ancestors lässt sich auf GitHub Pages nicht als Header setzen.
+    const framed = window.top !== window.self
+    let active = true
+    void Promise.resolve().then(() => {
+      if (!active) return
+      if (framed) {
+        setPhase('framed')
+        return
+      }
+      void firebase().catch(() => undefined) // vorab laden, damit das Anmeldefenster nicht blockiert wird
+      const token = readToken()
+      setAccount(store()?.getItem(KEY_ACCOUNT) ?? '')
+      if (token) void load(token)
+      else setPhase('signedOut')
+    })
+    return () => { active = false }
   }, [configured, load])
 
   const signIn = async () => {
@@ -191,7 +202,7 @@ export default function Intern() {
                 <button type="button" className="intern-btn intern-btn--ghost" onClick={() => void signOut()}>Abmelden</button>
                 {account && <span className="intern-account">Angemeldet als {account}</span>}
               </>
-            ) : configured && phase !== 'init' ? (
+            ) : configured && phase !== 'init' && phase !== 'framed' ? (
               <button type="button" className="intern-btn intern-btn--primary" onClick={() => void signIn()}>Anmelden</button>
             ) : null}
           </div>
@@ -201,6 +212,9 @@ export default function Intern() {
       <div className="container intern-body">
         {!configured && (
           <p className="intern-note">Der Bereich ist noch nicht eingerichtet.</p>
+        )}
+        {phase === 'framed' && (
+          <p className="intern-note intern-note--error" role="alert">Dieser Bereich lässt sich nur direkt unter dangulea.at/intern öffnen.</p>
         )}
         {error && <p className="intern-note intern-note--error" role="alert">{error}</p>}
         {phase === 'loading' && <p className="intern-note" aria-live="polite">Lade Daten …</p>}

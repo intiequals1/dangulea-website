@@ -1,9 +1,17 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// Im Build erlaubt die CSP in index.html nur das Inline-Skript mit passendem Hash.
+// Der Dev-Server braucht für React Refresh ein zusätzliches Inline-Skript.
+const devInlineScripts = {
+  name: 'dev-inline-scripts',
+  apply: 'serve' as const,
+  transformIndexHtml: (html: string) => html.replace(/script-src 'self' 'sha256-[^']+'/, "script-src 'self' 'unsafe-inline'"),
+}
+
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), devInlineScripts],
   base: '/',
   server: {
     headers: {
