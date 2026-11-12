@@ -164,6 +164,8 @@ export default function Layout({ children }: LayoutProps) {
           </p>
           <p className="footer__copy">
             © {new Date().getFullYear()} Claudiu Dangulea
+            <span className="footer__sep" aria-hidden="true">·</span>
+            <NavLink to="/intern" className="footer__link">Intern</NavLink>
           </p>
         </div>
       </footer>

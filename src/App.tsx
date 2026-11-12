@@ -8,6 +8,7 @@ import NewsArticle from './pages/NewsArticle'
 import AktuelleThemen from './pages/AktuelleThemen'
 import Ressourcen from './pages/Ressourcen'
 import Impressum from './pages/Impressum'
+import Intern from './pages/Intern'
 import './styles/global.css'
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/aktuelle-themen" element={<AktuelleThemen />} />
         <Route path="/ressourcen" element={<Ressourcen />} />
         <Route path="/impressum" element={<Impressum />} />
+        <Route path="/intern" element={<Intern />} />
       </Routes>
     </Layout>
   )

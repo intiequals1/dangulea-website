@@ -32,6 +32,12 @@ Der Deploy läuft automatisch über GitHub Actions bei jedem Push auf den Standa
 
 Die Seite wird laufend überarbeitet. Inhalte und Formulierungen ändern sich, insbesondere auf der Projekte-Seite, wo überwiegend Entwürfe und Notizsammlungen aufgeführt sind.
 
+## Interner Bereich
+
+Unter `/intern` liegt ein geschützter Bereich für meinen Skill-Radar. Die Seite selbst ist öffentlich und enthält keine Daten. Nach der Anmeldung mit Google liest sie ein privates Google Sheet über die Sheets-API, ausschließlich lesend und mit dem Token der angemeldeten Person. Wer keinen Lesezugriff auf das Sheet hat, sieht nichts. Das Token liegt nur im Sitzungsspeicher des Browsers.
+
+Für den Build werden zwei Repository-Variablen gebraucht: `GOOGLE_CLIENT_ID` (OAuth-Client vom Typ Webanwendung) und `SKILL_SHEET_ID`. Fehlen sie, zeigt die Seite nur einen Hinweis.
+
 ## Entstehung und KI-Unterstützung
 
 Teile dieser Seite sind mit KI-Assistenz entstanden, umgangssprachlich vibe-gecoded. Ich halte es für angemessen, das offenzulegen, statt es zu verschweigen.

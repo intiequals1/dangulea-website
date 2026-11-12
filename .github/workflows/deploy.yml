@@ -32,6 +32,10 @@ jobs:
         run: pnpm news:factcheck
       - name: Generate pages and both images, then validate the complete artifact
         run: pnpm build
+        env:
+          # Öffentliche Werte für den internen Bereich (/intern); die Daten selbst bleiben im privaten Google Sheet.
+          VITE_GOOGLE_CLIENT_ID: ${{ vars.GOOGLE_CLIENT_ID }}
+          VITE_SKILL_SHEET_ID: ${{ vars.SKILL_SHEET_ID }}
       - name: Verify validator rejects damaged deployment artifacts
         run: node scripts/check-news-artifact.mjs
       # Only a fully validated artifact can reach the deployment job.
