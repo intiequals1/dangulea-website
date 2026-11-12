@@ -2,6 +2,41 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-12-1",
+      "date": "2026-11-12",
+      "number": 1,
+      "title": "Benchmark prüft die Koordination von KI-Agenten bei gemeinsamen Ressourcen",
+      "text": "Fakten: Ein am 11. November 2026 erschienener Forschungsbeitrag aus dem Anthropic Fellows Program stellt MAMUBench vor und gibt drei simulierte Testumgebungen frei. Im Grundvergleich der zugrunde liegenden Studie waren die Gruppenergebnisse in allen vier untersuchten Umgebungen schlechter, wenn jede Person einen eigenen Agenten einsetzte, als mit einem gemeinsamen Koordinator.\nEinordnung: Für Unternehmenssysteme mit gemeinsam genutzten Budgets, Kalendern oder Freigabewarteschlangen bietet der Benchmark einen Ansatz, Konflikte zwischen Agenten vor dem Einsatz zu testen. Die Ergebnisse stammen aus Simulationen des Forschungsteams.\nQuellen: https://alignment.anthropic.com/2026/worse-together/ https://arxiv.org/abs/2610.00583 https://github.com/safety-research/MAMUBench"
+    },
+    {
+      "id": "2026-11-12-2",
+      "date": "2026-11-12",
+      "number": 2,
+      "title": "Databricks gibt verwaltete Fachdefinitionen für Unity Catalog frei",
+      "text": "Fakten: Databricks führt Pages in seinen Google-Cloud-Release-Notes vom 11. November 2026 als allgemein verfügbar. Laut Produktdokumentation verwalten Fachdomänen damit Definitionen, die Genie One bei Antworten über das definierte Konzept priorisiert und als Quelle angibt.\nEinordnung: Bei Kennzahlen aus ERP- und Finanzdaten können Teams so hinterlegen, was beispielsweise als offener Auftrag gilt und welche Datenquelle dafür maßgeblich ist. Databricks beschreibt einen gestaffelten Rollout. Die Angaben stammen vom Anbieter.\nQuellen: https://docs.databricks.com/gcp/en/release-notes/product/2026/november#pages-are-generally-available https://docs.databricks.com/gcp/en/uc-semantics/pages"
+    },
+    {
+      "id": "2026-11-12-3",
+      "date": "2026-11-12",
+      "number": 3,
+      "title": "EcoAustria beziffert Österreichs Rechenzentrumsbedarf mit einer Modellschätzung",
+      "text": "Fakten: Eine am 11. November 2026 von EcoAustria vorgestellte Auftragsstudie für die Wirtschaftsagentur Wien schätzt die Nachfrage österreichischer Unternehmen nach Rechenzentrumskapazität auf rund 419 Megawatt. Dem stellt sie eine geschätzte inländische Kapazität von 80 bis 100 Megawatt IT-Last gegenüber.\nEinordnung: Die Nachfrage wird aus EU-Zahlen über den Wirtschaftsanteil abgeleitet. Für die Standortplanung lohnt es sich, latenz- oder souveränitätskritische Anwendungen gesondert zu betrachten und die IT-Last von der elektrischen Anschlussleistung zu unterscheiden.\nQuellen: https://ecoaustria.ac.at/wirtschaftliche-effekte-von-rechenzentren/ https://ecoaustria.ac.at/wp-content/uploads/2026/11/EcoAustria_Studie_Rechenzentren.pdf"
+    },
+    {
+      "id": "2026-11-12-4",
+      "date": "2026-11-12",
+      "number": 4,
+      "title": "Google Cloud erläutert Schutzmaßnahmen für AMD-Seitenkanäle",
+      "text": "Fakten: Google Cloud nennt in Bulletin GCP-2026-081 drei Seitenkanalschwachstellen bei betroffenen Compute-Engine-Instanzen mit AMD EPYC der fünften Generation. Google meldet Schutzmaßnahmen zwischen virtuellen Maschinen und zum Host und empfiehlt für Angriffe innerhalb einer VM ein Update des Gastbetriebssystems.\nEinordnung: Für Plattformteams sind Hostschutz und Gastpatch zwei getrennte Aufgaben. Google nennt für betroffene VMs nach Bereitstellung der aktualisierten CPU-Informationen ein Stoppen und Starten. Das ist bei der Planung von Wartungsfenstern zu berücksichtigen.\nQuellen: https://docs.cloud.google.com/support/bulletins#gcp-2026-081 https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7073.html https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3055.html"
+    },
+    {
+      "id": "2026-11-12-5",
+      "date": "2026-11-12",
+      "number": 5,
+      "title": "EU-Pilotstudie schlägt Sicherheitskriterien für zivile Drohnen vor",
+      "text": "Fakten: Die Europäische Kommission berichtete am 11. November 2026 über erste Ergebnisse eines Pilotprojekts für ein europäisches Vertrauenslabel für Drohnen. Die Studie schlägt Kriterien zu Cybersicherheit, Schutz vor Störungen, Kontrolle über Betriebsdaten und Transparenz der Lieferkette vor.\nEinordnung: Für die Beschaffung von Inspektionssystemen sind damit die Datenflüsse zwischen Fluggerät, Bodenstation und externen Diensten ebenso relevant wie die Herkunft der Komponenten. Die veröffentlichten Kriterien sind Vorschläge aus dem Pilotprojekt.\nQuellen: https://transport.ec.europa.eu/news-events/news/eu-drone-summit-charts-course-competitive-innovative-and-secure-european-drone-market-2026-11-11_en https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026DC0081"
+    },
+    {
       "id": "2026-11-11-1",
       "date": "2026-11-11",
       "number": 1,

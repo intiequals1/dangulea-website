@@ -4867,6 +4867,577 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-12-1",
+      "contentHash": "6e220e5b20b73be714015ae972a27482c92a737d59ab5eb49b84462d864e3841",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-12T07:56:33.871Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Benchmark prüft die Koordination von KI-Agenten bei gemeinsamen Ressourcen",
+              "verdict": "supported",
+              "reason": "Das öffentliche Repository beschreibt MAMUBench als Benchmark für Agenten, die im Auftrag verschiedener Personen eine begrenzte Ressource teilen.",
+              "sourceUrls": [
+                "https://alignment.anthropic.com/2026/worse-together/",
+                "https://arxiv.org/abs/2610.00583",
+                "https://github.com/safety-research/MAMUBench"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein am 11. November 2026 erschienener Forschungsbeitrag aus dem Anthropic Fellows Program stellt MAMUBench vor und gibt drei simulierte Testumgebungen frei.",
+              "verdict": "supported",
+              "reason": "Der Forschungsbeitrag ist auf den 11. November datiert und meldet die Freigabe dreier Umgebungen. Das Repository listet diese konkret.",
+              "sourceUrls": [
+                "https://alignment.anthropic.com/2026/worse-together/",
+                "https://arxiv.org/abs/2610.00583",
+                "https://github.com/safety-research/MAMUBench"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Im Grundvergleich der zugrunde liegenden Studie waren die Gruppenergebnisse in allen vier untersuchten Umgebungen schlechter, wenn jede Person einen eigenen Agenten einsetzte, als mit einem gemeinsamen Koordinator.",
+              "verdict": "supported",
+              "reason": "Der Preprint beschreibt den Koordinator als Kontrollbedingung und berichtet schwächere Gruppenergebnisse für Teams mit Einzelagenten in allen vier untersuchten Umgebungen.",
+              "sourceUrls": [
+                "https://alignment.anthropic.com/2026/worse-together/",
+                "https://arxiv.org/abs/2610.00583",
+                "https://github.com/safety-research/MAMUBench"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-12T07:56:33.871Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Benchmark prüft die Koordination von KI-Agenten bei gemeinsamen Ressourcen",
+              "verdict": "supported",
+              "reason": "Das Repository enthält drei Typen von Koordinationsaufgaben mit gemeinsamem Budget, Kalender oder Gruppenbestellung. Der Gegenstand ist enger als allgemeine Agentenleistung.",
+              "sourceUrls": [
+                "https://alignment.anthropic.com/2026/worse-together/",
+                "https://arxiv.org/abs/2610.00583",
+                "https://github.com/safety-research/MAMUBench"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein am 11. November 2026 erschienener Forschungsbeitrag aus dem Anthropic Fellows Program stellt MAMUBench vor und gibt drei simulierte Testumgebungen frei.",
+              "verdict": "supported",
+              "reason": "Die arXiv-Einreichung datiert auf 30. September und kündigt die Freigabe erst an. Der November-Beitrag und das öffentliche Repository dokumentieren die Veröffentlichung des Benchmarks.",
+              "sourceUrls": [
+                "https://alignment.anthropic.com/2026/worse-together/",
+                "https://arxiv.org/abs/2610.00583",
+                "https://github.com/safety-research/MAMUBench"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Im Grundvergleich der zugrunde liegenden Studie waren die Gruppenergebnisse in allen vier untersuchten Umgebungen schlechter, wenn jede Person einen eigenen Agenten einsetzte, als mit einem gemeinsamen Koordinator.",
+              "verdict": "supported",
+              "reason": "Der Abschnitt Mitigations beschreibt, dass ein Teamleiter in einer Variante zum Koordinator aufschließen kann. Die Meldung grenzt das Ergebnis auf den Grundvergleich ein.",
+              "sourceUrls": [
+                "https://alignment.anthropic.com/2026/worse-together/",
+                "https://arxiv.org/abs/2610.00583",
+                "https://github.com/safety-research/MAMUBench"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "MAMUBench Worse Together September preprint November 11 release three four environments repository",
+              "finding": "Die Suche trennt die ältere Einreichung, vier Studienumgebungen und drei freigegebene Benchmarkumgebungen. Die Merge-Warteschlange gehört nicht zu den drei veröffentlichten Umgebungen.",
+              "sourceUrls": [
+                "https://alignment.anthropic.com/2026/worse-together/",
+                "https://arxiv.org/abs/2610.00583",
+                "https://github.com/safety-research/MAMUBench"
+              ]
+            },
+            {
+              "query": "2610.00583 Worse Together model exceptions peer to peer better coordinator limitations main results",
+              "finding": "Die Suche nach Ausnahmen ergibt eine gezielte Mitigation mit Teamleiter im Budgettest. Sie ändert die berichtete Richtung im Grundvergleich nicht.",
+              "sourceUrls": [
+                "https://alignment.anthropic.com/2026/worse-together/",
+                "https://arxiv.org/abs/2610.00583",
+                "https://github.com/safety-research/MAMUBench"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Preprint vom 30. September; Forschungsbeitrag am 11. November. Vier untersuchte Umgebungen, drei im öffentlichen Benchmark.",
+            "scopeAndQualifications": "Simulierte Gruppenaufgaben mit begrenzten Ressourcen; Aussage auf den Grundvergleich beschränkt.",
+            "sourceIndependence": "Preprint, Forschungsbeitrag und Code gehören zum selben Projekt. Die Nutzung mehrerer Modellanbieter ist keine externe Replikation.",
+            "contradictions": "Der ältere Preprint kündigt Code an, der spätere Beitrag verweist auf das öffentliche Repository. Mitigation und Grundvergleich sind getrennte Bedingungen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-2",
+      "contentHash": "b03995004efdb8e9f6a1fb33fe30ff48b59ea273f2d626ada1e38099d5af3c4b",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-12T07:56:33.871Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks gibt verwaltete Fachdefinitionen für Unity Catalog frei",
+              "verdict": "supported",
+              "reason": "Die Release Notes melden Pages allgemein verfügbar; die Produktdokumentation ordnet Pages den Semantikfunktionen von Unity Catalog zu.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#pages-are-generally-available",
+                "https://docs.databricks.com/gcp/en/uc-semantics/pages"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks führt Pages in seinen Google-Cloud-Release-Notes vom 11. November 2026 als allgemein verfügbar.",
+              "verdict": "supported",
+              "reason": "Der Eintrag Pages are generally available ist auf den 11. November 2026 datiert und gehört zur Dokumentation für Google Cloud.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#pages-are-generally-available",
+                "https://docs.databricks.com/gcp/en/uc-semantics/pages"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut Produktdokumentation verwalten Fachdomänen damit Definitionen, die Genie One bei Antworten über das definierte Konzept priorisiert und als Quelle angibt.",
+              "verdict": "supported",
+              "reason": "Die Abschnitte zur Nutzung in Genie One beschreiben, dass passende modellierte Definitionen Vorrang erhalten und als anklickbare Zitate erscheinen.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#pages-are-generally-available",
+                "https://docs.databricks.com/gcp/en/uc-semantics/pages"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-12T07:56:33.871Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks gibt verwaltete Fachdefinitionen für Unity Catalog frei",
+              "verdict": "supported",
+              "reason": "Die Dokumentation unterscheidet Pages für Fachkonzepte von Tabellen-Wikis in Beta. Die Meldung bezieht sich auf Pages.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#pages-are-generally-available",
+                "https://docs.databricks.com/gcp/en/uc-semantics/pages",
+                "https://docs.databricks.com/gcp/en/genie-one"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks führt Pages in seinen Google-Cloud-Release-Notes vom 11. November 2026 als allgemein verfügbar.",
+              "verdict": "supported",
+              "reason": "Der Release-Hinweis beschreibt einen gestaffelten Rollout. Die Verfügbarkeitsstufe belegt keinen sofortigen Zugriff in jedem Konto.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#pages-are-generally-available",
+                "https://docs.databricks.com/gcp/en/uc-semantics/pages",
+                "https://docs.databricks.com/gcp/en/genie-one"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut Produktdokumentation verwalten Fachdomänen damit Definitionen, die Genie One bei Antworten über das definierte Konzept priorisiert und als Quelle angibt.",
+              "verdict": "supported",
+              "reason": "Der Gegenabgleich unterscheidet veröffentlichte Definitionen von Entwürfen, die nur Eigentümer in eigenen Unterhaltungen nutzen können.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#pages-are-generally-available",
+                "https://docs.databricks.com/gcp/en/uc-semantics/pages",
+                "https://docs.databricks.com/gcp/en/genie-one"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "Databricks November 11 Pages generally available MANAGE PAGES Google Cloud staged preview wiki",
+              "finding": "Die Suche zur Freigabe ergab das Release-Datum und den ausdrücklichen Hinweis auf gestaffelte Bereitstellung.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#pages-are-generally-available",
+                "https://docs.databricks.com/gcp/en/uc-semantics/pages",
+                "https://docs.databricks.com/gcp/en/genie-one"
+              ]
+            },
+            {
+              "query": "Databricks Genie One How Genie One uses Pages citations domain access Unity Catalog conflict limitations",
+              "finding": "Die Suche zur Nutzung ergab dokumentierte Sichtbarkeitsregeln für Entwürfe und Zugriff über Fachdomänen. Eine Definition ist noch kein Nachweis korrekter KI-Antworten.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#pages-are-generally-available",
+                "https://docs.databricks.com/gcp/en/uc-semantics/pages",
+                "https://docs.databricks.com/gcp/en/genie-one"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Pages-Eintrag vom 11. November 2026 in den Google-Cloud-Release-Notes.",
+            "scopeAndQualifications": "Fachdefinitionen in Pages. Entwürfe haben eingeschränkte Sichtbarkeit; der Rollout erfolgt gestaffelt.",
+            "sourceIndependence": "Release Notes und Produktdokumentation stammen von Databricks. Kein Test einer Kundenumgebung.",
+            "contradictions": "Die allgemeine Freigabe von Pages steht neben anderen Vorschaufunktionen, etwa Tabellen-Wikis. Der Artikel ordnet diese Stufen nicht einander zu."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-3",
+      "contentHash": "77642f2118bfbfc91c942a82ad5c2eb1ee9bba630824d6bfc9f0c4323468dc44",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-12T07:56:33.871Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EcoAustria beziffert Österreichs Rechenzentrumsbedarf mit einer Modellschätzung",
+              "verdict": "supported",
+              "reason": "Die Originalstudie legt eine Modellableitung und eine Schätzspanne vor; sie beschreibt keine direkt gemessene Gesamtnachfrage.",
+              "sourceUrls": [
+                "https://ecoaustria.ac.at/wirtschaftliche-effekte-von-rechenzentren/",
+                "https://ecoaustria.ac.at/wp-content/uploads/2026/11/EcoAustria_Studie_Rechenzentren.pdf"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Eine am 11. November 2026 von EcoAustria vorgestellte Auftragsstudie für die Wirtschaftsagentur Wien schätzt die Nachfrage österreichischer Unternehmen nach Rechenzentrumskapazität auf rund 419 Megawatt.",
+              "verdict": "supported",
+              "reason": "Die Publikationsseite datiert auf 11. November und nennt den Auftraggeber. Abschnitt 2.1 leitet 419 MW aus dem Wirtschaftsanteil ab.",
+              "sourceUrls": [
+                "https://ecoaustria.ac.at/wirtschaftliche-effekte-von-rechenzentren/",
+                "https://ecoaustria.ac.at/wp-content/uploads/2026/11/EcoAustria_Studie_Rechenzentren.pdf"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Dem stellt sie eine geschätzte inländische Kapazität von 80 bis 100 Megawatt IT-Last gegenüber.",
+              "verdict": "supported",
+              "reason": "Abschnitt 2.1 beziffert das geschätzte österreichische Angebot auf 80 bis 100 MW IT-Last.",
+              "sourceUrls": [
+                "https://ecoaustria.ac.at/wirtschaftliche-effekte-von-rechenzentren/",
+                "https://ecoaustria.ac.at/wp-content/uploads/2026/11/EcoAustria_Studie_Rechenzentren.pdf"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-12T07:56:33.871Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EcoAustria beziffert Österreichs Rechenzentrumsbedarf mit einer Modellschätzung",
+              "verdict": "supported",
+              "reason": "Die Studie räumt fehlende eindeutige österreichische Kapazitätszahlen ein und gleicht verschiedene Quellen ab. Die Überschrift kennzeichnet die Methode.",
+              "sourceUrls": [
+                "https://ecoaustria.ac.at/wirtschaftliche-effekte-von-rechenzentren/",
+                "https://ecoaustria.ac.at/wp-content/uploads/2026/11/EcoAustria_Studie_Rechenzentren.pdf",
+                "https://wirtschaftsagentur.at/geschichten-aus-wien/rechenzentrumsstrategie-2026-297/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Eine am 11. November 2026 von EcoAustria vorgestellte Auftragsstudie für die Wirtschaftsagentur Wien schätzt die Nachfrage österreichischer Unternehmen nach Rechenzentrumskapazität auf rund 419 Megawatt.",
+              "verdict": "supported",
+              "reason": "Der PDF-Bericht trägt Oktober als Berichtsdatum. Die Veröffentlichung des Instituts ist auf 11. November datiert. Die Wirtschaftsagentur zitiert die Schätzung bereits im Kontext ihrer Strategie vom Vortag.",
+              "sourceUrls": [
+                "https://ecoaustria.ac.at/wirtschaftliche-effekte-von-rechenzentren/",
+                "https://ecoaustria.ac.at/wp-content/uploads/2026/11/EcoAustria_Studie_Rechenzentren.pdf",
+                "https://wirtschaftsagentur.at/geschichten-aus-wien/rechenzentrumsstrategie-2026-297/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Dem stellt sie eine geschätzte inländische Kapazität von 80 bis 100 Megawatt IT-Last gegenüber.",
+              "verdict": "supported",
+              "reason": "Die Studie rechnet Anschlussleistung bei Bedarf über den PUE-Faktor auf IT-Last um. Die genannte Spanne ist keine Anschlussleistung eines Standorts.",
+              "sourceUrls": [
+                "https://ecoaustria.ac.at/wirtschaftliche-effekte-von-rechenzentren/",
+                "https://ecoaustria.ac.at/wp-content/uploads/2026/11/EcoAustria_Studie_Rechenzentren.pdf",
+                "https://wirtschaftsagentur.at/geschichten-aus-wien/rechenzentrumsstrategie-2026-297/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "EcoAustria November 11 419 MW 80 100 IT-Last Österreich Methodik 139.7 Schätzung Rechenzentren",
+              "finding": "Die Methodenprüfung zeigte, dass die Nachfrage aus der EU-Schätzung abgeleitet wird und die Studie die österreichische IT-Kapazität als Bandbreite behandelt.",
+              "sourceUrls": [
+                "https://ecoaustria.ac.at/wirtschaftliche-effekte-von-rechenzentren/",
+                "https://ecoaustria.ac.at/wp-content/uploads/2026/11/EcoAustria_Studie_Rechenzentren.pdf",
+                "https://wirtschaftsagentur.at/geschichten-aus-wien/rechenzentrumsstrategie-2026-297/"
+              ]
+            },
+            {
+              "query": "Wirtschaftsagentur Wien Rechenzentrum 419 MW Anschlussleistung IT Last EcoAustria EU impact assessment 81 MW",
+              "finding": "Die Suche zur Einheit führte zur Projektmeldung der Wirtschaftsagentur, die neben den bundesweiten IT-Zahlen separat die elektrische Anschlusskapazität des geplanten Asperner Projekts nennt.",
+              "sourceUrls": [
+                "https://ecoaustria.ac.at/wirtschaftliche-effekte-von-rechenzentren/",
+                "https://ecoaustria.ac.at/wp-content/uploads/2026/11/EcoAustria_Studie_Rechenzentren.pdf",
+                "https://wirtschaftsagentur.at/geschichten-aus-wien/rechenzentrumsstrategie-2026-297/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Bericht mit Datierung Oktober 2026, Veröffentlichung am 11. November. 419 MW geschätzte Nachfrage und 80 bis 100 MW geschätzte IT-Last.",
+            "scopeAndQualifications": "Unternehmensnachfrage nach Rechenzentrumskapazität; eigene Kapazitäten vor Ort sind nicht Teil der verglichenen Rechenzentrumszahlen.",
+            "sourceIndependence": "Wirtschaftsagentur Wien ist Auftraggeberin und zitiert die Studie. Das ist keine zweite unabhängige Messung.",
+            "contradictions": "Abweichende Leistungsangaben müssen nach IT-Last und elektrischer Anschlussleistung getrennt werden. Die Meldung verwendet die IT-Last-Spanne des Berichts."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-4",
+      "contentHash": "654a6267a76d887e155a2c091be47d6577d8e8ce83121764222885caeb40db86",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-12T07:56:33.871Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Google Cloud erläutert Schutzmaßnahmen für AMD-Seitenkanäle",
+              "verdict": "supported",
+              "reason": "GCP-2026-081 beschreibt die Seitenkanäle und unterscheidet Abhilfemaßnahmen nach Virtualisierungsebene.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/support/bulletins#gcp-2026-081",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7073.html",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3055.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Google Cloud nennt in Bulletin GCP-2026-081 drei Seitenkanalschwachstellen bei betroffenen Compute-Engine-Instanzen mit AMD EPYC der fünften Generation.",
+              "verdict": "supported",
+              "reason": "Google nennt drei CVE-IDs und grenzt die betroffenen Compute-Engine-Maschinenserien mit Turin-Prozessoren ein.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/support/bulletins#gcp-2026-081",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7073.html",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3055.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Google meldet Schutzmaßnahmen zwischen virtuellen Maschinen und zum Host und empfiehlt für Angriffe innerhalb einer VM ein Update des Gastbetriebssystems.",
+              "verdict": "supported",
+              "reason": "Google erklärt, Schutz zwischen Gästen und zum Host umgesetzt zu haben. Im Gast empfiehlt es ein Betriebssystemupdate.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/support/bulletins#gcp-2026-081",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7073.html",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3055.html"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-12T07:56:33.871Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Google Cloud erläutert Schutzmaßnahmen für AMD-Seitenkanäle",
+              "verdict": "supported",
+              "reason": "AMD beschreibt die Prozessorursache in zwei Bulletins; die konkret bereitgestellten Cloud-Maßnahmen werden von Google selbst dokumentiert.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/support/bulletins#gcp-2026-081",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7073.html",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3055.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Google Cloud nennt in Bulletin GCP-2026-081 drei Seitenkanalschwachstellen bei betroffenen Compute-Engine-Instanzen mit AMD EPYC der fünften Generation.",
+              "verdict": "supported",
+              "reason": "AMD-SB-7073 erfasst die beiden älteren CVEs für Zen 5; AMD-SB-3055 behandelt CVE-2026-0004. Google führt diese für betroffene Serien zusammen.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/support/bulletins#gcp-2026-081",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7073.html",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3055.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Google meldet Schutzmaßnahmen zwischen virtuellen Maschinen und zum Host und empfiehlt für Angriffe innerhalb einer VM ein Update des Gastbetriebssystems.",
+              "verdict": "supported",
+              "reason": "Der Cloud-Hinweis unterscheidet Gastpatch und Aktualisierung der sichtbaren CPU-Informationen. Ein gewöhnlicher Neustart genügt für Letzteres laut Bulletin nicht.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/support/bulletins#gcp-2026-081",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7073.html",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3055.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "GCP-2026-081 AMD 2026-0004 guest reboot stop start November 10 AMD Zen 5",
+              "finding": "Die Suche nach der Reihenfolge ergab die Anweisung zum Gastupdate und zum Stoppen und Starten nach Bereitstellung der CPU-Informationen.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/support/bulletins#gcp-2026-081",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7073.html",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3055.html"
+              ]
+            },
+            {
+              "query": "AMD-SB-7073 AMD-SB-3055 EPYC Turin 36350 36357 0004 scope Google VM host mitigation",
+              "finding": "Der Abgleich der AMD-Bulletins zeigt unterschiedliche CVE-Gruppen und Firmwarevorgaben. Google beschreibt die Abhilfe im eigenen Dienst separat.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/support/bulletins#gcp-2026-081",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7073.html",
+                "https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3055.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "GCP-2026-081 vom 10. November nennt CVE-2024-36350, CVE-2024-36357 und CVE-2026-0004.",
+            "scopeAndQualifications": "Betroffene Compute-Engine-Serien laut Bulletin. Hinweise unterscheiden VM, Bare Metal, GKE und Cloud Run.",
+            "sourceIndependence": "AMD ist Originalquelle zu den Prozessorlücken. Aussagen zur Umsetzung im Rechenzentrum kommen von Google.",
+            "contradictions": "Ältere Jahreszahlen in zwei CVE-IDs widersprechen der neuen Meldung für Turin nicht. Plattformschutz ersetzt kein Gastupdate."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-5",
+      "contentHash": "5e488b6f8b1eab1f0835f3932e118c095251a93ab56880400cde50710af74f91",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-12T07:56:33.871Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Pilotstudie schlägt Sicherheitskriterien für zivile Drohnen vor",
+              "verdict": "supported",
+              "reason": "Die Kommissionsmeldung bezeichnet die Sicherheitskriterien als Vorschläge des ETDL-Pilotprojekts. Der frühere Aktionsplan ordnet das Label zivilen Drohnen zu.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/eu-drone-summit-charts-course-competitive-innovative-and-secure-european-drone-market-2026-11-11_en",
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026DC0081"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Europäische Kommission berichtete am 11. November 2026 über erste Ergebnisse eines Pilotprojekts für ein europäisches Vertrauenslabel für Drohnen.",
+              "verdict": "supported",
+              "reason": "DG MOVE datiert die Veröffentlichung auf den 11. November und berichtet über erste Projektergebnisse beim Gipfel.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/eu-drone-summit-charts-course-competitive-innovative-and-secure-european-drone-market-2026-11-11_en",
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026DC0081"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Studie schlägt Kriterien zu Cybersicherheit, Schutz vor Störungen, Kontrolle über Betriebsdaten und Transparenz der Lieferkette vor.",
+              "verdict": "supported",
+              "reason": "Der Kommissionsbericht nennt Störfestigkeit, Cybersicherheit, Datenkontrolle und Lieferkettentransparenz als vorgeschlagene Punkte.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/eu-drone-summit-charts-course-competitive-innovative-and-secure-european-drone-market-2026-11-11_en",
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026DC0081"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-12T07:56:33.871Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Pilotstudie schlägt Sicherheitskriterien für zivile Drohnen vor",
+              "verdict": "supported",
+              "reason": "Der Aktionsplan beschreibt das geplante Label und trennt es von verbindlichen Anforderungen der EU-Cybersicherheitsgesetzgebung.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/eu-drone-summit-charts-course-competitive-innovative-and-secure-european-drone-market-2026-11-11_en",
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026DC0081",
+                "https://www.easa.europa.eu/en/document-library/opinions/opinion-no-062026"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Europäische Kommission berichtete am 11. November 2026 über erste Ergebnisse eines Pilotprojekts für ein europäisches Vertrauenslabel für Drohnen.",
+              "verdict": "supported",
+              "reason": "Der Gegenabgleich trennt den Gipfel vom 9. und 10. November vom Bericht vom 11. November. Die Meldung datiert den Bericht.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/eu-drone-summit-charts-course-competitive-innovative-and-secure-european-drone-market-2026-11-11_en",
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026DC0081",
+                "https://www.easa.europa.eu/en/document-library/opinions/opinion-no-062026"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Studie schlägt Kriterien zu Cybersicherheit, Schutz vor Störungen, Kontrolle über Betriebsdaten und Transparenz der Lieferkette vor.",
+              "verdict": "supported",
+              "reason": "Die EASA-Stellungnahme behandelt separat Betreiberregistrierung und Fernidentifizierung. Die Kriterien im Artikel sind dem Pilotprojekt zugeschrieben.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/eu-drone-summit-charts-course-competitive-innovative-and-secure-european-drone-market-2026-11-11_en",
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026DC0081",
+                "https://www.easa.europa.eu/en/document-library/opinions/opinion-no-062026"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "EU Trusted Drone Label November 10 2026 pilot proposed adopted voluntary legal status 2026 European Commission",
+              "finding": "Die Suche zum Status ergab einen Aktionsplan mit vorgesehenem Label und einen Bericht über Pilotresultate. Das bestätigt keine Einführung verpflichtender Kriterien.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/eu-drone-summit-charts-course-competitive-innovative-and-secure-european-drone-market-2026-11-11_en",
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026DC0081",
+                "https://www.easa.europa.eu/en/document-library/opinions/opinion-no-062026"
+              ]
+            },
+            {
+              "query": "European Trusted Drone Label booklet data operator supply chain malicious interference requirements procurement November 2026",
+              "finding": "Die Suche zu den Kriterien führte zur DG-MOVE-Zusammenfassung und zu separaten EASA-Vorschlägen. Die Aussagen wurden auf die vier in der Zusammenfassung beschriebenen Bereiche begrenzt.",
+              "sourceUrls": [
+                "https://transport.ec.europa.eu/news-events/news/eu-drone-summit-charts-course-competitive-innovative-and-secure-european-drone-market-2026-11-11_en",
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026DC0081",
+                "https://www.easa.europa.eu/en/document-library/opinions/opinion-no-062026"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "DG-MOVE-Bericht vom 11. November über einen Gipfel am 9. und 10. November.",
+            "scopeAndQualifications": "Vorschläge des Pilotprojekts für zivile Drohnen. Kein allgemeiner Zertifizierungszwang behauptet.",
+            "sourceIndependence": "Kommission ist Primärquelle zum Projekt. EASA belegt nur die Abgrenzung zu einem separaten Vorhaben.",
+            "contradictions": "Der EU-Aktionsplan und die EASA-Stellungnahme beschreiben getrennte Instrumente. Der Artikel behandelt nur den Pilotvorschlag."
+          }
+        }
+      ]
     }
   ]
 }
