@@ -38,6 +38,8 @@ Unter `/intern` liegt ein privater, geschützter Bereich für meinen Skill-Radar
 
 Die Firebase-Webkonfiguration und die Sheet-ID stehen in `src/pages/Intern.tsx`. Das sind öffentliche Kennungen, keine Geheimnisse; sie stehen ohnehin im ausgelieferten JavaScript, und ein Client-Secret wird nicht verwendet. Die Repository-Variablen `FIREBASE_API_KEY`, `FIREBASE_AUTH_DOMAIN`, `FIREBASE_PROJECT_ID`, `FIREBASE_APP_ID` und `SKILL_SHEET_ID` können sie beim Build ersetzen. Die Content-Security-Policy in `index.html` erlaubt dafür `apis.google.com`, die Firebase-Endpunkte und den Auth-Rahmen von `dangulea-intern.firebaseapp.com`; bei einem anderen Firebase-Projekt muss sie mitgeändert werden. Inline-Skripte sind nicht pauschal erlaubt, sondern einzeln per SHA-256-Hash freigegeben; `scripts/csp.test.mjs` schlägt fehl, wenn ein Inline-Skript in `index.html` ohne passenden Hash geändert wird. Eingebettet in fremde Seiten zeigt `/intern` keine Anmeldung.
 
+Geplant ist ein privates Wissensmanagement unter `/intern/wissen`, das Dokumente aus drei Bereichen meines Google Drive direkt im Browser durchsucht, nur lesend und nur für mich. Konzept und Aufgabenliste: [`docs/km/KM-KONZEPT.md`](docs/km/KM-KONZEPT.md) und [`docs/km/TASKS.md`](docs/km/TASKS.md). Ordner-IDs und Register liegen ausschließlich in meinem Drive, nicht in diesem Repository.
+
 ## Entstehung und KI-Unterstützung
 
 Teile dieser Seite sind mit KI-Assistenz entstanden, umgangssprachlich vibe-gecoded. Ich halte es für angemessen, das offenzulegen, statt es zu verschweigen.
