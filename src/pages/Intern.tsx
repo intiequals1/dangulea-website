@@ -1,18 +1,51 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import './Intern.css'
+import type { Auth } from 'firebase/auth'
 import {
-  batchGetUrl, buildAuthUrl, daysUntil, parseAuthHash, rowsToObjects, safeUrl, sheetUrl,
+  OAUTH_SCOPE, batchGetUrl, daysUntil, rowsToObjects, safeUrl, sheetUrl,
   toFristen, toMeldungen, toNachfrage, toQuellen, toSkills, trends, upcoming,
   type Frist, type Meldung, type Quelle, type Skill, type Trend,
 } from '../utils/skillRadar'
 
-// Beide Werte kommen beim Build aus den GitHub-Repository-Variablen GOOGLE_CLIENT_ID und SKILL_SHEET_ID.
-const CLIENT_ID = (import.meta.env.VITE_GOOGLE_CLIENT_ID as string | undefined) ?? ''
-const SHEET_ID = (import.meta.env.VITE_SKILL_SHEET_ID as string | undefined) ?? ''
+// Öffentliche Kennungen, keine Geheimnisse: Die Firebase-Webkonfiguration und die Sheet-ID stehen ohnehin
+// im ausgelieferten JavaScript. Der Zugriff auf die Daten hängt allein an der Freigabe des Sheets und am
+// Testnutzer-Eintrag im OAuth-Zustimmungsbildschirm. Repository-Variablen (VITE_*) können die Werte ersetzen.
+const env = import.meta.env
+const value = (fromEnv: unknown, fallback: string) => (typeof fromEnv === 'string' && fromEnv !== '' ? fromEnv : fallback)
+const FIREBASE_CONFIG = {
+  apiKey: value(env.VITE_FIREBASE_API_KEY, 'AIzaSyAfarrsJJ4-47-Og3cdrmV36uV8cpFABQs'), // gitleaks:allow (öffentlicher Firebase-Webschlüssel)
+  authDomain: value(env.VITE_FIREBASE_AUTH_DOMAIN, 'dangulea-intern.firebaseapp.com'),
+  projectId: value(env.VITE_FIREBASE_PROJECT_ID, 'dangulea-intern'),
+  appId: value(env.VITE_FIREBASE_APP_ID, '1:919496332144:web:279332e2588cdaa4e0f5b5'),
+}
+const SHEET_ID = value(env.VITE_SKILL_SHEET_ID, '1jij3FFjdUiPuB6g3--m1PxzCQ9cWlRbYrg90QQLFkuw')
 
 const KEY_TOKEN = 'skillradar.token'
 const KEY_EXPIRES = 'skillradar.expires'
-const KEY_STATE = 'skillradar.state'
+const KEY_ACCOUNT = 'skillradar.account'
+// Google-Zugriffstokens gelten eine Stunde; Firebase liefert die Ablaufzeit nicht mit.
+const TOKEN_LIFETIME_MS = 55 * 60 * 1000
+
+type FirebaseAuth = { auth: Auth; m: typeof import('firebase/auth') }
+let firebasePromise: Promise<FirebaseAuth> | null = null
+
+// Firebase wird erst auf dieser Seite geladen, damit die übrigen Seiten schlank bleiben.
+function firebase(): Promise<FirebaseAuth> {
+  firebasePromise ??= Promise.all([import('firebase/app'), import('firebase/auth')]).then(async ([app, m]) => {
+    const instance = app.getApps()[0] ?? app.initializeApp(FIREBASE_CONFIG)
+    const auth = m.getAuth(instance)
+    await m.setPersistence(auth, m.browserSessionPersistence)
+    return { auth, m }
+  })
+  return firebasePromise
+}
+
+const AUTH_ERRORS: Record<string, string> = {
+  'auth/popup-closed-by-user': 'Die Anmeldung wurde abgebrochen.',
+  'auth/cancelled-popup-request': 'Die Anmeldung wurde abgebrochen.',
+  'auth/popup-blocked': 'Der Browser hat das Anmeldefenster blockiert. Bitte Pop-ups für diese Seite erlauben.',
+  'auth/unauthorized-domain': 'Diese Domain ist in Firebase nicht als Anmeldedomain eingetragen.',
+}
 
 type Data = { skills: Skill[]; meldungen: Meldung[]; fristen: Frist[]; quellen: Quelle[]; trends: Trend[] }
 type Phase = 'init' | 'signedOut' | 'loading' | 'ready' | 'error'
@@ -38,6 +71,7 @@ function clearToken() {
   const s = store()
   s?.removeItem(KEY_TOKEN)
   s?.removeItem(KEY_EXPIRES)
+  s?.removeItem(KEY_ACCOUNT)
 }
 
 export default function Intern() {
@@ -47,7 +81,8 @@ export default function Intern() {
   const [einordnung, setEinordnung] = useState('alle')
   const [entscheidung, setEntscheidung] = useState('alle')
   const [skillFilter, setSkillFilter] = useState('')
-  const configured = CLIENT_ID !== '' && SHEET_ID !== ''
+  const [account, setAccount] = useState('')
+  const configured = Object.values(FIREBASE_CONFIG).every(v => v !== '') && SHEET_ID !== ''
 
   const load = useCallback(async (token: string) => {
     setPhase('loading')
@@ -82,43 +117,43 @@ export default function Intern() {
     }
   }, [])
 
-  // Rückkehr von Google: Token aus dem URL-Fragment übernehmen, Fragment sofort entfernen.
   useEffect(() => {
     if (!configured) return
-    const auth = parseAuthHash(window.location.hash)
-    const s = store()
-    if (auth) {
-      window.history.replaceState(null, '', window.location.pathname)
-      const expected = s?.getItem(KEY_STATE)
-      s?.removeItem(KEY_STATE)
-      if (auth.error) {
-        setPhase('signedOut')
-        setError(auth.error === 'access_denied' ? 'Die Anmeldung wurde abgebrochen.' : `Google meldet: ${auth.error}`)
-        return
-      }
-      if (!auth.accessToken || !expected || auth.state !== expected) {
-        setPhase('signedOut')
-        setError('Die Anmeldung konnte nicht bestätigt werden. Bitte erneut anmelden.')
-        return
-      }
-      s?.setItem(KEY_TOKEN, auth.accessToken)
-      s?.setItem(KEY_EXPIRES, String(Date.now() + (auth.expiresIn ?? 3600) * 1000))
-    }
+    void firebase().catch(() => undefined) // vorab laden, damit das Anmeldefenster nicht blockiert wird
     const token = readToken()
+    setAccount(store()?.getItem(KEY_ACCOUNT) ?? '')
     if (token) void load(token)
     else setPhase('signedOut')
   }, [configured, load])
 
-  const signIn = () => {
-    const state = Array.from(crypto.getRandomValues(new Uint8Array(16)), b => b.toString(16).padStart(2, '0')).join('')
-    store()?.setItem(KEY_STATE, state)
-    window.location.assign(buildAuthUrl(CLIENT_ID, `${window.location.origin}/intern`, state))
+  const signIn = async () => {
+    setError('')
+    try {
+      const { auth, m } = await firebase()
+      const provider = new m.GoogleAuthProvider()
+      provider.addScope(OAUTH_SCOPE)
+      provider.setCustomParameters({ prompt: 'select_account' })
+      const result = await m.signInWithPopup(auth, provider)
+      const token = m.GoogleAuthProvider.credentialFromResult(result)?.accessToken
+      if (!token) throw new Error('Google hat keinen Zugriff auf Google Sheets erteilt.')
+      const s = store()
+      s?.setItem(KEY_TOKEN, token)
+      s?.setItem(KEY_EXPIRES, String(Date.now() + TOKEN_LIFETIME_MS))
+      s?.setItem(KEY_ACCOUNT, result.user.email ?? '')
+      setAccount(result.user.email ?? '')
+      await load(token)
+    } catch (e) {
+      const code = (e as { code?: string }).code ?? ''
+      setPhase('signedOut')
+      setError(AUTH_ERRORS[code] ?? (e instanceof Error ? e.message : 'Anmeldung fehlgeschlagen.'))
+    }
   }
 
-  const signOut = () => {
+  const signOut = async () => {
     const token = readToken()
     clearToken()
     setData(null)
+    setAccount('')
     setPhase('signedOut')
     setError('')
     if (token) {
@@ -128,6 +163,10 @@ export default function Intern() {
         body: `token=${encodeURIComponent(token)}`,
       }).catch(() => undefined)
     }
+    try {
+      const { auth, m } = await firebase()
+      await m.signOut(auth)
+    } catch { /* bereits abgemeldet */ }
   }
 
   return (
@@ -137,18 +176,19 @@ export default function Intern() {
           <p className="section-label">Interner Bereich</p>
           <h1 className="intern-header__title">Skill-Radar</h1>
           <p className="intern-header__lead">
-            Skills, ihre Abhängigkeiten und die wöchentlichen Meldungen dazu. Die Daten liegen im privaten Google Sheet
-            „Skill-Radar Register“ und werden erst nach der Google-Anmeldung geladen. Ohne Leserecht auf das Sheet bleibt die Seite leer.
+            Skills, ihre Abhängigkeiten und die wöchentlichen Meldungen dazu. Die Daten liegen in einem privaten Google Sheet
+            und werden erst nach der Anmeldung mit Google geladen. Ohne Leserecht auf das Sheet bleibt die Seite leer.
           </p>
           <div className="intern-actions">
             {phase === 'ready' || phase === 'loading' ? (
               <>
                 <button type="button" className="intern-btn" onClick={() => { const t = readToken(); if (t) void load(t); else setPhase('signedOut') }}>Neu laden</button>
                 <a className="intern-btn" href={sheetUrl(SHEET_ID)} target="_blank" rel="noopener noreferrer">Im Sheet bearbeiten</a>
-                <button type="button" className="intern-btn intern-btn--ghost" onClick={signOut}>Abmelden</button>
+                <button type="button" className="intern-btn intern-btn--ghost" onClick={() => void signOut()}>Abmelden</button>
+                {account && <span className="intern-account">Angemeldet als {account}</span>}
               </>
             ) : configured && phase !== 'init' ? (
-              <button type="button" className="intern-btn intern-btn--primary" onClick={signIn}>Mit Google anmelden</button>
+              <button type="button" className="intern-btn intern-btn--primary" onClick={() => void signIn()}>Mit Google anmelden</button>
             ) : null}
           </div>
         </div>
@@ -156,7 +196,7 @@ export default function Intern() {
 
       <div className="container intern-body">
         {!configured && (
-          <p className="intern-note">Der Bereich ist noch nicht eingerichtet: Es fehlen die Google-Client-ID oder die Sheet-ID.</p>
+          <p className="intern-note">Der Bereich ist noch nicht eingerichtet: Es fehlt die Firebase-Konfiguration oder die Sheet-ID.</p>
         )}
         {error && <p className="intern-note intern-note--error" role="alert">{error}</p>}
         {phase === 'loading' && <p className="intern-note" aria-live="polite">Lade Daten aus dem Sheet …</p>}

@@ -20,11 +20,12 @@ export default defineConfig({
       // Content Security Policy
       'Content-Security-Policy': [
         "default-src 'self'",
-        "script-src 'self' 'unsafe-inline'",
+        "script-src 'self' 'unsafe-inline' https://apis.google.com",
         "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
         "font-src 'self' https://fonts.gstatic.com",
         "img-src 'self' data: blob:",
-        "connect-src 'self' https://sheets.googleapis.com https://oauth2.googleapis.com",
+        "connect-src 'self' https://sheets.googleapis.com https://oauth2.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com",
+        "frame-src https://dangulea-intern.firebaseapp.com",
         "frame-ancestors 'none'",
         "base-uri 'self'",
         "form-action 'self'",

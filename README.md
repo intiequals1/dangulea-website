@@ -34,9 +34,9 @@ Die Seite wird laufend überarbeitet. Inhalte und Formulierungen ändern sich, i
 
 ## Interner Bereich
 
-Unter `/intern` liegt ein geschützter Bereich für meinen Skill-Radar. Die Seite selbst ist öffentlich und enthält keine Daten. Nach der Anmeldung mit Google liest sie ein privates Google Sheet über die Sheets-API, ausschließlich lesend und mit dem Token der angemeldeten Person. Wer keinen Lesezugriff auf das Sheet hat, sieht nichts. Das Token liegt nur im Sitzungsspeicher des Browsers.
+Unter `/intern` liegt ein geschützter Bereich für meinen Skill-Radar, erreichbar über das Schloss-Symbol in der Navigation. Die Seite selbst ist öffentlich und enthält keine Daten. Die Anmeldung läuft über Firebase Authentication mit Google (eigenes Firebase-Projekt `dangulea-intern`). Danach liest die Seite ein privates Google Sheet über die Sheets-API, ausschließlich lesend und mit dem Token der angemeldeten Person. Wer keinen Lesezugriff auf das Sheet hat, sieht nichts. Der OAuth-Zustimmungsbildschirm steht auf „Testing“; anmelden können sich nur eingetragene Testnutzer. Token und Sitzung liegen nur im Sitzungsspeicher des Browsers.
 
-Für den Build werden zwei Repository-Variablen gebraucht: `GOOGLE_CLIENT_ID` (OAuth-Client vom Typ Webanwendung) und `SKILL_SHEET_ID`. Fehlen sie, zeigt die Seite nur einen Hinweis.
+Die Firebase-Webkonfiguration und die Sheet-ID stehen in `src/pages/Intern.tsx`. Das sind öffentliche Kennungen, keine Geheimnisse; sie stehen ohnehin im ausgelieferten JavaScript, und ein Client-Secret wird nicht verwendet. Die Repository-Variablen `FIREBASE_API_KEY`, `FIREBASE_AUTH_DOMAIN`, `FIREBASE_PROJECT_ID`, `FIREBASE_APP_ID` und `SKILL_SHEET_ID` können sie beim Build ersetzen. Die Content-Security-Policy in `index.html` erlaubt dafür `apis.google.com`, die Firebase-Endpunkte und den Auth-Rahmen von `dangulea-intern.firebaseapp.com`; bei einem anderen Firebase-Projekt muss sie mitgeändert werden.
 
 ## Entstehung und KI-Unterstützung
 
