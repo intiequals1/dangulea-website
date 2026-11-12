@@ -26,7 +26,7 @@ HTTP 200, eine Quellen-URL oder Wortübereinstimmungen allein belegen keine Wahr
 5. Jeder Aussage ein belastbares Ergebnis zuordnen: `supported` oder `qualified`. `qualified` erfordert im Beitrag sichtbare Einschränkungen in `limitations`. `unresolved`, `contradicted`, fehlende Angaben oder `pending` erlauben keine Veröffentlichung. Bei Problemen Text verbessern oder Meldung vor Veröffentlichung ersetzen und beide Stufen erneut ausführen.
 6. Die tatsächlich abgeschlossenen Prüfungen in `data/news-fact-checks.json` unter `reviews` ablegen, mit Prüferrolle und tatsächlichem ISO-Zeitpunkt. Vorlagen dürfen niemals pauschal auf Erfolg gesetzt werden. Es gibt keinen automatischen Befehl, der eine Freigabe erzeugt.
 7. `pnpm news:factcheck`, danach `pnpm news:sync`, Tests, Build und Freigabeprüfungen ausführen.
-8. News-Datei, Archiv und Prüfprotokoll gemeinsam committen. Nach erfolgreichem GitHub-Pages-Deploy die vollständige Live-Prüfung abwarten.
+8. News-Datei, Archiv und Prüfprotokoll gemeinsam auf dem Tagesbranch committen und den [Pull-Request-Ablauf](news-sharing.md#verpflichtender-veröffentlichungsablauf) bis zur erfolgreichen Live-Prüfung abschließen.
 
 ## Bestandsmeldungen und Darstellung
 
