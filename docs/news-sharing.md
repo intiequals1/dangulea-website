@@ -35,16 +35,16 @@ Bei verwalteten Python-Installationen eine virtuelle Umgebung verwenden und sie 
 
 Für neue oder inhaltlich geänderte Meldungen gilt vor der Archiv-Synchronisierung der gemeinsame zweistufige [Faktencheck](news-fact-checking.md). `pnpm news:factcheck` muss erfolgreich sein. News-Datei, Archiv und `data/news-fact-checks.json` werden gemeinsam committed. Unveränderte, noch ungeprüfte Bestandsmeldungen sind ausdrücklich als solche gekennzeichnet.
 
-1. Aktuellen `main` holen und neue Tagesausgabe ergänzen.
+1. `origin/main` abrufen und die Tagesausgabe auf `automation/news/YYYY-MM-DD` vorbereiten. Das Datum richtet sich nach `Europe/Vienna`. Bei einer Wiederholung zuerst nach dem PR und dem Remote-Branch für dieses Datum suchen. Einen vorhandenen News-PR mit dem zuvor geprüften Commit fortsetzen. Einen vorhandenen Branch weder zurücksetzen noch per Force-Push überschreiben.
 2. `pnpm news:sync`: Archiv übernehmen, Artikelstruktur und Identitäten prüfen.
 3. Tests und vollständigen Build ausführen. Dieser erzeugt alle statischen Seiten, Metadaten, JSON-LD, die Sitemap und je Artikel ein individuelles PNG mit 1200×630 sowie 1080×1920 Pixeln.
 4. Der Build prüft alle Artikel und beide Bilder vollständig: Dateiexistenz, PNG-Decodierung, Maße, Größenlimit, unterschiedliche Bildinhalte, Artikeltext und Quellen, Canonical, Open Graph, Twitter Card, JSON-LD, Share-Buttons, LinkedIn/Facebook-Zieladressen sowie die Bild-/Artikel-Zuordnung des Story-Teilen-Buttons.
 5. Negative Tests beschädigen echte Build-Dateien gezielt und müssen von der Freigabeprüfung zurückgewiesen werden. Sie stellen alle Dateien anschließend wieder her.
-6. Beide Datendateien gemeinsam committen. Keine generierten Dateien aus `dist/` oder `src/generated/` committen.
-7. GitHub Actions führt alle Prüfungen erneut aus. Nur ein erfolgreicher Build lädt das Pages-Artefakt hoch. `deploy` hängt mit `needs: build` daran; kein Fehler wird ignoriert. PRs werden geprüft und veröffentlichen nichts.
-8. Nach Veröffentlichung prüft der Actions-Job `verify-live` alle archivierten Artikel und Bilder per HTTP. Lokal kann derselbe Abgleich mit `pnpm verify:live` wiederholt werden. Eine fehlgeschlagene Live-Prüfung ist ein fehlgeschlagener Lauf und muss untersucht werden; sie kann bereits erfolgte Hosting-Auslieferung nicht rückwirkend verhindern.
+6. `public/news-updates.json`, `data/news-archive.json` und `data/news-fact-checks.json` gemeinsam committen. Ausschließlich den Tagesbranch ohne Force-Push pushen und mit `gh pr create --repo intiequals1/dangulea-website --base main --head "$news_branch"` einen PR öffnen. `news_branch` ist der Name des Tagesbranchs. `gh` und Git verwenden die vorhandene GitHub-Anmeldung mit Schreibzugriff. Ein erfolgreicher PR-Check veröffentlicht noch keine Website.
+7. `node scripts/merge-news-pr.mjs "$news_pr" "$news_head"` wartet auf den erfolgreichen GitHub-Actions-Check **Build and validate every news article** und mergt genau den geprüften Commit per PR. `news_pr` ist die PR-Nummer, `news_head` der vollständige SHA des geprüften News-Commits. Bei fehlgeschlagener Prüfung, geändertem Commit oder Konflikt bleibt der PR offen. Für einen Test der Prüfung ohne Merge `--check-only` anhängen.
+8. Der Merge löst `Deploy` auf `main` aus. Mit `gh run list --repo intiequals1/dangulea-website --workflow deploy.yml --branch main --event push --commit "$merge_sha"` den Lauf für den ausgegebenen Merge-SHA suchen und bis einschließlich `verify-live` abwarten. Der Job prüft alle archivierten Artikel und Bilder per HTTP. Zusätzlich die live ausgelieferte News-Datei mit Cache-Bust gegen den Merge-Commit abgleichen.
 
-Das bestehende tägliche Codex-Update muss denselben Ablauf verwenden: News-Datei und Archiv gemeinsam schreiben, alle Prüfungen vor Push bestehen und die Live-Prüfung nach erfolgreichem Pages-Deploy abwarten. Der Ablauf ist keine zweite News-Automatisierung.
+Der tägliche Codex-Auftrag recherchiert die News und erstellt den PR mit der vorhandenen GitHub-Anmeldung. GitHub Pages verwendet die Quelle **GitHub Actions**. Der Checkname bleibt mit dem Ruleset `Protect main` kompatibel. GitHubs Option **Allow auto-merge** und zusätzliche Actions-Schreibrechte sind für diesen Ablauf nicht erforderlich.
 
 ## Veröffentlichung dieser Änderung
 
