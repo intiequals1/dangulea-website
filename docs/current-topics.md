@@ -25,7 +25,11 @@ Bestehende Themen bei Neuigkeiten gezielt aktualisieren statt täglich Duplikate
 
 ## Veröffentlichung
 
-Vor jedem Lauf sauberen Arbeitsbaum und Branch prüfen, main ohne Überschreiben lokaler Arbeit aktualisieren. Die tägliche Prüfung verändert ausschließlich `public/current-topics.json`. JSON, eindeutige IDs, Quellenlinks sowie `pnpm build`, `pnpm lint` und `git diff --check` prüfen. Mit `Update current ERP topics` auf main committen und pushen, Pages-Deploy bis Abschluss und Live-Datei mit Cache-Bust gegen den Commit prüfen. Fehler niemals als erfolgreiche Veröffentlichung ausgeben.
+1. Mit sauberem Arbeitsbaum `origin/main` abrufen und davon `automation/erp/YYYY-MM-DD` mit dem Wiener Laufdatum anlegen. Bei einer Wiederholung einen passenden eigenen Branch oder PR mit dem erwarteten Commit fortsetzen. Für einen unveränderten Stand ist kein PR nötig.
+2. Ausschließlich `public/current-topics.json` ändern. JSON, eindeutige IDs, Quellenlinks sowie `pnpm build`, `pnpm lint` und `git diff --check` prüfen. Die Datei auf dem ERP-Branch mit `Update current ERP topics` committen und den vollständigen Commit-SHA festhalten.
+3. Nur den ERP-Branch ohne Force-Push pushen und per `gh pr create` einen Pull Request nach `main` öffnen. Git und `gh` verwenden die bestehende GitHub-Anmeldung mit Schreibzugriff.
+4. `node scripts/merge-erp-pr.mjs "$erp_pr" "$erp_head"` prüft den Branch, die geänderte Datei und den GitHub-Actions-Lauf für den erwarteten Commit. Der Merge erfolgt erst nach Erfolg des erforderlichen Checks **Build and validate every news article**. Für einen Test ohne Merge `--check-only` anhängen.
+5. Den `Deploy`-Lauf auf `main` für den ausgegebenen Merge-SHA abwarten und die live ausgelieferte Themendatei mit Cache-Bust gegen den Merge-Commit prüfen. Bei Fehlern den betroffenen Schritt und, falls verfügbar, PR und Commit melden.
 
 ## Automatische Kurzfassungen
 
