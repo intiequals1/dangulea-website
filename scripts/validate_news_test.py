@@ -31,6 +31,25 @@ class ImagesTest(unittest.TestCase):
                 hashes.append(validator.check_image(output.getvalue(), size))
         self.assertEqual(len(set(hashes)), 4)
 
+    def test_cubist_graphics_render_without_article_teaser(self):
+        article = {'date': '2026-11-13', 'og': {
+            'og_kategorie': 'SAP · SUCCESSFACTORS',
+            'og_titel': 'SAP setzt Fristen für alte SuccessFactors-Anmeldewege',
+            'og_icon': 'schloss',
+            'og_alt': 'Karte mit Schloss und zwei Fristen.',
+            'og_fakten': [
+                {'datum': '13.11.2026', 'label': 'Benutzeranmeldung'},
+                {'datum': 'November 2027', 'label': 'API-Aufrufe'},
+            ],
+        }}
+        for story, size in [(False, (1200, 630)), (True, (1080, 1920))]:
+            with self.subTest(story=story):
+                image = renderer.render(article, story)
+                self.assertEqual(image.size, size)
+                output = io.BytesIO()
+                image.save(output, 'PNG')
+                validator.check_image(output.getvalue(), size)
+
     def test_rejects_bad_dimensions_corruption_and_empty_images(self):
         output = io.BytesIO()
         renderer.render(self.article).save(output, 'PNG')

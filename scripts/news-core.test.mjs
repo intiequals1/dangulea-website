@@ -71,3 +71,43 @@ test('metadata escapes untrusted text including script terminators and query str
   assert.equal(json.url, article.url)
   assert.ok(html.includes('og:image:width" content="1200"'))
 })
+
+test('preview data stays with the article and joins both fact-check stages', async () => {
+  const { reviewDraft, contentHash } = await import('./news-factcheck.mjs')
+  const preview = {
+    og_kategorie: 'SAP · ERP',
+    og_titel: 'SAP setzt einen Termin',
+    og_fakten: [{ datum: '13.11.2026', label: 'Benutzeranmeldung' }],
+    og_icon: 'schloss',
+    og_alt: 'Kubistische Karte mit Schloss und Anmeldetermin.',
+  }
+  const source = {
+    ...edition,
+    text: edition.text.replace('Eine Meldung.', 'Die Benutzeranmeldung endet am 13. November 2026.'),
+    og: [preview, { ...preview, og_fakten: [] }],
+  }
+  const [article] = splitEditions([source])
+  assert.deepEqual(article.og, preview)
+  assert.ok(!article.text.includes(preview.og_titel))
+  assert.equal(mergeArchive(initial, [source]).articles[0].id, article.id)
+  const view = articleView(article)
+  const { og: _preview, ...legacy } = article
+  assert.notEqual(view.ogImage, articleView(legacy).ogImage)
+  assert.notEqual(contentHash(article), contentHash(legacy))
+  for (const stage of reviewDraft(article).stages) {
+    assert.deepEqual(stage.claims.slice(-4).map(claim => claim.id), ['og-category', 'og-headline', 'og-fact-1', 'og-alt'])
+  }
+  assert.match(articleHead(view), /property="og:image:alt" content="Kubistische Karte mit Schloss und Anmeldetermin\."/)
+  assert.throws(() => splitEditions([{ ...source, og: [] }]), /zugeordnet/)
+  for (const invalid of [
+    { ...preview, og_titel: 'Titel mit Punkt.' },
+    { ...preview, og_titel: 'A'.repeat(71) },
+    { ...preview, og_kategorie: 'Klein' },
+    { ...preview, og_alt: 'https://example.org/' },
+    { ...preview, og_icon: 'stern' },
+    { ...preview, og_fakten: [{ datum: '14.11.2026', label: 'Benutzeranmeldung' }] },
+    { ...preview, og_fakten: Array(3).fill(preview.og_fakten[0]) },
+  ]) {
+    assert.throws(() => splitEditions([{ ...source, og: [invalid, source.og[1]] }]), /Vorschaugrafik/)
+  }
+})

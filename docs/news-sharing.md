@@ -29,7 +29,7 @@ pnpm lint
 git diff --check
 ```
 
-Bei verwalteten Python-Installationen eine virtuelle Umgebung verwenden und sie vor den Befehlen aktivieren. Der Build benötigt keine externen Bilder, API-Schlüssel oder nachgeladenen Schriften. Die Bilder werden deterministisch aus dem jeweiligen Titel, Datum und Nachrichtenauszug gesetzt.
+Bei verwalteten Python-Installationen eine virtuelle Umgebung verwenden und sie vor den Befehlen aktivieren. Der Build benötigt keine externen Bilder, API-Schlüssel oder nachgeladenen Schriften. Die Bilder werden deterministisch aus den geprüften Vorschaufeldern und dem Ausgabedatum gesetzt. Bei Bestandsartikeln ohne Vorschaufelder verwendet der Build Titel, Datum und Nachrichtenauszug.
 
 ## Verpflichtender Veröffentlichungsablauf
 
@@ -45,6 +45,31 @@ Für neue oder inhaltlich geänderte Meldungen gilt vor der Archiv-Synchronisier
 8. Der Merge löst `Deploy` auf `main` aus. Mit `gh run list --repo intiequals1/dangulea-website --workflow deploy.yml --branch main --event push --commit "$merge_sha"` den Lauf für den ausgegebenen Merge-SHA suchen und bis einschließlich `verify-live` abwarten. Der Job prüft alle archivierten Artikel und Bilder per HTTP. Zusätzlich die live ausgelieferte News-Datei mit Cache-Bust gegen den Merge-Commit abgleichen.
 
 Der tägliche Codex-Auftrag recherchiert die News und erstellt den PR mit der vorhandenen GitHub-Anmeldung. GitHub Pages verwendet die Quelle **GitHub Actions**. Der Checkname bleibt mit dem Ruleset `Protect main` kompatibel. GitHubs Option **Allow auto-merge** und zusätzliche Actions-Schreibrechte sind für diesen Ablauf nicht erforderlich.
+
+## Kubistische Vorschaugrafiken
+
+Für neue Ausgaben erzeugt die News-Redaktion zusätzlich zum Meldungstext je Meldung ein JSON-Objekt aus den Quellenaussagen. In `public/news-updates.json` steht dafür neben `date`, `title` und `text` das Array `og` in der Reihenfolge der nummerierten Meldungen. Die Meldungstexte bleiben im bisherigen Format. Ein Eintrag sieht beispielsweise so aus:
+
+```json
+{
+  "og_kategorie": "SAP · SUCCESSFACTORS",
+  "og_titel": "SAP setzt Fristen für alte SuccessFactors-Anmeldewege",
+  "og_fakten": [
+    { "datum": "13.11.2026", "label": "Benutzeranmeldung" },
+    { "datum": "November 2027", "label": "API-Aufrufe" }
+  ],
+  "og_icon": "schloss",
+  "og_alt": "Kubistische Karte zu SAP SuccessFactors mit den Terminen für Benutzeranmeldung und API-Aufrufe."
+}
+```
+
+- Kategorie in Großbuchstaben, höchstens 30 Zeichen. Verwende Hersteller und Produkt, wo das zur Meldung passt.
+- Schlagzeile aktiv und eigenständig verständlich formulieren. Kernaussage zuerst, höchstens 70 Zeichen, ohne Anführungszeichen oder Satzzeichen am Ende. Wähle wenige kurze Wörter, damit die Überschrift in bis zu drei Zeilen lesbar bleibt.
+- Höchstens zwei Fakten. Datum, Zeitraum oder Zahl müssen bereits in den Quellenaussagen stehen. Verwende höchstens 14 Zeichen für den Wert und 22 für die sachlich zugehörige Funktion. Ein ausgeschriebenes Datum darf als `TT.MM.JJJJ` erscheinen. Bei ungeeigneten Werten ist `[]` richtig.
+- Zulässige Motive sind `schloss`, `cloud`, `schild`, `zahnrad`, `dokument`, `kalender` und `warnung`. Beschreibe die tatsächliche Grafik im Alt-Text mit höchstens 120 Zeichen. Verwende keine URLs oder Teaser.
+- Lege die Felder vor dem zweistufigen Faktencheck an. Beide Stufen prüfen Kategorie, Schlagzeile, Zuordnung der Fakten und den Alternativtext. Das Datumsformat und die Textlängen allein belegen keine korrekte Zuordnung. Vorhandene Ausgaben ohne `og` nutzen ihre bisherigen Grafiken.
+
+Der Build setzt den Text mit der mitgelieferten Schrift über das einmalig mit ImageGen erzeugte Hintergrundmotiv. Das facettierte Symbol wird aus `og_icon` gezeichnet. Kategorie, Datum, Schlagzeile und Fakten erscheinen im Querformat und in der Story. Der PoC-Hinweis bleibt in beiden Formaten sichtbar. Die fertigen PNGs entstehen lokal beim Build. Der Hintergrund liegt in `scripts/assets/news-cubist.jpg`. Sein Bildprompt beschreibt eine breite, textfreie kubistische Malerei aus dunklen, überlappenden Flächen mit groben Pinselstrichen, Kupfer, Ocker und gedämpftem Petrol, mit ruhigen linken zwei Dritteln und kontrastreichem rechten Drittel.
 
 ## Veröffentlichung dieser Änderung
 

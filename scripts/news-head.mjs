@@ -9,7 +9,7 @@ export function articleHead(article) {
     'og:url': article.url, 'og:site_name': 'Claudiu Dangulea', 'og:locale': 'de_AT',
     'og:image': `${SITE}${article.ogImage}`, 'og:image:secure_url': `${SITE}${article.ogImage}`,
     'og:image:type': 'image/png', 'og:image:width': '1200', 'og:image:height': '630',
-    'og:image:alt': article.title, 'article:published_time': article.date,
+    'og:image:alt': article.og?.og_alt ?? article.title, 'article:published_time': article.date,
     'article:author': `${SITE}/person`,
   }
   const ld = {
