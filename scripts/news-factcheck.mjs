@@ -2,7 +2,9 @@ import withdrawnEditions from '../data/news-withdrawn-editions.json' with { type
 import { createHash } from 'node:crypto'
 import { readFile, writeFile } from 'node:fs/promises'
 import { pathToFileURL } from 'node:url'
-import { mergeArchive } from './news-core.mjs'
+import { mergeArchive, sourceFacts } from './news-core.mjs'
+
+import { previewClaims } from './news-preview.mjs'
 
 export const METHODS = ['source-evidence-v1', 'counter-check-v1']
 const root = new URL('../', import.meta.url)
@@ -14,11 +16,13 @@ const validUrl = value => {
 }
 
 export function contentHash(article) {
-  return createHash('sha256').update(JSON.stringify([article.id, article.date, article.number, article.title, article.text])).digest('hex')
+  const content = [article.id, article.date, article.number, article.title, article.text]
+  if (article.og) content.push(article.og)
+  return createHash('sha256').update(JSON.stringify(content)).digest('hex')
 }
 
 export function claimsFor(article) {
-  const facts = article.text.match(/Fakten:\s*([\s\S]*?)(?:\n\s*(?:Einordnung|Quellen):|$)/)?.[1]?.trim()
+  const facts = sourceFacts(article.text)
   if (!facts) fail(`Keine Quellenaussagen: ${article.id}`)
   // Keep the review contract deterministic across Node/ICU versions and avoid
   // treating German dates such as "3. November" as separate assertions.
@@ -26,7 +30,7 @@ export function claimsFor(article) {
     .replace(/\b(z|u|d)\.\s*(B|a|h)\./g, '$1\uE000 $2\uE000')
   const sentences = protectedText.split(/(?<=[.!?])\s+(?=[„“"'«(]?[A-ZÄÖÜ0-9])/u)
     .map(item => item.replace(/\uE000/g, '.').trim()).filter(Boolean)
-  return [{ id: 'headline', text: article.title }, ...sentences.map((value, i) => ({ id: `fact-${i + 1}`, text: value }))]
+  return [{ id: 'headline', text: article.title }, ...sentences.map((value, i) => ({ id: `fact-${i + 1}`, text: value })), ...previewClaims(article.og)]
 }
 
 export function validateReview(article, review, now = new Date()) {

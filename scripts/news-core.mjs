@@ -1,10 +1,17 @@
 import { createHash } from 'node:crypto'
 import disclosure from '../src/content/news-disclosure.json' with { type: 'json' }
 
+import { assertPreview } from './news-preview.mjs'
+
 export const SITE = 'https://dangulea.at'
-// Increment when changing image composition, so social crawlers see a new URL.
+// Independent revisions keep existing image URLs stable when a new layout is introduced.
 export const IMAGE_VERSION = 2
+const CUBIST_IMAGE_VERSION = 'cubist-1'
 const controls = /[\u0000-\u0008\u000B\u000C\u000E-\u001F]/u
+
+export function sourceFacts(text) {
+  return text.match(/Fakten:\s*([\s\S]*?)(?:\n\s*(?:Einordnung|Quellen):|$)/)?.[1]?.trim()
+}
 
 export function assertArticle(article) {
   if (!article || !['id', 'date', 'title', 'text'].every(key => typeof article[key] === 'string' && article[key].trim()) ||
@@ -17,6 +24,7 @@ export function assertArticle(article) {
       !/Quellen:[\s\S]*?https?:\/\/[^\s<>]+/.test(article.text)) {
     throw new Error(`Ungültiger Artikel: ${article?.id ?? 'ohne ID'}`)
   }
+  if (Object.hasOwn(article, 'og')) assertPreview(article.og, sourceFacts(article.text) ?? '', article.id)
 }
 
 export function splitEditions(editions, withdrawnCounts = {}) {
@@ -30,12 +38,16 @@ export function splitEditions(editions, withdrawnCounts = {}) {
     const text = edition.text.replace(/\r\n?/g, '\n')
     const headings = [...text.matchAll(/^(\d+)\.\s+([^\n]+)(?:\n|$)/gm)]
     if (!headings.length || text.slice(0, headings[0].index).trim()) throw new Error(`Keine eindeutige Artikelstruktur: ${edition.date}`)
+    if (Object.hasOwn(edition, 'og') && (!Array.isArray(edition.og) || edition.og.length !== headings.length)) {
+      throw new Error(`Vorschaugrafiken müssen allen Meldungen der Ausgabe zugeordnet sein: ${edition.date}`)
+    }
     return headings.map((heading, index) => {
       if (Number(heading[1]) !== index + 1) throw new Error(`Lückenhafte/doppelte Nummerierung: ${edition.date}`)
       const body = text.slice(heading.index + heading[0].length, headings[index + 1]?.index ?? text.length)
         .split(/\n+Transparenz zur KI-Unterstützung:/)[0].trim()
       const number = (withdrawnCounts[edition.date] ?? 0) + index + 1
       const article = { id: `${edition.date}-${number}`, date: edition.date, number, title: heading[2].trim(), text: body }
+      if (edition.og) article.og = edition.og[index]
       assertArticle(article)
       return article
     })
@@ -77,10 +89,11 @@ export function mergeArchive(archive, editions, withdrawnCounts = {}) {
 }
 
 export function articleView(article) {
-  const facts = article.text.match(/Fakten:\s*([\s\S]*?)(?:\n\s*(?:Einordnung|Quellen):|$)/)?.[1] ?? article.text
+  const facts = sourceFacts(article.text) ?? article.text
   const clean = facts.replace(/https?:\/\/\S+/g, '').replace(/\s+/g, ' ').trim()
   const short = clean.length <= 220 ? clean : `${clean.slice(0, 217).replace(/\s+\S*$/, '')}…`
-  const revision = createHash('sha256').update(JSON.stringify([IMAGE_VERSION, disclosure, article])).digest('hex').slice(0, 16)
+  const imageVersion = article.og ? CUBIST_IMAGE_VERSION : IMAGE_VERSION
+  const revision = createHash('sha256').update(JSON.stringify([imageVersion, disclosure, article])).digest('hex').slice(0, 16)
   const path = `/news/${article.date}/${article.number}/`
   return { ...article, description: short, shareTitle: `${disclosure.label} · ${article.title}`, shareDescription: `${disclosure.socialPrefix} ${short}`, path, url: `${SITE}${path}`, ogImage: `/news-media/${article.id}-${revision}-og.png`, storyImage: `/news-media/${article.id}-${revision}-story.png` }
 }

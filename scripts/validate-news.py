@@ -81,7 +81,7 @@ def check_page(html, article):
         'og:description': article['shareDescription'], 'og:url': article['url'],
         'og:image': SITE + article['ogImage'], 'og:image:secure_url': SITE + article['ogImage'],
         'og:image:width': '1200', 'og:image:height': '630', 'og:image:type': 'image/png',
-        'og:image:alt': article['title'], 'og:locale': 'de_AT',
+        'og:image:alt': article.get('og', {}).get('og_alt', article['title']), 'og:locale': 'de_AT',
         'article:published_time': article['date'], 'twitter:card': 'summary_large_image',
         'twitter:title': article['shareTitle'], 'twitter:description': article['shareDescription'],
         'twitter:image': SITE + article['ogImage'],
