@@ -5438,6 +5438,555 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-13-1",
+      "contentHash": "1f52c514d92ae37f2a9985c373cbb923cb7f5ec3f3215fe7f65e2d7efece39dc",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-13T08:09:00.027Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP terminiert das Ende alter SuccessFactors-Anmeldewege",
+              "verdict": "supported",
+              "reason": "Die öffentliche SAP-KBA 3472405 nennt beide alten Anmeldewege und ihre Entfernung.",
+              "sourceUrls": [
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3472405",
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3796078"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP nennt den 13. November 2026 als Termin für die Entfernung der bisherigen Basic Authentication für die Benutzeranmeldung und der direkten Anbindung externer Unternehmens-Identitätsanbieter.",
+              "verdict": "supported",
+              "reason": "KBA 3472405 nennt den 13. November; KBA 3520149 beschreibt Benutzername und Kennwort als bisherigen Loginweg.",
+              "sourceUrls": [
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3472405",
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3796078"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Für Basic Authentication bei API-Aufrufen nennt der Hersteller in einem gesonderten Supportartikel November 2027.",
+              "verdict": "supported",
+              "reason": "KBA 3796078 nennt November 2027 für aufrufende API-Clients.",
+              "sourceUrls": [
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3472405",
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3796078"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-13T08:09:00.027Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP terminiert das Ende alter SuccessFactors-Anmeldewege",
+              "verdict": "supported",
+              "reason": "Die Benutzerdokumentation grenzt native Anmeldung und Single Sign-on ab.",
+              "sourceUrls": [
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3472405",
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3796078",
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3520149"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP nennt den 13. November 2026 als Termin für die Entfernung der bisherigen Basic Authentication für die Benutzeranmeldung und der direkten Anbindung externer Unternehmens-Identitätsanbieter.",
+              "verdict": "supported",
+              "reason": "SAP gibt einen Termin an. Aus der Ankündigung lässt sich kein abgeschlossener Rollout für einzelne Mandanten ableiten.",
+              "sourceUrls": [
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3472405",
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3796078",
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3520149"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Für Basic Authentication bei API-Aufrufen nennt der Hersteller in einem gesonderten Supportartikel November 2027.",
+              "verdict": "supported",
+              "reason": "Der separate API-Artikel unterscheidet eingehende API-Aufrufe von ausgehenden Integrationen.",
+              "sourceUrls": [
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3472405",
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3796078",
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3520149"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "SAP 3472405 13 November 2026 SuccessFactors basic authentication UI third party IAS planned November 15 rollout 3520149",
+              "finding": "KBA 3520149 bestätigt den Termin für den Login und verweist auf IAS.",
+              "sourceUrls": [
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3472405",
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3796078",
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3520149"
+              ]
+            },
+            {
+              "query": "SAP SuccessFactors November 2027 3796078 API basic authentication separate onboarding November 2026",
+              "finding": "KBA 3796078 beschreibt einen anderen Zeitplan für API-Aufrufe.",
+              "sourceUrls": [
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3472405",
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3796078",
+                "https://userapps.support.sap.com/sap/support/knowledge/en/3520149"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "13. November 2026 laut SAP für die genannten Loginwege; November 2027 für APIs.",
+            "scopeAndQualifications": "Benutzeranmeldung und direkte Identitätsanbindung; spezielle Onboarding-Pfade bleiben außerhalb der Meldung.",
+            "sourceIndependence": "Beide Terminangaben stammen aus SAP-Supportunterlagen.",
+            "contradictions": "Unterschiedliche Termine beziehen sich auf verschiedene Anmeldewege und Schnittstellen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-2",
+      "contentHash": "410788dc11b74d7c8784bc9f2abed4e01ba7be81c1641de3ddb84dc5ad959f75",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-13T08:09:00.027Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "PostgreSQL schließt Sicherheitslücken und beendet den Support für Version 14",
+              "verdict": "supported",
+              "reason": "Das Projektbulletin enthält Sicherheitsupdates und einen ausdrücklichen EOL-Hinweis für 14.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
+                "https://www.postgresql.org/docs/release/18.7/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Das PostgreSQL-Projekt veröffentlichte am 12. November 2026 Wartungsupdates für die Hauptversionen 14 bis 18.",
+              "verdict": "supported",
+              "reason": "Das Bulletin vom 12. November listet fünf Wartungsversionen von 14.25 bis 18.7.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
+                "https://www.postgresql.org/docs/release/18.7/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut Projekt behebt die Veröffentlichungsrunde 52 Sicherheitslücken und Version 14.25 ist das letzte Update für PostgreSQL 14.",
+              "verdict": "supported",
+              "reason": "Die Einleitung nennt 52 Sicherheitslücken für die Runde; der EOL-Abschnitt nennt die letzte Ausgabe von 14.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
+                "https://www.postgresql.org/docs/release/18.7/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-13T08:09:00.027Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "PostgreSQL schließt Sicherheitslücken und beendet den Support für Version 14",
+              "verdict": "supported",
+              "reason": "Die Versionspolitik beschreibt den letzten Minor Release nach fünf Jahren und das anschließende Supportende.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
+                "https://www.postgresql.org/docs/release/18.7/",
+                "https://www.postgresql.org/support/versioning/",
+                "https://www.postgresql.org/support/security/CVE-2026-116336/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Das PostgreSQL-Projekt veröffentlichte am 12. November 2026 Wartungsupdates für die Hauptversionen 14 bis 18.",
+              "verdict": "supported",
+              "reason": "Das offizielle Advisory CVE-2026-116336 nennt für alle fünf Hauptversionen die Fixversionen und das Veröffentlichungsdatum.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
+                "https://www.postgresql.org/docs/release/18.7/",
+                "https://www.postgresql.org/support/versioning/",
+                "https://www.postgresql.org/support/security/CVE-2026-116336/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut Projekt behebt die Veröffentlichungsrunde 52 Sicherheitslücken und Version 14.25 ist das letzte Update für PostgreSQL 14.",
+              "verdict": "supported",
+              "reason": "52 ist die Gesamtzahl der Runde. Die CVE-Tabelle differenziert nach betroffenen Versionen, während der EOL-Hinweis nur 14 betrifft.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
+                "https://www.postgresql.org/docs/release/18.7/",
+                "https://www.postgresql.org/support/versioning/",
+                "https://www.postgresql.org/support/security/CVE-2026-116336/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "PostgreSQL November 12 2026 52 vulnerabilities 14.25 final release policy",
+              "finding": "Die Versionspolitik und der EOL-Hinweis bestätigen den finalen Wartungsstand 14.25.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
+                "https://www.postgresql.org/docs/release/18.7/",
+                "https://www.postgresql.org/support/versioning/",
+                "https://www.postgresql.org/support/security/CVE-2026-116336/"
+              ]
+            },
+            {
+              "query": "PostgreSQL 18.7 November 12 2026 reindex after upgrade affected index conditions",
+              "finding": "Die 18.7-Release-Notes empfehlen die Überprüfung betroffener Indizes. Das separate CVE-Advisory zeigt die versionsgenaue Zuordnung.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
+                "https://www.postgresql.org/docs/release/18.7/",
+                "https://www.postgresql.org/support/versioning/",
+                "https://www.postgresql.org/support/security/CVE-2026-116336/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "12. November 2026; fünf produktive Hauptversionen und 52 Lücken insgesamt.",
+            "scopeAndQualifications": "PostgreSQL 19 ist zusätzlich Release Candidate und keine der fünf Wartungsversionen.",
+            "sourceIndependence": "Release Notes, Advisory und Versionspolitik stammen vom selben Projekt.",
+            "contradictions": "Der Finalstatus von 14 steht mit der Veröffentlichung des letzten Wartungsupdates am selben Tag im Einklang."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-3",
+      "contentHash": "c28165368d15fe361906347ec85bf851a7f652c34f0c683ae75d753f2f2a5043",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-13T08:09:00.027Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "ReTrace überführt Agentenprotokolle in ausführbare Workflows",
+              "verdict": "supported",
+              "reason": "Die Einleitung beschreibt das Erzeugen eines Programms aus Protokollen und einer SOP.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14492"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein Preprint stellt ReTrace vor, das aus einer Arbeitsanweisung und protokollierten Agentenläufen Regeln für einen ausführbaren Workflow erzeugt.",
+              "verdict": "supported",
+              "reason": "Die Methode extrahiert Bedingungen aus Agentenläufen, führt sie zu einem Regeldokument zusammen und generiert den Workflow.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14492"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "In 79 Verfahren auf der Plattform der Autoren lag die Abschlussquote laut Studie bei 93,8 Prozent gegenüber 96,8 Prozent beim ursprünglichen Agenten, bei 24 Prozent niedrigeren Kosten pro Aufgabe.",
+              "verdict": "supported",
+              "reason": "Tabelle und Kostenabschnitt nennen 93,8 und 96,8 Prozent bei 79 internen Verfahren sowie 24 Prozent niedrigere mittlere Kosten.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14492"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-13T08:09:00.027Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "ReTrace überführt Agentenprotokolle in ausführbare Workflows",
+              "verdict": "supported",
+              "reason": "Das Verfahren nutzt Modelle bei der Erzeugung und verzichtet auf einen Laufzeitplaner. Das bedeutet nicht, dass jedes Werkzeug ohne KI arbeitet.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14492"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein Preprint stellt ReTrace vor, das aus einer Arbeitsanweisung und protokollierten Agentenläufen Regeln für einen ausführbaren Workflow erzeugt.",
+              "verdict": "supported",
+              "reason": "Die Methodenbeschreibung trennt SOP, Agentenbegründungen und Werkzeugaufrufe. Nur die letzte Stufe ist an die konkrete Plattform gebunden.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14492"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "In 79 Verfahren auf der Plattform der Autoren lag die Abschlussquote laut Studie bei 93,8 Prozent gegenüber 96,8 Prozent beim ursprünglichen Agenten, bei 24 Prozent niedrigeren Kosten pro Aufgabe.",
+              "verdict": "supported",
+              "reason": "Der proprietäre Vergleich zeigt sinkende Kosten, aber steigende mittlere Laufzeit. Das Konfidenzintervall der Differenz der Abschlussquoten umfasst null.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14492"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "ReTrace 2611.14492 79 procedures 93.8 96.8 24 percent cost limitations internal",
+              "finding": "Der interne Datensatz zählt 79 Verfahren; Tabelle und Kostenabschnitt bestätigen die berichteten Punktschätzungen.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14492"
+              ]
+            },
+            {
+              "query": "ReTrace 2611.14492 planner-free workflows runtime LLM tool SOP Bench comparison significance",
+              "finding": "Auf SOP-Bench und Tau-Quadrat-Bench finden sich andere Ergebnisse. Die Zahlen im Artikel beziehen sich ausschließlich auf die Autorenplattform.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14492"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "79 interne Verfahren, 93,8 gegenüber 96,8 Prozent und 24 Prozent niedrigere mittlere Kosten pro Aufgabe.",
+            "scopeAndQualifications": "Proprietärer Testdatensatz. Die Meldung behauptet keine statistisch gesicherte Verschlechterung und keinen allgemeinen Laufzeitgewinn.",
+            "sourceIndependence": "Die Zahlen stammen aus dem Preprint des Teams; keine unabhängige Replikation festgestellt.",
+            "contradictions": "Der Kostenrückgang steht neben einem höheren Laufzeitmittel; die Meldung behauptet nur den Kosteneffekt im Versuch."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-4",
+      "contentHash": "c86deb103a7387955241473d636966560eb18c77584fe4e8bad42c3de4315339",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-13T08:09:00.027Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU und Ägypten gleichen ihre Verfahren für elektronische Signaturen ab",
+              "verdict": "supported",
+              "reason": "Die Kommission beschreibt die technische Angleichung von Signatur- und Siegelsystemen.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/eu-and-egypt-bring-partnership-forward-advancing-cooperation-electronic-signatures-and-seals"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EU-Kommission meldete am 12. November 2026 den Abschluss der technischen Prüfung der ägyptischen Vertrauensliste für elektronische Signaturen und Siegel.",
+              "verdict": "supported",
+              "reason": "Der Artikel trägt das Datum 12. November und meldet den erfolgreichen Abschluss der technischen Prüfung der ägyptischen Liste.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/eu-and-egypt-bring-partnership-forward-advancing-cooperation-electronic-signatures-and-seals"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Kommission kündigt die Aufnahme Ägyptens in die EU-Vertrauensliste für Drittländer an.",
+              "verdict": "supported",
+              "reason": "Die Kommission formuliert die Aufnahme in die Drittlandliste ausdrücklich in der Zukunft.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/eu-and-egypt-bring-partnership-forward-advancing-cooperation-electronic-signatures-and-seals"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-13T08:09:00.027Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU und Ägypten gleichen ihre Verfahren für elektronische Signaturen ab",
+              "verdict": "supported",
+              "reason": "Artikel 14 des aktualisierten eIDAS-Textes unterscheidet die rechtliche Gleichwertigkeit qualifizierter Dienste von einer technischen Prüfung.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/eu-and-egypt-bring-partnership-forward-advancing-cooperation-electronic-signatures-and-seals",
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401183"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EU-Kommission meldete am 12. November 2026 den Abschluss der technischen Prüfung der ägyptischen Vertrauensliste für elektronische Signaturen und Siegel.",
+              "verdict": "supported",
+              "reason": "Der Abgleich der Meldung bestätigt das Datum und den Gegenstand: technische Bewertung der Liste für Signaturen und Siegel.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/eu-and-egypt-bring-partnership-forward-advancing-cooperation-electronic-signatures-and-seals",
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401183"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Kommission kündigt die Aufnahme Ägyptens in die EU-Vertrauensliste für Drittländer an.",
+              "verdict": "supported",
+              "reason": "Weder die Meldung noch der ältere allgemeine Rechtsrahmen belegen den Vollzug der Aufnahme. Der Text bleibt bei der Ankündigung.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/eu-and-egypt-bring-partnership-forward-advancing-cooperation-electronic-signatures-and-seals",
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401183"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "EU Egypt 12 November 2026 signatures seals third countries trusted list Egypt entry technical assessment",
+              "finding": "Für die Meldung ist der Wortlaut der Kommission maßgeblich, der die Aufnahme ankündigt.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/eu-and-egypt-bring-partnership-forward-advancing-cooperation-electronic-signatures-and-seals",
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401183"
+              ]
+            },
+            {
+              "query": "eIDAS EU Egypt November 2026 technical alignment signatures legal recognition Article 14 third countries trusted list",
+              "finding": "Die Suche zum Rechtsstatus führte zu Artikel 14 mit gesonderten Voraussetzungen für rechtliche Gleichwertigkeit.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/eu-and-egypt-bring-partnership-forward-advancing-cooperation-electronic-signatures-and-seals",
+                "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401183"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Kommissionsmeldung vom 12. November 2026; kein Aufnahmedatum angegeben.",
+            "scopeAndQualifications": "Technische Prüfung und geplante Aufnahme. Keine Aussage zu einer pauschalen rechtlichen Gleichwertigkeit.",
+            "sourceIndependence": "EU-Kommission ist Primärquelle für die Ankündigung; das EU-Amtsblatt belegt den rechtlichen Rahmen, nicht den Vollzug.",
+            "contradictions": "Technische Kompatibilität und rechtliche Gleichwertigkeit sind unterschiedliche Feststellungen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-5",
+      "contentHash": "22b23c5ba0ad8be47f38fcbb8e2f895770a81f671ef3a02ee734f041588cbf53",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-13T08:09:00.027Z",
+          "reviewer": "Codex – Abgleich mit geöffneten Originalquellen",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks startet Beta für KI-gestützte Überwachung von Datenpipelines",
+              "verdict": "supported",
+              "reason": "Der Produkteintrag nennt die Beta von Genie ZeroOps und die Dokumentation beschreibt einen Hintergrundagenten für Datenworkloads.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#genie-zeroops-is-available-in-beta",
+                "https://docs.databricks.com/gcp/en/zeroops/get-started"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks führt Genie ZeroOps seit dem 12. November 2026 in den Google-Cloud-Release-Notes als Beta.",
+              "verdict": "supported",
+              "reason": "Die Google-Cloud-Release-Notes datieren den Beta-Eintrag auf den 12. November.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#genie-zeroops-is-available-in-beta",
+                "https://docs.databricks.com/gcp/en/zeroops/get-started"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut Anbieter überwacht die Funktion ausgewählte Jobs, Pipelines und Tabellen, untersucht erkannte Betriebs- oder Datenqualitätsprobleme und schlägt Korrekturen vor.",
+              "verdict": "supported",
+              "reason": "Die Dokumentation unterscheidet Erkennung, Ursachenanalyse und Korrekturvorschlag. Der Einstieg beschreibt die Auswahl des Umfangs.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#genie-zeroops-is-available-in-beta",
+                "https://docs.databricks.com/gcp/en/zeroops/get-started"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-13T08:09:00.027Z",
+          "reviewer": "Codex – gesonderte Gegenrecherche",
+          "limitations": [],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks startet Beta für KI-gestützte Überwachung von Datenpipelines",
+              "verdict": "supported",
+              "reason": "Die Produktseite verlangt, dass ein Administrator die Vorschau aktiviert. Das begrenzt die Verfügbarkeit.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#genie-zeroops-is-available-in-beta",
+                "https://docs.databricks.com/gcp/en/zeroops/get-started",
+                "https://docs.databricks.com/gcp/en/zeroops/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks führt Genie ZeroOps seit dem 12. November 2026 in den Google-Cloud-Release-Notes als Beta.",
+              "verdict": "supported",
+              "reason": "Der Hinweis auf gestaffelte Releases steht oberhalb des datierten Beta-Eintrags.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#genie-zeroops-is-available-in-beta",
+                "https://docs.databricks.com/gcp/en/zeroops/get-started",
+                "https://docs.databricks.com/gcp/en/zeroops/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut Anbieter überwacht die Funktion ausgewählte Jobs, Pipelines und Tabellen, untersucht erkannte Betriebs- oder Datenqualitätsprobleme und schlägt Korrekturen vor.",
+              "verdict": "supported",
+              "reason": "Die Dokumentation beschreibt den Posteingang mit Befunden und Vorschlägen sowie die Beschränkung auf ausgewählte Ressourcen mit passenden Rechten.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#genie-zeroops-is-available-in-beta",
+                "https://docs.databricks.com/gcp/en/zeroops/get-started",
+                "https://docs.databricks.com/gcp/en/zeroops/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "Databricks Genie ZeroOps November 12 2026 beta staged rollout Google Cloud",
+              "finding": "Der Abgleich von Release Notes und Produktseite bestätigt Beta und nötige Aktivierung durch einen Administrator.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#genie-zeroops-is-available-in-beta",
+                "https://docs.databricks.com/gcp/en/zeroops/get-started",
+                "https://docs.databricks.com/gcp/en/zeroops/"
+              ]
+            },
+            {
+              "query": "Databricks Genie ZeroOps proposed fix permissions monitored assets data quality review limitations",
+              "finding": "Die Nutzungsdokumentation beschreibt Sichtung der Befunde und Änderungsvorschläge. Die Überwachung erfasst den konfigurierten Umfang.",
+              "sourceUrls": [
+                "https://docs.databricks.com/gcp/en/release-notes/product/2026/november#genie-zeroops-is-available-in-beta",
+                "https://docs.databricks.com/gcp/en/zeroops/get-started",
+                "https://docs.databricks.com/gcp/en/zeroops/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Beta-Eintrag vom 12. November 2026.",
+            "scopeAndQualifications": "Ausgewählte Jobs, Pipelines und Tabellen. Aktivierung im Workspace und entsprechende Berechtigungen sind erforderlich.",
+            "sourceIndependence": "Release Notes und Betriebsdokumentation stammen von Databricks; kein unabhängiger Test der Erkennungsqualität.",
+            "contradictions": "Ein Korrekturvorschlag ist keine automatische Änderung im Produktivsystem."
+          }
+        }
+      ]
     }
   ]
 }
