@@ -2,6 +2,76 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-14-1",
+      "date": "2026-11-14",
+      "number": 1,
+      "title": "EU-Gipfel berät KI-Infrastruktur und betriebliche Einführung",
+      "text": "Fakten: Die EU-Staats- und Regierungschefs berieten am 13. November 2026 in Dublin über KI-Investitionen, Infrastruktur, kritische Abhängigkeiten und die Einführung von KI in Unternehmen und Verwaltungen. Die Ergebnisübersicht nennt außerdem Cybersicherheit und Auswirkungen auf die Arbeitsmärkte als Beratungsthemen.\nEinordnung: Für die Unternehmensarchitektur verbindet die Debatte die Auswahl von Recheninfrastruktur und Modellen mit organisatorischer Einführung und Governance. Die Übersicht dokumentiert Beratungen. Sie belegt keine neue Förderzusage oder beschlossene technische Pflicht.\nQuellen: https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/",
+      "og": {
+        "og_kategorie": "EU · KI-INFRASTRUKTUR",
+        "og_titel": "EU-Gipfel berät KI-Infrastruktur und Einführung",
+        "og_icon": "cloud",
+        "og_fakten": [],
+        "og_alt": "Kubistische Karte mit Wolkensymbol zur EU-Debatte über KI-Infrastruktur und Einführung"
+      }
+    },
+    {
+      "id": "2026-11-14-2",
+      "date": "2026-11-14",
+      "number": 2,
+      "title": "Google stellt eine API für begrenzte KI-Entscheidungen vor",
+      "text": "Fakten: Google stellte am 11. November 2026 die Gemini Decisions API mit dem Modell Gemini Decision 1 vor. Laut Anbieter bewertet sie vorgegebene Optionen für Ja/Nein-Fragen, Auswahlfragen und abgestufte Bewertungen und liefert Wahrscheinlichkeiten sowie Konfidenzwerte.\nEinordnung: Für das Routing zwischen Modellen oder die Auswahl eines Werkzeugs lässt sich damit ein begrenzter Entscheidungsschritt als eigener Systembaustein testen. Konfidenzwerte sollten gegen eigene Testdaten geprüft werden. Funktions- und Verfügbarkeitsangaben stammen von Google.\nQuellen: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "og": {
+        "og_kategorie": "GOOGLE · GEMINI DECISION",
+        "og_titel": "Google stellt API für begrenzte KI-Entscheidungen vor",
+        "og_icon": "zahnrad",
+        "og_fakten": [],
+        "og_alt": "Kubistische Karte mit Zahnrad zur Google-API für begrenzte KI-Entscheidungen"
+      }
+    },
+    {
+      "id": "2026-11-14-3",
+      "date": "2026-11-14",
+      "number": 3,
+      "title": "Perplexity dokumentiert Textstellenextraktion in Decider v1.3",
+      "text": "Fakten: Die Modellkarte von Perplexity zu Decider v1.3 beschreibt die neue Funktion Locate. Sie gibt Textstellen mit Zeichenpositionen und einem Bewertungswert zurück und setzt einen nichtleeren Texteingang ohne Bilder voraus.\nEinordnung: Für Dokumentenprozesse kann eine Fundstelle den Abgleich einer Klassifikation mit dem Eingangstext erleichtern. Ein Bewertungswert ersetzt die fachliche Prüfung der extrahierten Stelle nicht. Die Beschreibung stammt vom Hersteller und enthält keinen unabhängigen Genauigkeitsnachweis.\nQuellen: https://huggingface.co/perplexity-ai/pplx-decider-v1.3",
+      "og": {
+        "og_kategorie": "PERPLEXITY · DECIDER",
+        "og_titel": "Decider v1.3 gibt Fundstellen im Eingangstext zurück",
+        "og_icon": "dokument",
+        "og_fakten": [],
+        "og_alt": "Kubistische Karte mit Dokumentsymbol zur Textstellenextraktion von Decider v1.3"
+      }
+    },
+    {
+      "id": "2026-11-14-4",
+      "date": "2026-11-14",
+      "number": 4,
+      "title": "Evolving Infra passt den Modellbetrieb an Agentenlasten an",
+      "text": "Fakten: Ein Preprint vom 9. November 2026 stellt Evolving Infra vor. Das Verfahren trennt die Zuteilung von Rechenkapazität von der Verwaltung des KV-Caches und berücksichtigt bei dessen Nutzung die Kontextverwaltung von Agenten. Die Autoren untersuchen Programmier-, Mathematik- und Computerbedienungsaufgaben.\nEinordnung: Für Plattformteams betrifft das die Wiederverwendung bereits berechneter Kontexte und die Verteilung von Eingabe- und Ausgabearbeit. Die Arbeit liefert Versuche des Forschungsteams. Daraus folgt keine allgemeine Leistungszusage für eigene Agenten oder andere Hardware.\nQuellen: https://arxiv.org/html/2611.12304v1 https://arxiv.org/abs/2611.12304",
+      "og": {
+        "og_kategorie": "FORSCHUNG · MODELLBETRIEB",
+        "og_titel": "Evolving Infra passt Modellbetrieb an Agentenlasten an",
+        "og_icon": "zahnrad",
+        "og_fakten": [],
+        "og_alt": "Kubistische Karte mit Zahnrad zu Evolving Infra und dem Modellbetrieb für Agenten"
+      }
+    },
+    {
+      "id": "2026-11-14-5",
+      "date": "2026-11-14",
+      "number": 5,
+      "title": "ENISA beschreibt Schutzmaßnahmen für Softwareupdates",
+      "text": "Fakten: ENISA legt in ihrem technischen Leitfaden vom November 2026 einen Update-Lebenszyklus von der Erstellung und Veröffentlichung bis zur Installation und Statusaufzeichnung dar. Zu den beschriebenen Kontrollen gehören signierte Metadaten, Integritätsprüfungen und Schutz vor dem Einspielen älterer Versionen.\nEinordnung: Für Anbieter und Betreiber von Unternehmenssoftware bietet der Leitfaden eine Grundlage zur Prüfung der Update-Lieferkette und ihrer Wiederherstellung. Das Dokument ist eine technische Orientierung und begründet ausdrücklich keine Konformitätsvermutung zum Cyber Resilience Act.\nQuellen: https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf",
+      "og": {
+        "og_kategorie": "ENISA · SOFTWAREUPDATES",
+        "og_titel": "ENISA beschreibt Schutz für Softwareupdates",
+        "og_icon": "schild",
+        "og_fakten": [],
+        "og_alt": "Kubistische Karte mit Schild zum ENISA-Leitfaden für sichere Softwareupdates"
+      }
+    },
+    {
       "id": "2026-11-13-1",
       "date": "2026-11-13",
       "number": 1,

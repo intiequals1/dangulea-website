@@ -5987,6 +5987,847 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-14-1",
+      "contentHash": "3bbbb6af651fc522078983026bfd28e821e49863c77638e32ab7416b7045d929",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-14T05:30:25Z",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Die Ergebnisübersicht belegt Beratungen und keine neue Förderzusage oder beschlossene technische Pflicht."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Gipfel berät KI-Infrastruktur und betriebliche Einführung",
+              "verdict": "supported",
+              "reason": "Die Ergebnisübersicht unter Artificial intelligence nennt Infrastruktur und die Einführung in Unternehmen und Verwaltungen ausdrücklich. Die Überschrift beschreibt den Beratungsgegenstand.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EU-Staats- und Regierungschefs berieten am 13. November 2026 in Dublin über KI-Investitionen, Infrastruktur, kritische Abhängigkeiten und die Einführung von KI in Unternehmen und Verwaltungen.",
+              "verdict": "supported",
+              "reason": "Überschrift und Main results datieren die Zusammenkunft auf den 13. November in Dublin. Boosting Europe’s competitiveness nennt Investitionen, Infrastruktur, Abhängigkeiten und AI adoption across companies and public administrations.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Ergebnisübersicht nennt außerdem Cybersicherheit und Auswirkungen auf die Arbeitsmärkte als Beratungsthemen.",
+              "verdict": "supported",
+              "reason": "Societal impacts, safety and security nennt labour markets und cybersecurity ausdrücklich. Es werden Beratungsthemen, keine verabschiedeten Anforderungen, wiedergegeben.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "EU · KI-INFRASTRUKTUR",
+              "verdict": "supported",
+              "reason": "Die Quelle stammt vom Europäischen Rat und beschreibt europäische KI-Infrastruktur. Die Kategorie ordnet die Meldung zu.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "EU-Gipfel berät KI-Infrastruktur und Einführung",
+              "verdict": "supported",
+              "reason": "Die Kurzschlagzeile reduziert die belegten Beratungen auf Infrastruktur und Einführung und verspricht keine Beschlüsse.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Wolkensymbol zur EU-Debatte über KI-Infrastruktur und Einführung",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das durch og_icon cloud gewählte Wolkenmotiv und die belegte EU-Debatte. Er enthält keine zusätzlichen Fachbehauptungen.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-14T05:30:25Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung, kein zweites Modell",
+          "limitations": [
+            "Die Ergebnisübersicht belegt Beratungen und keine neue Förderzusage oder beschlossene technische Pflicht."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Gipfel berät KI-Infrastruktur und betriebliche Einführung",
+              "verdict": "supported",
+              "reason": "Die Ergebnisübersicht unter Artificial intelligence nennt Infrastruktur und die Einführung in Unternehmen und Verwaltungen ausdrücklich. Die Überschrift beschreibt den Beratungsgegenstand. Gegenprüfung: Beratungen bleiben Beratungen. Die Einordnung nennt die Grenze zu Förderzusagen und technischen Pflichten. Zwei institutionelle Darstellungen desselben Treffens. Keine unabhängige Wirkungsmessung behauptet.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/",
+                "https://irish-presidency.consilium.europa.eu/en/news/taoiseach-micheal-martin-hosts-informal-meeting-of-the-european-council/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EU-Staats- und Regierungschefs berieten am 13. November 2026 in Dublin über KI-Investitionen, Infrastruktur, kritische Abhängigkeiten und die Einführung von KI in Unternehmen und Verwaltungen.",
+              "verdict": "supported",
+              "reason": "Überschrift und Main results datieren die Zusammenkunft auf den 13. November in Dublin. Boosting Europe’s competitiveness nennt Investitionen, Infrastruktur, Abhängigkeiten und AI adoption across companies and public administrations. Gegenprüfung: Beratungen bleiben Beratungen. Die Einordnung nennt die Grenze zu Förderzusagen und technischen Pflichten. Zwei institutionelle Darstellungen desselben Treffens. Keine unabhängige Wirkungsmessung behauptet.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/",
+                "https://irish-presidency.consilium.europa.eu/en/news/taoiseach-micheal-martin-hosts-informal-meeting-of-the-european-council/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Ergebnisübersicht nennt außerdem Cybersicherheit und Auswirkungen auf die Arbeitsmärkte als Beratungsthemen.",
+              "verdict": "supported",
+              "reason": "Societal impacts, safety and security nennt labour markets und cybersecurity ausdrücklich. Es werden Beratungsthemen, keine verabschiedeten Anforderungen, wiedergegeben. Gegenprüfung: Beratungen bleiben Beratungen. Die Einordnung nennt die Grenze zu Förderzusagen und technischen Pflichten. Zwei institutionelle Darstellungen desselben Treffens. Keine unabhängige Wirkungsmessung behauptet.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/",
+                "https://irish-presidency.consilium.europa.eu/en/news/taoiseach-micheal-martin-hosts-informal-meeting-of-the-european-council/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "EU · KI-INFRASTRUKTUR",
+              "verdict": "supported",
+              "reason": "Die Quelle stammt vom Europäischen Rat und beschreibt europäische KI-Infrastruktur. Die Kategorie ordnet die Meldung zu. Gegenprüfung: Beratungen bleiben Beratungen. Die Einordnung nennt die Grenze zu Förderzusagen und technischen Pflichten. Zwei institutionelle Darstellungen desselben Treffens. Keine unabhängige Wirkungsmessung behauptet.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/",
+                "https://irish-presidency.consilium.europa.eu/en/news/taoiseach-micheal-martin-hosts-informal-meeting-of-the-european-council/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "EU-Gipfel berät KI-Infrastruktur und Einführung",
+              "verdict": "supported",
+              "reason": "Die Kurzschlagzeile reduziert die belegten Beratungen auf Infrastruktur und Einführung und verspricht keine Beschlüsse. Gegenprüfung: Beratungen bleiben Beratungen. Die Einordnung nennt die Grenze zu Förderzusagen und technischen Pflichten. Zwei institutionelle Darstellungen desselben Treffens. Keine unabhängige Wirkungsmessung behauptet.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/",
+                "https://irish-presidency.consilium.europa.eu/en/news/taoiseach-micheal-martin-hosts-informal-meeting-of-the-european-council/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Wolkensymbol zur EU-Debatte über KI-Infrastruktur und Einführung",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das durch og_icon cloud gewählte Wolkenmotiv und die belegte EU-Debatte. Er enthält keine zusätzlichen Fachbehauptungen. Gegenprüfung: Beratungen bleiben Beratungen. Die Einordnung nennt die Grenze zu Förderzusagen und technischen Pflichten. Zwei institutionelle Darstellungen desselben Treffens. Keine unabhängige Wirkungsmessung behauptet.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/",
+                "https://irish-presidency.consilium.europa.eu/en/news/taoiseach-micheal-martin-hosts-informal-meeting-of-the-european-council/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.consilium.europa.eu 13 November 2026 Dublin AI conclusions funding decisions",
+              "finding": "Die Gegenrecherche führt zu Ergebnisübersicht und Präsidentschaftsmitteilung. Ergebnisübersicht spricht von weiterer Finanzierung und Beratungen. Der Text erhebt keine neue Bewilligung zur Tatsache.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/",
+                "https://irish-presidency.consilium.europa.eu/en/news/taoiseach-micheal-martin-hosts-informal-meeting-of-the-european-council/"
+              ]
+            },
+            {
+              "query": "site.consilium.europa.eu 13 November 2026 Costa AI cybersecurity labour markets",
+              "finding": "Sicherheits- und Arbeitsmarktthemen stehen in der gelesenen Ergebnisübersicht unter Societal impacts. Die Mitteilung der irischen Präsidentschaft bestätigt Ort, Datum und KI-Schwerpunkt.",
+              "sourceUrls": [
+                "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/13/",
+                "https://irish-presidency.consilium.europa.eu/en/news/taoiseach-micheal-martin-hosts-informal-meeting-of-the-european-council/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "13. November 2026 und Dublin sind in Ergebnisübersicht und Präsidentschaftsmitteilung belegt. Keine Förderzahlen übernommen.",
+            "scopeAndQualifications": "Beratungen bleiben Beratungen. Die Einordnung nennt die Grenze zu Förderzusagen und technischen Pflichten.",
+            "sourceIndependence": "Zwei institutionelle Darstellungen desselben Treffens. Keine unabhängige Wirkungsmessung behauptet.",
+            "contradictions": "Keine widersprechende Darstellung der genannten Themen gefunden. Ältere Einladungen wurden nicht als Ergebnis verwendet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-2",
+      "contentHash": "0f250e0c500f65aabc5efe1a0ef8907b6de34b6d8bf9923d87e0ca0c490a0ce7",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-14T05:30:25Z",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Die Funktions- und Verfügbarkeitsbeschreibung stammt von Google. Es wurde kein eigener API-Test und keine unabhängige Genauigkeitsmessung durchgeführt."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Google stellt eine API für begrenzte KI-Entscheidungen vor",
+              "verdict": "supported",
+              "reason": "Google bezeichnet den neuen Endpunkt als Werkzeug für fast, closed-set decisions. Die Überschrift bleibt bei der Vorstellung.",
+              "sourceUrls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Google stellte am 11. November 2026 die Gemini Decisions API mit dem Modell Gemini Decision 1 vor.",
+              "verdict": "supported",
+              "reason": "Das Veröffentlichungsdatum lautet Nov 11, 2026. Der Einleitungsabsatz nennt Gemini Decisions API und Gemini Decision 1 gemeinsam.",
+              "sourceUrls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut Anbieter bewertet sie vorgegebene Optionen für Ja/Nein-Fragen, Auswahlfragen und abgestufte Bewertungen und liefert Wahrscheinlichkeiten sowie Konfidenzwerte.",
+              "verdict": "supported",
+              "reason": "Native multimodal evaluation zählt noul, choice und score auf. Einleitung und Typenbeschreibung nennen Wahrscheinlichkeiten und confidence scores. Im Text bleiben diese Angaben Google zugeschrieben.",
+              "sourceUrls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GOOGLE · GEMINI DECISION",
+              "verdict": "supported",
+              "reason": "Herstellername und Modellname sind in Titel und Einleitung belegt. Die verkürzte Großschreibweise ändert die Zuordnung nicht.",
+              "sourceUrls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Google stellt API für begrenzte KI-Entscheidungen vor",
+              "verdict": "supported",
+              "reason": "Die Vorschau fasst das belegte neue API-Angebot für vorgegebene Auswahlentscheidungen zusammen. Es wird keine Genauigkeitsgarantie gegeben.",
+              "sourceUrls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zur Google-API für begrenzte KI-Entscheidungen",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das Zahnradmotiv des Renderers sowie Gegenstand und Anbieter der API, ohne neue Leistungsdaten.",
+              "sourceUrls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-14T05:30:25Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung, kein zweites Modell",
+          "limitations": [
+            "Die Funktions- und Verfügbarkeitsbeschreibung stammt von Google. Es wurde kein eigener API-Test und keine unabhängige Genauigkeitsmessung durchgeführt."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Google stellt eine API für begrenzte KI-Entscheidungen vor",
+              "verdict": "supported",
+              "reason": "Google bezeichnet den neuen Endpunkt als Werkzeug für fast, closed-set decisions. Die Überschrift bleibt bei der Vorstellung. Gegenprüfung: Nur begrenzte Entscheidungen mit drei Fragetypen. Cloud-Rollout und Genauigkeit werden nicht zugesagt. Produktbeitrag und Codelab stammen beide von Google. Sichtbarer Herstellervorbehalt bleibt.",
+              "sourceUrls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+                "https://codelabs.developers.google.com/codelabs/discriminative-models"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Google stellte am 11. November 2026 die Gemini Decisions API mit dem Modell Gemini Decision 1 vor.",
+              "verdict": "supported",
+              "reason": "Das Veröffentlichungsdatum lautet Nov 11, 2026. Der Einleitungsabsatz nennt Gemini Decisions API und Gemini Decision 1 gemeinsam. Gegenprüfung: Nur begrenzte Entscheidungen mit drei Fragetypen. Cloud-Rollout und Genauigkeit werden nicht zugesagt. Produktbeitrag und Codelab stammen beide von Google. Sichtbarer Herstellervorbehalt bleibt.",
+              "sourceUrls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+                "https://codelabs.developers.google.com/codelabs/discriminative-models"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut Anbieter bewertet sie vorgegebene Optionen für Ja/Nein-Fragen, Auswahlfragen und abgestufte Bewertungen und liefert Wahrscheinlichkeiten sowie Konfidenzwerte.",
+              "verdict": "supported",
+              "reason": "Native multimodal evaluation zählt noul, choice und score auf. Einleitung und Typenbeschreibung nennen Wahrscheinlichkeiten und confidence scores. Im Text bleiben diese Angaben Google zugeschrieben. Gegenprüfung: Nur begrenzte Entscheidungen mit drei Fragetypen. Cloud-Rollout und Genauigkeit werden nicht zugesagt. Produktbeitrag und Codelab stammen beide von Google. Sichtbarer Herstellervorbehalt bleibt.",
+              "sourceUrls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+                "https://codelabs.developers.google.com/codelabs/discriminative-models"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GOOGLE · GEMINI DECISION",
+              "verdict": "supported",
+              "reason": "Herstellername und Modellname sind in Titel und Einleitung belegt. Die verkürzte Großschreibweise ändert die Zuordnung nicht. Gegenprüfung: Nur begrenzte Entscheidungen mit drei Fragetypen. Cloud-Rollout und Genauigkeit werden nicht zugesagt. Produktbeitrag und Codelab stammen beide von Google. Sichtbarer Herstellervorbehalt bleibt.",
+              "sourceUrls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+                "https://codelabs.developers.google.com/codelabs/discriminative-models"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Google stellt API für begrenzte KI-Entscheidungen vor",
+              "verdict": "supported",
+              "reason": "Die Vorschau fasst das belegte neue API-Angebot für vorgegebene Auswahlentscheidungen zusammen. Es wird keine Genauigkeitsgarantie gegeben. Gegenprüfung: Nur begrenzte Entscheidungen mit drei Fragetypen. Cloud-Rollout und Genauigkeit werden nicht zugesagt. Produktbeitrag und Codelab stammen beide von Google. Sichtbarer Herstellervorbehalt bleibt.",
+              "sourceUrls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+                "https://codelabs.developers.google.com/codelabs/discriminative-models"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zur Google-API für begrenzte KI-Entscheidungen",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das Zahnradmotiv des Renderers sowie Gegenstand und Anbieter der API, ohne neue Leistungsdaten. Gegenprüfung: Nur begrenzte Entscheidungen mit drei Fragetypen. Cloud-Rollout und Genauigkeit werden nicht zugesagt. Produktbeitrag und Codelab stammen beide von Google. Sichtbarer Herstellervorbehalt bleibt.",
+              "sourceUrls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+                "https://codelabs.developers.google.com/codelabs/discriminative-models"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.blog.google \"Gemini Decision 1\" limitations availability cloud",
+              "finding": "Der gelesene Google-Beitrag nennt Cloud-Unterstützung erst als coming soon. Der Meldungstext behauptet keine allgemeine Cloud-Freigabe, Preise oder Latenzwerte.",
+              "sourceUrls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+                "https://codelabs.developers.google.com/codelabs/discriminative-models"
+              ]
+            },
+            {
+              "query": "site.ai.google.dev \"decisions\" \"confidence\" Gemini",
+              "finding": "Die Recherche lieferte Google Codelabs. Dessen gelesene Übersicht nennt die drei Typen Choice, Score und Noul und Wahrscheinlichkeiten. Auch dies ist eine Google-Quelle und keine unabhängige Validierung.",
+              "sourceUrls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+                "https://codelabs.developers.google.com/codelabs/discriminative-models"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "11. November laut datiertem Produktbeitrag. Keine Preis-, Kontext- oder Geschwindigkeitszahlen in die Meldung übernommen.",
+            "scopeAndQualifications": "Nur begrenzte Entscheidungen mit drei Fragetypen. Cloud-Rollout und Genauigkeit werden nicht zugesagt.",
+            "sourceIndependence": "Produktbeitrag und Codelab stammen beide von Google. Sichtbarer Herstellervorbehalt bleibt.",
+            "contradictions": "Keine Korrektur zur beschriebenen Schnittstelle gefunden. Coming soon für Cloud begrenzt die Aussage und wird nicht als fertiger Rollout dargestellt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-3",
+      "contentHash": "38892288d6ab83056d6e21b5b8adeb250b48fa315a3fa41a55bc453166de7cc2",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-14T05:30:25Z",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Herstellerdokumentation belegt die beschriebene Funktion. Unabhängige Genauigkeit und freie Zugänglichkeit der Modellgewichte werden nicht behauptet. Locate setzt Text ohne Bilder voraus."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Perplexity dokumentiert Textstellenextraktion in Decider v1.3",
+              "verdict": "supported",
+              "reason": "Die Modellkarte stellt Locate als neue Textstellenextraktion vor. Die Überschrift berichtet über diese Dokumentation.",
+              "sourceUrls": [
+                "https://huggingface.co/perplexity-ai/pplx-decider-v1.3"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Modellkarte von Perplexity zu Decider v1.3 beschreibt die neue Funktion Locate.",
+              "verdict": "supported",
+              "reason": "Der erste Absatz unter pplx-decider-v1.3 beschreibt Locate als new extraction capability. Die Meldung bleibt ausdrücklich bei der Modellkarte.",
+              "sourceUrls": [
+                "https://huggingface.co/perplexity-ai/pplx-decider-v1.3"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Sie gibt Textstellen mit Zeichenpositionen und einem Bewertungswert zurück und setzt einen nichtleeren Texteingang ohne Bilder voraus.",
+              "verdict": "supported",
+              "reason": "Abschnitt Locate nennt start, end, text und score. Darunter verlangt die Karte nonempty text state und no images. Diese Einschränkung bezieht sich auf Locate, nicht auf alle Modellfunktionen.",
+              "sourceUrls": [
+                "https://huggingface.co/perplexity-ai/pplx-decider-v1.3"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "PERPLEXITY · DECIDER",
+              "verdict": "supported",
+              "reason": "Organisation und Modellfamilie entsprechen dem Herausgeber perplexity-ai und der Modellkarte.",
+              "sourceUrls": [
+                "https://huggingface.co/perplexity-ai/pplx-decider-v1.3"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Decider v1.3 gibt Fundstellen im Eingangstext zurück",
+              "verdict": "supported",
+              "reason": "Die Vorschau sagt Fundstellen im Eingangstext. Das entspricht verbatim spans from the state und verspricht keine automatische fachliche Richtigkeit.",
+              "sourceUrls": [
+                "https://huggingface.co/perplexity-ai/pplx-decider-v1.3"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokumentsymbol zur Textstellenextraktion von Decider v1.3",
+              "verdict": "supported",
+              "reason": "Dokumentmotiv und Textstellenextraktion entsprechen dem Renderer und der gewählten Meldung. Es werden keine privaten Dokumente dargestellt.",
+              "sourceUrls": [
+                "https://huggingface.co/perplexity-ai/pplx-decider-v1.3"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-14T05:30:25Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung, kein zweites Modell",
+          "limitations": [
+            "Herstellerdokumentation belegt die beschriebene Funktion. Unabhängige Genauigkeit und freie Zugänglichkeit der Modellgewichte werden nicht behauptet. Locate setzt Text ohne Bilder voraus."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Perplexity dokumentiert Textstellenextraktion in Decider v1.3",
+              "verdict": "supported",
+              "reason": "Die Modellkarte stellt Locate als neue Textstellenextraktion vor. Die Überschrift berichtet über diese Dokumentation. Gegenprüfung: Locate ist textgebunden. Die Bildfähigkeit anderer Aufgaben wird nicht auf die Extraktion übertragen. Modellkarte und Blog sind Herstellerquellen. Die Einordnung benennt den fehlenden unabhängigen Genauigkeitsnachweis.",
+              "sourceUrls": [
+                "https://huggingface.co/perplexity-ai/pplx-decider-v1.3",
+                "https://www.perplexity.ai/en-GB/hub/blog/perplexity-decider"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die Modellkarte von Perplexity zu Decider v1.3 beschreibt die neue Funktion Locate.",
+              "verdict": "supported",
+              "reason": "Der erste Absatz unter pplx-decider-v1.3 beschreibt Locate als new extraction capability. Die Meldung bleibt ausdrücklich bei der Modellkarte. Gegenprüfung: Locate ist textgebunden. Die Bildfähigkeit anderer Aufgaben wird nicht auf die Extraktion übertragen. Modellkarte und Blog sind Herstellerquellen. Die Einordnung benennt den fehlenden unabhängigen Genauigkeitsnachweis.",
+              "sourceUrls": [
+                "https://huggingface.co/perplexity-ai/pplx-decider-v1.3",
+                "https://www.perplexity.ai/en-GB/hub/blog/perplexity-decider"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Sie gibt Textstellen mit Zeichenpositionen und einem Bewertungswert zurück und setzt einen nichtleeren Texteingang ohne Bilder voraus.",
+              "verdict": "supported",
+              "reason": "Abschnitt Locate nennt start, end, text und score. Darunter verlangt die Karte nonempty text state und no images. Diese Einschränkung bezieht sich auf Locate, nicht auf alle Modellfunktionen. Gegenprüfung: Locate ist textgebunden. Die Bildfähigkeit anderer Aufgaben wird nicht auf die Extraktion übertragen. Modellkarte und Blog sind Herstellerquellen. Die Einordnung benennt den fehlenden unabhängigen Genauigkeitsnachweis.",
+              "sourceUrls": [
+                "https://huggingface.co/perplexity-ai/pplx-decider-v1.3",
+                "https://www.perplexity.ai/en-GB/hub/blog/perplexity-decider"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "PERPLEXITY · DECIDER",
+              "verdict": "supported",
+              "reason": "Organisation und Modellfamilie entsprechen dem Herausgeber perplexity-ai und der Modellkarte. Gegenprüfung: Locate ist textgebunden. Die Bildfähigkeit anderer Aufgaben wird nicht auf die Extraktion übertragen. Modellkarte und Blog sind Herstellerquellen. Die Einordnung benennt den fehlenden unabhängigen Genauigkeitsnachweis.",
+              "sourceUrls": [
+                "https://huggingface.co/perplexity-ai/pplx-decider-v1.3",
+                "https://www.perplexity.ai/en-GB/hub/blog/perplexity-decider"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Decider v1.3 gibt Fundstellen im Eingangstext zurück",
+              "verdict": "supported",
+              "reason": "Die Vorschau sagt Fundstellen im Eingangstext. Das entspricht verbatim spans from the state und verspricht keine automatische fachliche Richtigkeit. Gegenprüfung: Locate ist textgebunden. Die Bildfähigkeit anderer Aufgaben wird nicht auf die Extraktion übertragen. Modellkarte und Blog sind Herstellerquellen. Die Einordnung benennt den fehlenden unabhängigen Genauigkeitsnachweis.",
+              "sourceUrls": [
+                "https://huggingface.co/perplexity-ai/pplx-decider-v1.3",
+                "https://www.perplexity.ai/en-GB/hub/blog/perplexity-decider"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokumentsymbol zur Textstellenextraktion von Decider v1.3",
+              "verdict": "supported",
+              "reason": "Dokumentmotiv und Textstellenextraktion entsprechen dem Renderer und der gewählten Meldung. Es werden keine privaten Dokumente dargestellt. Gegenprüfung: Locate ist textgebunden. Die Bildfähigkeit anderer Aufgaben wird nicht auf die Extraktion übertragen. Modellkarte und Blog sind Herstellerquellen. Die Einordnung benennt den fehlenden unabhängigen Genauigkeitsnachweis.",
+              "sourceUrls": [
+                "https://huggingface.co/perplexity-ai/pplx-decider-v1.3",
+                "https://www.perplexity.ai/en-GB/hub/blog/perplexity-decider"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"pplx-decider-v1.3\" \"locate\" limitations images",
+              "finding": "Die Modellkarte begrenzt Locate auf einen nichtleeren Texteingang ohne Bilder. Diese Grenze ist im Faktenabschnitt enthalten. Multimodale Modellbeschreibung wurde nicht auf Locate übertragen.",
+              "sourceUrls": [
+                "https://huggingface.co/perplexity-ai/pplx-decider-v1.3",
+                "https://www.perplexity.ai/en-GB/hub/blog/perplexity-decider"
+              ]
+            },
+            {
+              "query": "\"Perplexity Decider\" \"v1.3\" correction calibration",
+              "finding": "Der geöffnete Herstellerbeitrag beschreibt Extractive QA und character locations. Die Modellkarte fordert eigene Kalibrierung und nennt Unterschiede zwischen Berechnungsmodi. Es wird keine generelle Genauigkeitsbehauptung übernommen.",
+              "sourceUrls": [
+                "https://huggingface.co/perplexity-ai/pplx-decider-v1.3",
+                "https://www.perplexity.ai/en-GB/hub/blog/perplexity-decider"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Version v1.3 in Modellkarte und Herstellerbeitrag. Keine Anzahl von Parametern oder Leistungszahlen übernommen.",
+            "scopeAndQualifications": "Locate ist textgebunden. Die Bildfähigkeit anderer Aufgaben wird nicht auf die Extraktion übertragen.",
+            "sourceIndependence": "Modellkarte und Blog sind Herstellerquellen. Die Einordnung benennt den fehlenden unabhängigen Genauigkeitsnachweis.",
+            "contradictions": "Keine widersprechende Definition von Locate gefunden. Zugriffshinweis private repository verhindert die weitergehende Behauptung frei verfügbarer Gewichte."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-4",
+      "contentHash": "9f7cf9e979300a4f9700fde56a1f5831e98faab8fe30de41e1adf76f20cb9790",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-14T05:30:25Z",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Die Arbeit ist ein Preprint mit Versuchen der Autoren. Die Übertragbarkeit auf eigene Agenten und andere Hardware bleibt offen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Evolving Infra passt den Modellbetrieb an Agentenlasten an",
+              "verdict": "supported",
+              "reason": "Abstract und Abschnitt 5 beschreiben die Anpassung der Rechenzuteilung und Cache-Verwaltung an Agenten. Die Überschrift nennt den Ansatz ohne Leistungsversprechen.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein Preprint vom 9. November 2026 stellt Evolving Infra vor.",
+              "verdict": "supported",
+              "reason": "Die arXiv-Historie nennt die Erstfassung am 9. November 2026. Die spätere Revision vom 12. November ändert dieses Erstveröffentlichungsdatum nicht.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Verfahren trennt die Zuteilung von Rechenkapazität von der Verwaltung des KV-Caches und berücksichtigt bei dessen Nutzung die Kontextverwaltung von Agenten.",
+              "verdict": "supported",
+              "reason": "Abstract und Abschnitte 4 und 5 trennen compute allocation von KV management. Branch- und Versionsinformationen aus dem Agentenkontext steuern Cache-Nutzung und Verdrängung.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Autoren untersuchen Programmier-, Mathematik- und Computerbedienungsaufgaben.",
+              "verdict": "supported",
+              "reason": "Abschnitt 6.1 beschreibt Putnam, Claude-Code-Traces und OSWorld als Mathematik-, Programmier- und Computerbedienungslasten.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FORSCHUNG · MODELLBETRIEB",
+              "verdict": "supported",
+              "reason": "Die Quelle ist ein Forschungs-Preprint über Serving-Infrastruktur. Forschung und Modellbetrieb sind damit passende Kategorien.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Evolving Infra passt Modellbetrieb an Agentenlasten an",
+              "verdict": "supported",
+              "reason": "Die Vorschau behauptet die im Paper beschriebene Anpassung, ohne Benchmarkergebnisse auf andere Systeme zu übertragen.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zu Evolving Infra und dem Modellbetrieb für Agenten",
+              "verdict": "supported",
+              "reason": "Das Zahnrad steht für Modellbetrieb. Der Alttext benennt das Thema ohne Zahlen oder zusätzliche Ergebnisse.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-14T05:30:25Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung, kein zweites Modell",
+          "limitations": [
+            "Die Arbeit ist ein Preprint mit Versuchen der Autoren. Die Übertragbarkeit auf eigene Agenten und andere Hardware bleibt offen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Evolving Infra passt den Modellbetrieb an Agentenlasten an",
+              "verdict": "supported",
+              "reason": "Abstract und Abschnitt 5 beschreiben die Anpassung der Rechenzuteilung und Cache-Verwaltung an Agenten. Die Überschrift nennt den Ansatz ohne Leistungsversprechen. Gegenprüfung: Aussage betrifft den Forschungsansatz und getestete Aufgaben. Eigene Infrastruktur und Hardware sind nicht validiert. V1 und V2-Abstract sind Fassungen derselben Autorenarbeit. Keine unabhängige Replikation behauptet.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1",
+                "https://arxiv.org/abs/2611.12304"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein Preprint vom 9. November 2026 stellt Evolving Infra vor.",
+              "verdict": "supported",
+              "reason": "Die arXiv-Historie nennt die Erstfassung am 9. November 2026. Die spätere Revision vom 12. November ändert dieses Erstveröffentlichungsdatum nicht. Gegenprüfung: Aussage betrifft den Forschungsansatz und getestete Aufgaben. Eigene Infrastruktur und Hardware sind nicht validiert. V1 und V2-Abstract sind Fassungen derselben Autorenarbeit. Keine unabhängige Replikation behauptet.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1",
+                "https://arxiv.org/abs/2611.12304"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Verfahren trennt die Zuteilung von Rechenkapazität von der Verwaltung des KV-Caches und berücksichtigt bei dessen Nutzung die Kontextverwaltung von Agenten.",
+              "verdict": "supported",
+              "reason": "Abstract und Abschnitte 4 und 5 trennen compute allocation von KV management. Branch- und Versionsinformationen aus dem Agentenkontext steuern Cache-Nutzung und Verdrängung. Gegenprüfung: Aussage betrifft den Forschungsansatz und getestete Aufgaben. Eigene Infrastruktur und Hardware sind nicht validiert. V1 und V2-Abstract sind Fassungen derselben Autorenarbeit. Keine unabhängige Replikation behauptet.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1",
+                "https://arxiv.org/abs/2611.12304"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Autoren untersuchen Programmier-, Mathematik- und Computerbedienungsaufgaben.",
+              "verdict": "supported",
+              "reason": "Abschnitt 6.1 beschreibt Putnam, Claude-Code-Traces und OSWorld als Mathematik-, Programmier- und Computerbedienungslasten. Gegenprüfung: Aussage betrifft den Forschungsansatz und getestete Aufgaben. Eigene Infrastruktur und Hardware sind nicht validiert. V1 und V2-Abstract sind Fassungen derselben Autorenarbeit. Keine unabhängige Replikation behauptet.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1",
+                "https://arxiv.org/abs/2611.12304"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FORSCHUNG · MODELLBETRIEB",
+              "verdict": "supported",
+              "reason": "Die Quelle ist ein Forschungs-Preprint über Serving-Infrastruktur. Forschung und Modellbetrieb sind damit passende Kategorien. Gegenprüfung: Aussage betrifft den Forschungsansatz und getestete Aufgaben. Eigene Infrastruktur und Hardware sind nicht validiert. V1 und V2-Abstract sind Fassungen derselben Autorenarbeit. Keine unabhängige Replikation behauptet.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1",
+                "https://arxiv.org/abs/2611.12304"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Evolving Infra passt Modellbetrieb an Agentenlasten an",
+              "verdict": "supported",
+              "reason": "Die Vorschau behauptet die im Paper beschriebene Anpassung, ohne Benchmarkergebnisse auf andere Systeme zu übertragen. Gegenprüfung: Aussage betrifft den Forschungsansatz und getestete Aufgaben. Eigene Infrastruktur und Hardware sind nicht validiert. V1 und V2-Abstract sind Fassungen derselben Autorenarbeit. Keine unabhängige Replikation behauptet.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1",
+                "https://arxiv.org/abs/2611.12304"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zu Evolving Infra und dem Modellbetrieb für Agenten",
+              "verdict": "supported",
+              "reason": "Das Zahnrad steht für Modellbetrieb. Der Alttext benennt das Thema ohne Zahlen oder zusätzliche Ergebnisse. Gegenprüfung: Aussage betrifft den Forschungsansatz und getestete Aufgaben. Eigene Infrastruktur und Hardware sind nicht validiert. V1 und V2-Abstract sind Fassungen derselben Autorenarbeit. Keine unabhängige Replikation behauptet.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1",
+                "https://arxiv.org/abs/2611.12304"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Evolving Infra\" limitations evaluation cache",
+              "finding": "Die gelesenen Abschnitte 6.1 und 6.2 begrenzen die Versuche auf konkrete Workloads, Modelle und Hardware. Der Artikel übernimmt keine pauschalen Beschleunigungsfaktoren.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1",
+                "https://arxiv.org/abs/2611.12304"
+              ]
+            },
+            {
+              "query": "\"Evolving Infra\" correction benchmark Dynamo",
+              "finding": "Die arXiv-Historie weist v2 vom 12. November mit Änderungen an Einleitung und Verweisen aus. V1 und aktueller Abstract stimmen bei Entkopplung und Workloads überein. Keine unabhängige Reproduktion festgestellt.",
+              "sourceUrls": [
+                "https://arxiv.org/html/2611.12304v1",
+                "https://arxiv.org/abs/2611.12304"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Erstfassung 9. November und Revision 12. November in arXiv-Historie geprüft. Keine Speed-up-Zahlen übernommen.",
+            "scopeAndQualifications": "Aussage betrifft den Forschungsansatz und getestete Aufgaben. Eigene Infrastruktur und Hardware sind nicht validiert.",
+            "sourceIndependence": "V1 und V2-Abstract sind Fassungen derselben Autorenarbeit. Keine unabhängige Replikation behauptet.",
+            "contradictions": "Revision nennt Einleitungs- und Verweisänderungen. Die eng formulierten technischen Aussagen bleiben durch den aktuellen Abstract gedeckt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-5",
+      "contentHash": "50432ff4fdce386bcb074267b410f1478dec9e482c5a43fbb9e2ea18dfad8135",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-14T05:30:25Z",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Der Leitfaden ist technische Orientierung und begründet laut Abschnitt 1 keine Konformitätsvermutung zum Cyber Resilience Act."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "ENISA beschreibt Schutzmaßnahmen für Softwareupdates",
+              "verdict": "supported",
+              "reason": "Der gelesene Originalbericht ist ein technischer Leitfaden zum Schutz von Update-Mechanismen. Die Überschrift behauptet keine neue gesetzliche Pflicht.",
+              "sourceUrls": [
+                "https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "ENISA legt in ihrem technischen Leitfaden vom November 2026 einen Update-Lebenszyklus von der Erstellung und Veröffentlichung bis zur Installation und Statusaufzeichnung dar.",
+              "verdict": "supported",
+              "reason": "Die Titelseite nennt November 2026 und Version 1.0. Abschnitt 2.1 und Tabelle 1 führen Build, Publish, Check, Retrieve, Verify, Install und Record status auf.",
+              "sourceUrls": [
+                "https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Zu den beschriebenen Kontrollen gehören signierte Metadaten, Integritätsprüfungen und Schutz vor dem Einspielen älterer Versionen.",
+              "verdict": "supported",
+              "reason": "Abschnitt 4 und das Beispiel in 5.3 zeigen signiertes Manifest, Hash-Prüfung und Anti-Rollback-Zustand. Es handelt sich um empfohlene Schutzkontrollen.",
+              "sourceUrls": [
+                "https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "ENISA · SOFTWAREUPDATES",
+              "verdict": "supported",
+              "reason": "ENISA ist auf dem Titel und als Autor ausgewiesen. Softwareupdates sind der Gegenstand des gesamten Berichts.",
+              "sourceUrls": [
+                "https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "ENISA beschreibt Schutz für Softwareupdates",
+              "verdict": "supported",
+              "reason": "Die Vorschau bleibt beim Beschreiben von Schutzmaßnahmen und behauptet weder Zertifizierung noch verpflichtende Umsetzung eines bestimmten Frameworks.",
+              "sourceUrls": [
+                "https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Schild zum ENISA-Leitfaden für sichere Softwareupdates",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das Schildmotiv und den technischen ENISA-Leitfaden. Er fügt keine Rechts- oder Sicherheitszusage hinzu.",
+              "sourceUrls": [
+                "https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-14T05:30:25Z",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung, kein zweites Modell",
+          "limitations": [
+            "Der Leitfaden ist technische Orientierung und begründet laut Abschnitt 1 keine Konformitätsvermutung zum Cyber Resilience Act."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "ENISA beschreibt Schutzmaßnahmen für Softwareupdates",
+              "verdict": "supported",
+              "reason": "Der gelesene Originalbericht ist ein technischer Leitfaden zum Schutz von Update-Mechanismen. Die Überschrift behauptet keine neue gesetzliche Pflicht. Gegenprüfung: Technischer Leitfaden, kein Ersatz für Produktprüfung oder Konformitätsbewertung. Sichtbare Grenze im Artikel. Original von ENISA tatsächlich als PDF gelesen. Sekundäre Suchtreffer wurden nicht als unabhängiger Sicherheitsnachweis verwendet.",
+              "sourceUrls": [
+                "https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "ENISA legt in ihrem technischen Leitfaden vom November 2026 einen Update-Lebenszyklus von der Erstellung und Veröffentlichung bis zur Installation und Statusaufzeichnung dar.",
+              "verdict": "supported",
+              "reason": "Die Titelseite nennt November 2026 und Version 1.0. Abschnitt 2.1 und Tabelle 1 führen Build, Publish, Check, Retrieve, Verify, Install und Record status auf. Gegenprüfung: Technischer Leitfaden, kein Ersatz für Produktprüfung oder Konformitätsbewertung. Sichtbare Grenze im Artikel. Original von ENISA tatsächlich als PDF gelesen. Sekundäre Suchtreffer wurden nicht als unabhängiger Sicherheitsnachweis verwendet.",
+              "sourceUrls": [
+                "https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Zu den beschriebenen Kontrollen gehören signierte Metadaten, Integritätsprüfungen und Schutz vor dem Einspielen älterer Versionen.",
+              "verdict": "supported",
+              "reason": "Abschnitt 4 und das Beispiel in 5.3 zeigen signiertes Manifest, Hash-Prüfung und Anti-Rollback-Zustand. Es handelt sich um empfohlene Schutzkontrollen. Gegenprüfung: Technischer Leitfaden, kein Ersatz für Produktprüfung oder Konformitätsbewertung. Sichtbare Grenze im Artikel. Original von ENISA tatsächlich als PDF gelesen. Sekundäre Suchtreffer wurden nicht als unabhängiger Sicherheitsnachweis verwendet.",
+              "sourceUrls": [
+                "https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "ENISA · SOFTWAREUPDATES",
+              "verdict": "supported",
+              "reason": "ENISA ist auf dem Titel und als Autor ausgewiesen. Softwareupdates sind der Gegenstand des gesamten Berichts. Gegenprüfung: Technischer Leitfaden, kein Ersatz für Produktprüfung oder Konformitätsbewertung. Sichtbare Grenze im Artikel. Original von ENISA tatsächlich als PDF gelesen. Sekundäre Suchtreffer wurden nicht als unabhängiger Sicherheitsnachweis verwendet.",
+              "sourceUrls": [
+                "https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "ENISA beschreibt Schutz für Softwareupdates",
+              "verdict": "supported",
+              "reason": "Die Vorschau bleibt beim Beschreiben von Schutzmaßnahmen und behauptet weder Zertifizierung noch verpflichtende Umsetzung eines bestimmten Frameworks. Gegenprüfung: Technischer Leitfaden, kein Ersatz für Produktprüfung oder Konformitätsbewertung. Sichtbare Grenze im Artikel. Original von ENISA tatsächlich als PDF gelesen. Sekundäre Suchtreffer wurden nicht als unabhängiger Sicherheitsnachweis verwendet.",
+              "sourceUrls": [
+                "https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Schild zum ENISA-Leitfaden für sichere Softwareupdates",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das Schildmotiv und den technischen ENISA-Leitfaden. Er fügt keine Rechts- oder Sicherheitszusage hinzu. Gegenprüfung: Technischer Leitfaden, kein Ersatz für Produktprüfung oder Konformitätsbewertung. Sichtbare Grenze im Artikel. Original von ENISA tatsächlich als PDF gelesen. Sekundäre Suchtreffer wurden nicht als unabhängiger Sicherheitsnachweis verwendet.",
+              "sourceUrls": [
+                "https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"ENISA\" \"Secure Update Mechanisms\" \"2026\" final consultation",
+              "finding": "Der vollständig heruntergeladene und ausgelesene ENISA-Bericht Version 1.0 unterscheidet in Abschnitt 1.1 die abgeschlossene Konsultation von dieser Fassung. Genannt wird deshalb November 2026 und kein vermeintlich neuer Veröffentlichungstag.",
+              "sourceUrls": [
+                "https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf"
+              ]
+            },
+            {
+              "query": "\"ENISA\" \"Secure Update Mechanisms\" conformity rollback",
+              "finding": "Abschnitt 1 schließt eine Konformitätsvermutung ausdrücklich aus. Abschnitte 4 und 5 erläutern Anti-Rollback und kontrollierte Wiederherstellung. Empfehlungen werden nicht als neue Rechtsvorschrift ausgegeben.",
+              "sourceUrls": [
+                "https://www.enisa.europa.eu/sites/default/files/2026-11/ENISA%20Technical%20Advisory%20-%20Update%20Mechanisms%20-%20v1.pdf"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "November 2026 auf PDF-Titelseite. Kein exakter Veröffentlichungstag oder gezählte Kontrollanzahl behauptet.",
+            "scopeAndQualifications": "Technischer Leitfaden, kein Ersatz für Produktprüfung oder Konformitätsbewertung. Sichtbare Grenze im Artikel.",
+            "sourceIndependence": "Original von ENISA tatsächlich als PDF gelesen. Sekundäre Suchtreffer wurden nicht als unabhängiger Sicherheitsnachweis verwendet.",
+            "contradictions": "Früherer Konsultationsentwurf und finale Version werden unterschieden. Keine widersprechende Definition der genannten Kontrollen gefunden."
+          }
+        }
+      ]
     }
   ]
 }
