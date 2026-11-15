@@ -2,6 +2,76 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-15-1",
+      "date": "2026-11-15",
+      "number": 1,
+      "title": "Deepnote prüft, wann KI-Agenten im Unternehmen eingreifen sollten",
+      "text": "Fakten: Deepnote vergleicht im neuen Agent Initiative Benchmark zwölf Modelle in 50 Arbeitssituationen eines simulierten Unternehmens. Die Auswertung bewertet auch, ob ein Agent schweigen sollte und ob seine Nachricht die richtigen Personen erreicht.\nEinordnung: Bei Agenten mit Zugriff auf CRM, Datenplattformen und Teamkommunikation zählt neben der korrekten Antwort auch der passende Eingriffszeitpunkt. Deepnote verwendet einen festen Unternehmenszustand und KI-basierte Bewertungsverfahren. Die Ergebnisse des Anbieters belegen keine Wirkung im laufenden Betrieb.\nQuellen: https://deepnote.com/research/benchmark",
+      "og": {
+        "og_kategorie": "DEEPNOTE · AGENTEN",
+        "og_titel": "Deepnote testet den Eingriffszeitpunkt von KI-Agenten",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte mit Dokumentsymbol zur Meldung Deepnote testet den Eingriffszeitpunkt von KI-Agenten"
+      }
+    },
+    {
+      "id": "2026-11-15-2",
+      "date": "2026-11-15",
+      "number": 2,
+      "title": "IBM und Microsoft stellen Plattform für betriebliche KI-Agenten vor",
+      "text": "Fakten: IBM und Microsoft kündigten am 10. November 2026 Imagine Enterprise an. Laut gemeinsamer Mitteilung soll die Plattform KI-Agenten mit Unternehmensdaten und branchenspezifischen Prozessen verbinden und Funktionen für Steuerung, Beobachtbarkeit und KI-Governance bereitstellen.\nEinordnung: Für die Unternehmensarchitektur betrifft das die Anbindung an Datenquellen, Identitätsdienste und vorhandene Prozesssysteme. Die Mitteilung beschreibt ein Angebot der beteiligten Unternehmen. Sie liefert keinen unabhängigen Nachweis für Produktivität oder Sicherheit einer konkreten Einführung.\nQuellen: https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation",
+      "og": {
+        "og_kategorie": "IBM · IMAGINE ENTERPRISE",
+        "og_titel": "IBM und Microsoft stellen Agentenplattform vor",
+        "og_fakten": [],
+        "og_icon": "cloud",
+        "og_alt": "Kubistische Karte mit Wolkensymbol zur Vorstellung von Imagine Enterprise durch IBM und Microsoft"
+      }
+    },
+    {
+      "id": "2026-11-15-3",
+      "date": "2026-11-15",
+      "number": 3,
+      "title": "Google beschreibt überprüfbare Arbeitsabläufe für Agententeams",
+      "text": "Fakten: Google Research erläuterte am 13. November 2026 neue Ergebnisse mit Antigravity /teamwork. Der Anbieter beschreibt parallele Lösungssuche mit gesonderten Prüfwerkzeugen wie Lean 4, unveränderten Softwaretests oder Ausführungssimulatoren sowie getrennte Kontexte für spezialisierte Agenten.\nEinordnung: Für technische Agentenprojekte lässt sich daraus ein konkretes Prüfkriterium ableiten, nämlich ob erzeugte Lösungen an ausführbaren Tests oder formalen Vorgaben gemessen werden. Die Beispiele stammen aus Kooperationen von Google mit Fachleuten. Sie sind keine allgemeine Zuverlässigkeitsgarantie.\nQuellen: https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "og": {
+        "og_kategorie": "GOOGLE · ANTIGRAVITY",
+        "og_titel": "Google verbindet Agententeams mit Prüfwerkzeugen",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte mit Zahnrad zur Meldung Google verbindet Agententeams mit Prüfwerkzeugen"
+      }
+    },
+    {
+      "id": "2026-11-15-4",
+      "date": "2026-11-15",
+      "number": 4,
+      "title": "ENISA ordnet KI als Verstärker bestehender Cyberangriffe ein",
+      "text": "Fakten: Die am 10. November 2026 im EU-Publikationsportal veröffentlichte ENISA-Ausgabe zur Cybersicherheit in der Union beschreibt KI als Verstärker herkömmlicher Angriffe und als Beschleuniger der Entdeckung und Ausnutzung von Schwachstellen. Die Zusammenfassung nennt die Ausnutzung von Sicherheitslücken weiterhin einen wesentlichen Weg für den Erstzugriff.\nEinordnung: Für Betreiber von ERP-, Daten- und Cloudsystemen verbindet der Befund KI-Risiken mit bestehendem Schwachstellenmanagement und Zugriffsschutz. Der Bericht liefert eine Lageeinschätzung. Er belegt keinen konkreten Angriff auf ein bestimmtes Unternehmen.\nQuellen: https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en",
+      "og": {
+        "og_kategorie": "ENISA · CYBERSICHERHEIT",
+        "og_titel": "ENISA bewertet die Rolle von KI bei Cyberangriffen",
+        "og_fakten": [],
+        "og_icon": "schild",
+        "og_alt": "Kubistische Karte mit Schild zur Meldung ENISA bewertet die Rolle von KI bei Cyberangriffen"
+      }
+    },
+    {
+      "id": "2026-11-15-5",
+      "date": "2026-11-15",
+      "number": 5,
+      "title": "Preprint untersucht bedarfsabhängige Präzision beim Sprachmodell",
+      "text": "Fakten: Ein Preprint vom 10. November 2026 untersucht simulierte Quantisierung mit Qwen3-0.6B auf GSM8K. Das Verfahren startet einen Decodierschritt mit den oberen vier Bits gespeicherter Acht-Bit-Gewichte und wiederholt ihn bei hoher Unsicherheit mit acht Bits. Als Kostenmaß dienen gelesene Gewichtsbytes je Token.\nEinordnung: Für lokal betriebene Modelle ist die gezielte Zuteilung von Rechen- und Speicheraufwand eine relevante Forschungsfrage. Die Arbeit untersucht ein kleines Modell. Die Live-Ergebnisse trennen das Verfahren statistisch nicht eindeutig von den beiden festen Präzisionsstufen und belegen keinen gemessenen Laufzeitgewinn.\nQuellen: https://arxiv.org/abs/2611.14418",
+      "og": {
+        "og_kategorie": "FORSCHUNG · QUANTISIERUNG",
+        "og_titel": "Studie prüft bedarfsabhängige Modellpräzision",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte mit Zahnrad zur Meldung Studie prüft bedarfsabhängige Modellpräzision"
+      }
+    },
+    {
       "id": "2026-11-14-1",
       "date": "2026-11-14",
       "number": 1,
