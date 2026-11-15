@@ -6828,6 +6828,839 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-15-1",
+      "contentHash": "6602de489829d9678a9c687291fb7a9f46036111fac58d31d851bda107ade8d9",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-15T07:44:27Z",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Anbieterevaluation mit 50 Situationen, festem Unternehmenszustand und KI-basierten Bewertungsverfahren. Keine Wirkungsmessung im laufenden Betrieb."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Deepnote prüft, wann KI-Agenten im Unternehmen eingreifen sollten",
+              "verdict": "supported",
+              "reason": "Einleitung und Methodik prüfen ausdrücklich die Entscheidung für Eingriff oder Schweigen im synthetischen Unternehmen PageMantle. Die Überschrift gibt den Testgegenstand wieder.",
+              "sourceUrls": [
+                "https://deepnote.com/research/benchmark"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Deepnote vergleicht im neuen Agent Initiative Benchmark zwölf Modelle in 50 Arbeitssituationen eines simulierten Unternehmens.",
+              "verdict": "supported",
+              "reason": "Einleitung nennt 12 Modelle und 50 workplace situations. Der Methodikabschnitt kennzeichnet PageMantle als simuliert. Das geöffnete Originalrepository bestätigt dieselben Zahlen.",
+              "sourceUrls": [
+                "https://deepnote.com/research/benchmark"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Auswertung bewertet auch, ob ein Agent schweigen sollte und ob seine Nachricht die richtigen Personen erreicht.",
+              "verdict": "supported",
+              "reason": "Die vier Bewertungsdimensionen umfassen Intervention or silence sowie Audience and location. Die Formulierung deckt genau diese beiden Kriterien ab.",
+              "sourceUrls": [
+                "https://deepnote.com/research/benchmark"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DEEPNOTE · AGENTEN",
+              "verdict": "supported",
+              "reason": "Deepnote ist Herausgeber des Agent Initiative Benchmark. Kategorie und Gegenstand entsprechen dem Original.",
+              "sourceUrls": [
+                "https://deepnote.com/research/benchmark"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Deepnote testet den Eingriffszeitpunkt von KI-Agenten",
+              "verdict": "supported",
+              "reason": "Die Kurzschlagzeile beschreibt die Entscheidung, ob Hilfe nötig ist, ohne ein bestimmtes Modell zum Sieger zu erklären.",
+              "sourceUrls": [
+                "https://deepnote.com/research/benchmark"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokumentsymbol zur Meldung Deepnote testet den Eingriffszeitpunkt von KI-Agenten",
+              "verdict": "supported",
+              "reason": "Dokumentsymbol und kubistischer Hintergrund sind die gewählten Rendererelemente. Der Alttext nennt nur den belegten Testgegenstand.",
+              "sourceUrls": [
+                "https://deepnote.com/research/benchmark"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-15T07:44:27Z",
+          "reviewer": "Codex – gesonderte Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Anbieterevaluation mit 50 Situationen, festem Unternehmenszustand und KI-basierten Bewertungsverfahren. Keine Wirkungsmessung im laufenden Betrieb."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Deepnote prüft, wann KI-Agenten im Unternehmen eingreifen sollten",
+              "verdict": "supported",
+              "reason": "Die Gegenrecherche bestätigt das Testziel. Ein festes Snapshot-Experiment ist keine Messung dauerhafter Zusammenarbeit, was die Einordnung sichtbar begrenzt.",
+              "sourceUrls": [
+                "https://deepnote.com/research/benchmark",
+                "https://github.com/deepnote/agent-initiative-benchmark"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Deepnote vergleicht im neuen Agent Initiative Benchmark zwölf Modelle in 50 Arbeitssituationen eines simulierten Unternehmens.",
+              "verdict": "supported",
+              "reason": "README Our results bestätigt 12 Modelle und 50 Aufgaben. Die Seite nennt nur eine Aufgabenstichprobe und ein festes Effort-Level, keine repräsentative Unternehmensstudie.",
+              "sourceUrls": [
+                "https://deepnote.com/research/benchmark",
+                "https://github.com/deepnote/agent-initiative-benchmark"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Auswertung bewertet auch, ob ein Agent schweigen sollte und ob seine Nachricht die richtigen Personen erreicht.",
+              "verdict": "supported",
+              "reason": "README What gets evaluated bestätigt decision to intervene und audience. Die Einordnung macht die Bewertung durch KI sichtbar.",
+              "sourceUrls": [
+                "https://deepnote.com/research/benchmark",
+                "https://github.com/deepnote/agent-initiative-benchmark"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DEEPNOTE · AGENTEN",
+              "verdict": "supported",
+              "reason": "Das Repository ist von Deepnote. Es ist derselbe Herausgeber und keine unabhängige Replikation.",
+              "sourceUrls": [
+                "https://deepnote.com/research/benchmark",
+                "https://github.com/deepnote/agent-initiative-benchmark"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Deepnote testet den Eingriffszeitpunkt von KI-Agenten",
+              "verdict": "supported",
+              "reason": "Eingriffszeitpunkt ist als speak-or-stay-silent-Entscheidung gedeckt. Keine Übertragung der Rangliste auf andere Agentenumgebungen.",
+              "sourceUrls": [
+                "https://deepnote.com/research/benchmark",
+                "https://github.com/deepnote/agent-initiative-benchmark"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokumentsymbol zur Meldung Deepnote testet den Eingriffszeitpunkt von KI-Agenten",
+              "verdict": "supported",
+              "reason": "Alttext nach Gegenprüfung auf Motiv und Gegenstand beschränkt, ohne Leistungsrang oder zusätzliche Zahl.",
+              "sourceUrls": [
+                "https://deepnote.com/research/benchmark",
+                "https://github.com/deepnote/agent-initiative-benchmark"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Agent Initiative Benchmark\" limitations evaluation Deepnote 50",
+              "finding": "Originalmethodik und README stimmen bei 12 Modellen und 50 Situationen überein. Limitations nennen festen Snapshot, ein Effort-Level und Slack als einzige Ausgabefläche.",
+              "sourceUrls": [
+                "https://deepnote.com/research/benchmark",
+                "https://github.com/deepnote/agent-initiative-benchmark"
+              ]
+            },
+            {
+              "query": "\"Agent Initiative Benchmark\" correction results synthetic",
+              "finding": "Keine Korrektur an den hier verwendeten Zahlen festgestellt. Das geöffnete Originalrepository belegt das Design, ist jedoch keine unabhängige Bestätigung der Ergebnisse.",
+              "sourceUrls": [
+                "https://deepnote.com/research/benchmark",
+                "https://github.com/deepnote/agent-initiative-benchmark"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "12 Modelle und 50 Situationen in Originalbericht und README geprüft. Keine Modellranglisten übernommen.",
+            "scopeAndQualifications": "Fester Snapshot und KI-Bewerter sind im Beitrag sichtbar. Keine Wirkung über längere Zusammenarbeit abgeleitet.",
+            "sourceIndependence": "Bericht und Repository stammen beide von Deepnote, das eigene Agentenprodukte entwickelt. Anbietervorbehalt sichtbar.",
+            "contradictions": "Keine widersprechende Fassung der verwendeten Methodikdaten gefunden. Weitergehende Ranglistenempfehlungen ausgeschlossen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-2",
+      "contentHash": "c04ea60365e98d1ecbae38bf6a190843db04f4dc9322e03a456633eef745f21a",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-15T07:44:27Z",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Gemeinsame Herstellerankündigung von IBM und Microsoft. Kein unabhängiger Nachweis für Produktivität oder Sicherheit einer konkreten Einführung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IBM und Microsoft stellen Plattform für betriebliche KI-Agenten vor",
+              "verdict": "supported",
+              "reason": "Die gemeinsame Pressemitteilung ist eine Vorstellung von Imagine Enterprise für branchenspezifische Unternehmensprozesse. Die Überschrift behauptet keine flächendeckende Einführung.",
+              "sourceUrls": [
+                "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "IBM und Microsoft kündigten am 10. November 2026 Imagine Enterprise an.",
+              "verdict": "supported",
+              "reason": "Datierte Einleitung: November 10, 2026, IBM and Microsoft today announced Imagine Enterprise. Name, Akteure und Datum stimmen.",
+              "sourceUrls": [
+                "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut gemeinsamer Mitteilung soll die Plattform KI-Agenten mit Unternehmensdaten und branchenspezifischen Prozessen verbinden und Funktionen für Steuerung, Beobachtbarkeit und KI-Governance bereitstellen.",
+              "verdict": "supported",
+              "reason": "Der zweite Absatz beschreibt enterprise data, daily processes, controls, observability und AI-compliance support. Die Soll-Formulierung und Zuschreibung erhalten den Charakter der Herstellerangabe.",
+              "sourceUrls": [
+                "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "IBM · IMAGINE ENTERPRISE",
+              "verdict": "supported",
+              "reason": "IBM und Imagine Enterprise stehen in Titel und Einleitung der Meldung. Die Kategorie ist sachlich zugeordnet.",
+              "sourceUrls": [
+                "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "IBM und Microsoft stellen Agentenplattform vor",
+              "verdict": "supported",
+              "reason": "Die Vorschau bleibt bei stellen vor und behauptet keine schon bewiesene Wirkung der Plattform.",
+              "sourceUrls": [
+                "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Wolkensymbol zur Vorstellung von Imagine Enterprise durch IBM und Microsoft",
+              "verdict": "supported",
+              "reason": "Wolkenmotiv und Thema der Produktvorstellung stimmen mit den Vorschaufeldern überein. Kein Leistungsversprechen im Alttext.",
+              "sourceUrls": [
+                "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-15T07:44:27Z",
+          "reviewer": "Codex – gesonderte Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Gemeinsame Herstellerankündigung von IBM und Microsoft. Kein unabhängiger Nachweis für Produktivität oder Sicherheit einer konkreten Einführung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IBM und Microsoft stellen Plattform für betriebliche KI-Agenten vor",
+              "verdict": "supported",
+              "reason": "Kritischer Abgleich: Es handelt sich um die Vorstellung eines kommerziellen Angebots. Die Überschrift bleibt dabei.",
+              "sourceUrls": [
+                "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "IBM und Microsoft kündigten am 10. November 2026 Imagine Enterprise an.",
+              "verdict": "supported",
+              "reason": "Die datierte Originalmitteilung bestätigt den 10. November. Keine Verfügbarkeits- oder Produktivstartdaten ergänzt.",
+              "sourceUrls": [
+                "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut gemeinsamer Mitteilung soll die Plattform KI-Agenten mit Unternehmensdaten und branchenspezifischen Prozessen verbinden und Funktionen für Steuerung, Beobachtbarkeit und KI-Governance bereitstellen.",
+              "verdict": "supported",
+              "reason": "Die Quelle verwendet aims to und designed to. Deshalb steht soll im Meldungstext. Kundenzitat zu SEI beschreibt Exploration und liefert keine unabhängige Wirkungsmessung.",
+              "sourceUrls": [
+                "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "IBM · IMAGINE ENTERPRISE",
+              "verdict": "supported",
+              "reason": "Die Kategorie benennt Hersteller und Angebot und impliziert keine Zertifizierung.",
+              "sourceUrls": [
+                "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "IBM und Microsoft stellen Agentenplattform vor",
+              "verdict": "supported",
+              "reason": "Die Vorschau wurde eng auf die Vorstellung formuliert. Sie wertet das Angebot nicht zu einem belegten Betriebserfolg auf.",
+              "sourceUrls": [
+                "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Wolkensymbol zur Vorstellung von Imagine Enterprise durch IBM und Microsoft",
+              "verdict": "supported",
+              "reason": "Wolkenmotiv stellt die Plattform vor. Die Vorschau behauptet keinen Kundeneinsatz.",
+              "sourceUrls": [
+                "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Imagine Enterprise\" IBM Microsoft availability November 2026",
+              "finding": "Originalmitteilung bestätigt die Vorstellung vom 10. November und beschreibt konsultationsgestützte Bereitstellung. Die Meldung verspricht keinen bestimmten Produktivstart.",
+              "sourceUrls": [
+                "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+              ]
+            },
+            {
+              "query": "\"Imagine Enterprise\" IBM Microsoft independent results limitations",
+              "finding": "Die Originalquelle nennt SEI als explorierendes Unternehmen und liefert keine quantifizierte unabhängige Wirkungsmessung. Dieser Vorbehalt steht sichtbar im Beitrag.",
+              "sourceUrls": [
+                "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "10. November 2026 aus datierter Einleitung. Keine Zahl fertiger Agenten übernommen.",
+            "scopeAndQualifications": "Soll-Formulierung erhält die angekündigte Ausrichtung. Keine Erfolgs- oder Sicherheitsgarantie.",
+            "sourceIndependence": "Gemeinsame Mitteilung der beteiligten Hersteller. Keine unabhängige Studie ausgewiesen oder behauptet.",
+            "contradictions": "SEI-Zitat handelt von Exploration. Es wird nicht zum Nachweis abgeschlossener Einführung aufgewertet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-3",
+      "contentHash": "dd12dfa141c8d6e86e75a01e238d05400d069299e77840b828eae634222a2713",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-15T07:44:27Z",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Die Beispiele stammen aus Kooperationen von Google mit Fachleuten. Keine allgemeine Zuverlässigkeitsgarantie und keine vollständige Verfügbarkeitsaussage."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Google beschreibt überprüfbare Arbeitsabläufe für Agententeams",
+              "verdict": "supported",
+              "reason": "Scaling long-horizon reasoning beschreibt Lösungssuche mit gesonderten Falsifikatoren. Die Überschrift bleibt beim Beschreiben des Ansatzes.",
+              "sourceUrls": [
+                "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Google Research erläuterte am 13. November 2026 neue Ergebnisse mit Antigravity /teamwork.",
+              "verdict": "supported",
+              "reason": "Der Google-Research-Beitrag ist auf November 13, 2026 datiert und stellt neue Resultate mit Antigravity /teamwork vor.",
+              "sourceUrls": [
+                "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Anbieter beschreibt parallele Lösungssuche mit gesonderten Prüfwerkzeugen wie Lean 4, unveränderten Softwaretests oder Ausführungssimulatoren sowie getrennte Kontexte für spezialisierte Agenten.",
+              "verdict": "supported",
+              "reason": "Der Abschnitt nennt Lean 4, unmodified software test suites, execution simulators und die konstruktive Aufteilung des Kontexts auf Spezialagenten. Alle im Faktensatz genannten Elemente stehen dort.",
+              "sourceUrls": [
+                "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GOOGLE · ANTIGRAVITY",
+              "verdict": "supported",
+              "reason": "Google Research nennt Antigravity als Plattform der beschriebenen Workflows. Kategorie ist korrekt.",
+              "sourceUrls": [
+                "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Google verbindet Agententeams mit Prüfwerkzeugen",
+              "verdict": "supported",
+              "reason": "Die Kurzschlagzeile gibt die belegte Verknüpfung von Agententeams und Prüfwerkzeugen wieder. Sie erklärt damit nicht alle Resultate für korrekt.",
+              "sourceUrls": [
+                "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zur Meldung Google verbindet Agententeams mit Prüfwerkzeugen",
+              "verdict": "supported",
+              "reason": "Zahnrad und Schlagzeile beschreiben die technische Grafik und das Thema der Meldung. Keine zusätzlichen Forschungsergebnisse im Alttext.",
+              "sourceUrls": [
+                "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-15T07:44:27Z",
+          "reviewer": "Codex – gesonderte Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Die Beispiele stammen aus Kooperationen von Google mit Fachleuten. Keine allgemeine Zuverlässigkeitsgarantie und keine vollständige Verfügbarkeitsaussage."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Google beschreibt überprüfbare Arbeitsabläufe für Agententeams",
+              "verdict": "supported",
+              "reason": "Der ältere Antigravity-Beitrag zeigt, dass Teamwork bereits vorher bestand. Die Meldung berichtet deshalb neue Ergebnisse und keine erstmalige Erfindung des Mehragentenansatzes.",
+              "sourceUrls": [
+                "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+                "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Google Research erläuterte am 13. November 2026 neue Ergebnisse mit Antigravity /teamwork.",
+              "verdict": "supported",
+              "reason": "Der neue Originalbericht ist vom 13. November, der verlinkte Hintergrundbeitrag älter. Diese Zeitpunkte wurden nicht vermischt.",
+              "sourceUrls": [
+                "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+                "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Anbieter beschreibt parallele Lösungssuche mit gesonderten Prüfwerkzeugen wie Lean 4, unveränderten Softwaretests oder Ausführungssimulatoren sowie getrennte Kontexte für spezialisierte Agenten.",
+              "verdict": "supported",
+              "reason": "Der neue Beitrag beschreibt spezifische Prüfmittel. Die Gegenprüfung fand auch Hinweise auf erst kommende Spezialfunktionen. Im Text steht keine vollständige Freigabe sämtlicher Varianten.",
+              "sourceUrls": [
+                "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+                "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GOOGLE · ANTIGRAVITY",
+              "verdict": "supported",
+              "reason": "Google ist Entwickler und Berichterstatter. Kein unabhängiges Qualitätsurteil aus dieser Kategorie abgeleitet.",
+              "sourceUrls": [
+                "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+                "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Google verbindet Agententeams mit Prüfwerkzeugen",
+              "verdict": "supported",
+              "reason": "Die Vorschau nennt den Arbeitsablauf, nicht bewiesene universelle Zuverlässigkeit.",
+              "sourceUrls": [
+                "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+                "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zur Meldung Google verbindet Agententeams mit Prüfwerkzeugen",
+              "verdict": "supported",
+              "reason": "Alttext enthält nur Zahnrad und Gegenstand, ohne Aussagen über Verfügbarkeit oder Wirksamkeit.",
+              "sourceUrls": [
+                "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+                "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.research.google \"teamwork\" \"November 13\" verification limitations",
+              "finding": "Neuer Research-Beitrag nennt spezifische externe Prüfer und getrennte Agentenkontexte. Erfolgsbehauptungen zu einzelnen mathematischen Resultaten wurden nicht übernommen.",
+              "sourceUrls": [
+                "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+                "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner"
+              ]
+            },
+            {
+              "query": "site.antigravity.google \"teamwork\" formal proof availability",
+              "finding": "Der geöffnete Antigravity-Hintergrundbeitrag zeigt bereits früher vorhandenes Teamwork. Der neue Beitrag nennt zugleich kommende Spezialfunktionen. Der Meldungstext behauptet ausschließlich die beschriebenen Abläufe.",
+              "sourceUrls": [
+                "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+                "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "13. November aus Originalbericht. Kein Erststartdatum für Teamwork und keine Leistungsfaktoren behauptet.",
+            "scopeAndQualifications": "Neue Ergebnisse werden von älterem Framework unterschieden. Konkrete Verifikationsmittel, keine allgemeine Garantie.",
+            "sourceIndependence": "Google berichtet über eigene Kooperationen. Keine unabhängige Produktvalidierung behauptet.",
+            "contradictions": "Kommende Funktionen und bestehende Workflows sind in den Quellen unterschiedlich eingeordnet. Keine pauschale Verfügbarkeitsbehauptung im Text."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-4",
+      "contentHash": "0a74bae01196a861152fb677b6e1de9fb6f3927b6254f6e5c76b02060b1a8d89",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-15T07:44:27Z",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Die gelesene Originalzusammenfassung liefert eine Lageeinschätzung. Sie belegt keinen konkreten Angriff auf ein bestimmtes Unternehmen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "ENISA ordnet KI als Verstärker bestehender Cyberangriffe ein",
+              "verdict": "supported",
+              "reason": "Die Publikationszusammenfassung bezeichnet AI als force multiplier für konventionelle Mittel im Cyberbereich. Die Überschrift gibt die Bewertung ENISAs wieder.",
+              "sourceUrls": [
+                "https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die am 10. November 2026 im EU-Publikationsportal veröffentlichte ENISA-Ausgabe zur Cybersicherheit in der Union beschreibt KI als Verstärker herkömmlicher Angriffe und als Beschleuniger der Entdeckung und Ausnutzung von Schwachstellen.",
+              "verdict": "supported",
+              "reason": "Das tatsächlich geöffnete EU-Publikationsportal nennt Released on EU publications website: 2026-11-10 und ENISA als Autor. Die Zusammenfassung benennt Beschleunigung von discovery and exploitation.",
+              "sourceUrls": [
+                "https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Zusammenfassung nennt die Ausnutzung von Sicherheitslücken weiterhin einen wesentlichen Weg für den Erstzugriff.",
+              "verdict": "supported",
+              "reason": "Die Zusammenfassung sagt ausdrücklich, exploitation of vulnerabilities remains a cornerstone of initial access. Die Aussage bleibt auf diese Zusammenfassung bezogen.",
+              "sourceUrls": [
+                "https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "ENISA · CYBERSICHERHEIT",
+              "verdict": "supported",
+              "reason": "ENISA ist im Portal als Corporate author genannt. Cybersicherheit ist das Thema des Berichts.",
+              "sourceUrls": [
+                "https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "ENISA bewertet die Rolle von KI bei Cyberangriffen",
+              "verdict": "supported",
+              "reason": "Die Vorschau berichtet eine Lagebewertung. Sie benennt weder einen konkreten Angriff noch einen quantifizierten KI-Effekt.",
+              "sourceUrls": [
+                "https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Schild zur Meldung ENISA bewertet die Rolle von KI bei Cyberangriffen",
+              "verdict": "supported",
+              "reason": "Schildmotiv und ENISA-Lagebewertung stimmen mit der gewählten Grafik überein. Keine zusätzlichen Gefahrenbehauptungen im Alttext.",
+              "sourceUrls": [
+                "https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-15T07:44:27Z",
+          "reviewer": "Codex – gesonderte Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Die gelesene Originalzusammenfassung liefert eine Lageeinschätzung. Sie belegt keinen konkreten Angriff auf ein bestimmtes Unternehmen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "ENISA ordnet KI als Verstärker bestehender Cyberangriffe ein",
+              "verdict": "supported",
+              "reason": "Die Gegenrecherche bestätigt, dass dies eine Lageeinschätzung mit NIS2-Bezug ist. Der Text stellt keine neue Rechtsnorm auf.",
+              "sourceUrls": [
+                "https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die am 10. November 2026 im EU-Publikationsportal veröffentlichte ENISA-Ausgabe zur Cybersicherheit in der Union beschreibt KI als Verstärker herkömmlicher Angriffe und als Beschleuniger der Entdeckung und Ausnutzung von Schwachstellen.",
+              "verdict": "supported",
+              "reason": "Datumsbeleg kommt aus dem Originalportal. Die Aussagen über KI sind ausdrücklich ENISA zugeschrieben und enthalten keine unbelegten Prozentwerte.",
+              "sourceUrls": [
+                "https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Zusammenfassung nennt die Ausnutzung von Sicherheitslücken weiterhin einen wesentlichen Weg für den Erstzugriff.",
+              "verdict": "supported",
+              "reason": "Der Originaltext spricht weiterhin von initial access. Es wurde daraus kein überwiegender Anteil oder konkreter Vorfall abgeleitet.",
+              "sourceUrls": [
+                "https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "ENISA · CYBERSICHERHEIT",
+              "verdict": "supported",
+              "reason": "Originalportal weist ENISA als Urheber aus. Thematische Kategorie ist ohne Zusatzbehauptung.",
+              "sourceUrls": [
+                "https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "ENISA bewertet die Rolle von KI bei Cyberangriffen",
+              "verdict": "supported",
+              "reason": "Die Kurzschlagzeile bleibt bei bewertet und vermeidet die Behauptung, KI verursache jeden erfassten Angriff.",
+              "sourceUrls": [
+                "https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Schild zur Meldung ENISA bewertet die Rolle von KI bei Cyberangriffen",
+              "verdict": "supported",
+              "reason": "Alttext ist eine Motivbeschreibung, kein zusätzlicher Befund zur Bedrohungslage.",
+              "sourceUrls": [
+                "https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"2026 Report on the state of cybersecurity\" AI vulnerability limitations",
+              "finding": "Originalportal ordnet KI als Verstärker ein und nennt Schwachstellenausnutzung als Erstzugriffsweg. Bericht wird nicht mit einem neuen Gesetz verwechselt.",
+              "sourceUrls": [
+                "https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en"
+              ]
+            },
+            {
+              "query": "\"ENISA\" \"10 November 2026\" cybersecurity report correction",
+              "finding": "Keine Korrektur der übernommenen Aussagen gefunden. Datum ist durch das Originalportal belegt, keine konkreten Angriffe oder Anteilszahlen in der Meldung.",
+              "sourceUrls": [
+                "https://op.europa.eu/en/publication-detail/-/publication/85c97faa-de49-11f1-ba80-01aa75ed71a1/language-en"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "10. November ist das Veröffentlichungsdatum im EU-Publikationsportal. Keine Umfragezahlen übernommen.",
+            "scopeAndQualifications": "Nur Aussagen der Originalzusammenfassung. Keine neuen Pflichten oder einzelnen Angriffe behauptet.",
+            "sourceIndependence": "Originalportal mit ENISA als Urheber. Sekundäre Zusammenfassungen dienen nicht als Wahrheitsbeleg.",
+            "contradictions": "Die beiden übernommenen Einschätzungen stehen zusammen in der offiziellen Zusammenfassung. Keine gegenteilige Originalfassung ermittelt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-5",
+      "contentHash": "3bb6bf1d95dfc2425a8717718c2e3087e9211a94688d8597d81d2960937bb1a2",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-15T07:44:27Z",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Simulierte Quantisierung an einem kleinen Modell. Live-Ergebnisse trennen die Varianten statistisch nicht eindeutig und belegen keinen gemessenen Laufzeitgewinn."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Preprint untersucht bedarfsabhängige Präzision beim Sprachmodell",
+              "verdict": "supported",
+              "reason": "Titel und Abstract des Originals untersuchen die bedarfsabhängige Eskalation von Gewichtspräzision. Die Überschrift kennzeichnet die Arbeit als Preprint.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein Preprint vom 10. November 2026 untersucht simulierte Quantisierung mit Qwen3-0.6B auf GSM8K.",
+              "verdict": "supported",
+              "reason": "arXiv nennt Submitted on 10 Nov 2026. Abstract und PDF nennen simulierte Quantisierung, Qwen3-0.6B und GSM8K.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Verfahren startet einen Decodierschritt mit den oberen vier Bits gespeicherter Acht-Bit-Gewichte und wiederholt ihn bei hoher Unsicherheit mit acht Bits.",
+              "verdict": "supported",
+              "reason": "Abstract sowie Abschnitt 1 im PDF beschreiben obere 4 Bits gespeicherter 8-Bit-Gewichte und die Wiederholung bei hoher Entropie oder kleinem Abstand der höchsten Logits. Der Faktensatz ist eine sachgerechte Zusammenfassung.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Als Kostenmaß dienen gelesene Gewichtsbytes je Token.",
+              "verdict": "supported",
+              "reason": "Abstract und Einleitung nennen weight bytes read per token als Kostenmodell. Die Meldung ersetzt dieses Maß nicht durch gemessene Laufzeit.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FORSCHUNG · QUANTISIERUNG",
+              "verdict": "supported",
+              "reason": "Die Originalarbeit ist ein Forschungsbeitrag zur simulierten Modellquantisierung. Die Kategorie verspricht keinen produktiven Beschleuniger.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Studie prüft bedarfsabhängige Modellpräzision",
+              "verdict": "supported",
+              "reason": "Die Vorschau sagt prüft und übernimmt weder eine allgemeine Überlegenheit noch eine Laufzeitersparnis.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zur Meldung Studie prüft bedarfsabhängige Modellpräzision",
+              "verdict": "supported",
+              "reason": "Das Zahnradmotiv illustriert das technische Thema. Der Alttext fügt keine quantitativen Ergebnisse hinzu.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-15T07:44:27Z",
+          "reviewer": "Codex – gesonderte Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Simulierte Quantisierung an einem kleinen Modell. Live-Ergebnisse trennen die Varianten statistisch nicht eindeutig und belegen keinen gemessenen Laufzeitgewinn."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Preprint untersucht bedarfsabhängige Präzision beim Sprachmodell",
+              "verdict": "supported",
+              "reason": "Die Originalarbeit bezeichnet sich als simulated-quantization study. Die Überschrift vermeidet ein Deployment- oder Überlegenheitsversprechen.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418",
+                "https://arxiv.org/pdf/2611.14418"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein Preprint vom 10. November 2026 untersucht simulierte Quantisierung mit Qwen3-0.6B auf GSM8K.",
+              "verdict": "supported",
+              "reason": "PDF-Titelseite und arXiv-Historie stimmen zum Datum überein. Das Experiment umfasst nur ein kleines Modell und einen Benchmark.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418",
+                "https://arxiv.org/pdf/2611.14418"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Verfahren startet einen Decodierschritt mit den oberen vier Bits gespeicherter Acht-Bit-Gewichte und wiederholt ihn bei hoher Unsicherheit mit acht Bits.",
+              "verdict": "supported",
+              "reason": "Die PDF-Einleitung bestätigt 4-Bit-Erstpass und 8-Bit-Wiederholung. Das Verfahren wurde simuliert, keine gepackten Hardwarekerne gemessen.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418",
+                "https://arxiv.org/pdf/2611.14418"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Als Kostenmaß dienen gelesene Gewichtsbytes je Token.",
+              "verdict": "supported",
+              "reason": "Kostenmodell zählt Bytes. Der Text übernimmt deshalb keinen aus dem Byte-Modell hergeleiteten Laufzeitgewinn.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418",
+                "https://arxiv.org/pdf/2611.14418"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FORSCHUNG · QUANTISIERUNG",
+              "verdict": "supported",
+              "reason": "Die Kategorie bleibt bei Forschung und Quantisierung. Kein Produktstatus suggeriert.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418",
+                "https://arxiv.org/pdf/2611.14418"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Studie prüft bedarfsabhängige Modellpräzision",
+              "verdict": "supported",
+              "reason": "Live-Ergebnisse trennen das Gate statistisch nicht eindeutig von den festen Stufen. Die Vorschau sagt ausschließlich prüft.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418",
+                "https://arxiv.org/pdf/2611.14418"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zur Meldung Studie prüft bedarfsabhängige Modellpräzision",
+              "verdict": "supported",
+              "reason": "Alttext fügt keine Einsparungszahl hinzu und passt zum Zahnradmotiv.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418",
+                "https://arxiv.org/pdf/2611.14418"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"2611.14418\" quantization simulation statistical latency",
+              "finding": "Original-PDF und Abstract nennen Simulation und Byte-Kostenmodell. Hardwarelaufzeit wird nicht gemessen. In der Einordnung ist diese Grenze sichtbar.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418",
+                "https://arxiv.org/pdf/2611.14418"
+              ]
+            },
+            {
+              "query": "\"Precision on Demand\" \"Khan\" correction limitations",
+              "finding": "PDF nennt nur Qwen3-0.6B, GSM8K und 150 Live-Aufgaben. Die statistisch nicht eindeutige Trennung steht im Abstract. Die Meldung behauptet keine bewiesene Überlegenheit.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.14418",
+                "https://arxiv.org/pdf/2611.14418"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "10. November und 4/8 Bit aus Abstract und PDF geprüft. Keine Genauigkeits- oder Beschleunigungszahl übernommen.",
+            "scopeAndQualifications": "Ein Modell, ein Benchmark, Simulation und Bytes als Kostenmaß. Die Live-Grenze bleibt im Beitrag sichtbar.",
+            "sourceIndependence": "Autorenstudie und arXiv-Abstract sind dieselbe Arbeit. Keine unabhängige Replikation behauptet.",
+            "contradictions": "Die Gegenprüfung findet die statistische Unsicherheit ausdrücklich im Original. Die Meldung macht daraus keinen positiven Wirksamkeitsnachweis."
+          }
+        }
+      ]
     }
   ]
 }
