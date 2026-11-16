@@ -25,6 +25,20 @@ export default function Impressum() {
             <strong>E-Mail:</strong>{' '}
             <a href="mailto:claudiu@dangulea.at">claudiu@dangulea.at</a>
           </p>
+          <h3>Unternehmensgegenstand und Gewerbeberechtigungen</h3>
+          <p>
+            Einzelunternehmen, nicht im Firmenbuch eingetragen.<br />
+            Dienstleistungen in der automatischen Datenverarbeitung und Informationstechnik (GISA-Zahl 35190172)<br />
+            Erstellung pädagogischer Konzepte für Internetplattformen, Unterrichtsmaterialien sowie Ausstattungen
+            von Unterrichtsräumen (GISA-Zahl 38180019)
+          </p>
+          <h3>Behörde, Kammer und Rechtsvorschriften</h3>
+          <p>
+            Gewerbebehörde: Magistratisches Bezirksamt für den 10. Bezirk, Wien<br />
+            Mitglied der Wirtschaftskammer Wien<br />
+            Anwendbare Rechtsvorschriften: Gewerbeordnung 1994, abrufbar unter{' '}
+            <a href="https://www.ris.bka.gv.at/" target="_blank" rel="noopener noreferrer">www.ris.bka.gv.at</a>
+          </p>
         </section>
 
         <div className="divider" />
@@ -62,27 +76,13 @@ export default function Impressum() {
         <div className="divider" />
 
         <section className="legal-section">
-          <h2>Verbraucherstreitbeilegung</h2>
-          <p>
-            Ich bin weder bereit noch verpflichtet, an Streitbeilegungsverfahren
-            vor einer Verbraucherschlichtungsstelle teilzunehmen.
-          </p>
-        </section>
-
-        <div className="divider" />
-
-        <section className="legal-section">
           <h2>Haftungsausschluss</h2>
           <h3>Haftung für Inhalte</h3>
           <p>
-            Die Inhalte dieser Webseiten wurden mit größter Sorgfalt erstellt.
-            Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann ich
-            jedoch keine Gewähr übernehmen. Als Diensteanbieter bin ich gemäß § 7 Abs. 1
-            ECG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen
-            verantwortlich. Nach §§ 8 bis 10 ECG bin ich als Diensteanbieter jedoch
-            nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu
-            überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige
-            Tätigkeit hinweisen.
+            Die Inhalte dieser Webseiten wurden mit größter Sorgfalt erstellt. Für die
+            Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann ich jedoch keine
+            Gewähr übernehmen. Für eigene Inhalte bin ich nach den allgemeinen Gesetzen
+            verantwortlich.
           </p>
           <h3>Haftung für Links</h3>
           <p>
