@@ -2,6 +2,76 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-16-1",
+      "date": "2026-11-16",
+      "number": 1,
+      "title": "llama.cpp veröffentlicht Version 1.0 mit bereinigten Schnittstellen",
+      "text": "Fakten: Das ggml-org-Team veröffentlichte am 13. November 2026 llama.cpp und ggml als Version 1.0.0. Künftige inkompatible Änderungen der öffentlichen C-Schnittstellen sollen durch eine neue Hauptversion sichtbar werden. Die Release Notes nennen zudem das Entfernen veralteter Funktionen.\nEinordnung: Für eingebettete und lokale KI-Anwendungen wird damit die Upgradeplanung konkreter: Integratoren müssen Schnittstellenwechsel testen und Abhängigkeiten versionieren. Die Projektankündigung ist kein Nachweis höherer Modellqualität oder pauschaler Beschleunigung.\nQuellen: https://huggingface.co/blog/ggml-org/llama-cpp-v1 https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+      "og": {
+        "og_kategorie": "GGML · LLAMA.CPP",
+        "og_titel": "llama.cpp versioniert seine öffentlichen Schnittstellen",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte mit Zahnrad zur Meldung: llama.cpp versioniert seine öffentlichen Schnittstellen"
+      }
+    },
+    {
+      "id": "2026-11-16-2",
+      "date": "2026-11-16",
+      "number": 2,
+      "title": "IBM trennt Anweisungen und Daten in experimentellen Granite-Modellen",
+      "text": "Fakten: IBM stellte am 12. November 2026 zwei experimentelle Granite-4.1-LLMON-Vorschaumodelle vor. LLMON kennzeichnet Anweisungen, Daten und Anforderungen mit besonderen Token und verknüpft sie über Kennungen. IBM bezeichnet die Vorschau ausdrücklich als für Erprobung und Evaluation, nicht für den Produktivbetrieb geeignet.\nEinordnung: Das adressiert eine konkrete Schwachstelle von Dokumenten- und Werkzeugagenten: Fremdinhalte dürfen keine ausführbaren Aufträge werden. Die Trennung ist erlerntes Verhalten und keine technisch erzwungene Sicherheitsgarantie; die berichteten Tests stammen vom Anbieter und ersetzen keine eigene adversarielle Prüfung.\nQuellen: https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite https://github.com/generative-computing/llmon",
+      "og": {
+        "og_kategorie": "IBM · GRANITE",
+        "og_titel": "IBM erprobt eine explizite Trennung von Daten und Anweisungen",
+        "og_fakten": [],
+        "og_icon": "schild",
+        "og_alt": "Kubistische Karte mit Schild zur Meldung: IBM erprobt eine explizite Trennung von Daten und Anweisungen"
+      }
+    },
+    {
+      "id": "2026-11-16-3",
+      "date": "2026-11-16",
+      "number": 3,
+      "title": "Databricks erprobt eigene Zugriffsrechte für Pipeline-Flows",
+      "text": "Fakten: Databricks dokumentiert seit dem 12. November 2026 Pipeline-Flows als eigenständig berechtigbare Objekte in Unity Catalog in einer Beta. Rechte können unter anderem das Lesen, Aktualisieren und Zurücksetzen eines einzelnen Flows steuern. Für die Teilnahme verweist der Anbieter an das zuständige Account-Team.\nEinordnung: Datenplattformteams können damit im beschriebenen Berechtigungsmodell Betriebsaufgaben enger delegieren, statt umfassende Pipeline-Rechte zu vergeben. Beta-Status und schrittweise Auslieferung bleiben zu beachten; eine allgemeine Verfügbarkeit oder unabhängig belegte Sicherheitsverbesserung ist damit nicht nachgewiesen.\nQuellen: https://docs.databricks.com/aws/en/release-notes/product/2026/november https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows",
+      "og": {
+        "og_kategorie": "DATABRICKS · UNITY CATALOG",
+        "og_titel": "Databricks erprobt Zugriffsrechte je Pipeline-Flow",
+        "og_fakten": [],
+        "og_icon": "schloss",
+        "og_alt": "Kubistische Karte mit Schloss zur Meldung: Databricks erprobt Zugriffsrechte je Pipeline-Flow"
+      }
+    },
+    {
+      "id": "2026-11-16-4",
+      "date": "2026-11-16",
+      "number": 4,
+      "title": "NVIDIA veröffentlicht synthetische Dokumente für Datenschutztests",
+      "text": "Fakten: NVIDIA stellte am 9. November 2026 Nemotron PII Japan vor. Der Anbieter beschreibt 100.000 synthetische japanische Geschäftsdokumente aus acht Domänen und 43 Dokumenttypen mit markierten personenbezogenen Angaben. Der Datensatz soll unter anderem Tests für Erkennung und Maskierung solcher Angaben ermöglichen.\nEinordnung: Das ist für die Datenqualität vor externen KI-Aufrufen relevant: Tests müssen sowohl übersehene Angaben als auch unnötige Schwärzungen erfassen. Die Inhalte sind laut NVIDIA synthetisch; ihre Eignung für österreichische oder deutschsprachige Dokumente ist damit ebenso wenig belegt wie ein allgemeiner Datenschutznachweis. Grundlage ist die Anbieterquelle.\nQuellen: https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+      "og": {
+        "og_kategorie": "NVIDIA · TESTDATEN",
+        "og_titel": "NVIDIA liefert synthetische Dokumente für Datenschutztests",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte mit Dokument zur Meldung: NVIDIA liefert synthetische Dokumente für Datenschutztests"
+      }
+    },
+    {
+      "id": "2026-11-16-5",
+      "date": "2026-11-16",
+      "number": 5,
+      "title": "SAP beschreibt prozessgestützte KI-Entwicklung mit Architekturbezug",
+      "text": "Fakten: Ein SAP-Beitrag vom 13. November 2026 beschreibt eine Buchvorstellung mit einer Demonstration zur KI-gestützten Anwendungsentwicklung. Dabei wurden ein freigegebenes Signavio-Prozessmodell und Architekturinformationen aus LeanIX als Grundlage verwendet. Der Beitrag beschreibt außerdem eine gemeinsame Datenstruktur zur Zuordnung unterschiedlicher Kennungen über Systeme hinweg.\nEinordnung: Der fachliche Ansatz verbindet Prozessanforderungen, Architektur und Umsetzung nachvollziehbar miteinander. Für ERP-Teams ist das ein konkreter Ausgangspunkt für eigene Integrationsversuche; die Buchvorstellung auf einer Herstellerplattform belegt weder eine neue allgemein verfügbare Produktfunktion noch unabhängig gemessene Projekterfolge. Fachliche Validierung bleibt erforderlich.\nQuellen: https://news.sap.com/2026/11/successful-sap-transformation-business-processes/",
+      "og": {
+        "og_kategorie": "SAP · PROZESSARCHITEKTUR",
+        "og_titel": "SAP beschreibt Prozessmodelle als Grundlage für KI-Entwicklung",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte mit Zahnrad zur Meldung: SAP beschreibt Prozessmodelle als Grundlage für KI-Entwicklung"
+      }
+    },
+    {
       "id": "2026-11-15-1",
       "date": "2026-11-15",
       "number": 1,

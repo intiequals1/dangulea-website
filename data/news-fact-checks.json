@@ -7661,6 +7661,959 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-16-1",
+      "contentHash": "2235df44d1fbc797eab9fbaae4d1a84a094aff29a42e84fe461605de27d0142d",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-16T07:58:36.529621+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Projektquellen; keine unabhängige Messung von Modellqualität oder Beschleunigung. Versionsregeln betreffen öffentliche Bibliotheksschnittstellen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "llama.cpp veröffentlicht Version 1.0 mit bereinigten Schnittstellen",
+              "verdict": "supported",
+              "reason": "GitHub-Release v1.0.0 nennt im Abschnitt API changes die Entfernung veralteter öffentlicher Funktionen; die Überschrift bildet genau diese Änderung ab.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Das ggml-org-Team veröffentlichte am 13. November 2026 llama.cpp und ggml als Version 1.0.0.",
+              "verdict": "supported",
+              "reason": "Datierter ggml-org-Beitrag vom 13.11.2026 listet libllama und libggml jeweils als v1.0.0; der GitHub-Release zeigt 13 Nov.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Künftige inkompatible Änderungen der öffentlichen C-Schnittstellen sollen durch eine neue Hauptversion sichtbar werden.",
+              "verdict": "supported",
+              "reason": "Die Tabelle Semantic version update rules ordnet Änderungen der öffentlichen C-API der Hauptversion zu. Dies ist eine angekündigte Versionsregel, keine gemessene Kompatibilitätsgarantie.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Release Notes nennen zudem das Entfernen veralteter Funktionen.",
+              "verdict": "supported",
+              "reason": "GitHub nennt im Abschnitt API changes entfernte deprecated functions. Die Meldung übernimmt bewusst keine neue Funktionszahl.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GGML · LLAMA.CPP",
+              "verdict": "supported",
+              "reason": "Die Kategorie benennt den im Original behandelten Anbieter bzw. das Projekt und das technische Thema; keine Freigabe- oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "llama.cpp versioniert seine öffentlichen Schnittstellen",
+              "verdict": "supported",
+              "reason": "Die Vorschau verdichtet den geprüften Gegenstand: öffentliche Schnittstellenversionierung ohne Performanceversprechen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zur Meldung: llama.cpp versioniert seine öffentlichen Schnittstellen",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt die kubistische Grafik und das konfigurierte Symbol zahnrad; er enthält keine zusätzlichen Zahlen oder Leistungsbehauptungen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-16T07:58:36.529621+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Projektquellen; keine unabhängige Messung von Modellqualität oder Beschleunigung. Versionsregeln betreffen öffentliche Bibliotheksschnittstellen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "llama.cpp veröffentlicht Version 1.0 mit bereinigten Schnittstellen",
+              "verdict": "supported",
+              "reason": "Die frühere Versionsdiskussion zeigt, dass SemVer bereits vorbereitet war. Deshalb bezeichnet der endgültige Titel konkret den Release 1.0 und die Bereinigung, keinen erstmaligen Beginn aller Versionierung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+                "https://github.com/ggml-org/ggml/discussions/1579"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Das ggml-org-Team veröffentlichte am 13. November 2026 llama.cpp und ggml als Version 1.0.0.",
+              "verdict": "supported",
+              "reason": "Projektblog und Release-Datierung passen zusammen; der Satz verwechselt Release-Datum nicht mit dem früheren Diskussionsdatum im August/Oktober.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+                "https://github.com/ggml-org/ggml/discussions/1579"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Künftige inkompatible Änderungen der öffentlichen C-Schnittstellen sollen durch eine neue Hauptversion sichtbar werden.",
+              "verdict": "supported",
+              "reason": "Der öffentliche Headerbereich ist maßgeblich. Interne/experimentelle Schnittstellen sind nicht pauschal eingeschlossen; der Satz begrenzt sich auf öffentliche C-Schnittstellen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+                "https://github.com/ggml-org/ggml/discussions/1579"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Release Notes nennen zudem das Entfernen veralteter Funktionen.",
+              "verdict": "supported",
+              "reason": "Die veröffentlichte Release-Liste bestätigt die tatsächliche Entfernung, während die ältere Diskussion zunächst nur Planung war.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+                "https://github.com/ggml-org/ggml/discussions/1579"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GGML · LLAMA.CPP",
+              "verdict": "supported",
+              "reason": "Die Kategorie benennt den im Original behandelten Anbieter bzw. das Projekt und das technische Thema; keine Freigabe- oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+                "https://github.com/ggml-org/ggml/discussions/1579"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "llama.cpp versioniert seine öffentlichen Schnittstellen",
+              "verdict": "supported",
+              "reason": "Die Vorschau verdichtet den geprüften Gegenstand: öffentliche Schnittstellenversionierung ohne Performanceversprechen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+                "https://github.com/ggml-org/ggml/discussions/1579"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zur Meldung: llama.cpp versioniert seine öffentlichen Schnittstellen",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt die kubistische Grafik und das konfigurierte Symbol zahnrad; er enthält keine zusätzlichen Zahlen oder Leistungsbehauptungen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+                "https://github.com/ggml-org/ggml/discussions/1579"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.github.com/ggml-org/llama.cpp v1.0.0 deprecated API breaking version",
+              "finding": "Release-Liste bestätigt entfernte APIs. Die ältere Vorbereitungsdiskussion war noch keine Veröffentlichung; Release und Regelversprechen werden getrennt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+                "https://github.com/ggml-org/ggml/discussions/1579"
+              ]
+            },
+            {
+              "query": "site.github.com/ggml-org/ggml semantic versioning API ABI 1579",
+              "finding": "Die geöffnete ggml-Diskussion zeigt bereits ältere SemVer-Planung und die Grenze zu experimentellen APIs. Der Titel wurde auf Release 1.0 präzisiert.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+                "https://github.com/ggml-org/ggml/discussions/1579"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "13.11. und Versionen aus Blog/Release abgeglichen; keine Performancezahl.",
+            "scopeAndQualifications": "Öffentliche C-API; keine Zusicherung für jedes Werkzeug oder experimentelle Header.",
+            "sourceIndependence": "Projektblog, Release und Diskussion stammen vom selben Projekt.",
+            "contradictions": "Ältere SemVer-Planung berücksichtigt; Titel auf tatsächliche Version 1.0 präzisiert."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-2",
+      "contentHash": "7b2992b79d955b35bd06d507beb179d30f7580cb98007145790e6f9e253ca2b2",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-16T07:58:36.529621+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Experimentelle Anbietervorschau, ausdrücklich nicht für Produktion; erlernte Trennung ist keine erzwungene Sicherheitsgarantie."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IBM trennt Anweisungen und Daten in experimentellen Granite-Modellen",
+              "verdict": "supported",
+              "reason": "IBM-Blog und öffentliches LLMON-Repository beschreiben eine explizite Daten-/Anweisungstrennung in Vorschau-Modellen; die Überschrift nennt den experimentellen Status.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "IBM stellte am 12. November 2026 zwei experimentelle Granite-4.1-LLMON-Vorschaumodelle vor.",
+              "verdict": "supported",
+              "reason": "Kopfdatum 12.11.2026 und Einleitung nennen genau zwei experimentelle Granite-4.1-LLMON-Modelle.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "LLMON kennzeichnet Anweisungen, Daten und Anforderungen mit besonderen Token und verknüpft sie über Kennungen.",
+              "verdict": "supported",
+              "reason": "Die Erklärung beschreibt reservierte Spezialtoken, adressierbare Blöcke und IDs für Instruction, Data und Requirements; das Repository zeigt dieselbe Syntax.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "IBM bezeichnet die Vorschau ausdrücklich als für Erprobung und Evaluation, nicht für den Produktivbetrieb geeignet.",
+              "verdict": "supported",
+              "reason": "Abschnitt Try it today grenzt Exploration und Evaluation ausdrücklich vom Produktivbetrieb ab.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "IBM · GRANITE",
+              "verdict": "supported",
+              "reason": "Die Kategorie benennt den im Original behandelten Anbieter bzw. das Projekt und das technische Thema; keine Freigabe- oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "IBM erprobt eine explizite Trennung von Daten und Anweisungen",
+              "verdict": "supported",
+              "reason": "Die Vorschau verdichtet den geprüften Gegenstand: explizite Daten-/Anweisungstrennung mit dem vorsichtigen Verb erprobt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Schild zur Meldung: IBM erprobt eine explizite Trennung von Daten und Anweisungen",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt die kubistische Grafik und das konfigurierte Symbol schild; er enthält keine zusätzlichen Zahlen oder Leistungsbehauptungen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-16T07:58:36.529621+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Experimentelle Anbietervorschau, ausdrücklich nicht für Produktion; erlernte Trennung ist keine erzwungene Sicherheitsgarantie."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IBM trennt Anweisungen und Daten in experimentellen Granite-Modellen",
+              "verdict": "supported",
+              "reason": "Die Gegenrecherche findet weiterhin Preview und Grenzen bei adaptiven Angriffen. Der Titel enthält experimentell und beansprucht keinen durchgesetzten Schutz.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "IBM stellte am 12. November 2026 zwei experimentelle Granite-4.1-LLMON-Vorschaumodelle vor.",
+              "verdict": "supported",
+              "reason": "Zwischen älterem Forschungsdatum und Modellankündigung unterschieden: Der Artikel nennt 12.11. als Vorstellung der zwei Previews, nicht als Entstehung der Methode.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "LLMON kennzeichnet Anweisungen, Daten und Anforderungen mit besonderen Token und verknüpft sie über Kennungen.",
+              "verdict": "supported",
+              "reason": "Das Repository bestätigt Strukturmarkierung und Bindung; der Begleittext nennt dies learned behavior. Keine externe Sandbox oder harte Ausführungsisolation behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "IBM bezeichnet die Vorschau ausdrücklich als für Erprobung und Evaluation, nicht für den Produktivbetrieb geeignet.",
+              "verdict": "supported",
+              "reason": "Der ausdrückliche Produktionsausschluss steht im Original. Benchmark-Erfolge werden nicht zu einer Produktfreigabe aufgewertet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "IBM · GRANITE",
+              "verdict": "supported",
+              "reason": "Die Kategorie benennt den im Original behandelten Anbieter bzw. das Projekt und das technische Thema; keine Freigabe- oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "IBM erprobt eine explizite Trennung von Daten und Anweisungen",
+              "verdict": "supported",
+              "reason": "Die Vorschau verdichtet den geprüften Gegenstand: explizite Daten-/Anweisungstrennung mit dem vorsichtigen Verb erprobt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Schild zur Meldung: IBM erprobt eine explizite Trennung von Daten und Anweisungen",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt die kubistische Grafik und das konfigurierte Symbol schild; er enthält keine zusätzlichen Zahlen oder Leistungsbehauptungen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.huggingface.co/ibm-granite LLMON preview production adaptive attacks",
+              "finding": "IBM benennt Preview statt Produktion und noch offene adaptive Mehrturn-Angriffe. Keine universelle Angriffsfestigkeit übernommen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            },
+            {
+              "query": "site.github.com/generative-computing/llmon limitations instruction data",
+              "finding": "Gelesenes Projekt-README bestätigt Struktur und Binding. Blog benennt erlerntes Verhalten; keine technisch erzwungene Isolation.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+                "https://github.com/generative-computing/llmon"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "12.11., zwei Previews und Granite4.1 bestätigt; keine Benchmark-Prozentzahl.",
+            "scopeAndQualifications": "Exploration/Evaluation, keine Produktion; erlernt statt erzwungen.",
+            "sourceIndependence": "IBM-Blog und eigenes Repository sind Anbieterquellen.",
+            "contradictions": "Statische Benchmark-Erfolge stehen nicht für adaptive universelle Sicherheit."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-3",
+      "contentHash": "c60617f80afe96e3b33bae335ee7a4e46ca21563073d2eee1dcda6c4357ebad8",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-16T07:58:36.529621+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Anbieterangaben zu einer zugangsbeschränkten Beta und schrittweiser Auslieferung; kein unabhängiger Sicherheitsnachweis."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks erprobt eigene Zugriffsrechte für Pipeline-Flows",
+              "verdict": "supported",
+              "reason": "Monatsnotiz nennt Flows als securable objects in Beta; die Überschrift vermeidet allgemeine Verfügbarkeit.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks dokumentiert seit dem 12. November 2026 Pipeline-Flows als eigenständig berechtigbare Objekte in Unity Catalog in einer Beta.",
+              "verdict": "supported",
+              "reason": "Die AWS-Release-Notes führen den Eintrag zum 12.11.2026. Die separate Flow-Dokumentation bestätigt Beta und eigenständige Objekte.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Rechte können unter anderem das Lesen, Aktualisieren und Zurücksetzen eines einzelnen Flows steuern.",
+              "verdict": "supported",
+              "reason": "Die Privilegientabelle ordnet READ FLOW dem Lesen, REFRESH FLOW dem Aktualisieren und WRITE FLOW dem Zurücksetzen/Zurückspulen des Checkpoints zu.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Für die Teilnahme verweist der Anbieter an das zuständige Account-Team.",
+              "verdict": "supported",
+              "reason": "Der Beta-Hinweis der Flow-Dokumentation verlangt Kontakt zum Account-Team.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DATABRICKS · UNITY CATALOG",
+              "verdict": "supported",
+              "reason": "Die Kategorie benennt den im Original behandelten Anbieter bzw. das Projekt und das technische Thema; keine Freigabe- oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Databricks erprobt Zugriffsrechte je Pipeline-Flow",
+              "verdict": "supported",
+              "reason": "Die Vorschau verdichtet den geprüften Gegenstand: Flow-spezifische Zugriffsrechte mit dem Beta-gerechten Verb erprobt.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Schloss zur Meldung: Databricks erprobt Zugriffsrechte je Pipeline-Flow",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt die kubistische Grafik und das konfigurierte Symbol schloss; er enthält keine zusätzlichen Zahlen oder Leistungsbehauptungen.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-16T07:58:36.529621+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Anbieterangaben zu einer zugangsbeschränkten Beta und schrittweiser Auslieferung; kein unabhängiger Sicherheitsnachweis."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks erprobt eigene Zugriffsrechte für Pipeline-Flows",
+              "verdict": "supported",
+              "reason": "Beta und Account-Team-Hinweis widersprechen einer pauschalen Freigabe. Der Titel verwendet daher erprobt.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks dokumentiert seit dem 12. November 2026 Pipeline-Flows als eigenständig berechtigbare Objekte in Unity Catalog in einer Beta.",
+              "verdict": "supported",
+              "reason": "AWS-Monatsnotiz und technische Anleitung stimmen überein. Staged releases bedeuten nicht, dass jeder Workspace am 12.11. verfügbar war.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Rechte können unter anderem das Lesen, Aktualisieren und Zurücksetzen eines einzelnen Flows steuern.",
+              "verdict": "supported",
+              "reason": "WRITE FLOW betrifft den Streaming-Checkpoint, nicht beliebiges Schreiben in Zieldaten. Die Formulierung bleibt bei Flow-Betriebsrechten und behauptet keinen direkten Tabellenzugriff.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Für die Teilnahme verweist der Anbieter an das zuständige Account-Team.",
+              "verdict": "supported",
+              "reason": "Beta-Teilnahme erfordert Anbieterabstimmung; kein öffentlicher Self-Service-Zugang versprochen.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DATABRICKS · UNITY CATALOG",
+              "verdict": "supported",
+              "reason": "Die Kategorie benennt den im Original behandelten Anbieter bzw. das Projekt und das technische Thema; keine Freigabe- oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Databricks erprobt Zugriffsrechte je Pipeline-Flow",
+              "verdict": "supported",
+              "reason": "Die Vorschau verdichtet den geprüften Gegenstand: Flow-spezifische Zugriffsrechte mit dem Beta-gerechten Verb erprobt.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Schloss zur Meldung: Databricks erprobt Zugriffsrechte je Pipeline-Flow",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt die kubistische Grafik und das konfigurierte Symbol schloss; er enthält keine zusätzlichen Zahlen oder Leistungsbehauptungen.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.docs.databricks.com \"Flows in Unity Catalog\" Beta privileges reset November",
+              "finding": "Geöffnete technische Anleitung bestätigt READ/REFRESH/WRITE FLOW und die Beta-Grenze; WRITE bezieht sich auf Checkpoints.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            },
+            {
+              "query": "site.docs.databricks.com \"November 12, 2026\" \"Flows\" account team",
+              "finding": "Monatsnotiz bestätigt 12.11. und Account-Team-Kontakt. Die Notiz weist allgemein auf gestaffelte Auslieferung hin.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/flows"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "12.11. ist Datum der Beta-Notiz; keine vollständige Auslieferung behauptet.",
+            "scopeAndQualifications": "Beta, Account-Team-Kontakt und Flow-spezifische Rechte statt allgemeiner Tabellenrechte.",
+            "sourceIndependence": "Zwei Dokumentationsseiten desselben Anbieters, keine externe Sicherheitsprüfung.",
+            "contradictions": "Staged-Rollout und Beta begrenzen Verfügbarkeitsaussage; keine offenen Widersprüche im engen Meldungstext."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-4",
+      "contentHash": "bc4a211d2f90f24ee04bbd4cec25c3e8fa38a8d844783b3a4b95af8cc4d6b7b7",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-16T07:58:36.529621+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Anbieterquelle und synthetische japanische Daten; Übertragbarkeit auf deutschsprachige Dokumente und allgemeiner Datenschutz nicht nachgewiesen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "NVIDIA veröffentlicht synthetische Dokumente für Datenschutztests",
+              "verdict": "supported",
+              "reason": "Der Originalbeitrag veröffentlicht synthetische Geschäftsdokumente zur PII-Erkennung und Maskierung; die Überschrift behauptet keine garantierte Schutzwirkung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "NVIDIA stellte am 9. November 2026 Nemotron PII Japan vor.",
+              "verdict": "supported",
+              "reason": "Der NVIDIA-Blog trägt das Veröffentlichungsdatum 9.11.2026 und stellt Nemotron PII Japan vor.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Anbieter beschreibt 100.000 synthetische japanische Geschäftsdokumente aus acht Domänen und 43 Dokumenttypen mit markierten personenbezogenen Angaben.",
+              "verdict": "supported",
+              "reason": "Key Features nennt 100.000 synthetische japanische Dokumente, acht Domänen und 43 Dokumenttypen. Die PII-Annotationen werden als Positionen und Typen beschrieben.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Datensatz soll unter anderem Tests für Erkennung und Maskierung solcher Angaben ermöglichen.",
+              "verdict": "supported",
+              "reason": "Einleitung und Intended Users beschreiben Entwicklung und Evaluation von Erkennung und Maskierung; die Formulierung soll ermöglichen bleibt beim vorgesehenen Zweck.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "NVIDIA · TESTDATEN",
+              "verdict": "supported",
+              "reason": "Die Kategorie benennt den im Original behandelten Anbieter bzw. das Projekt und das technische Thema; keine Freigabe- oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "NVIDIA liefert synthetische Dokumente für Datenschutztests",
+              "verdict": "supported",
+              "reason": "Die Vorschau verdichtet den geprüften Gegenstand: synthetische Dokumente als Testmaterial, nicht als Datenschutzgarantie.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokument zur Meldung: NVIDIA liefert synthetische Dokumente für Datenschutztests",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt die kubistische Grafik und das konfigurierte Symbol dokument; er enthält keine zusätzlichen Zahlen oder Leistungsbehauptungen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-16T07:58:36.529621+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Anbieterquelle und synthetische japanische Daten; Übertragbarkeit auf deutschsprachige Dokumente und allgemeiner Datenschutz nicht nachgewiesen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "NVIDIA veröffentlicht synthetische Dokumente für Datenschutztests",
+              "verdict": "supported",
+              "reason": "Das Original begrenzt sich auf synthetische japanische Dokumente. Datenschutztests im Titel sind ein Einsatzzweck, keine Zertifizierung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "NVIDIA stellte am 9. November 2026 Nemotron PII Japan vor.",
+              "verdict": "supported",
+              "reason": "Englische NVIDIA-Veröffentlichung ist vom 9.11.; das Datum wird nicht als Datum einer unabhängigen Prüfung dargestellt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Anbieter beschreibt 100.000 synthetische japanische Geschäftsdokumente aus acht Domänen und 43 Dokumenttypen mit markierten personenbezogenen Angaben.",
+              "verdict": "supported",
+              "reason": "Die Zahlen bezeichnen Dokumente/Domänen/Typen, nicht echte Personen oder bewiesene Erkennungsleistung. Keine F1-Zahl übernommen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Datensatz soll unter anderem Tests für Erkennung und Maskierung solcher Angaben ermöglichen.",
+              "verdict": "supported",
+              "reason": "Originalbeschreibung grenzt die synthetischen Daten von echten Kundendaten ab. Eignung für andere Sprachen wird in der Einordnung ausdrücklich offen gelassen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "NVIDIA · TESTDATEN",
+              "verdict": "supported",
+              "reason": "Die Kategorie benennt den im Original behandelten Anbieter bzw. das Projekt und das technische Thema; keine Freigabe- oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "NVIDIA liefert synthetische Dokumente für Datenschutztests",
+              "verdict": "supported",
+              "reason": "Die Vorschau verdichtet den geprüften Gegenstand: synthetische Dokumente als Testmaterial, nicht als Datenschutzgarantie.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokument zur Meldung: NVIDIA liefert synthetische Dokumente für Datenschutztests",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt die kubistische Grafik und das konfigurierte Symbol dokument; er enthält keine zusätzlichen Zahlen oder Leistungsbehauptungen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.huggingface.co/nvidia/Nemotron-PII-Japan limitations 100000",
+              "finding": "Die direkte Dataset-Karte war im Web-Werkzeug nicht zugänglich und wird nicht als gelesener Beleg verwendet. Der zugängliche NVIDIA-Originalblog enthält Zahlen, Syntheseverfahren und Zweck.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            },
+            {
+              "query": "site.huggingface.co/blog/nvidia/nemotron-pii-japan \"Sumi\" synthetic evaluation",
+              "finding": "Englischer Originalbeitrag beschreibt externe Sumi-Tests, aber die Meldung übernimmt keine Wirksamkeitszahl. Die ebenfalls geöffnete japanische Anbieterfassung ist keine unabhängige Quelle.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+                "https://huggingface.co/blog/nvidia/nemotron-pii-japan-ja"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "9.11.,100.000,acht,43 anhand Originalblog geprüft.",
+            "scopeAndQualifications": "Japanisch/synthetisch; keine Übertragbarkeit oder Datenschutzgarantie.",
+            "sourceIndependence": "Nur NVIDIA-Originalquelle verwendet; Übersetzung nicht unabhängig.",
+            "contradictions": "Nicht zugängliche Dataset-Seite ausgeschlossen; keine Verbesserung aus internen Tests verallgemeinert."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-5",
+      "contentHash": "5d4b60894639e8cf16cee6c45a3b3946dd00e1fb4b39de834b295c3327489977",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-16T07:58:36.529621+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Herstellerbeitrag über Buchvorstellung und Demonstration; keine neue allgemein verfügbare Funktion und kein unabhängiger Erfolgsnachweis."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP beschreibt prozessgestützte KI-Entwicklung mit Architekturbezug",
+              "verdict": "supported",
+              "reason": "SAP berichtet über einen praktischen Ansatz mit Prozess- und Architekturdaten. Die Überschrift sagt beschreibt, nicht liefert neue Funktion.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein SAP-Beitrag vom 13. November 2026 beschreibt eine Buchvorstellung mit einer Demonstration zur KI-gestützten Anwendungsentwicklung.",
+              "verdict": "supported",
+              "reason": "Datierung 13.11.2026 und Einleitung nennen die Buchvorstellung; Abschnitt From process models to AI-generated applications beschreibt die Demonstration.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Dabei wurden ein freigegebenes Signavio-Prozessmodell und Architekturinformationen aus LeanIX als Grundlage verwendet.",
+              "verdict": "supported",
+              "reason": "Der Demonstrationsabschnitt nennt approved process model aus Signavio und architectural information aus LeanIX als kombinierte Eingabe.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Beitrag beschreibt außerdem eine gemeinsame Datenstruktur zur Zuordnung unterschiedlicher Kennungen über Systeme hinweg.",
+              "verdict": "supported",
+              "reason": "Abschnitt Connecting the enterprise erläutert eine common data structure zum Mapping unterschiedlicher Systemkennungen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SAP · PROZESSARCHITEKTUR",
+              "verdict": "supported",
+              "reason": "Die Kategorie benennt den im Original behandelten Anbieter bzw. das Projekt und das technische Thema; keine Freigabe- oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "SAP beschreibt Prozessmodelle als Grundlage für KI-Entwicklung",
+              "verdict": "supported",
+              "reason": "Die Vorschau verdichtet den geprüften Gegenstand: Prozessmodelle als beschriebene Grundlage statt neuer Produktfunktion.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zur Meldung: SAP beschreibt Prozessmodelle als Grundlage für KI-Entwicklung",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt die kubistische Grafik und das konfigurierte Symbol zahnrad; er enthält keine zusätzlichen Zahlen oder Leistungsbehauptungen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-16T07:58:36.529621+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Herstellerbeitrag über Buchvorstellung und Demonstration; keine neue allgemein verfügbare Funktion und kein unabhängiger Erfolgsnachweis."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP beschreibt prozessgestützte KI-Entwicklung mit Architekturbezug",
+              "verdict": "supported",
+              "reason": "Die Recherche zur Buchvorstellung findet ältere Verlagsankündigungen. Die Meldung behauptet deshalb keine neue Studie oder neue Produktfreigabe, sondern datiert den SAP-Beitrag.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein SAP-Beitrag vom 13. November 2026 beschreibt eine Buchvorstellung mit einer Demonstration zur KI-gestützten Anwendungsentwicklung.",
+              "verdict": "supported",
+              "reason": "Der 13.11. ist Veröffentlichungsdatum des Artikels, nicht behauptetes Datum des Webcasts oder Erstveröffentlichung des Buchs.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Dabei wurden ein freigegebenes Signavio-Prozessmodell und Architekturinformationen aus LeanIX als Grundlage verwendet.",
+              "verdict": "supported",
+              "reason": "Beschrieben ist ein Demonstrationsablauf mit vorhandenen Modellen und Architekturinformationen. Kein Nachweis automatischer Ende-zu-Ende-Produktintegration.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Beitrag beschreibt außerdem eine gemeinsame Datenstruktur zur Zuordnung unterschiedlicher Kennungen über Systeme hinweg.",
+              "verdict": "supported",
+              "reason": "Die Zuordnung von Kennungen ist eine im Beitrag beschriebene Architekturstrategie. Die Einordnung lässt ihre konkrete Wirksamkeit im eigenen Projekt prüfen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SAP · PROZESSARCHITEKTUR",
+              "verdict": "supported",
+              "reason": "Die Kategorie benennt den im Original behandelten Anbieter bzw. das Projekt und das technische Thema; keine Freigabe- oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "SAP beschreibt Prozessmodelle als Grundlage für KI-Entwicklung",
+              "verdict": "supported",
+              "reason": "Die Vorschau verdichtet den geprüften Gegenstand: Prozessmodelle als beschriebene Grundlage statt neuer Produktfunktion.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zur Meldung: SAP beschreibt Prozessmodelle als Grundlage für KI-Entwicklung",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt die kubistische Grafik und das konfigurierte Symbol zahnrad; er enthält keine zusätzlichen Zahlen oder Leistungsbehauptungen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.news.sap.com \"successful-sap-transformation-business-processes\" validation book",
+              "finding": "SAP-Original nennt Demonstration und weist selbst darauf hin, dass Entwickler und fachliche Validierung nötig bleiben.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            },
+            {
+              "query": "\"Integrating Architecture, Processes, and AI on SAP BTP\" \"canonical\"",
+              "finding": "Gegenrecherche findet ältere Verlagsankündigungen zum Buch. Dies ist eine neue SAP-Darstellung eines Ansatzes, keine neue Studie oder allgemeine Produktfunktion.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/successful-sap-transformation-business-processes/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "13.11. ist Artikeldatum. Keine Seitenzahl, Buch-Ersterscheinung oder Ergebniszahl übernommen.",
+            "scopeAndQualifications": "Buch-/Demonstrationsbericht statt Neuveröffentlichung einer Softwarefunktion.",
+            "sourceIndependence": "SAP-Plattform und beteiligte Buchinteressen; keine unabhängigen Projektmessungen.",
+            "contradictions": "Ältere Buchankündigungen sind mit dem datierten Artikel vereinbar, solange dessen Thema nicht als neue Produktfunktion ausgegeben wird."
+          }
+        }
+      ]
     }
   ]
 }
