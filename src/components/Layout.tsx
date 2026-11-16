@@ -2,6 +2,7 @@ import { type ReactNode, useState, useEffect } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import './Layout.css'
 import disclosure from '../content/news-disclosure.json'
+import PrivacyNotice from './PrivacyNotice'
 
 interface LayoutProps {
   children: ReactNode
@@ -182,6 +183,8 @@ export default function Layout({ children }: LayoutProps) {
           </p>
         </div>
       </footer>
+
+      <PrivacyNotice />
     </div>
   )
 }

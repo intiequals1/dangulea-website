@@ -2,6 +2,8 @@
 
 Quellcode meiner persönlichen Website: [dangulea.at](https://dangulea.at)
 
+Datenschutz: keine Cookies, kein Tracking, lokale Schriften (`public/fonts/`). Ein Datenschutzhinweis ohne Einwilligungsabfrage merkt sich nur sein Schließen im localStorage (`dangulea.datenschutzhinweis.v1`). Änderungen und Gründe stehen in [CHANGELOG.md](CHANGELOG.md).
+
 News-Einzelartikel, individuelle Social-Bilder und die verpflichtende Build-/Deploy-Prüfung sind in [docs/news-sharing.md](docs/news-sharing.md) beschrieben. Nach einer News-Änderung zuerst `pnpm news:sync` ausführen und die News-Datei gemeinsam mit `data/news-archive.json` committen.
 
 Neue und geänderte News müssen vorher den [zweistufigen Faktencheck](docs/news-fact-checking.md) durchlaufen; das Prüfprotokoll wird mitcommitted. Die Website zeigt dauerhaft ihren Entwicklungsstand und den jeweiligen Prüfstatus der News an.
