@@ -1,5 +1,17 @@
 # Änderungsprotokoll
 
+## 2026-11-16 – Impressum an österreichisches Recht angepasst
+
+### Was geändert wurde
+
+- `src/pages/Impressum.tsx`, „Haftung für Inhalte“: Die Sätze mit „§ 7 Abs. 1 ECG“ und „§§ 8 bis 10 ECG“ sind entfernt. Stehen bleibt: Inhalte sorgfältig erstellt, keine Gewähr, Verantwortung für eigene Inhalte nach den allgemeinen Gesetzen.
+- „Angaben gemäß § 5 ECG, § 25 MedienG“ ergänzt um Unternehmensgegenstand und Gewerbeberechtigungen (GISA-Zahlen), „nicht im Firmenbuch eingetragen“, Gewerbebehörde, Kammerzugehörigkeit und anwendbare Rechtsvorschriften mit Link zum RIS. Die Angaben entsprechen denen auf erp.contact, ethics.at, coolwebtoday.org, digitalpath.at und pertion.io.
+
+### Warum
+
+- Der Betreiber sitzt in Österreich; maßgeblich sind österreichische Vorschriften. Der Haftungstext war eine deutsche Vorlage (§ 7 Abs. 1 und §§ 8 bis 10 Telemediengesetz), in der nur das Gesetzeskürzel durch „ECG“ ersetzt worden war. Im österreichischen E-Commerce-Gesetz regelt § 7 aber unerwünschte Werbe-E-Mails, und die Haftungsbestimmungen §§ 13 bis 18 ECG sind seit 16.02.2024 weggefallen (seither Digital Services Act). Die Zitate waren damit falsch und irreführend.
+- § 5 Abs. 1 ECG verlangt von gewerberechtlich tätigen Diensteanbietern Angaben zu Aufsichtsbehörde, Kammer und anwendbaren gewerberechtlichen Vorschriften; § 25 MedienG verlangt den Unternehmensgegenstand. Auf dangulea.at fehlten diese Angaben, auf den anderen Seiten standen sie bereits.
+
 ## 2026-11-16 – Satz zur Verbraucherschlichtung entfernt
 
 ### Was geändert wurde
