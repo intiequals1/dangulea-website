@@ -29,12 +29,11 @@ const TOKEN_LIFETIME_MS = 55 * 60 * 1000
 type FirebaseAuth = { auth: Auth; m: typeof import('firebase/auth') }
 let firebasePromise: Promise<FirebaseAuth> | null = null
 
-// Firebase wird erst auf dieser Seite geladen, damit die übrigen Seiten schlank bleiben.
+// Erst nach dem Klick auf Anmelden initialisieren; kein Google-Iframe beim Seitenaufruf.
 function firebase(): Promise<FirebaseAuth> {
   firebasePromise ??= Promise.all([import('firebase/app'), import('firebase/auth')]).then(async ([app, m]) => {
     const instance = app.getApps()[0] ?? app.initializeApp(FIREBASE_CONFIG)
-    const auth = m.getAuth(instance)
-    await m.setPersistence(auth, m.browserSessionPersistence)
+    const auth = m.initializeAuth(instance, { persistence: m.browserSessionPersistence })
     return { auth, m }
   })
   return firebasePromise
@@ -64,7 +63,9 @@ function readToken(): string | null {
   const s = store()
   const token = s?.getItem(KEY_TOKEN)
   const expires = Number(s?.getItem(KEY_EXPIRES) ?? 0)
-  return token && expires > Date.now() + 30_000 ? token : null
+  if (token && expires > Date.now() + 30_000) return token
+  clearToken()
+  return null
 }
 
 function clearToken() {
@@ -128,7 +129,6 @@ export default function Intern() {
         setPhase('framed')
         return
       }
-      void firebase().catch(() => undefined) // vorab laden, damit das Anmeldefenster nicht blockiert wird
       const token = readToken()
       setAccount(store()?.getItem(KEY_ACCOUNT) ?? '')
       if (token) void load(token)
@@ -144,7 +144,7 @@ export default function Intern() {
       const provider = new m.GoogleAuthProvider()
       provider.addScope(OAUTH_SCOPE)
       provider.setCustomParameters({ prompt: 'select_account' })
-      const result = await m.signInWithPopup(auth, provider)
+      const result = await m.signInWithPopup(auth, provider, m.browserPopupRedirectResolver)
       const token = m.GoogleAuthProvider.credentialFromResult(result)?.accessToken
       if (!token) throw new Error('Der Lesezugriff wurde nicht erteilt.')
       const s = store()
@@ -194,6 +194,14 @@ export default function Intern() {
             Skills, ihre Abhängigkeiten und die wöchentlichen Meldungen dazu. Die Daten werden erst nach der Anmeldung
             geladen. Ohne Berechtigung bleibt die Seite leer.
           </p>
+          {phase === 'signedOut' && (
+            <p className="intern-note">
+              Erst mit „Mit Google anmelden“ wird eine Verbindung zu Google/Firebase für die Anmeldung hergestellt.
+              Dabei gelten auch Googles Datenschutz- und Cookie-Einstellungen. Der Zugriff auf das private Google Sheet
+              erfordert deine Freigabe. Die Anmeldung wird nur für diese Browsersitzung gespeichert.{' '}
+              <a href="/impressum#interner-login">Datenschutz zum internen Login</a>
+            </p>
+          )}
           <div className="intern-actions">
             {phase === 'ready' || phase === 'loading' ? (
               <>
@@ -203,7 +211,7 @@ export default function Intern() {
                 {account && <span className="intern-account">Angemeldet als {account}</span>}
               </>
             ) : configured && phase !== 'init' && phase !== 'framed' ? (
-              <button type="button" className="intern-btn intern-btn--primary" onClick={() => void signIn()}>Anmelden</button>
+              <button type="button" className="intern-btn intern-btn--primary" onClick={() => void signIn()}>Mit Google anmelden</button>
             ) : null}
           </div>
         </div>
