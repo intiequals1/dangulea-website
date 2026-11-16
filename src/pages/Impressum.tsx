@@ -62,19 +62,7 @@ export default function Impressum() {
         <div className="divider" />
 
         <section className="legal-section">
-          <h2>EU-Streitschlichtung</h2>
-          <p>
-            Gemäß Verordnung über Online-Streitbeilegung in Verbraucherangelegenheiten
-            (ODR-Verordnung) stellt die Europäische Kommission eine Plattform zur
-            Online-Streitbeilegung (OS) bereit:{' '}
-            <a
-              href="https://ec.europa.eu/consumers/odr/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              https://ec.europa.eu/consumers/odr/
-            </a>
-          </p>
+          <h2>Verbraucherstreitbeilegung</h2>
           <p>
             Ich bin weder bereit noch verpflichtet, an Streitbeilegungsverfahren
             vor einer Verbraucherschlichtungsstelle teilzunehmen.
@@ -142,6 +130,61 @@ export default function Impressum() {
             Uhrzeit der Serveranfrage.
           </p>
 
+          <h3>Cookies, Browser-Speicher und Schriftarten</h3>
+          <p>
+            Die öffentlichen Seiten verwenden keine Analyse- oder Werbetracker und setzen keine eigenen
+            Cookies. Die Schriftarten Inter und Playfair Display werden zusammen mit den Seiten von
+            dangulea.at ausgeliefert; dafür werden keine Google-Fonts-Server kontaktiert.
+            Externe Quellen und Social-Media-Teilenfunktionen sind Links. Erst beim Öffnen eines solchen
+            Links gelten zusätzlich die Datenschutzbestimmungen der jeweiligen Zielseite.
+          </p>
+          <p>
+            Im internen Bereich wird nach der ausdrücklich gestarteten Anmeldung technisch erforderlicher
+            Browser-Sitzungsspeicher verwendet. Es wird kein dauerhaftes Tracking-Profil auf dieser Website angelegt.
+          </p>
+
+          <h3 id="interner-login">Interner Bereich: Google-Anmeldung und Google Sheets</h3>
+          <p>
+            Der interne Skill-Radar ist zugangsbeschränkt. Die Anmeldung über Google/Firebase Authentication
+            wird erst durch den Klick auf „Mit Google anmelden“ gestartet. Ein bloßer Besuch der abgemeldeten
+            Seite startet diesen Dienst nicht. Nach erteilter Zugriffsfreigabe werden die berechtigten Inhalte
+            eines privaten Google Sheets direkt über die Google-Sheets-API geladen.
+          </p>
+          <p>
+            Für Anmeldung, Zugriffskontrolle und Anzeige des Kontos werden insbesondere Google-Kontokennung,
+            E-Mail-Adresse, gegebenenfalls Name und Profilbild sowie Anmelde- und Zugriffstokens verarbeitet.
+            Bei den Dienstaufrufen erhält Google außerdem technische Verbindungsdaten, insbesondere die
+            IP-Adresse und Browserinformationen. Anbieter sind Google und die für diese Dienste zuständigen
+            verbundenen Unternehmen; Informationen stehen in den{' '}
+            <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase-Datenschutzhinweisen</a>{' '}
+            und der{' '}
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google-Datenschutzerklärung</a>.
+            Eine Verarbeitung außerhalb der EU bzw. des EWR kann dabei nicht ausgeschlossen werden.
+          </p>
+          <p>
+            Zweck ist die sichere Bereitstellung des ausdrücklich angeforderten privaten Arbeitsbereichs.
+            Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an Zugangskontrolle und
+            sicherem Betrieb). Die dafür unbedingt erforderliche Sitzungsspeicherung erfolgt nach der
+            Ausnahme in § 165 Abs. 3 TKG 2021. Die Freigabe im Google-Anmeldefenster bestimmt den erlaubten
+            Zugriff auf das Sheet; sie dient nicht als pauschale Einwilligung in andere Google-Dienste.
+          </p>
+          <p>
+            In sessionStorage werden die Konto-E-Mail, ein Zugriffstoken und dessen Ablaufzeit gespeichert.
+            Die Website nutzt dieses Token höchstens 55 Minuten; abgelaufene Einträge werden beim nächsten
+            Zugriff entfernt. Auch Firebase ist auf Sitzungspersistenz eingestellt. Beim Abmelden werden die
+            lokalen Anmeldedaten entfernt und der Widerruf des Google-Zugriffstokens angefordert.
+            Beim Schließen des Tabs oder Fensters endet der Sitzungsspeicher üblicherweise; die Wiederherstellung
+            einer Browsersitzung kann ihn erhalten. Bei Google kann eine vorhandene Kontoanmeldung unabhängig
+            davon bestehen bleiben. Google kann im Anmeldefenster und auf seinen eigenen Domains Cookies und
+            weitere Speichertechniken einsetzen.
+          </p>
+          <p>
+            Ein bei Firebase angelegter Kontodatensatz wird durch das Abmelden nicht automatisch gelöscht.
+            Eine Löschung kann über die oben genannte Kontaktadresse angefordert werden. Für eigene technische
+            Protokolle nennt Firebase Authentication eine Aufbewahrung von IP-Adressen für einige Wochen;
+            Einzelheiten und weitere Speicherfristen beschreibt Google in den verlinkten Datenschutzhinweisen.
+          </p>
+
           <h3>KI- und Automatisierungsdienste</h3>
           <p>
             Für die Recherche, Zusammenfassung, Strukturierung oder sprachliche
@@ -204,7 +247,7 @@ export default function Impressum() {
               www.ethics.at
             </a>
           </p>
-          <p className="legal-date">Stand: Oktober 2026</p>
+          <p className="legal-date">Stand: 16. November 2026</p>
         </section>
 
       </div>
