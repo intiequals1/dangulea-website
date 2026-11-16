@@ -1,5 +1,17 @@
 # Änderungsprotokoll
 
+## 2026-11-16 – Satz zur Verbraucherschlichtung entfernt
+
+### Was geändert wurde
+
+- `src/pages/Impressum.tsx`: Der Abschnitt „Verbraucherstreitbeilegung“ mit dem Satz „Ich bin weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.“ ist entfernt.
+
+### Warum
+
+- Die Formulierung stammt aus dem deutschen Verbraucherstreitbeilegungsgesetz (§ 36 VSBG). Für ein österreichisches Einzelunternehmen gilt das Alternative-Streitbeilegung-Gesetz (AStG). Nach § 19 AStG muss nur informieren, wer sich zur Teilnahme an Schlichtungsverfahren verpflichtet hat oder gesetzlich dazu verpflichtet ist. Wer das nicht ist, braucht vorab keinen Hinweis auf der Website (WKO, „Alternative Streitbeilegung in Verbraucherangelegenheiten“).
+- Ob im Einzelfall eine Schlichtung in Frage kommt, bleibt damit offen. Der Satz legte das vorab unnötig und schroff ablehnend fest. Kommt es zu einem konkreten Streitfall, der sich nicht direkt lösen lässt, ist dann zu sagen, ob man an einem Verfahren teilnimmt (§ 19 Abs. 3 AStG).
+- Auf Rückfrage des Betreibers, der den Satz für unsicher und unpassend formuliert hielt.
+
 ## 2026-11-16 – Datenschutzhinweis
 
 ### Was geändert wurde

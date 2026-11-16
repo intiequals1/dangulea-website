@@ -62,16 +62,6 @@ export default function Impressum() {
         <div className="divider" />
 
         <section className="legal-section">
-          <h2>Verbraucherstreitbeilegung</h2>
-          <p>
-            Ich bin weder bereit noch verpflichtet, an Streitbeilegungsverfahren
-            vor einer Verbraucherschlichtungsstelle teilzunehmen.
-          </p>
-        </section>
-
-        <div className="divider" />
-
-        <section className="legal-section">
           <h2>Haftungsausschluss</h2>
           <h3>Haftung für Inhalte</h3>
           <p>
