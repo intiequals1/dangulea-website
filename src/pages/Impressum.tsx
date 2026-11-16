@@ -111,7 +111,7 @@ export default function Impressum() {
         <div className="divider" />
 
         <section className="legal-section">
-          <h2>Datenschutzerklärung</h2>
+          <h2 id="datenschutz">Datenschutzerklärung</h2>
 
           <h3>Verantwortlicher</h3>
           <p>
@@ -141,6 +141,18 @@ export default function Impressum() {
           <p>
             Im internen Bereich wird nach der ausdrücklich gestarteten Anmeldung technisch erforderlicher
             Browser-Sitzungsspeicher verwendet. Es wird kein dauerhaftes Tracking-Profil auf dieser Website angelegt.
+          </p>
+
+          <h3 id="datenschutzhinweis">Datenschutzhinweis</h3>
+          <p>
+            Beim ersten Besuch erscheint am unteren Rand ein kurzer Hinweis. Er informiert nur und fragt keine
+            Einwilligung ab, weil die öffentlichen Seiten nichts einsetzen, das eine Einwilligung erfordert.
+            Wenn Sie „Verstanden“ wählen, speichert Ihr Browser im lokalen Speicher (localStorage) unter dem
+            Schlüssel <code>dangulea.datenschutzhinweis.v1</code> den Wert „geschlossen“, damit der Hinweis nicht
+            bei jedem Seitenaufruf wiederkommt. Der Eintrag enthält keine Kennung, wird nicht übertragen und bleibt,
+            bis Sie die Websitedaten in Ihrem Browser löschen. Diese Speicherung ist für die von Ihnen ausgelöste
+            Funktion unbedingt erforderlich (§ 165 Abs. 3 TKG 2021, Umsetzung von Art. 5 Abs. 3 der
+            ePrivacy-Richtlinie 2002/58/EG).
           </p>
 
           <h3 id="interner-login">Interner Bereich: Google-Anmeldung und Google Sheets</h3>
