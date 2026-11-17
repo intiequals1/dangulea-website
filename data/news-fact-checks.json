@@ -8614,6 +8614,966 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-17-1",
+      "contentHash": "ec7189553d9824a34eab57ee3c9f33da4bee5e9b24957ac24e7670847e3dec83",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-17T08:32:54.815082+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Integration, geringere Tokenkosten und zusätzlicher Joule-Nutzen bleiben jedoch Herstellerziele; die Mitteilung belegt weder deren allgemeine Verfügbarkeit noch unabhängig gemessene Ergebnisse."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP meldet den Abschluss der TechWolf-Übernahme",
+              "verdict": "supported",
+              "reason": "SAP-Titel und erster Absatz melden den vollzogenen Erwerb, nicht nur die Absicht. Der Titel schreibt die Meldung SAP zu.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP meldete am 16. November 2026 die abgeschlossene Übernahme der KI-Plattform TechWolf.",
+              "verdict": "supported",
+              "reason": "Die datierte Mitteilung vom 16.11.2026 nennt completed acquisition; die TechWolf-Seite bestätigt den Abschluss als beteiligtes Unternehmen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Konzern plant, TechWolf im SuccessFactors-Portfolio zu verankern.",
+              "verdict": "qualified",
+              "reason": "Der zweite Absatz formuliert expected to become im SuccessFactors-Portfolio. Die Meldung sagt entsprechend plant und behauptet keine vollzogene Integration.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Dessen Kontextgraph soll Agentenanfragen zur Arbeits- und Kompetenzplanung sowie zum Talentmanagement unterstützen.",
+              "verdict": "qualified",
+              "reason": "Der zweite Absatz nennt den proprietären Kontextgraphen als künftige Grounding-Schicht für Arbeits-, Skills- und Talentanfragen. Soll erhält den Zukunftscharakter.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SAP · SUCCESSFACTORS",
+              "verdict": "supported",
+              "reason": "Kategorie nennt SAP und SuccessFactors entsprechend der geplanten Einordnung im Original.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "SAP schließt die TechWolf-Übernahme ab",
+              "verdict": "supported",
+              "reason": "Die Vorschau bleibt beim gemeldeten Transaktionsabschluss und nennt keinen bereits verfügbaren Integrationsnutzen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad: SAP schließt die TechWolf-Übernahme ab",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische zahnrad-Motiv und den geprüften Meldungsgegenstand; ohne zusätzliche Daten- oder Leistungsbehauptung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-17T08:32:54.815082+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Integration, geringere Tokenkosten und zusätzlicher Joule-Nutzen bleiben jedoch Herstellerziele; die Mitteilung belegt weder deren allgemeine Verfügbarkeit noch unabhängig gemessene Ergebnisse."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP meldet den Abschluss der TechWolf-Übernahme",
+              "verdict": "supported",
+              "reason": "Die ältere Meldung vom Oktober betraf eine Vereinbarung. Die erneut gelesene aktuelle Mitteilung und TechWolf-Seite sagen Abschluss, sodass keine unveränderte Übernahmeabsicht wiederholt wird.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP meldete am 16. November 2026 die abgeschlossene Übernahme der KI-Plattform TechWolf.",
+              "verdict": "supported",
+              "reason": "16.11. ist Datum der Abschlussmitteilung. Keine Abweichung zwischen Käufer- und Zielunternehmensdarstellung gefunden; keine unabhängige Prüfung des Vollzugs behauptet.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Konzern plant, TechWolf im SuccessFactors-Portfolio zu verankern.",
+              "verdict": "qualified",
+              "reason": "Expected ist Zukunftssprache. Der endgültige Text enthält plant und sichtbare Herstellergrenzen; kein bestehender allgemeiner Funktionsumfang.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Dessen Kontextgraph soll Agentenanfragen zur Arbeits- und Kompetenzplanung sowie zum Talentmanagement unterstützen.",
+              "verdict": "qualified",
+              "reason": "Der Graph-Einsatz wird im Original zukunftsgerichtet beschrieben. Die Meldung bleibt bei soll und macht keinen gemessenen Kosten- oder Produktivitätsgewinn daraus.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SAP · SUCCESSFACTORS",
+              "verdict": "supported",
+              "reason": "Kategorie nennt SAP und SuccessFactors entsprechend der geplanten Einordnung im Original.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "SAP schließt die TechWolf-Übernahme ab",
+              "verdict": "supported",
+              "reason": "Die Vorschau bleibt beim gemeldeten Transaktionsabschluss und nennt keinen bereits verfügbaren Integrationsnutzen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad: SAP schließt die TechWolf-Übernahme ab",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische zahnrad-Motiv und den geprüften Meldungsgegenstand; ohne zusätzliche Daten- oder Leistungsbehauptung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.news.sap.com TechWolf November 16 2026 completed acquisition integration expected",
+              "finding": "Die aktuelle SAP-Mitteilung meldet Abschluss; frühere Oktobertexte nennen nur die geplante Transaktion. Zukunftsaussagen zur Integration werden beibehalten.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            },
+            {
+              "query": "site.techwolf.ai SAP acquisition completion November 2026",
+              "finding": "Die geöffnete TechWolf-Seite bestätigt done und now part of SAP. Als Transaktionspartei liefert sie keine unabhängige Bestätigung von Nutzenversprechen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+                "https://www.techwolf.ai/techwolf-x-sap"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "16.11. als Meldungsdatum geprüft; keine Übernahmesumme oder Leistungszahl.",
+            "scopeAndQualifications": "Abschluss der Transaktion von geplanter Integration und Kostenwirkung getrennt.",
+            "sourceIndependence": "SAP und TechWolf sind beteiligte Unternehmen; keine unabhängige Nutzenmessung.",
+            "contradictions": "Ältere Vereinbarung und neue Abschlussmeldung sind unterschiedliche Stadien; kein offener Widerspruch im endgültigen Text."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-2",
+      "contentHash": "ade2163c7a5b86921ab52e1db4281169980157c5c232439c39c4f8b19b9a4437",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-17T08:32:54.815082+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Die Anbieterbeschreibung gilt nicht pauschal für alle KI-Aufrufe: Bild-, Video- und Audioerzeugung werden laut Hugging Face weiterhin direkt vermittelt. Ein unabhängig belegter Leistungsgewinn wird hier nicht behauptet."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Hugging Face stellt das Sprachmodell-Routing auf OpenRouter um",
+              "verdict": "supported",
+              "reason": "Der Originalblog kündigt die Umstellung des eigenen Routers auf OpenRouter für Sprachmodelle an. Titel und Text begrenzen den Gegenstand.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Hugging Face kündigte am 16. November 2026 an, Sprachmodellanfragen seiner Inference Providers über OpenRouter zu leiten.",
+              "verdict": "supported",
+              "reason": "Kopfdatum 16.11.2026; Einleitung sagt, dass Sprachmodellanfragen nun über OpenRouter laufen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Router wählt laut Anbieter anhand von Preis, Geschwindigkeit und Zuverlässigkeit einen Provider und versucht bei einem Fehler einen anderen.",
+              "verdict": "supported",
+              "reason": "Abschnitt Routing powered by OpenRouter nennt Preis, Geschwindigkeit, Zuverlässigkeit und erneuten Versuch bei einem anderen Provider im Fehlerfall.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Eigene API-Schlüssel einzelner Provider lassen sich für diese Sprachmodellanfragen nicht mehr verwenden.",
+              "verdict": "supported",
+              "reason": "Abschnitt Breaking change: custom provider keys erklärt, dass eigene Provider-API-Schlüssel für diese Sprachmodellanfragen nicht mehr nutzbar sind.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "HUGGING FACE · INFERENZ",
+              "verdict": "supported",
+              "reason": "Kategorie nennt Hugging Face und Inferenz, den betroffenen Dienstbereich.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Hugging Face routet Sprachmodelle über OpenRouter",
+              "verdict": "supported",
+              "reason": "Die Vorschau benennt den veränderten Sprachmodellpfad; keine Leistungszahl oder Aussage über alle Modalitäten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Cloud: Hugging Face routet Sprachmodelle über OpenRouter",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische cloud-Motiv und den geprüften Meldungsgegenstand; ohne zusätzliche Daten- oder Leistungsbehauptung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-17T08:32:54.815082+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Die Anbieterbeschreibung gilt nicht pauschal für alle KI-Aufrufe: Bild-, Video- und Audioerzeugung werden laut Hugging Face weiterhin direkt vermittelt. Ein unabhängig belegter Leistungsgewinn wird hier nicht behauptet."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Hugging Face stellt das Sprachmodell-Routing auf OpenRouter um",
+              "verdict": "supported",
+              "reason": "Vergleich mit der Provider-Dokumentation bestätigt den veränderten Sprachmodellpfad; Bild/Video/Audio sind im Blog ausgenommen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Hugging Face kündigte am 16. November 2026 an, Sprachmodellanfragen seiner Inference Providers über OpenRouter zu leiten.",
+              "verdict": "supported",
+              "reason": "Der datierte Blog und die aktuelle Dokumentation stimmen zur OpenRouter-Vermittlung überein. Die Meldung betrifft Inference Providers, nicht dedizierte Inference Endpoints.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Router wählt laut Anbieter anhand von Preis, Geschwindigkeit und Zuverlässigkeit einen Provider und versucht bei einem Fehler einen anderen.",
+              "verdict": "supported",
+              "reason": "Die Meldung ordnet die Routingbehauptung dem Anbieter zu und übernimmt keine Prozentwerte für Beschleunigung oder Fehlerraten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Eigene API-Schlüssel einzelner Provider lassen sich für diese Sprachmodellanfragen nicht mehr verwenden.",
+              "verdict": "supported",
+              "reason": "Der als Breaking change markierte Abschnitt ist ausdrücklich auf language models begrenzt. Eigene Schlüssel für Bild/Video werden nicht pauschal ausgeschlossen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "HUGGING FACE · INFERENZ",
+              "verdict": "supported",
+              "reason": "Kategorie nennt Hugging Face und Inferenz, den betroffenen Dienstbereich.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Hugging Face routet Sprachmodelle über OpenRouter",
+              "verdict": "supported",
+              "reason": "Die Vorschau benennt den veränderten Sprachmodellpfad; keine Leistungszahl oder Aussage über alle Modalitäten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Cloud: Hugging Face routet Sprachmodelle über OpenRouter",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische cloud-Motiv und den geprüften Meldungsgegenstand; ohne zusätzliche Daten- oder Leistungsbehauptung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.huggingface.co/docs/inference-providers OpenRouter custom provider keys language models",
+              "finding": "Gelesene Provider-Dokumentation bestätigt Chat-/Sprachmodellrouting über OpenRouter. Der Blog nennt die Einschränkung eigener Schlüssel ausdrücklich.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            },
+            {
+              "query": "site.openrouter.ai Hugging Face November 16 2026 routing integration",
+              "finding": "Suche findet Darstellungen der neuen Partnerschaft. Für die Freigabe wurden der zugängliche HF-Originalblog und die Provider-Dokumentation genutzt; keine unabhängigen Leistungswerte daraus abgeleitet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/openrouter",
+                "https://huggingface.co/docs/inference-providers/providers"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "16.11. als Blogdatum; keine Preis- oder Leistungszahl übernommen.",
+            "scopeAndQualifications": "Sprachmodellanfragen über Inference Providers; andere Modalitäten ausgenommen.",
+            "sourceIndependence": "HF-Blog und HF-Dokumentation sind Anbieterquellen, keine externe Evaluation.",
+            "contradictions": "Kein unverändertes Custom-Key-Verhalten behauptet. Nicht zugängliche zusätzliche Routing-Unterseite wurde nicht als Beleg verwendet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-3",
+      "contentHash": "8f8b0c199dad20cae1069b72c08942d7022ba4b8ed971577a20928b4fa56f866",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-17T08:32:54.815082+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Es handelt sich um fachliche Empfehlungen der Beratungsgremien und keine neu beschlossenen gesetzlichen Pflichten."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Beratungsgremien fordern eigene Kapazitäten zur KI-Evaluation",
+              "verdict": "supported",
+              "reason": "Die Kommissionsmeldung benennt eigenständige europäische Modellevaluation als Empfehlung beider Beratungsgremien; der Titel sagt fordern, nicht beschließen.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EU-Kommission berichtete am 16. November 2026 über eine gemeinsame KI-Stellungnahme ihrer wissenschaftlichen Chefberater und der Europäischen Gruppe für Ethik.",
+              "verdict": "supported",
+              "reason": "Die Seite trägt 16.11.2026 und nennt GCSA und EGE als Urheber der gemeinsamen Stellungnahme.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Gremien empfehlen eine eigenständige europäische Kapazität zur Modellevaluation, statt diese kommerziellen Entwicklern zu überlassen.",
+              "verdict": "supported",
+              "reason": "Die dritte Empfehlung verlangt unabhängige Evaluationskapazität und lehnt Delegation an kommerzielle Entwickler ab.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Außerdem sollen Entwicklung und Einführung am Gefahrenpotenzial ausgerichtet sowie menschliche Handlungsfähigkeit und wirksame Aufsicht geschützt werden.",
+              "verdict": "supported",
+              "reason": "Erste und zweite Empfehlung nennen human agency, safety/security und die am Gefahrenpotenzial kalibrierte Entwicklung/Einführung; die Einleitung betont meaningful human oversight.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "EU · KI-GOVERNANCE",
+              "verdict": "supported",
+              "reason": "Kategorie ordnet die Gremienempfehlung der europäischen KI-Governance zu, ohne Rechtswirkung zu behaupten.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "EU-Berater fordern eigene Kapazitäten für KI-Evaluation",
+              "verdict": "supported",
+              "reason": "Fordern kennzeichnet die Empfehlung zu Evaluationskapazitäten statt eines verbindlichen EU-Beschlusses.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Schild: EU-Berater fordern eigene Kapazitäten für KI-Evaluation",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische schild-Motiv und den geprüften Meldungsgegenstand; ohne zusätzliche Daten- oder Leistungsbehauptung.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-17T08:32:54.815082+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Es handelt sich um fachliche Empfehlungen der Beratungsgremien und keine neu beschlossenen gesetzlichen Pflichten."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU-Beratungsgremien fordern eigene Kapazitäten zur KI-Evaluation",
+              "verdict": "supported",
+              "reason": "Die gesamte Seite spricht von advisors und recommendations. Der Titel begründet keine neue Behörde oder schon vorhandene EU-Testinfrastruktur.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EU-Kommission berichtete am 16. November 2026 über eine gemeinsame KI-Stellungnahme ihrer wissenschaftlichen Chefberater und der Europäischen Gruppe für Ethik.",
+              "verdict": "supported",
+              "reason": "16.11. und beide Gremien im zugänglichen Kommissionsoriginal erneut geprüft. Die Publikationsmetadaten allein wurden nicht als Inhaltsbeleg verwendet.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Gremien empfehlen eine eigenständige europäische Kapazität zur Modellevaluation, statt diese kommerziellen Entwicklern zu überlassen.",
+              "verdict": "supported",
+              "reason": "Independent evaluation capacity ist eine Forderung. Sie ist weder eine bereits umgesetzte Infrastruktur noch eine neue bindende Rechtspflicht.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Außerdem sollen Entwicklung und Einführung am Gefahrenpotenzial ausgerichtet sowie menschliche Handlungsfähigkeit und wirksame Aufsicht geschützt werden.",
+              "verdict": "supported",
+              "reason": "Danger bezieht sich auf Kalibrierung von Entwicklung und Einsatz. Der Text erfindet keine konkreten gesetzlichen Fristen oder Risikoschwellen.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "EU · KI-GOVERNANCE",
+              "verdict": "supported",
+              "reason": "Kategorie ordnet die Gremienempfehlung der europäischen KI-Governance zu, ohne Rechtswirkung zu behaupten.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "EU-Berater fordern eigene Kapazitäten für KI-Evaluation",
+              "verdict": "supported",
+              "reason": "Fordern kennzeichnet die Empfehlung zu Evaluationskapazitäten statt eines verbindlichen EU-Beschlusses.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Schild: EU-Berater fordern eigene Kapazitäten für KI-Evaluation",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische schild-Motiv und den geprüften Meldungsgegenstand; ohne zusätzliche Daten- oder Leistungsbehauptung.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"next phase of artificial intelligence\" \"2026\" \"joint\" recommendations evaluation",
+              "finding": "Die Suche findet die gemeinsame Stellungnahme und ein Scientific-Advice-Ergebnis. Letzteres war beim Öffnen nicht zugänglich und wird nicht als gelesener Inhaltsbeleg verwendet; der zugängliche Kommissionsbericht enthält die Empfehlungen vollständig.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            },
+            {
+              "query": "site.research-and-innovation.ec.europa.eu \"16 November 2026\" \"independent evaluation\" legislation",
+              "finding": "Die nochmals gelesene Kommissionsseite formuliert Empfehlungen und bestehende Regeln. Keine neue Gesetzgebung, Infrastruktur oder Frist aus dem Text abgeleitet.",
+              "sourceUrls": [
+                "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "16.11. als Datum der Kommissionsmeldung; keine Rechtsfrist übernommen.",
+            "scopeAndQualifications": "Beratungsempfehlungen statt Gesetz oder schon aufgebauter Infrastruktur.",
+            "sourceIndependence": "Urheberschaft von GCSA/EGE wird anhand ihrer offiziellen Kommissionsdarstellung berichtet.",
+            "contradictions": "Kein Widerspruch bei den eng berichteten Empfehlungen. Unzugängliche zusätzliche Scientific-Advice-Seite nicht als gelesener Beleg ausgewiesen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-4",
+      "contentHash": "a87169dc380ba84b1f73377e3294e2afc43447fbd169730aebdb1100b5612ab3",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-17T08:32:54.815082+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Es ist ein Betriebs- und Evaluationsleitfaden, keine neue unabhängige Vergleichsstudie."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks erläutert den Betrieb vortrainierter Tabellenmodelle",
+              "verdict": "supported",
+              "reason": "Der am 16.11. veröffentlichte Engineering-Beitrag erklärt Betrieb und Evaluation von Tabellenmodellen auf AI Runtime. Erläutert kennzeichnet den Leitfadencharakter.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks veröffentlichte am 16. November 2026 einen technischen Leitfaden zu tabellarischen Foundation-Modellen auf AI Runtime.",
+              "verdict": "supported",
+              "reason": "Datierung und Titel des Originals bestätigen technischen Leitfaden zu TFMs auf AI Runtime; keine neue Modellfreigabe behauptet.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Er beschreibt Vorhersagen, bei denen beschriftete Tabellenzeilen als Kontext für neue Zeilen dienen, ohne dafür zunächst ein aufgabenspezifisches Modell zu trainieren.",
+              "verdict": "supported",
+              "reason": "Abschnitt How tabular foundation models work beschreibt beschriftete Zeilen als Kontext mit neuen Zeilen und In-Context-Vorhersage ohne aufgabenspezifisches Training.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Für Auswahl und Betrieb empfiehlt der Anbieter Vergleiche von Genauigkeit, Inferenzlatenz, GPU-Speicherbedarf und Kosten mit bestehenden Verfahren.",
+              "verdict": "supported",
+              "reason": "Summary und Modellvergleich empfehlen direkte Vergleiche mit Baselines zu accuracy, inference latency, GPU memory und cost.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DATABRICKS · TABELLENMODELLE",
+              "verdict": "supported",
+              "reason": "Kategorie nennt Databricks und die im Leitfaden behandelten Tabellenmodelle.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Databricks erklärt den Betrieb von Tabellenmodellen",
+              "verdict": "supported",
+              "reason": "Erklärt kennzeichnet den technischen Leitfaden, ohne eine neue Modellfreigabe oder generelle Überlegenheit zu behaupten.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokument: Databricks erklärt den Betrieb von Tabellenmodellen",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische dokument-Motiv und den geprüften Meldungsgegenstand; ohne zusätzliche Daten- oder Leistungsbehauptung.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-17T08:32:54.815082+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Es ist ein Betriebs- und Evaluationsleitfaden, keine neue unabhängige Vergleichsstudie."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks erläutert den Betrieb vortrainierter Tabellenmodelle",
+              "verdict": "supported",
+              "reason": "Gegenrecherche ergibt einen Leitfaden und bestehende Runtime-Dokumentation, keinen neuen unabhängigen Leistungsvergleich. Der Titel sagt erläutert.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks veröffentlichte am 16. November 2026 einen technischen Leitfaden zu tabellarischen Foundation-Modellen auf AI Runtime.",
+              "verdict": "supported",
+              "reason": "16.11. ist das Artikeldatum, nicht Erfindungsdatum der TFMs oder Freigabetermin aller Runtime-Funktionen.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Er beschreibt Vorhersagen, bei denen beschriftete Tabellenzeilen als Kontext für neue Zeilen dienen, ohne dafür zunächst ein aufgabenspezifisches Modell zu trainieren.",
+              "verdict": "supported",
+              "reason": "Der Originaltext erlaubt auch Fine-Tuning. Die Aussage ohne zunächst ein aufgabenspezifisches Modell zu trainieren verbietet späteres Fine-Tuning nicht und garantiert keine Datenqualität.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Für Auswahl und Betrieb empfiehlt der Anbieter Vergleiche von Genauigkeit, Inferenzlatenz, GPU-Speicherbedarf und Kosten mit bestehenden Verfahren.",
+              "verdict": "supported",
+              "reason": "Der Beitrag warnt selbst vor laufenden GPU-Kosten und Speicherwachstum. Deshalb keine allgemeine Überlegenheit oder billigere Inferenz übernommen.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DATABRICKS · TABELLENMODELLE",
+              "verdict": "supported",
+              "reason": "Kategorie nennt Databricks und die im Leitfaden behandelten Tabellenmodelle.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Databricks erklärt den Betrieb von Tabellenmodellen",
+              "verdict": "supported",
+              "reason": "Erklärt kennzeichnet den technischen Leitfaden, ohne eine neue Modellfreigabe oder generelle Überlegenheit zu behaupten.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokument: Databricks erklärt den Betrieb von Tabellenmodellen",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische dokument-Motiv und den geprüften Meldungsgegenstand; ohne zusätzliche Daten- oder Leistungsbehauptung.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"tabular foundation models on Databricks AI Runtime\" limitations cost fine-tuning",
+              "finding": "Der gelesene Databricks-Originalleitfaden nennt Benchmark- und Unternehmensdatenunterschiede, Fine-Tuning als Option und GPU-Kosten. Keine Überlegenheit für alle Aufgaben.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            },
+            {
+              "query": "site.docs.databricks.com \"AI Runtime\" GPU serverless regions",
+              "finding": "Die geöffnete Runtime-Dokumentation beschreibt verwaltete GPUs für ML-Workloads. Der Artikel ist keine neue allgemeine Verfügbarkeitsmeldung; regionale Leistungszusagen werden nicht veröffentlicht.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+                "https://docs.databricks.com/aws/en/machine-learning/ai-runtime/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "16.11. als Leitfadendatum. Keine GPU-Grenzwerte, Parameterzahlen oder Benchmarkresultate veröffentlicht.",
+            "scopeAndQualifications": "Vortrainierte Tabellenmodelle mit ICL; Fine-Tuning weiter möglich.",
+            "sourceIndependence": "Anbieterleitfaden und Anbieterdokumentation; kein unabhängiger Modellvergleich.",
+            "contradictions": "Kosten- und Speichergrenzen im Original verhindern die Übernahme eines pauschalen Effizienz- oder Überlegenheitsversprechens."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-5",
+      "contentHash": "ca1fd211508e2d0d88e6ebb11b78402c583ce89d78b4aebbc61d2cd956680757",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-17T08:32:54.815082+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Blog und Repository weichen bei der Teilmengenzahl leicht voneinander ab; deshalb wird hier keine exakte Fallzahl übernommen. Die Tests beweisen keine allgemeine Diagnosefähigkeit in mehrstufigen ERP-Supportfällen; eine unabhängige Replikation wird nicht behauptet."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "XYBench prüft, ob KI-Assistenten Fehlannahmen in Anfragen erkennen",
+              "verdict": "supported",
+              "reason": "Der Ai2-Release erklärt die Evaluation von Fehlannahmen zwischen angefragter Methode und eigentlichem Ziel. Der Titel behauptet kein bewiesenes Modellvermögen.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ai2 stellte am 13. November 2026 XYBench mit mehr als 8.000 Fragen zur Evaluation von KI-Assistenten vor.",
+              "verdict": "qualified",
+              "reason": "Datierter Release 13.11. und Blog/Repository nennen jeweils über 8.000 Fragen. Die exakte Summe wird wegen der abweichenden Teilmengenangaben bewusst nicht übernommen.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Benchmark unterscheidet die ausdrücklich erbetene Vorgehensweise vom zugrunde liegenden Ziel und bewertet Lösungen, deren Gewichtung und die Korrektur von Fehlannahmen getrennt.",
+              "verdict": "supported",
+              "reason": "Der Blog beschreibt drei getrennte Maße: Vorhandensein einer Lösung, Gewichtung der Antworten und Erkennung/Korrektur der Fehlannahme; das README bestätigt diese Struktur.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Großteil der Fragen wurde aus WikiHow-Anleitungen generiert; weitere stammen aus Foren und manuell kuratierten Beispielen.",
+              "verdict": "qualified",
+              "reason": "Blog nennt 6.272 WikiHow-Fälle, Repository 6.268. Beide liegen klar über der Hälfte des Bestands; übrige Teilmengen sind Foren und manuell kuratierte Fälle. Der endgültige Satz nennt keine strittige Zahl.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "AI2 · XYBENCH",
+              "verdict": "supported",
+              "reason": "Kategorie nennt Ai2 und XYBench entsprechend dem Originalrelease.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "XYBench prüft Fehlannahmen hinter KI-Anfragen",
+              "verdict": "supported",
+              "reason": "Die Vorschau beschreibt den Prüfgegenstand und enthält keine strittige Fallzahl oder Ergebnisse.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokument: XYBench prüft Fehlannahmen hinter KI-Anfragen",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische dokument-Motiv und den geprüften Meldungsgegenstand; ohne zusätzliche Daten- oder Leistungsbehauptung.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-17T08:32:54.815082+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Blog und Repository weichen bei der Teilmengenzahl leicht voneinander ab; deshalb wird hier keine exakte Fallzahl übernommen. Die Tests beweisen keine allgemeine Diagnosefähigkeit in mehrstufigen ERP-Supportfällen; eine unabhängige Replikation wird nicht behauptet."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "XYBench prüft, ob KI-Assistenten Fehlannahmen in Anfragen erkennen",
+              "verdict": "supported",
+              "reason": "Der Benchmark prüft das Verhalten, statt es vorauszusetzen. Die endgültige Überschrift bleibt bei prüft und behauptet keinen erfolgreichen ERP-Support.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ai2 stellte am 13. November 2026 XYBench mit mehr als 8.000 Fragen zur Evaluation von KI-Assistenten vor.",
+              "verdict": "qualified",
+              "reason": "Die Erstfassung der Arbeit ist älter als der Blogrelease. Der Satz datiert die Vorstellung durch Ai2 am 13.11.; mehr als 8.000 ist mit beiden sichtbaren Bestandsangaben vereinbar.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Benchmark unterscheidet die ausdrücklich erbetene Vorgehensweise vom zugrunde liegenden Ziel und bewertet Lösungen, deren Gewichtung und die Korrektur von Fehlannahmen getrennt.",
+              "verdict": "supported",
+              "reason": "Originalblog, README und Abstract stimmen zu den drei Evaluationsachsen überein. Automatisierter Judge und Ein-Turn-Umfang stehen sichtbar in der Einordnung.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Großteil der Fragen wurde aus WikiHow-Anleitungen generiert; weitere stammen aus Foren und manuell kuratierten Beispielen.",
+              "verdict": "qualified",
+              "reason": "Nach der Gegenrecherche bleibt die Vier-Fragen-Differenz offen. Der endgültige Satz verallgemeinert nur die unstrittige Mehrheit generierter Fragen und benennt die Abweichung sichtbar; keine exakte Teilmengenzahl freigegeben.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "AI2 · XYBENCH",
+              "verdict": "supported",
+              "reason": "Kategorie nennt Ai2 und XYBench entsprechend dem Originalrelease.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "XYBench prüft Fehlannahmen hinter KI-Anfragen",
+              "verdict": "supported",
+              "reason": "Die Vorschau beschreibt den Prüfgegenstand und enthält keine strittige Fallzahl oder Ergebnisse.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokument: XYBench prüft Fehlannahmen hinter KI-Anfragen",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische dokument-Motiv und den geprüften Meldungsgegenstand; ohne zusätzliche Daten- oder Leistungsbehauptung.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"XYBench\" \"6,268\" \"6,272\"",
+              "finding": "Gegenrecherche und direkte Primärlektüre zeigen 6.272 im Blog gegenüber 6.268 im README. Nach Korrektur nennt der endgültige Text nur über 8.000 Fragen und eine generierte Mehrheit, mit sichtbarem Vorbehalt.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            },
+            {
+              "query": "site.allenai.org/blog/xybench \"English\" \"Claude Sonnet 4.5\"",
+              "finding": "Ai2 beschreibt im Original englische, prozedurale Ein-Turn-Fragen und einen automatisierten Judge. Der endgültige Text schließt daraus keine allgemeine Diagnosefähigkeit; Original erneut gelesen.",
+              "sourceUrls": [
+                "https://allenai.org/blog/xybench",
+                "https://github.com/allenai/XYBench",
+                "https://arxiv.org/abs/2609.06842"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "13.11. ist Blogvorstellung; Papier erstmals im September. Keine exakte Gesamt- oder Teilmengenzahl aus widersprüchlichen Bestandsangaben übernommen.",
+            "scopeAndQualifications": "Englisch, vorwiegend prozedural, Ein-Turn und Modell-Judge; keine ERP-Multi-Turn-Übertragbarkeit.",
+            "sourceIndependence": "Ai2-Blog, eigener Code und Autorenabstract sind derselbe Forschungsverbund; keine unabhängige Replikation behauptet.",
+            "contradictions": "Vier Fälle Unterschied bei WikiHow bleiben ungeklärt. Endgültige Aussagen sind so begrenzt, dass beide Originalfassungen sie tragen; Einschränkung sichtbar."
+          }
+        }
+      ]
     }
   ]
 }
