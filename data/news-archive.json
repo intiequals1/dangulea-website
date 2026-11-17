@@ -2,6 +2,76 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-17-1",
+      "date": "2026-11-17",
+      "number": 1,
+      "title": "SAP meldet den Abschluss der TechWolf-Übernahme",
+      "text": "Fakten: SAP meldete am 16. November 2026 die abgeschlossene Übernahme der KI-Plattform TechWolf. Der Konzern plant, TechWolf im SuccessFactors-Portfolio zu verankern. Dessen Kontextgraph soll Agentenanfragen zur Arbeits- und Kompetenzplanung sowie zum Talentmanagement unterstützen.\nEinordnung: Damit folgt auf die frühere Übernahmeankündigung ein neuer Unternehmensschritt. Für HR- und ERP-Architekturen ist die geplante Verbindung von Kompetenzdaten und Agenten relevant. Integration, geringere Tokenkosten und zusätzlicher Joule-Nutzen bleiben jedoch Herstellerziele; die Mitteilung belegt weder deren allgemeine Verfügbarkeit noch unabhängig gemessene Ergebnisse.\nQuellen: https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/",
+      "og": {
+        "og_kategorie": "SAP · SUCCESSFACTORS",
+        "og_titel": "SAP schließt die TechWolf-Übernahme ab",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte mit Zahnrad: SAP schließt die TechWolf-Übernahme ab"
+      }
+    },
+    {
+      "id": "2026-11-17-2",
+      "date": "2026-11-17",
+      "number": 2,
+      "title": "Hugging Face stellt das Sprachmodell-Routing auf OpenRouter um",
+      "text": "Fakten: Hugging Face kündigte am 16. November 2026 an, Sprachmodellanfragen seiner Inference Providers über OpenRouter zu leiten. Der Router wählt laut Anbieter anhand von Preis, Geschwindigkeit und Zuverlässigkeit einen Provider und versucht bei einem Fehler einen anderen. Eigene API-Schlüssel einzelner Provider lassen sich für diese Sprachmodellanfragen nicht mehr verwenden.\nEinordnung: Das verändert den Verarbeitungspfad und die Schlüsselverwaltung bestehender KI-Anwendungen. Teams sollten erlaubte Provider, Datenverträge, Abrechnung und Fehlerbehandlung gezielt prüfen. Die Anbieterbeschreibung gilt nicht pauschal für alle KI-Aufrufe: Bild-, Video- und Audioerzeugung werden laut Hugging Face weiterhin direkt vermittelt. Ein unabhängig belegter Leistungsgewinn wird hier nicht behauptet.\nQuellen: https://huggingface.co/blog/openrouter",
+      "og": {
+        "og_kategorie": "HUGGING FACE · INFERENZ",
+        "og_titel": "Hugging Face routet Sprachmodelle über OpenRouter",
+        "og_fakten": [],
+        "og_icon": "cloud",
+        "og_alt": "Kubistische Karte mit Cloud: Hugging Face routet Sprachmodelle über OpenRouter"
+      }
+    },
+    {
+      "id": "2026-11-17-3",
+      "date": "2026-11-17",
+      "number": 3,
+      "title": "EU-Beratungsgremien fordern eigene Kapazitäten zur KI-Evaluation",
+      "text": "Fakten: Die EU-Kommission berichtete am 16. November 2026 über eine gemeinsame KI-Stellungnahme ihrer wissenschaftlichen Chefberater und der Europäischen Gruppe für Ethik. Die Gremien empfehlen eine eigenständige europäische Kapazität zur Modellevaluation, statt diese kommerziellen Entwicklern zu überlassen. Außerdem sollen Entwicklung und Einführung am Gefahrenpotenzial ausgerichtet sowie menschliche Handlungsfähigkeit und wirksame Aufsicht geschützt werden.\nEinordnung: Für KI-Governance ist damit die organisatorische Zuständigkeit für Evaluation konkret angesprochen: Anbieterbewertungen allein ersetzen keine eigene Risikoprüfung. Es handelt sich um fachliche Empfehlungen der Beratungsgremien und keine neu beschlossenen gesetzlichen Pflichten. Die Stellungnahme belegt auch keine bereits aufgebaute Evaluationsinfrastruktur.\nQuellen: https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en",
+      "og": {
+        "og_kategorie": "EU · KI-GOVERNANCE",
+        "og_titel": "EU-Berater fordern eigene Kapazitäten für KI-Evaluation",
+        "og_fakten": [],
+        "og_icon": "schild",
+        "og_alt": "Kubistische Karte mit Schild: EU-Berater fordern eigene Kapazitäten für KI-Evaluation"
+      }
+    },
+    {
+      "id": "2026-11-17-4",
+      "date": "2026-11-17",
+      "number": 4,
+      "title": "Databricks erläutert den Betrieb vortrainierter Tabellenmodelle",
+      "text": "Fakten: Databricks veröffentlichte am 16. November 2026 einen technischen Leitfaden zu tabellarischen Foundation-Modellen auf AI Runtime. Er beschreibt Vorhersagen, bei denen beschriftete Tabellenzeilen als Kontext für neue Zeilen dienen, ohne dafür zunächst ein aufgabenspezifisches Modell zu trainieren. Für Auswahl und Betrieb empfiehlt der Anbieter Vergleiche von Genauigkeit, Inferenzlatenz, GPU-Speicherbedarf und Kosten mit bestehenden Verfahren.\nEinordnung: Für Nachfrageprognosen oder andere Vorhersagen aus Unternehmensdaten erweitert das die Auswahl möglicher Baselines. Es ist ein Betriebs- und Evaluationsleitfaden, keine neue unabhängige Vergleichsstudie. Ob ein Tabellenmodell besser als etwa ein bestehendes Baumverfahren passt, müssen Teams am eigenen Datenbestand, einschließlich Lizenzbedingungen und laufenden GPU-Kosten, prüfen.\nQuellen: https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+      "og": {
+        "og_kategorie": "DATABRICKS · TABELLENMODELLE",
+        "og_titel": "Databricks erklärt den Betrieb von Tabellenmodellen",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte mit Dokument: Databricks erklärt den Betrieb von Tabellenmodellen"
+      }
+    },
+    {
+      "id": "2026-11-17-5",
+      "date": "2026-11-17",
+      "number": 5,
+      "title": "XYBench prüft, ob KI-Assistenten Fehlannahmen in Anfragen erkennen",
+      "text": "Fakten: Ai2 stellte am 13. November 2026 XYBench mit mehr als 8.000 Fragen zur Evaluation von KI-Assistenten vor. Der Benchmark unterscheidet die ausdrücklich erbetene Vorgehensweise vom zugrunde liegenden Ziel und bewertet Lösungen, deren Gewichtung und die Korrektur von Fehlannahmen getrennt. Der Großteil der Fragen wurde aus WikiHow-Anleitungen generiert; weitere stammen aus Foren und manuell kuratierten Beispielen.\nEinordnung: Für technischen Support und interne Assistenzsysteme zählt damit mehr als eine formal passende Antwort: Ein Assistent sollte auch eine ungeeignete Problemlösungsstrategie erkennen. Die vorgestellten Tests betreffen englischsprachige, überwiegend prozedurale Einzelfragen und nutzen einen automatisierten Modellbewerter. Blog und Repository weichen bei der Teilmengenzahl leicht voneinander ab; deshalb wird hier keine exakte Fallzahl übernommen. Die Tests beweisen keine allgemeine Diagnosefähigkeit in mehrstufigen ERP-Supportfällen; eine unabhängige Replikation wird nicht behauptet.\nQuellen: https://allenai.org/blog/xybench https://github.com/allenai/XYBench",
+      "og": {
+        "og_kategorie": "AI2 · XYBENCH",
+        "og_titel": "XYBench prüft Fehlannahmen hinter KI-Anfragen",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte mit Dokument: XYBench prüft Fehlannahmen hinter KI-Anfragen"
+      }
+    },
+    {
       "id": "2026-11-16-1",
       "date": "2026-11-16",
       "number": 1,
