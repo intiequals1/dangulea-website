@@ -178,13 +178,13 @@ export default function Layout({ children }: LayoutProps) {
           <p className="footer__copy">
             <a href="/news#news-workflow" className="footer__link">News-PoC: autonome KI-Synthese und Veröffentlichung</a>
           </p>
+          <PrivacyNotice />
           <p className="footer__copy">
             © {new Date().getFullYear()} Claudiu Dangulea
           </p>
         </div>
       </footer>
 
-      <PrivacyNotice />
     </div>
   )
 }
