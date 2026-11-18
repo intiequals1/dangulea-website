@@ -123,11 +123,12 @@ export default function Impressum() {
 
           <h3>Hosting</h3>
           <p>
-            Diese Webseite wird auf GitHub Pages (GitHub, Inc., 88 Colin P Kelly Jr St,
-            San Francisco, CA 94107, USA) gehostet. Beim Besuch werden durch den
-            Hosting-Anbieter automatisch Informationen erfasst (Server-Logfiles),
-            darunter IP-Adresse, Browsertyp, Betriebssystem, Referrer URL und
-            Uhrzeit der Serveranfrage.
+            Diese Webseite wird über GitHub Pages bereitgestellt. GitHub protokolliert bei Aufrufen
+            IP-Adressen zu Sicherheitszwecken, auch ohne GitHub-Anmeldung. Diese Verarbeitung ist von
+            Cookies und Browser-Speicher zu unterscheiden. Weitere Informationen finden Sie in der{' '}
+            <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" target="_blank" rel="noopener noreferrer">Dokumentation zu GitHub Pages</a>{' '}
+            und in der{' '}
+            <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">Datenschutzerklärung von GitHub</a>.
           </p>
 
           <h3>Cookies, Browser-Speicher und Schriftarten</h3>
@@ -145,14 +146,11 @@ export default function Impressum() {
 
           <h3 id="datenschutzhinweis">Datenschutzhinweis</h3>
           <p>
-            Beim ersten Besuch erscheint am unteren Rand ein kurzer Hinweis. Er informiert nur und fragt keine
-            Einwilligung ab, weil die öffentlichen Seiten nichts einsetzen, das eine Einwilligung erfordert.
-            Wenn Sie „Verstanden“ wählen, speichert Ihr Browser im lokalen Speicher (localStorage) unter dem
-            Schlüssel <code>dangulea.datenschutzhinweis.v1</code> den Wert „geschlossen“, damit der Hinweis nicht
-            bei jedem Seitenaufruf wiederkommt. Der Eintrag enthält keine Kennung, wird nicht übertragen und bleibt,
-            bis Sie die Websitedaten in Ihrem Browser löschen. Diese Speicherung ist für die von Ihnen ausgelöste
-            Funktion unbedingt erforderlich (§ 165 Abs. 3 TKG 2021, Umsetzung von Art. 5 Abs. 3 der
-            ePrivacy-Richtlinie 2002/58/EG).
+            Der Datenschutzhinweis steht dauerhaft im Seitenfuß. Er benötigt keine Bestätigung
+            und speichert keine Auswahl im Browser. Auf den öffentlichen Seiten wird für diesen
+            Hinweis weder localStorage noch Sitzungsspeicher verwendet. Ein früher gespeicherter
+            Eintrag zum Schließen des Hinweises wird nicht mehr gelesen oder geschrieben und kann
+            über die Browser-Einstellungen für Websitedaten gelöscht werden.
           </p>
 
           <h3 id="interner-login">Interner Bereich: Google-Anmeldung und Google Sheets</h3>
