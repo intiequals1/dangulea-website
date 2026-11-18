@@ -2,6 +2,85 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-18-1",
+      "date": "2026-11-18",
+      "number": 1,
+      "title": "Microsoft kündigt begrenzte Vorschau für agentengestützten SAP-Betrieb an",
+      "text": "Fakten: Microsoft kündigte am 17. November 2026 eine begrenzte Vorschau von Azure Workload Center for SAP zusammen mit dem Azure Copilot Run SAP Agent an. Kunden sollen SAP-Systeme auf Azure als Workload Virtual Instances einbinden können. Der Agent soll unter anderem Betriebsprobleme untersuchen und Korrekturskripte erzeugen; Kunden entscheiden, wann und wo Änderungen ausgeführt werden.\nEinordnung: Für SAP-Betriebsteams betrifft das die Verbindung von Systeminventar und operativer Unterstützung. Die Ankündigung beschreibt eine begrenzte Vorschau und geplante Funktionen, keine allgemeine Freigabe oder nachgewiesene autonome Fehlerbehebung. Berechtigungen, Freigabegrenzen und Änderungen an produktiven Systemen müssen im konkreten Einsatz geprüft werden; Grundlage ist die Herstellerquelle.\nQuellen: https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931 https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357",
+      "og": {
+        "og_kategorie": "MICROSOFT · SAP-BETRIEB",
+        "og_titel": "Microsoft erprobt agentengestützten SAP-Betrieb",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte mit Zahnrad: Microsoft erprobt agentengestützten SAP-Betrieb"
+      }
+    },
+    {
+      "id": "2026-11-18-2",
+      "date": "2026-11-18",
+      "number": 2,
+      "title": "MongoDB übernimmt Firebolt und plant integrierte Echtzeitanalytik",
+      "text": "Fakten: MongoDB meldete am 17. November 2026 die Übernahme von Firebolt. Der Anbieter plant, dessen Analyse-Engine neben der operativen Datenbank in seine Intelligent Data Platform zu integrieren und automatisch zu synchronisieren. Der Zugang für MongoDB-Daten wird für die kommenden Monate angekündigt; Interessierte werden auf eine Warteliste verwiesen.\nEinordnung: Für Datenarchitekturen ist die geplante Annäherung von operativen Daten und anwendungsnaher Analyse relevant: Kopierpipelines und Aktualitätsverzögerungen sollen reduziert werden. Die Integration ist noch kein allgemein verfügbares Angebot. Leistungs- und Vereinfachungsversprechen stammen vom Anbieter; die Quelle sieht klassische Data Warehouses und Data Lakes weiterhin für interne BI, Reporting und Data Science vor.\nQuellen: https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+      "og": {
+        "og_kategorie": "MONGODB · DATENARCHITEKTUR",
+        "og_titel": "MongoDB plant Echtzeitanalytik mit Firebolt",
+        "og_fakten": [],
+        "og_icon": "cloud",
+        "og_alt": "Kubistische Karte mit Cloud: MongoDB plant Echtzeitanalytik mit Firebolt"
+      }
+    },
+    {
+      "id": "2026-11-18-3",
+      "date": "2026-11-18",
+      "number": 3,
+      "title": "EU öffnet Forschungsaufrufe für KI, Datenverarbeitung und digitale Technik",
+      "text": "Fakten: Die EU-Kommission eröffnete am 17. November 2026 zwei Horizon-Europe-Aufrufe mit zwölf Themen und insgesamt 297 Millionen Euro. Dazu gehören sichere und recheneffiziente KI, verteilte Datenverarbeitung sowie Energieeffizienz und Nachhaltigkeit von KI-Rechenzentren. Als Einreichfrist nennt die Kommission den 18. März 2027.\nEinordnung: Die Förderthemen verbinden KI-Entwicklung mit Betriebsarchitektur und messbaren Ressourcenfragen. Für Forschungs- und Industriekonsortien lohnt sich deshalb die Prüfung der konkreten Ausschreibungsbedingungen. Das genannte Budget ist der Gesamtumfang der beiden Aufrufe, kein bereits ausgezahlter Betrag und kein pauschaler Anspruch einzelner Unternehmen.\nQuellen: https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond",
+      "og": {
+        "og_kategorie": "EU · KI-FORSCHUNG",
+        "og_titel": "EU öffnet Forschungsaufrufe für KI und Datentechnik",
+        "og_fakten": [
+          {
+            "datum": "297",
+            "label": "Mio. Euro Gesamtbudget"
+          },
+          {
+            "datum": "18.03.2027",
+            "label": "Einreichfrist"
+          }
+        ],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte mit Dokument: EU öffnet Forschungsaufrufe für KI und Datentechnik"
+      }
+    },
+    {
+      "id": "2026-11-18-4",
+      "date": "2026-11-18",
+      "number": 4,
+      "title": "Anthropic dokumentiert selbst gehostete Claude Managed Agents",
+      "text": "Fakten: Anthropic führt selbst gehostete Claude Managed Agents seit den Release Notes vom 12. November 2026 als neue Betriebsoption auf. Dienst, Sandboxes sowie die Speicherung von Agenten, Sitzungen und deren Verlauf liegen dabei auf der eigenen Infrastruktur des Kunden. Modellanfragen gehen weiterhin an den gewählten Inferenzanbieter, standardmäßig an die Claude API.\nEinordnung: Das trennt den Ort der Agentensteuerung und Sitzungsspeicherung vom Ort der Modellverarbeitung. Für Unternehmensarchitekturen können dadurch andere Daten- und Betriebsgrenzen entstehen, aber keine automatisch vollständig lokale KI-Verarbeitung. Der Zugang muss beim Anthropic-Account-Team angefragt werden; Absicherung, Isolation und Aktualisierung des eigenen Betriebs bleiben Kundenaufgaben. Grundlage ist die Anbieterdokumentation.\nQuellen: https://platform.claude.com/docs/en/release-notes/overview https://platform.claude.com/docs/en/managed-agents/self-hosted",
+      "og": {
+        "og_kategorie": "ANTHROPIC · AGENTENBETRIEB",
+        "og_titel": "Anthropic dokumentiert Agentendienst für eigene Infrastruktur",
+        "og_fakten": [],
+        "og_icon": "schloss",
+        "og_alt": "Kubistische Karte mit Schloss: Anthropic dokumentiert Agentendienst für eigene Infrastruktur"
+      }
+    },
+    {
+      "id": "2026-11-18-5",
+      "date": "2026-11-18",
+      "number": 5,
+      "title": "Microsoft gibt Entscheidungsmodell mit Bildeingaben frei",
+      "text": "Fakten: Microsoft erklärte Microsoft-Decision-1.1 am 17. November 2026 für allgemein verfügbar in Foundry sowie über OpenRouter und Vercel. Das Modell ist für strukturierte Entscheidungen wie Routing, Klassifikation und Workflow-Steuerung vorgesehen. Die neue Fassung akzeptiert laut Anbieter auch Bilder, etwa Fotos und Screenshots, als Teil einer Anfrage.\nEinordnung: Für KI-Anwendungen kann ein spezialisiertes Entscheidungsmodell die Auswahl zwischen vorgegebenen Aktionen übernehmen, statt für jede Verzweigung ein großes generatives Modell einzusetzen. Ob das im eigenen Prozess zuverlässig und wirtschaftlich ist, muss separat evaluiert werden. Die Freigabe und Funktionsbeschreibung sind Herstellerangaben; Geschwindigkeits-, Kosten- und Überlegenheitsversprechen werden hier nicht als unabhängig bestätigt übernommen.\nQuellen: https://commandline.microsoft.com/microsoft-decision-model-ga/",
+      "og": {
+        "og_kategorie": "MICROSOFT · DECISION 1.1",
+        "og_titel": "Microsoft gibt Decision 1.1 mit Bildeingaben frei",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte mit Dokument: Microsoft gibt Decision 1.1 mit Bildeingaben frei"
+      }
+    },
+    {
       "id": "2026-11-17-1",
       "date": "2026-11-17",
       "number": 1,
