@@ -9574,6 +9574,1002 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-18-1",
+      "contentHash": "0a010cd00f06a4d5cb8a991a233797278b73cc7efa2ac7429929f2a5c32c22a5",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-18T07:26:38.763718+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Die Ankündigung beschreibt eine begrenzte Vorschau und geplante Funktionen, keine allgemeine Freigabe oder nachgewiesene autonome Fehlerbehebung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Microsoft kündigt begrenzte Vorschau für agentengestützten SAP-Betrieb an",
+              "verdict": "supported",
+              "reason": "Der Microsoft-SAP-Beitrag vom 17.11. nennt limited preview für Azure Workload Center und Run SAP Agent. Der Titel übernimmt die Beschränkung.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Microsoft kündigte am 17. November 2026 eine begrenzte Vorschau von Azure Workload Center for SAP zusammen mit dem Azure Copilot Run SAP Agent an.",
+              "verdict": "supported",
+              "reason": "Datum und Namen stehen im Microsoft-Original. Beide Beiträge wurden nach Fehlern des Web-Werkzeugs direkt per HTTPS abgerufen, aus HTML in Text umgewandelt und inhaltlich gelesen.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Kunden sollen SAP-Systeme auf Azure als Workload Virtual Instances einbinden können.",
+              "verdict": "qualified",
+              "reason": "Der Überblick beschreibt das Onboarding von SAP-Systemen auf Azure als Workload Virtual Instances. Der ergänzende Beitrag erläutert WVI als logische Sammlung der Systemkomponenten.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Agent soll unter anderem Betriebsprobleme untersuchen und Korrekturskripte erzeugen; Kunden entscheiden, wann und wo Änderungen ausgeführt werden.",
+              "verdict": "qualified",
+              "reason": "Der ergänzende Originalbeitrag beschreibt Analyse, Empfehlungen und erzeugbare Korrekturskripte; ausdrücklich entscheidet der Kunde, wann und wo Änderungen laufen. Soll und der Preview-Hinweis begrenzen die Aussage.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "MICROSOFT · SAP-BETRIEB",
+              "verdict": "supported",
+              "reason": "Kategorie benennt Microsoft und SAP-Betrieb als Gegenstand der Vorschau.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Microsoft erprobt agentengestützten SAP-Betrieb",
+              "verdict": "supported",
+              "reason": "Erprobt wahrt den Preview-Status; keine autonome produktive Fehlerbehebung versprochen.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad: Microsoft erprobt agentengestützten SAP-Betrieb",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische zahnrad-Motiv und den geprüften Gegenstand; keine zusätzlichen Zahlen oder Wirksamkeitsbehauptungen.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-18T07:26:38.763718+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Die Ankündigung beschreibt eine begrenzte Vorschau und geplante Funktionen, keine allgemeine Freigabe oder nachgewiesene autonome Fehlerbehebung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Microsoft kündigt begrenzte Vorschau für agentengestützten SAP-Betrieb an",
+              "verdict": "supported",
+              "reason": "Die gezielte Gegenrecherche findet ebenfalls limited preview. Die endgültige Überschrift enthält begrenzt und stellt keinen fertigen autonomen Produktivbetrieb dar.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Microsoft kündigte am 17. November 2026 eine begrenzte Vorschau von Azure Workload Center for SAP zusammen mit dem Azure Copilot Run SAP Agent an.",
+              "verdict": "supported",
+              "reason": "Beide direkt gelesenen Originalbeiträge stimmen zur Ankündigung am 17.11. und zu beiden Preview-Produkten überein; kein GA-Status aus anderen Azure-Produkten übertragen.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Kunden sollen SAP-Systeme auf Azure als Workload Virtual Instances einbinden können.",
+              "verdict": "qualified",
+              "reason": "WVI bezeichnet den Systemkontext und nicht eine automatische Migration oder neue SAP-Lizenz. Die Meldung bleibt beim möglichen Onboarding.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Agent soll unter anderem Betriebsprobleme untersuchen und Korrekturskripte erzeugen; Kunden entscheiden, wann und wo Änderungen ausgeführt werden.",
+              "verdict": "qualified",
+              "reason": "Der Originaltext hält Menschen ausdrücklich in Kontrolle. Die finale Aussage nennt Kundenausführung; das bloße Erzeugen eines Skripts wird nicht als autonom ausgeführte Reparatur gewertet.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "MICROSOFT · SAP-BETRIEB",
+              "verdict": "supported",
+              "reason": "Kategorie benennt Microsoft und SAP-Betrieb als Gegenstand der Vorschau.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Microsoft erprobt agentengestützten SAP-Betrieb",
+              "verdict": "supported",
+              "reason": "Erprobt wahrt den Preview-Status; keine autonome produktive Fehlerbehebung versprochen.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad: Microsoft erprobt agentengestützten SAP-Betrieb",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische zahnrad-Motiv und den geprüften Gegenstand; keine zusätzlichen Zahlen oder Wirksamkeitsbehauptungen.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.techcommunity.microsoft.com \"Run SAP Agent\" \"you decide\"",
+              "finding": "Die direkt gelesene Produktankündigung enthält menschliche Kontrolle über Ausführung, Untersuchung und Skripterzeugung. Der endgültige Text wurde darauf begrenzt.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            },
+            {
+              "query": "site.techcommunity.microsoft.com \"Workload Center for SAP\" \"limited preview\" scripts",
+              "finding": "Suchergebnisse und direkt gelesene Microsoft-Beiträge bestätigen die begrenzte Vorschau. Keine unabhängige Reparatur- oder Zeitersparnismessung vorhanden.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/sapapplications/microsoft-and-sap-at-ignite-2026-connecting-sap-customers-to-ai-agents-data-and-/4573931",
+                "https://techcommunity.microsoft.com/blog/sapapplications/announcing-limited-preview-of-microsoft-azure-workload-center-for-sap/4573357"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "17.11. als Ankündigungsdatum; keine Performancezahl oder SLA.",
+            "scopeAndQualifications": "Begrenzte Vorschau; menschliche Entscheidung über Ausführung von Änderungen.",
+            "sourceIndependence": "Zwei Microsoft-Originalbeiträge; keine unabhängige Erfolgsprüfung.",
+            "contradictions": "Web-Werkzeug konnte die Blogseiten nicht lesen; beide wurden stattdessen tatsächlich direkt per HTTPS inhaltlich gelesen. Kein offener Widerspruch im begrenzten Text."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-2",
+      "contentHash": "b5924c81b07ff5b5682e915ac76abcb56f89109f2ba4522e6a18ac33e12887eb",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-18T07:26:38.763718+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Die Integration ist noch kein allgemein verfügbares Angebot. Leistungs- und Vereinfachungsversprechen stammen vom Anbieter."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "MongoDB übernimmt Firebolt und plant integrierte Echtzeitanalytik",
+              "verdict": "supported",
+              "reason": "Titel und Haupttext melden den Erwerb von Firebolt und beschreiben die Integration zukunftsgerichtet. Die Überschrift trennt Übernahme und Plan.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "MongoDB meldete am 17. November 2026 die Übernahme von Firebolt.",
+              "verdict": "supported",
+              "reason": "Kopfdatum 17.11.2026 und Text melden den Erwerb. Das eigene Form 8-K datiert die entsprechende Blogankündigung ebenfalls auf den 17.11.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Anbieter plant, dessen Analyse-Engine neben der operativen Datenbank in seine Intelligent Data Platform zu integrieren und automatisch zu synchronisieren.",
+              "verdict": "qualified",
+              "reason": "Abschnitt One platform beschreibt die künftig neben der Datenbank laufende Engine und automatische Synchronisierung. Der Meldungssatz sagt ausdrücklich plant.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Zugang für MongoDB-Daten wird für die kommenden Monate angekündigt; Interessierte werden auf eine Warteliste verwiesen.",
+              "verdict": "qualified",
+              "reason": "Der Schluss kündigt Zugang in den kommenden Monaten an und verweist auf eine Warteliste; kein sofortiger allgemeiner Zugang behauptet.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "MONGODB · DATENARCHITEKTUR",
+              "verdict": "supported",
+              "reason": "Kategorie ordnet die angekündigte Firebolt-Integration der MongoDB-Datenarchitektur zu.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "MongoDB plant Echtzeitanalytik mit Firebolt",
+              "verdict": "supported",
+              "reason": "Plant hält die Echtzeitanalytik ausdrücklich im zukünftigen Integrationsstatus.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Cloud: MongoDB plant Echtzeitanalytik mit Firebolt",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische cloud-Motiv und den geprüften Gegenstand; keine zusätzlichen Zahlen oder Wirksamkeitsbehauptungen.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-18T07:26:38.763718+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Die Integration ist noch kein allgemein verfügbares Angebot. Leistungs- und Vereinfachungsversprechen stammen vom Anbieter."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "MongoDB übernimmt Firebolt und plant integrierte Echtzeitanalytik",
+              "verdict": "supported",
+              "reason": "Das Form 8-K verweist auf dieselbe Blogankündigung und ist keine unabhängige technische Prüfung. Die Überschrift macht die Integration weiterhin zum Plan.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "MongoDB meldete am 17. November 2026 die Übernahme von Firebolt.",
+              "verdict": "supported",
+              "reason": "Das Original und die eigene regulatorische Mitteilung stimmen beim Meldungsdatum überein. Es wird kein unabhängig geprüfter wirtschaftlicher Erfolg behauptet.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Anbieter plant, dessen Analyse-Engine neben der operativen Datenbank in seine Intelligent Data Platform zu integrieren und automatisch zu synchronisieren.",
+              "verdict": "qualified",
+              "reason": "Die Formulierungen will run und anticipated benefits bleiben Zukunftsaussagen. Der Text übernimmt weder sofortige Verfügbarkeit noch gemessene Pipeline-Ersparnis.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Zugang für MongoDB-Daten wird für die kommenden Monate angekündigt; Interessierte werden auf eine Warteliste verwiesen.",
+              "verdict": "qualified",
+              "reason": "Kommende Monate und Warteliste sind mit einer späteren Freigabe vereinbar. Die FAQ erklärt ausdrücklich, dass traditionelle Warehouses und Lakes nicht pauschal ersetzt werden.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "MONGODB · DATENARCHITEKTUR",
+              "verdict": "supported",
+              "reason": "Kategorie ordnet die angekündigte Firebolt-Integration der MongoDB-Datenarchitektur zu.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "MongoDB plant Echtzeitanalytik mit Firebolt",
+              "verdict": "supported",
+              "reason": "Plant hält die Echtzeitanalytik ausdrücklich im zukünftigen Integrationsstatus.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Cloud: MongoDB plant Echtzeitanalytik mit Firebolt",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische cloud-Motiv und den geprüften Gegenstand; keine zusätzlichen Zahlen oder Wirksamkeitsbehauptungen.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.mongodb.com Firebolt acquisition \"coming months\" data warehouse",
+              "finding": "Originalblog und FAQ trennen integrierte Echtzeitanalyse von klassischen Warehouses. Zukünftiger Zugang und Warteliste bleiben sichtbar.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            },
+            {
+              "query": "site.firebolt.io MongoDB acquisition November 17 2026 integration",
+              "finding": "Suche liefert unter anderem das eigene Form 8-K. Dieses wurde geöffnet und im Abschnitt Item 7.01 gelesen: Es wiederholt die Blogankündigung, nicht eine unabhängige Produktbewertung.",
+              "sourceUrls": [
+                "https://www.mongodb.com/company/blog/news/mongodb-acquires-firebolt",
+                "https://mongodb.gcs-web.com/static-files/4cf08d86-86b3-473e-b995-823227a0d063"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "17.11. durch Blog und Form 8-K geprüft; keine Transaktionssumme.",
+            "scopeAndQualifications": "Abschlussmeldung von geplanter Produktintegration, kommendem Zugang und Warteliste getrennt.",
+            "sourceIndependence": "Blog und eigene regulatorische Mitteilung sind dieselbe Unternehmensquelle.",
+            "contradictions": "Die FAQ widerspricht einer pauschalen Ablösung von Warehouses; die Einordnung wahrt diese Grenze."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-3",
+      "contentHash": "9aaae60fb56dd85011eb6da30f3ddbbf8c362d21c262dacf3a33a0838d70eea9",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-18T07:26:38.763718+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Das genannte Budget ist der Gesamtumfang der beiden Aufrufe, kein bereits ausgezahlter Betrag und kein pauschaler Anspruch einzelner Unternehmen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU öffnet Forschungsaufrufe für KI, Datenverarbeitung und digitale Technik",
+              "verdict": "supported",
+              "reason": "Die offizielle Kommissionsmeldung berichtet tatsächlich neu geöffnete Forschungsaufrufe zu diesen digitalen Themen.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EU-Kommission eröffnete am 17. November 2026 zwei Horizon-Europe-Aufrufe mit zwölf Themen und insgesamt 297 Millionen Euro.",
+              "verdict": "supported",
+              "reason": "Der Artikel ist vom 17.11.2026; Einleitung nennt zwei Aufrufe, zwölf Themen und 297 Millionen Euro als Gesamtbetrag.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Dazu gehören sichere und recheneffiziente KI, verteilte Datenverarbeitung sowie Energieeffizienz und Nachhaltigkeit von KI-Rechenzentren.",
+              "verdict": "supported",
+              "reason": "Die Themenliste nennt frontier AI mit safety by design und Recheneffizienz, verteilte/föderierte Verarbeitung und Energieeffizienz von KI-Rechenzentren.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Als Einreichfrist nennt die Kommission den 18. März 2027.",
+              "verdict": "supported",
+              "reason": "Die offizielle Zusammenfassung nennt den 18. März 2027 als Frist. Der Satz schreibt diese Angabe ausdrücklich der Kommission zu.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "EU · KI-FORSCHUNG",
+              "verdict": "supported",
+              "reason": "Kategorie bezeichnet EU-Forschung, nicht eine allgemeine KI-Förderzusage.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "EU öffnet Forschungsaufrufe für KI und Datentechnik",
+              "verdict": "supported",
+              "reason": "Öffnet beschreibt die neuen Forschungsaufrufe; kein bereits ausgezahlter Betrag.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "og-fact-1",
+              "text": "297 · Mio. Euro Gesamtbudget",
+              "verdict": "supported",
+              "reason": "297 Millionen Euro ist der Gesamtbetrag beider Aufrufe im Original. Das Label Mio. Euro Gesamtbudget wahrt Währung, Größenordnung und Bezugsumfang.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "og-fact-2",
+              "text": "18.03.2027 · Einreichfrist",
+              "verdict": "supported",
+              "reason": "18.03.2027 entspricht dem im Original genannten 18. März 2027 und ist korrekt als Einreichfrist zugeordnet.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokument: EU öffnet Forschungsaufrufe für KI und Datentechnik",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische dokument-Motiv und den geprüften Gegenstand; keine zusätzlichen Zahlen oder Wirksamkeitsbehauptungen.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-18T07:26:38.763718+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Das genannte Budget ist der Gesamtumfang der beiden Aufrufe, kein bereits ausgezahlter Betrag und kein pauschaler Anspruch einzelner Unternehmen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EU öffnet Forschungsaufrufe für KI, Datenverarbeitung und digitale Technik",
+              "verdict": "supported",
+              "reason": "Der offizielle Artikel beschreibt Forschungsfinanzierung und konkrete technische Themen; keine allgemeine Auszahlung oder Unternehmensförderzusage.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EU-Kommission eröffnete am 17. November 2026 zwei Horizon-Europe-Aufrufe mit zwölf Themen und insgesamt 297 Millionen Euro.",
+              "verdict": "supported",
+              "reason": "Budgetaufteilung 107+29+112+49 ergibt 297 Millionen Euro. Zwei Aufrufe und zwölf Themen im Artikel nochmals abgeglichen; nicht der gesamte Betrag ist ausschließlich KI zugeordnet.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Dazu gehören sichere und recheneffiziente KI, verteilte Datenverarbeitung sowie Energieeffizienz und Nachhaltigkeit von KI-Rechenzentren.",
+              "verdict": "supported",
+              "reason": "Die aufgeführten Einzelthemen stützen die Auswahl; keine bereits erzielte Energieersparnis oder Sicherheitswirkung aus einem Forschungsaufruf abgeleitet.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Als Einreichfrist nennt die Kommission den 18. März 2027.",
+              "verdict": "supported",
+              "reason": "Die Kommissionsseite nennt 18.03.2027. Die ergänzend angeklickte Portal-Weiterleitung war nicht lesbar und wird nicht als gelesener Beleg verwendet; konkrete Bedingungen müssen gesondert geprüft werden.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "EU · KI-FORSCHUNG",
+              "verdict": "supported",
+              "reason": "Kategorie bezeichnet EU-Forschung, nicht eine allgemeine KI-Förderzusage.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "EU öffnet Forschungsaufrufe für KI und Datentechnik",
+              "verdict": "supported",
+              "reason": "Öffnet beschreibt die neuen Forschungsaufrufe; kein bereits ausgezahlter Betrag.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "og-fact-1",
+              "text": "297 · Mio. Euro Gesamtbudget",
+              "verdict": "supported",
+              "reason": "297 Millionen Euro ist der Gesamtbetrag beider Aufrufe im Original. Das Label Mio. Euro Gesamtbudget wahrt Währung, Größenordnung und Bezugsumfang.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "og-fact-2",
+              "text": "18.03.2027 · Einreichfrist",
+              "verdict": "supported",
+              "reason": "18.03.2027 entspricht dem im Original genannten 18. März 2027 und ist korrekt als Einreichfrist zugeordnet.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokument: EU öffnet Forschungsaufrufe für KI und Datentechnik",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische dokument-Motiv und den geprüften Gegenstand; keine zusätzlichen Zahlen oder Wirksamkeitsbehauptungen.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.digital-strategy.ec.europa.eu \"297 million\" \"18 March 2027\"",
+              "finding": "Die offizielle Meldung nennt 297 Millionen Euro und 18. März 2027. Gesamtbudget und Forschungsthemen wurden getrennt geprüft.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            },
+            {
+              "query": "site.ec.europa.eu \"HORIZON-CL4-2027-04\" \"17 November 2026\" \"18 March\"",
+              "finding": "Portal-Suchergebnis bestätigt für ein Thema die Öffnung am 17.11. und Frist am 18.03.; eine angeklickte Portal-Weiterleitung war nicht lesbar und dient nicht als Inhaltsbeleg. Die Veröffentlichung beruht auf der vollständig lesbaren Kommissionsmeldung.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/commission-launches-over-eu290-million-boost-eu-tech-sovereignty-and-beyond"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "17.11., zwei Aufrufe, zwölf Themen, 297 Millionen und Frist 18.03.2027 aus dem Kommissionsoriginal geprüft.",
+            "scopeAndQualifications": "Gesamtbudget beider Aufrufe statt Auszahlung oder Förderanspruch. Kein bereits realisierter Forschungsnutzen.",
+            "sourceIndependence": "Offizielle Kommissionsmeldung als Primärbeleg für eigene Aufrufe; unlesbare Portalweiterleitung nicht als gelesener Beleg.",
+            "contradictions": "Titel über 290 Millionen und genauer Text 297 Millionen sind vereinbar. Keine strittige Zusage in der Meldung."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-4",
+      "contentHash": "39fbda483acffa18b4f2d4e6e2e586f031086b6e83dcf9293bfef68983284634",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-18T07:26:38.763718+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Der Zugang muss beim Anthropic-Account-Team angefragt werden; Absicherung, Isolation und Aktualisierung des eigenen Betriebs bleiben Kundenaufgaben. Modellanfragen werden nicht automatisch vollständig lokal verarbeitet."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Anthropic dokumentiert selbst gehostete Claude Managed Agents",
+              "verdict": "supported",
+              "reason": "Die offizielle Dokumentation beschreibt den selbst gehosteten Dienst. Der Titel behauptet weder vollständig lokale Modellverarbeitung noch allgemeine Freigabe.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Anthropic führt selbst gehostete Claude Managed Agents seit den Release Notes vom 12. November 2026 als neue Betriebsoption auf.",
+              "verdict": "supported",
+              "reason": "Die tatsächlich gelesenen Plattform-Release-Notes enthalten unter 12.11.2026 den neuen selbst gehosteten Managed-Agents-Dienst.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Dienst, Sandboxes sowie die Speicherung von Agenten, Sitzungen und deren Verlauf liegen dabei auf der eigenen Infrastruktur des Kunden.",
+              "verdict": "supported",
+              "reason": "Die Dokumentation unterscheidet den selbst gehosteten Dienst von bloß selbst gehosteten Sandboxes: Auch Dienst und Sitzungsspeicherung liegen beim Kunden.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Modellanfragen gehen weiterhin an den gewählten Inferenzanbieter, standardmäßig an die Claude API.",
+              "verdict": "supported",
+              "reason": "Abschnitt What leaves your network und die Release Notes beschreiben den gewählten Inferenzanbieter und die Claude API als Standard. Keine lokale Modellinstallation behauptet.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "ANTHROPIC · AGENTENBETRIEB",
+              "verdict": "supported",
+              "reason": "Kategorie bezeichnet Anthropic und den Agentenbetrieb, nicht lokal betriebene Modellgewichte.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Anthropic dokumentiert Agentendienst für eigene Infrastruktur",
+              "verdict": "supported",
+              "reason": "Dokumentiert benennt die neue Betriebsoption ohne allgemeine Freigabe oder lokale Modellverarbeitung.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Schloss: Anthropic dokumentiert Agentendienst für eigene Infrastruktur",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische schloss-Motiv und den geprüften Gegenstand; keine zusätzlichen Zahlen oder Wirksamkeitsbehauptungen.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-18T07:26:38.763718+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Der Zugang muss beim Anthropic-Account-Team angefragt werden; Absicherung, Isolation und Aktualisierung des eigenen Betriebs bleiben Kundenaufgaben. Modellanfragen werden nicht automatisch vollständig lokal verarbeitet."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Anthropic dokumentiert selbst gehostete Claude Managed Agents",
+              "verdict": "supported",
+              "reason": "Abgrenzung von Sandboxes, Dienst und Modell im Original erneut geprüft. Dokumentiert ist eine kontrolliert zugängliche Betriebsoption, keine uneingeschränkte Freigabe.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Anthropic führt selbst gehostete Claude Managed Agents seit den Release Notes vom 12. November 2026 als neue Betriebsoption auf.",
+              "verdict": "supported",
+              "reason": "12.11. bezeichnet den Eintrag in den Release Notes. Kein späteres Datum aus Drittberichten oder ein heutiger Erststart erfunden.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Dienst, Sandboxes sowie die Speicherung von Agenten, Sitzungen und deren Verlauf liegen dabei auf der eigenen Infrastruktur des Kunden.",
+              "verdict": "supported",
+              "reason": "Kundenseitige Datenbank und Dienst bedeuten keine automatische Isolation der Shell. Die Dokumentation weist Isolation und Serverabsicherung dem Betreiber zu; im Beitrag sichtbar eingeschränkt.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Modellanfragen gehen weiterhin an den gewählten Inferenzanbieter, standardmäßig an die Claude API.",
+              "verdict": "supported",
+              "reason": "Die Dokumentation nennt ausgehende Gespräche samt Werkzeuginputs/-ergebnissen an den Provider. Der finale Text und die Einordnung verhindern den Fehlschluss vollständig lokaler Verarbeitung.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "ANTHROPIC · AGENTENBETRIEB",
+              "verdict": "supported",
+              "reason": "Kategorie bezeichnet Anthropic und den Agentenbetrieb, nicht lokal betriebene Modellgewichte.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Anthropic dokumentiert Agentendienst für eigene Infrastruktur",
+              "verdict": "supported",
+              "reason": "Dokumentiert benennt die neue Betriebsoption ohne allgemeine Freigabe oder lokale Modellverarbeitung.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Schloss: Anthropic dokumentiert Agentendienst für eigene Infrastruktur",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische schloss-Motiv und den geprüften Gegenstand; keine zusätzlichen Zahlen oder Wirksamkeitsbehauptungen.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.platform.claude.com/docs \"self-hosted\" \"What leaves your network\"",
+              "finding": "Die gelesene Dokumentation nennt ausgehende Modellanfragen ausdrücklich. Selbsthosting des Dienstes ist keine vollständige lokale KI-Verarbeitung.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            },
+            {
+              "query": "site.platform.claude.com/docs/en/release-notes/overview \"November 12, 2026\" self-hosted",
+              "finding": "Die originalen Release Notes wurden nochmals geöffnet: Eintrag 12.11. bestätigt Dienst-Selbsthosting und Zugang über das Account-Team. Kein Beta-/GA-Status aus Drittquellen übernommen.",
+              "sourceUrls": [
+                "https://platform.claude.com/docs/en/release-notes/overview",
+                "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "12.11. als Eintrag in originalen Release Notes; keine Leistungs- oder Speichergrößen übernommen.",
+            "scopeAndQualifications": "Dienst/Sandboxes/Sitzungsdaten beim Kunden, Modellaufrufe weiterhin extern oder über gewählten Provider.",
+            "sourceIndependence": "Zwei Seiten derselben Anbieterdokumentation; kein unabhängiges Sicherheitsaudit.",
+            "contradictions": "Die direkte Marketingseite war nicht zugänglich; sie ist keine Quelle der Meldung. Die zugänglichen Release Notes und Betriebsdokumentation tragen die endgültigen Aussagen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-5",
+      "contentHash": "7518d11125981928b8626416b1dc81a72832ded77ce88fff67082fdd595875e3",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-18T07:26:38.763718+00:00",
+          "reviewer": "Codex – Quellenabgleich der endgültigen Fassung",
+          "limitations": [
+            "Die Freigabe und Funktionsbeschreibung sind Herstellerangaben; Geschwindigkeits-, Kosten- und Überlegenheitsversprechen werden hier nicht als unabhängig bestätigt übernommen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Microsoft gibt Entscheidungsmodell mit Bildeingaben frei",
+              "verdict": "supported",
+              "reason": "Die datierte Microsoft-Veröffentlichung erklärt allgemeine Verfügbarkeit und neu akzeptierte Bildinputs. Der Titel bleibt bei dieser Freigabe.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Microsoft erklärte Microsoft-Decision-1.1 am 17. November 2026 für allgemein verfügbar in Foundry sowie über OpenRouter und Vercel.",
+              "verdict": "supported",
+              "reason": "Die Veröffentlichung vom 17.11.2026 nennt Foundry, OpenRouter und Vercel als Zugangswege; allgemein verfügbar ist eine Herstellerstatusangabe.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Modell ist für strukturierte Entscheidungen wie Routing, Klassifikation und Workflow-Steuerung vorgesehen.",
+              "verdict": "supported",
+              "reason": "Der Beitrag nennt routing, classification und workflow control. Katalog und technische Anleitung beschreiben begrenzte Fragen und vorgegebene Antwortoptionen.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die neue Fassung akzeptiert laut Anbieter auch Bilder, etwa Fotos und Screenshots, als Teil einer Anfrage.",
+              "verdict": "supported",
+              "reason": "Der Beitrag nennt multimodal support einschließlich Fotos und Screenshots. Die gelesene Modellkarte und Anleitung bestätigen Bildreferenzen als Eingabe.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "MICROSOFT · DECISION 1.1",
+              "verdict": "supported",
+              "reason": "Kategorie benennt Microsoft und genau die freigegebene Decision-Version 1.1.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Microsoft gibt Decision 1.1 mit Bildeingaben frei",
+              "verdict": "supported",
+              "reason": "Freigabe und Bildeingaben sind im datierten Herstellerbeitrag und Katalog belegt; keine Qualitätsüberlegenheit.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokument: Microsoft gibt Decision 1.1 mit Bildeingaben frei",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische dokument-Motiv und den geprüften Gegenstand; keine zusätzlichen Zahlen oder Wirksamkeitsbehauptungen.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-18T07:26:38.763718+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung ohne zweites Modell",
+          "limitations": [
+            "Die Freigabe und Funktionsbeschreibung sind Herstellerangaben; Geschwindigkeits-, Kosten- und Überlegenheitsversprechen werden hier nicht als unabhängig bestätigt übernommen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Microsoft gibt Entscheidungsmodell mit Bildeingaben frei",
+              "verdict": "supported",
+              "reason": "Modellkarte und technische Anleitung bestätigen begrenzte Entscheidungsfragen und Bildinputs. Der Titel beansprucht keine universelle Entscheidungsrichtigkeit.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Microsoft erklärte Microsoft-Decision-1.1 am 17. November 2026 für allgemein verfügbar in Foundry sowie über OpenRouter und Vercel.",
+              "verdict": "supported",
+              "reason": "17.11. und Zugangswege im Original bestätigt. Keine regionale Verfügbarkeit für jeden Account behauptet.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Modell ist für strukturierte Entscheidungen wie Routing, Klassifikation und Workflow-Steuerung vorgesehen.",
+              "verdict": "supported",
+              "reason": "Die Anleitung verlangt definierte Fragen, Kriterien und anwendungsbezogene Schwellen; die Einordnung verlangt deshalb eigene Evaluation.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die neue Fassung akzeptiert laut Anbieter auch Bilder, etwa Fotos und Screenshots, als Teil einer Anfrage.",
+              "verdict": "supported",
+              "reason": "Die Quelle unterstützt Bilder, nicht beliebige Video-/Audioverarbeitung. Der Text veröffentlicht weder maximale Bildanzahl noch Benchmark-Überlegenheitszahlen.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "MICROSOFT · DECISION 1.1",
+              "verdict": "supported",
+              "reason": "Kategorie benennt Microsoft und genau die freigegebene Decision-Version 1.1.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Microsoft gibt Decision 1.1 mit Bildeingaben frei",
+              "verdict": "supported",
+              "reason": "Freigabe und Bildeingaben sind im datierten Herstellerbeitrag und Katalog belegt; keine Qualitätsüberlegenheit.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokument: Microsoft gibt Decision 1.1 mit Bildeingaben frei",
+              "verdict": "supported",
+              "reason": "Alttext beschreibt das konfigurierte kubistische dokument-Motiv und den geprüften Gegenstand; keine zusätzlichen Zahlen oder Wirksamkeitsbehauptungen.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.learn.microsoft.com \"Microsoft-Decision-1.1\" images availability",
+              "finding": "Geöffnete Foundry-Anleitung beschreibt Text-/JSON-Zustand mit Bildreferenzen sowie eingegrenzte Entscheidungsfragen. Kein Freitext-Allzweckmodell daraus gemacht.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            },
+            {
+              "query": "\"Microsoft-Decision-1.1\" \"November 17\" calibration limitations",
+              "finding": "Datierter Herstellerbeitrag und gelesener Foundry-Modellkatalog bestätigen Freigabe und Bildeingaben. Benchmarkbehauptungen wurden nicht übernommen; Anwendungsevaluation bleibt erforderlich.",
+              "sourceUrls": [
+                "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+                "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1",
+                "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "17.11. als Herstellerfreigabe; keine Preis-, Geschwindigkeits- oder Benchmarkzahl.",
+            "scopeAndQualifications": "Vorgegebene Entscheidungsoptionen und Bildinputs; keine allgemeine Eignung für folgenreiche Personenentscheidungen behauptet.",
+            "sourceIndependence": "Microsoft-Veröffentlichung, Katalog und Learn sind Anbieterquellen, keine unabhängige Evaluation.",
+            "contradictions": "Keine widersprüchlichen Grenzwerte übernommen. Die Meldung beschränkt sich auf dokumentierten Zweck, Status und Bildinputs."
+          }
+        }
+      ]
     }
   ]
 }
