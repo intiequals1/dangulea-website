@@ -2,6 +2,81 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-19-1",
+      "date": "2026-11-19",
+      "number": 1,
+      "title": "SAP präzisiert das Betriebsmodell für Joule Work",
+      "text": "Fakten: SAP hat seine Referenzarchitektur für Joule Work am 18. November 2026 aktualisiert. Das Dokument ordnet Joule Work ausschließlich einem von SAP bereitgestellten und betriebenen Modell zu; bisherige kundenverwaltete Joule-Umgebungen bleiben unterstützt. Identitäten, Daten-Governance und fachliche Konfiguration bleiben wesentliche Aufgaben der Kunden. Die Architektur beschreibt einen Übergangsstand, in dem einzelne Bausteine noch nicht allgemein verfügbar sind.\nEinordnung: Für ERP-Architekten wird die Trennung zwischen technischem Plattformbetrieb und eigener Integrations- und Datenverantwortung konkreter. Berichtet wird über die aktualisierte Architektur, nicht über eine erstmalige Produkteinführung oder eine allgemeine Migrationspflicht. Verfügbarkeit und Übergang müssen je Systemlandschaft geprüft werden; Grundlage ist ausschließlich SAP-Dokumentation.\nQuellen: https://architecture.learning.sap.com/docs/ref-arch/bc7811 | https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302",
+      "og": {
+        "og_kategorie": "SAP · JOULE WORK",
+        "og_titel": "SAP präzisiert den Betrieb von Joule Work",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte mit zahnrad: SAP präzisiert den Betrieb von Joule Work"
+      }
+    },
+    {
+      "id": "2026-11-19-2",
+      "date": "2026-11-19",
+      "number": 2,
+      "title": "Copilotforce verbindet CRM-Kontext mit Copilot und Fabric in mehreren Freigabestufen",
+      "text": "Fakten: Salesforce und Microsoft stellten Copilotforce am 17. November 2026 als Zusammenarbeit für CRM-gestützte Arbeitsabläufe vor. Laut Salesforce ist die Copilot-Anbindung eine öffentliche Beta, während Sales Cloud in Teams im Pilotbetrieb bleibt. Der Zugriff aus Data 360 auf unterstützte Fabric-OneLake-Daten ist als allgemein verfügbar ausgewiesen; die Gegenrichtung über Data Sharing befindet sich in öffentlicher Beta. Unterstützte Schreibaktionen in das CRM benötigen laut Anbieter eine ausdrückliche Bestätigung durch den Nutzer.\nEinordnung: Der fachliche Kern ist die Verbindung von Kundendaten, Arbeitskontext und kontrollierten Geschäftsaktionen über Plattformgrenzen. Für Einführung und Datenarchitektur sind die unterschiedlichen Freigabestufen wichtiger als das gemeinsame Schlagwort: Eine verfügbare Föderation macht nicht alle Integrationen produktionsreif. Angaben zu Berechtigungen und Funktionen stammen von den beteiligten Unternehmen; ein unabhängiger Nachweis für Zeitersparnis oder Datenqualität liegt hier nicht vor.\nQuellen: https://www.salesforce.com/news/stories/copilotforce-announcement/",
+      "og": {
+        "og_kategorie": "SALESFORCE · COPILOTFORCE",
+        "og_titel": "Copilotforce verknüpft CRM und Arbeitskontext",
+        "og_fakten": [],
+        "og_icon": "cloud",
+        "og_alt": "Kubistische Karte mit cloud: Copilotforce verknüpft CRM und Arbeitskontext"
+      }
+    },
+    {
+      "id": "2026-11-19-3",
+      "date": "2026-11-19",
+      "number": 3,
+      "title": "Dharma-AI untersucht Laufzeitprognosen für Fine-Tuning auf gemeinsam genutzten GPUs",
+      "text": "Fakten: Dharma-AI veröffentlichte am 18. November 2026 auf Hugging Face eine Vorabdarstellung zu Laufzeitprognosen anhand von 272 überwachten Fine-Tuning-Läufen auf H200-GPUs. Ein CatBoost-Modell nutzt dabei nur vor dem Start bekannte Konfigurationsdaten, darunter Signale zu Evaluation und Checkpoints. Das Team berichtet in fünffacher Kreuzvalidierung einen mittleren absoluten Fehler von 1,71 Stunden gegenüber 12,41 Stunden für seine beste FLOP-basierte Vergleichsschätzung. Warteschlangenzeit gehört nicht zur prognostizierten Laufzeit.\nEinordnung: Für GPU-Kapazitätsplanung ist die Unterscheidung zwischen Rechenaufwand und vollständiger Jobdauer relevant. Die Ergebnisse stammen aus dem eigenen Unternehmensumfeld und sind nicht unabhängig reproduziert. Untersucht wurden nur überwachtes Fine-Tuning und ein GPU-Typ; lange Läufe sind schwach vertreten. Der vollständige Forschungsbericht ist erst angekündigt, und die Werte lassen sich nicht ohne erneute Kalibrierung auf andere Hardware übertragen.\nQuellen: https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "og": {
+        "og_kategorie": "DHARMA-AI · TRAININGSBETRIEB",
+        "og_titel": "Dharma-AI untersucht Laufzeitprognosen für Fine-Tuning",
+        "og_fakten": [
+          {
+            "datum": "272",
+            "label": "Fine-Tuning-Läufe"
+          }
+        ],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte mit zahnrad: Dharma-AI untersucht Laufzeitprognosen für Fine-Tuning"
+      }
+    },
+    {
+      "id": "2026-11-19-4",
+      "date": "2026-11-19",
+      "number": 4,
+      "title": "EZB analysiert KI-Agenten als Cyberrisiko für Finanzsysteme",
+      "text": "Fakten: Die EZB untersucht im Financial Stability Review vom November 2026 die Wechselwirkung zwischen KI und Cybersicherheit. Die Analyse beschreibt Nutzen für Angreifer und Verteidiger sowie zusätzliche Risiken durch unzureichend beaufsichtigte Agenten und konzentrierte IT-Dienstleister. Sie empfiehlt unter anderem mehrschichtige Abwehr, die Überwachung von Verkehr mit KI-Modellen und gemeinsame Notfallplanung mit regelmäßigen Tests. Zugleich hält sie fest, dass es im Bankensystem des Euroraums bislang kein systemisches Cyberereignis gegeben hat.\nEinordnung: Für Unternehmensarchitekturen betrifft das Agentenberechtigungen, Überwachung und Abhängigkeiten in digitalen Lieferketten. Die Veröffentlichung ordnet mögliche systemische Übertragungskanäle ein; sie belegt weder einen unmittelbar bevorstehenden Zusammenbruch noch eine neue gesetzliche Pflicht. Schlussfolgerungen für ein einzelnes Unternehmen erfordern dessen konkrete System- und Lieferantenstruktur.\nQuellen: https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html",
+      "og": {
+        "og_kategorie": "EZB · KI-RISIKEN",
+        "og_titel": "EZB analysiert Cyberrisiken durch KI-Agenten",
+        "og_fakten": [],
+        "og_icon": "schild",
+        "og_alt": "Kubistische Karte mit schild: EZB analysiert Cyberrisiken durch KI-Agenten"
+      }
+    },
+    {
+      "id": "2026-11-19-5",
+      "date": "2026-11-19",
+      "number": 5,
+      "title": "Commvault verknüpft Defender-Warnungen mit der Prüfung von Sicherungskopien",
+      "text": "Fakten: Commvault kündigte am 18. November 2026 eine Integration von Microsoft Defender for Endpoint mit Commvault Threat Scan an. Defender-Warnungen sollen potenziell betroffene Systeme und Sicherungskopien identifizieren und gezielte Bedrohungsscans unterstützen. Nach Angaben von Commvault ist die Integration allgemein verfügbar; benötigt werden beide genannten Produkte. Das zusätzliche Warnsignal soll Sicherheits- und Wiederherstellungsteams bei der Auswahl eines Wiederherstellungspunkts helfen.\nEinordnung: Für ERP- und Datenplattformbetrieb verbindet das Sicherheitsüberwachung mit der Frage, welche Daten nach einem Angriff wieder eingespielt werden können. Ein Scan und ein Warnsignal ersetzen keinen eigenen Wiederherstellungstest und garantieren keine schadsoftwarefreie Sicherung. Verfügbarkeits- und Funktionsangaben beruhen auf der Herstellerveröffentlichung; ein unabhängiger Wirksamkeitsnachweis wird nicht behauptet.\nQuellen: https://commvault.gcs-web.com/node/24816/pdf",
+      "og": {
+        "og_kategorie": "COMMVAULT · WIEDERHERSTELLUNG",
+        "og_titel": "Commvault verbindet Defender-Warnungen mit Backup-Prüfung",
+        "og_fakten": [],
+        "og_icon": "schild",
+        "og_alt": "Kubistische Karte mit schild: Commvault verbindet Defender-Warnungen mit Backup-Prüfung"
+      }
+    },
+    {
       "id": "2026-11-18-1",
       "date": "2026-11-18",
       "number": 1,
