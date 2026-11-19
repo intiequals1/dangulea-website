@@ -10570,6 +10570,1032 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-19-1",
+      "contentHash": "80a691288a511aed7be8a3f38d21e220315fe377c636b4a8eaa04ff9a8d05098",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-19T08:59:15Z",
+          "reviewer": "Codex: tatsächliche Lektüre der Originalquellen und einzelner Quellenabgleich",
+          "limitations": [
+            "Aktualisierte Herstellerarchitektur, keine Erstvorstellung oder allgemeine Migrationspflicht. Einzelne Bausteine sind noch nicht allgemein verfügbar; Verfügbarkeit je Landschaft prüfen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP präzisiert das Betriebsmodell für Joule Work",
+              "verdict": "supported",
+              "reason": "Die aktualisierte Referenzarchitektur beschreibt ausdrücklich die Aufteilung zwischen SAP-managed Betrieb und Kundenaufgaben; der Titel behauptet keine neue Produkteinführung.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP hat seine Referenzarchitektur für Joule Work am 18. November 2026 aktualisiert.",
+              "verdict": "supported",
+              "reason": "Die tatsächlich gelesene SAP-Architekturseite trägt Last updated on Nov 18, 2026. Das Datum wird als Dokumentaktualisierung wiedergegeben.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Dokument ordnet Joule Work ausschließlich einem von SAP bereitgestellten und betriebenen Modell zu; bisherige kundenverwaltete Joule-Umgebungen bleiben unterstützt.",
+              "verdict": "supported",
+              "reason": "Die Abschnitte Joule Work und SAP-Managed Provisioning ordnen Bereitstellung und Betrieb SAP zu; die Einleitung sagt ausdrücklich, dass customer-managed Joule weiterhin unterstützt wird.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Identitäten, Daten-Governance und fachliche Konfiguration bleiben wesentliche Aufgaben der Kunden.",
+              "verdict": "supported",
+              "reason": "Die gelesene SAP-Lerneinheit What Stays in the Customer’s Responsibility nennt Identity Foundation und Data Governance; die Referenzarchitektur belässt Business Configuration und Datenkontrolle bei Kunden.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Die Architektur beschreibt einen Übergangsstand, in dem einzelne Bausteine noch nicht allgemein verfügbar sind.",
+              "verdict": "supported",
+              "reason": "Der hervorgehobene Hinweis oben in der Referenzarchitektur bezeichnet einzelne Komponenten als noch nicht GA und die Architektur als transitional state. Die Meldung übernimmt diese Einschränkung.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SAP · JOULE WORK",
+              "verdict": "supported",
+              "reason": "Die Kategorie SAP · JOULE WORK benennt die in der Originalquelle behandelte Organisation und das Themenfeld; keine Freigabe- oder Leistungszusage.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "SAP präzisiert den Betrieb von Joule Work",
+              "verdict": "supported",
+              "reason": "Die Vorschau SAP präzisiert den Betrieb von Joule Work bleibt beim dokumentierten Gegenstand und behauptet keinen zusätzlichen Nutzen oder allgemein verfügbaren Gesamtumfang.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit zahnrad: SAP präzisiert den Betrieb von Joule Work",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das konfigurierte kubistische zahnrad-Motiv und den belegten Vorschautitel; er ergänzt keine Datums- oder Leistungsaussage.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-19T09:01:31Z",
+          "reviewer": "Codex: gesonderte kritische Gegenrecherche mit anderer Prüfstrategie, kein zweites Modell",
+          "limitations": [
+            "Aktualisierte Herstellerarchitektur, keine Erstvorstellung oder allgemeine Migrationspflicht. Einzelne Bausteine sind noch nicht allgemein verfügbar; Verfügbarkeit je Landschaft prüfen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP präzisiert das Betriebsmodell für Joule Work",
+              "verdict": "supported",
+              "reason": "Die kritische Suche trennt Architekturpflege vom früheren Produktstart. Der Titel präzisiert und verspricht keine erstmalige Einführung oder fertige autonome Suite.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP hat seine Referenzarchitektur für Joule Work am 18. November 2026 aktualisiert.",
+              "verdict": "supported",
+              "reason": "Datum nochmals auf der Architekturseite und der Update-Übersicht geprüft: 18.11.2026 ist das Dokumentdatum, kein rückwirkend erfundenes GA-Datum.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Dokument ordnet Joule Work ausschließlich einem von SAP bereitgestellten und betriebenen Modell zu; bisherige kundenverwaltete Joule-Umgebungen bleiben unterstützt.",
+              "verdict": "supported",
+              "reason": "Die exklusive SAP-managed Zuordnung bezieht sich auf Joule Work. Das weiterhin unterstützte ältere Joule-Modell wird im selben Fakt ausdrücklich erhalten; keine universelle Abkündigung.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Identitäten, Daten-Governance und fachliche Konfiguration bleiben wesentliche Aufgaben der Kunden.",
+              "verdict": "supported",
+              "reason": "Die Lerneinheit benennt verbleibende Kundenaufgaben, obwohl SAP Laufzeit und Infrastruktur verwaltet. Die Aussage behauptet deshalb keinen vollständigen Verantwortungsübergang.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Die Architektur beschreibt einen Übergangsstand, in dem einzelne Bausteine noch nicht allgemein verfügbar sind.",
+              "verdict": "supported",
+              "reason": "Der GA-Vorbehalt widerspricht einem pauschalen Alles-verfügbar-Schluss. Die fertige Meldung hält den Übergang und die landschaftsbezogene Prüfung sichtbar fest.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SAP · JOULE WORK",
+              "verdict": "supported",
+              "reason": "Gegenprüfung der Zuordnung: SAP · JOULE WORK benennt den tatsächlichen Urheber und das Themenfeld, keinen Zertifizierungs- oder Freigabestatus.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "SAP präzisiert den Betrieb von Joule Work",
+              "verdict": "supported",
+              "reason": "Die kurze Schlagzeile SAP präzisiert den Betrieb von Joule Work bleibt auch ohne Kontext bei Bericht, Untersuchung oder Verbindung. Keine Beta wird in der Vorschau als allgemeine Freigabe dargestellt.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit zahnrad: SAP präzisiert den Betrieb von Joule Work",
+              "verdict": "supported",
+              "reason": "Kritisch geprüft: zahnrad ist ein Darstellungsicon. Der Alttext übernimmt nur den sachlich begrenzten Vorschautitel und fügt keine Produktleistung oder zusätzliche Zahl hinzu.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.architecture.learning.sap.com/docs/ref-arch/bc7811 \"Nov 18, 2026\" \"remains supported\"",
+              "finding": "Die Architekturseite enthält zugleich das Änderungsdatum 18.11., fortgesetzten Support für customer-managed Joule und einen Hinweis auf noch nicht allgemein verfügbare Bausteine. Keine neue Produkteinführung behauptet.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            },
+            {
+              "query": "site.learning.sap.com \"SAP-Managed Joule\" \"Choice\" \"Forced\" migration",
+              "finding": "Die tatsächlich gelesene SAP-Lerneinheit widerspricht einer pauschalen Zwangsmigration und belässt Identity, Data Governance und Konfiguration bei Kunden. Die aktuelle Formulierung bewahrt diese Abgrenzung; die nicht lesbare Help-Portal-Ansicht wurde nicht als Beleg verwendet.",
+              "sourceUrls": [
+                "https://architecture.learning.sap.com/docs/ref-arch/bc7811",
+                "https://learning.sap.com/courses/guiding-ai-driven-transformation-as-an-sap-enterprise-architect/differentiating-shifting-operating-models-from-customer-managed-to-sap-managed-joule_aa4f715f-8853-4fb4-8abc-fb1d1a1d1302"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "18.11.2026 ist das sichtbare Aktualisierungsdatum der Referenzarchitektur, keine neue Produktfreigabe. Keine abweichende Zahl übernommen.",
+            "scopeAndQualifications": "Exklusives SAP-managed Modell betrifft Joule Work; customer-managed Joule bleibt unterstützt. Übergangsstand und noch nicht GA verfügbare Bausteine werden sichtbar begrenzt.",
+            "sourceIndependence": "Architektur und Lerneinheit sind beide SAP-Quellen. Kein unabhängiger Nachweis für geringeren Aufwand oder bessere Sicherheit behauptet.",
+            "contradictions": "Kein Widerspruch in den veröffentlichten Aussagen gefunden. Eine nicht lesbare Help-Portal-Seite wurde ausgeschlossen; konkrete Migrationsschritte werden nicht als geprüft veröffentlicht."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-2",
+      "contentHash": "70cae4d01cbf57e17ec25b6a7a72794032b85142841fba6b657b874e2ea61af0",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-19T08:59:15Z",
+          "reviewer": "Codex: tatsächliche Lektüre der Originalquellen und einzelner Quellenabgleich",
+          "limitations": [
+            "Funktions- und Governance-Angaben stammen von beteiligten Unternehmen. Copilot und Data Sharing sind Beta, Teams ist Pilot; die verfügbare Föderation ist keine Freigabe aller Integrationen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Copilotforce verbindet CRM-Kontext mit Copilot und Fabric in mehreren Freigabestufen",
+              "verdict": "supported",
+              "reason": "Der vollständige Salesforce-Originalbeitrag beschreibt CRM-Kontext, Copilot und Fabric und unterscheidet im Abschnitt Availability Roadmap ausdrücklich verschiedene Freigabestufen.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Salesforce und Microsoft stellten Copilotforce am 17. November 2026 als Zusammenarbeit für CRM-gestützte Arbeitsabläufe vor.",
+              "verdict": "supported",
+              "reason": "Die globale Originalmeldung datiert die gemeinsame Ankündigung auf den 17.11.2026. Sie nennt Copilotforce eine Zusammenarbeit; das regionale Wiederveröffentlichungsdatum 19.11. wird nicht als Erstankündigung verwendet.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut Salesforce ist die Copilot-Anbindung eine öffentliche Beta, während Sales Cloud in Teams im Pilotbetrieb bleibt.",
+              "verdict": "supported",
+              "reason": "Die Roadmap nennt Salesforce in Microsoft Copilot Public Preview (Beta) und Salesforce in Teams Pilot. Der Fakt übernimmt genau diese getrennten Zustände.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Zugriff aus Data 360 auf unterstützte Fabric-OneLake-Daten ist als allgemein verfügbar ausgewiesen; die Gegenrichtung über Data Sharing befindet sich in öffentlicher Beta.",
+              "verdict": "supported",
+              "reason": "Data Federation ist in der Roadmap Generally Available, Salesforce Data 360 Data Sharing dagegen Public Preview, Beta. Die Funktionsabschnitte nennen die Datenflussrichtungen Data 360 zu Fabric-Abfrage beziehungsweise Data 360 nach OneLake.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Unterstützte Schreibaktionen in das CRM benötigen laut Anbieter eine ausdrückliche Bestätigung durch den Nutzer.",
+              "verdict": "supported",
+              "reason": "Der Abschnitt Enterprise-grade governance sagt, dass unterstützte Writeback-Aktionen ausdrückliche Nutzerbestätigung erfordern und bestehende Validierungsregeln beachten. Die Meldung schreibt die Aussage dem Anbieter zu.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SALESFORCE · COPILOTFORCE",
+              "verdict": "supported",
+              "reason": "Die Kategorie SALESFORCE · COPILOTFORCE benennt die in der Originalquelle behandelte Organisation und das Themenfeld; keine Freigabe- oder Leistungszusage.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Copilotforce verknüpft CRM und Arbeitskontext",
+              "verdict": "supported",
+              "reason": "Die Vorschau Copilotforce verknüpft CRM und Arbeitskontext bleibt beim dokumentierten Gegenstand und behauptet keinen zusätzlichen Nutzen oder allgemein verfügbaren Gesamtumfang.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit cloud: Copilotforce verknüpft CRM und Arbeitskontext",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das konfigurierte kubistische cloud-Motiv und den belegten Vorschautitel; er ergänzt keine Datums- oder Leistungsaussage.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-19T09:01:31Z",
+          "reviewer": "Codex: gesonderte kritische Gegenrecherche mit anderer Prüfstrategie, kein zweites Modell",
+          "limitations": [
+            "Funktions- und Governance-Angaben stammen von beteiligten Unternehmen. Copilot und Data Sharing sind Beta, Teams ist Pilot; die verfügbare Föderation ist keine Freigabe aller Integrationen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Copilotforce verbindet CRM-Kontext mit Copilot und Fabric in mehreren Freigabestufen",
+              "verdict": "supported",
+              "reason": "Die Quellen zeigen verschiedene Reifegrade innerhalb der Zusammenarbeit. Die Schlagzeile macht diese Differenz selbst zum Gegenstand statt eine vollständige produktive Integration zu versprechen.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Salesforce und Microsoft stellten Copilotforce am 17. November 2026 als Zusammenarbeit für CRM-gestützte Arbeitsabläufe vor.",
+              "verdict": "supported",
+              "reason": "Zusätzlich gelesene Microsoft-Mitteilung bestätigt die ursprüngliche Ankündigung am 17.11.; ein regionaler Salesforce-Nachdruck vom 19.11. verändert dieses Datum nicht.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Laut Salesforce ist die Copilot-Anbindung eine öffentliche Beta, während Sales Cloud in Teams im Pilotbetrieb bleibt.",
+              "verdict": "qualified",
+              "reason": "Microsoft nennt Copilot ausdrücklich public preview beta und Teams Pilot. Kein Freigabestatus wird aus einer anderen Integration übertragen.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Zugriff aus Data 360 auf unterstützte Fabric-OneLake-Daten ist als allgemein verfügbar ausgewiesen; die Gegenrichtung über Data Sharing befindet sich in öffentlicher Beta.",
+              "verdict": "qualified",
+              "reason": "Die Datenrichtung wurde gesondert geprüft: Fabric-Daten in Data 360 abfragen ist GA, Data-360-Kontext nach OneLake teilen ist Preview. Keine symmetrische GA-Verfügbarkeit behauptet.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Unterstützte Schreibaktionen in das CRM benötigen laut Anbieter eine ausdrückliche Bestätigung durch den Nutzer.",
+              "verdict": "supported",
+              "reason": "Die Bestätigung gilt laut beiden Partnerquellen für unterstützte Schreibaktionen. Daraus wird keine Fähigkeit zu beliebigen autonomen Änderungen und keine nachgewiesene Sicherheitswirkung abgeleitet.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SALESFORCE · COPILOTFORCE",
+              "verdict": "supported",
+              "reason": "Gegenprüfung der Zuordnung: SALESFORCE · COPILOTFORCE benennt den tatsächlichen Urheber und das Themenfeld, keinen Zertifizierungs- oder Freigabestatus.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Copilotforce verknüpft CRM und Arbeitskontext",
+              "verdict": "supported",
+              "reason": "Die kurze Schlagzeile Copilotforce verknüpft CRM und Arbeitskontext bleibt auch ohne Kontext bei Bericht, Untersuchung oder Verbindung. Keine Beta wird in der Vorschau als allgemeine Freigabe dargestellt.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit cloud: Copilotforce verknüpft CRM und Arbeitskontext",
+              "verdict": "supported",
+              "reason": "Kritisch geprüft: cloud ist ein Darstellungsicon. Der Alttext übernimmt nur den sachlich begrenzten Vorschautitel und fügt keine Produktleistung oder zusätzliche Zahl hinzu.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.salesforce.com \"Copilotforce\" \"Data Federation\" \"Public Preview\" \"November 17, 2026\"",
+              "finding": "Die zusätzlich vollständig gelesene Microsoft-Originalmitteilung bestätigt public preview für Copilot, Pilot für Teams, GA nur für die Föderationsrichtung OneLake nach Data 360 und Preview für die Gegenrichtung. Die Unternehmen sind Partner, also keine unabhängigen Prüfer.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+              ]
+            },
+            {
+              "query": "site.salesforce.com \"Copilotforce\" \"writeback\" \"explicit user confirmation\"",
+              "finding": "Microsoft und Salesforce nennen explizite Nutzerbestätigung für unterstützte CRM-Schreibaktionen. Es gibt keinen in diesen Quellen nachgewiesenen Produktivitätsgewinn; der Text übernimmt deshalb keine Zeitersparnis oder pauschale Compliance-Garantie.",
+              "sourceUrls": [
+                "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Globale Ankündigung beider Partner vom 17.11.2026, nicht der regionale Salesforce-Nachdruck vom 19.11. Keine Nutzerzahlen oder Produktivitätswerte übernommen.",
+            "scopeAndQualifications": "Copilot Beta, Teams Pilot, Data Federation GA und Reverse Sharing Beta getrennt. Supported writeback erfordert ausdrückliche Bestätigung.",
+            "sourceIndependence": "Die gelesenen Microsoft- und Salesforce-Mitteilungen stammen aus derselben Partnerschaft. Sie sind Originalquellen, keine voneinander unabhängigen Tests.",
+            "contradictions": "Kein inhaltlicher Widerspruch bei Status oder Nutzerbestätigung. Unterschiedliche Titel und regionale Datierung verändern die ursprüngliche Ankündigung nicht."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-3",
+      "contentHash": "92383ac77671e2533df34b9445dc9a4a8882bc1c7a5ea34cd9d4f65d592d33ff",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-19T08:59:15Z",
+          "reviewer": "Codex: tatsächliche Lektüre der Originalquellen und einzelner Quellenabgleich",
+          "limitations": [
+            "Vorabdarstellung aus dem eigenen Unternehmensumfeld, nicht unabhängig reproduziert. Nur SFT und H200, wenige sehr lange Läufe; vollständiger Forschungsbericht erst angekündigt und keine unkalibrierte Hardwareübertragung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Dharma-AI untersucht Laufzeitprognosen für Fine-Tuning auf gemeinsam genutzten GPUs",
+              "verdict": "supported",
+              "reason": "Der tatsächlich vollständig gelesene Teambeitrag behandelt empirische Dauerprognosen auf geteilten GPUs und bezeichnet sich selbst als Vorschau eines noch kommenden Papers.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Dharma-AI veröffentlichte am 18. November 2026 auf Hugging Face eine Vorabdarstellung zu Laufzeitprognosen anhand von 272 überwachten Fine-Tuning-Läufen auf H200-GPUs.",
+              "verdict": "supported",
+              "reason": "Kopfdatum 18.11.2026, Data-Abschnitt und Einleitung nennen 272 SFT-Läufe auf NVIDIA H200 in der eigenen Produktionsumgebung. SFT wird als überwachtes Fine-Tuning übersetzt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Ein CatBoost-Modell nutzt dabei nur vor dem Start bekannte Konfigurationsdaten, darunter Signale zu Evaluation und Checkpoints.",
+              "verdict": "supported",
+              "reason": "Der Abschnitt What we built beschränkt Eingaben auf vor Dispatch bekannte Jobkonfiguration; abgeleitete Signale umfassen Evaluationsvolumen und Checkpoint-I/O. Es werden keine Laufzeitlogs als notwendige Eingabe behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Das Team berichtet in fünffacher Kreuzvalidierung einen mittleren absoluten Fehler von 1,71 Stunden gegenüber 12,41 Stunden für seine beste FLOP-basierte Vergleichsschätzung.",
+              "verdict": "supported",
+              "reason": "Die Ergebnistabelle aus stratified 5-fold cross-validation nennt CatBoost MAE 1.71 h und für die beste FLOP-Variante bei MFU 30 Prozent MAE 12.41 h. Im Text werden beide als eigene Teamresultate eingegrenzt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Warteschlangenzeit gehört nicht zur prognostizierten Laufzeit.",
+              "verdict": "supported",
+              "reason": "Der Absatz zum Regressionsziel definiert die Dauer vom Zuweisen der GPUs bis Jobende und schließt Queue time ausdrücklich aus. Die Aussage übernimmt genau diese Abgrenzung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DHARMA-AI · TRAININGSBETRIEB",
+              "verdict": "supported",
+              "reason": "Die Kategorie DHARMA-AI · TRAININGSBETRIEB benennt die in der Originalquelle behandelte Organisation und das Themenfeld; keine Freigabe- oder Leistungszusage.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Dharma-AI untersucht Laufzeitprognosen für Fine-Tuning",
+              "verdict": "supported",
+              "reason": "Die Vorschau Dharma-AI untersucht Laufzeitprognosen für Fine-Tuning bleibt beim dokumentierten Gegenstand und behauptet keinen zusätzlichen Nutzen oder allgemein verfügbaren Gesamtumfang.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "og-fact-1",
+              "text": "272 · Fine-Tuning-Läufe",
+              "verdict": "supported",
+              "reason": "272 ist die Zahl der untersuchten SFT-Läufe, nicht die Zahl der GPUs oder eine Leistungsmetrik. Das Label Fine-Tuning-Läufe entspricht der im Original genannten Einheit.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit zahnrad: Dharma-AI untersucht Laufzeitprognosen für Fine-Tuning",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das konfigurierte kubistische zahnrad-Motiv und den belegten Vorschautitel; er ergänzt keine Datums- oder Leistungsaussage.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-19T09:01:31Z",
+          "reviewer": "Codex: gesonderte kritische Gegenrecherche mit anderer Prüfstrategie, kein zweites Modell",
+          "limitations": [
+            "Vorabdarstellung aus dem eigenen Unternehmensumfeld, nicht unabhängig reproduziert. Nur SFT und H200, wenige sehr lange Läufe; vollständiger Forschungsbericht erst angekündigt und keine unkalibrierte Hardwareübertragung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Dharma-AI untersucht Laufzeitprognosen für Fine-Tuning auf gemeinsam genutzten GPUs",
+              "verdict": "supported",
+              "reason": "Die Gegenrecherche liefert keine belastbare unabhängige Reproduktion. Untersucht ist deshalb die richtige Überschriftenform; ein allgemein bewiesener Optimierungserfolg wäre zu weitgehend.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Dharma-AI veröffentlichte am 18. November 2026 auf Hugging Face eine Vorabdarstellung zu Laufzeitprognosen anhand von 272 überwachten Fine-Tuning-Läufen auf H200-GPUs.",
+              "verdict": "supported",
+              "reason": "272 bezeichnet SFT-Jobs im eigenen H200-Umfeld und nicht 272 GPUs oder alle Trainingsarten. Datum und Vorabstatus im Original erneut abgeglichen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Ein CatBoost-Modell nutzt dabei nur vor dem Start bekannte Konfigurationsdaten, darunter Signale zu Evaluation und Checkpoints.",
+              "verdict": "qualified",
+              "reason": "Vor dem Dispatch bekannte Features können Evaluations- und Checkpoint-Planung umfassen; das ist nicht mit nachträglich beobachteten Laufzeitlogs gleichgesetzt. Kein Leistungsmonitoring als Voraussetzung erfunden.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Das Team berichtet in fünffacher Kreuzvalidierung einen mittleren absoluten Fehler von 1,71 Stunden gegenüber 12,41 Stunden für seine beste FLOP-basierte Vergleichsschätzung.",
+              "verdict": "qualified",
+              "reason": "Die Zahlen sind MAE in Stunden und aus interner fünffacher Kreuzvalidierung. Keine Reduktion realer Trainingszeit, keine externe Testreplikation und kein allgemein gültiger Fehlerwert behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Warteschlangenzeit gehört nicht zur prognostizierten Laufzeit.",
+              "verdict": "supported",
+              "reason": "Queue time ist im Original ausdrücklich ausgeschlossen. Die Meldung behauptet deshalb keine Vorhersage der vollständigen Wartezeit von Einreichung bis Abschluss.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DHARMA-AI · TRAININGSBETRIEB",
+              "verdict": "supported",
+              "reason": "Gegenprüfung der Zuordnung: DHARMA-AI · TRAININGSBETRIEB benennt den tatsächlichen Urheber und das Themenfeld, keinen Zertifizierungs- oder Freigabestatus.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Dharma-AI untersucht Laufzeitprognosen für Fine-Tuning",
+              "verdict": "supported",
+              "reason": "Die kurze Schlagzeile Dharma-AI untersucht Laufzeitprognosen für Fine-Tuning bleibt auch ohne Kontext bei Bericht, Untersuchung oder Verbindung. Keine Beta wird in der Vorschau als allgemeine Freigabe dargestellt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "og-fact-1",
+              "text": "272 · Fine-Tuning-Läufe",
+              "verdict": "supported",
+              "reason": "Der Vorschauwert 272 wurde gegen die Originalangabe und die Einheit SFT-Läufe geprüft. Er bezeichnet weder Personen noch GPUs, und das Label bleibt bei der untersuchten Stichprobe.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit zahnrad: Dharma-AI untersucht Laufzeitprognosen für Fine-Tuning",
+              "verdict": "supported",
+              "reason": "Kritisch geprüft: zahnrad ist ein Darstellungsicon. Der Alttext übernimmt nur den sachlich begrenzten Vorschautitel und fügt keine Produktleistung oder zusätzliche Zahl hinzu.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time \"1.71\" \"12.41\"",
+              "finding": "Die gezielte Recherche findet Wiederholungen der ursprünglichen Dharma-AI-Darstellung, keine unabhängig replizierte Messung. Die Originaltabelle nennt 1.71 h MAE und 12.41 h für die beste FLOP-Variante; das ist keine Garantie für künftige Jobs.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            },
+            {
+              "query": "\"Dharma-AI\" \"predicting\" \"H200\" \"Queue\" limitations",
+              "finding": "Die Originalabschnitte zum Regressionsziel und Limitations wurden erneut gelesen: Queue time ausgeschlossen, nur SFT, nur H200, wenige Läufe über 60 Stunden und vollständiges Paper erst angekündigt. Die Einordnung macht diese Beschränkungen sichtbar.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "272 SFT-Läufe; H200; 18.11.2026. MAE 1,71 h gegen 12,41 h, nicht RMSE oder Laufzeitersparnis. Fünffache interne Kreuzvalidierung.",
+            "scopeAndQualifications": "Wartezeit ausgeschlossen, ein GPU-Typ, SFT-only, lange Läufe unterrepräsentiert. Vollbericht angekündigt, keine ungeprüfte Übertragung auf andere Hardware.",
+            "sourceIndependence": "Dharma-AI veröffentlicht die eigene Untersuchung. Gefundene Nacherzählungen liefern keine Replikation; diese wird im Beitrag ausdrücklich nicht behauptet.",
+            "contradictions": "Keine Zahlendifferenz in der Originaltabelle festgestellt. Niedriger Vorhersagefehler beweist keine höhere GPU-Auslastung; die Einordnung empfiehlt nur sachbezogene Kapazitätsplanung."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-4",
+      "contentHash": "d7159b764fb1c04837b13f5a50145de415b8b1818e0a09500e23fa98c4c4786f",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-19T08:59:15Z",
+          "reviewer": "Codex: tatsächliche Lektüre der Originalquellen und einzelner Quellenabgleich",
+          "limitations": [
+            "Analyse möglicher systemischer Übertragungskanäle, keine Aussage über einen bevorstehenden Zusammenbruch und keine neue gesetzliche Pflicht. Die Lage einzelner Unternehmen wird nicht empirisch nachgewiesen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EZB analysiert KI-Agenten als Cyberrisiko für Finanzsysteme",
+              "verdict": "supported",
+              "reason": "Der gelesene EZB-Sonderbeitrag Decoding the cyber-AI nexus ordnet agentische Cyberrisiken und mögliche systemische Übertragungskanäle ein; die Überschrift behauptet kein eingetretenes Systemereignis.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EZB untersucht im Financial Stability Review vom November 2026 die Wechselwirkung zwischen KI und Cybersicherheit.",
+              "verdict": "supported",
+              "reason": "Der Originalkopf ordnet den Artikel dem Financial Stability Review November 2026 zu. Gegenstand sind ausdrücklich KI und Cybersicherheit sowie die Finanzstabilität des Euroraums.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Analyse beschreibt Nutzen für Angreifer und Verteidiger sowie zusätzliche Risiken durch unzureichend beaufsichtigte Agenten und konzentrierte IT-Dienstleister.",
+              "verdict": "supported",
+              "reason": "Die Absätze zu Angreifern und Verteidigern nennen beide Nutzungsrichtungen; die Abschnitte zur Angriffsfläche und Drittanbietern nennen unbeaufsichtigte Agenten, hohe Rechte und konzentrierte IT-Abhängigkeiten.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Sie empfiehlt unter anderem mehrschichtige Abwehr, die Überwachung von Verkehr mit KI-Modellen und gemeinsame Notfallplanung mit regelmäßigen Tests.",
+              "verdict": "supported",
+              "reason": "Die Schlussfolgerungen nennen defence in depth, heightened monitoring of any traffic with AI models und gemeinsame contingency planning mit frequent testing. Die Meldung gibt ausgewählte Empfehlungen wieder.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Zugleich hält sie fest, dass es im Bankensystem des Euroraums bislang kein systemisches Cyberereignis gegeben hat.",
+              "verdict": "supported",
+              "reason": "Der Abschnitt zu Banken sagt ausdrücklich, dass das Bankensystem des Euroraums bislang kein systemisches Cyberereignis erlebt hat. Diese Einschränkung bleibt im Beitrag sichtbar.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "EZB · KI-RISIKEN",
+              "verdict": "supported",
+              "reason": "Die Kategorie EZB · KI-RISIKEN benennt die in der Originalquelle behandelte Organisation und das Themenfeld; keine Freigabe- oder Leistungszusage.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "EZB analysiert Cyberrisiken durch KI-Agenten",
+              "verdict": "supported",
+              "reason": "Die Vorschau EZB analysiert Cyberrisiken durch KI-Agenten bleibt beim dokumentierten Gegenstand und behauptet keinen zusätzlichen Nutzen oder allgemein verfügbaren Gesamtumfang.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit schild: EZB analysiert Cyberrisiken durch KI-Agenten",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das konfigurierte kubistische schild-Motiv und den belegten Vorschautitel; er ergänzt keine Datums- oder Leistungsaussage.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-19T09:01:31Z",
+          "reviewer": "Codex: gesonderte kritische Gegenrecherche mit anderer Prüfstrategie, kein zweites Modell",
+          "limitations": [
+            "Analyse möglicher systemischer Übertragungskanäle, keine Aussage über einen bevorstehenden Zusammenbruch und keine neue gesetzliche Pflicht. Die Lage einzelner Unternehmen wird nicht empirisch nachgewiesen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EZB analysiert KI-Agenten als Cyberrisiko für Finanzsysteme",
+              "verdict": "supported",
+              "reason": "Der Titel behandelt eine Risikoanalyse; der Originaltext erlaubt keine Behauptung eines eingetretenen systemischen Schadens. Die letzte Quellenaussage schützt ausdrücklich vor dieser Überdehnung.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EZB untersucht im Financial Stability Review vom November 2026 die Wechselwirkung zwischen KI und Cybersicherheit.",
+              "verdict": "supported",
+              "reason": "November 2026 bezeichnet die Ausgabe des Reviews. Ältere zitierte Literatur wird nicht als neue Einzelstudie ausgegeben und keine unsichere tagesgenaue Erstveröffentlichung ergänzt.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Analyse beschreibt Nutzen für Angreifer und Verteidiger sowie zusätzliche Risiken durch unzureichend beaufsichtigte Agenten und konzentrierte IT-Dienstleister.",
+              "verdict": "supported",
+              "reason": "Die Analyse betont den beidseitigen Nutzen von KI und zugleich Konzentrations- und Agentenrisiken. Die Meldung zieht daraus keine einseitig bewiesene Unbeherrschbarkeit.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Sie empfiehlt unter anderem mehrschichtige Abwehr, die Überwachung von Verkehr mit KI-Modellen und gemeinsame Notfallplanung mit regelmäßigen Tests.",
+              "verdict": "supported",
+              "reason": "Die Maßnahmen werden als Empfehlungen der Analyse berichtet. Kein zwingender Gesetzesbefehl und keine vollständige Garantie einer erfolgreichen Abwehr daraus abgeleitet.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Zugleich hält sie fest, dass es im Bankensystem des Euroraums bislang kein systemisches Cyberereignis gegeben hat.",
+              "verdict": "supported",
+              "reason": "Die Originalpassage nennt das Euroraum-Bankensystem und systemische Ereignisse. Das bedeutet nicht, dass es keine einzelnen Cybervorfälle oder Risiken gibt.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "EZB · KI-RISIKEN",
+              "verdict": "supported",
+              "reason": "Gegenprüfung der Zuordnung: EZB · KI-RISIKEN benennt den tatsächlichen Urheber und das Themenfeld, keinen Zertifizierungs- oder Freigabestatus.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "EZB analysiert Cyberrisiken durch KI-Agenten",
+              "verdict": "supported",
+              "reason": "Die kurze Schlagzeile EZB analysiert Cyberrisiken durch KI-Agenten bleibt auch ohne Kontext bei Bericht, Untersuchung oder Verbindung. Keine Beta wird in der Vorschau als allgemeine Freigabe dargestellt.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit schild: EZB analysiert Cyberrisiken durch KI-Agenten",
+              "verdict": "supported",
+              "reason": "Kritisch geprüft: schild ist ein Darstellungsicon. Der Alttext übernimmt nur den sachlich begrenzten Vorschautitel und fügt keine Produktleistung oder zusätzliche Zahl hinzu.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.ecb.europa.eu \"November 2026\" \"systemic cyber event\" \"not\"",
+              "finding": "Die Originalpassage zu Banken wurde erneut geprüft: bislang kein systemisches Cyberereignis im Euroraum. Empfehlungen und Risikoszenarien werden nicht als eingetretener Schaden behandelt.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            },
+            {
+              "query": "site.ecb.europa.eu \"Decoding the cyber-AI nexus\" \"contingency\" \"monitoring\"",
+              "finding": "Die Schlussfolgerungen nennen tatsächliche Abwehrmaßnahmen, KI-Verkehrsüberwachung und gemeinsame, regelmäßig getestete Notfallplanung. Das ist eine EZB-Analyse, kein neuer Rechtsakt; technische Empfehlungen werden nicht zu einer neuen Rechtspflicht aufgewertet.",
+              "sourceUrls": [
+                "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Zugerechnet zur November-Ausgabe 2026. Keine unsicheren numerischen Angriffs- oder Ausfallprognosen übernommen.",
+            "scopeAndQualifications": "Die Aussage betrifft mögliche systemische Übertragungskanäle im Euroraum und ist keine Feststellung eines bereits eingetretenen Systemereignisses. Keine neue Rechtsnorm behauptet.",
+            "sourceIndependence": "Offizielle EZB-Analyse mit verschiedenen Literatur- und Datenquellen; hier deren Einordnung berichtet, keine unabhängige Replikation sämtlicher Einzelstudien vorgegeben.",
+            "contradictions": "Das Original sagt ausdrücklich bislang kein systemisches Cyberereignis. Dies ist mit Risiken und Empfehlungen vereinbar und verhindert eine alarmistische Fehlinterpretation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-5",
+      "contentHash": "47b5f416dbbc044109b2d35f2e1ac7239de9b623f015b0b1138e0561bd10dc3c",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-19T08:59:15Z",
+          "reviewer": "Codex: tatsächliche Lektüre der Originalquellen und einzelner Quellenabgleich",
+          "limitations": [
+            "Herstellerveröffentlichung ohne unabhängigen Wirksamkeitsnachweis. Scan und Warnsignal ersetzen keinen Wiederherstellungstest und garantieren keine schadsoftwarefreie Sicherung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Commvault verknüpft Defender-Warnungen mit der Prüfung von Sicherungskopien",
+              "verdict": "supported",
+              "reason": "Die gelesene offizielle Mitteilung behandelt genau die Verknüpfung von Defender for Endpoint und Threat Scan zur Prüfung potenziell betroffener Backups; keine Garantie sauberer Wiederherstellung.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Commvault kündigte am 18. November 2026 eine Integration von Microsoft Defender for Endpoint mit Commvault Threat Scan an.",
+              "verdict": "supported",
+              "reason": "Das Original-PDF ist mit November 18, 2026 datiert und nennt in der Einleitung beide integrierten Produkte.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Defender-Warnungen sollen potenziell betroffene Systeme und Sicherungskopien identifizieren und gezielte Bedrohungsscans unterstützen.",
+              "verdict": "supported",
+              "reason": "Einleitung und Aufzählung beschreiben Defender-Warnungen als Signal zum Identifizieren potenziell betroffener Systeme und Backups sowie automatischem Scannen. Die Meldung sagt sollen und potenziell.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Nach Angaben von Commvault ist die Integration allgemein verfügbar; benötigt werden beide genannten Produkte.",
+              "verdict": "supported",
+              "reason": "Der Abschnitt Availability meldet generally available today und setzt Microsoft Defender for Endpoint sowie Commvault Threat Scan voraus. Die Statusangabe wird ausdrücklich Commvault zugeschrieben.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Das zusätzliche Warnsignal soll Sicherheits- und Wiederherstellungsteams bei der Auswahl eines Wiederherstellungspunkts helfen.",
+              "verdict": "supported",
+              "reason": "Die Abschnitte zur gemeinsamen Bedrohungssicht nennen Sicherheits- und Recovery-Teams und die Auswahl von Daten zur Wiederherstellung. Die Meldung formuliert einen vorgesehenen Nutzen statt eines gemessenen Erfolgs.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "COMMVAULT · WIEDERHERSTELLUNG",
+              "verdict": "supported",
+              "reason": "Die Kategorie COMMVAULT · WIEDERHERSTELLUNG benennt die in der Originalquelle behandelte Organisation und das Themenfeld; keine Freigabe- oder Leistungszusage.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Commvault verbindet Defender-Warnungen mit Backup-Prüfung",
+              "verdict": "supported",
+              "reason": "Die Vorschau Commvault verbindet Defender-Warnungen mit Backup-Prüfung bleibt beim dokumentierten Gegenstand und behauptet keinen zusätzlichen Nutzen oder allgemein verfügbaren Gesamtumfang.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit schild: Commvault verbindet Defender-Warnungen mit Backup-Prüfung",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das konfigurierte kubistische schild-Motiv und den belegten Vorschautitel; er ergänzt keine Datums- oder Leistungsaussage.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-19T09:01:31Z",
+          "reviewer": "Codex: gesonderte kritische Gegenrecherche mit anderer Prüfstrategie, kein zweites Modell",
+          "limitations": [
+            "Herstellerveröffentlichung ohne unabhängigen Wirksamkeitsnachweis. Scan und Warnsignal ersetzen keinen Wiederherstellungstest und garantieren keine schadsoftwarefreie Sicherung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Commvault verknüpft Defender-Warnungen mit der Prüfung von Sicherungskopien",
+              "verdict": "supported",
+              "reason": "Das neue Element ist das Verbinden von Defender-Signalen mit Backup-Untersuchung. Der Titel behauptet weder automatisch saubere Sicherungen noch eine vollständig autonome Wiederherstellung.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf",
+                "https://www.commvault.com/news/commvault-expands-microsoft-security-integration"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Commvault kündigte am 18. November 2026 eine Integration von Microsoft Defender for Endpoint mit Commvault Threat Scan an.",
+              "verdict": "supported",
+              "reason": "Datum und Integrationspartner sind im originalen PDF sowie im tatsächlich gelesenen Unternehmens-HTML konsistent. Beide bleiben eine Unternehmensquelle.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf",
+                "https://www.commvault.com/news/commvault-expands-microsoft-security-integration"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Defender-Warnungen sollen potenziell betroffene Systeme und Sicherungskopien identifizieren und gezielte Bedrohungsscans unterstützen.",
+              "verdict": "qualified",
+              "reason": "Potenziell und sollen begrenzen die Aussage auf ein Warn- und Scanverfahren. Kein Detektionserfolg, kein garantierter Schutz und keine ungetestete Wiederherstellung werden als Fakt aufgewertet.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf",
+                "https://www.commvault.com/news/commvault-expands-microsoft-security-integration"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Nach Angaben von Commvault ist die Integration allgemein verfügbar; benötigt werden beide genannten Produkte.",
+              "verdict": "qualified",
+              "reason": "GA ist ausdrücklich ein Herstellerstatus. Beide Produkte sind Voraussetzungen; daraus folgt kein voraussetzungsloser Zugang für sämtliche Microsoft-Kunden.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf",
+                "https://www.commvault.com/news/commvault-expands-microsoft-security-integration"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Das zusätzliche Warnsignal soll Sicherheits- und Wiederherstellungsteams bei der Auswahl eines Wiederherstellungspunkts helfen.",
+              "verdict": "supported",
+              "reason": "Der Nutzen ist als vorgesehene Entscheidungsunterstützung formuliert. Eigene Wiederherstellungstests bleiben in der Einordnung nötig; externe Wirksamkeit wurde nicht belegt.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf",
+                "https://www.commvault.com/news/commvault-expands-microsoft-security-integration"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "COMMVAULT · WIEDERHERSTELLUNG",
+              "verdict": "supported",
+              "reason": "Gegenprüfung der Zuordnung: COMMVAULT · WIEDERHERSTELLUNG benennt den tatsächlichen Urheber und das Themenfeld, keinen Zertifizierungs- oder Freigabestatus.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf",
+                "https://www.commvault.com/news/commvault-expands-microsoft-security-integration"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Commvault verbindet Defender-Warnungen mit Backup-Prüfung",
+              "verdict": "supported",
+              "reason": "Die kurze Schlagzeile Commvault verbindet Defender-Warnungen mit Backup-Prüfung bleibt auch ohne Kontext bei Bericht, Untersuchung oder Verbindung. Keine Beta wird in der Vorschau als allgemeine Freigabe dargestellt.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf",
+                "https://www.commvault.com/news/commvault-expands-microsoft-security-integration"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit schild: Commvault verbindet Defender-Warnungen mit Backup-Prüfung",
+              "verdict": "supported",
+              "reason": "Kritisch geprüft: schild ist ein Darstellungsicon. Der Alttext übernimmt nur den sachlich begrenzten Vorschautitel und fügt keine Produktleistung oder zusätzliche Zahl hinzu.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf",
+                "https://www.commvault.com/news/commvault-expands-microsoft-security-integration"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.commvault.com \"November 18, 2026\" \"Defender\" \"generally available\"",
+              "finding": "Die gelesene HTML-Originalveröffentlichung und das ursprüngliche PDF stimmen bei Datum, GA-Angabe und beiden Produktvoraussetzungen überein. Die Formate wiederholen dieselbe Unternehmensmitteilung und zählen nicht als unabhängige Bestätigung.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf",
+                "https://www.commvault.com/news/commvault-expands-microsoft-security-integration"
+              ]
+            },
+            {
+              "query": "\"Commvault\" \"Threat Scan\" \"Defender\" \"must have\" \"November 18\"",
+              "finding": "Die Quellen beschreiben potenziell betroffene Backups und ein zusätzliches Warnsignal, keine bewiesene Fehlerfreiheit von Wiederherstellungen. Ein erwähntes IDC-Ergebnis ist von Commvault finanziert; seine Prozentzahl wird nicht übernommen.",
+              "sourceUrls": [
+                "https://commvault.gcs-web.com/node/24816/pdf",
+                "https://www.commvault.com/news/commvault-expands-microsoft-security-integration"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "18.11.2026 und GA am selben Tag laut Hersteller in PDF und HTML abgeglichen. Keine gesponserte 35-Prozent-Zahl in die Meldung übernommen.",
+            "scopeAndQualifications": "Warn- und Scanunterstützung für potenziell betroffene Backups, beide Produkte erforderlich. Kein sauberer Restore garantiert und kein eigener Wiederherstellungstest ersetzt.",
+            "sourceIndependence": "PDF, Investor-Relation-Seite und Unternehmens-HTML wiederholen dieselbe Commvault-Mitteilung. Aussagen bleiben Herstellerangaben; keine unabhängige Wirksamkeitsbestätigung.",
+            "contradictions": "Keine widersprüchliche Verfügbarkeit in den geprüften Originalformaten. Ein zusätzliches Warnsignal ist nicht gleichbedeutend mit sicherem Wiederherstellungspunkt."
+          }
+        }
+      ]
     }
   ]
 }
