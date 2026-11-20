@@ -11596,6 +11596,1060 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-20-1",
+      "contentHash": "3225c4c3735ef79e9d0c6f911417c8e34eeffd2c09962ac08c9c360a560ef312",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-20T08:39:51Z",
+          "reviewer": "Codex: tatsächliche Originalquellenlektüre und einzelner Quellenabgleich",
+          "limitations": [
+            "Normungsstand, kein automatischer Nachweis vollständiger CRA-Konformität. Produktspezifische Anforderungen und Rechtsstatus gesondert prüfen; öffentlich gelesene Zusammenfassungen ersetzen keine Prüfung der vollständigen Normtexte."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Erste CRA-Normen konkretisieren das Risikomanagement für digitale Produkte",
+              "verdict": "supported",
+              "reason": "Die tatsächlich gelesene CEN-CENELEC-Mitteilung beschreibt erstmals verfügbare Grundlagen für Cybersecurity-Risikomanagement und Lebenszyklusaktivitäten. Der Titel verspricht keinen vollständigen Konformitätsnachweis.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "CEN und CENELEC meldeten am 19. November 2026 die Veröffentlichung der europäischen Normen EN 40000-1-1 und EN 40000-1-2 zur Unterstützung des Cyber Resilience Act.",
+              "verdict": "supported",
+              "reason": "Die Normungsorganisationen datieren ihre Mitteilung auf den 19.11.2026 und nennen beide veröffentlichten EN-Nummern. Die Meldung datiert bewusst den Bericht, nicht Ratifikation oder Veröffentlichung auf diesen Tag.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die erste vereinheitlicht Begriffe, die zweite behandelt Cybersicherheitsprinzipien, Produktrisiken und Aktivitäten über den Lebenszyklus.",
+              "verdict": "supported",
+              "reason": "Die Abschnitte A common language und Putting cybersecurity risk management into practice ordnen EN 40000-1-1 dem Vokabular und EN 40000-1-2 Prinzipien, Produktrisiken und Lebenszyklusaktivitäten zu.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Dieser reicht von Entwurf und Entwicklung über Wartung und Supportende bis zur Außerbetriebnahme.",
+              "verdict": "supported",
+              "reason": "Der CEN-Abschnitt beschreibt Entwurf, Entwicklung, Produktion, Pflege, Supportende und Außerbetriebnahme; die Kommissionsmeldung erläutert denselben Lebenszyklusrahmen.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Weitere Normen zur Behandlung von Schwachstellen und für einzelne Produktkategorien werden noch entwickelt.",
+              "verdict": "supported",
+              "reason": "CEN nennt weitere horizontale Arbeiten zu vulnerability handling und künftige produktspezifische Normen. Die Meldung stellt sie nicht als bereits fertig dar.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "EU · PRODUKTSICHERHEIT",
+              "verdict": "supported",
+              "reason": "Die Kategorie EU · PRODUKTSICHERHEIT ordnet die Originalmeldung ihrem tatsächlichen Themenfeld und Urheber zu; sie behauptet keinen Freigabe- oder Zertifizierungsstatus.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Erste CRA-Normen konkretisieren Produktsicherheit",
+              "verdict": "supported",
+              "reason": "Die Vorschau Erste CRA-Normen konkretisieren Produktsicherheit bleibt beim belegten Normungsstand, Ansatz oder Versuch. Keine zusätzliche Leistung, fertige Normeninitiative oder allgemeine Funktionsfreigabe behauptet.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit schild: Erste CRA-Normen konkretisieren Produktsicherheit",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das konfigurierte kubistische schild-Motiv mit dem geprüften Vorschautitel. Er ergänzt keine Zahlen oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-20T08:42:26Z",
+          "reviewer": "Codex: gesonderte kritische Gegenrecherche mit anderer Prüfstrategie, kein zweites Modell",
+          "limitations": [
+            "Normungsstand, kein automatischer Nachweis vollständiger CRA-Konformität. Produktspezifische Anforderungen und Rechtsstatus gesondert prüfen; öffentlich gelesene Zusammenfassungen ersetzen keine Prüfung der vollständigen Normtexte."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Erste CRA-Normen konkretisieren das Risikomanagement für digitale Produkte",
+              "verdict": "supported",
+              "reason": "Die Gegenprüfung trennt veröffentlichte Grundlagen-Normen von Produktzertifizierung und späteren Normungsarbeiten. Die Schlagzeile konkretisieren behauptet keinen automatischen Sicherheitsgewinn.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-standardisation",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "CEN und CENELEC meldeten am 19. November 2026 die Veröffentlichung der europäischen Normen EN 40000-1-1 und EN 40000-1-2 zur Unterstützung des Cyber Resilience Act.",
+              "verdict": "supported",
+              "reason": "19.11. ist das Datum der CEN-CENELEC-Mitteilung. Die Kommissionsseite nennt für Veröffentlichung den 18.11.; die endgültige Aussage meldeten am 19.11. ist damit vereinbar und bewahrt beide EN-Nummern.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-standardisation",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die erste vereinheitlicht Begriffe, die zweite behandelt Cybersicherheitsprinzipien, Produktrisiken und Aktivitäten über den Lebenszyklus.",
+              "verdict": "supported",
+              "reason": "Die detaillierte CEN-Quelle trennt Vokabular von Risikoprinzipien. Die knappe Kommissionsmeldung wird nicht fälschlich zum Beleg für nur einen vorhandenen EN-Teil gemacht.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-standardisation",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Dieser reicht von Entwurf und Entwicklung über Wartung und Supportende bis zur Außerbetriebnahme.",
+              "verdict": "supported",
+              "reason": "Lebenszyklusprinzipien sind ein Rahmen, keine überprüfte einzelne technische Kontrollmaßnahme. Die beschriebenen Phasen stehen in beiden zugänglichen Originalzusammenfassungen.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-standardisation",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Weitere Normen zur Behandlung von Schwachstellen und für einzelne Produktkategorien werden noch entwickelt.",
+              "verdict": "supported",
+              "reason": "Die Quellen sprechen von weiterem laufenden Normungsprogramm. Der Meldungssatz stellt weder Vulnerability-Handling-Normen noch produktspezifische Teile als bereits vollständig erschienen dar.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-standardisation",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "EU · PRODUKTSICHERHEIT",
+              "verdict": "supported",
+              "reason": "Die Gegenprüfung hält EU · PRODUKTSICHERHEIT für die richtige sachliche Zuordnung; die Kategorie impliziert keinen geprüften Sicherheits-, Rechts- oder Produktivstatus.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-standardisation",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Erste CRA-Normen konkretisieren Produktsicherheit",
+              "verdict": "supported",
+              "reason": "Die Vorschau Erste CRA-Normen konkretisieren Produktsicherheit bleibt beim begrenzten Meldungsgegenstand. Experiment und Plan werden nicht in eine allgemeine Freigabe oder gemessene Wirkung umgedeutet.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-standardisation",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit schild: Erste CRA-Normen konkretisieren Produktsicherheit",
+              "verdict": "supported",
+              "reason": "Der Alttext bezeichnet ein schild-Motiv und den sachlich begrenzten Vorschautitel, keine zusätzliche technische Funktion oder Zahlenbehauptung.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-standardisation",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site:cencenelec.eu \"EN 40000-1-1\" \"EN 40000-1-2\" \"2026-11-19\"",
+              "finding": "CEN-CENELEC nennt zwei EN-Teile, die EU-Kurzmeldung spricht vom ersten Standard. Der endgültige Text folgt für Nummern und Zwecke der detaillierten Normungsquelle und datiert die Mitteilung auf den 19.11., nicht die Ratifikation oder Veröffentlichung.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-standardisation",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment"
+              ]
+            },
+            {
+              "query": "site:eur-lex.europa.eu \"2024/2847\" \"Article 27\" \"Official Journal\"",
+              "finding": "EUR-Lex lieferte bei direktem Öffnen nur eine Zugriffskontrolle und wird nicht als gelesener Beleg verwendet. Stattdessen wurden die offiziellen Kommissionsseiten Standardisation und Conformity assessment gelesen: Sie unterscheiden technische Standards und produktspezifische Nachweisverfahren. Der Artikel behauptet weder eine aktuelle OJ-Zitierung noch automatische Vollkonformität.",
+              "sourceUrls": [
+                "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/",
+                "https://digital-strategy.ec.europa.eu/en/news/first-european-standard-published-support-cyber-resilience-act",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-standardisation",
+                "https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "CEN-Bericht 19.11., Kommissionsbericht 19.11. mit Veröffentlichungsdatum 18.11. Die Meldung datiert nur den Bericht und nennt EN 40000-1-1 sowie 1-2 aus der detaillierten Originalquelle.",
+            "scopeAndQualifications": "Nur publizierte Grundlagen für Terminologie und Lebenszyklusrisiken, weitere Normen in Arbeit. Keine automatische Vollkonformität oder ungeprüfte OJ-Zitierung behauptet.",
+            "sourceIndependence": "Normungsorganisationen und Kommission sind Originalstellen zum Normungsprogramm, keine unabhängigen Produkttester. Volltexte der kostenpflichtigen Normen wurden nicht als gelesen ausgegeben.",
+            "contradictions": "Singular der EU-Kurzmeldung und zwei Teile bei CEN durch engere präzise Zuschreibung aufgelöst. EUR-Lex-Zugriffskontrolle nicht als Quellenlektüre gewertet; zugängliche offizielle Konformitäts- und Standardisierungsseiten für die Abgrenzung genutzt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-2",
+      "contentHash": "605d63f4f09663a8adbf6e3696fc52c014be6a30073955eafc91a7597e9047ca",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-20T08:39:51Z",
+          "reviewer": "Codex: tatsächliche Originalquellenlektüre und einzelner Quellenabgleich",
+          "limitations": [
+            "IBM und Confluent sind Anbieterquellen. Szenarien sind Illustrationen, keine unabhängig gemessenen Kundenerfolge. Cloud-AI_FORECAST ist Early Access für Evaluation, nicht Produktion; Freigabe je Funktion und Betriebsmodell prüfen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IBM beschreibt Zeitreihenmodelle in Datenströmen mit begrenzter Cloud-Freigabe",
+              "verdict": "supported",
+              "reason": "Der IBM-Beitrag beschreibt Streaming-Integration, während die tatsächlich gelesene Confluent-Cloud-Dokumentation AI_FORECAST ausdrücklich nur für Early-Access-Evaluation freigibt. Der Titel erhält diese Grenze.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "IBM Research beschreibt in einem Beitrag vom 18. November 2026 die Integration seiner Zeitreihenmodelle in Confluent-Datenströme.",
+              "verdict": "supported",
+              "reason": "Der IBM-Research-Teamartikel auf Hugging Face trägt das Kopfdatum 18.11.2026 und beschreibt das Einbinden von Zeitreihenmodellen in Confluent und Apache Flink.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Apache Flink soll Prognosen und Anomaliesignale per SQL mit laufenden Ereignisdaten verbinden.",
+              "verdict": "supported",
+              "reason": "Der Originalbeitrag erläutert Forecasting, Anomalieerkennung und SQL-Aufrufe in laufenden Datenpipelines. Soll bezeichnet den vorgesehenen Einsatz, nicht gemessene Verbesserung von Prognosen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Laut IBM laufen die Modelle auf CPUs, in der Cloud oder auf eigener Infrastruktur.",
+              "verdict": "supported",
+              "reason": "IBM beschreibt CPU-Ausführung und unterschiedliche Betriebsmodelle in Confluent Cloud beziehungsweise auf eigener Infrastruktur. Daraus wird kein allgemeiner Freigabestatus abgeleitet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Die Cloud-Dokumentation kennzeichnet AI_FORECAST jedoch als Early Access ausschließlich für Evaluation und nicht für den Produktivbetrieb.",
+              "verdict": "supported",
+              "reason": "Die gelesene Cloud-Forecast-Dokumentation nennt AI_FORECAST Early Access Program, nur evaluation/non-production testing, ohne Support oder SLA. Der Fakt übernimmt die wesentliche Einschränkung sichtbar.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "IBM · ZEITREIHENMODELLE",
+              "verdict": "supported",
+              "reason": "Die Kategorie IBM · ZEITREIHENMODELLE ordnet die Originalmeldung ihrem tatsächlichen Themenfeld und Urheber zu; sie behauptet keinen Freigabe- oder Zertifizierungsstatus.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "IBM verbindet Zeitreihenmodelle mit Datenströmen",
+              "verdict": "supported",
+              "reason": "Die Vorschau IBM verbindet Zeitreihenmodelle mit Datenströmen bleibt beim belegten Normungsstand, Ansatz oder Versuch. Keine zusätzliche Leistung, fertige Normeninitiative oder allgemeine Funktionsfreigabe behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit cloud: IBM verbindet Zeitreihenmodelle mit Datenströmen",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das konfigurierte kubistische cloud-Motiv mit dem geprüften Vorschautitel. Er ergänzt keine Zahlen oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-20T08:42:26Z",
+          "reviewer": "Codex: gesonderte kritische Gegenrecherche mit anderer Prüfstrategie, kein zweites Modell",
+          "limitations": [
+            "IBM und Confluent sind Anbieterquellen. Szenarien sind Illustrationen, keine unabhängig gemessenen Kundenerfolge. Cloud-AI_FORECAST ist Early Access für Evaluation, nicht Produktion; Freigabe je Funktion und Betriebsmodell prüfen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IBM beschreibt Zeitreihenmodelle in Datenströmen mit begrenzter Cloud-Freigabe",
+              "verdict": "supported",
+              "reason": "Die Schlagzeile macht die begrenzte Cloud-Freigabe ausdrücklich sichtbar. Ein pauschales produktiv verfügbar wäre mit der Confluent-Dokumentation unvereinbar.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "IBM Research beschreibt in einem Beitrag vom 18. November 2026 die Integration seiner Zeitreihenmodelle in Confluent-Datenströme.",
+              "verdict": "supported",
+              "reason": "Der 18.11. bezeichnet den IBM-Artikel, nicht die erstmalige Erfindung von Zeitreihenprognosen oder ein universelles Freigabedatum. Der Satz beschreibt den dokumentierten Integrationsansatz.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Apache Flink soll Prognosen und Anomaliesignale per SQL mit laufenden Ereignisdaten verbinden.",
+              "verdict": "qualified",
+              "reason": "SQL-gestützte Prognosen und Anomaliesignale sind der beschriebene Funktionsansatz. Daraus wird keine gemessene Verbesserung realer ERP-Planung abgeleitet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Laut IBM laufen die Modelle auf CPUs, in der Cloud oder auf eigener Infrastruktur.",
+              "verdict": "qualified",
+              "reason": "CPU-Ausführung und Cloud/On-Premises stammen vom Anbieter; Verfügbarkeit und Infrastrukturbedarf sind nicht für jede Funktionskonfiguration gleich. Diese Einschränkung steht in der Einordnung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Die Cloud-Dokumentation kennzeichnet AI_FORECAST jedoch als Early Access ausschließlich für Evaluation und nicht für den Produktivbetrieb.",
+              "verdict": "supported",
+              "reason": "Die erneut gelesene Originaldokumentation sagt ausdrücklich Evaluation und nicht Produktion. Die breite Verfügbarkeitsformulierung des Blogs wird dadurch im finalen Faktenabschnitt konkret begrenzt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "IBM · ZEITREIHENMODELLE",
+              "verdict": "supported",
+              "reason": "Die Gegenprüfung hält IBM · ZEITREIHENMODELLE für die richtige sachliche Zuordnung; die Kategorie impliziert keinen geprüften Sicherheits-, Rechts- oder Produktivstatus.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "IBM verbindet Zeitreihenmodelle mit Datenströmen",
+              "verdict": "supported",
+              "reason": "Die Vorschau IBM verbindet Zeitreihenmodelle mit Datenströmen bleibt beim begrenzten Meldungsgegenstand. Experiment und Plan werden nicht in eine allgemeine Freigabe oder gemessene Wirkung umgedeutet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit cloud: IBM verbindet Zeitreihenmodelle mit Datenströmen",
+              "verdict": "supported",
+              "reason": "Der Alttext bezeichnet ein cloud-Motiv und den sachlich begrenzten Vorschautitel, keine zusätzliche technische Funktion oder Zahlenbehauptung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site:docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html \"Early Access\" \"production\"",
+              "finding": "Die tatsächlich erneut gelesene Forecast-Dokumentation kennzeichnet AI_FORECAST ausdrücklich als Early Access, nur für Evaluation und Non-Production ohne SLA. Der breitere IBM-Verfügbarkeitstext darf nicht als allgemeine Produktionsfreigabe gelesen werden.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            },
+            {
+              "query": "site:huggingface.co/blog/ibm-research/time-series-powered-streamhouse \"Simulated data\" \"CPUs\"",
+              "finding": "Der IBM-Beitrag markiert die Abläufe als illustrative Szenarien; die Beispieldaten sind teilweise ausdrücklich simuliert. CPU- und Betriebsmodellbeschreibung sind Anbieterangaben, keine unabhängigen Leistungs- oder Einsparungsnachweise.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+                "https://docs.confluent.io/cloud/current/ai/builtin-functions/forecast.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "18.11.2026 ist das Kopfdatum des IBM-Beitrags. Keine Downloadzahlen, Prognosehorizonte oder simulierten Einsparungszahlen als reale Wirkungswerte übernommen.",
+            "scopeAndQualifications": "AI_FORECAST in Confluent Cloud ist Early Access ohne Produktivfreigabe. Cloud und eigene Infrastruktur unterschieden; Freigabestatus nicht von einer Funktion auf alle anderen übertragen.",
+            "sourceIndependence": "IBM und Confluent sind wirtschaftlich beteiligte Anbieter. Die Artikel illustrieren Szenarien; unabhängig gemessene Kundenerfolge wurden nicht gefunden oder behauptet.",
+            "contradictions": "Breites now available im IBM-Text steht einer engeren dokumentierten EAP-Grenze gegenüber. Der endgültige Faktenabschnitt nennt die EAP-Grenze explizit und behauptet keine pauschale GA-Verfügbarkeit."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-3",
+      "contentHash": "85cffece673c6cd6afc6b525ccb03263df69e54b77c5ee74b0997f3dbefd612b",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-20T08:39:51Z",
+          "reviewer": "Codex: tatsächliche Originalquellenlektüre und einzelner Quellenabgleich",
+          "limitations": [
+            "Vorabveröffentlichung ohne unabhängige Reproduktion der berichteten Evaluation. Abdeckung bezieht sich auf PIAtlas und die getesteten Aufgaben, nicht auf vollständige Angriffserfassung oder garantierte Sicherheit."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "AutoPI ergänzt adaptive Agententests um die Abdeckung von Angriffstechniken",
+              "verdict": "supported",
+              "reason": "Der Preprint macht Vielfalt erfolgreicher Angriffstechniken neben ASR zum Gegenstand adaptiver Tests. Der Titel bleibt bei Evaluation statt Sicherheitserfolg.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der am 18. November 2026 eingereichte Preprint AutoPI untersucht adaptive Tests gegen Prompt Injection bei Sprachmodell-Agenten.",
+              "verdict": "supported",
+              "reason": "Die arXiv-Metadaten und Submission History nennen v1 vom 18.11.2026. Abstract und Volltext untersuchen Prompt Injection bei LLM-Agenten.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Verfahren verwendet die Taxonomie PIAtlas, um Angriffe nach unterschiedlichen Techniken zu erzeugen und fehlgeschlagene Versuche mithilfe eines bewertenden Sprachmodells zu überarbeiten.",
+              "verdict": "supported",
+              "reason": "Die gelesenen Abschnitte II-C und IV-A sowie der Abstract beschreiben PIAtlas als Suchachse, einen Generator und einen LLM-Judge zum Überarbeiten fehlgeschlagener Injektionen.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Neben der Angriffserfolgsrate erfassen die Autoren, welche Kategorien und Untertechniken mindestens einen erfolgreichen Angriff liefern.",
+              "verdict": "supported",
+              "reason": "Der Abstract und die Coverage-Definition erfassen die Fraktion von Klassen, Techniken und Untertechniken mit mindestens einem erfolgreichen Angriff. Keine universelle Vollständigkeit behauptet.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Die Untersuchung verwendet die Benchmarks AgentDojo und IPI Arena.",
+              "verdict": "supported",
+              "reason": "Abstract und Evaluationsbeschreibung nennen AgentDojo und IPI Arena als verwendete Benchmarks. Die Meldung übernimmt keine Benchmarkzahlen oder konkrete Angriffsanleitung.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FORSCHUNG · AGENTENTESTS",
+              "verdict": "supported",
+              "reason": "Die Kategorie FORSCHUNG · AGENTENTESTS ordnet die Originalmeldung ihrem tatsächlichen Themenfeld und Urheber zu; sie behauptet keinen Freigabe- oder Zertifizierungsstatus.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "AutoPI erweitert die Bewertung von Agententests",
+              "verdict": "supported",
+              "reason": "Die Vorschau AutoPI erweitert die Bewertung von Agententests bleibt beim belegten Normungsstand, Ansatz oder Versuch. Keine zusätzliche Leistung, fertige Normeninitiative oder allgemeine Funktionsfreigabe behauptet.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit dokument: AutoPI erweitert die Bewertung von Agententests",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das konfigurierte kubistische dokument-Motiv mit dem geprüften Vorschautitel. Er ergänzt keine Zahlen oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-20T08:42:26Z",
+          "reviewer": "Codex: gesonderte kritische Gegenrecherche mit anderer Prüfstrategie, kein zweites Modell",
+          "limitations": [
+            "Vorabveröffentlichung ohne unabhängige Reproduktion der berichteten Evaluation. Abdeckung bezieht sich auf PIAtlas und die getesteten Aufgaben, nicht auf vollständige Angriffserfassung oder garantierte Sicherheit."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "AutoPI ergänzt adaptive Agententests um die Abdeckung von Angriffstechniken",
+              "verdict": "supported",
+              "reason": "Der Titel betrifft die Bewertung von Angriffstests und nicht einen Beweis sicherer Agenten. Das passt zu den begrenzten Autorenexperimenten und der fehlenden unabhängigen Reproduktion.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der am 18. November 2026 eingereichte Preprint AutoPI untersucht adaptive Tests gegen Prompt Injection bei Sprachmodell-Agenten.",
+              "verdict": "supported",
+              "reason": "Der arXiv-Record datiert v1 auf den 18.11.; der in einigen Verzeichnissen sichtbare 19.11. ist nicht als Einreichdatum übernommen. Es bleibt eine Vorabveröffentlichung.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Verfahren verwendet die Taxonomie PIAtlas, um Angriffe nach unterschiedlichen Techniken zu erzeugen und fehlgeschlagene Versuche mithilfe eines bewertenden Sprachmodells zu überarbeiten.",
+              "verdict": "supported",
+              "reason": "Die Methode nutzt dieselbe Taxonomie für Suche und spätere Abdeckung; sie misst keine universelle Menge aller Angriffe. Die Einordnung beschränkt die Schlussfolgerung ausdrücklich auf die gewählte Taxonomie.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Neben der Angriffserfolgsrate erfassen die Autoren, welche Kategorien und Untertechniken mindestens einen erfolgreichen Angriff liefern.",
+              "verdict": "supported",
+              "reason": "Erfolgreich heißt mindestens ein Erfolg in einer Taxonomieeinheit, nicht die Zahl aller semantisch verschiedenen Sicherheitslücken. Nachträgliche LLM-Labels und begrenzte Modellabdeckung bleiben Grenzen des Ansatzes.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Die Untersuchung verwendet die Benchmarks AgentDojo und IPI Arena.",
+              "verdict": "supported",
+              "reason": "AgentDojo und IPI Arena sind die tatsächlich genannten Prüfbenchmarks. Die Meldung extrapoliert daraus weder reale Unternehmensangriffsraten noch vollständige Sicherheit außerhalb getesteter Aufgaben.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FORSCHUNG · AGENTENTESTS",
+              "verdict": "supported",
+              "reason": "Die Gegenprüfung hält FORSCHUNG · AGENTENTESTS für die richtige sachliche Zuordnung; die Kategorie impliziert keinen geprüften Sicherheits-, Rechts- oder Produktivstatus.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "AutoPI erweitert die Bewertung von Agententests",
+              "verdict": "supported",
+              "reason": "Die Vorschau AutoPI erweitert die Bewertung von Agententests bleibt beim begrenzten Meldungsgegenstand. Experiment und Plan werden nicht in eine allgemeine Freigabe oder gemessene Wirkung umgedeutet.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit dokument: AutoPI erweitert die Bewertung von Agententests",
+              "verdict": "supported",
+              "reason": "Der Alttext bezeichnet ein dokument-Motiv und den sachlich begrenzten Vorschautitel, keine zusätzliche technische Funktion oder Zahlenbehauptung.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"AutoPI\" \"2611.24313\" \"Limitations\" taxonomy",
+              "finding": "Abschnitt VIII wurde erneut gelesen: nur zwei Zielmodelle, eine Taxonomie und nachträgliche LLM-Labels. Die Autoren trainieren keinen Verteidiger auf dem Korpus. Deshalb weder universelle Vielfalt noch nachgewiesene Schutzwirkung im Beitrag behauptet.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            },
+            {
+              "query": "\"AutoPI\" \"AgentDojo\" \"IPI Arena\" \"18 Nov 2026\"",
+              "finding": "arXiv nennt Einreichung am 18.11.2026, AgentDojo und IPI Arena. Suchtreffer wiederholen das Original; keine unabhängige Replikation festgestellt. Es werden bewusst keine relativen Erfolgsraten als allgemeiner Robustheitsbefund veröffentlicht.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.24313",
+                "https://arxiv.org/html/2611.24313v1"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "arXiv-Einreichung v1 am 18.11.2026. Keine Erfolgsquoten oder Anzahl unabhängiger Sicherheitslücken übernommen; zwei genannte Benchmarks korrekt.",
+            "scopeAndQualifications": "Taxonomiebezogene adaptive Angriffe, beschränkte Modellabdeckung und LLM-basierte Labels. Weder universelle Angriffserfassung noch nachgewiesene Verbesserung eines trainierten Verteidigers behauptet.",
+            "sourceIndependence": "Abstract und Volltext stammen von denselben Autoren. Gefundene Nacherzählungen ersetzen keine unabhängige Replikation; ihr Fehlen ist in der Einordnung sichtbar.",
+            "contradictions": "Die Methode erzeugt Angriffe und misst Abdeckung. Ein Schluss auf garantierte Sicherheit wäre widersprüchlich; die Meldung schließt diesen ausdrücklich aus."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-4",
+      "contentHash": "bf42ed8d1bbee4e09f88c64572a19a6d7489a5d64dfd326150ce0776474c9f58",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-20T08:39:51Z",
+          "reviewer": "Codex: tatsächliche Originalquellenlektüre und einzelner Quellenabgleich",
+          "limitations": [
+            "Entwicklungsversuch laut Urheber, keine allgemein freigegebene Transformers-Funktion und keine unabhängige Leistungsmessung. Quantisierung, Hardware und Modellstruktur begrenzen Übertragbarkeit und Qualität."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Hugging-Face-Experiment lädt MoE-Experten bedarfsabhängig von der SSD",
+              "verdict": "supported",
+              "reason": "Der tatsächlich gelesene Entwicklerbericht beschreibt Expert-Streaming von SSD und eine experimentelle Transformers-Integration. Die Überschrift behauptet keine allgemeine Veröffentlichung einer Bibliotheksfunktion.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein am 18. November 2026 veröffentlichter Entwicklerbericht auf Hugging Face beschreibt experimentelles Expert-Streaming für Transformers.",
+              "verdict": "supported",
+              "reason": "Das Kopfdatum im Hugging-Face-Original lautet 18.11.2026. Der Autor schildert einen Entwicklungsversuch, nicht einen standardisierten Produktrelease.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Dabei werden nur die vom Modell ausgewählten Experten von der SSD nachgeladen und in einem begrenzten Gerätespeicher-Cache gehalten.",
+              "verdict": "supported",
+              "reason": "Abschnitte zu experts_offload und Conclusion erklären selektives Nachladen nur gerouteter Experten, einen begrenzten Cache auf dem Gerät und wiederverwendete Experten-Kernel.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Autor berichtet einen Versuch mit Qwen3.8-Flash-Next auf einem Mac mit 32 GB Arbeitsspeicher.",
+              "verdict": "supported",
+              "reason": "Der Originalbericht nennt Qwen3.8-Flash-Next und einen Mac M5 mit 32 GB unified memory. Die Meldung schreibt den Versuch dem Autor zu und übernimmt keine universelle Kapazitäts- oder Qualitätszusage.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Die vorgeschlagene Schnittstelle wird laut Bericht noch mit den Transformers-Maintainern diskutiert.",
+              "verdict": "supported",
+              "reason": "Der Absatz nach dem Codebeispiel sagt ausdrücklich, dass die API noch mit den Transformers-Maintainern diskutiert wird. Der Bericht verweist zum Ausprobieren auf einen PR, nicht auf einen fertigen Standardrelease.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "HUGGING FACE · MODELLBETRIEB",
+              "verdict": "supported",
+              "reason": "Die Kategorie HUGGING FACE · MODELLBETRIEB ordnet die Originalmeldung ihrem tatsächlichen Themenfeld und Urheber zu; sie behauptet keinen Freigabe- oder Zertifizierungsstatus.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Experiment lädt MoE-Experten bedarfsabhängig von SSD",
+              "verdict": "supported",
+              "reason": "Die Vorschau Experiment lädt MoE-Experten bedarfsabhängig von SSD bleibt beim belegten Normungsstand, Ansatz oder Versuch. Keine zusätzliche Leistung, fertige Normeninitiative oder allgemeine Funktionsfreigabe behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit zahnrad: Experiment lädt MoE-Experten bedarfsabhängig von SSD",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das konfigurierte kubistische zahnrad-Motiv mit dem geprüften Vorschautitel. Er ergänzt keine Zahlen oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-20T08:42:26Z",
+          "reviewer": "Codex: gesonderte kritische Gegenrecherche mit anderer Prüfstrategie, kein zweites Modell",
+          "limitations": [
+            "Entwicklungsversuch laut Urheber, keine allgemein freigegebene Transformers-Funktion und keine unabhängige Leistungsmessung. Quantisierung, Hardware und Modellstruktur begrenzen Übertragbarkeit und Qualität."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Hugging-Face-Experiment lädt MoE-Experten bedarfsabhängig von der SSD",
+              "verdict": "supported",
+              "reason": "Der Titel beschreibt experimentelles bedarfsabhängiges Nachladen. Der gelesene PR ist Draft und belegt keinen offiziellen stabilen Transformers-Release.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming",
+                "https://github.com/huggingface/transformers/pull/50717"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ein am 18. November 2026 veröffentlichter Entwicklerbericht auf Hugging Face beschreibt experimentelles Expert-Streaming für Transformers.",
+              "verdict": "supported",
+              "reason": "Der Entwicklerbericht datiert vom 18.11., während der konkrete PR schon am 13.11. als Entwurf eröffnet wurde. Die Meldung verwechselt Bericht und erstmalige Code-Erstellung nicht.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming",
+                "https://github.com/huggingface/transformers/pull/50717"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Dabei werden nur die vom Modell ausgewählten Experten von der SSD nachgeladen und in einem begrenzten Gerätespeicher-Cache gehalten.",
+              "verdict": "qualified",
+              "reason": "Der Ansatz nutzt selektives Routing und einen begrenzten Cache statt alle Experten in den RAM zu laden. Er braucht weiterhin SSD-I/O, weitere Gewichte und Laufzeitunterstützung; keine speicherfreie Ausführung behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming",
+                "https://github.com/huggingface/transformers/pull/50717"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Autor berichtet einen Versuch mit Qwen3.8-Flash-Next auf einem Mac mit 32 GB Arbeitsspeicher.",
+              "verdict": "qualified",
+              "reason": "Der Versuch ist dem Autor und einem bestimmten Modell auf 32 GB Speicher zugeordnet. Zahlen zum Token-Durchsatz, unveränderter Modellgüte oder allgemeiner Hardwareübertragbarkeit werden nicht übernommen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming",
+                "https://github.com/huggingface/transformers/pull/50717"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Die vorgeschlagene Schnittstelle wird laut Bericht noch mit den Transformers-Maintainern diskutiert.",
+              "verdict": "supported",
+              "reason": "Draft-Status und der explizite PoC-Hinweis im PR stützen die Beschränkung auf eine vorgeschlagene Schnittstelle. Die Meldung sagt nicht, dass eine aktuelle Paketversion diese Funktion offiziell bereitstellt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming",
+                "https://github.com/huggingface/transformers/pull/50717"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "HUGGING FACE · MODELLBETRIEB",
+              "verdict": "supported",
+              "reason": "Die Gegenprüfung hält HUGGING FACE · MODELLBETRIEB für die richtige sachliche Zuordnung; die Kategorie impliziert keinen geprüften Sicherheits-, Rechts- oder Produktivstatus.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming",
+                "https://github.com/huggingface/transformers/pull/50717"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Experiment lädt MoE-Experten bedarfsabhängig von SSD",
+              "verdict": "supported",
+              "reason": "Die Vorschau Experiment lädt MoE-Experten bedarfsabhängig von SSD bleibt beim begrenzten Meldungsgegenstand. Experiment und Plan werden nicht in eine allgemeine Freigabe oder gemessene Wirkung umgedeutet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming",
+                "https://github.com/huggingface/transformers/pull/50717"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit zahnrad: Experiment lädt MoE-Experten bedarfsabhängig von SSD",
+              "verdict": "supported",
+              "reason": "Der Alttext bezeichnet ein zahnrad-Motiv und den sachlich begrenzten Vorschautitel, keine zusätzliche technische Funktion oder Zahlenbehauptung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming",
+                "https://github.com/huggingface/transformers/pull/50717"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site:huggingface.co/blog/moe-expert-streaming \"API\" \"discussed\" \"32\"",
+              "finding": "Der Blog beschreibt Experimente und eine noch diskutierte API. Er räumt ein, dass die erreichte Geschwindigkeit für den eigenen Coding-Agenten-Einsatz noch zu langsam ist; die Meldung verzichtet auf Überlegenheits- oder Produktivitätsversprechen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming",
+                "https://github.com/huggingface/transformers/pull/50717"
+              ]
+            },
+            {
+              "query": "site:github.com/huggingface/transformers/pull/50717 experts offload",
+              "finding": "Der konkrete GitHub-PR wurde geöffnet und gelesen: Draft mit explizitem Hinweis auf einen Proof of Concept, der vor einer Übernahme umgeschrieben werden muss. Die Implementierung beschreibt einen begrenzten Gerätecache. Keine allgemeine Transformers-Freigabe daraus abgeleitet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/moe-expert-streaming",
+                "https://github.com/huggingface/transformers/pull/50717"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Blogdatum 18.11., PR-Entwurf seit 13.11.; der Artikel meldet den Bericht, keinen erst am 18.11. entstandenen Code. 32 GB beschreibt das konkrete Gerät laut Autor.",
+            "scopeAndQualifications": "PoC, Draft-PR, quantitative Ergebnisse geräte- und quantisierungsspezifisch. Keine stabile Schnittstelle und keine pauschale Übertragbarkeit oder unveränderte Qualität behauptet.",
+            "sourceIndependence": "Blog, PR und Benchmark-Space sind Arbeit desselben Entwicklerprojekts, keine unabhängigen Messstellen. Die Meldung schreibt den Versuch dem Autor zu.",
+            "contradictions": "Die zugängliche PR-Konversation bestätigt experimentellen Status und warnt vor unveränderter Übernahme. Das unterstützt die Begrenzung der Meldung auf einen Entwicklungsversuch."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-5",
+      "contentHash": "c46b6510ea13dce46fe78e9f4530c33dfa4853c5605bfe370a505738f921685f",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-20T08:39:51Z",
+          "reviewer": "Codex: tatsächliche Originalquellenlektüre und einzelner Quellenabgleich",
+          "limitations": [
+            "Angekündigte Zusammenarbeit und geplante Umsetzung laut Microsoft. Kein fertiger Standard, kein nachgewiesener Schutzmechanismus und keine unabhängige Wirksamkeitsprüfung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Microsoft kündigt gemeinsame Regeln für überprüfbare KI-Agenten an",
+              "verdict": "supported",
+              "reason": "Der vollständig gelesene Microsoft-Originalbeitrag kündigt eine Zusammenarbeit für Transparenz und unabhängige Überprüfbarkeit von Agentenaktionen an. Kündigt und Regeln behaupten keinen fertigen normativen Standard.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Microsoft kündigte am 17. November 2026 die AI Transparency Initiative mit mehr als 40 beteiligten Organisationen an.",
+              "verdict": "supported",
+              "reason": "Datum 17.11.2026 und mehr als 40 Organisationen stehen in der Originalankündigung. Sie werden als Herstellerangabe, nicht als unabhängig geprüfte Mitgliederzählung veröffentlicht.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Initiative soll offene Ansätze für Transparenz, Sicherheit und Governance über Modelle und Anbieter hinweg entwickeln.",
+              "verdict": "supported",
+              "reason": "Die Initiative soll laut From principles to practice offene Ansätze zu transparency, security und governance über Modelle und Anbieter hinweg entwickeln. Zukunftscharakter bleibt im Satz.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Dabei sollen Aussagen eines Agenten über sein Verhalten gegen getrennt beobachtete Identitäts-, Laufzeit- und Aktionsdaten überprüfbar werden.",
+              "verdict": "supported",
+              "reason": "Der Abschnitt Verify unterscheidet Modellbehauptungen von Evidenz aus Laufzeit, Identitäts- und Policy-Systemen und unabhängig beobachteten Aktionen. Die Meldung beschreibt die beabsichtigte Überprüfbarkeit.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Microsoft plant, Ergebnisse in Microsoft AI, Foundry und Copilot einzubinden.",
+              "verdict": "supported",
+              "reason": "Der dritte Teil der Initiative kündigt die Integration der Arbeit in Microsoft AI, Foundry und Copilot an. Die Meldung sagt plant und behauptet keine bereits eingeführten Funktionen.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "MICROSOFT · KI-GOVERNANCE",
+              "verdict": "supported",
+              "reason": "Die Kategorie MICROSOFT · KI-GOVERNANCE ordnet die Originalmeldung ihrem tatsächlichen Themenfeld und Urheber zu; sie behauptet keinen Freigabe- oder Zertifizierungsstatus.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Microsoft plant Regeln für überprüfbare KI-Agenten",
+              "verdict": "supported",
+              "reason": "Die Vorschau Microsoft plant Regeln für überprüfbare KI-Agenten bleibt beim belegten Normungsstand, Ansatz oder Versuch. Keine zusätzliche Leistung, fertige Normeninitiative oder allgemeine Funktionsfreigabe behauptet.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit schloss: Microsoft plant Regeln für überprüfbare KI-Agenten",
+              "verdict": "supported",
+              "reason": "Der Alttext beschreibt das konfigurierte kubistische schloss-Motiv mit dem geprüften Vorschautitel. Er ergänzt keine Zahlen oder Wirksamkeitsbehauptung.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-20T08:42:26Z",
+          "reviewer": "Codex: gesonderte kritische Gegenrecherche mit anderer Prüfstrategie, kein zweites Modell",
+          "limitations": [
+            "Angekündigte Zusammenarbeit und geplante Umsetzung laut Microsoft. Kein fertiger Standard, kein nachgewiesener Schutzmechanismus und keine unabhängige Wirksamkeitsprüfung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Microsoft kündigt gemeinsame Regeln für überprüfbare KI-Agenten an",
+              "verdict": "supported",
+              "reason": "Die Überschrift kündigt Regeln an und behauptet keine fertige, verbindliche Norm. Das entspricht dem Zukunftscharakter der gemeinsamen Initiative.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Microsoft kündigte am 17. November 2026 die AI Transparency Initiative mit mehr als 40 beteiligten Organisationen an.",
+              "verdict": "supported",
+              "reason": "Datum und mehr als 40 Organisationen sind konsistente Angaben derselben Microsoft-Originalquelle. Die Einordnung kennzeichnet Beteiligungszahlen als Anbieterangabe.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Initiative soll offene Ansätze für Transparenz, Sicherheit und Governance über Modelle und Anbieter hinweg entwickeln.",
+              "verdict": "qualified",
+              "reason": "Soll entwickeln beschreibt ein Vorhaben, keinen bereits veröffentlichten übergreifenden Standard oder bewiesene Sicherheit. Ein Vergleich mit einem etablierten Zertifizierungsregime wäre unzulässig und wird nicht vorgenommen.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Dabei sollen Aussagen eines Agenten über sein Verhalten gegen getrennt beobachtete Identitäts-, Laufzeit- und Aktionsdaten überprüfbar werden.",
+              "verdict": "qualified",
+              "reason": "Die Originalpassage verlangt den Abgleich von Modellbehauptungen mit getrennten Beobachtungen. Die Meldung beschreibt diese Zielanforderung, nicht einen bereits ausgelieferten oder erfolgreich getesteten Beweismechanismus.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "id": "fact-4",
+              "text": "Microsoft plant, Ergebnisse in Microsoft AI, Foundry und Copilot einzubinden.",
+              "verdict": "qualified",
+              "reason": "Will incorporate ist eine geplante Einbindung. Produktnamen werden korrekt übernommen, aber weder Starttermine noch allgemeine Verfügbarkeit oder messbare Schutzwirkung ergänzt.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "MICROSOFT · KI-GOVERNANCE",
+              "verdict": "supported",
+              "reason": "Die Gegenprüfung hält MICROSOFT · KI-GOVERNANCE für die richtige sachliche Zuordnung; die Kategorie impliziert keinen geprüften Sicherheits-, Rechts- oder Produktivstatus.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Microsoft plant Regeln für überprüfbare KI-Agenten",
+              "verdict": "supported",
+              "reason": "Die Vorschau Microsoft plant Regeln für überprüfbare KI-Agenten bleibt beim begrenzten Meldungsgegenstand. Experiment und Plan werden nicht in eine allgemeine Freigabe oder gemessene Wirkung umgedeutet.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit schloss: Microsoft plant Regeln für überprüfbare KI-Agenten",
+              "verdict": "supported",
+              "reason": "Der Alttext bezeichnet ein schloss-Motiv und den sachlich begrenzten Vorschautitel, keine zusätzliche technische Funktion oder Zahlenbehauptung.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site:news.microsoft.com \"AI Transparency Initiative\" \"will incorporate\" \"40\"",
+              "finding": "Die Originalankündigung formuliert Entwicklung und spätere Produkteinbindung als Plan. Mehr als 40 ist die eigene Beteiligungsangabe, keine unabhängig nachgezählte Organisationenzahl.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            },
+            {
+              "query": "\"AI Transparency Initiative\" \"November 17, 2026\" \"standards\" \"independently\"",
+              "finding": "Die Treffer führen überwiegend auf die gleiche Microsoft-Mitteilung und Partneraussagen zurück. Die darin geforderte unabhängige Evidenz ist Ziel der Initiative, kein bereits unabhängig validierter Schutzmechanismus. Der finale Beitrag hält diesen Unterschied sichtbar.",
+              "sourceUrls": [
+                "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "17.11.2026 und mehr als 40 Organisationen laut Originalquelle. Keine eigene Zählung oder aus Ankündigungen erfundenen Einführungstermine.",
+            "scopeAndQualifications": "Geplante offene Standards und spätere Produktintegration, kein fertiger Standard oder nachgewiesener Kontrollmechanismus. See/Verify/Control sind Zielanforderungen.",
+            "sourceIndependence": "Microsoft-Original und Partnerzitate sind interessengebundene Quellen; Wiederabdrucke der Mitteilung keine unabhängige Bestätigung. Beteiligung und Umsetzung als Herstellerangaben gekennzeichnet.",
+            "contradictions": "Unabhängige Überprüfbarkeit ist das angestrebte Ziel, keine bereits bestätigte Eigenschaft einer verfügbaren Lösung. Die finale Meldung wahrt diese Unterscheidung."
+          }
+        }
+      ]
     }
   ]
 }
