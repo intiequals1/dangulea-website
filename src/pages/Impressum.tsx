@@ -68,23 +68,31 @@ export default function Impressum() {
         <section className="legal-section">
           <h2>Automatisierte Inhalte und KI-Unterstützung</h2>
           <p>
-            Auf dieser Website, insbesondere im Bereich „News“, können Inhalte ganz
-            oder teilweise automatisiert und unter Einsatz künstlicher Intelligenz
-            erstellt, zusammengefasst oder sprachlich bearbeitet werden. Dafür können
-            insbesondere Perplexity-Automatisierungen eingesetzt werden.
+            Auf dieser Website werden Inhalte ganz oder teilweise automatisiert und unter
+            Einsatz künstlicher Intelligenz erstellt, zusammengefasst oder sprachlich
+            bearbeitet. Eingesetzt werden:
           </p>
+          <ul className="legal-list">
+            <li>
+              Täglicher Überblick im Bereich „News“ (News-PoC): Codex von OpenAI. Recherche,
+              Zusammenfassung und Veröffentlichung erfolgen automatisiert.
+            </li>
+            <li>
+              Rubrik „Aktuelle Themen“: Perplexity. Die Themenblöcke werden automatisiert und
+              mit KI-Unterstützung aus meinen Projekten zusammengestellt.
+            </li>
+            <li>
+              Monatliches Rechts-Update im Bereich „News“: Claude von Anthropic für Recherche
+              und Entwurf. Jede Ausgabe wird vor Veröffentlichung von mir inhaltlich anhand der
+              verlinkten Quellen geprüft und freigegeben; das Freigabedatum steht bei der Ausgabe.
+            </li>
+          </ul>
           <p>
             Automatisierte Inhalte werden auf der jeweiligen Seite als solche
             gekennzeichnet. Soweit ein Beitrag nicht einzeln vor Veröffentlichung
             redaktionell geprüft wurde, wird keine individuelle redaktionelle Prüfung
             behauptet. Die inhaltliche Verantwortung für veröffentlichte eigene Inhalte
             liegt bei der oben genannten verantwortlichen Person.
-          </p>
-          <p>
-            Das monatliche Rechts-Update im Bereich „News“ wird mit Unterstützung von Claude
-            (Anthropic) recherchiert und entworfen. Jede Ausgabe wird vor Veröffentlichung von mir
-            inhaltlich anhand der verlinkten Quellen geprüft und freigegeben; das Freigabedatum steht
-            bei der Ausgabe.
           </p>
           <p>
             Hinweise auf Fehler, unklare Quellen, veraltete Angaben oder notwendige
@@ -219,15 +227,16 @@ export default function Impressum() {
           <h3>KI- und Automatisierungsdienste</h3>
           <p>
             Für die Recherche, Zusammenfassung, Strukturierung oder sprachliche
-            Bearbeitung von News-Inhalten können externe KI- und Automatisierungsdienste,
-            insbesondere Perplexity AI, Inc., eingesetzt werden. Dabei sollen keine
-            vertraulichen Informationen, Zugangsdaten, Geschäftsgeheimnisse oder
-            sensiblen personenbezogenen Daten an solche Dienste übermittelt werden.
+            Bearbeitung von Inhalten werden externe KI-Dienste eingesetzt: Codex von OpenAI
+            für den täglichen Überblick im Bereich „News“, Perplexity (Perplexity AI, Inc.)
+            für die Rubrik „Aktuelle Themen“ und Claude von Anthropic für das monatliche
+            Rechts-Update. Dabei sollen keine vertraulichen Informationen, Zugangsdaten,
+            Geschäftsgeheimnisse oder sensiblen personenbezogenen Daten an solche Dienste
+            übermittelt werden.
           </p>
           <p>
-            Für das monatliche Rechts-Update wird Claude von Anthropic eingesetzt. Dabei werden
-            keine Daten von Besucherinnen und Besuchern dieser Website übermittelt; die Ausgaben
-            werden als statische Seiten ausgeliefert.
+            Daten von Besucherinnen und Besuchern dieser Website werden an diese Dienste nicht
+            übermittelt; die Inhalte werden als statische Seiten ausgeliefert.
           </p>
           <p>
             Soweit im Einzelfall personenbezogene Daten verarbeitet werden, erfolgt dies

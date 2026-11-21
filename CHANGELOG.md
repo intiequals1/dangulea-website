@@ -8,7 +8,7 @@
 - Neue Seiten `/news/rechts-update/JJJJ-MM/` mit Kurzüberblick, Themen (Status, Inhalt, Quellen), Fristen und Änderungen. Sie tragen statt der PoC-Kennzeichnung einen eigenen Hinweis zu Zweck, KI-Unterstützung und Grenzen.
 - Quelle `src/content/rechts-update.json`. Nur Ausgaben mit Freigabestatus „freigegeben“ und Freigabedatum werden gebaut; Entwürfe erscheinen weder als Seite noch im JavaScript. `scripts/check-rechts-update.mjs` prüft das im Build, `scripts/rechts-update.test.mjs` prüft die Regeln.
 - Erste Ausgabe (November 2026) als Entwurf angelegt.
-- `src/pages/Impressum.tsx`: Abschnitt „Grundlegende Richtung von dangulea.at (§ 25 Abs. 4 MedienG)“; im Abschnitt zu KI-Unterstützung und in der Datenschutzerklärung der Einsatz von Claude für das Rechts-Update.
+- `src/pages/Impressum.tsx`: Abschnitt „Grundlegende Richtung von dangulea.at (§ 25 Abs. 4 MedienG)“. Im Abschnitt zu KI-Unterstützung und in der Datenschutzerklärung steht jetzt je Bereich das eingesetzte Werkzeug: Codex (OpenAI) für den täglichen Überblick, Perplexity für die Rubrik „Aktuelle Themen“, Claude (Anthropic) für das Rechts-Update. Vorher war pauschal Perplexity für die News genannt, obwohl der tägliche Überblick mit Codex entsteht.
 - Ablauf und Regeln: `docs/rechts-update.md`.
 
 ### Warum
