@@ -1,5 +1,19 @@
 # Änderungsprotokoll
 
+## 2026-11-21 – Interner Bereich: Reiter „Rechts-Update“
+
+### Was geändert wurde
+
+- `/intern` hat zwei Reiter: Skill-Radar und Rechts-Update. Der zweite liest nach der Anmeldung das private Sheet „Rechts-Update Register“ (Ausgaben, Themen, Fristen, Betroffenheit) und zeigt die gewählte Ausgabe, ihre Themen mit Quellen, die eigene Betroffenheit und die offenen Fristen. `/intern#rechts-update` öffnet den Reiter direkt.
+- Fehler beim Rechts-Update-Sheet sperren den Skill-Radar nicht; jeder Reiter zeigt seine eigene Meldung.
+- `src/utils/rechtsUpdate.ts`, `src/components/InternRechtsUpdate.tsx`, Tests in `scripts/rechts-update-intern.test.mjs`, Beschreibung in `docs/rechts-update.md`.
+- Impressum, Abschnitt „Interner Bereich“: zwei private Sheets statt einem. README und Deploy-Workflow (`RECHTS_SHEET_ID`) entsprechend.
+
+### Warum
+
+- Das Rechts-Update ist für mein Studium und meine Weiterbildung gedacht. Eine öffentliche Fassung (archivierter PR #42) hätte Pflichten nach der KI-Verordnung (Art. 50 Abs. 4) und dem Mediengesetz ausgelöst und das Risiko, dass fehlerhafte Rechtsinformationen als Rat verstanden werden. Im geschützten Bereich entfällt das, und der interne Anhang „eigene Betroffenheit“ kann mit angezeigt werden.
+- Kein neuer OAuth-Bereich und keine Änderung der Content-Security-Policy: gelesen wird wie beim Skill-Radar mit `spreadsheets.readonly` über `sheets.googleapis.com`.
+
 ## 2026-11-21 – Impressum: KI-Werkzeuge je Bereich und grundlegende Richtung
 
 ### Was geändert wurde
