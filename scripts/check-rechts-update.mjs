@@ -9,12 +9,32 @@ const generated = JSON.parse(await readFile(new URL('src/generated/rechts-update
 
 function require(condition, message) { if (!condition) throw new Error(`Rechts-Update-Prüfung: ${message}`) }
 const exists = (url) => access(url).then(() => true, () => false)
-const visible = (html) => html
-  .replace(/<!--[\s\S]*?-->/g, '')
-  .replace(/<script[\s\S]*?<\/script>/g, ' ')
-  .replace(/<[^>]+>/g, '')
-  .replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
-  .replace(/\s+/g, ' ')
+// Sichtbarer Text des eigenen Build-Ergebnisses, nur zum Vergleich. Zeichenweise statt per Regex,
+// damit Kommentare, Skripte und Tags vollständig übersprungen werden (keine Ausgabe in HTML).
+const ENTITIES = { '&quot;': '"', '&#x27;': "'", '&#39;': "'", '&lt;': '<', '&gt;': '>', '&amp;': '&' }
+function visible(html) {
+  const lower = html.toLowerCase()
+  let out = ''
+  let i = 0
+  while (i < html.length) {
+    if (lower.startsWith('<!--', i)) {
+      const end = lower.indexOf('-->', i + 4)
+      i = end === -1 ? html.length : end + 3
+    } else if (lower.startsWith('<script', i) || lower.startsWith('<style', i)) {
+      const close = lower.startsWith('<script', i) ? '</script' : '</style'
+      const end = lower.indexOf(close, i)
+      const tagEnd = end === -1 ? -1 : lower.indexOf('>', end)
+      i = tagEnd === -1 ? html.length : tagEnd + 1
+    } else if (html[i] === '<') {
+      const end = html.indexOf('>', i)
+      i = end === -1 ? html.length : end + 1
+    } else {
+      out += html[i]
+      i += 1
+    }
+  }
+  return out.replace(/&(?:quot|#x27|#39|lt|gt|amp);/g, entity => ENTITIES[entity]).replace(/\s+/g, ' ')
+}
 const norm = (value) => value.replace(/\s+/g, ' ').trim()
 
 require(!generated.preview, 'Build enthält die lokale Vorschau mit Entwürfen')
