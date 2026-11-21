@@ -5,7 +5,10 @@ import articles from '../generated/news-articles.json';
 import NewsShare from '../components/NewsShare';
 import NewsFactCheck from '../components/NewsFactCheck';
 import NewsWorkflowNotice from '../components/NewsWorkflowNotice';
+import RechtsUpdateSegment from '../components/RechtsUpdateSegment';
+import "./RechtsUpdate.css";
 import disclosure from '../content/news-disclosure.json';
+import { rechtsUpdate } from '../content/rechts-update';
 import withdrawnEditions from '../../data/news-withdrawn-editions.json';
 
 const withdrawnCounts: Record<string, number> = withdrawnEditions;
@@ -36,6 +39,16 @@ export default function News() {
   return (
     <div className="news-page">
       <h1>News</h1>
+      <nav aria-label="Segmente der News-Seite">
+        <ul className="news-segments">
+          <li><a href="#news-taeglich"><strong>1 · Täglicher Überblick</strong><span>KI, Technologie, ERP, Nachhaltigkeit und Ethik. {disclosure.label}: automatisch erstellt und veröffentlicht, ohne redaktionelle Einzelprüfung.</span></a></li>
+          <li><a href="#rechts-update"><strong>2 · {rechtsUpdate.hinweis.label} (monatlich)</strong><span>{rechtsUpdate.hinweis.kurz} Für mein Studium und meine Weiterbildung; von mir geprüft, keine Rechtsberatung.</span></a></li>
+        </ul>
+      </nav>
+
+      <section className="news-segment" id="news-taeglich" aria-labelledby="news-taeglich-title">
+      <p className="news-segment-kicker">Segment 1 · täglich</p>
+      <h2 id="news-taeglich-title" className="news-segment-title">Täglicher Überblick · {disclosure.label}</h2>
       <NewsWorkflowNotice />
 
       {dates.length === 0 ? (
@@ -74,8 +87,11 @@ export default function News() {
         <p>Neue Tagesausgaben mit vollständigen Texten und Quellen direkt in deinem RSS-Reader lesen. Der Feed wird bei jeder Veröffentlichung automatisch aktualisiert.</p>
         <a className="news-rss-button" href="/rss.xml" type="application/rss+xml">RSS-Feed öffnen ↗</a>
         <p className="news-rss-address">Feed-Adresse: <a href="/rss.xml">https://dangulea.at/rss.xml</a></p>
-        <p>Zum Abonnieren die Feed-Adresse in einen RSS-Reader einfügen.</p>
+        <p>Zum Abonnieren die Feed-Adresse in einen RSS-Reader einfügen. Der Feed enthält nur den täglichen Überblick.</p>
       </section>
+      </section>
+
+      <RechtsUpdateSegment />
     </div>
   );
 }

@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 src/generated/news-articles.json
+src/generated/rechts-update.json
 data/news-fact-checks.pending.json
 __pycache__/
 .venv/

@@ -2,6 +2,7 @@ import { type ReactNode, useState, useEffect } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import './Layout.css'
 import disclosure from '../content/news-disclosure.json'
+import { rechtsUpdate } from '../content/rechts-update'
 import PrivacyNotice from './PrivacyNotice'
 
 interface LayoutProps {
@@ -21,7 +22,9 @@ export default function Layout({ children }: LayoutProps) {
   const [menuOpen, setMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const location = useLocation()
-  const isNews = location.pathname === '/news' || location.pathname.startsWith('/news/')
+  // Das monatliche Rechts-Update ist kein Teil des News-PoC und bekommt einen eigenen Hinweis.
+  const isRechtsUpdate = location.pathname.startsWith('/news/rechts-update/')
+  const isNews = !isRechtsUpdate && (location.pathname === '/news' || location.pathname.startsWith('/news/'))
 
   useEffect(() => {
     if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView()
@@ -138,7 +141,8 @@ export default function Layout({ children }: LayoutProps) {
         <aside className="site-notice" aria-label="Hinweis zum Entwicklungsstand">
           <p><strong>Diese Website ist noch im Aufbau.</strong> Inhalte und Funktionen werden laufend ergänzt und verbessert.</p>
         </aside>
-        {isNews && <aside className="news-workflow-strip" aria-label="News als Proof of Concept" data-news-poc="persistent"><span>{disclosure.persistent}</span><a href="/news#news-workflow">Ablauf erklärt</a></aside>}
+        {isNews && <aside className="news-workflow-strip" aria-label="News als Proof of Concept" data-news-poc="persistent"><span>{disclosure.persistent}{location.pathname === '/news' && ' · gilt für den täglichen Überblick'}</span><a href="/news#news-workflow">Ablauf erklärt</a></aside>}
+        {isRechtsUpdate && <aside className="news-workflow-strip" aria-label="Hinweis zum Rechts-Update" data-rechts-update="persistent"><span>{rechtsUpdate.hinweis.persistent}</span><a href="/news#rechts-update">Zweck und Grenzen</a></aside>}
         {children}
       </main>
 

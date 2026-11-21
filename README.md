@@ -8,6 +8,8 @@ News-Einzelartikel, individuelle Social-Bilder und die verpflichtende Build-/Dep
 
 Neue und geänderte News müssen vorher den [zweistufigen Faktencheck](docs/news-fact-checking.md) durchlaufen; das Prüfprotokoll wird mitcommitted. Die Website zeigt dauerhaft ihren Entwicklungsstand und den jeweiligen Prüfstatus der News an.
 
+Das zweite Segment der News-Seite, das [monatliche Rechts-Update](docs/rechts-update.md), gehört nicht zum News-PoC. Ich nutze es für mein Studium und meine Weiterbildung; jede Ausgabe wird von mir geprüft und erst nach Freigabe ausgeliefert.
+
 Die Seite stellt meinen beruflichen Hintergrund, meine fachlichen Schwerpunkte und meine laufenden Vorhaben dar. Sie ist als Einzelprojekt gedacht und nicht als Vorlage. Die Inhalte sind auf Deutsch.
 
 ## Zur Person

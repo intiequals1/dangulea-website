@@ -1,5 +1,23 @@
 # Änderungsprotokoll
 
+## 2026-11-21 – Zweites News-Segment: monatliches Rechts-Update
+
+### Was geändert wurde
+
+- `/news` hat zwei Segmente: den bisherigen täglichen Überblick (News-PoC) und das neue monatliche Rechts-Update. Oben stehen beide Segmente mit kurzer Beschreibung; der PoC-Streifen auf `/news` sagt, dass er für den täglichen Überblick gilt.
+- Neue Seiten `/news/rechts-update/JJJJ-MM/` mit Kurzüberblick, Themen (Status, Inhalt, Quellen), Fristen und Änderungen. Sie tragen statt der PoC-Kennzeichnung einen eigenen Hinweis zu Zweck, KI-Unterstützung und Grenzen.
+- Quelle `src/content/rechts-update.json`. Nur Ausgaben mit Freigabestatus „freigegeben“ und Freigabedatum werden gebaut; Entwürfe erscheinen weder als Seite noch im JavaScript. `scripts/check-rechts-update.mjs` prüft das im Build, `scripts/rechts-update.test.mjs` prüft die Regeln.
+- Erste Ausgabe (November 2026) als Entwurf angelegt.
+- `src/pages/Impressum.tsx`: Abschnitt „Grundlegende Richtung von dangulea.at (§ 25 Abs. 4 MedienG)“; im Abschnitt zu KI-Unterstützung und in der Datenschutzerklärung der Einsatz von Claude für das Rechts-Update.
+- Ablauf und Regeln: `docs/rechts-update.md`.
+
+### Warum
+
+- Auf Wunsch des Betreibers: Die monatlichen Rechts-Updates benötige ich für meine eigenen Zwecke, vor allem für mein Studium, außerdem zur Weiterbildung und um rechtlich aktuell zu bleiben.
+- Art. 50 Abs. 4 KI-Verordnung: KI-erzeugte Texte zu Angelegenheiten von öffentlichem Interesse sind offenzulegen, außer sie wurden inhaltlich geprüft und jemand trägt die redaktionelle Verantwortung. Das Segment legt beides offen. Die Freigabe ist deshalb technisch erzwungen und nicht nur beschrieben.
+- § 25 MedienG: Eine Website mit Inhalten über die Selbstdarstellung hinaus braucht die volle Offenlegung mit grundlegender Richtung. Diese fehlte im Impressum.
+- Das Segment ist allgemeine Information und keine Rechtsberatung; das steht bei jeder Ausgabe.
+
 ## 2026-11-16 – Impressum an österreichisches Recht angepasst
 
 ### Was geändert wurde

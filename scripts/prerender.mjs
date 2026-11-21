@@ -64,10 +64,35 @@ for (const article of articles) {
   await mkdir(directory, { recursive: true })
   await writeFile(new URL('index.html', directory), html)
 }
+// Monatliches Rechts-Update: nur freigegebene Ausgaben (siehe scripts/prepare-rechts-update.mjs).
+const rechtsUpdate = JSON.parse(await readFile(new URL('../src/generated/rechts-update.json', import.meta.url), 'utf8'))
+for (const edition of rechtsUpdate.editions) {
+  const title = `${rechtsUpdate.hinweis.label} · ${edition.title} · ${NAME}`
+  const description = `${rechtsUpdate.hinweis.label}: ${edition.summary}`.slice(0, 300)
+  let html = template
+    .replace(/<title>[^<]*<\/title>/, `<title>${esc(title)}</title>`)
+    .replace(/(<link rel="canonical" href=")[^"]*(")/, `$1${edition.url}$2`)
+    .replace(/(<meta property="og:url" content=")[^"]*(")/, `$1${edition.url}$2`)
+    .replace(/(<meta property="og:title" content=")[^"]*(")/, `$1${esc(title)}$2`)
+    .replace(/(<meta property="og:type" content=")[^"]*(")/, '$1article$2')
+    .replace(/(<meta name="description" content=")[^"]*(")/, `$1${esc(description)}$2`)
+    .replace(/(<meta property="og:description" content=")[^"]*(")/, `$1${esc(description)}$2`)
+  html = html.replace(/\n\s*<\/head>/, `\n${dateTags}  </head>`)
+  const app = render(edition.path)
+  if (!app || !app.includes('data-rechts-update="ausgabe"')) throw new Error(`Rechts-Update-Rendering unvollständig: ${edition.month}`)
+  html = html.replace('<div id="root"></div>', `<div id="root">${app}</div>`)
+  const directory = new URL(`.${edition.path}`, dist)
+  await mkdir(directory, { recursive: true })
+  await writeFile(new URL('index.html', directory), html)
+  console.log(`vorgerendert: ${edition.path}`)
+}
+
 await writeFile(new URL('news-manifest.json', dist), `${JSON.stringify(articles, null, 2)}\n`)
 const sitemapPath = new URL('sitemap.xml', dist)
 const sitemap = await readFile(sitemapPath, 'utf8')
-await writeFile(sitemapPath, sitemap.replace('</urlset>', articles.map(article =>
-  `  <url><loc>${esc(article.url)}</loc><lastmod>${article.date}</lastmod></url>`).join('\n') + '\n</urlset>'))
+await writeFile(sitemapPath, sitemap.replace('</urlset>', [
+  ...articles.map(article => `  <url><loc>${esc(article.url)}</loc><lastmod>${article.date}</lastmod></url>`),
+  ...rechtsUpdate.editions.map(edition => `  <url><loc>${esc(edition.url)}</loc><lastmod>${edition.freigabe.am ?? edition.stand}</lastmod></url>`),
+].join('\n') + '\n</urlset>'))
 console.log(`Einzelartikel vorgerendert: ${articles.length}, einschließlich Metadaten, Manifest und Sitemap`)
 await rm(ssrDir, { recursive: true, force: true })

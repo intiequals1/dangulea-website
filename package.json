@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/prepare-news.mjs && vite",
+    "dev": "node scripts/prepare-news.mjs && node scripts/prepare-rechts-update.mjs && vite",
     "news:sync": "node scripts/prepare-news.mjs --sync",
     "news:factcheck": "node scripts/news-factcheck.mjs",
     "news:factcheck:draft": "node scripts/news-factcheck.mjs --draft",
-    "build": "node scripts/prepare-news.mjs && tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && node scripts/prerender.mjs && node scripts/generate-news-feed.mjs && python3 scripts/render-news-images.py && python3 scripts/validate-news.py",
+    "build": "node scripts/prepare-news.mjs && node scripts/prepare-rechts-update.mjs && tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && node scripts/prerender.mjs && node scripts/generate-news-feed.mjs && python3 scripts/render-news-images.py && python3 scripts/validate-news.py && node scripts/check-rechts-update.mjs",
     "test": "node --experimental-strip-types --test scripts/*.test.mjs && python3 -m unittest discover -s scripts -p '*_test.py'",
     "validate:news": "python3 scripts/validate-news.py",
     "verify:live": "python3 scripts/validate-news.py --base-url https://dangulea.at",

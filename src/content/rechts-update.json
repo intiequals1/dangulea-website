@@ -1,0 +1,147 @@
+{
+  "hinweis": {
+    "label": "Rechts-Update",
+    "title": "Monatliches Rechts-Update für Kleinst- und Kleinunternehmen",
+    "kurz": "Rechtsänderungen in Österreich und der EU zu Software, Websites, Daten und KI, einmal im Monat zusammengefasst.",
+    "zweck": "Dieses Segment benötige ich für meine eigenen Zwecke: vor allem für mein Studium, außerdem um mich selbst weiterzubilden und rechtlich auf dem aktuellen Stand zu bleiben. Ich stelle die Ausgaben hier öffentlich zur Verfügung; ein entgeltliches Angebot ist damit nicht verbunden.",
+    "erstellung": "Die Ausgaben entstehen mit KI-Unterstützung (Claude von Anthropic): Die KI recherchiert öffentlich zugängliche Quellen und erstellt einen Entwurf. Ich prüfe jede Ausgabe inhaltlich anhand der verlinkten Quellen, bevor ich sie freigebe, und trage dafür die redaktionelle Verantwortung.",
+    "grenzen": "Keine Rechtsberatung. Die Ausgaben fassen allgemeine Informationen zum angegebenen Stand zusammen und ersetzen keine Beratung im Einzelfall. Maßgeblich sind die verlinkten Originalquellen. Entwürfe von Gesetzen sind als Entwurf gekennzeichnet und kein geltendes Recht.",
+    "abgrenzung": "Dieses Segment gehört nicht zum automatisierten News-PoC. Es ist keine Unterlage und keine Veröffentlichung einer Hochschule.",
+    "korrekturen": "Hinweise auf Fehler oder veraltete Angaben bitte an claudiu@dangulea.at. Individuelle Rechtsfragen kann ich nicht beantworten.",
+    "persistent": "Rechts-Update · für Studium und Weiterbildung · von mir geprüft · keine Rechtsberatung"
+  },
+  "editions": [
+    {
+      "month": "2026-11",
+      "title": "Ausgabe November 2026",
+      "stand": "2026-11-21",
+      "freigabe": { "status": "entwurf", "am": null },
+      "summary": "Seit 11.09.2026 gelten die Meldepflichten des Cyber Resilience Act; die Leitlinien der Kommission dazu stehen seit 17.11.2026 im Amtsblatt. Das Produkthaftungsgesetz 2026, das Software ausdrücklich erfasst, soll am 09.12.2026 in Kraft treten. Am 02.12.2026 werden weitere Teile der geänderten KI-Verordnung wirksam. Die geplanten Änderungen an der DSGVO (Digital Omnibus) sind noch nicht beschlossen.",
+      "topics": [
+        {
+          "id": "cra",
+          "title": "Cyber Resilience Act (CRA)",
+          "status": "in Kraft",
+          "items": [
+            { "label": "Was gilt", "text": "Hersteller von Produkten mit digitalen Elementen müssen aktiv ausgenutzte Schwachstellen und schwerwiegende Sicherheitsvorfälle über die einheitliche Meldeplattform der ENISA melden. Die Meldung geht an die ENISA und an das als Koordinator benannte CSIRT, für Österreich CERT.at. Vorgesehen sind eine Frühwarnung binnen 24 Stunden, eine Meldung binnen 72 Stunden und ein Abschlussbericht (bei Schwachstellen spätestens 14 Tage nach verfügbarer Korrektur, bei Vorfällen spätestens einen Monat nach der Meldung)." },
+            { "label": "Ab wann", "text": "Meldepflichten seit 11.09.2026, auch für Produkte, die schon vorher auf dem Markt waren. Die übrigen Hauptpflichten gelten ab 11.12.2027." },
+            { "label": "Wen betrifft es", "text": "Wer Hard- oder Software mit digitalen Elementen im Rahmen einer Geschäftstätigkeit auf dem EU-Markt bereitstellt, auch kostenlos. Die Leitlinien der Kommission (angenommen am 27.07.2026, im Amtsblatt seit 17.11.2026) erläutern unter anderem, wann Datenfernverarbeitung und freie, quelloffene Software erfasst sind. Websites und Web-Anwendungen fallen danach grundsätzlich nur darunter, soweit sie als Datenfernverarbeitung eine Funktion eines Produkts unterstützen." },
+            { "label": "Erleichterung", "text": "Kleinst- und Kleinunternehmen erhalten für das Versäumen der 24-Stunden-Frühwarnung keine Geldbuße (Art. 64 Abs. 10 CRA). Die Meldepflicht selbst bleibt bestehen." },
+            { "label": "Normen", "text": "Laut Fachberichten haben die horizontalen Normen EN 40000-1-1 (Begriffe) und EN 40000-1-2 (Grundsätze der Cyberresilienz) im Oktober 2026 das formelle Annahmeverfahren bei CEN-CENELEC abgeschlossen. Eine Vermutung der Konformität entsteht erst, wenn ihre Fundstelle im Amtsblatt der EU veröffentlicht ist." },
+            { "label": "Was tun", "text": "Eigene Produkte einordnen: Produkt mit digitalen Elementen ja oder nein, geschäftlich bereitgestellt ja oder nein. Für erfasste Produkte Meldeweg und Zuständigkeit festlegen. Bis Ende 2027 Entwicklungs- und Updateprozesse auf die Anforderungen ausrichten." }
+          ],
+          "sources": [
+            { "title": "Verordnung (EU) 2024/2847 (Cyber Resilience Act), EUR-Lex", "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj" },
+            { "title": "Leitlinien der Kommission zur Anwendung des CRA, ABl. C/2026/6013 vom 17.11.2026", "url": "https://eur-lex.europa.eu/eli/C/2026/6013" },
+            { "title": "Europäische Kommission: Veröffentlichung der CRA-Leitlinien, 27.07.2026", "url": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation" },
+            { "title": "ENISA: Liste der als Koordinator benannten CSIRTs", "url": "https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/list-of-csirts-designated-as-coordinators" },
+            { "title": "IBF Solutions: Stand der Normung zum CRA (Sekundärquelle)", "url": "https://www.ibf-solutions.com/en/news-and-knowledge/technical-papers-and-news-on-ce-marking/current-status-of-standardisation-for-the-cyber-resilience-act" }
+          ]
+        },
+        {
+          "id": "phg-2026",
+          "title": "Produkthaftungsgesetz 2026 (PHG 2026)",
+          "status": "Entwurf",
+          "items": [
+            { "label": "Was geplant ist", "text": "Das PHG 2026 soll die neue EU-Produkthaftungsrichtlinie (EU) 2024/2853 umsetzen. Als Produkt sollen ausdrücklich auch Software, einschließlich KI-Systemen, und digitale Konstruktionsunterlagen gelten. Gehaftet werden soll auch für Fehler durch Updates oder durch fehlende Updates. Ersatzfähig sollen auch Schäden durch Vernichtung oder Beschädigung von Daten sein, die nicht für berufliche Zwecke verwendet werden. Der Selbstbehalt von 500 Euro bei Sachschäden soll entfallen; Geschädigte sollen Beweiserleichterungen erhalten." },
+            { "label": "Ab wann", "text": "Geplantes Inkrafttreten am 09.12.2026, dem Ende der Umsetzungsfrist der Richtlinie. Der Ministerialentwurf war vom 27.10. bis 12.11.2026 in Begutachtung." },
+            { "label": "Wen betrifft es", "text": "Hersteller und Importeure, nachrangig unter anderem Fulfilment-Dienstleister, Lieferanten und Anbieter von Online-Plattformen. Wer ein Produkt außerhalb der Kontrolle des Herstellers wesentlich verändert und bereitstellt, soll wie ein Hersteller haften. Freie und quelloffene Software, die außerhalb einer Geschäftstätigkeit entwickelt oder bereitgestellt wird, soll nicht erfasst sein." },
+            { "label": "Was tun", "text": "Prüfen, welche eigene Software an Verbraucher gelangt. Updatezusagen und Unterstützungszeiträume dokumentieren. Den Versicherungsschutz für Software abklären." },
+            { "label": "Stand", "text": "Ministerialentwurf. Ein Gesetzesbeschluss ist in dieser Ausgabe nicht berücksichtigt." }
+          ],
+          "sources": [
+            { "title": "oesterreich.gv.at: Begutachtungsentwurf Produkthaftungsgesetz 2026", "url": "https://www.oesterreich.gv.at/de/Gesetzliche-Neuerungen/Begutachtungsentwurf/Produkthaftungsgesetz-2026" },
+            { "title": "Parlament: 151/ME XXVIII. GP, Kurzinformation zum Ministerialentwurf", "url": "https://www.parlament.gv.at/dokument/XXVIII/ME/151/imfname_1785761.pdf" },
+            { "title": "Richtlinie (EU) 2024/2853 über die Haftung für fehlerhafte Produkte, EUR-Lex", "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj" }
+          ]
+        },
+        {
+          "id": "nisg-2026",
+          "title": "NISG 2026 (Umsetzung der NIS-2-Richtlinie)",
+          "status": "in Kraft",
+          "items": [
+            { "label": "Was gilt", "text": "Wesentliche und wichtige Einrichtungen müssen Risikomanagementmaßnahmen für Cybersicherheit umsetzen und Sicherheitsvorfälle melden." },
+            { "label": "Ab wann", "text": "In Kraft seit 01.10.2026 (BGBl. I Nr. 94/2025). Die Registrierung hat binnen drei Monaten ab Inkrafttreten zu erfolgen, also bis Ende 2026; das Formular steht im Unternehmensserviceportal (USP). Die Selbstdeklaration über umgesetzte Maßnahmen folgt binnen zwölf Monaten, laut WKO bis 30.09.2027. Ab 01.10.2028 kann die Cybersicherheitsbehörde Nachweise verlangen." },
+            { "label": "Wen betrifft es", "text": "Einrichtungen in den Sektoren der Anlagen 1 und 2 des NISG 2026, die die Größenschwellen erreichen. Kleinst- und Kleinunternehmen sind nur in Sonderfällen erfasst. Indirekt betroffen sind Zulieferer, weil erfasste Einrichtungen die Sicherheit ihrer Lieferkette steuern müssen." },
+            { "label": "Was tun", "text": "Mit dem Online-Ratgeber der WKO prüfen, ob das eigene Unternehmen erfasst ist. Als Dienstleister mit Sicherheitsanforderungen von Kunden rechnen, etwa Fragebögen, Vertragsklauseln und Nachweise." }
+          ],
+          "sources": [
+            { "title": "RIS: § 29 NISG 2026 (Registrierung)", "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40273890/NOR40273890.pdf" },
+            { "title": "WKO: NISG 2026 – neue Pflichten zur Cybersicherheit", "url": "https://www.wko.at/it-sicherheit/nis2-uebersicht" },
+            { "title": "USP: Registrierung von Unternehmen nach dem NIS-Gesetz", "url": "https://www.usp.gv.at/services/mein-usp/NIMxP.html" }
+          ]
+        },
+        {
+          "id": "ki-verordnung",
+          "title": "KI-Verordnung, geändert durch Verordnung (EU) 2026/1744",
+          "status": "in Kraft",
+          "items": [
+            { "label": "Was gilt", "text": "Die Änderungsverordnung vom 08.07.2026 (Amtsblatt vom 24.07.2026) verschiebt Fristen und ändert einzelne Pflichten der KI-Verordnung (EU) 2024/1689. Seit 02.08.2026 gelten die Transparenzpflichten nach Art. 50. Danach ist unter anderem offenzulegen, wenn KI-erzeugter Text veröffentlicht wird, um die Öffentlichkeit über Angelegenheiten von öffentlichem Interesse zu informieren, außer er wurde von Menschen überprüft oder redaktionell kontrolliert und eine Person trägt die redaktionelle Verantwortung. Die Pflicht zur KI-Kompetenz (Art. 4) wurde abgeschwächt." },
+            { "label": "Ab wann", "text": "02.12.2026: neue Verbote nach Art. 5; Ende der Übergangsfrist für die Kennzeichnung KI-erzeugter Inhalte nach Art. 50 Abs. 2 bei Systemen, die vor dem 02.08.2026 in Verkehr gebracht wurden. 02.08.2027: KI-Reallabore. 02.12.2027: Pflichten für eigenständige Hochrisiko-KI-Systeme. 02.08.2028: Pflichten für Hochrisiko-KI in Produkten." },
+            { "label": "Wen betrifft es", "text": "Anbieter und Betreiber von KI-Systemen. Wer ein Sprachmodell eines Dritten in eine eigene Anwendung einbaut, kann Anbieter dieser Anwendung sein." },
+            { "label": "Was tun", "text": "Eigene Anwendungen mit KI-Funktion auflisten. Prüfen, ob Nutzerinnen und Nutzer erfahren, dass sie mit KI interagieren (Art. 50 Abs. 1), ob erzeugte Inhalte gekennzeichnet werden (Art. 50 Abs. 2) und ob veröffentlichte KI-Texte gekennzeichnet oder inhaltlich geprüft werden (Art. 50 Abs. 4). Verbotene Praktiken ausschließen." }
+          ],
+          "sources": [
+            { "title": "Verordnung (EU) 2026/1744 (Digital-Omnibus-Verordnung zur KI), EUR-Lex", "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj" },
+            { "title": "Verordnung (EU) 2024/1689 (KI-Verordnung), EUR-Lex", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj" },
+            { "title": "AI Act Service Desk der Kommission: Artikel 50", "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50" },
+            { "title": "Europäische Kommission: Leitlinien zur Transparenz KI-erzeugter Inhalte", "url": "https://digital-strategy.ec.europa.eu/policies/guidelines-transparency-ai-generated-content" }
+          ]
+        },
+        {
+          "id": "data-act",
+          "title": "Data Act",
+          "status": "in Kraft",
+          "items": [
+            { "label": "Was gilt", "text": "Rechte auf Zugang zu Daten vernetzter Produkte und verbundener Dienste sowie Regeln für den Wechsel zwischen Cloud- und anderen Datenverarbeitungsdiensten." },
+            { "label": "Ab wann", "text": "Anwendbar seit 12.09.2025. Vernetzte Produkte, die ab 12.09.2026 in Verkehr gebracht werden, müssen den Datenzugang bereits in ihrer Gestaltung ermöglichen. Ab 12.01.2027 dürfen Anbieter von Datenverarbeitungsdiensten für den Wechsel keine Entgelte mehr verlangen." },
+            { "label": "Wen betrifft es", "text": "Hersteller vernetzter Produkte, Anbieter verbundener Dienste und Anbieter von Datenverarbeitungsdiensten." },
+            { "label": "Was tun", "text": "Nur bei vernetzten Produkten oder eigenen Cloud-Diensten relevant; dann Verträge und Wechselbedingungen prüfen." }
+          ],
+          "sources": [
+            { "title": "Verordnung (EU) 2023/2854 (Data Act), EUR-Lex", "url": "https://eur-lex.europa.eu/eli/reg/2023/2854/oj" }
+          ]
+        },
+        {
+          "id": "digital-omnibus",
+          "title": "Digital Omnibus (DSGVO, ePrivacy, Meldewesen)",
+          "status": "in Verhandlung",
+          "items": [
+            { "label": "Was geplant ist", "text": "Der Kommissionsvorschlag vom 19.11.2025 ändert unter anderem die DSGVO, die Cookie-Regeln der ePrivacy-Richtlinie und das Meldewesen für Cyber- und Datenvorfälle. Das Verhandlungsmandat des Rates vom 21.10.2026 behält die bisherige Definition personenbezogener Daten bei und verlängert die Frist für Meldungen von Datenschutzverletzungen an die Aufsichtsbehörde auf 96 Stunden." },
+            { "label": "Stand", "text": "Die Verhandlungen mit dem Europäischen Parlament beginnen, sobald dieses seine Position beschlossen hat. Nichts davon ist geltendes Recht." },
+            { "label": "Was tun", "text": "Nichts ändern. Bis zu einem Beschluss gilt die DSGVO unverändert, auch die Meldefrist von 72 Stunden." }
+          ],
+          "sources": [
+            { "title": "IAPP: EU member states finalize negotiating stance on Digital Omnibus (Sekundärquelle)", "url": "https://iapp.org/news/a/eu-member-states-finalize-digital-omnibus-negotiating-stance" },
+            { "title": "Cuatrecasas: Digital Omnibus – EU Council establishes position (Sekundärquelle)", "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-eu-council-establishes-position" }
+          ]
+        },
+        {
+          "id": "bafg",
+          "title": "Barrierefreiheitsgesetz (BaFG)",
+          "status": "in Kraft",
+          "items": [
+            { "label": "Was gilt", "text": "Barrierefreiheitsanforderungen für bestimmte Produkte und für Dienstleistungen gegenüber Verbrauchern, darunter der elektronische Geschäftsverkehr." },
+            { "label": "Ab wann", "text": "Seit 28.06.2025." },
+            { "label": "Wen betrifft es", "text": "Unternehmen, die erfasste Produkte oder Dienstleistungen für Verbraucher anbieten. Kleinstunternehmen (weniger als 10 Beschäftigte und höchstens 2 Mio. Euro Jahresumsatz oder Jahresbilanzsumme) sind bei Dienstleistungen ausgenommen (§ 6 Abs. 1 BaFG), nicht aber als Hersteller von Produkten. Rein unternehmensbezogene Angebote fallen nicht darunter." },
+            { "label": "Was tun", "text": "Bei Angeboten an Verbraucher prüfen, ob die Ausnahme greift. Andernfalls Barrierefreiheit umsetzen und die Konformität der Dienstleistung angeben." }
+          ],
+          "sources": [
+            { "title": "RIS: Barrierefreiheitsgesetz, BGBl. I Nr. 76/2023", "url": "https://ris.bka.gv.at/eli/bgbl/I/2023/76" },
+            { "title": "WKO: FAQs zum Barrierefreiheitsgesetz", "url": "https://www.wko.at/ce-kennzeichnung-normen/faqs-webinar-barrierefreiheitsgesetz" }
+          ]
+        }
+      ],
+      "deadlines": [
+        { "date": "2026-12-02", "topic": "KI-Verordnung", "what": "Neue Verbote; Ende der Übergangsfrist für die Kennzeichnung nach Art. 50 Abs. 2 bei vor dem 02.08.2026 in Verkehr gebrachten Systemen" },
+        { "date": "2026-12-09", "topic": "PHG 2026", "what": "Geplantes Inkrafttreten; Software als Produkt" },
+        { "date": "2026-12-31", "topic": "NISG 2026", "what": "Ende der Frist zur Registrierung erfasster Einrichtungen" },
+        { "date": "2027-01-12", "topic": "Data Act", "what": "Keine Wechselentgelte mehr bei Datenverarbeitungsdiensten" },
+        { "date": "2027-08-02", "topic": "KI-Verordnung", "what": "KI-Reallabore der Mitgliedstaaten" },
+        { "date": "2027-09-30", "topic": "NISG 2026", "what": "Selbstdeklaration der umgesetzten Maßnahmen" }
+      ],
+      "later": "Weiter vorne: 02.12.2027 Hochrisiko-KI (eigenständig), 11.12.2027 CRA mit allen Hauptpflichten, 02.08.2028 Hochrisiko-KI in Produkten, 01.10.2028 Nachweise nach NISG 2026 auf Verlangen.",
+      "changes": ["Erste Ausgabe."]
+    }
+  ]
+}

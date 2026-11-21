@@ -51,6 +51,21 @@ export default function Impressum() {
         <div className="divider" />
 
         <section className="legal-section">
+          <h2 id="grundlegende-richtung">Grundlegende Richtung von dangulea.at (§ 25 Abs. 4 MedienG)</h2>
+          <p>
+            Persönliche Website von Claudiu Dangulea mit Informationen zu beruflichem Hintergrund,
+            fachlichen Schwerpunkten und laufenden Vorhaben. Im Bereich „News“ erscheinen ein
+            automatisiert erstellter täglicher Überblick zu KI, Technologie, ERP, Nachhaltigkeit und
+            Ethik (Proof of Concept) sowie ein monatliches Rechts-Update zu Rechtsänderungen für
+            Kleinst- und Kleinunternehmen. Das Rechts-Update dient meinem Studium, meiner Weiterbildung
+            und dem Ziel, rechtlich auf dem aktuellen Stand zu bleiben. Es ist keine Rechtsberatung und
+            kein entgeltliches Angebot.
+          </p>
+        </section>
+
+        <div className="divider" />
+
+        <section className="legal-section">
           <h2>Automatisierte Inhalte und KI-Unterstützung</h2>
           <p>
             Auf dieser Website, insbesondere im Bereich „News“, können Inhalte ganz
@@ -64,6 +79,12 @@ export default function Impressum() {
             redaktionell geprüft wurde, wird keine individuelle redaktionelle Prüfung
             behauptet. Die inhaltliche Verantwortung für veröffentlichte eigene Inhalte
             liegt bei der oben genannten verantwortlichen Person.
+          </p>
+          <p>
+            Das monatliche Rechts-Update im Bereich „News“ wird mit Unterstützung von Claude
+            (Anthropic) recherchiert und entworfen. Jede Ausgabe wird vor Veröffentlichung von mir
+            inhaltlich anhand der verlinkten Quellen geprüft und freigegeben; das Freigabedatum steht
+            bei der Ausgabe.
           </p>
           <p>
             Hinweise auf Fehler, unklare Quellen, veraltete Angaben oder notwendige
@@ -204,6 +225,11 @@ export default function Impressum() {
             sensiblen personenbezogenen Daten an solche Dienste übermittelt werden.
           </p>
           <p>
+            Für das monatliche Rechts-Update wird Claude von Anthropic eingesetzt. Dabei werden
+            keine Daten von Besucherinnen und Besuchern dieser Website übermittelt; die Ausgaben
+            werden als statische Seiten ausgeliefert.
+          </p>
+          <p>
             Soweit im Einzelfall personenbezogene Daten verarbeitet werden, erfolgt dies
             nach Maßgabe der anwendbaren Datenschutzvorschriften. Je nach eingesetztem
             Dienst, Konto und technischer Einbindung können Anbieter eigene Protokoll-,
@@ -257,7 +283,7 @@ export default function Impressum() {
               www.ethics.at
             </a>
           </p>
-          <p className="legal-date">Stand: 16. November 2026</p>
+          <p className="legal-date">Stand: 21. November 2026</p>
         </section>
 
       </div>
