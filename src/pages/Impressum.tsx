@@ -227,10 +227,15 @@ export default function Impressum() {
           <h3>KI- und Automatisierungsdienste</h3>
           <p>
             Für die Recherche, Zusammenfassung, Strukturierung oder sprachliche
-            Bearbeitung von Inhalten werden externe KI-Dienste eingesetzt: Codex von OpenAI
-            für den täglichen Überblick im Bereich „News“, Perplexity (Perplexity AI, Inc.)
-            für die Rubrik „Aktuelle Themen“ und Claude von Anthropic für das monatliche
-            Rechts-Update. Dabei sollen keine vertraulichen Informationen, Zugangsdaten,
+            Bearbeitung von Inhalten werden folgende externe KI-Dienste eingesetzt:
+          </p>
+          <ul className="legal-list">
+            <li>Täglicher Überblick im Bereich „News“: Codex von OpenAI</li>
+            <li>Rubrik „Aktuelle Themen“: Perplexity (Perplexity AI, Inc.)</li>
+            <li>Monatliches Rechts-Update im Bereich „News“: Claude von Anthropic</li>
+          </ul>
+          <p>
+            Dabei sollen keine vertraulichen Informationen, Zugangsdaten,
             Geschäftsgeheimnisse oder sensiblen personenbezogenen Daten an solche Dienste
             übermittelt werden.
           </p>
