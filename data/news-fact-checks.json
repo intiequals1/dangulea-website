@@ -12650,6 +12650,954 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-22-1",
+      "contentHash": "ca61e4776cd40e17bdd59cd1093701f5dcef3d5466b0ed217e298b3241989917",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-22T09:44:57.003Z",
+          "reviewer": "Codex Quellenabgleich",
+          "limitations": [
+            "Ausschließlich SAP-Kundenbericht; unabhängige Wirkungsnachweise werden nicht behauptet."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Takeda verbindet die ERP-Migration mit der Entwicklung von KI-Agenten",
+              "verdict": "supported",
+              "reason": "Einleitung und Abschnitt zur Co-Entwicklung verbinden laufende ERP-Transformation und Agentenentwicklung ausdrücklich.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP beschreibt am 20. November 2026 Takedas laufenden Wechsel von SAP ECC zu SAP Cloud ERP im Rahmen von RISE with SAP.",
+              "verdict": "supported",
+              "reason": "Datumszeile 20.11.2026 und Einleitung nennen ECC, Cloud ERP und RISE; der Wechsel wird als laufend beschrieben.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Kundenbericht nennt die gemeinsame Entwicklung agentischer Funktionen für regulierte Branchen.",
+              "verdict": "supported",
+              "reason": "Absatz zur Zusammenarbeit nennt co-developing new agentic functionalities for regulated industries.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Einen abgeschlossenen Rollout dieser Funktionen weist der Beitrag nicht aus.",
+              "verdict": "supported",
+              "reason": "Schlussabsatz formuliert nächste Schritte; weder Go-live-Datum noch fertiger Agentenrollout ist belegt.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SAP · CLOUD ERP",
+              "verdict": "supported",
+              "reason": "SAP Cloud ERP ist das im Bericht benannte Zielsystem.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Takeda verbindet ERP-Migration mit KI-Agenten",
+              "verdict": "supported",
+              "reason": "Die Vorschau verbindet dieselben zwei laufenden Vorhaben ohne Fertigstellungsbehauptung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zur ERP-Migration und Entwicklung von KI-Agenten bei Takeda",
+              "verdict": "supported",
+              "reason": "Das Zahnrad ist das gewählte Symbol; der Alternativtext beschreibt Entwicklung und Migration, keinen Erfolgswert.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-22T09:46:09.579Z",
+          "reviewer": "Codex kritische Gegenprüfung desselben Workflows",
+          "limitations": [
+            "Ausschließlich SAP-Kundenbericht; unabhängige Wirkungsnachweise werden nicht behauptet."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Takeda verbindet die ERP-Migration mit der Entwicklung von KI-Agenten",
+              "verdict": "supported",
+              "reason": "Der Anbieterbericht erlaubt die Verbindung der Vorhaben, nicht die Aussage einer fertigen autonomen Produktion.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP beschreibt am 20. November 2026 Takedas laufenden Wechsel von SAP ECC zu SAP Cloud ERP im Rahmen von RISE with SAP.",
+              "verdict": "supported",
+              "reason": "Die Nachsuche ergab keinen Kundenbeleg für einen abgeschlossenen Wechsel; die Formulierung laufend bleibt notwendig.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Kundenbericht nennt die gemeinsame Entwicklung agentischer Funktionen für regulierte Branchen.",
+              "verdict": "supported",
+              "reason": "Die Originalstelle belegt gemeinsame Entwicklung; eine allgemeine Produktfreigabe folgt daraus nicht.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Einen abgeschlossenen Rollout dieser Funktionen weist der Beitrag nicht aus.",
+              "verdict": "supported",
+              "reason": "Erneutes Lesen des Ausblicks bestätigt die begrenzte Negativaussage über diesen Beitrag, nicht über alle Takeda-Systeme.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SAP · CLOUD ERP",
+              "verdict": "supported",
+              "reason": "Die Kategorie bezeichnet das Produkt, nicht eine unabhängige Zertifizierung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Takeda verbindet ERP-Migration mit KI-Agenten",
+              "verdict": "supported",
+              "reason": "Die knappe Vorschau enthält keine Rollout- oder Wirksamkeitszusage.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zur ERP-Migration und Entwicklung von KI-Agenten bei Takeda",
+              "verdict": "supported",
+              "reason": "Symbol und Text vermeiden die Darstellung einer schon produktiven autonomen Anlage.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "Takeda SAP S4HANA November 2026 migration completed agentic co-development limitations site:takeda.com",
+              "finding": "Die Suche nach einem abgeschlossenen Rollout lieferte keinen passenden aktuellen Takeda-Originalbeleg; deshalb ausschließlich Anbieterbericht und laufendes Vorhaben.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            },
+            {
+              "query": "\"Takeda\" \"SAP\" \"co-developing\" \"2026\"",
+              "finding": "Der SAP-Bericht nennt Co-Entwicklung und Ausblick, keine Freigabe oder gemessenen Verbesserungen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Datumszeile ist 20.11.2026; keine Beschäftigtenzahlen oder Leistungszahlen übernommen.",
+            "scopeAndQualifications": "Laufende Migration und Entwicklung bleiben von produktiver Freigabe getrennt.",
+            "sourceIndependence": "SAP-Kundenbericht ist die einzige belegte Projektquelle; keine unabhängige Bestätigung behauptet.",
+            "contradictions": "Kein Widerspruch im gelesenen Bericht; fehlende Rolloutbestätigung wird ausdrücklich genannt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-2",
+      "contentHash": "d43bc36ea8ec693444f085605aa82c3c8b9b050dee13b675f563f64dbb9d48cd",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-22T09:44:57.003Z",
+          "reviewer": "Codex Quellenabgleich",
+          "limitations": [
+            "Projektquellen, keine unabhängige Reproduktion; quantisierte Fassungen und eigene Aufgaben benötigen gesonderte Tests."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Hugging Face veröffentlicht ein Trainingsrezept für angepasste Coding-Agenten",
+              "verdict": "supported",
+              "reason": "Überschrift, TL;DR und Trainingsabschnitt beschreiben ein wiederverwendbares Rezept für angepasste Coding-Agenten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Hugging Face veröffentlichte am 20. November 2026 ein Trainingsrezept für Harness-Adapter auf Basis von Qwen3.8-27B.",
+              "verdict": "supported",
+              "reason": "Datumszeile 20.11.2026 und TL;DR nennen Qwen3.8-27B als Basis.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Team trainiert LoRA-Adapter mit Reinforcement Learning innerhalb der Agentenumgebungen Pi, OpenCode und Hermes Agent.",
+              "verdict": "supported",
+              "reason": "TL;DR nennt je einen LoRA-Adapter für Pi, Hermes Agent und OpenCode sowie RL im Harness.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Es stellt auch einen kombinierten Adapter sowie Aufgaben und Evaluationsartefakte bereit.",
+              "verdict": "supported",
+              "reason": "TL;DR und Modellkarte belegen den kombinierten Adapter; Sammlung und Trajektorien werden verlinkt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "HUGGING FACE · AGENTEN",
+              "verdict": "supported",
+              "reason": "Projekt und Agentenumgebungen sind eindeutig Hugging Face zugeordnet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Hugging Face trainiert Modelle in ihrer Agentenumgebung",
+              "verdict": "supported",
+              "reason": "Abschnitt Training inside agent harnesses beschreibt genau diese Anpassung innerhalb des Harness.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zum Training von Harness-Adaptern für Coding-Agenten",
+              "verdict": "supported",
+              "reason": "Gewähltes Zahnradmotiv und Alternativtext benennen Training, keine unbewiesene Überlegenheit.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-22T09:46:09.579Z",
+          "reviewer": "Codex kritische Gegenprüfung desselben Workflows",
+          "limitations": [
+            "Projektquellen, keine unabhängige Reproduktion; quantisierte Fassungen und eigene Aufgaben benötigen gesonderte Tests."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Hugging Face veröffentlicht ein Trainingsrezept für angepasste Coding-Agenten",
+              "verdict": "supported",
+              "reason": "Nachsuche und Modellkarte bestätigen Projektveröffentlichung; allgemeine Leistungssteigerung ist nicht Teil der Überschrift.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Hugging Face veröffentlichte am 20. November 2026 ein Trainingsrezept für Harness-Adapter auf Basis von Qwen3.8-27B.",
+              "verdict": "supported",
+              "reason": "Veröffentlichungsdatum des Rezepts ist von früheren Einzeladapter-Ankündigungen zu unterscheiden.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Team trainiert LoRA-Adapter mit Reinforcement Learning innerhalb der Agentenumgebungen Pi, OpenCode und Hermes Agent.",
+              "verdict": "supported",
+              "reason": "Die drei konkret genannten Harnesses sind belegt; Transfer auf beliebige Umgebungen wird nicht behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Es stellt auch einen kombinierten Adapter sowie Aufgaben und Evaluationsartefakte bereit.",
+              "verdict": "supported",
+              "reason": "Modellkarte enthält kombinierte Gewichte; bloße Downloadbarkeit ersetzt keine erneute Evaluation.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "HUGGING FACE · AGENTEN",
+              "verdict": "supported",
+              "reason": "Kategorie bezeichnet den Projektanbieter; keine unabhängige Forschungsinstanz suggeriert.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Hugging Face trainiert Modelle in ihrer Agentenumgebung",
+              "verdict": "supported",
+              "reason": "Vorschau trifft die Trainingsmethode, ohne Coding-Ergebnisse auf Geschäftsautomatisierung zu übertragen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Zahnrad zum Training von Harness-Adaptern für Coding-Agenten",
+              "verdict": "supported",
+              "reason": "Alt-Text enthält keinen Benchmarkwert und bleibt dem geplanten Zahnradmotiv zugeordnet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"harness adapters\" \"November 20\" evaluation contamination limitations",
+              "finding": "Gegenrecherche führte zu den Einschränkungen der Originalmodellkarte: GGUF nicht erneut evaluiert, Terminal-Bench zur Wahl des Merge-Gewichts genutzt; keine Zahlenübernahme.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            },
+            {
+              "query": "\"harness-adapters-at-scale\" \"Open question\"",
+              "finding": "Der Originalabschnitt Open question diskutiert reasoning leakage im Non-Thinking-Modus; deshalb keine allgemeine Fähigkeitssteigerung behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/harness-adapters-at-scale",
+                "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "20.11.2026 bezeichnet den Blog; Qwen3.8-27B ist die Modellbezeichnung. Keine Benchmarkzahlen übernommen.",
+            "scopeAndQualifications": "Training auf Coding-Aufgaben; kein Nachweis für allgemeine Geschäftsautomatisierung oder quantisierte Inferenz.",
+            "sourceIndependence": "Blog und Modellkarte stammen aus demselben Projekt und zählen nicht als unabhängige Replikation.",
+            "contradictions": "Optimistische Benchmarkauswahl und Reasoning-Leakage begrenzen Leistungsaussagen; der endgültige Text enthält keine solchen Zahlenversprechen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-3",
+      "contentHash": "ad76bee6821a03476eb0702ccce451e80bcde9c8470878bf6df7c65acfe93acb",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-22T09:44:57.003Z",
+          "reviewer": "Codex Quellenabgleich",
+          "limitations": [
+            "Organisatorischer Meilenstein; genannte Fähigkeiten und Vorteile bleiben Entwicklungsziele."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EDU-EDIC startet gemeinsame europäische Bildungsinfrastruktur",
+              "verdict": "supported",
+              "reason": "Beide Kommissionsmeldungen nennen den offiziellen Start des Bildungskonsortiums.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EU-Kommission und acht Mitgliedstaaten starteten am 20. November 2026 das Bildungskonsortium EDU-EDIC offiziell.",
+              "verdict": "supported",
+              "reason": "Publikationsdatum und Text nennen den 20.11.2026 und acht Mitgliedstaaten.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Niederlande beherbergen das Konsortium.",
+              "verdict": "supported",
+              "reason": "Die Pressemeldung nennt die Niederlande als Gastgeber; zweite Meldung präzisiert Den Haag als Sitz.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Zusammenarbeit soll unter anderem Cloud-Infrastruktur, KI für Bildung und sicheren Datenaustausch zwischen Bildungseinrichtungen unterstützen.",
+              "verdict": "supported",
+              "reason": "Die Erklärung benennt Cloud-Infrastruktur, KI für Bildung und sicheren Datenaustausch als gemeinsame Arbeitsbereiche.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "EU · DATENINFRASTRUKTUR",
+              "verdict": "supported",
+              "reason": "Die Kategorie bezieht sich auf europäische Infrastrukturkooperation.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Acht EU-Staaten starten gemeinsame Bildungsinfrastruktur",
+              "verdict": "supported",
+              "reason": "Die acht Staaten starten die Kooperation; die Einordnung stellt klar, dass keine fertige Cloud freigegeben wird.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Cloud zum Start des europäischen Bildungskonsortiums EDU-EDIC",
+              "verdict": "supported",
+              "reason": "Das Cloud-Symbol bezeichnet Infrastruktur als Gegenstand; keine Leistungs- oder Datenschutzgarantie im Alt-Text.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-22T09:46:09.579Z",
+          "reviewer": "Codex kritische Gegenprüfung desselben Workflows",
+          "limitations": [
+            "Organisatorischer Meilenstein; genannte Fähigkeiten und Vorteile bleiben Entwicklungsziele."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "EDU-EDIC startet gemeinsame europäische Bildungsinfrastruktur",
+              "verdict": "supported",
+              "reason": "Die Gegenrecherche trennt frühere Errichtung und offiziellen Start; die Überschrift bezeichnet den Start der Kooperation.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die EU-Kommission und acht Mitgliedstaaten starteten am 20. November 2026 das Bildungskonsortium EDU-EDIC offiziell.",
+              "verdict": "supported",
+              "reason": "Kommissionsbericht und Partnerbericht stimmen beim 20.11.2026 überein; acht Staaten werden namentlich aufgeführt.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Niederlande beherbergen das Konsortium.",
+              "verdict": "supported",
+              "reason": "Die Niederlande sind Gastgeber, nicht alleiniger Betreiber aller geplanten Dienste.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Zusammenarbeit soll unter anderem Cloud-Infrastruktur, KI für Bildung und sicheren Datenaustausch zwischen Bildungseinrichtungen unterstützen.",
+              "verdict": "supported",
+              "reason": "Die Arbeitsfelder sind Ziele; die Soll-Formulierung erhält den Planungscharakter.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "EU · DATENINFRASTRUKTUR",
+              "verdict": "supported",
+              "reason": "EU ist hier die politische Kooperation, keine pauschale EU-weite Verfügbarkeit.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Acht EU-Staaten starten gemeinsame Bildungsinfrastruktur",
+              "verdict": "supported",
+              "reason": "Vorschau wird im Artikel durch den organisatorischen Meilenstein begrenzt; Österreich ist nicht Gründungsmitglied.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Cloud zum Start des europäischen Bildungskonsortiums EDU-EDIC",
+              "verdict": "supported",
+              "reason": "Cloud ist ein Gestaltungszeichen, kein Bildbeleg für bereits vorhandene Infrastruktur.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"EDU-EDIC\" \"20 November 2026\" cloud infrastructure launched",
+              "finding": "Kommissionsveranstaltung und Partnerbericht unterscheiden Startveranstaltung von der zuvor erfolgten Errichtung.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education",
+                "https://www.ru.nl/en/about-us/news/nolai-partner-in-european-collaboration-to-strengthen-schools-digital-autonomy"
+              ]
+            },
+            {
+              "query": "\"European Digital Infrastructure Consortium\" education \"2026\" \"eight\" launch infrastructure available",
+              "finding": "Zweite Kommissionsmeldung und Radboud-Partnerbericht beschreiben Kooperation und Aufbauziele; keine allgemeine Freigabe einer fertigen Bildungscloud.",
+              "sourceUrls": [
+                "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+                "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education",
+                "https://www.ru.nl/en/about-us/news/nolai-partner-in-european-collaboration-to-strengthen-schools-digital-autonomy"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Offizieller Start am 20.11.2026; acht genannte Staaten. Frühere rechtliche Errichtung wird nicht auf diesen Tag umdatiert.",
+            "scopeAndQualifications": "Kooperationsstruktur und geplante Cloud-/KI-/Datenarbeit, keine fertige EU-Bildungscloud.",
+            "sourceIndependence": "Zwei Kommissionsseiten sind dieselbe Organisation; Radboud/NOLAI ist beteiligter Partner, kein unabhängiger Wirksamkeitsnachweis.",
+            "contradictions": "Errichtung und Start sind unterschiedliche Termine; der endgültige Text spricht ausdrücklich vom offiziellen Start."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-4",
+      "contentHash": "f350f58918c962be63a601153286bb599e5db9248410953adc6c1bdc0ffd5b45",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-22T09:44:57.003Z",
+          "reviewer": "Codex Quellenabgleich",
+          "limitations": [
+            "Forschung innerhalb des modellierten Regel- und Beobachtungsumfangs; rein semantische Angriffe und dokumentierte Implementierungsgrenzen bleiben bestehen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Tether prüft mehrstufige Agentenaktionen anhand beobachteter Systemzugriffe",
+              "verdict": "supported",
+              "reason": "Abstract und Architektur verbinden zustandsbehaftete Regeln mit beobachteten Nebenwirkungen mehrstufiger Aktionen.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der am 19. November 2026 eingereichte Preprint Tether beschreibt die Durchsetzung zustandsbehafteter Sicherheitsregeln für KI-Agenten.",
+              "verdict": "supported",
+              "reason": "arXiv-Einreichhistorie nennt den 19.11.2026; Abstract beschreibt stateful security policies.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Vorgeschlagene Aktionen laufen zunächst in einer isolierten Umgebung; beobachtete Systemaufrufe liefern die Grundlage für die Freigabe.",
+              "verdict": "supported",
+              "reason": "Abstract und Isolate-Abschnitt beschreiben isolierte Ausführung, Systemaufrufe und anschließende Regelentscheidung.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Eine in Lean 4 formulierte Regelsprache soll auch Datenflüsse über mehrere Schritte erfassen.",
+              "verdict": "supported",
+              "reason": "Die Regelsprache ist in Lean 4 eingebettet und verfolgt Labels über mehrere Schritte.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FORSCHUNG · AGENTENSICHERHEIT",
+              "verdict": "supported",
+              "reason": "cs.CR und Gegenstand Agentenüberwachung tragen die Forschungskategorie.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Tether prüft Datenflüsse über mehrere Agentenschritte",
+              "verdict": "supported",
+              "reason": "Die Vorschau benennt zustandsbehaftete Datenflussprüfung, keine umfassende Sicherheitsgarantie.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Schild zur zustandsbehafteten Prüfung von Agentenaktionen durch Tether",
+              "verdict": "supported",
+              "reason": "Schildmotiv passt zur Sicherheitsregelprüfung; Alt-Text enthält keine Erfolgsquote.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-22T09:46:09.579Z",
+          "reviewer": "Codex kritische Gegenprüfung desselben Workflows",
+          "limitations": [
+            "Forschung innerhalb des modellierten Regel- und Beobachtungsumfangs; rein semantische Angriffe und dokumentierte Implementierungsgrenzen bleiben bestehen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Tether prüft mehrstufige Agentenaktionen anhand beobachteter Systemzugriffe",
+              "verdict": "supported",
+              "reason": "Der Ansatz betrifft beobachtete Systemsemantik; rein semantische Manipulation ist laut Abschnitt 7.1 außerhalb des Schutzversprechens.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der am 19. November 2026 eingereichte Preprint Tether beschreibt die Durchsetzung zustandsbehafteter Sicherheitsregeln für KI-Agenten.",
+              "verdict": "supported",
+              "reason": "Einreichdatum 19.11. ist bestätigt und von Suchindex-Datum 20.11. zu unterscheiden.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Vorgeschlagene Aktionen laufen zunächst in einer isolierten Umgebung; beobachtete Systemaufrufe liefern die Grundlage für die Freigabe.",
+              "verdict": "supported",
+              "reason": "Isolierte Testausführung schützt nur im beobachteten und modellierten Umfang; Replay-Evaluation ist kein Produktionsnachweis.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Eine in Lean 4 formulierte Regelsprache soll auch Datenflüsse über mehrere Schritte erfassen.",
+              "verdict": "supported",
+              "reason": "Lean-Beweise betreffen abstrakte Regeln; unmodellierte Kanäle und falsche Policy bleiben Grenzen.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FORSCHUNG · AGENTENSICHERHEIT",
+              "verdict": "supported",
+              "reason": "Kategorie Forschung vermeidet die Darstellung als freigegebenes Sicherheitsprodukt.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Tether prüft Datenflüsse über mehrere Agentenschritte",
+              "verdict": "supported",
+              "reason": "Mehrschrittige Prüfung ist belegt; universelle Exfiltrationsverhinderung wird nicht behauptet.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Schild zur zustandsbehafteten Prüfung von Agentenaktionen durch Tether",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt Schild und Prüfung, keinen garantierten sicheren Agenten.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Tether\" \"2611.25599\" limitations side channels",
+              "finding": "Originalabschnitt 7.1 schließt rein semantische Angriffe aus und nennt Grenzen für Hintergrundprozesse, Datenbankaktionen, I/O und HTTPS.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            },
+            {
+              "query": "\"Tether\" \"Verified Stateful\" correction evaluation replay",
+              "finding": "Originalevaluation verwendet wiedergegebene Trajektorien; die 100%-Angabe ist auf modellierbare In-scope-Angriffe begrenzt und wurde nicht übernommen.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25599",
+                "https://arxiv.org/html/2611.25599v1"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Einreichhistorie 19.11.2026 und Lean 4 bestätigt; keine pauschale 100%-Quote übernommen.",
+            "scopeAndQualifications": "Sicherheitsbeweise gelten für abstrakte Zustandsregeln und erfasste Aktionen, nicht universell für das Betriebssystem.",
+            "sourceIndependence": "Abstract und Volltext sind dieselbe Originalstudie; keine unabhängige Reproduktion vorliegend.",
+            "contradictions": "Werbliche Lesart vollständiger Sicherheit widerspräche Abschnitt 7.1; endgültige Einordnung nennt konkrete Grenzen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-5",
+      "contentHash": "59a2d8ad8b1fcbfa229743cab68f5406a5b22fb9290b92876f78fb9e4330eb9d",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-22T09:44:57.003Z",
+          "reviewer": "Codex Quellenabgleich",
+          "limitations": [
+            "Ein Lauf pro Modell und Aufgabe; automatische Bewertung und begrenzte öffentliche Stichprobe schränken externe Nachprüfbarkeit ein."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "MKA-Bericht dokumentiert die Prüfung visueller Wissensarbeit über mehrere Dateien",
+              "verdict": "supported",
+              "reason": "Abstract und Aufgabenbeispiele verbinden visuelle Quellen, mehrere Dateien und erzeugte Arbeitsergebnisse.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der am 18. November 2026 bei arXiv eingereichte MKA-Bericht beschreibt 200 Aufgaben aus zehn Wirtschaftsbereichen.",
+              "verdict": "supported",
+              "reason": "arXiv-Historie nennt 18.11.2026; Abstract nennt 200 Aufgaben und zehn Sektoren.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Agenten müssen Informationen aus visuell anspruchsvollen Dateien zusammenführen und verwertbare Arbeitsergebnisse erzeugen.",
+              "verdict": "supported",
+              "reason": "Abstract und Abschnitte 2/3 beschreiben Kombination visueller Eingaben und Erzeugung verwertbarer Dateien.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die vollständige Testsammlung bleibt privat; eine getrennte öffentliche Auswahl umfasst zehn Aufgaben.",
+              "verdict": "supported",
+              "reason": "Abschnitt 2.1 unterscheidet private 200er-Sammlung von öffentlichem MKA-Showcase mit zehn Aufgaben.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FORSCHUNG · AGENTENEVALUATION",
+              "verdict": "supported",
+              "reason": "Der Gegenstand ist Agentenevaluation; kein Produktivsystem wird behauptet.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "MKA prüft Agenten an visueller Wissensarbeit",
+              "verdict": "supported",
+              "reason": "Die Vorschau benennt die getestete visuelle Wissensarbeit ohne Rangliste oder Erfolgsquote.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokument zur MKA-Evaluation von Wissensarbeit über mehrere Dateien",
+              "verdict": "supported",
+              "reason": "Dokumentmotiv entspricht Datei- und Ergebnisprüfung; Alt-Text behauptet keine menschliche Gleichwertigkeit.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-22T09:46:09.579Z",
+          "reviewer": "Codex kritische Gegenprüfung desselben Workflows",
+          "limitations": [
+            "Ein Lauf pro Modell und Aufgabe; automatische Bewertung und begrenzte öffentliche Stichprobe schränken externe Nachprüfbarkeit ein."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "MKA-Bericht dokumentiert die Prüfung visueller Wissensarbeit über mehrere Dateien",
+              "verdict": "supported",
+              "reason": "Die Einführung im Google-Blog war bereits am 10.11.; der heutige Beitrag ist ausdrücklich auf den späteren arXiv-Methodenbericht begrenzt.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der am 18. November 2026 bei arXiv eingereichte MKA-Bericht beschreibt 200 Aufgaben aus zehn Wirtschaftsbereichen.",
+              "verdict": "supported",
+              "reason": "18.11. bezeichnet die arXiv-Einreichung und nicht die erste Benchmarkvorstellung; Umfang200 und zehn Sektoren stimmen.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Agenten müssen Informationen aus visuell anspruchsvollen Dateien zusammenführen und verwertbare Arbeitsergebnisse erzeugen.",
+              "verdict": "supported",
+              "reason": "Gemessen werden Ergebnisse einer standardisierten Testumgebung, keine allgemeine berufliche Kompetenz.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die vollständige Testsammlung bleibt privat; eine getrennte öffentliche Auswahl umfasst zehn Aufgaben.",
+              "verdict": "supported",
+              "reason": "Die zehn Showcase-Aufgaben sind eine getrennte Auswahl; daraus lässt sich nicht die volle private Evaluation reproduzieren.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FORSCHUNG · AGENTENEVALUATION",
+              "verdict": "supported",
+              "reason": "Forschungskategorie verhindert Verwechslung mit einem neuen kommerziellen Angebot.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "MKA prüft Agenten an visueller Wissensarbeit",
+              "verdict": "supported",
+              "reason": "Die knappe Vorschau verspricht weder Reproduzierbarkeit noch stabile Wiederholungsergebnisse.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte mit Dokument zur MKA-Evaluation von Wissensarbeit über mehrere Dateien",
+              "verdict": "supported",
+              "reason": "Alt-Text benennt den Benchmarkgegenstand und Dokumentmotiv, keine Produktivfreigabe.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"MKA\" \"2611.25228\" limitations private benchmark autorater",
+              "finding": "Originalabschnitt 6 nennt einen Agentenlauf und einen Bewerterdurchgang je Aufgabe; Intervalle erfassen keine Wiederholungsvarianz.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1",
+                "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/"
+              ]
+            },
+            {
+              "query": "\"MKA\" \"Multimodal Knowledge Agents\" correction tasks 200",
+              "finding": "Gegenrecherche fand den früheren Google-Beitrag vom 10.11.; arXiv-Einreichung18.11. ist daher nicht Erstvorstellung. Abschnitt2.1 trennt private Tests von öffentlichem Showcase.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.25228",
+                "https://arxiv.org/html/2611.25228v1",
+                "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "200 Aufgaben, zehn Sektoren, zehn öffentliche Beispiele; 18.11. ist arXiv-Einreichung, nicht Erststart.",
+            "scopeAndQualifications": "End-to-end Ergebnisbewertung unter einheitlichem Harness; ein Lauf liefert keinen Stabilitätsnachweis.",
+            "sourceIndependence": "Studie aus dem DeepMind-/Artificial-Analysis-Umfeld; Hosting und Originalbericht sind keine unabhängige Reproduktion.",
+            "contradictions": "Früherer Start10.11. ist in der Einordnung berücksichtigt; keine Erstveröffentlichung behauptet."
+          }
+        }
+      ]
     }
   ]
 }

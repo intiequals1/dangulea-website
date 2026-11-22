@@ -2,6 +2,76 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-22-1",
+      "date": "2026-11-22",
+      "number": 1,
+      "title": "Takeda verbindet die ERP-Migration mit der Entwicklung von KI-Agenten",
+      "text": "Fakten: SAP beschreibt am 20. November 2026 Takedas laufenden Wechsel von SAP ECC zu SAP Cloud ERP im Rahmen von RISE with SAP. Der Kundenbericht nennt die gemeinsame Entwicklung agentischer Funktionen für regulierte Branchen. Einen abgeschlossenen Rollout dieser Funktionen weist der Beitrag nicht aus.\nEinordnung: Der fachliche Zusammenhang liegt zwischen ERP-Prozessen, Datenbasis und kontrollierten Agenten in Produktion, Lieferkette und Qualität. Für Transformationsprogramme ist das ein Beispiel für parallele Prozess- und KI-Entwicklung, kein Beleg für eine bereits autonome Fabrik. Grundlage ist ausschließlich der SAP-Kundenbericht; unabhängige Wirkungsnachweise werden nicht behauptet.\nQuellen: https://news.sap.com/2026/11/takeda-turns-to-sap-erp-digital-transformation/",
+      "og": {
+        "og_kategorie": "SAP · CLOUD ERP",
+        "og_titel": "Takeda verbindet ERP-Migration mit KI-Agenten",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte mit Zahnrad zur ERP-Migration und Entwicklung von KI-Agenten bei Takeda"
+      }
+    },
+    {
+      "id": "2026-11-22-2",
+      "date": "2026-11-22",
+      "number": 2,
+      "title": "Hugging Face veröffentlicht ein Trainingsrezept für angepasste Coding-Agenten",
+      "text": "Fakten: Hugging Face veröffentlichte am 20. November 2026 ein Trainingsrezept für Harness-Adapter auf Basis von Qwen3.8-27B. Das Team trainiert LoRA-Adapter mit Reinforcement Learning innerhalb der Agentenumgebungen Pi, OpenCode und Hermes Agent. Es stellt auch einen kombinierten Adapter sowie Aufgaben und Evaluationsartefakte bereit.\nEinordnung: Für betriebliche Agenten ist damit die konkrete Werkzeugumgebung Teil der Modellanpassung. Verbesserungen bei Coding-Benchmarks beweisen keine bessere allgemeine Geschäftsautomatisierung. Die Autoren diskutieren selbst verändertes Denkverhalten im Non-Thinking-Modus; quantisierte Fassungen und eigene Aufgaben benötigen gesonderte Tests. Grundlage sind Projektquellen, keine unabhängige Reproduktion.\nQuellen: https://huggingface.co/blog/harness-adapters-at-scale | https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter",
+      "og": {
+        "og_kategorie": "HUGGING FACE · AGENTEN",
+        "og_titel": "Hugging Face trainiert Modelle in ihrer Agentenumgebung",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte mit Zahnrad zum Training von Harness-Adaptern für Coding-Agenten"
+      }
+    },
+    {
+      "id": "2026-11-22-3",
+      "date": "2026-11-22",
+      "number": 3,
+      "title": "EDU-EDIC startet gemeinsame europäische Bildungsinfrastruktur",
+      "text": "Fakten: Die EU-Kommission und acht Mitgliedstaaten starteten am 20. November 2026 das Bildungskonsortium EDU-EDIC offiziell. Die Niederlande beherbergen das Konsortium. Die Zusammenarbeit soll unter anderem Cloud-Infrastruktur, KI für Bildung und sicheren Datenaustausch zwischen Bildungseinrichtungen unterstützen.\nEinordnung: Für Daten- und Systemarchitektur ist die gemeinsame Governance interoperabler Dienste relevant, statt isolierter Einzelanwendungen. Der Start ist ein organisatorischer Meilenstein und keine Freigabe einer fertigen Bildungscloud. Die genannten Fähigkeiten und Vorteile bleiben Entwicklungsziele; Österreich gehört nicht zu den acht genannten Gründungsstaaten.\nQuellen: https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education | https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-develop-sovereign-digital-infrastructure-education",
+      "og": {
+        "og_kategorie": "EU · DATENINFRASTRUKTUR",
+        "og_titel": "Acht EU-Staaten starten gemeinsame Bildungsinfrastruktur",
+        "og_fakten": [],
+        "og_icon": "cloud",
+        "og_alt": "Kubistische Karte mit Cloud zum Start des europäischen Bildungskonsortiums EDU-EDIC"
+      }
+    },
+    {
+      "id": "2026-11-22-4",
+      "date": "2026-11-22",
+      "number": 4,
+      "title": "Tether prüft mehrstufige Agentenaktionen anhand beobachteter Systemzugriffe",
+      "text": "Fakten: Der am 19. November 2026 eingereichte Preprint Tether beschreibt die Durchsetzung zustandsbehafteter Sicherheitsregeln für KI-Agenten. Vorgeschlagene Aktionen laufen zunächst in einer isolierten Umgebung; beobachtete Systemaufrufe liefern die Grundlage für die Freigabe. Eine in Lean 4 formulierte Regelsprache soll auch Datenflüsse über mehrere Schritte erfassen.\nEinordnung: Für Agenten mit Shell- und Dateizugriff ist entscheidend, ob sensible Daten über Zwischendateien weitergereicht werden. Die formale Prüfung gilt innerhalb des modellierten Regel- und Beobachtungsumfangs. Rein semantische Manipulationen in erlaubten Dateien werden dadurch nicht grundsätzlich verhindert; Datenbankaktionen, Hintergrundprozesse und HTTPS-Inspektion haben dokumentierte Grenzen. Es handelt sich um Forschung, nicht um einen universellen Sicherheitsnachweis.\nQuellen: https://arxiv.org/abs/2611.25599 | https://arxiv.org/html/2611.25599v1",
+      "og": {
+        "og_kategorie": "FORSCHUNG · AGENTENSICHERHEIT",
+        "og_titel": "Tether prüft Datenflüsse über mehrere Agentenschritte",
+        "og_fakten": [],
+        "og_icon": "schild",
+        "og_alt": "Kubistische Karte mit Schild zur zustandsbehafteten Prüfung von Agentenaktionen durch Tether"
+      }
+    },
+    {
+      "id": "2026-11-22-5",
+      "date": "2026-11-22",
+      "number": 5,
+      "title": "MKA-Bericht dokumentiert die Prüfung visueller Wissensarbeit über mehrere Dateien",
+      "text": "Fakten: Der am 18. November 2026 bei arXiv eingereichte MKA-Bericht beschreibt 200 Aufgaben aus zehn Wirtschaftsbereichen. Agenten müssen Informationen aus visuell anspruchsvollen Dateien zusammenführen und verwertbare Arbeitsergebnisse erzeugen. Die vollständige Testsammlung bleibt privat; eine getrennte öffentliche Auswahl umfasst zehn Aufgaben.\nEinordnung: Für die Einführung von Dokumenten- und Analyseagenten zählt damit die Qualität des erzeugten Ergebnisses einschließlich visueller Struktur. Die Benchmark-Vorstellung erfolgte bereits früher im November; aktuell ist hier die arXiv-Fassung des Methodenberichts. Pro Modell und Aufgabe wurde nur ein Lauf bewertet, weshalb die Ergebnisse keine Stabilität über wiederholte Durchläufe belegen. Der automatische Bewerter und die begrenzte öffentliche Stichprobe schränken die externe Nachprüfbarkeit ein.\nQuellen: https://arxiv.org/abs/2611.25228 | https://arxiv.org/html/2611.25228v1",
+      "og": {
+        "og_kategorie": "FORSCHUNG · AGENTENEVALUATION",
+        "og_titel": "MKA prüft Agenten an visueller Wissensarbeit",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte mit Dokument zur MKA-Evaluation von Wissensarbeit über mehrere Dateien"
+      }
+    },
+    {
       "id": "2026-11-20-1",
       "date": "2026-11-20",
       "number": 1,
