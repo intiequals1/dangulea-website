@@ -13598,6 +13598,950 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-23-1",
+      "contentHash": "39466fdc9ddeee933d6026bd964e3dae6b94087be3575ce0f33ce9f524e31a94",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T08:49:30+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Hersteller- und Projektquellen; keine unabhängige Bestätigung allgemeiner Zuverlässigkeit im Betrieb."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Inkling 2 Mini bringt offene Modellgewichte für lokale KI-Agenten",
+              "verdict": "supported",
+              "reason": "Modellkarte Abschnitte 1 und 2: offene Gewichte für Entwickler, lokale Inferenz unterstützt.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Thinking Machines veröffentlichte am 20. November 2026 Inkling 2 Mini mit Text- und Bildeingabe sowie offenen Gewichten unter Apache 2.0.",
+              "verdict": "supported",
+              "reason": "Modellkarte Abschnitt 1 nennt Anbieter, Release 20.11.2026, Text/Bild-Eingabe und Apache 2.0.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Transformer führt seine mittleren Schichten dreimal mit gemeinsamen Gewichten aus.",
+              "verdict": "supported",
+              "reason": "Architektur Abschnitt 3 beschreibt 24 Schichten mit dreifacher Ausführung der mittleren zwölf und gemeinsamen Gewichten.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Modellkarte warnt vor unzuverlässigen Werkzeugaktionen und empfiehlt eine Sandbox sowie Bestätigungen vor destruktiven Eingriffen.",
+              "verdict": "supported",
+              "reason": "Abschnitt 7 warnt vor destruktiven Werkzeugaktionen und fordert Sandbox und Bestätigungen.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "THINKING MACHINES · KI",
+              "verdict": "supported",
+              "reason": "Modellkarte nennt Thinking Machines als Anbieter und ordnet das Modell KI-Anwendungen zu.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Inkling 2 Mini öffnet Modellgewichte für lokale KI-Agenten",
+              "verdict": "supported",
+              "reason": "Kurzfassung erhält die belegte Bereitstellung offener Gewichte für lokale Agentenanwendungen.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Inkling 2 Mini und offenen Modellgewichten mit einem Zahnrad",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt das gewählte Zahnrad und das Thema; keine zusätzlichen Leistungsdaten.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T08:49:30+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Hersteller- und Projektquellen; keine unabhängige Bestätigung allgemeiner Zuverlässigkeit im Betrieb."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Inkling 2 Mini bringt offene Modellgewichte für lokale KI-Agenten",
+              "verdict": "supported",
+              "reason": "Projektartefakt und Framework-Dokumentation bestätigen lokale Integrationswege; keine Übernahme einer Benchmark-Spitzenposition.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Thinking Machines veröffentlichte am 20. November 2026 Inkling 2 Mini mit Text- und Bildeingabe sowie offenen Gewichten unter Apache 2.0.",
+              "verdict": "supported",
+              "reason": "Release und Lizenz im Original überprüft; fremde Reuploads nicht als Herkunftsbeleg verwendet.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Transformer führt seine mittleren Schichten dreimal mit gemeinsamen Gewichten aus.",
+              "verdict": "supported",
+              "reason": "Transformers-Dokumentation bestätigt gemeinsame Gewichte und dreifache Durchläufe; aktive Parameter nicht mit Rechenaufwand gleichgesetzt.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Modellkarte warnt vor unzuverlässigen Werkzeugaktionen und empfiehlt eine Sandbox sowie Bestätigungen vor destruktiven Eingriffen.",
+              "verdict": "supported",
+              "reason": "Risikokapitel ausdrücklich gegengelesen: Werkzeugzuverlässigkeit und neue Laufzeiten begrenzen den Einsatz.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "THINKING MACHINES · KI",
+              "verdict": "supported",
+              "reason": "Anbieteridentität anhand Originalorganisation, nicht eines gleichnamigen Reuploads geprüft.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Inkling 2 Mini öffnet Modellgewichte für lokale KI-Agenten",
+              "verdict": "supported",
+              "reason": "Kurzfassung enthält weder behauptete Fehlerfreiheit noch eine Speicher-/Geschwindigkeitsgarantie.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Inkling 2 Mini und offenen Modellgewichten mit einem Zahnrad",
+              "verdict": "supported",
+              "reason": "Alt-Text enthält keine ungesicherte Zahlenbehauptung und benennt das Zahnradmotiv.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Inkling 2 Mini\" limitations memory 32GB November 20 2026",
+              "finding": "Modellkarte nennt lokale Hardware und neue Laufzeiten; Risikokapitel warnt vor Werkzeugfehlern.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            },
+            {
+              "query": "\"Inkling 2 Mini\" looped transformer 5.4 3.4 parameters",
+              "finding": "Original und Transformers-Dokumentation erklären Schleifen; keine Leistungszusage aus bloßer Parameterzahl.",
+              "sourceUrls": [
+                "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+                "https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Release 20.11.2026, drei Durchläufe: Originalkarte und Framework-Architektur stimmen überein; keine Parameter- oder RAM-Zusage publiziert.",
+            "scopeAndQualifications": "Offene Gewichte und konkrete Integration; Risiken und Eigenprüfung sichtbar, keine allgemeine Agentenzuverlässigkeit.",
+            "sourceIndependence": "Thinking Machines liefert Karte; Hugging Face dokumentiert Integration. Keine unabhängige End-to-end-Produktionsvalidierung.",
+            "contradictions": "Kein offener Widerspruch zum begrenzten Text; bewusst keine Benchmark- oder Hardware-Garantie übernommen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-23-2",
+      "contentHash": "ac52655f204b4098f88d7b955aa083b5a0f3cd7759db6114865f17d21707cc17",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T08:49:30+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Ausgewählte Zielbetriebssystem-Replays; keine vollständige plattformübergreifende Korrektheits- oder Regressionsprüfung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SkillBridge prüft Betriebssystem-Annahmen in Agenten-Skills",
+              "verdict": "supported",
+              "reason": "Titel und Abstract benennen Diagnose und Reparatur von OS-Annahmen in Agenten-Skills.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die am 19. November 2026 eingereichte Arbeit SkillBridge verbindet statische Analyse, dynamische Validierung und Reparatur von Agenten-Skills für Linux, macOS und Windows.",
+              "verdict": "supported",
+              "reason": "arXiv-Historie: 19.11.2026; Abstract und Methodik nennen statische Analyse, Validierung, Reparatur sowie die drei Betriebssysteme.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "In 175 ausgewählten Skill-Betriebssystem-Fällen steigt die durch das Prüfverfahren bewertete Aufgaben-Erfolgsrate nach Reparaturen von 30,6 auf 38,4 Prozent.",
+              "verdict": "supported",
+              "reason": "Abschnitt IV-B/D: dieselben 175 ausgewählten Skill-OS-Fälle, reviewer-judged target-task replay von 30,6 auf 38,4 Prozent.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Studie prüft zuvor funktionierende Betriebssysteme nicht durchgehend erneut und belegt damit keine vollständige plattformübergreifende Korrektheit.",
+              "verdict": "supported",
+              "reason": "Abschnitt IV-B grenzt ausdrücklich target-OS repair effectiveness gegen cross-OS repair correctness ab; zuvor funktionierende OS nicht konsistent erneut getestet.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FORSCHUNG · AGENTEN",
+              "verdict": "supported",
+              "reason": "Originalarbeit ist Forschung über wiederverwendbare Fähigkeiten von LLM-Agenten.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "SkillBridge prüft Plattformfehler in Agenten-Skills",
+              "verdict": "supported",
+              "reason": "Vorschau verspricht die belegte Prüfung von Plattformfehlern, keine garantierte Reparatur.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu SkillBridge und Betriebssystem-Kompatibilität mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Dokumentmotiv visualisiert die Forschungsarbeit; Alt-Text fügt keine Ergebnisse hinzu.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T08:49:30+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Ausgewählte Zielbetriebssystem-Replays; keine vollständige plattformübergreifende Korrektheits- oder Regressionsprüfung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SkillBridge prüft Betriebssystem-Annahmen in Agenten-Skills",
+              "verdict": "supported",
+              "reason": "Titel nicht als universell gelöste Plattformportabilität gelesen: Arbeitsablauf mit Review und Ausführung.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die am 19. November 2026 eingereichte Arbeit SkillBridge verbindet statische Analyse, dynamische Validierung und Reparatur von Agenten-Skills für Linux, macOS und Windows.",
+              "verdict": "supported",
+              "reason": "Einreichdatum aus Versionshistorie, nicht aus Aggregator-Datum; Methodik trennt 1090 Skills von 3270 OS-Fällen.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "In 175 ausgewählten Skill-Betriebssystem-Fällen steigt die durch das Prüfverfahren bewertete Aufgaben-Erfolgsrate nach Reparaturen von 30,6 auf 38,4 Prozent.",
+              "verdict": "supported",
+              "reason": "Denominator 175 und reviewer-judged im Volltext geprüft; Zuwachs 7,8 Prozentpunkte, keine 7,8 Prozent relative Verbesserung.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Studie prüft zuvor funktionierende Betriebssysteme nicht durchgehend erneut und belegt damit keine vollständige plattformübergreifende Korrektheit.",
+              "verdict": "supported",
+              "reason": "Gegenlektüre findet explizite fehlende vollständige OS-Regressionsprüfung; diese Einschränkung steht sichtbar im Artikel.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FORSCHUNG · AGENTEN",
+              "verdict": "supported",
+              "reason": "Forschungskategorie behauptet weder ein allgemein verfügbares Produkt noch Maintainer-Akzeptanz.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "SkillBridge prüft Plattformfehler in Agenten-Skills",
+              "verdict": "supported",
+              "reason": "Kurzfassung nennt Prüfung von Fehlern und überhöht die niedrige Erfolgsrate nicht.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu SkillBridge und Betriebssystem-Kompatibilität mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Dokument-Alt-Text bleibt thematisch und behauptet keine vollständige Kompatibilität.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"SkillBridge\" \"30.6\" \"38.4\"",
+              "finding": "Volltext IV-D bestätigt ausgewählte Kohorte 175 und Erfolgsraten; Aggregatoren wiederholen nur Autorenbefunde.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            },
+            {
+              "query": "\"SkillBridge\" \"limitations\" \"OS\" 2611.26256",
+              "finding": "IV-B stellt fehlenden konsistenten Replay aller vorher erfolgreichen OS ausdrücklich klar.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26256",
+                "https://arxiv.org/html/2611.26256v1"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "19.11. laut arXiv-Historie; 175 Fälle im Reparaturvergleich, 30,6 auf 38,4 Prozent, nicht über alle 3270 Fälle.",
+            "scopeAndQualifications": "Reviewer-judged Replay des Ziel-OS; keine vollständige Cross-OS-Regression und keine Maintainer-Abnahme.",
+            "sourceIndependence": "Abs und HTML sind dieselbe Autorenarbeit; Aggregatoren keine unabhängigen Replikationen.",
+            "contradictions": "Volltext begrenzt den Abstract ausdrücklich auf Ziel-OS-Wirksamkeit; diese Einschränkung ist im Text enthalten."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-23-3",
+      "contentHash": "13d4e1cf096183450e0187ffd564c786c180e8b591bf1e1cee82d4af303e64f4",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T08:49:30+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Unternehmensquelle und interne Evaluationen; Sicherheitswirkung nicht unabhängig bestätigt und nicht vollständig garantiert."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "OpenAI beschreibt neue Abwehr gegen die Extraktion interner Reasoning-Spuren",
+              "verdict": "supported",
+              "reason": "Beitrag beschreibt verstärkte Abwehr zur Verhinderung von Extraktion geschützter Reasoning-Spuren.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "OpenAI beschreibt am 20. November 2026 Schutzmaßnahmen gegen adversariale Distillation, darunter Training, Klassifikatoren und API-Kontrollen.",
+              "verdict": "supported",
+              "reason": "Datum im Original 20.11.2026; Einleitung und Schutzabschnitte nennen Training, Klassifikatoren, API-Kontrollen.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die beschriebenen Ausgabekontrollen erfassen auch Werkzeugargumente.",
+              "verdict": "supported",
+              "reason": "Abschnitt Classifier safeguards erfasst ausdrücklich assistant messages und tool-call arguments.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die veröffentlichten Angriffserfolgsraten stammen aus internen Evaluationen des Anbieters und belegen keine vollständige Sicherheit im Produktivbetrieb.",
+              "verdict": "supported",
+              "reason": "Measuring progress beschreibt interne adaptive Black-box-Tests und verbleibende erfolgreiche Angriffe; keine universelle Sicherheitsgarantie.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "OPENAI · KI-SICHERHEIT",
+              "verdict": "supported",
+              "reason": "OpenAI ist die veröffentlichende Organisation, Schutz vor Extraktion gehört zur KI-Sicherheit.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "OpenAI verstärkt den Schutz interner Reasoning-Spuren",
+              "verdict": "supported",
+              "reason": "Vorschau erhält die Zuschreibung an OpenAI und behauptet keine Unangreifbarkeit.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu OpenAIs Schutz interner Reasoning-Spuren mit einem Schild",
+              "verdict": "supported",
+              "reason": "Schildmotiv entspricht Schutzthema und geplanter Vorschaugrafik, ohne zusätzliche Sicherheitszusage.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T08:49:30+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Unternehmensquelle und interne Evaluationen; Sicherheitswirkung nicht unabhängig bestätigt und nicht vollständig garantiert."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "OpenAI beschreibt neue Abwehr gegen die Extraktion interner Reasoning-Spuren",
+              "verdict": "supported",
+              "reason": "Schutzmaßnahmen sind Anbieterbeschreibung; keine unabhängige Wirksamkeitsbestätigung behauptet.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "OpenAI beschreibt am 20. November 2026 Schutzmaßnahmen gegen adversariale Distillation, darunter Training, Klassifikatoren und API-Kontrollen.",
+              "verdict": "supported",
+              "reason": "Datum des neuen Beitrags von September-Vorbericht unterschieden; Mechanismen im neuen Beitrag vorhanden.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die beschriebenen Ausgabekontrollen erfassen auch Werkzeugargumente.",
+              "verdict": "supported",
+              "reason": "Gegenprüfung des Tool-call-Abschnitts: Kontrolle gilt über sichtbare Antworten hinaus und ist keine pauschale Tool-Sicherheit.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die veröffentlichten Angriffserfolgsraten stammen aus internen Evaluationen des Anbieters und belegen keine vollständige Sicherheit im Produktivbetrieb.",
+              "verdict": "supported",
+              "reason": "Interne Tests enthalten Restfehler; Produktivschutz nicht aus einzelnen Testquoten verallgemeinert.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "OPENAI · KI-SICHERHEIT",
+              "verdict": "supported",
+              "reason": "Anbieter und Sicherheitsgebiet korrekt; die Interessenlage bleibt im Text ausdrücklich sichtbar.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "OpenAI verstärkt den Schutz interner Reasoning-Spuren",
+              "verdict": "supported",
+              "reason": "Verstärkter Schutz bedeutet keine vollständige Verhinderung; Vorschau enthält keine Erfolgsquote.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu OpenAIs Schutz interner Reasoning-Spuren mit einem Schild",
+              "verdict": "supported",
+              "reason": "Schildsymbol bezeichnet Schutzthema, keine zertifizierte Sicherheit.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Combatting adversarial distillation\" \"0.2\" limitations November 20 2026",
+              "finding": "Originaltabellen enthalten Restfehler; Ergebnisse ausdrücklich interne adaptive Tests, keine Produktivgarantie.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            },
+            {
+              "query": "site:openai.com adversarial distillation protected reasoning tool arguments safeguards evaluation 2026",
+              "finding": "Originalbeitrag grenzt Request-Schutz und Kampagnenerkennung ab; Ausgabeprüfungen erfassen Werkzeugargumente.",
+              "sourceUrls": [
+                "https://openai.com/index/combatting-adversarial-distillation/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Neuer Bericht 20.11.2026; keine früheren Kampagnenzahlen oder Evaluationsergebnisse als heutiges Ereignis ausgegeben.",
+            "scopeAndQualifications": "Interne Evaluationsbefunde, Ausgabeklassifikatoren inklusive Werkzeugargumenten; keine vollständige Produktivsicherheit.",
+            "sourceIndependence": "Alle genutzten Belege stammen von OpenAI; als Unternehmensquelle sichtbar, keine Modellunabhängigkeit behauptet.",
+            "contradictions": "Rest-Erfolgsraten widersprechen einer Unangreifbarkeit, die der Artikel gerade nicht behauptet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-23-4",
+      "contentHash": "24fc6c079fb13b0b20d29a2476001ab1ca92ee80c026466f44430d82cb9ad439",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T08:49:30+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Autorenauswertung in begrenzten Labor-Zwillingen mit modellgestützter Bewertung; keine physische Laborvalidierung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "TwinLab-Bench testet selbst entworfene Experimente von KI-Agenten",
+              "verdict": "supported",
+              "reason": "Abstract und Abschnitt 3: Agenten entwerfen Experimente innerhalb datenbasierter Labor-Zwillinge.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der am 19. November 2026 eingereichte Preprint TwinLab-Bench beschreibt 52 Aufgaben auf Basis realer Laboraufzeichnungen.",
+              "verdict": "supported",
+              "reason": "arXiv-Historie nennt 19.11.2026; Abstract und Abschnitt 3 nennen 52 Aufgaben aus realen Laboraufzeichnungen.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Ein eigener Umgebungsagent liefert aufgezeichnete Messwerte oder Ergebnisse aus lokal kalibrierten Berechnungen für die von Testagenten entworfenen Experimente.",
+              "verdict": "supported",
+              "reason": "Abschnitt 1/3: TwinLab-Umgebung liest reale Aufzeichnungen, nutzt bei nicht durchgeführten Versuchen lokal aus Daten erstellte deterministische Rechner.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Benchmark bewertet experimentelle Entscheidungen in Labor-Zwillingen, nicht den physischen Betrieb eines echten Labors.",
+              "verdict": "supported",
+              "reason": "Related Work grenzt physical operation ausdrücklich aus; untersucht werden experimental decisions.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FORSCHUNG · KI-EVALUATION",
+              "verdict": "supported",
+              "reason": "Einordnung als Forschung und KI-Evaluation ist durch Titel, Methodik und Benchmark-Zweck belegt.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "TwinLab-Bench prüft experimentelle Entscheidungen von KI",
+              "verdict": "supported",
+              "reason": "Vorschau fokussiert die belegte Bewertung experimenteller Entscheidungen, keinen Betrieb realer Geräte.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu TwinLab-Bench und der Bewertung von KI-Experimenten mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Dokumentmotiv beschreibt die Forschungs-Karte und fügt weder Scores noch Laborfähigkeiten hinzu.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T08:49:30+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Autorenauswertung in begrenzten Labor-Zwillingen mit modellgestützter Bewertung; keine physische Laborvalidierung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "TwinLab-Bench testet selbst entworfene Experimente von KI-Agenten",
+              "verdict": "supported",
+              "reason": "Unterscheidung Labor-Zwilling und physisches Labor mit Related Work gegengeprüft.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Der am 19. November 2026 eingereichte Preprint TwinLab-Bench beschreibt 52 Aufgaben auf Basis realer Laboraufzeichnungen.",
+              "verdict": "supported",
+              "reason": "Primäre Historie bestätigt 19.11.; Aggregatoren mit älteren Tagesdaten sind für die Datierung nicht übernommen.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Ein eigener Umgebungsagent liefert aufgezeichnete Messwerte oder Ergebnisse aus lokal kalibrierten Berechnungen für die von Testagenten entworfenen Experimente.",
+              "verdict": "supported",
+              "reason": "Methodik bestätigt aufgezeichnete Werte plus lokale Rechner; keine beliebig gültige Simulation aller möglichen Experimente.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Benchmark bewertet experimentelle Entscheidungen in Labor-Zwillingen, nicht den physischen Betrieb eines echten Labors.",
+              "verdict": "supported",
+              "reason": "Expliziter Ausschluss physischer Operation im Volltext; die Einschränkung ist Teil der veröffentlichten Quellenaussagen.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FORSCHUNG · KI-EVALUATION",
+              "verdict": "supported",
+              "reason": "Benchmark gehört zur KI-Evaluation; keine unabhängige Replikation als Forschungsresultat dargestellt.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "TwinLab-Bench prüft experimentelle Entscheidungen von KI",
+              "verdict": "supported",
+              "reason": "Titel bleibt bei Entscheidungen; Resultate nicht als Beweis autonomer realer Laborarbeit formuliert.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu TwinLab-Bench und der Bewertung von KI-Experimenten mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt Dokumentmotiv und Bewertungsgegenstand, keine unbestätigte Forschungsleistung.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"TwinLab-Bench\" limitations leakage 52 45.0",
+              "finding": "Methodik: realdatenbasierte Zwillinge mit Rechnern, kein physischer Betrieb; Modell-Judges bleiben Teil des Verfahrens.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            },
+            {
+              "query": "\"TwinLab-Bench\" correction evaluation real laboratories November 2026",
+              "finding": "Versionshistorie 19.11. bestätigt; abweichende Aggregator-Datierungen verworfen, Originalmethodik für Aussagegrenzen verwendet.",
+              "sourceUrls": [
+                "https://arxiv.org/abs/2611.26248",
+                "https://arxiv.org/html/2611.26248v1"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "19.11.2026 laut Versionshistorie, 52 Aufgaben im Abstract und Abschnitt 3; keine Rankings veröffentlicht.",
+            "scopeAndQualifications": "Laboraufzeichnungen plus lokal kalibrierte Rechner, keine physische Laboroperation und keine unbeschränkte Weltmodellierung.",
+            "sourceIndependence": "Preprint und HTML sind Autorenbelege; KI-Umgebung und Judge keine unabhängigen menschlichen Replikatoren.",
+            "contradictions": "Abweichende Daten und Formulierungen mancher Aggregatoren gegen Original verworfen; keine offenen Widersprüche im begrenzten Text."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-23-5",
+      "contentHash": "3fa7704678b051c346301d45c34eef1bd4f527750c8ea7c6e91dd224708e79b3",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T08:49:30+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Herstellerangaben für ausgewählte Produkte; Auditbestätigung und vollständige KI-Verbrauchstransparenz nicht belegt."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP macht Cloud-Emissionsdaten auf Produkt- und Kundenebene zugänglich",
+              "verdict": "supported",
+              "reason": "SAP-Beitrag What is available today nennt Zugriff über SAP for Me und produkt-/kundenspezifische Daten.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP beschreibt am 12. November 2026 aktivitätsbasierte Emissions- und Energiedaten für ausgewählte Cloud-Produkte in SAP for Me.",
+              "verdict": "supported",
+              "reason": "Originaldatum 12.11.2026; SAP for Me Finance & Legal, nur ausgewählte Cloud-Produkte; Supporthilfe bestätigt Tabelle und Einheiten.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Modell ordnet berechneten Serververbrauch über Infrastrukturabhängigkeiten Produkten und Kunden zu.",
+              "verdict": "supported",
+              "reason": "A new methodology: berechneter Stromverbrauch aus CPU, Speicher, PUE; Zuordnung über CCIR und Infrastruktur-Abhängigkeitsgraph.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "SAP bezeichnet die bisherige ausgabenbasierte Methode weiterhin als Referenz für die Emissionsberichterstattung und nennt die spezifische Abbildung von KI-Workloads als Weiterentwicklung.",
+              "verdict": "supported",
+              "reason": "What is available today erhält spend-based als reporting reference; Outlook nennt KI-Workload-Abbildung als Entwicklungsziel.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SAP · CLOUD-DATEN",
+              "verdict": "supported",
+              "reason": "Kategorie nennt den Anbieter und die Cloud-Datenebene ohne Auditbehauptung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "SAP zeigt Emissionsdaten einzelner Cloud-Produkte",
+              "verdict": "supported",
+              "reason": "Vorschau bleibt bei Emissionsdaten einzelner Produkte, nicht umfassender Berichtsreife.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu SAP-Cloud-Produkten und ihren Emissionsdaten mit einem Cloud-Symbol",
+              "verdict": "supported",
+              "reason": "Cloud-Symbol und Themenbeschreibung passen zur Karte, ohne zusätzliche Umweltwirkung zu behaupten.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T08:49:30+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Herstellerangaben für ausgewählte Produkte; Auditbestätigung und vollständige KI-Verbrauchstransparenz nicht belegt."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP macht Cloud-Emissionsdaten auf Produkt- und Kundenebene zugänglich",
+              "verdict": "supported",
+              "reason": "Supportdokument bestätigt Oberfläche; Herstellerbeitrag begrenzt Geltung auf unterstützte Produkte.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP beschreibt am 12. November 2026 aktivitätsbasierte Emissions- und Energiedaten für ausgewählte Cloud-Produkte in SAP for Me.",
+              "verdict": "supported",
+              "reason": "12.11.2026 bleibt sichtbar, nicht als heutiger Release ausgegeben; Hilfe bestätigt Zugriffspfad.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Modell ordnet berechneten Serververbrauch über Infrastrukturabhängigkeiten Produkten und Kunden zu.",
+              "verdict": "supported",
+              "reason": "Serververbrauch wird modelliert und zugeordnet, nicht als vollständig direkt gemessene Produkt-Emission ausgegeben.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "SAP bezeichnet die bisherige ausgabenbasierte Methode weiterhin als Referenz für die Emissionsberichterstattung und nennt die spezifische Abbildung von KI-Workloads als Weiterentwicklung.",
+              "verdict": "supported",
+              "reason": "Gegenprüfung des Ausblicks: Audit readiness und spezifische KI-Abbildung noch Entwicklung; spend-based bleibt Referenz.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SAP · CLOUD-DATEN",
+              "verdict": "supported",
+              "reason": "SAP-Beleglage ist interessengebunden; zweite SAP-Seite keine unabhängige Bestätigung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "SAP zeigt Emissionsdaten einzelner Cloud-Produkte",
+              "verdict": "supported",
+              "reason": "Einzelne Cloud-Produkte statt gesamter Cloud-/KI-Abdeckung ausdrücklich erhalten.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu SAP-Cloud-Produkten und ihren Emissionsdaten mit einem Cloud-Symbol",
+              "verdict": "supported",
+              "reason": "Cloud-Alt-Text nennt Daten, keine nachgewiesene Emissionssenkung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site:news.sap.com \"product-level\" \"emissions\" \"reference approach\"",
+              "finding": "SAP erklärt spend-based weiterhin zur Referenzmethode trotz neuer Produktdaten.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            },
+            {
+              "query": "SAP cloud product carbon footprint November 2026 ISO 14067 audit methodology limitations",
+              "finding": "Ausblick nennt Audit readiness und KI-Workloads als Entwicklung; Supporthilfe beschreibt nur den aktuellen Datenzugang.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/",
+                "https://support.sap.com/content/s4m/help/finance/sustainability.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "12.11.2026 korrekt als älterer Originalbericht ausgewiesen; keine erfundene aktuelle Einführung am 23.11.",
+            "scopeAndQualifications": "Ausgewählte Produkte, modellierter Verbrauch; spend-based Referenz und KI-Roadmap sichtbar erhalten.",
+            "sourceIndependence": "News Center und Support sind beide SAP; Unternehmensquelle ausdrücklich gekennzeichnet, kein externer Auditbeleg.",
+            "contradictions": "Verfügbarkeit ausgewählter Produktdaten vereinbar mit laufender Audit-/KI-Weiterentwicklung; keine vollständige Berichtsreife behauptet."
+          }
+        }
+      ]
     }
   ]
 }

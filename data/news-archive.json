@@ -2,6 +2,76 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-23-1",
+      "date": "2026-11-23",
+      "number": 1,
+      "title": "Inkling 2 Mini bringt offene Modellgewichte für lokale KI-Agenten",
+      "text": "Fakten: Thinking Machines veröffentlichte am 20. November 2026 Inkling 2 Mini mit Text- und Bildeingabe sowie offenen Gewichten unter Apache 2.0. Der Transformer führt seine mittleren Schichten dreimal mit gemeinsamen Gewichten aus. Die Modellkarte warnt vor unzuverlässigen Werkzeugaktionen und empfiehlt eine Sandbox sowie Bestätigungen vor destruktiven Eingriffen.\nEinordnung: Für lokale Coding- und Datenassistenten ist die Verbindung von offenen Gewichten und vorhandenen Laufzeitintegrationen relevant. Die Hersteller- und Projektquellen belegen Architektur und Bereitstellung, keine allgemeine Zuverlässigkeit im Betrieb; eigene Tests mit deutschen Aufgaben und begrenzten Werkzeugrechten bleiben notwendig.\nQuellen: https://huggingface.co/thinkingmachines/Inkling-2-Mini | https://huggingface.co/docs/transformers/main/model_doc/inkling2_loop",
+      "og": {
+        "og_kategorie": "THINKING MACHINES · KI",
+        "og_titel": "Inkling 2 Mini öffnet Modellgewichte für lokale KI-Agenten",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte zu Inkling 2 Mini und offenen Modellgewichten mit einem Zahnrad"
+      }
+    },
+    {
+      "id": "2026-11-23-2",
+      "date": "2026-11-23",
+      "number": 2,
+      "title": "SkillBridge prüft Betriebssystem-Annahmen in Agenten-Skills",
+      "text": "Fakten: Die am 19. November 2026 eingereichte Arbeit SkillBridge verbindet statische Analyse, dynamische Validierung und Reparatur von Agenten-Skills für Linux, macOS und Windows. In 175 ausgewählten Skill-Betriebssystem-Fällen steigt die durch das Prüfverfahren bewertete Aufgaben-Erfolgsrate nach Reparaturen von 30,6 auf 38,4 Prozent. Die Studie prüft zuvor funktionierende Betriebssysteme nicht durchgehend erneut und belegt damit keine vollständige plattformübergreifende Korrektheit.\nEinordnung: Wiederverwendbare Skills enthalten Annahmen über Shells, Pfade, Abhängigkeiten und Berechtigungen. Für ihre Einführung in heterogenen Arbeitsumgebungen liefert die Forschungsarbeit ein konkretes Prüfkonzept; die berichteten Reparaturergebnisse sind begrenzte Studienbefunde und keine Produktgarantie.\nQuellen: https://arxiv.org/abs/2611.26256 | https://arxiv.org/html/2611.26256v1",
+      "og": {
+        "og_kategorie": "FORSCHUNG · AGENTEN",
+        "og_titel": "SkillBridge prüft Plattformfehler in Agenten-Skills",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte zu SkillBridge und Betriebssystem-Kompatibilität mit einem Dokument"
+      }
+    },
+    {
+      "id": "2026-11-23-3",
+      "date": "2026-11-23",
+      "number": 3,
+      "title": "OpenAI beschreibt neue Abwehr gegen die Extraktion interner Reasoning-Spuren",
+      "text": "Fakten: OpenAI beschreibt am 20. November 2026 Schutzmaßnahmen gegen adversariale Distillation, darunter Training, Klassifikatoren und API-Kontrollen. Die beschriebenen Ausgabekontrollen erfassen auch Werkzeugargumente. Die veröffentlichten Angriffserfolgsraten stammen aus internen Evaluationen des Anbieters und belegen keine vollständige Sicherheit im Produktivbetrieb.\nEinordnung: Für KI-Plattformen reicht die Kontrolle sichtbarer Antworten allein nicht: Auch Werkzeugaufrufe und die Wiederverwendung von Modellzuständen gehören zur Schutzarchitektur. Die Meldung stützt sich auf eine Unternehmensquelle; ihre Sicherheitsbewertung ist nicht unabhängig bestätigt.\nQuellen: https://openai.com/index/combatting-adversarial-distillation/",
+      "og": {
+        "og_kategorie": "OPENAI · KI-SICHERHEIT",
+        "og_titel": "OpenAI verstärkt den Schutz interner Reasoning-Spuren",
+        "og_fakten": [],
+        "og_icon": "schild",
+        "og_alt": "Kubistische Karte zu OpenAIs Schutz interner Reasoning-Spuren mit einem Schild"
+      }
+    },
+    {
+      "id": "2026-11-23-4",
+      "date": "2026-11-23",
+      "number": 4,
+      "title": "TwinLab-Bench testet selbst entworfene Experimente von KI-Agenten",
+      "text": "Fakten: Der am 19. November 2026 eingereichte Preprint TwinLab-Bench beschreibt 52 Aufgaben auf Basis realer Laboraufzeichnungen. Ein eigener Umgebungsagent liefert aufgezeichnete Messwerte oder Ergebnisse aus lokal kalibrierten Berechnungen für die von Testagenten entworfenen Experimente. Der Benchmark bewertet experimentelle Entscheidungen in Labor-Zwillingen, nicht den physischen Betrieb eines echten Labors.\nEinordnung: Für die Bewertung autonomer Forschung ist entscheidend, ob Agenten belastbare Experimente auswählen und ihre Ergebnisse korrekt interpretieren. Der Ansatz ergänzt reine Antwort- und Planbewertungen; Autorenauswertung, begrenzte Umgebungen und modellgestützte Bewertung begrenzen die Übertragbarkeit.\nQuellen: https://arxiv.org/abs/2611.26248 | https://arxiv.org/html/2611.26248v1",
+      "og": {
+        "og_kategorie": "FORSCHUNG · KI-EVALUATION",
+        "og_titel": "TwinLab-Bench prüft experimentelle Entscheidungen von KI",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte zu TwinLab-Bench und der Bewertung von KI-Experimenten mit einem Dokument"
+      }
+    },
+    {
+      "id": "2026-11-23-5",
+      "date": "2026-11-23",
+      "number": 5,
+      "title": "SAP macht Cloud-Emissionsdaten auf Produkt- und Kundenebene zugänglich",
+      "text": "Fakten: SAP beschreibt am 12. November 2026 aktivitätsbasierte Emissions- und Energiedaten für ausgewählte Cloud-Produkte in SAP for Me. Das Modell ordnet berechneten Serververbrauch über Infrastrukturabhängigkeiten Produkten und Kunden zu. SAP bezeichnet die bisherige ausgabenbasierte Methode weiterhin als Referenz für die Emissionsberichterstattung und nennt die spezifische Abbildung von KI-Workloads als Weiterentwicklung.\nEinordnung: Der konkrete Nutzen liegt in der Verknüpfung von Infrastrukturinventar, Verbrauchsmodell und Cloud-Produktdaten, etwa für die Suche nach Emissionsschwerpunkten. Es handelt sich um Herstellerangaben mit begrenzter Produktabdeckung; daraus folgt weder eine unabhängige Auditbestätigung noch bereits vollständige KI-Verbrauchstransparenz.\nQuellen: https://news.sap.com/2026/11/sap-product-level-cloud-emissions-energy-data-customers/ | https://support.sap.com/content/s4m/help/finance/sustainability.html",
+      "og": {
+        "og_kategorie": "SAP · CLOUD-DATEN",
+        "og_titel": "SAP zeigt Emissionsdaten einzelner Cloud-Produkte",
+        "og_fakten": [],
+        "og_icon": "cloud",
+        "og_alt": "Kubistische Karte zu SAP-Cloud-Produkten und ihren Emissionsdaten mit einem Cloud-Symbol"
+      }
+    },
+    {
       "id": "2026-11-22-1",
       "date": "2026-11-22",
       "number": 1,
