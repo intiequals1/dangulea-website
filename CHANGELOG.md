@@ -1,5 +1,16 @@
 # Änderungsprotokoll
 
+## 2026-11-21 – Interner Bereich: Reiter „Rechts-Update“
+
+### Was geändert wurde
+
+- `/intern` hat zwei Reiter: Skill-Radar und Rechts-Update. Der zweite liest nach der Anmeldung ein zweites privates Sheet, nur lesend. Ein Fehler dort sperrt den Skill-Radar nicht.
+- Impressum (Abschnitt „Interner Bereich“), README und `docs/rechts-update.md` entsprechend.
+
+### Warum
+
+- Das Rechts-Update dient meinem Studium und meiner Weiterbildung und ist nur für mich bestimmt. Eine öffentliche Fassung wurde verworfen (archivierter PR #42).
+
 ## 2026-11-21 – Impressum: KI-Werkzeuge je Bereich und grundlegende Richtung
 
 ### Was geändert wurde

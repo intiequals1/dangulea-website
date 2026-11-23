@@ -6,6 +6,10 @@ import {
   toFristen, toMeldungen, toNachfrage, toQuellen, toSkills, trends, upcoming,
   type Frist, type Meldung, type Quelle, type Skill, type Trend,
 } from '../utils/skillRadar'
+import {
+  rechtsBatchGetUrl, toAusgaben, toBetroffenheit, toRechtsFristen, toThemen, type RechtsData,
+} from '../utils/rechtsUpdate'
+import InternRechtsUpdate from '../components/InternRechtsUpdate'
 
 // Öffentliche Kennungen, keine Geheimnisse: Die Firebase-Webkonfiguration und die Sheet-ID stehen ohnehin
 // im ausgelieferten JavaScript. Der Zugriff auf die Daten hängt allein an der Freigabe des Sheets und am
@@ -19,6 +23,8 @@ const FIREBASE_CONFIG = {
   appId: value(env.VITE_FIREBASE_APP_ID, '1:919496332144:web:279332e2588cdaa4e0f5b5'),
 }
 const SHEET_ID = value(env.VITE_SKILL_SHEET_ID, '1jij3FFjdUiPuB6g3--m1PxzCQ9cWlRbYrg90QQLFkuw')
+// Privates Sheet „Rechts-Update Register“ für den zweiten Reiter. Ohne Leserecht bleibt der Reiter leer.
+const RECHTS_SHEET_ID = value(env.VITE_RECHTS_SHEET_ID, '1XvLZBRHXk9txwKyoh5GsGqyM1TKKADtLDc6NUJ05L70')
 
 const KEY_TOKEN = 'skillradar.token'
 const KEY_EXPIRES = 'skillradar.expires'
@@ -48,6 +54,8 @@ const AUTH_ERRORS: Record<string, string> = {
 
 type Data = { skills: Skill[]; meldungen: Meldung[]; fristen: Frist[]; quellen: Quelle[]; trends: Trend[] }
 type Phase = 'init' | 'signedOut' | 'loading' | 'ready' | 'error' | 'framed'
+type Tab = 'skill' | 'recht'
+const initialTab = (): Tab => (typeof window !== 'undefined' && window.location.hash === '#rechts-update' ? 'recht' : 'skill')
 
 const EINORDNUNGEN = ['erneuern', 'veraltet', 'entwertet', 'Chance']
 const ENTSCHEIDUNGEN = ['offen', 'übernehmen', 'beobachten', 'verwerfen']
@@ -79,6 +87,9 @@ export default function Intern() {
   const [phase, setPhase] = useState<Phase>('init')
   const [error, setError] = useState('')
   const [data, setData] = useState<Data | null>(null)
+  const [rechts, setRechts] = useState<RechtsData | null>(null)
+  const [rechtsError, setRechtsError] = useState('')
+  const [tab, setTab] = useState<Tab>(initialTab)
   const [einordnung, setEinordnung] = useState('alle')
   const [entscheidung, setEntscheidung] = useState('alle')
   const [skillFilter, setSkillFilter] = useState('')
@@ -89,7 +100,11 @@ export default function Intern() {
     setPhase('loading')
     setError('')
     try {
-      const res = await fetch(batchGetUrl(SHEET_ID), { headers: { Authorization: `Bearer ${token}` } })
+      const headers = { Authorization: `Bearer ${token}` }
+      const [res, rechtsRes] = await Promise.all([
+        fetch(batchGetUrl(SHEET_ID), { headers }),
+        RECHTS_SHEET_ID ? fetch(rechtsBatchGetUrl(RECHTS_SHEET_ID), { headers }).catch(() => null) : Promise.resolve(null),
+      ])
       if (res.status === 401) {
         clearToken()
         setPhase('signedOut')
@@ -111,6 +126,25 @@ export default function Intern() {
         quellen: toQuellen(que ?? []),
         trends: trends(toNachfrage(nach ?? [])),
       })
+      // Das Rechts-Update ist unabhängig: Ein Fehler dort sperrt den Skill-Radar nicht.
+      setRechts(null)
+      setRechtsError('')
+      if (!rechtsRes) {
+        setRechtsError('Das Rechts-Update konnte nicht geladen werden.')
+      } else if (rechtsRes.status === 403 || rechtsRes.status === 404) {
+        setRechtsError('Dieses Konto hat keinen Zugriff auf das Rechts-Update.')
+      } else if (!rechtsRes.ok) {
+        setRechtsError(`Rechts-Update: HTTP ${rechtsRes.status}`)
+      } else {
+        const rj = await rechtsRes.json() as { valueRanges?: { values?: unknown[][] }[] }
+        const [aus, the, fri2, bet] = (rj.valueRanges ?? []).map(v => rowsToObjects(v.values))
+        setRechts({
+          ausgaben: toAusgaben(aus ?? []),
+          themen: toThemen(the ?? []),
+          fristen: toRechtsFristen(fri2 ?? []),
+          betroffenheit: toBetroffenheit(bet ?? []),
+        })
+      }
       setPhase('ready')
     } catch (e) {
       setPhase('error')
@@ -164,6 +198,8 @@ export default function Intern() {
     const token = readToken()
     clearToken()
     setData(null)
+    setRechts(null)
+    setRechtsError('')
     setAccount('')
     setPhase('signedOut')
     setError('')
@@ -185,19 +221,20 @@ export default function Intern() {
       <header className="intern-header">
         <div className="container">
           <p className="section-label">Privater Bereich</p>
-          <h1 className="intern-header__title">Skill-Radar</h1>
+          <h1 className="intern-header__title">Skill-Radar und Rechts-Update</h1>
           <p className="intern-private" role="note">
             Privater Bereich. Die Informationen auf dieser Seite dienen ausschließlich Claudiu Dangulea und sind nicht für andere
             Personen bestimmt.
           </p>
           <p className="intern-header__lead">
-            Skills, ihre Abhängigkeiten und die wöchentlichen Meldungen dazu. Die Daten werden erst nach der Anmeldung
-            geladen. Ohne Berechtigung bleibt die Seite leer.
+            Skills, ihre Abhängigkeiten und die wöchentlichen Meldungen dazu, außerdem das monatliche Rechts-Update für mein
+            Studium und meine Weiterbildung. Die Daten werden erst nach der Anmeldung geladen. Ohne Berechtigung bleibt die
+            Seite leer.
           </p>
           {phase === 'signedOut' && (
             <p className="intern-note">
               Erst mit „Mit Google anmelden“ wird eine Verbindung zu Google/Firebase für die Anmeldung hergestellt.
-              Dabei gelten auch Googles Datenschutz- und Cookie-Einstellungen. Der Zugriff auf das private Google Sheet
+              Dabei gelten auch Googles Datenschutz- und Cookie-Einstellungen. Der Zugriff auf die privaten Google Sheets
               erfordert deine Freigabe. Die Anmeldung wird nur für diese Browsersitzung gespeichert.{' '}
               <a href="/impressum#interner-login">Datenschutz zum internen Login</a>
             </p>
@@ -206,7 +243,7 @@ export default function Intern() {
             {phase === 'ready' || phase === 'loading' ? (
               <>
                 <button type="button" className="intern-btn" onClick={() => { const t = readToken(); if (t) void load(t); else setPhase('signedOut') }}>Neu laden</button>
-                <a className="intern-btn" href={sheetUrl(SHEET_ID)} target="_blank" rel="noopener noreferrer">Im Sheet bearbeiten</a>
+                <a className="intern-btn" href={sheetUrl(tab === 'recht' && RECHTS_SHEET_ID ? RECHTS_SHEET_ID : SHEET_ID)} target="_blank" rel="noopener noreferrer">Im Sheet bearbeiten</a>
                 <button type="button" className="intern-btn intern-btn--ghost" onClick={() => void signOut()}>Abmelden</button>
                 {account && <span className="intern-account">Angemeldet als {account}</span>}
               </>
@@ -227,12 +264,24 @@ export default function Intern() {
         {error && <p className="intern-note intern-note--error" role="alert">{error}</p>}
         {phase === 'loading' && <p className="intern-note" aria-live="polite">Lade Daten …</p>}
         {phase === 'ready' && data && (
-          <Dashboard
-            data={data}
-            einordnung={einordnung} setEinordnung={setEinordnung}
-            entscheidung={entscheidung} setEntscheidung={setEntscheidung}
-            skillFilter={skillFilter} setSkillFilter={setSkillFilter}
-          />
+          <>
+            <div className="intern-tabs" role="tablist" aria-label="Bereiche">
+              <button type="button" role="tab" id="tab-skill" aria-controls="panel-skill" aria-selected={tab === 'skill'} className="intern-tab" onClick={() => setTab('skill')}>Skill-Radar</button>
+              <button type="button" role="tab" id="tab-recht" aria-controls="panel-recht" aria-selected={tab === 'recht'} className="intern-tab" onClick={() => setTab('recht')}>Rechts-Update</button>
+            </div>
+            <div role="tabpanel" id="panel-skill" aria-labelledby="tab-skill" hidden={tab !== 'skill'}>
+              <Dashboard
+                data={data}
+                einordnung={einordnung} setEinordnung={setEinordnung}
+                entscheidung={entscheidung} setEntscheidung={setEntscheidung}
+                skillFilter={skillFilter} setSkillFilter={setSkillFilter}
+              />
+            </div>
+            <div role="tabpanel" id="panel-recht" aria-labelledby="tab-recht" hidden={tab !== 'recht'}>
+              {rechtsError && <p className="intern-note intern-note--error" role="alert">{rechtsError}</p>}
+              {rechts && <InternRechtsUpdate data={rechts} />}
+            </div>
+          </>
         )}
       </div>
     </div>

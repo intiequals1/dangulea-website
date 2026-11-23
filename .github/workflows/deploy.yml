@@ -40,6 +40,7 @@ jobs:
           VITE_FIREBASE_PROJECT_ID: ${{ vars.FIREBASE_PROJECT_ID }}
           VITE_FIREBASE_APP_ID: ${{ vars.FIREBASE_APP_ID }}
           VITE_SKILL_SHEET_ID: ${{ vars.SKILL_SHEET_ID }}
+          VITE_RECHTS_SHEET_ID: ${{ vars.RECHTS_SHEET_ID }}
       - name: Verify validator rejects damaged deployment artifacts
         run: node scripts/check-news-artifact.mjs
       # Only a fully validated artifact can reach the deployment job.

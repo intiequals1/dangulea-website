@@ -177,10 +177,11 @@ export default function Impressum() {
 
           <h3 id="interner-login">Interner Bereich: Google-Anmeldung und Google Sheets</h3>
           <p>
-            Der interne Skill-Radar ist zugangsbeschränkt. Die Anmeldung über Google/Firebase Authentication
-            wird erst durch den Klick auf „Mit Google anmelden“ gestartet. Ein bloßer Besuch der abgemeldeten
-            Seite startet diesen Dienst nicht. Nach erteilter Zugriffsfreigabe werden die berechtigten Inhalte
-            eines privaten Google Sheets direkt über die Google-Sheets-API geladen.
+            Der interne Bereich (Skill-Radar und Rechts-Update) ist zugangsbeschränkt. Die Anmeldung über
+            Google/Firebase Authentication wird erst durch den Klick auf „Mit Google anmelden“ gestartet. Ein
+            bloßer Besuch der abgemeldeten Seite startet diesen Dienst nicht. Nach erteilter Zugriffsfreigabe
+            werden die berechtigten Inhalte zweier privater Google Sheets direkt über die Google-Sheets-API
+            geladen, ausschließlich lesend.
           </p>
           <p>
             Für Anmeldung, Zugriffskontrolle und Anzeige des Kontos werden insbesondere Google-Kontokennung,
