@@ -142,6 +142,76 @@
       }
     },
     {
+      "id": "2026-11-21-1",
+      "date": "2026-11-21",
+      "number": 1,
+      "title": "PostgreSQL 19 erweitert die Kontrolle über Tabellen und Abfragepläne",
+      "text": "Fakten: Die PostgreSQL-Entwicklergemeinschaft veröffentlichte Version 19 am 19. November 2026. Die neue Version ergänzt REPACK zur Tabellenreorganisation und pg_plan_advice zur Beeinflussung von Abfrageplänen. Ein Wechsel von älteren Hauptversionen erfordert laut Release Notes Dump/Restore, pg_upgrade oder logische Replikation; zudem sind Kompatibilitätsänderungen zu beachten.\nEinordnung: Nachträglicher Rückblick zum 21. November 2026, erstellt und veröffentlicht am 23. November 2026. Für betriebliche Datenplattformen sind Wartbarkeit und kontrollierbare Abfragepläne konkret relevant. Die Projektquellen belegen Funktionen und Migrationsanforderungen, keine pauschale Beschleunigung bestehender ERP-Anwendungen; Erweiterungen und eigene Lastprofile müssen vor einem Wechsel getestet werden.\nQuellen: https://www.postgresql.org/about/news/postgresql-19-released-3449/ | https://www.postgresql.org/docs/19/release-19.html",
+      "og": {
+        "og_kategorie": "POSTGRESQL · DATENBANK",
+        "og_titel": "PostgreSQL 19 erweitert die Kontrolle über Datenbankbetrieb",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte zu PostgreSQL 19 und kontrolliertem Datenbankbetrieb mit einem Zahnrad"
+      }
+    },
+    {
+      "id": "2026-11-21-2",
+      "date": "2026-11-21",
+      "number": 2,
+      "title": "Databricks untersucht den Einfluss fachlicher Definitionen auf KI-Antworten",
+      "text": "Fakten: Databricks veröffentlichte am 19. November 2026 einen eigenen Genie-One-Test mit 125 Fragen zu einem fiktiven Versicherer. Die Kombination kuratierter Agenten mit verwaltetem Geschäftskontext erreichte laut Anbieter 93 bis 95 Prozent korrekte Antworten, Tabellen allein 64 Prozent. Die Untersuchung verwendet künstliche Geschäftsdaten und modellgestützte Bewertung; sie ist kein unabhängiger Nachweis für Kundensysteme.\nEinordnung: Nachträglicher Rückblick zum 21. November 2026, erstellt und veröffentlicht am 23. November 2026. Kennzahlformeln, Zuständigkeiten und fachliche Definitionen müssen entlang aller Antwortwege verfügbar sein. Der Test macht eine konkrete Architekturfrage sichtbar: Agentenanweisungen allein erreichen Antworten außerhalb dieses Agenten möglicherweise nicht; die berichteten Prozentwerte bleiben auf das Herstellerexperiment begrenzt.\nQuellen: https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context",
+      "og": {
+        "og_kategorie": "DATABRICKS · GOVERNANCE",
+        "og_titel": "Databricks testet Geschäftskontext für verlässlichere KI-Antworten",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte zu Databricks und fachlichen Definitionen für KI-Antworten mit einem Dokument"
+      }
+    },
+    {
+      "id": "2026-11-21-3",
+      "date": "2026-11-21",
+      "number": 3,
+      "title": "Google beschreibt synthetische Unternehmensdaten für Agententests",
+      "text": "Fakten: Google veröffentlichte am 20. November 2026 den Aufbau eines internen Datensimulators für Unternehmensagenten. Aus einer fixierten Blaupause entstehen Tabellen, Dokumente und erwartete Antworten; die Agenten greifen beim Test nur lesend auf die Umgebung zu. Google bezeichnet breitere Studien mit gepaarten realen und synthetischen Kundenumgebungen als noch laufend.\nEinordnung: Nachträglicher Rückblick zum 21. November 2026, erstellt und veröffentlicht am 23. November 2026. Der Ansatz adressiert Tests mit widersprüchlichen Kennzahlbeschreibungen und unvollständigen Unternehmensdaten, ohne dafür produktive Kundendaten kopieren zu müssen. Beschrieben wird ein internes Verfahren aus einer Unternehmensquelle, kein allgemein verfügbares Produkt und keine unabhängig bestätigte Übertragbarkeit auf beliebige Organisationen.\nQuellen: https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents",
+      "og": {
+        "og_kategorie": "GOOGLE · AGENTENTESTS",
+        "og_titel": "Google testet Datenagenten in synthetischen Unternehmen",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte zu Googles synthetischen Unternehmensdaten für Agententests mit einem Dokument"
+      }
+    },
+    {
+      "id": "2026-11-21-4",
+      "date": "2026-11-21",
+      "number": 4,
+      "title": "NeuML stellt kompakte Atto-Modelle für semantische Suche vor",
+      "text": "Fakten: NeuML stellte am 19. November 2026 die Atto-Familie für dichte, sparse und tokenbasierte Retrieval-Verfahren vor. Der Projektbericht vergleicht Modelle anhand von ArguAna, NFCorpus und SciFact aus BEIR. Diese Auswertung umfasst einen Ausschnitt des Benchmarks und belegt keine allgemeine Qualität auf deutschen Unternehmensdokumenten.\nEinordnung: Nachträglicher Rückblick zum 21. November 2026, erstellt und veröffentlicht am 23. November 2026. Für RAG-Systeme betrifft die Entwicklung das Verhältnis zwischen Modellgröße, Embedding-Dimensionen und Suchqualität. Kleine Modellgewichte bedeuten nicht automatisch kleine Indizes oder gute Fachsuche; das Projektmaterial liefert Kandidaten für eigene Messungen, keine unabhängig bestätigte Ablösung größerer Modelle.\nQuellen: https://huggingface.co/blog/NeuML/introducing-atto",
+      "og": {
+        "og_kategorie": "NEUML · RETRIEVAL",
+        "og_titel": "NeuML stellt kompakte Atto-Modelle für semantische Suche vor",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte zu NeuML Atto und kompakten Modellen für semantische Suche mit einem Dokument"
+      }
+    },
+    {
+      "id": "2026-11-21-5",
+      "date": "2026-11-21",
+      "number": 5,
+      "title": "Microsoft gibt Cobalt-200-VMs für datenintensive Arbeitslasten frei",
+      "text": "Fakten: Microsoft meldete am 17. November 2026 die allgemeine Verfügbarkeit seiner Cobalt-200-VMs in 14 Azure-Regionen. Die Arm-basierten Instanzen richten sich unter anderem an Datenbanken, Suchindizes sowie Agenten-Orchestrierung und Werkzeugausführung. Eine Erweiterung auf 23 Regionen bis Ende 2026 ist als Planung beschrieben.\nEinordnung: Nachträglicher Rückblick zum 21. November 2026, erstellt und veröffentlicht am 23. November 2026. Neben der Modellinferenz benötigen KI-Anwendungen CPU-Ressourcen für Datenzugriff, Sandboxen und Werkzeuge. Die neuen Instanzen erweitern diese Infrastrukturwahl; aus der Herstellerankündigung folgt weder eine generelle Kostenersparnis noch die Kompatibilität vorhandener x86-Workloads ohne gesonderte Prüfung.\nQuellen: https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/ | https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943",
+      "og": {
+        "og_kategorie": "MICROSOFT · AZURE",
+        "og_titel": "Microsoft gibt Cobalt-200-VMs für Daten und Agenten frei",
+        "og_fakten": [],
+        "og_icon": "cloud",
+        "og_alt": "Kubistische Karte zu Azure Cobalt 200 und Infrastruktur für Daten und KI-Agenten mit einem Cloud-Symbol"
+      }
+    },
+    {
       "id": "2026-11-20-1",
       "date": "2026-11-20",
       "number": 1,
