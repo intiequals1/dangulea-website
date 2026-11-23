@@ -1,5 +1,17 @@
 # Änderungsprotokoll
 
+## 2026-11-21 – Impressum: KI-Werkzeuge je Bereich und grundlegende Richtung
+
+### Was geändert wurde
+
+- `src/pages/Impressum.tsx`, „Automatisierte Inhalte und KI-Unterstützung“ und Datenschutzerklärung („KI- und Automatisierungsdienste“): je Bereich das eingesetzte Werkzeug. Täglicher Überblick im Bereich „News“: Codex von OpenAI. Rubrik „Aktuelle Themen“: Perplexity. Dazu der Satz, dass keine Daten von Besucherinnen und Besuchern an diese Dienste gehen.
+- Neuer Abschnitt „Grundlegende Richtung von dangulea.at (§ 25 Abs. 4 MedienG)“.
+
+### Warum
+
+- Bisher stand pauschal, dass für die News insbesondere Perplexity eingesetzt wird. Der tägliche Überblick entsteht aber mit Codex; Perplexity wird für „Aktuelle Themen“ verwendet.
+- Nach § 25 MedienG braucht eine Website, deren Inhalte über die Selbstdarstellung hinausgehen, die volle Offenlegung einschließlich der grundlegenden Richtung. Mit dem täglichen Überblick trifft das auf dangulea.at zu; die Angabe fehlte.
+
 ## 2026-11-16 – Impressum an österreichisches Recht angepasst
 
 ### Was geändert wurde

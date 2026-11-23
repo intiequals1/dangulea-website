@@ -51,13 +51,35 @@ export default function Impressum() {
         <div className="divider" />
 
         <section className="legal-section">
+          <h2 id="grundlegende-richtung">Grundlegende Richtung von dangulea.at (§ 25 Abs. 4 MedienG)</h2>
+          <p>
+            Persönliche Website von Claudiu Dangulea mit Informationen zu beruflichem Hintergrund,
+            fachlichen Schwerpunkten und laufenden Vorhaben. Im Bereich „News“ erscheint ein
+            automatisiert erstellter täglicher Überblick zu KI, Technologie, ERP, Nachhaltigkeit
+            und Ethik (Proof of Concept). Die Rubrik „Aktuelle Themen“ stellt Themen aus meinen
+            Projekten zusammen.
+          </p>
+        </section>
+
+        <div className="divider" />
+
+        <section className="legal-section">
           <h2>Automatisierte Inhalte und KI-Unterstützung</h2>
           <p>
-            Auf dieser Website, insbesondere im Bereich „News“, können Inhalte ganz
-            oder teilweise automatisiert und unter Einsatz künstlicher Intelligenz
-            erstellt, zusammengefasst oder sprachlich bearbeitet werden. Dafür können
-            insbesondere Perplexity-Automatisierungen eingesetzt werden.
+            Auf dieser Website werden Inhalte ganz oder teilweise automatisiert und unter
+            Einsatz künstlicher Intelligenz erstellt, zusammengefasst oder sprachlich
+            bearbeitet. Eingesetzt werden:
           </p>
+          <ul className="legal-list">
+            <li>
+              Täglicher Überblick im Bereich „News“ (News-PoC): Codex von OpenAI. Recherche,
+              Zusammenfassung und Veröffentlichung erfolgen automatisiert.
+            </li>
+            <li>
+              Rubrik „Aktuelle Themen“: Perplexity. Die Themenblöcke werden automatisiert und
+              mit KI-Unterstützung aus meinen Projekten zusammengestellt.
+            </li>
+          </ul>
           <p>
             Automatisierte Inhalte werden auf der jeweiligen Seite als solche
             gekennzeichnet. Soweit ein Beitrag nicht einzeln vor Veröffentlichung
@@ -198,10 +220,18 @@ export default function Impressum() {
           <h3>KI- und Automatisierungsdienste</h3>
           <p>
             Für die Recherche, Zusammenfassung, Strukturierung oder sprachliche
-            Bearbeitung von News-Inhalten können externe KI- und Automatisierungsdienste,
-            insbesondere Perplexity AI, Inc., eingesetzt werden. Dabei sollen keine
-            vertraulichen Informationen, Zugangsdaten, Geschäftsgeheimnisse oder
-            sensiblen personenbezogenen Daten an solche Dienste übermittelt werden.
+            Bearbeitung von Inhalten werden folgende externe KI-Dienste eingesetzt:
+          </p>
+          <ul className="legal-list">
+            <li>Täglicher Überblick im Bereich „News“: Codex von OpenAI</li>
+            <li>Rubrik „Aktuelle Themen“: Perplexity (Perplexity AI, Inc.)</li>
+          </ul>
+          <p>
+            Dabei sollen keine vertraulichen Informationen, Zugangsdaten,
+            Geschäftsgeheimnisse oder sensiblen personenbezogenen Daten an solche Dienste
+            übermittelt werden. Daten von Besucherinnen und Besuchern dieser Website werden
+            an diese Dienste nicht übermittelt; die Inhalte werden als statische Seiten
+            ausgeliefert.
           </p>
           <p>
             Soweit im Einzelfall personenbezogene Daten verarbeitet werden, erfolgt dies
@@ -257,7 +287,7 @@ export default function Impressum() {
               www.ethics.at
             </a>
           </p>
-          <p className="legal-date">Stand: 16. November 2026</p>
+          <p className="legal-date">Stand: 21. November 2026</p>
         </section>
 
       </div>
