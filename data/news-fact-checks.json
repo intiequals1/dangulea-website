@@ -14542,6 +14542,918 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-21-1",
+      "contentHash": "260133737799448878a57e947d92fc5ff0b8d9e28b91aed2d1d4ae1f752f86fb",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T09:06:45+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich Rückblick",
+          "limitations": [
+            "Projektangaben zu Funktionen; keine pauschale Beschleunigung eigener ERP-Anwendungen, Upgrade und Erweiterungen gesondert testen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "PostgreSQL 19 erweitert die Kontrolle über Tabellen und Abfragepläne",
+              "verdict": "supported",
+              "reason": "Release-Ankündigung und Release Notes nennen neue REPACK- und Plan-advice-Funktionen.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die PostgreSQL-Entwicklergemeinschaft veröffentlichte Version 19 am 19. November 2026.",
+              "verdict": "supported",
+              "reason": "Projektveröffentlichung trägt 19.11.2026, Release Notes ebenfalls 2026-11-19.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die neue Version ergänzt REPACK zur Tabellenreorganisation und pg_plan_advice zur Beeinflussung von Abfrageplänen.",
+              "verdict": "supported",
+              "reason": "Overview nennt REPACK und pg_plan_advice; keine allgemeine Leistungssteigerung behauptet.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Ein Wechsel von älteren Hauptversionen erfordert laut Release Notes Dump/Restore, pg_upgrade oder logische Replikation; zudem sind Kompatibilitätsänderungen zu beachten.",
+              "verdict": "supported",
+              "reason": "Migration to Version 19 nennt Dump/Restore, pg_upgrade oder logische Replikation und anschließende Inkompatibilitätsliste.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "POSTGRESQL · DATENBANK",
+              "verdict": "supported",
+              "reason": "Kategorie PostgreSQL/Datenbank entspricht Projekt und Produktart.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "PostgreSQL 19 erweitert die Kontrolle über Datenbankbetrieb",
+              "verdict": "supported",
+              "reason": "Vorschautitel fasst Betriebsfunktionen zusammen, ohne Ausfallfreiheit oder Geschwindigkeitswerte zu versprechen.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu PostgreSQL 19 und kontrolliertem Datenbankbetrieb mit einem Zahnrad",
+              "verdict": "supported",
+              "reason": "Alt-Text nennt Datenbankthema und gezeichnetes Zahnrad; keine Zusatzdaten.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T09:06:45+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung Rückblick",
+          "limitations": [
+            "Projektangaben zu Funktionen; keine pauschale Beschleunigung eigener ERP-Anwendungen, Upgrade und Erweiterungen gesondert testen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "PostgreSQL 19 erweitert die Kontrolle über Tabellen und Abfragepläne",
+              "verdict": "supported",
+              "reason": "Neue Hauptversion statt bloßes Sicherheitsupdate: offizielle Release Notes und Veröffentlichung stimmen überein.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Die PostgreSQL-Entwicklergemeinschaft veröffentlichte Version 19 am 19. November 2026.",
+              "verdict": "supported",
+              "reason": "19.11. ist tatsächlicher Release, nicht früherer RC-Termin; Projektarchiv gegengeprüft.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die neue Version ergänzt REPACK zur Tabellenreorganisation und pg_plan_advice zur Beeinflussung von Abfrageplänen.",
+              "verdict": "supported",
+              "reason": "REPACK und Plan Advice vorhanden; Tabellenreorganisation nicht mit umfassend störungsfreiem Betrieb gleichgesetzt.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Ein Wechsel von älteren Hauptversionen erfordert laut Release Notes Dump/Restore, pg_upgrade oder logische Replikation; zudem sind Kompatibilitätsänderungen zu beachten.",
+              "verdict": "supported",
+              "reason": "Migrationskapitel explizit gelesen: Upgradeverfahren plus Änderungen; keine In-place-Kompatibilität versprochen.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "POSTGRESQL · DATENBANK",
+              "verdict": "supported",
+              "reason": "Korrekte Projektidentität, keine Zuordnung zu einem einzelnen Hosting-Anbieter.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "PostgreSQL 19 erweitert die Kontrolle über Datenbankbetrieb",
+              "verdict": "supported",
+              "reason": "Titel nennt Kontrolle, keine pauschale Performancewirkung auf ERP-Anwendungen.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu PostgreSQL 19 und kontrolliertem Datenbankbetrieb mit einem Zahnrad",
+              "verdict": "supported",
+              "reason": "Zahnrad ist thematische Darstellung, kein externes Herstellerbild oder Ergebnisdiagramm.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site:postgresql.org/docs/19/release-19 \"Migration\" \"REPACK\"",
+              "finding": "Release Notes belegen REPACK und erfordern Major-Upgradeverfahren samt Inkompatibilitätsprüfung.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            },
+            {
+              "query": "site:postgresql.org \"PostgreSQL 19\" \"Released\" \"2026-11-19\"",
+              "finding": "Offizielle Release-Mitteilung bestätigt 19.11.; RC-Planung ist nicht die finale Freigabe.",
+              "sourceUrls": [
+                "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+                "https://www.postgresql.org/docs/19/release-19.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Release 19.11.2026 stimmt zwischen Projektmeldung und Notes überein; keine Leistungszahlen veröffentlicht.",
+            "scopeAndQualifications": "REPACK/Plan Advice sind Funktionen; Major-Upgrade und Kompatibilitätsänderungen ausdrücklich erhalten.",
+            "sourceIndependence": "Zwei Originalquellen desselben Open-Source-Projekts, keine unabhängigen Lasttests vorgetäuscht.",
+            "contradictions": "Kein offener Widerspruch; keine globale Ausfallfreiheit aus CONCURRENTLY abgeleitet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-2",
+      "contentHash": "b7fbd98f668d75068445e6bba64a7cd9f67a5ce571917cab14a12107c1f9a1ec",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T09:06:45+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich Rückblick",
+          "limitations": [
+            "Herstellerexperiment mit fiktiven Geschäftsdaten und modellgestützter Bewertung; keine unabhängige Kundenvalidierung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks untersucht den Einfluss fachlicher Definitionen auf KI-Antworten",
+              "verdict": "supported",
+              "reason": "Autorenbeitrag vergleicht vier Konfigurationen zur fachlichen Kontextmodellierung in Genie One.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks veröffentlichte am 19. November 2026 einen eigenen Genie-One-Test mit 125 Fragen zu einem fiktiven Versicherer.",
+              "verdict": "supported",
+              "reason": "Datum 19.11.; Abschnitt How we built the test: fiktiver Versicherer, Questions and scoring: 125 Fragen.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Kombination kuratierter Agenten mit verwaltetem Geschäftskontext erreichte laut Anbieter 93 bis 95 Prozent korrekte Antworten, Tabellen allein 64 Prozent.",
+              "verdict": "supported",
+              "reason": "Zusammenfassung und Ergebnistabelle nennen 93–95 Prozent mit beiden Ebenen über zwei Läufe und 64 Prozent tables only.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Untersuchung verwendet künstliche Geschäftsdaten und modellgestützte Bewertung; sie ist kein unabhängiger Nachweis für Kundensysteme.",
+              "verdict": "supported",
+              "reason": "Methodik: fiktive Daten, zwei KI-Judges aus verschiedenen Modellfamilien; keine unabhängige Kundenstudie.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DATABRICKS · GOVERNANCE",
+              "verdict": "supported",
+              "reason": "Hersteller Databricks und Governance-/Geschäftskontext durch Unity-Catalog-Modellierung belegt.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Databricks testet Geschäftskontext für verlässlichere KI-Antworten",
+              "verdict": "supported",
+              "reason": "Titel spricht von einem Test; verlässlichere Antworten beziehen sich auf das begrenzte Experiment.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Databricks und fachlichen Definitionen für KI-Antworten mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Dokumentmotiv und fachliche Definitionen entsprechen Karte, keine Erfolgsquote im Alt-Text.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T09:06:45+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung Rückblick",
+          "limitations": [
+            "Herstellerexperiment mit fiktiven Geschäftsdaten und modellgestützter Bewertung; keine unabhängige Kundenvalidierung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks untersucht den Einfluss fachlicher Definitionen auf KI-Antworten",
+              "verdict": "supported",
+              "reason": "Die Entwicklung ist ein dokumentiertes Experiment zur Kontextarchitektur, kein allgemeiner Produkt-Erfolgsnachweis.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks veröffentlichte am 19. November 2026 einen eigenen Genie-One-Test mit 125 Fragen zu einem fiktiven Versicherer.",
+              "verdict": "supported",
+              "reason": "125 Fragen beziehen sich auf fiktive Versicherung; kleinerer Retail-Vergleich nicht hineingemischt.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Kombination kuratierter Agenten mit verwaltetem Geschäftskontext erreichte laut Anbieter 93 bis 95 Prozent korrekte Antworten, Tabellen allein 64 Prozent.",
+              "verdict": "supported",
+              "reason": "93–95 über zwei Läufe, 95 im Haupttabellenlauf; 64 gleiche Vergleichsbasis tables only.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Untersuchung verwendet künstliche Geschäftsdaten und modellgestützte Bewertung; sie ist kein unabhängiger Nachweis für Kundensysteme.",
+              "verdict": "supported",
+              "reason": "Originalmethodik bestätigt Modell-Judges und künstliches Unternehmen; Unternehmensquelle im Text sichtbar begrenzt.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DATABRICKS · GOVERNANCE",
+              "verdict": "supported",
+              "reason": "Governance umfasst fachliche Definitionen; Rollen-/Teamkontext nicht als Ersatz von Zugriffsrechten dargestellt.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Databricks testet Geschäftskontext für verlässlichere KI-Antworten",
+              "verdict": "supported",
+              "reason": "Vorschau testet verlässlichere Antworten, behauptet keine unabhängige Verlässlichkeit beliebiger Kundendaten.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Databricks und fachlichen Definitionen für KI-Antworten mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Dokument-Alt-Text enthält keine zusätzliche Genauigkeitsbehauptung.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Genie One Accuracy\" \"125\" \"fictional\"",
+              "finding": "Fiktiver Versicherer und 125 Fragen stehen im Original; kein Feldtest auf Kundendaten.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            },
+            {
+              "query": "\"Genie One Accuracy\" \"93\" \"95\" limitations",
+              "finding": "Zusammenfassung nennt 93–95 über zwei Läufe, Haupttabelle 95; Methodik begrenzt Aussage auf eigenes Setup.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "19.11.2026, 125 Versicherungsfragen, 93–95 über zwei Läufe gegenüber 64 tables only; Retail nicht verwechselt.",
+            "scopeAndQualifications": "Fiktive Daten, modellgestützte Bewertung; experimentelle Befunde statt Kundengarantie.",
+            "sourceIndependence": "Eigene Databricks-Auswertung, keine externe Replikation oder unabhängige Produktivbestätigung.",
+            "contradictions": "95 in Haupttabelle und 93–95 über Wiederholung vereinbar; Bereich statt einzigem Erfolgswert publiziert."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-3",
+      "contentHash": "8df87b4c9345916fe40f3b4128642acfc2ba290f4fe54c54feb3c9ee96ccd33c",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T09:06:45+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich Rückblick",
+          "limitations": [
+            "Interne Unternehmensquelle, breitere Übertragbarkeitsstudien laufen noch; kein allgemein verfügbares Produkt belegt."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Google beschreibt synthetische Unternehmensdaten für Agententests",
+              "verdict": "supported",
+              "reason": "Beitrag beschreibt einen internen Simulator für synthetische Unternehmensumgebungen und Datenagenten.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Google veröffentlichte am 20. November 2026 den Aufbau eines internen Datensimulators für Unternehmensagenten.",
+              "verdict": "supported",
+              "reason": "Datum 20.11.2026 im Beitrag; Einleitung nennt internal data simulator.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Aus einer fixierten Blaupause entstehen Tabellen, Dokumente und erwartete Antworten; die Agenten greifen beim Test nur lesend auf die Umgebung zu.",
+              "verdict": "supported",
+              "reason": "Abschnitt How the simulator builds a trusted benchmark: eingefrorene Blaupause, deterministische Tabellen/SQL-Antworten, Dokumente und read-only Tools.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Google bezeichnet breitere Studien mit gepaarten realen und synthetischen Kundenumgebungen als noch laufend.",
+              "verdict": "supported",
+              "reason": "Testing for behavioral trends and realism: broader studies across paired real and synthetic customer estates underway.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GOOGLE · AGENTENTESTS",
+              "verdict": "supported",
+              "reason": "Google und Agententests sind korrekte Organisation und Fachgebiet.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Google testet Datenagenten in synthetischen Unternehmen",
+              "verdict": "supported",
+              "reason": "Vorschau nennt Testen synthetischer Unternehmen, keine allgemeine Verfügbarkeit.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Googles synthetischen Unternehmensdaten für Agententests mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Dokumentmotiv und synthetische Testdaten passen zum Text, keine produktive Leistung behauptet.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T09:06:45+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung Rückblick",
+          "limitations": [
+            "Interne Unternehmensquelle, breitere Übertragbarkeitsstudien laufen noch; kein allgemein verfügbares Produkt belegt."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Google beschreibt synthetische Unternehmensdaten für Agententests",
+              "verdict": "supported",
+              "reason": "Internes Testverfahren bestätigt; kein Release eines öffentlich nutzbaren Simulators erfunden.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Google veröffentlichte am 20. November 2026 den Aufbau eines internen Datensimulators für Unternehmensagenten.",
+              "verdict": "supported",
+              "reason": "Datum 20.11.2026 überprüft, Beschreibung stammt vor dem Rückblickdatum.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Aus einer fixierten Blaupause entstehen Tabellen, Dokumente und erwartete Antworten; die Agenten greifen beim Test nur lesend auf die Umgebung zu.",
+              "verdict": "supported",
+              "reason": "Blaupause, deterministischer Tabellenschritt und read-only-Auswertung getrennt; LLM-gerenderte Dokumente nicht als deterministisch bezeichnet.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Google bezeichnet breitere Studien mit gepaarten realen und synthetischen Kundenumgebungen als noch laufend.",
+              "verdict": "supported",
+              "reason": "Laufende breitere Studien begrenzen Übertragbarkeit; interne Kalibrierung nicht als externe Bestätigung umgedeutet.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GOOGLE · AGENTENTESTS",
+              "verdict": "supported",
+              "reason": "Anbieter und Testgegenstand korrekt; Googles interne Untersuchung ausdrücklich als Unternehmensquelle.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Google testet Datenagenten in synthetischen Unternehmen",
+              "verdict": "supported",
+              "reason": "Synthetische Unternehmen sind Testumgebungen, keine realen Kundenbelege.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Googles synthetischen Unternehmensdaten für Agententests mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Alt-Text benennt nur synthetische Daten und Dokumentmotiv.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site:cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents \"internal\"",
+              "finding": "Google nennt internen Simulator; keine öffentliche Produktfreigabe im Original.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            },
+            {
+              "query": "site:cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents \"underway\"",
+              "finding": "Breitere gepaarte Studien laut Original noch laufend, interne Kalibrierung keine allgemeine Übertragbarkeitsgarantie.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "20.11.2026 Datum des Beitrags; keine unpublizierten Studienzahlen oder fertigen Produkttermine hinzugefügt.",
+            "scopeAndQualifications": "Internes Verfahren; read-only Agententests, Blaupause und Datengenerierung getrennt, Übertragbarkeitsstudien laufend.",
+            "sourceIndependence": "Googles Autoren beschreiben eigenes System; internes calibration suite nicht als unabhängige Forschungsorganisation ausgegeben.",
+            "contradictions": "Kein offener Widerspruch zum begrenzten Bericht; keine allgemeine Kundenvalidierung behauptet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-4",
+      "contentHash": "eb56e56b513b895e8aa32907e821fc4a919e5263b6d22d104305df085e8f2937",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T09:06:45+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich Rückblick",
+          "limitations": [
+            "Projektquelle und drei BEIR-Datensätze; keine unabhängige oder allgemeine Evaluation deutscher Unternehmensdokumente."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "NeuML stellt kompakte Atto-Modelle für semantische Suche vor",
+              "verdict": "supported",
+              "reason": "Projektbericht führt Atto als kompakte Modellfamilie für semantisches Retrieval ein.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "NeuML stellte am 19. November 2026 die Atto-Familie für dichte, sparse und tokenbasierte Retrieval-Verfahren vor.",
+              "verdict": "supported",
+              "reason": "Datum 19.11.2026; Einleitung und Availability nennen dense, sparse, ColBERT/late interaction.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Projektbericht vergleicht Modelle anhand von ArguAna, NFCorpus und SciFact aus BEIR.",
+              "verdict": "supported",
+              "reason": "Benchmark Results nennt ArguAna, NFCorpus, SciFact und ausdrücklich subset of BEIR.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Diese Auswertung umfasst einen Ausschnitt des Benchmarks und belegt keine allgemeine Qualität auf deutschen Unternehmensdokumenten.",
+              "verdict": "supported",
+              "reason": "Drei ausgewählte Datensätze, kein genereller deutscher Unternehmensbenchmark; Einschränkung folgt direkt aus Evaluationsumfang.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "NEUML · RETRIEVAL",
+              "verdict": "supported",
+              "reason": "NeuML ist die veröffentlichende Projektorganisation und Retrieval der Untersuchungsgegenstand.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "NeuML stellt kompakte Atto-Modelle für semantische Suche vor",
+              "verdict": "supported",
+              "reason": "Vorschau bleibt bei Vorstellung kompakter Suchmodelle, keine Überlegenheit behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu NeuML Atto und kompakten Modellen für semantische Suche mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Dokumentmotiv und Suche entsprechen dem geplanten Bild, ohne unbelegte Kennzahlen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T09:06:45+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung Rückblick",
+          "limitations": [
+            "Projektquelle und drei BEIR-Datensätze; keine unabhängige oder allgemeine Evaluation deutscher Unternehmensdokumente."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "NeuML stellt kompakte Atto-Modelle für semantische Suche vor",
+              "verdict": "supported",
+              "reason": "Kompaktheit wird als Designziel dargestellt, nicht als allgemein bessere Suche.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "NeuML stellte am 19. November 2026 die Atto-Familie für dichte, sparse und tokenbasierte Retrieval-Verfahren vor.",
+              "verdict": "supported",
+              "reason": "Projektbericht 19.11. bestätigt; nicht mit einer heutigen Nachveröffentlichung verwechselt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Projektbericht vergleicht Modelle anhand von ArguAna, NFCorpus und SciFact aus BEIR.",
+              "verdict": "supported",
+              "reason": "BEIR-Untermenge aus genau drei genannten Datensätzen; kein vollständiger Benchmark behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Diese Auswertung umfasst einen Ausschnitt des Benchmarks und belegt keine allgemeine Qualität auf deutschen Unternehmensdokumenten.",
+              "verdict": "supported",
+              "reason": "Keine Evaluation deutscher Unternehmensdokumente ausgewiesen; eine solche Generalisierung ist ausdrücklich ausgeschlossen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "NEUML · RETRIEVAL",
+              "verdict": "supported",
+              "reason": "NeuML-Projektquelle; Hosting auf Hugging Face ist keine unabhängige Evaluation.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "NeuML stellt kompakte Atto-Modelle für semantische Suche vor",
+              "verdict": "supported",
+              "reason": "Kurzfassung vermeidet Best-in-class- oder Ablösungsversprechen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu NeuML Atto und kompakten Modellen für semantische Suche mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Alt-Text bleibt Beschreibung, keine winzigen Indexgrößen oder Kundenergebnisse erfunden.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Atto\" \"NeuML\" \"BEIR\" \"three\"",
+              "finding": "Projektbericht nennt ArguAna, NFCorpus und SciFact als BEIR-Untermenge.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            },
+            {
+              "query": "\"Atto\" \"NeuML\" \"dimensionality\" \"retrieval\"",
+              "finding": "Architektur trennt interne Modellgröße und große Ausgabedimensionen; Indexgröße und Qualität bleiben gesonderte Auswahlkriterien.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/NeuML/introducing-atto"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "19.11.2026 Projektbericht; drei ausdrücklich genannte Datensätze, keine Größen-/Geschwindigkeitsrekorde publiziert.",
+            "scopeAndQualifications": "Dense, sparse und token-level Retrieval; Evaluationsausschnitt bleibt als Einschränkung sichtbar.",
+            "sourceIndependence": "NeuML-Projektbeitrag auf HF; weder Plattformhosting noch Aggregatorartikel eine unabhängige Bestätigung.",
+            "contradictions": "Keine offenen Widersprüche; Modellgewicht/Embedding-Dimension/Indexaufwand nicht gleichgesetzt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-5",
+      "contentHash": "ea7fe38ad46f7321baef15bc3fbadc6391e35a140c264669df8bf4881b315abe",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T09:06:45+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich Rückblick",
+          "limitations": [
+            "Herstellerangaben und begrenzte regionale Freigabe; Ausbau auf 23 Regionen geplant, keine universelle Kosten- oder Kompatibilitätszusage."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Microsoft gibt Cobalt-200-VMs für datenintensive Arbeitslasten frei",
+              "verdict": "supported",
+              "reason": "Azure-Originalmeldung gibt allgemeine Verfügbarkeit von Cobalt-200-VMs bekannt.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Microsoft meldete am 17. November 2026 die allgemeine Verfügbarkeit seiner Cobalt-200-VMs in 14 Azure-Regionen.",
+              "verdict": "supported",
+              "reason": "Azure-Blog vom 17.11. nennt GA in 14 Regionen; Rückblick wird nicht als aktuelle Einführung am 21.11. ausgegeben.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Arm-basierten Instanzen richten sich unter anderem an Datenbanken, Suchindizes sowie Agenten-Orchestrierung und Werkzeugausführung.",
+              "verdict": "supported",
+              "reason": "Abschnitte Compute designed for agents und VM sizes: Arm, Datenbanken, Indizes, Orchestrierung, Sandbox und Tool-Ausführung.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Eine Erweiterung auf 23 Regionen bis Ende 2026 ist als Planung beschrieben.",
+              "verdict": "supported",
+              "reason": "Regional availability nennt Ausweitung auf 23 Regionen bis Ende 2026 als Zukunftsplan.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "MICROSOFT · AZURE",
+              "verdict": "supported",
+              "reason": "Microsoft/Azure als Anbieter und Plattform belegt.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Microsoft gibt Cobalt-200-VMs für Daten und Agenten frei",
+              "verdict": "supported",
+              "reason": "Vorschau beschreibt Freigabe für Daten- und Agentenlasten, keine Leistungs- oder Kompatibilitätsgarantie.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Azure Cobalt 200 und Infrastruktur für Daten und KI-Agenten mit einem Cloud-Symbol",
+              "verdict": "supported",
+              "reason": "Cloud-Motiv und Infrastrukturthema stimmen mit der Karte überein.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-23T09:06:45+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung Rückblick",
+          "limitations": [
+            "Herstellerangaben und begrenzte regionale Freigabe; Ausbau auf 23 Regionen geplant, keine universelle Kosten- oder Kompatibilitätszusage."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Microsoft gibt Cobalt-200-VMs für datenintensive Arbeitslasten frei",
+              "verdict": "supported",
+              "reason": "GA der VM-Familie von Vorschauen anderer Compute-Produkte im Ignite-Bericht unterschieden.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Microsoft meldete am 17. November 2026 die allgemeine Verfügbarkeit seiner Cobalt-200-VMs in 14 Azure-Regionen.",
+              "verdict": "supported",
+              "reason": "Primärer Launch ist 17.11., Sammelbericht 20.11.; 14 Regionen bei Launch, nicht 23.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Arm-basierten Instanzen richten sich unter anderem an Datenbanken, Suchindizes sowie Agenten-Orchestrierung und Werkzeugausführung.",
+              "verdict": "supported",
+              "reason": "Arm-Architektur und Workload-Zuordnung im detaillierten Original geprüft; x86-Kompatibilität nicht vorausgesetzt.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Eine Erweiterung auf 23 Regionen bis Ende 2026 ist als Planung beschrieben.",
+              "verdict": "supported",
+              "reason": "23 Regionen bis Ende 2026 sind angekündigte Erweiterung, nicht heutiger Ist-Stand.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "MICROSOFT · AZURE",
+              "verdict": "supported",
+              "reason": "Beide Quellen stammen von Microsoft und liefern keine unabhängige Performancemessung.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Microsoft gibt Cobalt-200-VMs für Daten und Agenten frei",
+              "verdict": "supported",
+              "reason": "Vorschau enthält keine Prozentverbesserung und lässt nötige Kompatibilitätsprüfung im Artikel stehen.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Azure Cobalt 200 und Infrastruktur für Daten und KI-Agenten mit einem Cloud-Symbol",
+              "verdict": "supported",
+              "reason": "Cloud-Motiv beschreibt Infrastruktur und fügt keine Leistungsvorgaben hinzu.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site:azure.microsoft.com \"Cobalt 200\" \"November 17\" \"14\"",
+              "finding": "Launch-Blog datiert 17.11. und nennt 14 Regionen, Ignite-Rückblick vom 20.11. bestätigt.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            },
+            {
+              "query": "site:azure.microsoft.com \"Cobalt 200\" \"23 regions\" \"end of 2026\"",
+              "finding": "Ausbau auf 23 bis Jahresende ausdrücklich Zukunftsaussage; keine 23 Regionen als schon verfügbar publiziert.",
+              "sourceUrls": [
+                "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+                "https://techcommunity.microsoft.com/blog/azurecompute/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the-infrastructure-beneath/4574943"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "17.11. Launch, 14 Regionen Ist-Stand, 23 bis Ende 2026 Plan; 20.11. ist Rückblickdatum des zweiten Belegs.",
+            "scopeAndQualifications": "Arm-VMs für Daten-/Agentenlasten, keine automatische Portabilität aller x86-Anwendungen und keine pauschale Kostensenkung.",
+            "sourceIndependence": "Azure-Blog und Microsoft Community Hub beide Unternehmensquellen; Kunden-Zitate nicht als unabhängige Tests genutzt.",
+            "contradictions": "Keine offenen Widersprüche nach Trennung von verfügbarer VM-Familie und künftigem Regionenausbau."
+          }
+        }
+      ]
     }
   ]
 }
