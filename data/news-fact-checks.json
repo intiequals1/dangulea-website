@@ -15454,6 +15454,918 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-24-1",
+      "contentHash": "9dc916f44aef498dc990a1ccf75e35b55c8435407ec81f4221cdca846da5d011",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-24T06:26:39+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Unternehmensquelle mit GKE-Referenzbeispiel; kein Nachweis vollständig abgeschotteten Betriebs oder automatischer Gesamtsicherheit."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Google verbindet AlloyDB Omni mit lokal betriebenen KI-Modellen",
+              "verdict": "supported",
+              "reason": "Originalüberschrift und Abschnitt Connecting to local models belegen Verbindung von AlloyDB Omni und lokalem Modellserver.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Google veröffentlichte am 23. November 2026 eine Anleitung zur Anbindung lokal gehosteter Sprachmodelle an AlloyDB Omni.",
+              "verdict": "supported",
+              "reason": "Beitragsdatum 23.11.2026; Anleitung beschreibt Integration auf eigener Infrastruktur.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Datenbank ruft einen Modellserver über SQL auf; das Beispiel verwendet Ollama und Kubernetes.",
+              "verdict": "supported",
+              "reason": "SQL-Aufruf ai.generate und Schritte 0 bis 4 setzen Kubernetes und Ollama als Modellserver ein.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die demonstrierte Umgebung läuft auf GKE und ist damit kein Nachweis eines vollständig abgeschotteten Betriebs vor Ort.",
+              "verdict": "supported",
+              "reason": "Step 0 nennt ausdrücklich GKE als Beispielumgebung; isolierter On-premises-Betrieb ist damit nicht demonstriert.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GOOGLE · ALLOYDB OMNI",
+              "verdict": "supported",
+              "reason": "Google ist Anbieter, AlloyDB Omni das im Beitrag behandelte Datenbanksystem.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Google verbindet AlloyDB Omni mit lokalen KI-Modellen",
+              "verdict": "supported",
+              "reason": "Vorschau hält sich an den belegten Integrationsweg ohne Performance- oder Sicherheitsversprechen.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zur Verbindung von AlloyDB Omni und lokalen KI-Modellen mit einem Zahnrad",
+              "verdict": "supported",
+              "reason": "Alt-Text benennt Zahnradmotiv und Integrationsgegenstand, keine zusätzlichen Resultate.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-24T06:26:39+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Unternehmensquelle mit GKE-Referenzbeispiel; kein Nachweis vollständig abgeschotteten Betriebs oder automatischer Gesamtsicherheit."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Google verbindet AlloyDB Omni mit lokal betriebenen KI-Modellen",
+              "verdict": "supported",
+              "reason": "Integration bestätigt; lokal gehosteter Modellserver nicht mit vollständig lokalem Demonstrationsaufbau verwechselt.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Google veröffentlichte am 23. November 2026 eine Anleitung zur Anbindung lokal gehosteter Sprachmodelle an AlloyDB Omni.",
+              "verdict": "supported",
+              "reason": "23.11. ist Publikationsdatum der Anleitung, kein erfundener Release einer universellen Air-gap-Funktion.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Datenbank ruft einen Modellserver über SQL auf; das Beispiel verwendet Ollama und Kubernetes.",
+              "verdict": "supported",
+              "reason": "SQL-Integration und Ollama-Schritte im Original gegengelesen, keine Modelle automatisch ausprobiert.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die demonstrierte Umgebung läuft auf GKE und ist damit kein Nachweis eines vollständig abgeschotteten Betriebs vor Ort.",
+              "verdict": "supported",
+              "reason": "GKE als Cloud-Referenz erkannt; gegenteilige pauschale Behauptung vollständiger Abschottung ausdrücklich vermieden.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GOOGLE · ALLOYDB OMNI",
+              "verdict": "supported",
+              "reason": "Produkt- und Anbieterzuordnung stimmt, keine Cloud-Funktion als reiner OSS-Postgres-Kern ausgegeben.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Google verbindet AlloyDB Omni mit lokalen KI-Modellen",
+              "verdict": "supported",
+              "reason": "Kurzfassung lässt Bedingungen der eigenen Infrastruktur und Modellprüfung im Text stehen.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zur Verbindung von AlloyDB Omni und lokalen KI-Modellen mit einem Zahnrad",
+              "verdict": "supported",
+              "reason": "Zahnrad ist ein Symbol für Integration, kein Nachweis einer Sicherheitszertifizierung.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site:cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models \"GKE\" \"Ollama\"",
+              "finding": "Original zeigt ausdrücklich GKE und Ollama; kein eigenständig geprüfter Air-gap-Aufbau.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            },
+            {
+              "query": "site:cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models \"SQL\" \"local\"",
+              "finding": "SQL ruft Modellserver an; lokale Datenhaltung hängt an konkret gewählter Bereitstellung und Grenzen.",
+              "sourceUrls": [
+                "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "23.11.2026 korrekt, keine erfundenen Versions-, Kosten- oder Leistungszahlen.",
+            "scopeAndQualifications": "Anleitung für SQL-Modellintegration mit GKE-Beispiel; kein vollständiger Air-gap-Nachweis.",
+            "sourceIndependence": "Google-Unternehmensquelle; kein unabhängiger Betriebs- oder Sicherheitsnachweis.",
+            "contradictions": "Werbliches keep data local auf konkreten Aufbau begrenzt; GKE-Abgrenzung löst mögliche Überinterpretation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-2",
+      "contentHash": "c3e7eaa8873f4beaea9d6e73177522aaa1ca99a6f8bf810a764b1a35936eb17d",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-24T06:26:39+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Herstellerquelle; Runtime- und Compute-Grenzen beachten. Synthetische Leistungstests sind keine eigene Latenzgarantie."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks gibt den nativen Streaming-Schreibweg nach Lakebase frei",
+              "verdict": "supported",
+              "reason": "Ankündigung nennt allgemeine Verfügbarkeit des nativen Spark-Streaming-Schreibwegs nach Lakebase.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks meldete am 23. November 2026 die allgemeine Verfügbarkeit des nativen Lakebase-Sinks für Spark Structured Streaming ab Databricks Runtime 18 LTS.",
+              "verdict": "supported",
+              "reason": "Datum 23.11.; FAQ und Requirements nennen Runtime 18 LTS und höher als Basis.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Connector übernimmt unter anderem Schreibbündelung, Verbindungsverwaltung, Wiederholungen und Upserts.",
+              "verdict": "supported",
+              "reason": "What it handles und Dokumentation: Batching, Connection reuse, Retries sowie deklarierte Upsert-Schlüssel.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Serverless-Compute verwendet Trigger.AvailableNow; Lakeflow Declarative Pipelines werden laut Ankündigung nicht unterstützt.",
+              "verdict": "supported",
+              "reason": "FAQ grenzt serverless auf Trigger.AvailableNow ein und schließt Lakeflow Declarative Pipelines aus.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DATABRICKS · LAKEBASE",
+              "verdict": "supported",
+              "reason": "Anbieter Databricks und Ziel Lakebase korrekt benannt.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Databricks gibt den nativen Streaming-Sink für Lakebase frei",
+              "verdict": "supported",
+              "reason": "Vorschautitel fasst Freigabe des nativen Sinks zusammen, ohne universelle Unterstützung zu behaupten.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zum nativen Streaming-Schreibweg nach Databricks Lakebase mit einem Cloud-Symbol",
+              "verdict": "supported",
+              "reason": "Cloud-Symbol und Streaming-Verbindung passen zum Bild, keine synthetischen Benchmarkzahlen als Garantie.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-24T06:26:39+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Herstellerquelle; Runtime- und Compute-Grenzen beachten. Synthetische Leistungstests sind keine eigene Latenzgarantie."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks gibt den nativen Streaming-Schreibweg nach Lakebase frei",
+              "verdict": "supported",
+              "reason": "GA des Sinks von weiteren Runtime-/Compute-Einschränkungen getrennt.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks meldete am 23. November 2026 die allgemeine Verfügbarkeit des nativen Lakebase-Sinks für Spark Structured Streaming ab Databricks Runtime 18 LTS.",
+              "verdict": "supported",
+              "reason": "Runtime 18 LTS Basis; zusätzliche DBR-19-Anforderungen für spezielle Features nicht verallgemeinert.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Der Connector übernimmt unter anderem Schreibbündelung, Verbindungsverwaltung, Wiederholungen und Upserts.",
+              "verdict": "supported",
+              "reason": "Native Upserts/Retry-Verhalten belegt; keine Exactly-once-Garantie für beliebige externe Systeme erfunden.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Serverless-Compute verwendet Trigger.AvailableNow; Lakeflow Declarative Pipelines werden laut Ankündigung nicht unterstützt.",
+              "verdict": "supported",
+              "reason": "Serverless AvailableNow und nicht unterstützte Declarative Pipelines ausdrücklich im FAQ; nicht mit Real-Time Mode auf classic gleichgesetzt.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DATABRICKS · LAKEBASE",
+              "verdict": "supported",
+              "reason": "Hersteller und Zielsystem korrekt; kein allgemeiner Spark-to-any-Postgres-GA behauptet.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Databricks gibt den nativen Streaming-Sink für Lakebase frei",
+              "verdict": "supported",
+              "reason": "Kurzfassung enthält keine uneingeschränkte Runtime- oder Latenzgarantie.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zum nativen Streaming-Schreibweg nach Databricks Lakebase mit einem Cloud-Symbol",
+              "verdict": "supported",
+              "reason": "Cloud-Alt-Text beschreibt nur Datentransport und symbolisches Motiv.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"native Lakebase sink\" \"18 LTS\" \"AvailableNow\"",
+              "finding": "FAQ/Requirements bestätigen 18 LTS Basis und AvailableNow auf serverless.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            },
+            {
+              "query": "\"native Lakebase sink\" \"Declarative Pipelines\" \"synthetic\"",
+              "finding": "FAQ schließt Declarative Pipelines aus; Testaufbau ist synthetisch und seine Latenzen nicht allgemeingültig.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+                "https://docs.databricks.com/aws/en/structured-streaming/lakebase"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "23.11.2026, 18 LTS Basis; keine zusätzlichen Features pauschal ab 18 LTS zugesagt.",
+            "scopeAndQualifications": "AvailableNow auf serverless, LDP ausgeschlossen; synthetische Latenzen nicht als Kundenleistung übernommen.",
+            "sourceIndependence": "Blog und Dokumentation sind beide Databricks; Kunden-Zitate keine unabhängige Messung.",
+            "contradictions": "Kein offener Widerspruch bei Beschränkung auf nativen Lakebase-Sink; externe PostgreSQL-Preview nicht mitveröffentlicht."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-3",
+      "contentHash": "8b0b9993042b5677ca26a874ba5180357838491bc7ff9e2d31151de7075ada4f",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-24T06:26:39+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Projektquelle, überwiegend englische Trainingsdaten und keine gezielte mehrsprachige Evaluation; deutsche Geschäftsunterlagen separat prüfen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Illuin veröffentlicht offene Entscheidungsmodelle für Dokumentprozesse",
+              "verdict": "supported",
+              "reason": "Projektteam beschreibt Veröffentlichung offener IVE/Ivonnet-Entscheidungsmodelle für Dokumente.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Das Illuin-Projektteam stellte am 23. November 2026 IVE und Ivonnet als offene Entscheidungsmodelle unter Apache 2.0 vor.",
+              "verdict": "supported",
+              "reason": "Datum 23.11.; TLDR und Get IVE nennen Apache 2.0; Zitation ordnet Arbeit Illuin Technology zu.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Sie bewerten vorgegebene Antwortoptionen zu Texten oder Seitenbildern und liefern Wahrscheinlichkeiten statt frei erzeugter Antworttexte.",
+              "verdict": "supported",
+              "reason": "Einleitung: Kontext, Frage und Optionen, Wahrscheinlichkeiten in einem Forward Pass statt freie Textantwort.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Projektbericht nennt überwiegend englische Trainingsdaten und keine gezielte mehrsprachige Evaluation.",
+              "verdict": "supported",
+              "reason": "Limitations Languages: überwiegend Englisch; nicht als mehrsprachiges Modell entworfen oder evaluiert.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "ILLUIN · DOKUMENTEN-KI",
+              "verdict": "supported",
+              "reason": "Illuin und Dokumenten-KI passen zu Projektzitation, Aufgaben und Modellkarte.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Illuin öffnet Entscheidungsmodelle für Dokumentprozesse",
+              "verdict": "supported",
+              "reason": "Kurzfassung benennt Öffnung der Entscheidungsmodelle, keine allgemeine deutsche Dokumentgenauigkeit.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Illuins Entscheidungsmodellen für Dokumentprozesse mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Dokumentmotiv und Dokumentprozesse entsprechen der Vorschaugrafik ohne Leistungsdaten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-24T06:26:39+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Projektquelle, überwiegend englische Trainingsdaten und keine gezielte mehrsprachige Evaluation; deutsche Geschäftsunterlagen separat prüfen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Illuin veröffentlicht offene Entscheidungsmodelle für Dokumentprozesse",
+              "verdict": "supported",
+              "reason": "Offene Entscheidungsmodelle statt freier Chatbot; dokumentbezogene Optionen-Auswahl korrekt begrenzt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Das Illuin-Projektteam stellte am 23. November 2026 IVE und Ivonnet als offene Entscheidungsmodelle unter Apache 2.0 vor.",
+              "verdict": "supported",
+              "reason": "Lizenz und beide Modellnamen im Projektbericht sowie IVE-Karte geprüft, Zitation nennt Illuin.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Sie bewerten vorgegebene Antwortoptionen zu Texten oder Seitenbildern und liefern Wahrscheinlichkeiten statt frei erzeugter Antworttexte.",
+              "verdict": "supported",
+              "reason": "Optionswahrscheinlichkeiten sind Ausgabeformat; keine beliebig freie Extraktion ohne vorgegebene Optionen unterstellt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Projektbericht nennt überwiegend englische Trainingsdaten und keine gezielte mehrsprachige Evaluation.",
+              "verdict": "supported",
+              "reason": "Englische Daten und fehlende gezielte multilingual evaluation sichtbar berücksichtigt, trotz mehrsprachigem Basismodell.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "ILLUIN · DOKUMENTEN-KI",
+              "verdict": "supported",
+              "reason": "Illuin-Projektquelle klar, HF-Hosting ist keine unabhängige Leistungsbestätigung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Illuin öffnet Entscheidungsmodelle für Dokumentprozesse",
+              "verdict": "supported",
+              "reason": "Kein Überlegenheits- oder deutschsprachiges Genauigkeitsversprechen in der Vorschau.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Illuins Entscheidungsmodellen für Dokumentprozesse mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Dokumentmotiv fügt keine Anbieter-Benchmarks oder Zertifikate hinzu.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"IVE\" \"Ivonnet\" \"Apache\" \"November 23\"",
+              "finding": "Original und Modellkarte bestätigen offene Veröffentlichung und Lizenz.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            },
+            {
+              "query": "\"IVE\" \"Quentin\" \"Languages\" \"multilingual\"",
+              "finding": "Limitations Languages schließt gezielte mehrsprachige Evaluation ausdrücklich aus.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/QuentinJG/ive-release",
+                "https://huggingface.co/illuin/IVE-4B"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "23.11.2026, IVE/Ivonnet unter Apache 2.0; Größen-/Leaderboardzahlen bewusst nicht übernommen.",
+            "scopeAndQualifications": "Vorgegebene Optionen und Wahrscheinlichkeiten; nicht als universelles multilingual oder freies Textmodell bewertet.",
+            "sourceIndependence": "Illuin-Projektteam veröffentlicht eigene Daten; Modellhosting auf HF keine unabhängige Bestätigung.",
+            "contradictions": "Mehrsprachiges Basismodell und fehlende spezielle Evaluation sind vereinbar; Artikel gibt letztere Einschränkung korrekt an."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-4",
+      "contentHash": "2def0b0094ff783e044459c366c2e019c552bc51ef7ed4f5360680cd6a704e71",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-24T06:26:39+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Projektleitfaden mit acht synthetischen Entwicklungsaufgaben; keine allgemeine Modellrangliste oder unabhängige Zertifizierung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Hugging Face zeigt, warum Agententests auch ihre Prüflogik testen müssen",
+              "verdict": "supported",
+              "reason": "Neuer Leitfaden beschreibt Prüflogik und einen absichtlichen Shortcut zur Validierung des Graders.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Hugging Face veröffentlichte am 23. November 2026 einen Leitfaden mit einem ausführbaren Beispiel zur Auswertung von KI-Agenten.",
+              "verdict": "supported",
+              "reason": "Datum 23.11.; Methodik und Appendix enthalten ausführbares Harbor/raman-lab-Beispiel.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Im Beispiel erzielte ein absichtlich unvollständiges Skript den erwarteten Kennzahlenwert, ohne die geforderte Spektrenanpassung auszuführen; daraufhin wurde die Prüflogik erweitert.",
+              "verdict": "supported",
+              "reason": "Checks und Shortcut: Verhältnis durch Ablesen von Peak-Höhen ohne Fit getroffen; Prüfer anschließend um Fit-Prüfung erweitert.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die acht synthetischen Entwicklungsaufgaben sind laut Autoren keine Grundlage für allgemeine Aussagen zu neuen Messdaten.",
+              "verdict": "supported",
+              "reason": "Methodik nennt acht synthetische development tasks und warnt vor Verallgemeinerung auf neue Spektren.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "HUGGING FACE · EVALUATION",
+              "verdict": "supported",
+              "reason": "Hugging Face veröffentlicht den Leitfaden, Evaluation ist sein Gegenstand.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Hugging Face zeigt Lücken in der Prüflogik von Agententests",
+              "verdict": "supported",
+              "reason": "Vorschau benennt Lücken in Prüflogik; weder unabhängige Zertifizierung noch allgemeines Modellranking.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Hugging Faces Leitfaden für überprüfbare Agententests mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Dokumentmotiv und Leitfaden sind korrekt beschrieben, keine zusätzlichen Benchmarkwerte.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-24T06:26:39+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Projektleitfaden mit acht synthetischen Entwicklungsaufgaben; keine allgemeine Modellrangliste oder unabhängige Zertifizierung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Hugging Face zeigt, warum Agententests auch ihre Prüflogik testen müssen",
+              "verdict": "supported",
+              "reason": "Ereignis ist veröffentlichter methodischer Projektleitfaden, keine neue universelle Norm.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Hugging Face veröffentlichte am 23. November 2026 einen Leitfaden mit einem ausführbaren Beispiel zur Auswertung von KI-Agenten.",
+              "verdict": "supported",
+              "reason": "Ausführbarer Test samt Referenz und Verifier von allgemeinen Empfehlungen getrennt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Im Beispiel erzielte ein absichtlich unvollständiges Skript den erwarteten Kennzahlenwert, ohne die geforderte Spektrenanpassung auszuführen; daraufhin wurde die Prüflogik erweitert.",
+              "verdict": "supported",
+              "reason": "Shortcut trifft nur Endkennzahl; ursprünglicher fehlender Fit-Test im Original explizit und nachgebessert.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die acht synthetischen Entwicklungsaufgaben sind laut Autoren keine Grundlage für allgemeine Aussagen zu neuen Messdaten.",
+              "verdict": "supported",
+              "reason": "Acht Aufgaben dienen Entwicklung und sind klein; keine allgemeine Aussage über alle Messdaten/Modelle daraus abgeleitet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "HUGGING FACE · EVALUATION",
+              "verdict": "supported",
+              "reason": "Hugging-Face-Projektbericht; keine unabhängige Gesamtvalidierung behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Hugging Face zeigt Lücken in der Prüflogik von Agententests",
+              "verdict": "supported",
+              "reason": "Vorschau nennt Prüflücken und keine allgemeine Unbrauchbarkeit von Agenten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Hugging Faces Leitfaden für überprüfbare Agententests mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt Leitfaden und Dokumentmotiv ohne Erfolgsgarantien.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site:huggingface.co/blog/agentic-evals \"shortcut\" \"eight\"",
+              "finding": "Absichtlicher Shortcut trifft erwartetes Verhältnis ohne Fit; Verifier wurde erweitert.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            },
+            {
+              "query": "site:huggingface.co/blog/agentic-evals \"development\" \"generalizing\"",
+              "finding": "Acht synthetische Aufgaben dienen Entwicklung; Autoren warnen vor Generalisierung auf neue Spektren.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/agentic-evals"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "23.11.2026 Leitfaden; acht development tasks aus Methodik, keine Modell-Erfolgsraten verallgemeinert.",
+            "scopeAndQualifications": "Verifier-Prüfung am gezielten Shortcut; allgemeine Evaluation bleibt auf neue Aufgaben gesondert auszulegen.",
+            "sourceIndependence": "Hugging-Face-Projektbericht und geteilte Artefakte; keine unabhängige Zertifizierung behauptet.",
+            "contradictions": "Original korrigiert eigene Prüflücke und benennt kleine Entwicklungsmenge; kein offener Widerspruch zum Artikel."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-5",
+      "contentHash": "d144dc6d5a553cef6d95f6c65b7c42ecaaf751cd3da6a50834b36c09d5216c99",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-24T06:26:39+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Projektquelle und gezielte Benchmarks; lange Verdeckungen und kleine Objekte bleiben problematisch, keine unabhängig belegte Betriebssicherheit."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Ai2 veröffentlicht RoboTrack zur Prüfung visueller Bewegungsverfolgung",
+              "verdict": "supported",
+              "reason": "Ai2-Beitrag stellt RoboTrack als Benchmark und Trainingsdaten-Suite für Punktverfolgung vor.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ai2 stellte am 23. November 2026 RoboTrack mit einem Benchmark, synthetischen Trainingsdaten und zwei Tracking-Modellen vor.",
+              "verdict": "supported",
+              "reason": "Datum 23.11.; Einleitung veröffentlicht Bench, simulierte Trainingsdaten sowie RoboTracker und RoboTracker-Warp.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "RoboTrack-Bench umfasst 307 von Menschen annotierte Videos zur Objektmanipulation.",
+              "verdict": "supported",
+              "reason": "Abschnitt RoboTrack-Bench nennt 307 human-annotated Videos unterschiedlicher Manipulationsszenen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Projektbericht nennt anhaltende Probleme bei langen Verdeckungen, wieder auftauchenden Punkten und kleinen Objekten vor unruhigem Hintergrund.",
+              "verdict": "supported",
+              "reason": "Limitations nennt lange Verdeckungen, Wiederfinden von Punkten und kleine Objekte in unruhigem Hintergrund.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "AI2 · VISUELLE EVALUATION",
+              "verdict": "supported",
+              "reason": "Ai2 ist die Originalorganisation; visuelle Evaluation entspricht Benchmarkzweck.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Ai2 prüft Bewegungsverfolgung mit RoboTrack",
+              "verdict": "supported",
+              "reason": "Vorschautitel bleibt beim Prüfgegenstand und behauptet keine zuverlässige allgemeine Robotersteuerung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Ai2 RoboTrack und der Prüfung visueller Bewegungsverfolgung mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Dokumentmotiv und Evaluationsgegenstand korrekt, ohne fremdes Robotikfoto oder Erfolgsquote.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-24T06:26:39+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Projektquelle und gezielte Benchmarks; lange Verdeckungen und kleine Objekte bleiben problematisch, keine unabhängig belegte Betriebssicherheit."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Ai2 veröffentlicht RoboTrack zur Prüfung visueller Bewegungsverfolgung",
+              "verdict": "supported",
+              "reason": "Projektveröffentlichung bestätigt Messproblem bei Objektmanipulation; kein beliebiger Roboter-Produktrelease.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ai2 stellte am 23. November 2026 RoboTrack mit einem Benchmark, synthetischen Trainingsdaten und zwei Tracking-Modellen vor.",
+              "verdict": "supported",
+              "reason": "Zwei Tracking-Modelle von Benchmark und synthetischem Trainingssatz getrennt gezählt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "RoboTrack-Bench umfasst 307 von Menschen annotierte Videos zur Objektmanipulation.",
+              "verdict": "supported",
+              "reason": "307 Videos sind Benchmarkclips, nicht 307 Roboter oder unabhängige Feldtests.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Projektbericht nennt anhaltende Probleme bei langen Verdeckungen, wieder auftauchenden Punkten und kleinen Objekten vor unruhigem Hintergrund.",
+              "verdict": "supported",
+              "reason": "Restprobleme nach Training stehen im Limitations-Abschnitt; im Artikel statt pauschaler Lösung erhalten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "AI2 · VISUELLE EVALUATION",
+              "verdict": "supported",
+              "reason": "Ai2-Originalbeitrag, übernommene Medienkopien keine unabhängige Replikation.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Ai2 prüft Bewegungsverfolgung mit RoboTrack",
+              "verdict": "supported",
+              "reason": "Vorschautitel verspricht Prüfung statt Einsatzreife oder Betriebssicherheit.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Ai2 RoboTrack und der Prüfung visueller Bewegungsverfolgung mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Dokument-Alt-Text beschreibt Forschung, kein tatsächlicher Betriebsnachweis.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"RoboTrack\" \"307\" \"November 23\"",
+              "finding": "Originalbeitrag bestätigt 307 human-annotated Videos und Release vom 23.11.; keine unabhängige Feldstudie.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            },
+            {
+              "query": "\"RoboTrack\" \"long occlusions\" limitations",
+              "finding": "Original benennt Restprobleme; Suchtreffer wiedergeben denselben Beitrag und zählen nicht als unabhängige Bestätigung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/robotrack"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "23.11.2026 Release, 307 Videos im Bench, zwei Modelle; synthetische Trainingszahl nicht mit Videocount verwechselt.",
+            "scopeAndQualifications": "Objektmanipulation mit Verdeckungen; verbliebene Fehler schließen allgemeine Freigabe aus.",
+            "sourceIndependence": "Ai2 berichtet über eigene Arbeit, Medienreprints keine unabhängige Forschung.",
+            "contradictions": "Verbesserungen durch Training vereinbar mit verbleibenden Trackingfehlern; keine Fehlerfreiheit behauptet."
+          }
+        }
+      ]
     }
   ]
 }
