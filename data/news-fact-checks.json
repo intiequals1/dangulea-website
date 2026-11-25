@@ -16366,6 +16366,934 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-25-1",
+      "contentHash": "64d21eb501a0c8a99a8fb7c47e6d864a82056b39bf9bf377ddaebde24263d4b2",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-25T08:04:19+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Herstellerquelle beschreibt eine Beta, keine automatisch einheitliche Governance über alle Systeme; gemeinsame Begriffe und lokale Rechte bleiben gesonderte Aufgaben."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks startet Tag Exchange als Beta für den Austausch von Datenkontext",
+              "verdict": "supported",
+              "reason": "Der Databricks-Originalbeitrag stellt Tag Exchange ausdrücklich als Beta zum Austausch von Tabellen- und Spaltenkontext vor.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks meldete am 24. November 2026 die Beta-Verfügbarkeit von Tag Exchange.",
+              "verdict": "supported",
+              "reason": "Beitrag datiert 24.11.2026; Schlussabschnitt nennt Beta heute und Aktivierung im Previews-Portal.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Funktion stellt Tabellen- und Spalten-Tags aus Unity Catalog als Catalog Labels über die Iceberg REST Catalog API bereit.",
+              "verdict": "supported",
+              "reason": "Abschnitt Tag Exchange beschreibt Unity-Catalog-Tags als Catalog Labels; Dokumentation bestätigt LoadTableResponse für Tabellen und Spalten.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Empfangende Plattformen müssen die Bedeutung der Labels sowie daraus abgeleitete Zugriffs- oder Maskierungsregeln selbst konfigurieren und durchsetzen.",
+              "verdict": "supported",
+              "reason": "Abschnitt How labels provide context weist die Konfiguration und Durchsetzung einer lokalen Maskierungsregel ausdrücklich der empfangenden Plattform zu.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DATABRICKS · METADATEN",
+              "verdict": "supported",
+              "reason": "Databricks ist der Anbieter, Metadaten sind der Gegenstand der beschriebenen Tabellen- und Spalten-Tags.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Databricks öffnet Datenkontext mit Tag Exchange als Beta",
+              "verdict": "supported",
+              "reason": "Die Vorschau erhält den Beta-Status und beschränkt den Nutzen auf Datenkontext statt universeller Zugriffssteuerung.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Databricks Tag Exchange und dem Austausch von Datenkontext mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Der Alt-Text beschreibt das konfigurierte Dokumentmotiv und den belegten Metadatenaustausch, keinen zusätzlichen Leistungsnachweis.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-25T08:04:19+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Herstellerquelle beschreibt eine Beta, keine automatisch einheitliche Governance über alle Systeme; gemeinsame Begriffe und lokale Rechte bleiben gesonderte Aufgaben."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks startet Tag Exchange als Beta für den Austausch von Datenkontext",
+              "verdict": "supported",
+              "reason": "Die Gegenrecherche trennt die neue Anbieter-Beta vom älteren Iceberg-Protokollvorschlag; die Überschrift bleibt bei der Beta.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks meldete am 24. November 2026 die Beta-Verfügbarkeit von Tag Exchange.",
+              "verdict": "supported",
+              "reason": "Die Dokumentation trägt bereits 23.11., der Ankündigungsbeitrag 24.11.; der Text sagt meldete und behauptet kein exaktes erstmaliges technisches Freischaltdatum.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Funktion stellt Tabellen- und Spalten-Tags aus Unity Catalog als Catalog Labels über die Iceberg REST Catalog API bereit.",
+              "verdict": "supported",
+              "reason": "Die Dokumentation verlangt einen kompatiblen Client sowie aktivierten externen Zugriff; Bereitstellung bedeutet nicht universelle Client-Unterstützung.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Empfangende Plattformen müssen die Bedeutung der Labels sowie daraus abgeleitete Zugriffs- oder Maskierungsregeln selbst konfigurieren und durchsetzen.",
+              "verdict": "supported",
+              "reason": "Gemeinsames Format schreibt weder Vokabular noch Interpretation vor; empfangende Regeln bleiben lokal. Keine automatische Schutzwirkung behauptet.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DATABRICKS · METADATEN",
+              "verdict": "supported",
+              "reason": "Die Kategorie ist Anbieter und Gegenstand, kein Siegel einer unabhängigen Governance-Bestätigung.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Databricks öffnet Datenkontext mit Tag Exchange als Beta",
+              "verdict": "supported",
+              "reason": "Beta steht auch im verkürzten Titel; geplante PyIceberg-0.13-Unterstützung wird nicht als bereits ausgeliefert dargestellt.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Databricks Tag Exchange und dem Austausch von Datenkontext mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Die symbolische Dokumentkarte enthält keine Aussage über lückenlose systemübergreifende Sicherheit.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Tag Exchange\" \"Beta\" \"November 24\"",
+              "finding": "Beta-Ankündigung 24.11. gefunden; aktuelle Dokumentation bestätigt Beta und erforderliche Aktivierung, keine GA.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            },
+            {
+              "query": "\"catalog labels\" \"receiving\" \"policies\" Databricks",
+              "finding": "Label-Format transportiert Kontext, schreibt aber keine Semantik vor. Lokale Konfiguration und Durchsetzung bleiben beim Empfänger.",
+              "sourceUrls": [
+                "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+                "https://docs.databricks.com/aws/en/external-access/tag-exchange"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Ankündigung 24.11.2026, Dokumentation 23.11.; Meldung berichtet die Ankündigung, nicht einen exakten erstmaligen Freischalttag.",
+            "scopeAndQualifications": "Beta, kompatibler Iceberg-Client und Administratorfreigaben erforderlich; Tags bei bestimmten Filtern/Masken nicht verfügbar. Kein universelles Policy-System.",
+            "sourceIndependence": "Databricks-Blog und Dokumentation sind eine Herstellerquelle. Apache-Iceberg-PR belegt Protokollarbeit, keine unabhängige Produktvalidierung.",
+            "contradictions": "Kein offener Widerspruch: älteres Protokoll und aktuelle Beta sind getrennte Sachverhalte. PyIceberg 0.13 wird nicht als bereits veröffentlicht bezeichnet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-2",
+      "contentHash": "5e6e585adc941e42b5edea36e550979cf91cab998d3937a8141d29e372938085",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-25T08:04:19+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Die Unternehmensquelle belegt weder eine allgemeine Produktfreigabe der Vorschauen noch automatisch sichere oder konforme Cloud-Umgebungen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Microsoft beschreibt neue Vorschauen für Azure-Governance und Agentenzugriffe",
+              "verdict": "supported",
+              "reason": "Der Überblick verbindet Azure Policy, die erweiterte ARM-MCP-Vorschau und BSM-Public-Preview ausdrücklich miteinander.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Microsoft beschreibt Azure Baseline Security Mode in seinem Überblick vom 24. November 2026 als Public Preview.",
+              "verdict": "supported",
+              "reason": "Der Überblick ist am 24.11.2026 datiert und bezeichnet BSM in der Abschnittsüberschrift als Public Preview.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die auf Azure Policy aufbauende Oberfläche soll Sicherheitsbaselines zentral bewerten, Abweichungen beheben und die Durchsetzung schrittweise vorbereiten.",
+              "verdict": "supported",
+              "reason": "BSM wird als Azure-Policy-basierte Oberfläche für Bewertung, Behebung und schrittweise Durchsetzung beschrieben.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Auch der erweiterte ARM-MCP-Server bleibt eine Public Preview; seine Ressourcenanfragen unterliegen laut Microsoft weiterhin Azure Policy.",
+              "verdict": "supported",
+              "reason": "Der ARM-MCP-Abschnitt heißt Expanding the public preview und sagt, jede Ressourcenanfrage werde durch Azure Policy geprüft.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "MICROSOFT · AZURE GOVERNANCE",
+              "verdict": "supported",
+              "reason": "Der Beitrag stammt vom Microsoft-Azure-Policy-Team und behandelt Governance, daher passende Kategorie.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Microsoft verbindet Azure-Vorschauen mit zentralen Richtlinien",
+              "verdict": "supported",
+              "reason": "Der Vorschautitel verdichtet die tatsächlich beschriebenen Policy-Verbindungen, ohne allgemeine Produktfreigabe zu behaupten.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Microsofts Azure-Governance-Vorschauen und zentralen Richtlinien mit einem Schild",
+              "verdict": "supported",
+              "reason": "Der Alt-Text benennt den Governance-Gegenstand und das symbolische Schild, ohne ein Sicherheitszertifikat zu behaupten.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-25T08:04:19+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Die Unternehmensquelle belegt weder eine allgemeine Produktfreigabe der Vorschauen noch automatisch sichere oder konforme Cloud-Umgebungen."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Microsoft beschreibt neue Vorschauen für Azure-Governance und Agentenzugriffe",
+              "verdict": "supported",
+              "reason": "Der Einzelbeitrag zur BSM-Vorschau liegt schon in der Ignite-Woche; die Meldung ist bewusst als Überblick beschrieben, keine Neuveröffentlichung am 24.11.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Microsoft beschreibt Azure Baseline Security Mode in seinem Überblick vom 24. November 2026 als Public Preview.",
+              "verdict": "supported",
+              "reason": "Der 24.11. ist das Datum des Überblicks, nicht das erstmalige BSM-Startdatum. Der Text erhält diese Unterscheidung.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die auf Azure Policy aufbauende Oberfläche soll Sicherheitsbaselines zentral bewerten, Abweichungen beheben und die Durchsetzung schrittweise vorbereiten.",
+              "verdict": "supported",
+              "reason": "Der BSM-Einzelbeitrag nennt zunächst Storage und Key Vault sowie lokale Enrollment-Verantwortung; kein pauschales Absichern aller Dienste behauptet.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Auch der erweiterte ARM-MCP-Server bleibt eine Public Preview; seine Ressourcenanfragen unterliegen laut Microsoft weiterhin Azure Policy.",
+              "verdict": "supported",
+              "reason": "ARM MCP bleibt Vorschau; Policy-Prüfung ist eine Governance-Kontrolle und kein Nachweis, dass jeder Agentenauftrag sicher ist.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "MICROSOFT · AZURE GOVERNANCE",
+              "verdict": "supported",
+              "reason": "Beide Ankündigungen sind Microsoft-Quellen, keine voneinander unabhängigen Sicherheitsprüfungen.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Microsoft verbindet Azure-Vorschauen mit zentralen Richtlinien",
+              "verdict": "supported",
+              "reason": "Zentrale Richtlinien sind der technische Zusammenhang; der Titel erhält ausdrücklich Vorschauen statt allgemeiner Freigabe.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Microsofts Azure-Governance-Vorschauen und zentralen Richtlinien mit einem Schild",
+              "verdict": "supported",
+              "reason": "Das Schild illustriert Richtlinien und darf nicht als Konformitäts- oder Sicherheitsnachweis verstanden werden.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Azure Baseline Security Mode\" \"Public Preview\" November 2026",
+              "finding": "BSM-Einzelbeitrag stammt bereits aus der Ignite-Woche; Überblick 24.11. fasst zusammen. Kein Start am 24.11. behauptet.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            },
+            {
+              "query": "\"ARM MCP\" \"Azure Policy\" \"preview\" November 2026",
+              "finding": "ARM-MCP-Erweiterung bleibt Public Preview; jede Anfrage unterliegt Azure Policy. Keine allgemeine Sicherheitsgarantie.",
+              "sourceUrls": [
+                "https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "24.11. ist der Überblick; BSM-Einzelbeitrag aus der Vorwoche, nicht mit dem Release-Datum gleichgesetzt.",
+            "scopeAndQualifications": "BSM und ARM MCP bleiben Public Preview. Anfangs begrenzte BSM-Kontrollen; Policy ersetzt keine vollständige Agentensicherheit.",
+            "sourceIndependence": "Microsoft ist die einzige Produktquelle; andere wiedergebende Treffer sind keine unabhängigen Sicherheitsnachweise.",
+            "contradictions": "Keine offene Gegenbehauptung zur beschriebenen Vorschau gefunden. Unterschiedliche Datumsangaben des Einzelbeitrags sind für die bewusst datierte Zusammenfassung unerheblich."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-3",
+      "contentHash": "2075fc7333c2627b1dac95b5f7fc9beee287b5f0350a4efa3f6a0b369b20838a",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-25T08:04:19+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Die Herstellerdokumentation belegt die Funktionen, keine belastbare Prognose oder kausale Erklärung jedes Datensatzes."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "BigQuery gibt zusätzliche SQL-Funktionen für Datenanalysen allgemein frei",
+              "verdict": "supported",
+              "reason": "Release Notes kennzeichnen die vier SQL-Analysefunktionen am 24.11. als GA; die Überschrift behauptet nur die allgemeine Freigabe.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Google kennzeichnet in den BigQuery-Release-Notes vom 24. November 2026 vier zusätzliche Analysefunktionen als allgemein verfügbar.",
+              "verdict": "supported",
+              "reason": "Unter November 24, 2026 stehen genau ML.TREND, ML.SEASONALITY, ML.DETECT_CHANGE_POINTS und ML.CORRELATION als GA.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "ML.TREND und ML.SEASONALITY untersuchen Trends und wiederkehrende Muster.",
+              "verdict": "supported",
+              "reason": "Die Funktionsbeschreibungen nennen gerichteten Verlauf für TREND und wiederkehrende Muster für SEASONALITY.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "ML.DETECT_CHANGE_POINTS ermittelt Intervalle mit Strukturänderungen, ML.CORRELATION statistische Zusammenhänge zwischen Kennzahlspalten.",
+              "verdict": "supported",
+              "reason": "DETECT_CHANGE_POINTS bezeichnet Intervalle struktureller Änderungen; CORRELATION den Zusammenhang einer Zielspalte mit Kennzahlspalten.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GOOGLE · BIGQUERY",
+              "verdict": "supported",
+              "reason": "BigQuery ist das Google-Cloud-Produkt der gelesenen Release Notes.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "BigQuery erweitert allgemein verfügbare SQL-Analysefunktionen",
+              "verdict": "supported",
+              "reason": "Der Vorschautitel beschränkt die Erweiterung auf allgemein verfügbare SQL-Analysefunktionen.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu BigQuerys SQL-Analysefunktionen für Kennzahlen und Zeitreihen mit einem Zahnrad",
+              "verdict": "supported",
+              "reason": "Der Alt-Text beschreibt Zeitreihen und Kennzahlen sowie das gesetzte Zahnradmotiv, ohne Prognosegarantie.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-25T08:04:19+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Die Herstellerdokumentation belegt die Funktionen, keine belastbare Prognose oder kausale Erklärung jedes Datensatzes."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "BigQuery gibt zusätzliche SQL-Funktionen für Datenanalysen allgemein frei",
+              "verdict": "supported",
+              "reason": "Ältere Release Notes führen die Funktionen bereits als Preview; neu ist der GA-Status, nicht die Erfindung der Verfahren.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Google kennzeichnet in den BigQuery-Release-Notes vom 24. November 2026 vier zusätzliche Analysefunktionen als allgemein verfügbar.",
+              "verdict": "supported",
+              "reason": "Die Gegenrecherche findet Vorschauen vom 20.08. und 10.09.; der aktuelle GA-Eintrag 24.11. umfasst die vier benannten Funktionen.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "ML.TREND und ML.SEASONALITY untersuchen Trends und wiederkehrende Muster.",
+              "verdict": "supported",
+              "reason": "Die TREND-Referenz begrenzt Datenpunkte und Zeitfrequenzen; die Meldung behauptet keine uneingeschränkte automatische Erkenntnis.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "ML.DETECT_CHANGE_POINTS ermittelt Intervalle mit Strukturänderungen, ML.CORRELATION statistische Zusammenhänge zwischen Kennzahlspalten.",
+              "verdict": "supported",
+              "reason": "Korrelation ist ausdrücklich statistisch und nicht kausal; Strukturänderungsintervalle sind keine Ursache oder sichere Zukunftsprognose.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GOOGLE · BIGQUERY",
+              "verdict": "supported",
+              "reason": "Release Notes und Referenz stammen beide von Google. Sie belegen Produktverhalten laut Anbieter, keine unabhängige Analysequalität.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "BigQuery erweitert allgemein verfügbare SQL-Analysefunktionen",
+              "verdict": "supported",
+              "reason": "Allgemein verfügbar bezieht sich auf den genannten SQL-Funktionsumfang und wird nicht auf andere Preview-Funktionen derselben Release-Seite übertragen.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu BigQuerys SQL-Analysefunktionen für Kennzahlen und Zeitreihen mit einem Zahnrad",
+              "verdict": "supported",
+              "reason": "Der Alt-Text enthält keine Kennzahl zum Prognoseerfolg und bleibt bei Analysewerkzeugen.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site:docs.cloud.google.com/bigquery/docs/release-notes \"November 24, 2026\" \"ML.CORRELATION\"",
+              "finding": "Aktuelle Release Notes nennen vier Funktionen als GA, ältere Treffer noch Preview. Artikel berichtet den Statuswechsel.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            },
+            {
+              "query": "site:docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend \"Limitations\"",
+              "finding": "TREND-Referenz nennt Eingabegrenzen und vorausgesetzte zeitliche Auflösung; keine uneingeschränkte Analyse- oder Kausalgarantie.",
+              "sourceUrls": [
+                "https://docs.cloud.google.com/bigquery/docs/release-notes",
+                "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "24.11.2026 nennt vier GA-Funktionen; August/September waren Preview und sind kein Widerspruch zum späteren Statuswechsel.",
+            "scopeAndQualifications": "ML.TREND hat Mindestdaten- und Frequenzgrenzen; Korrelation bleibt statistisch, nicht kausal. Keine Vorhersagegarantie übernommen.",
+            "sourceIndependence": "Release Notes und Funktionsreferenz sind beide Google-Originalquellen, keine unabhängige Wirkungsstudie.",
+            "contradictions": "Alte Suchindexstände zeigen Preview, die aktuell gelesene Seite GA; keine Vermischung mit weiterhin vorläufigen Migration- oder TabFM-Funktionen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-4",
+      "contentHash": "c2503780422121546c90d9b6298c6babeb047af87964a810f319607df40221f0",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-25T08:04:19+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Die Projekt- und Unternehmensquellen liefern gezielte Prüfmaterialien; sie belegen keine allgemeine Extraktionsqualität."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Hyperbots veröffentlicht synthetische Testfälle für Fehler in Finanzdokumenten",
+              "verdict": "supported",
+              "reason": "Die Originalankündigung veröffentlicht kleine synthetische OCR- und Extraktionstests für Finanzdokumente.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Hyperbots kündigte am 24. November 2026 dreizehn kleine synthetische Testdatensätze für Dokumentverarbeitung unter CC BY 4.0 an.",
+              "verdict": "supported",
+              "reason": "Der Autorenbeitrag ist auf 24.11. datiert und nennt 13 vollständig synthetische Datensätze unter CC BY 4.0; die Datensatzkarte bestätigt die Lizenz.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Fälle umfassen unter anderem Kleingedrucktes, gedrehte Seiten, überlagernde Stempel und beschädigte Scans.",
+              "verdict": "supported",
+              "reason": "Die Highlights nennen Fine Print, Rotated Text, Stamped Documents und Bad Scans genau als solche Fehlerfälle.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Veröffentlichung ist für kurze diagnostische Prüfungen gedacht, nicht als umfassender Trainingsbestand oder repräsentativer Test realer Rechnungsarchive.",
+              "verdict": "supported",
+              "reason": "Die Ankündigung spricht von kurzen diagnostischen Prüfungen statt Training; die Fine-Print-Karte warnt vor festen Vorlagen und begrenzten Layouts.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "HYPERBOTS · DOKUMENTENTESTS",
+              "verdict": "supported",
+              "reason": "Hyperbots ist der veröffentlichende Datensatzeigentümer, Dokumententests beschreiben den tatsächlichen Zweck.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Hyperbots öffnet Testfälle für Fehler in Finanzdokumenten",
+              "verdict": "supported",
+              "reason": "Der Vorschautitel behauptet die Öffnung von Testfällen, keine nachgewiesene allgemeine OCR-Verbesserung.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Hyperbots Testfällen für Fehler in Finanzdokumenten mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Der Alt-Text benennt die symbolische Dokumentkarte und Testfälle ohne Leistungsversprechen.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-25T08:04:19+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Die Projekt- und Unternehmensquellen liefern gezielte Prüfmaterialien; sie belegen keine allgemeine Extraktionsqualität."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Hyperbots veröffentlicht synthetische Testfälle für Fehler in Finanzdokumenten",
+              "verdict": "supported",
+              "reason": "Ein Forumskommentar enthält nur einen kleinen, nicht repräsentativen OCR-Test. Die Überschrift beschränkt sich auf veröffentlichte Testmaterialien.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Hyperbots kündigte am 24. November 2026 dreizehn kleine synthetische Testdatensätze für Dokumentverarbeitung unter CC BY 4.0 an.",
+              "verdict": "supported",
+              "reason": "Die Sammlung hat eine ältere Beschreibung mit 10, ihre Liste und die Datensatzkarte führen 13 Einträge. Berichtet wird ausdrücklich die Autorenankündigung von 13.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Fälle umfassen unter anderem Kleingedrucktes, gedrehte Seiten, überlagernde Stempel und beschädigte Scans.",
+              "verdict": "supported",
+              "reason": "Die Suite unterscheidet saubere Fine-Print-Renderings von separaten beschädigten Scans; keine Behauptung, alle Effekte träten in jedem Datensatz gemeinsam auf.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Veröffentlichung ist für kurze diagnostische Prüfungen gedacht, nicht als umfassender Trainingsbestand oder repräsentativer Test realer Rechnungsarchive.",
+              "verdict": "supported",
+              "reason": "Fine-Print-Daten sind englisch und vorlagenbasiert; die explizite Einordnung als begrenzter Diagnosetest verhindert eine Repräsentativitätsbehauptung.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "HYPERBOTS · DOKUMENTENTESTS",
+              "verdict": "supported",
+              "reason": "Forumspost und Datensatzkarte sind derselben Unternehmensquelle zuzurechnen. Keine unabhängige Modellqualität aus der Bereitstellung abgeleitet.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Hyperbots öffnet Testfälle für Fehler in Finanzdokumenten",
+              "verdict": "supported",
+              "reason": "Öffnet bedeutet öffentlich bereitgestellte Testfälle, nicht validierte Produktqualität oder umfassende Trainingsdaten.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Hyperbots Testfällen für Fehler in Finanzdokumenten mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Die Dokumentgrafik enthält keine echten Finanzbelege und keine Leistungszahl; der Alt-Text verspricht entsprechend nur Testfälle.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"hyperbots\" \"synthetic\" \"13\" \"November 24\"",
+              "finding": "Autorenankündigung nennt 13 synthetische Sätze und kurze Diagnostik. Suite-Liste enthält tatsächlich 13, kein repräsentativer Produktionstest.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            },
+            {
+              "query": "site:huggingface.co/datasets/hyperbots-inc/synthetic-fine-print \"License\" \"Limitations\"",
+              "finding": "Fine-Print-Karte über direkten Raw-Abruf vollständig gelesen: CC BY 4.0, feste englische Vorlagen, sauber gerenderte Seiten; kein Trainingsersatz.",
+              "sourceUrls": [
+                "https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504",
+                "https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "24.11.2026 ist das Ankündigungsdatum. 13 steht in der Ankündigung und Suite-Liste, veraltete Sammlungskurzbeschreibung nennt noch 10.",
+            "scopeAndQualifications": "Synthetische, kleine Diagnostikdaten, kein repräsentatives Rechnungsarchiv. Fine Print nur Englisch und feste Vorlagen, Schäden in separatem Datensatz.",
+            "sourceIndependence": "Datensätze und Post stammen von Hyperbots. Ein fremder Forumstest ist klein und annotierungsgeführt; er wird nicht als allgemeine Bestätigung verwendet.",
+            "contradictions": "Die ältere Zahl 10 im Sammlungstext erklärt sich durch unaktualisierte Kurzbeschreibung; die Liste hat 13. Keine offenen Aussagen über Modellqualität publiziert."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-5",
+      "contentHash": "5d4110cef2f1cd4be38fea59c207ca3e77085682713b0848ef8f1adaad42bf9b",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-25T08:04:19+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Das Projekt zeigt einen begrenzten Forschungsversuch, keine unabhängig bestätigte allgemeine Beweisfähigkeit; Modellbenotung und formale Verifikation sind unterschiedliche Nachweise."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "FineProofEnvs dokumentiert einen RL-Trainingslauf für ein kleines Beweismodell",
+              "verdict": "supported",
+              "reason": "Der Originalbericht beschreibt eine kleine RL-Replikation mit Qwen3.5-2B; die Überschrift bleibt bei einem dokumentierten Trainingslauf.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Das Projekt FineEnvs veröffentlichte am 24. November 2026 eine kleine Replikation des RL-Ansatzes von QED-Nano.",
+              "verdict": "supported",
+              "reason": "Die Projektseite trägt 24.11.2026 und nennt die Arbeit ausdrücklich eine kleine Replikation der RL-Stufe von QED-Nano.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Ein Qwen3.5-2B-Basismodell wurde ohne vorgeschaltetes überwachtes Fine-Tuning auf das Schreiben mathematischer Beweise trainiert.",
+              "verdict": "supported",
+              "reason": "Einleitung und Trainingstabelle nennen Qwen3.5-2B direkt vom Basismodell ohne SFT für natürlichsprachliche Olympiade-Beweise.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die berichtete Auswertung umfasst einen Trainingslauf und 64 Testaufgaben mit modellgestützter Benotung; die Autoren nennen die gemeinsame Richter-Modellfamilie ausdrücklich als Grenze.",
+              "verdict": "supported",
+              "reason": "Results nennt 64 Aufgaben mit vier Versuchen; What we learned nennt einen Lauf und eine Richterfamilie ausdrücklich als Grenze.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FINEENVS · MODELLTRAINING",
+              "verdict": "supported",
+              "reason": "FineEnvs ist die veröffentlichende Projektorganisation, Modelltraining der belegte Gegenstand.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "FineProofEnvs dokumentiert RL-Training eines kleinen Modells",
+              "verdict": "supported",
+              "reason": "Der Vorschautitel behauptet dokumentiertes RL-Training, nicht allgemein zuverlässiges mathematisches Beweisen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu FineProofEnvs und dem RL-Training eines kleinen Sprachmodells mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Der Alt-Text beschreibt das kleine Sprachmodell und das konfigurierte Dokumentmotiv ohne erfundene Leistungskennzahl.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-25T08:04:19+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Das Projekt zeigt einen begrenzten Forschungsversuch, keine unabhängig bestätigte allgemeine Beweisfähigkeit; Modellbenotung und formale Verifikation sind unterschiedliche Nachweise."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "FineProofEnvs dokumentiert einen RL-Trainingslauf für ein kleines Beweismodell",
+              "verdict": "supported",
+              "reason": "Der Bericht räumt großzügige Modellbenotung ein. Die Überschrift ist daher auf Dokumentation des Versuchs begrenzt und nicht auf gelöste Beweisfähigkeit.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Das Projekt FineEnvs veröffentlichte am 24. November 2026 eine kleine Replikation des RL-Ansatzes von QED-Nano.",
+              "verdict": "supported",
+              "reason": "Replikation betrifft die RL-Stufe; keine vollständige unabhängige Reproduktion aller QED-Nano-Ergebnisse behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Ein Qwen3.5-2B-Basismodell wurde ohne vorgeschaltetes überwachtes Fine-Tuning auf das Schreiben mathematischer Beweise trainiert.",
+              "verdict": "supported",
+              "reason": "Kein SFT ist auf den dokumentierten Lauf bezogen, nicht auf unbekannte Vorgeschichte des Basismodells. Trainingstabelle bestätigt den Laufaufbau.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die berichtete Auswertung umfasst einen Trainingslauf und 64 Testaufgaben mit modellgestützter Benotung; die Autoren nennen die gemeinsame Richter-Modellfamilie ausdrücklich als Grenze.",
+              "verdict": "supported",
+              "reason": "64 sind gefilterte Auswertungsaufgaben, nicht alle 128 Testaufgaben des Pakets. Beide Richter kommen aus derselben gpt-oss-Familie; die Grenze bleibt im Text.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "FINEENVS · MODELLTRAINING",
+              "verdict": "supported",
+              "reason": "Originalprojekt statt unabhängiger Replikationsstudie; die Kategorie identifiziert den Urheber statt eine externe Begutachtung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "FineProofEnvs dokumentiert RL-Training eines kleinen Modells",
+              "verdict": "supported",
+              "reason": "Der Titel vermeidet die höheren Punktezahlen und behauptet keine formale Beweisprüfung durch einen Theoremprover.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu FineProofEnvs und dem RL-Training eines kleinen Sprachmodells mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Die Dokumentkarte ist eine Illustration des Forschungsversuchs, kein Gütesiegel für mathematische Richtigkeit.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"FineProofEnvs\" \"64\" \"judge\"",
+              "finding": "Results nennt 64 gefilterte Aufgaben und vier Versuche; Limitationen nennen eine Richterfamilie und übergroßzügige Benotung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            },
+            {
+              "query": "\"FineProofEnvs\" \"no SFT\" \"one run\"",
+              "finding": "Training ausdrücklich ohne SFT; ein Lauf, keine unabhängige formale Verifikation und kein breit replizierter Forschungserfolg.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "24.11.2026; ein Lauf, 64 ausgewählte Testaufgaben mit vier Versuchen. 128 Paketaufgaben und 1024 Trainingsaufgaben werden nicht mit Auswertung verwechselt.",
+            "scopeAndQualifications": "Natürlichsprachliche Beweise durch LLM-Richter, keine formale Verifikation. Zwei handgeprüfte Höchstnoten-Beweise enthalten laut Autoren falsche Aussagen.",
+            "sourceIndependence": "Projektbericht ist einzige Quelle; gpt-oss-20b und -120b sind eine Familie. Keine unabhängige externe Replikation behauptet.",
+            "contradictions": "Kein Widerspruch zur begrenzten Meldung: steigende Rubrikpunkte trotz großzügiger Richter sind möglich. Der Artikel übernimmt keine allgemeine Richtigkeitsquote."
+          }
+        }
+      ]
     }
   ]
 }

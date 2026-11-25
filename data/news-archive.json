@@ -2,6 +2,76 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-25-1",
+      "date": "2026-11-25",
+      "number": 1,
+      "title": "Databricks startet Tag Exchange als Beta für den Austausch von Datenkontext",
+      "text": "Fakten: Databricks meldete am 24. November 2026 die Beta-Verfügbarkeit von Tag Exchange. Die Funktion stellt Tabellen- und Spalten-Tags aus Unity Catalog als Catalog Labels über die Iceberg REST Catalog API bereit. Empfangende Plattformen müssen die Bedeutung der Labels sowie daraus abgeleitete Zugriffs- oder Maskierungsregeln selbst konfigurieren und durchsetzen.\nEinordnung: Für Unternehmensarchitekturen wird der Austausch von Verantwortlichkeiten, Klassifikationen und fachlichem Kontext zwischen Datenplattformen und Agenten konkreter. Die Herstellerquelle beschreibt eine Beta, keine automatisch einheitliche Governance über alle Systeme; gemeinsame Begriffe und lokale Rechte bleiben gesonderte Aufgaben.\nQuellen: https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents | https://docs.databricks.com/aws/en/external-access/tag-exchange",
+      "og": {
+        "og_kategorie": "DATABRICKS · METADATEN",
+        "og_titel": "Databricks öffnet Datenkontext mit Tag Exchange als Beta",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte zu Databricks Tag Exchange und dem Austausch von Datenkontext mit einem Dokument"
+      }
+    },
+    {
+      "id": "2026-11-25-2",
+      "date": "2026-11-25",
+      "number": 2,
+      "title": "Microsoft beschreibt neue Vorschauen für Azure-Governance und Agentenzugriffe",
+      "text": "Fakten: Microsoft beschreibt Azure Baseline Security Mode in seinem Überblick vom 24. November 2026 als Public Preview. Die auf Azure Policy aufbauende Oberfläche soll Sicherheitsbaselines zentral bewerten, Abweichungen beheben und die Durchsetzung schrittweise vorbereiten. Auch der erweiterte ARM-MCP-Server bleibt eine Public Preview; seine Ressourcenanfragen unterliegen laut Microsoft weiterhin Azure Policy.\nEinordnung: Cloud-Betrieb und KI-Agenten brauchen dieselben überprüfbaren Regeln für erlaubte Ressourcen und Konfigurationen. Die Unternehmensquelle macht diesen Zusammenhang konkret, belegt aber weder eine allgemeine Produktfreigabe der Vorschauen noch automatisch sichere oder konforme Cloud-Umgebungen.\nQuellen: https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-governance--management--microsoft-ignite-2026/4571751",
+      "og": {
+        "og_kategorie": "MICROSOFT · AZURE GOVERNANCE",
+        "og_titel": "Microsoft verbindet Azure-Vorschauen mit zentralen Richtlinien",
+        "og_fakten": [],
+        "og_icon": "schild",
+        "og_alt": "Kubistische Karte zu Microsofts Azure-Governance-Vorschauen und zentralen Richtlinien mit einem Schild"
+      }
+    },
+    {
+      "id": "2026-11-25-3",
+      "date": "2026-11-25",
+      "number": 3,
+      "title": "BigQuery gibt zusätzliche SQL-Funktionen für Datenanalysen allgemein frei",
+      "text": "Fakten: Google kennzeichnet in den BigQuery-Release-Notes vom 24. November 2026 vier zusätzliche Analysefunktionen als allgemein verfügbar. ML.TREND und ML.SEASONALITY untersuchen Trends und wiederkehrende Muster. ML.DETECT_CHANGE_POINTS ermittelt Intervalle mit Strukturänderungen, ML.CORRELATION statistische Zusammenhänge zwischen Kennzahlspalten.\nEinordnung: Für betriebliche Kennzahlen und Zeitreihen lassen sich Analysebausteine direkt im SQL-Arbeitsablauf verwenden. Die Herstellerdokumentation belegt die Funktionen, keine belastbare Prognose oder kausale Erklärung jedes Datensatzes; Datenqualität, zeitliche Auflösung und fachliche Plausibilität bleiben zu prüfen.\nQuellen: https://docs.cloud.google.com/bigquery/docs/release-notes | https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend",
+      "og": {
+        "og_kategorie": "GOOGLE · BIGQUERY",
+        "og_titel": "BigQuery erweitert allgemein verfügbare SQL-Analysefunktionen",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte zu BigQuerys SQL-Analysefunktionen für Kennzahlen und Zeitreihen mit einem Zahnrad"
+      }
+    },
+    {
+      "id": "2026-11-25-4",
+      "date": "2026-11-25",
+      "number": 4,
+      "title": "Hyperbots veröffentlicht synthetische Testfälle für Fehler in Finanzdokumenten",
+      "text": "Fakten: Hyperbots kündigte am 24. November 2026 dreizehn kleine synthetische Testdatensätze für Dokumentverarbeitung unter CC BY 4.0 an. Die Fälle umfassen unter anderem Kleingedrucktes, gedrehte Seiten, überlagernde Stempel und beschädigte Scans. Die Veröffentlichung ist für kurze diagnostische Prüfungen gedacht, nicht als umfassender Trainingsbestand oder repräsentativer Test realer Rechnungsarchive.\nEinordnung: Bei automatisierter Rechnungsverarbeitung können einzelne Layoutfehler richtige Beträge an falsche Felder binden oder relevante Angaben auslassen. Die Projekt- und Unternehmensquellen liefern gezielte Prüfmaterialien; sie belegen keine allgemeine Extraktionsqualität. Eigene Dokumenttypen und die korrekte Zuordnung zu Feldern und Belegen müssen zusätzlich geprüft werden.\nQuellen: https://discuss.huggingface.co/t/open-test-sets-for-the-ocr-failures-that-matter-in-finance-documents/192504 | https://huggingface.co/datasets/hyperbots-inc/synthetic-fine-print",
+      "og": {
+        "og_kategorie": "HYPERBOTS · DOKUMENTENTESTS",
+        "og_titel": "Hyperbots öffnet Testfälle für Fehler in Finanzdokumenten",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte zu Hyperbots Testfällen für Fehler in Finanzdokumenten mit einem Dokument"
+      }
+    },
+    {
+      "id": "2026-11-25-5",
+      "date": "2026-11-25",
+      "number": 5,
+      "title": "FineProofEnvs dokumentiert einen RL-Trainingslauf für ein kleines Beweismodell",
+      "text": "Fakten: Das Projekt FineEnvs veröffentlichte am 24. November 2026 eine kleine Replikation des RL-Ansatzes von QED-Nano. Ein Qwen3.5-2B-Basismodell wurde ohne vorgeschaltetes überwachtes Fine-Tuning auf das Schreiben mathematischer Beweise trainiert. Die berichtete Auswertung umfasst einen Trainingslauf und 64 Testaufgaben mit modellgestützter Benotung; die Autoren nennen die gemeinsame Richter-Modellfamilie ausdrücklich als Grenze.\nEinordnung: Für die Entwicklung spezialisierter kleiner Modelle ist der offen dokumentierte Zusammenhang zwischen Trainingsaufgabe, Bewertungsrubrik und Prüfumgebung relevant. Das Projekt zeigt einen begrenzten Forschungsversuch, keine unabhängig bestätigte allgemeine Beweisfähigkeit; Modellbenotung und formale Verifikation sind unterschiedliche Nachweise.\nQuellen: https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover",
+      "og": {
+        "og_kategorie": "FINEENVS · MODELLTRAINING",
+        "og_titel": "FineProofEnvs dokumentiert RL-Training eines kleinen Modells",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte zu FineProofEnvs und dem RL-Training eines kleinen Sprachmodells mit einem Dokument"
+      }
+    },
+    {
       "id": "2026-11-24-1",
       "date": "2026-11-24",
       "number": 1,
