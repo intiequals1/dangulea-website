@@ -2,6 +2,76 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-26-1",
+      "date": "2026-11-26",
+      "number": 1,
+      "title": "OECD und EU prüfen die Lücke zwischen digitaler Infrastruktur und KI-Einsatz",
+      "text": "Fakten: OECD und Europäische Kommission veröffentlichten am 25. November 2026 Health at a Glance: Europe 2026. Das Digitalkapitel unterscheidet technische Verfügbarkeit, tatsächliche Nutzung und nachgewiesenen Nutzen digitaler Gesundheitssysteme. Von 24 in einer OECD-Erhebung erfassten EU-/EWR-Ländern berichteten sieben über einen nationalen Ansatz für KI-Kompetenzen des Gesundheitspersonals.\nEinordnung: Für Daten- und Systemverantwortliche ist die Unterscheidung zwischen vorhandener Technik und wirksamer Einführung entscheidend. Der Bericht verbindet Datenvollständigkeit, semantische Interoperabilität, rollenbezogene Schulung und Evaluation im laufenden Betrieb; die Erhebung ist kein Vollbild aller europäischen Länder und kein Beleg für die Wirksamkeit einzelner KI-Produkte.\nQuellen: https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en | https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html",
+      "og": {
+        "og_kategorie": "OECD · DIGITALE EINFÜHRUNG",
+        "og_titel": "OECD und EU prüfen die Einführung digitaler Gesundheitssysteme",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte zum OECD-EU-Bericht über digitale Einführung und KI-Kompetenzen mit einem Dokument"
+      }
+    },
+    {
+      "id": "2026-11-26-2",
+      "date": "2026-11-26",
+      "number": 2,
+      "title": "Databricks meldet die allgemeine Freigabe täglicher Speichermetriken",
+      "text": "Fakten: Databricks kennzeichnet system.storage.table_metrics_history in den AWS-Release-Notes vom 25. November 2026 als allgemein verfügbar. Die Systemtabelle erfasst täglich Speichergrößen verwalteter Unity-Catalog-Tabellen und hält die Datensätze 13 Monate vor. Die Erfassung setzt verfügbares Serverless Compute voraus; zusätzliche Gesamtgrößen-Metriken bleiben einer Private Preview vorbehalten.\nEinordnung: Für den Datenplattformbetrieb werden Speicherwachstum, Verantwortlichkeiten und mögliche Bereinigungen über die Zeit auswertbar. Die Meldung bezieht sich auf AWS und den schrittweisen Rollout; andere Dokumentationsübersichten führen teils noch Preview. Die Herstellerdokumentation belegt den Funktionsumfang, keine automatische Kostensenkung; fehlende Messwerte sind nicht als null Speicherverbrauch zu interpretieren, und Aufbewahrungs- oder Löschentscheidungen brauchen fachliche Regeln.\nQuellen: https://docs.databricks.com/aws/en/release-notes/product/2026/november | https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history",
+      "og": {
+        "og_kategorie": "DATABRICKS · SPEICHERMETRIKEN",
+        "og_titel": "Databricks meldet die Freigabe täglicher Speichermetriken",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte zu Databricks und täglichen Speichermetriken verwalteter Tabellen mit einem Dokument"
+      }
+    },
+    {
+      "id": "2026-11-26-3",
+      "date": "2026-11-26",
+      "number": 3,
+      "title": "IBM zeigt an einem Sprachagenten die Bedeutung mehrsprachiger Suche",
+      "text": "Fakten: IBM Research beschrieb am 25. November 2026 einen mehrsprachigen Sprachassistenten auf Basis von CUGA. Im gezeigten Aufbau durchsuchen Fragen in indischen Sprachen ein englisches Handbuch; das Team ersetzte dafür englischsprachige Embeddings durch multilingual-e5-large. Die Anwendung zeigt Quellenseiten an und trennt Sprachverarbeitung vom textbasierten Agenten.\nEinordnung: Der fachliche Kern ist ein Integrationsfehler, der ohne technische Fehlermeldung falsche Textstellen liefern kann. Für mehrsprachige Wissenssysteme sollten deshalb Sprache, Retrieval und Belegzuordnung gemeinsam getestet werden. Der Unternehmensbeitrag beschreibt einen Prototyp und Erfahrungen des Teams, keine unabhängig bestätigte Antwortqualität oder vollständige Datenschutzprüfung.\nQuellen: https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "og": {
+        "og_kategorie": "IBM · MEHRSPRACHIGE SUCHE",
+        "og_titel": "IBM zeigt mehrsprachige Suche als Kern eines Sprachagenten",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte zu IBMs CUGA-Prototyp für mehrsprachige Suche und belegte Antworten mit einem Dokument"
+      }
+    },
+    {
+      "id": "2026-11-26-4",
+      "date": "2026-11-26",
+      "number": 4,
+      "title": "Hugging Face dokumentiert Inferenzoptimierung mit Kontrollmessungen",
+      "text": "Fakten: Hugging Face veröffentlichte am 25. November 2026 einen Optimierungsbericht zu Inkling 2 Mini auf einer RTX PRO 6000 mit 96 GB. In den berichteten Messungen stieg die Einzelbenutzer-Dekodierung von etwa 136 auf 190,6 Token pro Sekunde mit vLLM und spekulativer DSpark-Dekodierung. Vor der Bereitstellung prüfte das Team unter anderem lange Kontexte, gleichzeitige Anfragen und identische Greedy-Ausgaben auf sechs Test-Prompts.\nEinordnung: Neu ist die dokumentierte Betriebsoptimierung, nicht die bereits gemeldete Modellveröffentlichung. Wiederholte Kontrollläufe, Warm-up und festgehaltene Container-Digests machen Leistungsänderungen nachvollziehbarer. Die Projektmessungen gelten für den beschriebenen Aufbau; sie belegen weder dieselbe Beschleunigung auf anderer Hardware noch eine umfassend unveränderte Modellqualität.\nQuellen: https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "og": {
+        "og_kategorie": "HUGGING FACE · INFERENZ",
+        "og_titel": "Hugging Face prüft Inferenzoptimierung mit Kontrollläufen",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte zu Hugging Faces kontrollierten Inferenzmessungen auf einer GPU mit einem Zahnrad"
+      }
+    },
+    {
+      "id": "2026-11-26-5",
+      "date": "2026-11-26",
+      "number": 5,
+      "title": "Ai2 leitet Anforderungen an Forschungsagenten aus Interviews ab",
+      "text": "Fakten: Ai2 berichtete am 25. November 2026 über Interviews mit 17 Forschenden aus Natur-, angewandten und Sozialwissenschaften zu verantwortlichen KI-Agenten. Die Auswertung benennt Validierung, Datenschutz, Objektivität, Verantwortlichkeit und Transparenz als fünf Vertrauensdimensionen. Daraus abgeleitete Prüfungen, etwa auf übersehene Gegenbelege oder unzulässige Dateizugriffe, bezeichnet Ai2 als noch zu entwickelnde Vorschläge.\nEinordnung: Für Forschungs- und Data-Science-Workflows reicht die Bewertung einer korrekten Endantwort damit nicht aus: Auch Methoden, Quellenwahl und tatsächlich genutzte Datenzugriffe werden zum Prüfgegenstand. Der Originalbericht beschreibt eine kleine qualitative Interviewstudie, keine repräsentative Befragung oder bereits validierte Sicherheitsnorm.\nQuellen: https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "og": {
+        "og_kategorie": "AI2 · FORSCHUNGSAGENTEN",
+        "og_titel": "Ai2 untersucht Vertrauen in KI-Forschungsagenten",
+        "og_fakten": [],
+        "og_icon": "schild",
+        "og_alt": "Kubistische Karte zu Ai2s Interviewstudie über Vertrauen und Verantwortung bei Forschungsagenten mit einem Schild"
+      }
+    },
+    {
       "id": "2026-11-25-1",
       "date": "2026-11-25",
       "number": 1,
