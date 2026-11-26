@@ -17294,6 +17294,918 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-26-1",
+      "contentHash": "2812eb1acb14d2a94b118e5b011f420428aa5bd295c73caad331d94dc611bb59",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-26T08:13:15+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Die Erhebung ist kein Vollbild aller europäischen Länder und kein Beleg für die Wirksamkeit einzelner KI-Produkte."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "OECD und EU prüfen die Lücke zwischen digitaler Infrastruktur und KI-Einsatz",
+              "verdict": "supported",
+              "reason": "Das Digitalkapitel untersucht ausdrücklich die Lücke zwischen aufgebauter Infrastruktur, tatsächlicher Nutzung und Wirkung sowie Bedingungen für KI-Einführung.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "OECD und Europäische Kommission veröffentlichten am 25. November 2026 Health at a Glance: Europe 2026.",
+              "verdict": "supported",
+              "reason": "Die Kommissionsseite führt den Bericht und seine Zusammenfassung mit Veröffentlichungsdatum 25.11.2026.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Digitalkapitel unterscheidet technische Verfügbarkeit, tatsächliche Nutzung und nachgewiesenen Nutzen digitaler Gesundheitssysteme.",
+              "verdict": "supported",
+              "reason": "In Brief und Tabelle 1.2 trennen technische Verfügbarkeit, Nutzung, Verteilungsgerechtigkeit und Nutzen; die Meldung übernimmt diese Messlogik.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Von 24 in einer OECD-Erhebung erfassten EU-/EWR-Ländern berichteten sieben über einen nationalen Ansatz für KI-Kompetenzen des Gesundheitspersonals.",
+              "verdict": "supported",
+              "reason": "Abschnitt 1.6.4 nennt sieben von 24 in der OECD-Erhebung erfassten EU/EWR-Ländern mit nationalem Ansatz zur KI-Kompetenz des Personals.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "OECD · DIGITALE EINFÜHRUNG",
+              "verdict": "supported",
+              "reason": "OECD ist Mitautor des gemeinsam mit der Kommission veröffentlichten Berichts; digitale Einführung ist Gegenstand des Kapitels.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "OECD und EU prüfen die Einführung digitaler Gesundheitssysteme",
+              "verdict": "supported",
+              "reason": "Die Vorschau spricht von Prüfung der Einführung, nicht von nachgewiesenem Nutzen aller digitalen Systeme.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zum OECD-EU-Bericht über digitale Einführung und KI-Kompetenzen mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Dokumentmotiv und Berichtsthema entsprechen dem gesetzten Bild; keine medizinische Wirksamkeitsaussage im Alt-Text.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-26T08:13:15+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Die Erhebung ist kein Vollbild aller europäischen Länder und kein Beleg für die Wirksamkeit einzelner KI-Produkte."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "OECD und EU prüfen die Lücke zwischen digitaler Infrastruktur und KI-Einsatz",
+              "verdict": "supported",
+              "reason": "Technische Ausstattung und lokale Wirkung werden nicht gleichgesetzt; der Kapitelbefund trägt die als Prüfgegenstand formulierte Überschrift.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "OECD und Europäische Kommission veröffentlichten am 25. November 2026 Health at a Glance: Europe 2026.",
+              "verdict": "supported",
+              "reason": "Ankündigung des Webinars und tatsächliche Publikationsseite unterschieden: der Bericht ist am 25.11. verfügbar, nicht bloß angekündigt.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Das Digitalkapitel unterscheidet technische Verfügbarkeit, tatsächliche Nutzung und nachgewiesenen Nutzen digitaler Gesundheitssysteme.",
+              "verdict": "supported",
+              "reason": "Der Bericht warnt ausdrücklich vor Gleichsetzung von Verfügbarkeit und Nutzung. Kennzahlen unterschiedlicher Jahre oder Altersgruppen werden nicht verrechnet.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Von 24 in einer OECD-Erhebung erfassten EU-/EWR-Ländern berichteten sieben über einen nationalen Ansatz für KI-Kompetenzen des Gesundheitspersonals.",
+              "verdict": "supported",
+              "reason": "24 Länder sind die erfasste Stichprobe, nicht alle EU-Staaten; sieben bezeichnet einen nationalen Ansatz, keinen Nachweis ausreichender Kompetenz.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "OECD · DIGITALE EINFÜHRUNG",
+              "verdict": "supported",
+              "reason": "Gemeinsame Publikation von OECD und Kommission: zwei Hostseiten sind keine voneinander unabhängigen Studien.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "OECD und EU prüfen die Einführung digitaler Gesundheitssysteme",
+              "verdict": "supported",
+              "reason": "Die Vorschau verspricht eine Untersuchung statt einen bereits bewiesenen allgemeinen Effizienzgewinn.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zum OECD-EU-Bericht über digitale Einführung und KI-Kompetenzen mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Das Dokumentbild enthält keine Gesundheitsdaten oder individuelle Behandlungsbewertung.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Health at a Glance: Europe 2026\" \"24\" \"seven\" \"competency\"",
+              "finding": "Sieben von 24 ist ausdrücklich eine OECD-Erhebung zu nationalem KI-Kompetenzansatz des Gesundheitspersonals, keine Vollerhebung der EU.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            },
+            {
+              "query": "\"Health at a Glance: Europe 2026\" \"availability\" \"benefit\"",
+              "finding": "Kapitel unterscheidet Verfügbarkeit, Nutzung und Wirkung; Beobachtungsdaten erlauben keine allgemeine kausale Nutzenbehauptung.",
+              "sourceUrls": [
+                "https://health.ec.europa.eu/state-health-eu/health-glance-europe/health-glance-europe-2026_en",
+                "https://www.oecd.org/en/publications/2026/11/health-at-a-glance-europe-2026_9f30332f/full-report/from-infrastructure-to-impact-closing-europe-s-digital-health-implementation-gap_fd87d08a.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "Bericht 25.11.2026; sieben von 24 EU/EWR-Ländern in genau der erfassten OECD-Erhebung. Keine andere Länderzahl oder Vollständigkeit unterstellt.",
+            "scopeAndQualifications": "Nationale Ansätze messen institutionelle Vorbereitung, keine Kompetenz jedes Mitarbeiters oder gesicherte Produktwirkung. Kein medizinischer Rat.",
+            "sourceIndependence": "OECD und Kommission sind gemeinsame Urheber eines Berichts; zwei Veröffentlichungsseiten sind keine unabhängigen Wirkungsstudien.",
+            "contradictions": "Keine offene Gegenbehauptung zur begrenzten Berichterstattung. Grundlegende digitale Fähigkeiten werden nicht mit KI-Kompetenz oder Wirkung gleichgesetzt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-2",
+      "contentHash": "1471c8047ac383fcf9fea96e3d1186952ffc0227d31ed92e1b09754c11319ffe",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-26T08:13:15+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Die Meldung bezieht sich auf AWS und den schrittweisen Rollout; andere Dokumentationsübersichten führen teils noch Preview."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks meldet die allgemeine Freigabe täglicher Speichermetriken",
+              "verdict": "qualified",
+              "reason": "Die AWS-Release-Notes nennen die allgemeine Freigabe; Überschrift meldet ausdrücklich die Anbieterankündigung statt weltweiter Verfügbarkeit.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks kennzeichnet system.storage.table_metrics_history in den AWS-Release-Notes vom 25. November 2026 als allgemein verfügbar.",
+              "verdict": "qualified",
+              "reason": "Eintrag November 25, 2026 bezeichnet genau system.storage.table_metrics_history als GA; die Meldung grenzt dies auf AWS ein.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Systemtabelle erfasst täglich Speichergrößen verwalteter Unity-Catalog-Tabellen und hält die Datensätze 13 Monate vor.",
+              "verdict": "supported",
+              "reason": "Die gelesene Referenz nennt tägliche Erfassung für verwaltete Tabellen sowie 13 Monate verfügbare Datensätze.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Erfassung setzt verfügbares Serverless Compute voraus; zusätzliche Gesamtgrößen-Metriken bleiben einer Private Preview vorbehalten.",
+              "verdict": "supported",
+              "reason": "Requirements verlangt Serverless Compute; total_bytes, total_files und metric_type sind laut Referenz auf die Private Preview begrenzt.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DATABRICKS · SPEICHERMETRIKEN",
+              "verdict": "supported",
+              "reason": "Databricks ist der Anbieter, Speichermetriken sind der präzise Zweck der Systemtabelle.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Databricks meldet die Freigabe täglicher Speichermetriken",
+              "verdict": "qualified",
+              "reason": "Meldet die Freigabe entspricht der AWS-Release-Angabe ohne zusätzliche Annahme eines gleichzeitigen Rollouts in jedem Konto.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Databricks und täglichen Speichermetriken verwalteter Tabellen mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Der Alt-Text beschreibt Tabellenmetriken und das Dokumentmotiv; keine zusätzliche Garantie vollständiger Messwerte.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-26T08:13:15+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Die Meldung bezieht sich auf AWS und den schrittweisen Rollout; andere Dokumentationsübersichten führen teils noch Preview."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks meldet die allgemeine Freigabe täglicher Speichermetriken",
+              "verdict": "qualified",
+              "reason": "Gegenrecherche findet abweichende Preview-Übersichten. Endgültige Überschrift wird auf die tatsächlich belegte Meldung der Freigabe begrenzt.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks kennzeichnet system.storage.table_metrics_history in den AWS-Release-Notes vom 25. November 2026 als allgemein verfügbar.",
+              "verdict": "qualified",
+              "reason": "Aktuell gelesene AWS-Release-Notes vom 25.11. sagen GA, die Detailreferenz trägt keinen allgemeinen Preview-Hinweis. Andere Übersichten sind abweichend; dies steht sichtbar im Artikel.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Systemtabelle erfasst täglich Speichergrößen verwalteter Unity-Catalog-Tabellen und hält die Datensätze 13 Monate vor.",
+              "verdict": "supported",
+              "reason": "13 Monate ist Datenverfügbarkeit der Systemtabelle, keine zugesicherte Aufbewahrung der eigentlichen Geschäftsdaten. Tagesmessung ist kein Echtzeitmonitoring.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Erfassung setzt verfügbares Serverless Compute voraus; zusätzliche Gesamtgrößen-Metriken bleiben einer Private Preview vorbehalten.",
+              "verdict": "supported",
+              "reason": "NULL kann durch fehlendes Serverless, Zugriffsprobleme oder ausstehende Messung entstehen; Private Preview der Gesamtgrößen wird nicht zur GA aufgewertet.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DATABRICKS · SPEICHERMETRIKEN",
+              "verdict": "supported",
+              "reason": "Beide fachlichen Quellen sind Databricks; keine unabhängige Kostenersparnis oder Verfügbarkeit in allen Konten nachgewiesen.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Databricks meldet die Freigabe täglicher Speichermetriken",
+              "verdict": "qualified",
+              "reason": "Der verkürzte Titel berichtet die Freigabemeldung, während der Artikel AWS, gestuften Rollout und abweichende Preview-Angaben ausdrücklich nennt.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Databricks und täglichen Speichermetriken verwalteter Tabellen mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Das Dokumentbild behauptet weder bereinigte Speicherbestände noch eine gemessene Kosteneinsparung.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site:docs.databricks.com \"Table metrics history\" \"13 months\"",
+              "finding": "13 Monate und täglicher Zyklus bestätigt. GCP-Referenz und allgemeine Übersicht führen teils noch Preview, AWS-Release-Notes nennen GA; Artikel entsprechend begrenzt.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            },
+            {
+              "query": "site:docs.databricks.com \"Table metrics history\" \"serverless\"",
+              "finding": "Serverless Compute vorausgesetzt, sonst NULL-Metriken. Gesamtgrößen bleiben Private Preview, kein genereller GA-Anspruch für alle Felder.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/admin/system-tables/table-metrics-history"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "AWS-Eintrag 25.11.2026, täglicher Zyklus und 13 Monate laut Referenz. Snapshot-Datum ist nicht zwingend Lieferdatum.",
+            "scopeAndQualifications": "Nur verwaltete Unity-Catalog-Tabellen und unterstütztes Serverless. Gesamtgrößen Private Preview; NULL ist kein Nullverbrauch.",
+            "sourceIndependence": "Herstellerdokumentation allein belegt Ankündigung und dokumentierten Umfang, keine unabhängige Betriebsverfügbarkeit oder Kostenreduktion.",
+            "contradictions": "Abweichende Preview-Angaben der Übersichten erkannt. Endtext berichtet nur die konkrete AWS-GA-Meldung und nennt abweichende Dokumentationsstände sichtbar; keine flächendeckende Verfügbarkeit behauptet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-3",
+      "contentHash": "75c6a08dd17713973694e61772ee0e52b913ba84e27079d66b7a4115e182b134",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-26T08:13:15+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Der Unternehmensbeitrag beschreibt einen Prototyp und Erfahrungen des Teams, keine unabhängig bestätigte Antwortqualität oder vollständige Datenschutzprüfung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IBM zeigt an einem Sprachagenten die Bedeutung mehrsprachiger Suche",
+              "verdict": "supported",
+              "reason": "Der IBM-Beitrag führt fehlgeschlagenes sprachübergreifendes Retrieval und den Austausch des Embedding-Modells als zentrale Integrationserfahrung aus.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "IBM Research beschrieb am 25. November 2026 einen mehrsprachigen Sprachassistenten auf Basis von CUGA.",
+              "verdict": "supported",
+              "reason": "IBM-Research-Autoren veröffentlichen den CUGA-Sprachagentenbericht am 25.11.2026.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Im gezeigten Aufbau durchsuchen Fragen in indischen Sprachen ein englisches Handbuch; das Team ersetzte dafür englischsprachige Embeddings durch multilingual-e5-large.",
+              "verdict": "supported",
+              "reason": "Abschnitt The hard part is not the voice beschreibt indische Fragen zum englischen Handbuch und intfloat/multilingual-e5-large als eingesetzte Abhilfe.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Anwendung zeigt Quellenseiten an und trennt Sprachverarbeitung vom textbasierten Agenten.",
+              "verdict": "supported",
+              "reason": "Aufbau trennt speech-to-text, textbasierten CUGA-Agenten und text-to-speech; Schritte nennen sichtbar angezeigte Quellenseiten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "IBM · MEHRSPRACHIGE SUCHE",
+              "verdict": "supported",
+              "reason": "IBM ist die Originalorganisation, mehrsprachige Suche ist der konkrete technische Gegenstand.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "IBM zeigt mehrsprachige Suche als Kern eines Sprachagenten",
+              "verdict": "supported",
+              "reason": "Die Vorschau verdichtet den Retrieval-Zusammenhang statt eine allgemeine Sprachmodellverbesserung zu behaupten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu IBMs CUGA-Prototyp für mehrsprachige Suche und belegte Antworten mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Dokumentmotiv und CUGA-Prototyp sind korrekt beschrieben, ohne allgemeine Richtigkeitsgarantie.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-26T08:13:15+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Der Unternehmensbeitrag beschreibt einen Prototyp und Erfahrungen des Teams, keine unabhängig bestätigte Antwortqualität oder vollständige Datenschutzprüfung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "IBM zeigt an einem Sprachagenten die Bedeutung mehrsprachiger Suche",
+              "verdict": "supported",
+              "reason": "Das Beispiel ist ein Prototyp mit einem Handbuch; Überschrift macht daraus keine flächendeckend erprobte mehrsprachige Beratung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "IBM Research beschrieb am 25. November 2026 einen mehrsprachigen Sprachassistenten auf Basis von CUGA.",
+              "verdict": "supported",
+              "reason": "25.11. ist das Datum des Erfahrungsberichts, keine Aussage über erstmalige Erfindung von CUGA oder RAG.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Im gezeigten Aufbau durchsuchen Fragen in indischen Sprachen ein englisches Handbuch; das Team ersetzte dafür englischsprachige Embeddings durch multilingual-e5-large.",
+              "verdict": "supported",
+              "reason": "Multilinguale Embeddings sind die im Versuch verwendete Abhilfe, aber kein Beweis gleicher Qualität in sämtlichen Sprachen; das steht nicht im Artikel.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Anwendung zeigt Quellenseiten an und trennt Sprachverarbeitung vom textbasierten Agenten.",
+              "verdict": "supported",
+              "reason": "Gezeigte Quellenseiten erleichtern Kontrolle, beweisen aber keine richtige Antwort. Getrennte Sprachschichten sagen nichts über vollständigen Datenschutz.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "IBM · MEHRSPRACHIGE SUCHE",
+              "verdict": "supported",
+              "reason": "Unternehmensquelle allein; die werbliche Behauptung voll konformer souveräner Lösungen wird ausdrücklich nicht übernommen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "IBM zeigt mehrsprachige Suche als Kern eines Sprachagenten",
+              "verdict": "supported",
+              "reason": "Der Titel beschreibt den technischen Kern des gezeigten Agenten und verspricht keine unabhängig bewertete Praxistauglichkeit.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu IBMs CUGA-Prototyp für mehrsprachige Suche und belegte Antworten mit einem Dokument",
+              "verdict": "supported",
+              "reason": "Belegte Antworten im Alt-Text beschreibt Quellenzuordnung, keine Fehlerfreiheit; der Artikel enthält den ausdrücklichen Qualitätsvorbehalt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Indic Voice Agent\" \"CUGA\" \"embedding\"",
+              "finding": "Originalbericht bestätigt den Fehler bei englischem Embedding für indische Fragen und die konkrete multilinguale Abhilfe.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            },
+            {
+              "query": "\"Indic Voice Agent\" \"CUGA\" \"prototype\" safety",
+              "finding": "Prototyp und zwei Sprachschichten gefunden, aber kein unabhängiger Qualitäts- oder Datenschutztest; werbliche Konformitätsaussagen nicht übernommen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "25.11.2026 als Berichtsdatum; intfloat/multilingual-e5-large ist das konkret genannte Modell. Keine erdachte Erfolgsquote.",
+            "scopeAndQualifications": "Ein gezeigter Handbuch-Prototyp statt allgemeiner Antwortgarantie. Quellenanzeige und getrennte Threads ersetzen keine Sicherheits- und Datenschutzprüfung.",
+            "sourceIndependence": "IBM-Research-Unternehmensquelle, keine unabhängige Evaluationsstudie. Marketingaussagen zur Konformität ausgeschlossen.",
+            "contradictions": "Keine offenen Widersprüche zu Aufbau und Retrieval-Erfahrung; stille Fehlretrievals können trotz funktionierender Einzelkomponenten auftreten."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-4",
+      "contentHash": "953eeca6287450cddd854517037d900ea1a2e15d5daee0e1416a4e70bfd6b5fc",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-26T08:13:15+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Die Projektmessungen gelten für den beschriebenen Aufbau; sie belegen weder dieselbe Beschleunigung auf anderer Hardware noch eine umfassend unveränderte Modellqualität."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Hugging Face dokumentiert Inferenzoptimierung mit Kontrollmessungen",
+              "verdict": "supported",
+              "reason": "Der veröffentlichte Versuchsbericht beschreibt Kontroll-Kandidat-Kontroll-Messungen zur Optimierung des Inferenzbetriebs.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Hugging Face veröffentlichte am 25. November 2026 einen Optimierungsbericht zu Inkling 2 Mini auf einer RTX PRO 6000 mit 96 GB.",
+              "verdict": "supported",
+              "reason": "Datum 25.11.2026, Modell Inkling 2 Mini sowie einzelne RTX PRO 6000 mit 96 GB stehen in Einleitung und Setup.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "In den berichteten Messungen stieg die Einzelbenutzer-Dekodierung von etwa 136 auf 190,6 Token pro Sekunde mit vLLM und spekulativer DSpark-Dekodierung.",
+              "verdict": "supported",
+              "reason": "Ergebnistabelle und Einleitung nennen etwa 136 Token/s für die Baseline und 190,6 mit vLLM und DSpark für einen Nutzer.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Vor der Bereitstellung prüfte das Team unter anderem lange Kontexte, gleichzeitige Anfragen und identische Greedy-Ausgaben auf sechs Test-Prompts.",
+              "verdict": "supported",
+              "reason": "Verification and deployment nennt lange Kontexte, vier gleichzeitige Anfragen sowie sechs byteidentische Greedy-Vergleiche vor Bereitstellung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "HUGGING FACE · INFERENZ",
+              "verdict": "supported",
+              "reason": "Hugging Face veröffentlicht diesen eigenen Betriebsversuch; Inferenz bezeichnet den untersuchten Betriebsvorgang.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Hugging Face prüft Inferenzoptimierung mit Kontrollläufen",
+              "verdict": "supported",
+              "reason": "Der Vorschautitel bleibt bei geprüfter Optimierung mit Kontrollläufen ohne hardwareübergreifendes Geschwindigkeitsversprechen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Hugging Faces kontrollierten Inferenzmessungen auf einer GPU mit einem Zahnrad",
+              "verdict": "supported",
+              "reason": "Zahnradmotiv illustriert kontrollierte GPU-Inferenz, ohne zusätzliche Leistungszahl im Bild.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-26T08:13:15+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Die Projektmessungen gelten für den beschriebenen Aufbau; sie belegen weder dieselbe Beschleunigung auf anderer Hardware noch eine umfassend unveränderte Modellqualität."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Hugging Face dokumentiert Inferenzoptimierung mit Kontrollmessungen",
+              "verdict": "supported",
+              "reason": "Es handelt sich um neue Betriebsmessungen vom 25.11., nicht die schon am 23.11. gemeldete Modellveröffentlichung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Hugging Face veröffentlichte am 25. November 2026 einen Optimierungsbericht zu Inkling 2 Mini auf einer RTX PRO 6000 mit 96 GB.",
+              "verdict": "supported",
+              "reason": "96 GB bezieht sich auf GPU-Speicher des Versuchs. Nightly-Builds und sm120-Hardware begrenzen die Übertragbarkeit.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "In den berichteten Messungen stieg die Einzelbenutzer-Dekodierung von etwa 136 auf 190,6 Token pro Sekunde mit vLLM und spekulativer DSpark-Dekodierung.",
+              "verdict": "supported",
+              "reason": "190,6 ist Einzelbenutzer-Dekodierung im Job, nicht 8-Nutzer-Durchsatz, Prefill oder End-to-End-Latenz. Andere Live-Endpunktwerte werden nicht vermischt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Vor der Bereitstellung prüfte das Team unter anderem lange Kontexte, gleichzeitige Anfragen und identische Greedy-Ausgaben auf sechs Test-Prompts.",
+              "verdict": "supported",
+              "reason": "Greedy-Gleichheit betrifft sechs Prompts bei Temperatur null. Das ist keine umfassende Qualitätsprüfung oder Garantie aller stochastischen Antworten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "HUGGING FACE · INFERENZ",
+              "verdict": "supported",
+              "reason": "Projektmessung beim Anbieter; wiedergebende Webseiten zählen nicht als unabhängige Replikation.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Hugging Face prüft Inferenzoptimierung mit Kontrollläufen",
+              "verdict": "supported",
+              "reason": "Kontrollläufe verworfen scheinbare Pluspunkte innerhalb des Rauschens; die Vorschau verspricht nur die überprüfte Vorgehensweise.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Hugging Faces kontrollierten Inferenzmessungen auf einer GPU mit einem Zahnrad",
+              "verdict": "supported",
+              "reason": "Das Zahnradbild belegt keine Hardwareleistung an sich und enthält kein pauschales Prozentversprechen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"inkling-2-mini-inference-hillclimb\" \"190.6\"",
+              "finding": "Ergebnistabelle bestätigt 190,6 Token/s bei einem Nutzer im Job. Live-Endpunkt und Mehrbenutzerwerte weichen erwartbar ab und bleiben getrennt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            },
+            {
+              "query": "\"inkling-2-mini-inference-hillclimb\" \"Greedy\" \"six\"",
+              "finding": "Bytegleichheit nur für sechs Greedy-Prompts bei Temperatur null; die Aussage wird nicht auf allgemeine Modellqualität erweitert.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "25.11.2026; eine 96-GB-GPU, etwa 136 zu 190,6 Token/s Einzelbenutzer-Dekodierung. Sechs Greedy-Vergleiche, keine Gesamtbenchmarks verwechselt.",
+            "scopeAndQualifications": "Hardware, Nightly-Version und Messprotokoll begrenzen die Übertragbarkeit; sechs identische Ausgaben sind keine umfassende Qualitätsgarantie.",
+            "sourceIndependence": "Hugging-Face-Projektmessungen ohne unabhängige Replikation. Kopierte Berichte nicht als zusätzlicher Nachweis verwendet.",
+            "contradictions": "Baseline-Spanne 134–139 erklärt etwa 136; höhere Live-Endpunktmessung 194,9 ist andere Konfiguration/Messstrecke. Artikel bleibt bei 190,6 im dokumentierten Versuch."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-5",
+      "contentHash": "ead0c31472bc77c34c9802e687d82ff252e743caaf6251622956f39b060442f9",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-26T08:13:15+00:00",
+          "reviewer": "Codex – tatsächlicher Quellenabgleich",
+          "limitations": [
+            "Der Originalbericht beschreibt eine kleine qualitative Interviewstudie, keine repräsentative Befragung oder bereits validierte Sicherheitsnorm."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Ai2 leitet Anforderungen an Forschungsagenten aus Interviews ab",
+              "verdict": "supported",
+              "reason": "Ai2 leitet aus den Interviews Prüf- und Gestaltungsanforderungen für wissenschaftliche Agenten ab.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ai2 berichtete am 25. November 2026 über Interviews mit 17 Forschenden aus Natur-, angewandten und Sozialwissenschaften zu verantwortlichen KI-Agenten.",
+              "verdict": "supported",
+              "reason": "Datierung 25.11.2026 und 17 Forschende aus Natur-, angewandten und Sozialwissenschaften werden im Originalbeitrag ausdrücklich genannt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Auswertung benennt Validierung, Datenschutz, Objektivität, Verantwortlichkeit und Transparenz als fünf Vertrauensdimensionen.",
+              "verdict": "supported",
+              "reason": "Die fünf aufgezählten Dimensionen sind validation, privacy, objectivity, accountability und transparency, sachlich übersetzt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Daraus abgeleitete Prüfungen, etwa auf übersehene Gegenbelege oder unzulässige Dateizugriffe, bezeichnet Ai2 als noch zu entwickelnde Vorschläge.",
+              "verdict": "supported",
+              "reason": "Abschnitt Helping researchers check the work nennt Gegenbelege und autorisierten Dateizugriff; diese Evaluationen seien noch zu entwickelnde Vorschläge.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "AI2 · FORSCHUNGSAGENTEN",
+              "verdict": "supported",
+              "reason": "Ai2 ist die Originalorganisation, Forschungsagenten der untersuchte Anwendungsbereich.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Ai2 untersucht Vertrauen in KI-Forschungsagenten",
+              "verdict": "supported",
+              "reason": "Der Vorschautitel beschreibt die Untersuchung von Vertrauen und keinen erfolgreichen Sicherheitstest.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Ai2s Interviewstudie über Vertrauen und Verantwortung bei Forschungsagenten mit einem Schild",
+              "verdict": "supported",
+              "reason": "Schildmotiv illustriert Verantwortung und Vertrauen, ohne eine Sicherheitszertifizierung zu behaupten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-26T08:13:15+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenprüfung",
+          "limitations": [
+            "Der Originalbericht beschreibt eine kleine qualitative Interviewstudie, keine repräsentative Befragung oder bereits validierte Sicherheitsnorm."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Ai2 leitet Anforderungen an Forschungsagenten aus Interviews ab",
+              "verdict": "supported",
+              "reason": "Der Beitrag ist explorativ. Überschrift nennt Interviews als Grundlage und wertet diese nicht zu einer universellen Norm auf.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Ai2 berichtete am 25. November 2026 über Interviews mit 17 Forschenden aus Natur-, angewandten und Sozialwissenschaften zu verantwortlichen KI-Agenten.",
+              "verdict": "supported",
+              "reason": "17 US-basierte Forschende sind eine kleine qualitative Stichprobe. 25.11. bezieht sich auf den Bericht, nicht zwingend auf den Zeitpunkt der Interviews.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Auswertung benennt Validierung, Datenschutz, Objektivität, Verantwortlichkeit und Transparenz als fünf Vertrauensdimensionen.",
+              "verdict": "supported",
+              "reason": "Fünf Dimensionen sind eine qualitative Auswertung, keine fünf bestandenen technischen Sicherheitsprüfungen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Daraus abgeleitete Prüfungen, etwa auf übersehene Gegenbelege oder unzulässige Dateizugriffe, bezeichnet Ai2 als noch zu entwickelnde Vorschläge.",
+              "verdict": "supported",
+              "reason": "Noch zu entwickelnde Vorschläge sind keine etablierten Lösungen; dieser Vorbehalt bleibt im Faktenabschnitt erhalten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "AI2 · FORSCHUNGSAGENTEN",
+              "verdict": "supported",
+              "reason": "Ai2-Originalbericht und weitergebende Medien sind keine unabhängigen Replikationen. Keine Repräsentativität behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Ai2 untersucht Vertrauen in KI-Forschungsagenten",
+              "verdict": "supported",
+              "reason": "Untersucht Vertrauen ist korrekt begrenzt und behauptet keinen wissenschaftlichen Konsens.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte zu Ai2s Interviewstudie über Vertrauen und Verantwortung bei Forschungsagenten mit einem Schild",
+              "verdict": "supported",
+              "reason": "Das symbolische Schild steht für das Forschungsthema und nicht für nachgewiesene Betriebssicherheit.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Where scientists draw the line\" \"17\"",
+              "finding": "17 Interviews bestätigt; weitergebende Seiten sind keine zusätzliche unabhängige Studie. Originalbeitrag tatsächlich gelesen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            },
+            {
+              "query": "site:huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents \"exploratory\" \"17\"",
+              "finding": "Originalbeitrag nennt ausdrücklich explorative US-Stichprobe und keine repräsentative Befragung oder empirische Bewertung konkreter Agenten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "25.11.2026 Bericht, 17 Personen und fünf qualitative Vertrauensdimensionen. Nicht 17 getestete Agenten.",
+            "scopeAndQualifications": "Explorative Interviews mit US-Forschenden, keine repräsentative Meinungsmessung. Benchmarkvorschläge sind noch nicht validiert.",
+            "sourceIndependence": "Ai2-eigene Studie; andere Zusammenfassungen bestätigen keine unabhängige Replikation oder Normgeltung.",
+            "contradictions": "Keine Gegenbehauptung zum eingegrenzten Interviewbericht. Unterschiedliche Haltungen der Befragten werden nicht als Konsens umgedeutet."
+          }
+        }
+      ]
     }
   ]
 }
