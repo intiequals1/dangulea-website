@@ -55,6 +55,9 @@ a {
   transition: color var(--transition-fast);
 }
 
+/* Inline links remain distinguishable without relying on colour. */
+main p a { text-decoration: underline; text-underline-offset: 0.2em; }
+
 a:hover {
   color: var(--color-accent-light);
 }
@@ -147,11 +150,9 @@ strong {
 /* Fade-in animation */
 @keyframes fadeInUp {
   from {
-    opacity: 0;
     transform: translateY(16px);
   }
   to {
-    opacity: 1;
     transform: translateY(0);
   }
 }

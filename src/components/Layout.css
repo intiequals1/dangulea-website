@@ -190,6 +190,8 @@
 }
 
 .nav__link--mobile {
+  max-width: 100%;
+  overflow-wrap: anywhere;
   font-size: clamp(1rem, 4vw, 1.5rem);
   letter-spacing: var(--tracking-widest);
   padding: var(--space-2);

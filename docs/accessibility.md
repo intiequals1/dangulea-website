@@ -52,3 +52,5 @@ Berechnete sRGB-Kontraste der korrigierten Palette (Verhältnis):
 Hintergründe: `#1a1714`, `#221e1a`, `#2c2622`, `#332e29`. Dies belegt die Farbpaarungen, ersetzt keine Prüfung von Bildern, Transparenz, Überlagerungen und sämtlichen Zuständen im Browser.
 
 CI-Infrastruktur: Der erste Lauf scheiterte vor den Browsertests an HTTP 403 im Microsoft-APT-Repository des neuen Ubuntu-26.04-Runners. Der Build-Job verwendet deshalb das feste Ubuntu-24.04-LTS-Image; Prüfungen und Signaturkontrollen werden nicht abgeschaltet.
+
+Der erste tatsächlich ausgeführte Browserlauf bestand 21 von 28 Fällen. Er fand zusätzlich nur farblich erkennbare Fließtextlinks und einen vorübergehenden Kontrastfehler durch die Einblendanimation. Fließtextlinks sind nun unterstrichen; die Animation bewegt den Inhalt ohne seine Deckkraft zu reduzieren. Vergrößerte Menütexte dürfen umbrechen; der Regressionstest prüft nun die Scrollbreite des Linkbereichs selbst. Die Prüfregeln bleiben unverändert aktiv.
