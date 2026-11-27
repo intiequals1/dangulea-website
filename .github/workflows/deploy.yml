@@ -11,7 +11,8 @@ concurrency:
 jobs:
   build:
     name: Build and validate every news article
-    runs-on: ubuntu-latest
+    # Stable LTS image for Playwright system dependencies; avoids runner OS drift.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with: { fetch-depth: 0, persist-credentials: false }
