@@ -4,6 +4,8 @@ import './Ressourcen.css'
 type ResourceItem = {
   title: string
   url?: string
+  description?: string
+  linkLabel?: string
 }
 
 type ResourceGroup = {
@@ -13,6 +15,18 @@ type ResourceGroup = {
 }
 
 const resourceGroups: ResourceGroup[] = [
+  {
+    title: 'Eigene Veröffentlichungen',
+    description: 'Berichte aus meinem eigenen Datenbestand mit offengelegter KI-Unterstützung und methodischen Grenzen.',
+    items: [
+      {
+        title: 'Von Chat-Verläufen zur Wissensinfrastruktur',
+        url: '/ressourcen/wissensinfrastruktur',
+        description: 'Visueller Forschungszwischenbericht über meine 3.173 ChatGPT-Unterhaltungen von Dezember 2022 bis November 2026. Mit ChatGPT (OpenAI) erstellt; zusammengefasste Ergebnisse, keine Originalchats. 17 Seiten mit Top-10-Themen, Nutzungsstatistik und Rechenprüfung.',
+        linkLabel: 'Bericht und PDF ansehen',
+      },
+    ],
+  },
   {
     title: 'New: Installing SAP',
     description: 'Aktuelle SAP-Installations- und Customizing-Notizen.',
@@ -108,7 +122,7 @@ export default function Ressourcen() {
       .map((group) => ({
         ...group,
         items: group.items.filter((item) => {
-          const searchableText = [group.title, group.description, item.title].join(' ').toLowerCase()
+          const searchableText = [group.title, group.description, item.title, item.description].join(' ').toLowerCase()
           return !normalizedQuery || searchableText.includes(normalizedQuery)
         }),
       }))
@@ -200,7 +214,8 @@ export default function Ressourcen() {
                       <li key={`${group.title}-${item.title}`}>
                         <a href={item.url} target="_blank" rel="noopener noreferrer">
                           <span>{item.title}</span>
-                          <small>Direktlink öffnen ↗</small>
+                          {item.description && <p className="resource-page-list__description">{item.description}</p>}
+                          <small>{item.linkLabel ?? 'Direktlink öffnen ↗'}</small>
                         </a>
                       </li>
                     ))}

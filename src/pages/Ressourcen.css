@@ -325,6 +325,13 @@
   text-transform: uppercase;
 }
 
+.resource-page-list .resource-page-list__description {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
 @media (max-width: 700px) {
   .resource-group__header {
     grid-template-columns: 1fr;
