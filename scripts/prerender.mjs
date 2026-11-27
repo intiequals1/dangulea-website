@@ -16,6 +16,9 @@ const routes = [
   { path: '/impressum', title: `Impressum · ${NAME}`, noindex: true },
   { path: '/intern', title: `Intern · ${NAME}`, noindex: true },
 ]
+// Use the same route titles for first response and client-side navigation.
+const pageTitles = JSON.parse(await readFile(new URL('../src/content/page-titles.json', import.meta.url), 'utf8'))
+for (const route of routes) route.title = pageTitles[route.path]
 
 const dist = new URL('../dist/', import.meta.url)
 const ssrDir = new URL('../dist-ssr/', import.meta.url)

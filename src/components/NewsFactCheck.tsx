@@ -2,7 +2,7 @@ type Check = { status: string; checkedAt: string | null; limitations: string[] }
 
 export default function NewsFactCheck({ check }: { check: Check }) {
   return (
-    <section className="news-factcheck" data-factcheck={check.status} aria-label="Prüfstatus des Beitrags">
+    <div className="news-factcheck" data-factcheck={check.status} role="group" aria-label="Prüfstatus des Beitrags">
       <details>
       <summary><strong>Prüfstatus:</strong> {check.status === 'reviewed' ? 'Automatisiert zweistufig geprüft' : 'Kein zweistufiger Check dokumentiert'} · Prüfdetails</summary>
       <p>{check.status === 'reviewed'
@@ -11,6 +11,6 @@ export default function NewsFactCheck({ check }: { check: Check }) {
       {check.limitations.map(limitation => <p key={limitation}>{limitation}</p>)}
       <p>Zuerst werden Überschrift und einzelne Quellenaussagen mit den Originalquellen abgeglichen. Danach werden gezielt Gegenbelege gesucht sowie Zahlen, Termine, Geltungsbereich und die Unabhängigkeit der Quellen geprüft. Diese automatisierten Prüfungen ersetzen keine unabhängige redaktionelle Prüfung und schließen Fehler nicht aus.</p>
       </details>
-    </section>
+    </div>
   )
 }

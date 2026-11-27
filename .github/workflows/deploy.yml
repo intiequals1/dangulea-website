@@ -43,6 +43,24 @@ jobs:
           VITE_RECHTS_SHEET_ID: ${{ vars.RECHTS_SHEET_ID }}
       - name: Verify validator rejects damaged deployment artifacts
         run: node scripts/check-news-artifact.mjs
+      - name: Validate rendered HTML and ARIA
+        run: pnpm validate:html
+      - name: Lint
+        run: pnpm lint
+      - name: Install accessibility test browsers
+        run: pnpm exec playwright install --with-deps chromium webkit
+      - name: Test accessibility, menu and navigation in Chromium and WebKit
+        run: pnpm test:a11y
+      - name: Save accessibility reports
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: accessibility-reports
+          path: |
+            playwright-report
+            test-results
+          retention-days: 14
+          if-no-files-found: ignore
       # Only a fully validated artifact can reach the deployment job.
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'

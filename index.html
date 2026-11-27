@@ -18,14 +18,13 @@
     <meta name="twitter:card" content="summary_large_image" />
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Claudiu Dangulea", "url": "https://dangulea.at/", "address": {"@type": "PostalAddress", "addressLocality": "Wien", "addressCountry": "AT"}, "sameAs": ["https://www.digitalpath.at/", "https://www.coolwebtoday.org/", "https://github.com/intiequals1", "https://www.linkedin.com/in/claudang"]}</script>
     <meta name="author" content="Claudiu Dangulea" />
-    <!-- Security headers via meta tags (required for GitHub Pages static hosting) -->
+    <!-- CSP supports meta delivery. HTTP-only headers must be configured by the hosting layer. -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-PGCNi23AczgNopWMs4Ubi/3w/3JirBuTBMCNxg415YI=' https://apis.google.com; object-src 'none'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: blob:; connect-src 'self' https://sheets.googleapis.com https://oauth2.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com; frame-src https://dangulea-intern.firebaseapp.com; base-uri 'self'; form-action 'self';" />
-    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title="Claudiu Dangulea – News" href="/rss.xml" />
     <!-- SPA GitHub Pages redirect handler -->
-    <script type="text/javascript">
+    <script>
       (function(l) {
         if (l.search[1] === '/' ) {
           var decoded = l.search.slice(1).split('&').map(function(s) {

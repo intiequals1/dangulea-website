@@ -59,6 +59,28 @@ a:hover {
   color: var(--color-accent-light);
 }
 
+:is(a, button, input, select, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--color-accent-light);
+  outline-offset: 3px;
+}
+:is(a, button, input, select, summary, [tabindex]) { scroll-margin-block: 7rem 2rem; }
+.skip-link {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 1000;
+  padding: 0.75rem 1rem;
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  transform: translateY(-200%);
+}
+.skip-link:focus { transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
 strong {
   font-weight: 500;
   color: var(--color-text-primary);

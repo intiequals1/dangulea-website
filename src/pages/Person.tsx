@@ -39,7 +39,7 @@ export default function Person() {
       {/* ── About ── */}
       <section className="person-section">
         <div className="container person-layout">
-          <aside className="person-sidebar">
+          <aside aria-label="Profil" className="person-sidebar">
             <p className="section-label">Profil</p>
             <ul className="profile-list">
               <li>
@@ -123,7 +123,7 @@ export default function Person() {
       {/* ── Experience ── */}
       <section className="person-section">
         <div className="container person-layout">
-          <aside className="person-sidebar">
+          <aside aria-label="Werdegang" className="person-sidebar">
             <p className="section-label">Werdegang</p>
           </aside>
           <div className="person-body">
@@ -225,7 +225,7 @@ export default function Person() {
       {/* ── Expertise ── */}
       <section className="person-section">
         <div className="container person-layout">
-          <aside className="person-sidebar">
+          <aside aria-label="Schwerpunkte" className="person-sidebar">
             <p className="section-label">Schwerpunkte</p>
           </aside>
           <div className="person-body">
@@ -273,7 +273,7 @@ export default function Person() {
       {/* ── Vision ── */}
       <section className="person-section">
         <div className="container person-layout">
-          <aside className="person-sidebar">
+          <aside aria-label="Ausblick" className="person-sidebar">
             <p className="section-label">Ausblick</p>
           </aside>
           <div className="person-body">
@@ -295,7 +295,7 @@ export default function Person() {
       {/* ── Personal ── */}
       <section className="person-section person-section--last">
         <div className="container person-layout">
-          <aside className="person-sidebar">
+          <aside aria-label="Privates" className="person-sidebar">
             <p className="section-label">Privates</p>
           </aside>
           <div className="person-body">
