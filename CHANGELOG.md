@@ -1,5 +1,24 @@
 # Änderungsprotokoll
 
+## 2026-11-27 – Eigene Veröffentlichung „Vom Dialog zur Werkzeugarbeit“
+
+### Was geändert wurde
+
+- Neue Seite `/ressourcen/vom-dialog-zur-werkzeugarbeit` mit PDF (13 Seiten) und Vorschaubild unter `public/ressourcen/`, aufgebaut wie die Seite zur Wissensinfrastruktur. Eintrag unter „Eigene Veröffentlichungen“, Route, Sitemap und Vorrendern mit eigenen Metadaten.
+- `scripts/prerender.mjs`: Name, Datum und PDF-Adresse in den strukturierten Daten (JSON-LD) kommen aus der jeweiligen Route.
+- Themenfelder nur als grobe Einordnung auf einer Seite, mit Angabe der Methode (Regeln über Titel und eigene Nachrichten, Titelsichtung) und ihrer Belastbarkeit; keine Seiten zu Themen im Zeitverlauf, Thema und Arbeitsweise und Beziehungen zwischen Vorhaben.
+- Rollen getrennt ausgewiesen: Fragestellung, Auswahl und Freigabe durch mich; Text, Auswertung und Grafiken KI-generiert.
+- Kennzeichnung „KI-generiert mit Claude (Anthropic)“ auf der Berichtsseite, im Ressourcen-Eintrag, im Vorschaubild, in den Metadaten und auf jeder PDF-Seite; Angabe der redaktionellen Verantwortung und Verweis auf Art. 50 Abs. 4 KI-Verordnung (EU) 2024/1689.
+- Impressum: grundlegende Richtung um die Berichte ergänzt; „Automatisierte Inhalte und KI-Unterstützung“ um die Berichte und den Verweis auf Art. 50 Abs. 4 KI-Verordnung ergänzt; Datenschutz, „KI- und Automatisierungsdienste“, um ChatGPT und Claude für die Berichte ergänzt.
+
+### Warum
+
+- Die Themenzuordnung ist gegen den Gesprächsinhalt nicht geprüft und liefert nur eine grobe Einordnung; sie trägt den Bericht nicht. Der Kernbefund beruht auf Werkzeugaufrufen.
+- Zweite Fallstudie zu meinem eigenen KI-Gesprächsbestand, diesmal aus dem Claude-Export. Veröffentlicht werden nur zusammengefasste Ergebnisse; Gesprächstitel, Projekt- und Artefaktnamen, Tages- und Uhrzeitmuster und ein Themenfeld mit persönlichem Bezug bleiben privat.
+- Bisher waren Name und PDF des ersten Berichts fest im Vorrendern hinterlegt; jede weitere Berichtsseite hätte dessen Metadaten erhalten.
+- Das Impressum nennt die KI-Werkzeuge je Bereich; die Berichte fehlten dort.
+- Seit 2. August 2026 gilt Art. 50 Abs. 4 KI-Verordnung für KI-generierte Texte zu Angelegenheiten von öffentlichem Interesse. Die Ausnahme bei redaktioneller Verantwortung wird nicht in Anspruch genommen; gekennzeichnet wird trotzdem.
+
 ## 2026-11-21 – Interner Bereich: Reiter „Rechts-Update“
 
 ### Was geändert wurde

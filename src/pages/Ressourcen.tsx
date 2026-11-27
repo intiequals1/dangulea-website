@@ -25,6 +25,12 @@ const resourceGroups: ResourceGroup[] = [
         description: 'Visueller Forschungszwischenbericht über meine 3.173 ChatGPT-Unterhaltungen von Dezember 2022 bis November 2026. Mit ChatGPT (OpenAI) erstellt; zusammengefasste Ergebnisse, keine Originalchats. 17 Seiten mit Top-10-Themen, Nutzungsstatistik und Rechenprüfung.',
         linkLabel: 'Bericht und PDF ansehen',
       },
+      {
+        title: 'Vom Dialog zur Werkzeugarbeit',
+        url: '/ressourcen/vom-dialog-zur-werkzeugarbeit',
+        description: 'Visueller Forschungszwischenbericht über meine 983 Claude-Gespräche von Mai 2024 bis November 2026. KI-generiert mit Claude (Anthropic); zusammengefasste Ergebnisse, keine Originalchats. 13 Seiten zu Arbeitsmodi, Werkzeugen, groben Themenfeldern und einem Entwurf zur Informationsarchitektur, mit Rechenprüfung.',
+        linkLabel: 'Bericht und PDF ansehen',
+      },
     ],
   },
   {
