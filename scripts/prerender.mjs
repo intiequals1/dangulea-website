@@ -19,6 +19,15 @@ const routes = [
     description: 'Visueller Forschungszwischenbericht über meine 3.173 eigenen ChatGPT-Unterhaltungen (2022-2026). Mit ChatGPT (OpenAI) erstellt. PDF, 17 Seiten; vorläufige Ergebnisse mit Rechenprüfung und methodischen Grenzen.',
     image: `${SITE}/ressourcen/wissensinfrastruktur-2026-11-27.png`,
     imageAlt: 'Eigene ChatGPT-Daten von Claudiu Dangulea: 3.173 Unterhaltungen. Forschungszwischenbericht, mit ChatGPT (OpenAI) erstellt.',
+    report: { name: 'Von Chat-Verläufen zur Wissensinfrastruktur', datePublished: '2026-11-27', pdf: '/ressourcen/wissensinfrastruktur-2026-11-27.pdf' },
+  },
+  {
+    path: '/ressourcen/vom-dialog-zur-werkzeugarbeit',
+    title: `Vom Dialog zur Werkzeugarbeit · ${NAME}`,
+    description: 'Visueller Forschungszwischenbericht über meine 983 eigenen Claude-Gespräche (2024-2026). KI-generiert mit Claude (Anthropic). PDF, 13 Seiten; Arbeitsmodi, Werkzeuge, grobe Themenfelder und Informationsarchitektur mit Rechenprüfung und methodischen Grenzen.',
+    image: `${SITE}/ressourcen/vom-dialog-zur-werkzeugarbeit-2026-11-27.png`,
+    imageAlt: 'Eigene Claude-Daten von Claudiu Dangulea: 983 Gespräche. Forschungszwischenbericht, KI-generiert mit Claude (Anthropic).',
+    report: { name: 'Vom Dialog zur Werkzeugarbeit', datePublished: '2026-11-27', pdf: '/ressourcen/vom-dialog-zur-werkzeugarbeit-2026-11-27.pdf' },
   },
   { path: '/impressum', title: `Impressum · ${NAME}`, noindex: true },
   { path: '/intern', title: `Intern · ${NAME}`, noindex: true },
@@ -54,10 +63,10 @@ for (const route of routes) {
       .replace(/(<meta property="og:image:alt" content=")[^"]*(")/, `$1${esc(route.imageAlt)}$2`)
       .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/,
         `<script type="application/ld+json">${JSON.stringify({
-          '@context': 'https://schema.org', '@type': 'Report', name: 'Von Chat-Verläufen zur Wissensinfrastruktur',
-          url, description: route.description, inLanguage: 'de', datePublished: '2026-11-27',
+          '@context': 'https://schema.org', '@type': 'Report', name: route.report.name,
+          url, description: route.description, inLanguage: 'de', datePublished: route.report.datePublished,
           isAccessibleForFree: true, creator: { '@type': 'Person', name: NAME },
-          encoding: { '@type': 'MediaObject', encodingFormat: 'application/pdf', contentUrl: `${SITE}/ressourcen/wissensinfrastruktur-2026-11-27.pdf` },
+          encoding: { '@type': 'MediaObject', encodingFormat: 'application/pdf', contentUrl: `${SITE}${route.report.pdf}` },
         })}</script>`)
   }
   if (route.noindex) html = html.replace('</title>', '</title>\n    <meta name="robots" content="noindex" />')

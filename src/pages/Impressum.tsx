@@ -57,7 +57,8 @@ export default function Impressum() {
             fachlichen Schwerpunkten und laufenden Vorhaben. Im Bereich „News“ erscheint ein
             automatisiert erstellter täglicher Überblick zu KI, Technologie, ERP, Nachhaltigkeit
             und Ethik (Proof of Concept). Die Rubrik „Aktuelle Themen“ stellt Themen aus meinen
-            Projekten zusammen.
+            Projekten zusammen. Im Bereich „Ressourcen“ erscheinen unter „Eigene Veröffentlichungen“
+            KI-generierte Berichte, die meine eigenen KI-Gesprächsbestände auswerten.
           </p>
         </section>
 
@@ -79,10 +80,20 @@ export default function Impressum() {
               Rubrik „Aktuelle Themen“: Perplexity. Die Themenblöcke werden automatisiert und
               mit KI-Unterstützung aus meinen Projekten zusammengestellt.
             </li>
+            <li>
+              Berichte unter „Eigene Veröffentlichungen“ im Bereich „Ressourcen“: Text, Auswertung
+              und Grafiken sind KI-generiert. Das jeweils eingesetzte Werkzeug ist auf der Seite und
+              im PDF des Berichts angegeben (derzeit ChatGPT von OpenAI und Claude von Anthropic).
+              Grundlage sind meine eigenen Gesprächsbestände; Originalchats werden nicht
+              veröffentlicht. Jeder Bericht wird vor der Veröffentlichung von mir freigegeben.
+            </li>
           </ul>
           <p>
-            Automatisierte Inhalte werden auf der jeweiligen Seite als solche
-            gekennzeichnet. Soweit ein Beitrag nicht einzeln vor Veröffentlichung
+            Automatisierte und KI-generierte Inhalte werden auf der jeweiligen Seite als solche
+            gekennzeichnet, auch wenn sie vor der Veröffentlichung geprüft wurden (vgl. Art. 50
+            Abs. 4 der Verordnung (EU) 2024/1689, KI-Verordnung,{' '}
+            <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj" target="_blank" rel="noopener noreferrer">EUR-Lex</a>).
+            Soweit ein Beitrag nicht einzeln vor Veröffentlichung
             redaktionell geprüft wurde, wird keine individuelle redaktionelle Prüfung
             behauptet. Die inhaltliche Verantwortung für veröffentlichte eigene Inhalte
             liegt bei der oben genannten verantwortlichen Person.
@@ -226,6 +237,11 @@ export default function Impressum() {
           <ul className="legal-list">
             <li>Täglicher Überblick im Bereich „News“: Codex von OpenAI</li>
             <li>Rubrik „Aktuelle Themen“: Perplexity (Perplexity AI, Inc.)</li>
+            <li>
+              Berichte unter „Eigene Veröffentlichungen“: ChatGPT (OpenAI) und Claude (Anthropic).
+              Ausgewertet werden ausschließlich meine eigenen Gesprächsexporte; veröffentlicht werden
+              nur zusammengefasste Ergebnisse ohne Gesprächsinhalte und ohne Angaben zu anderen Personen.
+            </li>
           </ul>
           <p>
             Dabei sollen keine vertraulichen Informationen, Zugangsdaten,
