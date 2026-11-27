@@ -2,6 +2,76 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-27-1",
+      "date": "2026-11-27",
+      "number": 1,
+      "title": "Databricks ergänzt eine Beta zur Folgenanalyse von Datenänderungen",
+      "text": "Fakten: Databricks führt seit dem 23. November 2026 eine Beta für Impact Analysis in Unity Catalog auf. Sie zeigt nachgelagerte Abhängigkeiten von Tabellen und Spalten mit Auswirkungsstufe und Zuständigkeiten. Der Anbieter warnt, dass neue Abhängigkeiten erst nach einigen Tagen erscheinen können und eine leere Liste keine sichere Änderung belegt.\nEinordnung: Bei ERP-Migrationen und Änderungen an analytischen Datenmodellen hilft die Sicht auf abhängige Jobs und Berichte, betroffene Verantwortliche früh einzubeziehen. Die Beta ergänzt die Änderungsprüfung; sie ersetzt weder Schnittstellentests noch eine vollständige Abhängigkeitsinventur. Ausschließlich Anbieterquellen, keine unabhängige Wirksamkeitsprüfung.\nQuellen: https://docs.databricks.com/aws/en/release-notes/product/2026/november | https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis",
+      "og": {
+        "og_kategorie": "DATABRICKS · UNITY CATALOG",
+        "og_titel": "Databricks zeigt Folgen geplanter Datenänderungen",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte: Databricks zeigt Folgen geplanter Datenänderungen; Symbol dokument"
+      }
+    },
+    {
+      "id": "2026-11-27-2",
+      "date": "2026-11-27",
+      "number": 2,
+      "title": "AWS erprobt die Orchestrierung isolierter Code-Ausführungen",
+      "text": "Fakten: AWS kündigte am 25. November 2026 eine Entwickler-Vorschau an, die Lambda MicroVMs mit Lambda durable functions verbindet. Die Erweiterung verwaltet einzelne Aufgaben oder Sitzungen mit gemeinsamem Datei- und Speicherzustand und ist für die TypeScript- und Python-SDKs vorgesehen. AWS rät ausdrücklich vom Einsatz dieser Vorschau für Produktionslasten ab.\nEinordnung: Agenten, die Code erzeugen und ausführen, benötigen getrennte Ausführungsumgebungen und kontrollierte Lebenszyklen. Für Architekturteams ist die Vorschau ein konkreter Ansatz für Sandbox-Experimente, jedoch noch keine Freigabe für den produktiven ERP- oder Datenbetrieb. Ausschließlich Anbieterquelle; Isolation und Zuverlässigkeit wurden hier nicht praktisch nachgemessen.\nQuellen: https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/",
+      "og": {
+        "og_kategorie": "AWS · LAMBDA",
+        "og_titel": "AWS erprobt isolierte Aufgaben für KI-Code",
+        "og_fakten": [],
+        "og_icon": "schild",
+        "og_alt": "Kubistische Karte: AWS erprobt isolierte Aufgaben für KI-Code; Symbol schild"
+      }
+    },
+    {
+      "id": "2026-11-27-3",
+      "date": "2026-11-27",
+      "number": 3,
+      "title": "Hugging Face trennt Kommunikationstraining von behauptetem Teamvorteil",
+      "text": "Fakten: Hugging Face veröffentlichte am 26. November 2026 ein Trainingsbeispiel mit vier Agenten, die eine gemeinsame Qwen3-0.6B-Policy verwenden. Jeder Agent erhält nur einen Teil einer Zahlenaufgabe und muss Informationen mit den anderen austauschen. Der Beitrag betont, dass diese Aufgabe keinen Vorteil gegenüber einem Einzelagenten bei gleichem Rechenbudget nachweist.\nEinordnung: Für die Evaluation betrieblicher Agentensysteme zählt der nachgewiesene Nutzen der Zusammenarbeit gegenüber ihren Kosten. Das Beispiel macht Informationsverteilung und Kommunikation überprüfbar, belegt aber keine allgemeine Überlegenheit von Agententeams in Unternehmensprozessen. Eigenes Experiment der Autoren, keine unabhängige Replikation.\nQuellen: https://huggingface.co/blog/training-swarms",
+      "og": {
+        "og_kategorie": "HUGGING FACE · AGENTEN",
+        "og_titel": "Hugging Face prüft Kommunikation kleiner Agententeams",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte: Hugging Face prüft Kommunikation kleiner Agententeams; Symbol zahnrad"
+      }
+    },
+    {
+      "id": "2026-11-27-4",
+      "date": "2026-11-27",
+      "number": 4,
+      "title": "Google untersucht Verzerrungen durch einseitige Eingaben an KI-Assistenten",
+      "text": "Fakten: Google Research stellte am 25. November 2026 ein Evaluationsverfahren mit simulierten sozialen Interaktionen vor. Darin muss ein Assistent verborgene Motive aus der subjektiven Schilderung einer simulierten Nutzerperson erschließen. Google berichtet, dass die untersuchten Modelle auf die Rahmung dieser Schilderungen reagieren und längere Gespräche die Ergebnisse nicht immer verbessern.\nEinordnung: Auch bei Assistenzsystemen für organisatorische Entscheidungen können einseitige Fallbeschreibungen die Bewertung prägen. Der Ansatz liefert ein prüfbares Simulationsdesign; daraus folgt keine verlässliche Erkennung realer menschlicher Absichten. Die zugrunde liegende Originalpublikation wurde bereits im September eingereicht, neu ist der Forschungsbericht im Blog. Keine unabhängige Bestätigung der Modellbewertungen.\nQuellen: https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/ | https://arxiv.org/abs/2609.17496",
+      "og": {
+        "og_kategorie": "GOOGLE · KI-EVALUATION",
+        "og_titel": "Google prüft den Einfluss einseitiger KI-Eingaben",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte: Google prüft den Einfluss einseitiger KI-Eingaben; Symbol dokument"
+      }
+    },
+    {
+      "id": "2026-11-27-5",
+      "date": "2026-11-27",
+      "number": 5,
+      "title": "GitHub macht fehlerhafte Coverage-Uploads im Workflow sichtbar",
+      "text": "Fakten: GitHub teilte am 23. November 2026 mit, dass die Code-Quality-Aktion upload-code-coverage das Format Cobertura XML prüft und nicht unterstützte Berichte als fehlgeschlagen meldet. Zuvor konnten solche Uploads erfolgreich erscheinen, ohne Coverage im Pull Request anzuzeigen. Die Änderung setzt aktiviertes GitHub Code Quality voraus und gilt für GitHub Team sowie Enterprise Cloud, nicht für Enterprise Server.\nEinordnung: Für Teams mit automatisierten Freigaben ist ein explizit fehlgeschlagener Berichtstransfer aussagekräftiger als eine scheinbar erfolgreiche Datenübernahme. Betroffene Pipelines müssen das passende Berichtsformat erzeugen; ein erfolgreicher Upload allein bewertet weder Testqualität noch fachliche Abdeckung. Ausschließlich Anbieterquelle.\nQuellen: https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/",
+      "og": {
+        "og_kategorie": "GITHUB · CODE QUALITY",
+        "og_titel": "GitHub weist ungültige Coverage-Berichte zurück",
+        "og_fakten": [],
+        "og_icon": "warnung",
+        "og_alt": "Kubistische Karte: GitHub weist ungültige Coverage-Berichte zurück; Symbol warnung"
+      }
+    },
+    {
       "id": "2026-11-26-1",
       "date": "2026-11-26",
       "number": 1,

@@ -18206,6 +18206,918 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-27-1",
+      "contentHash": "efbf6f98e44852ee8e2e6f02c9d932b598b24bd7d4c48b972ab1c7dc0003a815",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-27T08:09:46+00:00",
+          "reviewer": "Codex – gelesener Quellenabgleich",
+          "limitations": [
+            "Anbieter-Beta; Ergebnisse sind näherungsweise und können unvollständig sein. Kein unabhängiger Wirksamkeitsnachweis."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks ergänzt eine Beta zur Folgenanalyse von Datenänderungen",
+              "verdict": "supported",
+              "reason": "Release Notes nennen Impact Analysis ausdrücklich Beta; die Detailseite beschreibt Änderungen an Tabellen und Spalten.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks führt seit dem 23. November 2026 eine Beta für Impact Analysis in Unity Catalog auf.",
+              "verdict": "supported",
+              "reason": "Release Notes datieren die Beta auf 23.11.2026; die Detailseite verlangt Freischaltung durch einen Account-Admin.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Sie zeigt nachgelagerte Abhängigkeiten von Tabellen und Spalten mit Auswirkungsstufe und Zuständigkeiten.",
+              "verdict": "supported",
+              "reason": "Detailseite erläutert downstream assets sowie impact level und owner, nicht eine Analyse beliebiger vorgelagerter Systeme.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Anbieter warnt, dass neue Abhängigkeiten erst nach einigen Tagen erscheinen können und eine leere Liste keine sichere Änderung belegt.",
+              "verdict": "supported",
+              "reason": "Abschnitt Run impact analysis warnt ausdrücklich vor verzögerten neuen Abhängigkeiten und vor einer Sicherheitsinterpretation leerer Listen.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DATABRICKS · UNITY CATALOG",
+              "verdict": "supported",
+              "reason": "Kategorie benennt den tatsächlich berichtenden Anbieter und den im Original beschriebenen fachlichen Bereich; keine zusätzliche Produktfreigabe.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Databricks zeigt Folgen geplanter Datenänderungen",
+              "verdict": "supported",
+              "reason": "Release Notes nennen Impact Analysis ausdrücklich Beta; die Detailseite beschreibt Änderungen an Tabellen und Spalten. Die gekürzte Vorschau erhält diesen begrenzten Aussageumfang.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: Databricks zeigt Folgen geplanter Datenänderungen; Symbol dokument",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den Vorschautitel und das zugehörige kubistische Symbol, keine zusätzliche Zahl oder Produktfähigkeit.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-27T08:09:46+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenrecherche",
+          "limitations": [
+            "Anbieter-Beta; Ergebnisse sind näherungsweise und können unvollständig sein. Kein unabhängiger Wirksamkeitsnachweis."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Databricks ergänzt eine Beta zur Folgenanalyse von Datenänderungen",
+              "verdict": "supported",
+              "reason": "Die Aussage bleibt auf eine Anbieter-Beta begrenzt; keine allgemeine Freigabe oder vollständige Risikobewertung behauptet.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Databricks führt seit dem 23. November 2026 eine Beta für Impact Analysis in Unity Catalog auf.",
+              "verdict": "supported",
+              "reason": "Release Notes und aktuelle Detailseite stimmen über Beta überein; Freischaltung erforderlich, kein automatischer Rollout an jeden Nutzer.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Sie zeigt nachgelagerte Abhängigkeiten von Tabellen und Spalten mit Auswirkungsstufe und Zuständigkeiten.",
+              "verdict": "supported",
+              "reason": "Tabellen und Spalten sind Startobjekte; nachgelagerte Assets sind sichtbar, nicht sämtliche Unternehmensabhängigkeiten.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Anbieter warnt, dass neue Abhängigkeiten erst nach einigen Tagen erscheinen können und eine leere Liste keine sichere Änderung belegt.",
+              "verdict": "supported",
+              "reason": "Die Warnung vor verzögerter Erfassung begrenzt die Aussage richtig; leere Listen werden nicht als Freigabe interpretiert.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "DATABRICKS · UNITY CATALOG",
+              "verdict": "supported",
+              "reason": "Kategorie benennt den tatsächlich berichtenden Anbieter und den im Original beschriebenen fachlichen Bereich; keine zusätzliche Produktfreigabe.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Databricks zeigt Folgen geplanter Datenänderungen",
+              "verdict": "supported",
+              "reason": "Die Aussage bleibt auf eine Anbieter-Beta begrenzt; keine allgemeine Freigabe oder vollständige Risikobewertung behauptet. Die gekürzte Vorschau erhält diesen begrenzten Aussageumfang.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: Databricks zeigt Folgen geplanter Datenänderungen; Symbol dokument",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den Vorschautitel und das zugehörige kubistische Symbol, keine zusätzliche Zahl oder Produktfähigkeit.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.docs.databricks.com \"Impact analysis\" \"Beta\" \"1,000\"",
+              "finding": "Detailseite bestätigt Beta, manuelle Freischaltung und Grenzen der nachgelagerten Analyse; Quelle tatsächlich erneut gelesen.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            },
+            {
+              "query": "\"Databricks\" \"Impact analysis\" \"November 23\" limitations",
+              "finding": "Release Notes nennen 23.11.; Detailseite nennt Verzögerungen und Größenlimits. Weitergebende Treffer liefern keine unabhängige Vollständigkeitsprüfung.",
+              "sourceUrls": [
+                "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+                "https://docs.databricks.com/aws/en/data-governance/unity-catalog/impact-analysis"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "23.11.2026 ist Release-Note-Datum der Beta; keine Leistungs- oder Genauigkeitszahl behauptet.",
+            "scopeAndQualifications": "Nur Tabellen/Spalten als Startobjekte und nachgelagerte Lineage; verspätete und begrenzte Ergebnisse.",
+            "sourceIndependence": "Release Notes und Doku sind derselbe Hersteller, keine unabhängigen Wirksamkeitsbelege.",
+            "contradictions": "Keine Gegenbehauptung zur begrenzten Beta-Meldung; leere Listen ausdrücklich nicht sicher."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-2",
+      "contentHash": "99968978c4f4151ac700c013c81ef08d629216027996e1ef16a28a59f9763b62",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-27T08:09:46+00:00",
+          "reviewer": "Codex – gelesener Quellenabgleich",
+          "limitations": [
+            "Entwickler-Vorschau des Anbieters, ausdrücklich nicht für Produktionslasten. Keine eigene Isolations- oder Zuverlässigkeitsmessung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "AWS erprobt die Orchestrierung isolierter Code-Ausführungen",
+              "verdict": "supported",
+              "reason": "AWS nennt die neue Verbindung eine developer preview zur Orchestrierung von MicroVMs.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "AWS kündigte am 25. November 2026 eine Entwickler-Vorschau an, die Lambda MicroVMs mit Lambda durable functions verbindet.",
+              "verdict": "supported",
+              "reason": "Ankündigung ist mit 25.11.2026 datiert und nennt durable functions sowie Lambda MicroVMs.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Erweiterung verwaltet einzelne Aufgaben oder Sitzungen mit gemeinsamem Datei- und Speicherzustand und ist für die TypeScript- und Python-SDKs vorgesehen.",
+              "verdict": "supported",
+              "reason": "AWS unterscheidet einzelne Aufgaben und Sitzungen mit geteilten Dateien und Speicher und nennt die SDKs TypeScript/Python.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "AWS rät ausdrücklich vom Einsatz dieser Vorschau für Produktionslasten ab.",
+              "verdict": "supported",
+              "reason": "Der Originaltext sagt ausdrücklich, die veränderliche Entwickler-Vorschau nicht für production workloads einzusetzen.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "AWS · LAMBDA",
+              "verdict": "supported",
+              "reason": "Kategorie benennt den tatsächlich berichtenden Anbieter und den im Original beschriebenen fachlichen Bereich; keine zusätzliche Produktfreigabe.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "AWS erprobt isolierte Aufgaben für KI-Code",
+              "verdict": "supported",
+              "reason": "AWS nennt die neue Verbindung eine developer preview zur Orchestrierung von MicroVMs. Die gekürzte Vorschau erhält diesen begrenzten Aussageumfang.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: AWS erprobt isolierte Aufgaben für KI-Code; Symbol schild",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den Vorschautitel und das zugehörige kubistische Symbol, keine zusätzliche Zahl oder Produktfähigkeit.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-27T08:09:46+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenrecherche",
+          "limitations": [
+            "Entwickler-Vorschau des Anbieters, ausdrücklich nicht für Produktionslasten. Keine eigene Isolations- oder Zuverlässigkeitsmessung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "AWS erprobt die Orchestrierung isolierter Code-Ausführungen",
+              "verdict": "supported",
+              "reason": "Es handelt sich um eine Erprobung des Anbieters und keinen eigenen Nachweis sicherer Codeausführung.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "AWS kündigte am 25. November 2026 eine Entwickler-Vorschau an, die Lambda MicroVMs mit Lambda durable functions verbindet.",
+              "verdict": "supported",
+              "reason": "25.11. ist Datum der Vorschauankündigung, nicht eine allgemeine Produktionsfreigabe.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die Erweiterung verwaltet einzelne Aufgaben oder Sitzungen mit gemeinsamem Datei- und Speicherzustand und ist für die TypeScript- und Python-SDKs vorgesehen.",
+              "verdict": "supported",
+              "reason": "Die Sprachliste gilt der Erweiterung; zusätzliche Sprachen allgemeiner durable functions werden nicht auf die Vorschau übertragen.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "AWS rät ausdrücklich vom Einsatz dieser Vorschau für Produktionslasten ab.",
+              "verdict": "supported",
+              "reason": "Der Produktionsvorbehalt ist ausdrücklich erhalten; Medienwiedergaben begründen keine Betriebsgarantie.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "AWS · LAMBDA",
+              "verdict": "supported",
+              "reason": "Kategorie benennt den tatsächlich berichtenden Anbieter und den im Original beschriebenen fachlichen Bereich; keine zusätzliche Produktfreigabe.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "AWS erprobt isolierte Aufgaben für KI-Code",
+              "verdict": "supported",
+              "reason": "Es handelt sich um eine Erprobung des Anbieters und keinen eigenen Nachweis sicherer Codeausführung. Die gekürzte Vorschau erhält diesen begrenzten Aussageumfang.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: AWS erprobt isolierte Aufgaben für KI-Code; Symbol schild",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den Vorschautitel und das zugehörige kubistische Symbol, keine zusätzliche Zahl oder Produktfähigkeit.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Lambda durable\" \"MicroVM\" \"developer preview\" production",
+              "finding": "AWS-Original unterscheidet Vorschau der Erweiterung von bestehenden Lambda-Funktionen und schließt Produktionsnutzung ausdrücklich aus.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            },
+            {
+              "query": "\"lambda-durable-microvm\" correction limitations regions",
+              "finding": "Gegenrecherche liefert technische Erfahrungsberichte und Wiedergaben, aber keine allgemeine Freigabe. Original erneut gelesen: Verfügbarkeit nur dort, wo beide Dienste unterstützt werden.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "25.11.2026 Vorschauankündigung; TypeScript/Python gelten für die Erweiterung.",
+            "scopeAndQualifications": "Keine Produktionsfreigabe; keine Zusage lückenloser Isolation oder automatischer fachlicher Job-Wiederholung.",
+            "sourceIndependence": "Anbieterankündigung; Wiederveröffentlichungen sind keine unabhängigen Sicherheitstests.",
+            "contradictions": "Technische Einschränkungen von Vorschau und SDK begrenzen die Nutzung; Artikel behauptet weder allgemeine Reife noch Fehlerfreiheit."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-3",
+      "contentHash": "e09ec634175473b8503c45b73d12e489b98aa2f1096358c6d7cc05d0ba5a5bc3",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-27T08:09:46+00:00",
+          "reviewer": "Codex – gelesener Quellenabgleich",
+          "limitations": [
+            "Kleines Autorenexperiment mit verteilten Informationen; keine unabhängige Replikation oder Überlegenheit gegenüber Einzelagenten bei gleichem Budget."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Hugging Face trennt Kommunikationstraining von behauptetem Teamvorteil",
+              "verdict": "supported",
+              "reason": "Der Abschnitt Did cooperation help trennt Informationsaustausch von einem tatsächlich nachgewiesenen Vorteil bei gleichem Budget.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Hugging Face veröffentlichte am 26. November 2026 ein Trainingsbeispiel mit vier Agenten, die eine gemeinsame Qwen3-0.6B-Policy verwenden.",
+              "verdict": "supported",
+              "reason": "Datum 26.11.2026 und vier logische Agenten mit einer gemeinsamen Qwen3-0.6B-Policy stehen im Original; es sind nicht vier separat trainierte Modelle.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Jeder Agent erhält nur einen Teil einer Zahlenaufgabe und muss Informationen mit den anderen austauschen.",
+              "verdict": "supported",
+              "reason": "Jeder Agent bekommt eine private Zahl; das Team soll die vollständig sortierte Liste liefern und braucht dafür Nachrichten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Beitrag betont, dass diese Aufgabe keinen Vorteil gegenüber einem Einzelagenten bei gleichem Rechenbudget nachweist.",
+              "verdict": "supported",
+              "reason": "Der Originaltext erklärt explizit, dass diese Aufgabe den Vergleich mit einem allein lösenden Agenten noch nicht testen kann.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "HUGGING FACE · AGENTEN",
+              "verdict": "supported",
+              "reason": "Kategorie benennt den tatsächlich berichtenden Anbieter und den im Original beschriebenen fachlichen Bereich; keine zusätzliche Produktfreigabe.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Hugging Face prüft Kommunikation kleiner Agententeams",
+              "verdict": "supported",
+              "reason": "Der Abschnitt Did cooperation help trennt Informationsaustausch von einem tatsächlich nachgewiesenen Vorteil bei gleichem Budget. Die gekürzte Vorschau erhält diesen begrenzten Aussageumfang.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: Hugging Face prüft Kommunikation kleiner Agententeams; Symbol zahnrad",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den Vorschautitel und das zugehörige kubistische Symbol, keine zusätzliche Zahl oder Produktfähigkeit.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-27T08:09:46+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenrecherche",
+          "limitations": [
+            "Kleines Autorenexperiment mit verteilten Informationen; keine unabhängige Replikation oder Überlegenheit gegenüber Einzelagenten bei gleichem Budget."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Hugging Face trennt Kommunikationstraining von behauptetem Teamvorteil",
+              "verdict": "supported",
+              "reason": "Training von Kommunikation wird nicht in universelle Überlegenheit von Swarms umgedeutet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Hugging Face veröffentlichte am 26. November 2026 ein Trainingsbeispiel mit vier Agenten, die eine gemeinsame Qwen3-0.6B-Policy verwenden.",
+              "verdict": "supported",
+              "reason": "Vier Agentenkontexte teilen eine Policy; Tutorial und ursprünglicher Lauf haben unterschiedliche GPU-/Update-Zahlen, die hier nicht vermischt werden.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Jeder Agent erhält nur einen Teil einer Zahlenaufgabe und muss Informationen mit den anderen austauschen.",
+              "verdict": "supported",
+              "reason": "Die Aufgabe erzwingt verteilte Information; deshalb lässt sie sich nicht als fairer Einzelagentenvergleich verwenden.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Der Beitrag betont, dass diese Aufgabe keinen Vorteil gegenüber einem Einzelagenten bei gleichem Rechenbudget nachweist.",
+              "verdict": "supported",
+              "reason": "Der sichtbare Vorbehalt stimmt mit dem Original überein; keine Trainingsquote oder Tokenersparnis auf reale Aufgaben übertragen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "HUGGING FACE · AGENTEN",
+              "verdict": "supported",
+              "reason": "Kategorie benennt den tatsächlich berichtenden Anbieter und den im Original beschriebenen fachlichen Bereich; keine zusätzliche Produktfreigabe.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Hugging Face prüft Kommunikation kleiner Agententeams",
+              "verdict": "supported",
+              "reason": "Training von Kommunikation wird nicht in universelle Überlegenheit von Swarms umgedeutet. Die gekürzte Vorschau erhält diesen begrenzten Aussageumfang.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: Hugging Face prüft Kommunikation kleiner Agententeams; Symbol zahnrad",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den Vorschautitel und das zugehörige kubistische Symbol, keine zusätzliche Zahl oder Produktfähigkeit.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"training-swarms\" \"matched\" \"held-out\"",
+              "finding": "Original erneut gelesen: gleiche Rechenbudgets sind die offene Prüffrage; kein direkter Einzelagentenvergleich in dieser Aufgabe.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            },
+            {
+              "query": "\"Swarms, Flocks, Gangs\" correction replication",
+              "finding": "Treffer geben unterschiedliche Original- und Tutorialläufe wieder; keine unabhängige Replikation. Original trennt diese Läufe und ihre Messwerte ausdrücklich.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/training-swarms"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "26.11.2026 Blog; vier logische Agenten und eine gemeinsame Policy, keine vier eigenständig trainierten Modelle.",
+            "scopeAndQualifications": "Informationsaggregation in einer Zahlenaufgabe, kein Budget-kontrollierter allgemeiner Produktivitätsbeweis.",
+            "sourceIndependence": "Autorenexperiment und Tutorial, keine unabhängig durchgeführte Replikation.",
+            "contradictions": "Tutorial und Originalmessung sind unterschiedliche Läufe. Artikel verwendet keine vermischten Erfolgsquoten."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-4",
+      "contentHash": "42f3a08788a3472e8c61ddf6002de925dcf9fbc20289ec7b4de9b0df31ca538d",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-27T08:09:46+00:00",
+          "reviewer": "Codex – gelesener Quellenabgleich",
+          "limitations": [
+            "Simulationsbasierte Autorenbewertung; keine Prüfung realer menschlicher Absichten. Originalpublikation bereits im September 2026, Blogbericht im November."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Google untersucht Verzerrungen durch einseitige Eingaben an KI-Assistenten",
+              "verdict": "supported",
+              "reason": "Der Google-Beitrag untersucht die Auswirkungen subjektiver Nutzerschilderungen auf Modellantworten in kontrollierten Simulationen.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Google Research stellte am 25. November 2026 ein Evaluationsverfahren mit simulierten sozialen Interaktionen vor.",
+              "verdict": "supported",
+              "reason": "Blogdatum ist 25.11.2026, die beschriebene Umgebung besteht aus simulierten sozialen Interaktionen.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Darin muss ein Assistent verborgene Motive aus der subjektiven Schilderung einer simulierten Nutzerperson erschließen.",
+              "verdict": "supported",
+              "reason": "Google beschreibt ein verborgenes Motiv des Zielagenten und die ausschließlich vermittelte Sicht des bewerteten Assistenten.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Google berichtet, dass die untersuchten Modelle auf die Rahmung dieser Schilderungen reagieren und längere Gespräche die Ergebnisse nicht immer verbessern.",
+              "verdict": "supported",
+              "reason": "Key findings nennen Sensitivity to user framing und Multi-turn dynamics: längere Gespräche verbessern Genauigkeit nicht immer.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GOOGLE · KI-EVALUATION",
+              "verdict": "supported",
+              "reason": "Kategorie benennt den tatsächlich berichtenden Anbieter und den im Original beschriebenen fachlichen Bereich; keine zusätzliche Produktfreigabe.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Google prüft den Einfluss einseitiger KI-Eingaben",
+              "verdict": "supported",
+              "reason": "Der Google-Beitrag untersucht die Auswirkungen subjektiver Nutzerschilderungen auf Modellantworten in kontrollierten Simulationen. Die gekürzte Vorschau erhält diesen begrenzten Aussageumfang.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: Google prüft den Einfluss einseitiger KI-Eingaben; Symbol dokument",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den Vorschautitel und das zugehörige kubistische Symbol, keine zusätzliche Zahl oder Produktfähigkeit.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-27T08:09:46+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenrecherche",
+          "limitations": [
+            "Simulationsbasierte Autorenbewertung; keine Prüfung realer menschlicher Absichten. Originalpublikation bereits im September 2026, Blogbericht im November."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Google untersucht Verzerrungen durch einseitige Eingaben an KI-Assistenten",
+              "verdict": "supported",
+              "reason": "Das Untersuchungsziel ist auf simulierte Eingaben begrenzt; keine Diagnose tatsächlicher menschlicher Absichten.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Google Research stellte am 25. November 2026 ein Evaluationsverfahren mit simulierten sozialen Interaktionen vor.",
+              "verdict": "supported",
+              "reason": "Die Originalpublikation ist vom September; die Einordnung nennt dies und behandelt den Novembertermin als Blogbericht.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Darin muss ein Assistent verborgene Motive aus der subjektiven Schilderung einer simulierten Nutzerperson erschließen.",
+              "verdict": "supported",
+              "reason": "Ground truth ist in der Simulation konstruiert, kein Nachweis objektiver privater Motive realer Menschen.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Google berichtet, dass die untersuchten Modelle auf die Rahmung dieser Schilderungen reagieren und längere Gespräche die Ergebnisse nicht immer verbessern.",
+              "verdict": "supported",
+              "reason": "Die Richtungsbefunde sind Autorenangaben; keine allgemeine Rangfolge, Replikation oder exakte Effekthöhe wird behauptet.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GOOGLE · KI-EVALUATION",
+              "verdict": "supported",
+              "reason": "Kategorie benennt den tatsächlich berichtenden Anbieter und den im Original beschriebenen fachlichen Bereich; keine zusätzliche Produktfreigabe.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Google prüft den Einfluss einseitiger KI-Eingaben",
+              "verdict": "supported",
+              "reason": "Das Untersuchungsziel ist auf simulierte Eingaben begrenzt; keine Diagnose tatsächlicher menschlicher Absichten. Die gekürzte Vorschau erhält diesen begrenzten Aussageumfang.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: Google prüft den Einfluss einseitiger KI-Eingaben; Symbol dokument",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den Vorschautitel und das zugehörige kubistische Symbol, keine zusätzliche Zahl oder Produktfähigkeit.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"Verifiable Social Reasoning\" limitations real world",
+              "finding": "Originalblog erneut gelesen: konstruierte Motive und simulierte Nutzer, keine Validierung realer Absichten.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            },
+            {
+              "query": "\"Verifiable Social Reasoning\" dataset github",
+              "finding": "Original-arXiv-Abstract geöffnet: Einreichung 15.09.2026; Fuse und Datenfreigabe dokumentiert. November ist Blogdatum, keine neue Erstveröffentlichung des Papers.",
+              "sourceUrls": [
+                "https://www.research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "25.11.2026 Blogdatum gegen 15.09.2026 arXiv-Einreichung ausdrücklich getrennt.",
+            "scopeAndQualifications": "Simulation und subjektiv vermittelte Schilderungen; keine direkte Beobachtung realer Absichten.",
+            "sourceIndependence": "Google-eigene Forschung; arXiv ist derselbe Autorenbericht, keine unabhängige Bestätigung.",
+            "contradictions": "Mögliche Simulations- und Instruktionsgrenzen erlauben keine universellen Aussagen. Artikel bleibt beim beschriebenen Verfahren und zugeschriebenen Richtungsbefunden."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-5",
+      "contentHash": "229b2ac576f2387c6f6a98b9a63f434106993e623e28a90d843c201b70953ab2",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-27T08:09:46+00:00",
+          "reviewer": "Codex – gelesener Quellenabgleich",
+          "limitations": [
+            "Ausschließlich GitHub-Anbieterangaben zum Uploadformat; keine Bestätigung der Qualität oder Vollständigkeit der Tests."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "GitHub macht fehlerhafte Coverage-Uploads im Workflow sichtbar",
+              "verdict": "supported",
+              "reason": "Der Changelog beschreibt nun explizites Scheitern des Coverage-Uploadschritts bei nicht unterstütztem Format.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "GitHub teilte am 23. November 2026 mit, dass die Code-Quality-Aktion upload-code-coverage das Format Cobertura XML prüft und nicht unterstützte Berichte als fehlgeschlagen meldet.",
+              "verdict": "supported",
+              "reason": "Datum 23.11.2026, Name upload-code-coverage und Cobertura XML werden ausdrücklich genannt.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Zuvor konnten solche Uploads erfolgreich erscheinen, ohne Coverage im Pull Request anzuzeigen.",
+              "verdict": "supported",
+              "reason": "Previously beschreibt erfolgreiche Uploadanzeigen ohne sichtbare Coverage auf Pull Requests.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Änderung setzt aktiviertes GitHub Code Quality voraus und gilt für GitHub Team sowie Enterprise Cloud, nicht für Enterprise Server.",
+              "verdict": "supported",
+              "reason": "Letzter Absatz verlangt aktiviertes Code Quality, nennt Team und Enterprise Cloud einschließlich Datenresidenz und schließt Enterprise Server aus.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GITHUB · CODE QUALITY",
+              "verdict": "supported",
+              "reason": "Kategorie benennt den tatsächlich berichtenden Anbieter und den im Original beschriebenen fachlichen Bereich; keine zusätzliche Produktfreigabe.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "GitHub weist ungültige Coverage-Berichte zurück",
+              "verdict": "supported",
+              "reason": "Der Changelog beschreibt nun explizites Scheitern des Coverage-Uploadschritts bei nicht unterstütztem Format. Die gekürzte Vorschau erhält diesen begrenzten Aussageumfang.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: GitHub weist ungültige Coverage-Berichte zurück; Symbol warnung",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den Vorschautitel und das zugehörige kubistische Symbol, keine zusätzliche Zahl oder Produktfähigkeit.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-27T08:09:46+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenrecherche",
+          "limitations": [
+            "Ausschließlich GitHub-Anbieterangaben zum Uploadformat; keine Bestätigung der Qualität oder Vollständigkeit der Tests."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "GitHub macht fehlerhafte Coverage-Uploads im Workflow sichtbar",
+              "verdict": "supported",
+              "reason": "Der geänderte Uploadschritt prüft das Dateiformat, nicht die fachliche Qualität eines Tests.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "GitHub teilte am 23. November 2026 mit, dass die Code-Quality-Aktion upload-code-coverage das Format Cobertura XML prüft und nicht unterstützte Berichte als fehlgeschlagen meldet.",
+              "verdict": "supported",
+              "reason": "Die Meldung gilt der spezifischen Code-Quality-Aktion; nicht jedem GitHub-Artefaktupload oder jedem XML-Format.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Zuvor konnten solche Uploads erfolgreich erscheinen, ohne Coverage im Pull Request anzuzeigen.",
+              "verdict": "supported",
+              "reason": "Scheinbarer früherer Erfolg bezieht sich auf den Uploadstatus, nicht auf bestandene Tests.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die Änderung setzt aktiviertes GitHub Code Quality voraus und gilt für GitHub Team sowie Enterprise Cloud, nicht für Enterprise Server.",
+              "verdict": "supported",
+              "reason": "Produktgrenzen sind vollständig erhalten; keine Verfügbarkeit auf Enterprise Server oder ohne Code Quality behauptet.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GITHUB · CODE QUALITY",
+              "verdict": "supported",
+              "reason": "Kategorie benennt den tatsächlich berichtenden Anbieter und den im Original beschriebenen fachlichen Bereich; keine zusätzliche Produktfreigabe.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "GitHub weist ungültige Coverage-Berichte zurück",
+              "verdict": "supported",
+              "reason": "Der geänderte Uploadschritt prüft das Dateiformat, nicht die fachliche Qualität eines Tests. Die gekürzte Vorschau erhält diesen begrenzten Aussageumfang.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: GitHub weist ungültige Coverage-Berichte zurück; Symbol warnung",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den Vorschautitel und das zugehörige kubistische Symbol, keine zusätzliche Zahl oder Produktfähigkeit.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "\"upload-code-coverage\" \"Cobertura\" \"Enterprise Server\"",
+              "finding": "Original nennt ausdrücklich Team/Enterprise Cloud und schließt Enterprise Server aus.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            },
+            {
+              "query": "\"Code coverage uploads\" \"November 23, 2026\" errors",
+              "finding": "Original erneut gelesen: der Upload scheitert beim falschen Format; kleine Fehler gültiger Cobertura-Berichte werden toleranter verarbeitet. Keine Testqualitätsmessung.",
+              "sourceUrls": [
+                "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "23.11.2026 Changelog; keine neue Coverage-Schwelle oder Versionszahl behauptet.",
+            "scopeAndQualifications": "Spezifische Code-Quality-Aktion und Cobertura XML; Team/Enterprise Cloud, nicht Enterprise Server.",
+            "sourceIndependence": "GitHub-Original und weitergebende Quellen sind keine unabhängigen Funktionstests.",
+            "contradictions": "Fehlerhaftes Format wird abgewiesen, kleine Probleme gültiger Berichte toleriert; beides ist vereinbar."
+          }
+        }
+      ]
     }
   ]
 }
