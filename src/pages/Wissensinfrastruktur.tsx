@@ -70,6 +70,24 @@ export default function Wissensinfrastruktur() {
         </p>
       </section>
 
+      <section className="research-report__notes" aria-labelledby="report-method">
+        <h2 id="report-method">Datengrundlage der semantischen Auswertung</h2>
+        <p>
+          Nach der bisherigen Arbeitsdokumentation wurden für die semantische Analyse Chat-Titel
+          und Nutzernachrichten kombiniert; die Titel wurden dabei doppelt gewichtet.
+          KI-Antworten gehörten danach nicht zur Textrepräsentation. Die Originalexporte und
+          Analyseskripte wurden für diese Fassung noch nicht erneut verifiziert. Diese Angaben
+          beschreiben daher das dokumentierte Verfahren, keine reproduzierte Prüfung.
+        </p>
+        <p>
+          Die thematischen Gruppen beschreiben vor allem Themen der Nutzereingaben. Ihr Zuschnitt
+          kann durch die Titelgewichtung beeinflusst sein; sie bilden den gesamten Inhalt der
+          Unterhaltungen nicht ab. Ein Vergleich von nur Titeln, nur Nutzernachrichten,
+          ihrer gewichteten Kombination und vollständigen Chats einschließlich KI-Antworten
+          steht aus. Auch die Stabilität der Gruppen wurde damit noch nicht geprüft.
+        </p>
+      </section>
+
       <section className="research-report__notes" aria-labelledby="report-sharing">
         <h2 id="report-sharing">Teilen, Herkunft und Rückmeldungen</h2>
         <p>
