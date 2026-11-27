@@ -50,7 +50,7 @@ export default function Projekte() {
       {/* ── Current focus ── */}
       <section className="projekte-section">
         <div className="container projekte-layout">
-          <aside className="projekte-sidebar">
+          <aside aria-label="Derzeit" className="projekte-sidebar">
             <p className="section-label">Derzeit</p>
           </aside>
           <div className="projekte-body">
@@ -100,7 +100,7 @@ export default function Projekte() {
       {/* ── Concepts ── */}
       <section className="projekte-section">
         <div className="container projekte-layout">
-          <aside className="projekte-sidebar">
+          <aside aria-label="Konzepte" className="projekte-sidebar">
             <p className="section-label">Konzepte</p>
           </aside>
           <div className="projekte-body">
@@ -148,7 +148,7 @@ export default function Projekte() {
       {/* ── Websites ── */}
       <section className="projekte-section projekte-section--last">
         <div className="container projekte-layout">
-          <aside className="projekte-sidebar">
+          <aside aria-label="Webpräsenz" className="projekte-sidebar">
             <p className="section-label">Webpräsenz</p>
           </aside>
           <div className="projekte-body">

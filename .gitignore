@@ -14,6 +14,9 @@ src/generated/news-articles.json
 data/news-fact-checks.pending.json
 __pycache__/
 .venv/
+.venv-news/
+playwright-report/
+test-results/
 *.local
 
 # Local env files

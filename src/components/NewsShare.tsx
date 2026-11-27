@@ -85,7 +85,7 @@ export default function NewsShare({ article }: { article: ShareArticle }) {
     await copyLink()
   }
   return (
-    <div className="news-share" aria-label={`Artikel teilen: ${article.title}`}>
+    <div className="news-share" role="group" aria-label={`Artikel teilen: ${article.title}`}>
       <div className="news-share-actions">
         <button type="button" data-share-url={article.url} onClick={share}>Teilen</button>
         <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(article.url)}`} target="_blank" rel="noopener noreferrer">LinkedIn</a>

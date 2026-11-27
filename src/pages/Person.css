@@ -72,7 +72,7 @@
 }
 
 .meta-sep {
-  color: var(--color-accent-muted);
+  color: var(--color-accent);
 }
 
 /* ── Section layout ── */
@@ -175,7 +175,7 @@
 }
 
 .timeline-item:hover {
-  border-color: var(--color-accent-muted);
+  border-color: var(--color-accent);
 }
 
 .timeline-item__period {
@@ -183,7 +183,7 @@
   font-weight: 500;
   letter-spacing: var(--tracking-widest);
   text-transform: uppercase;
-  color: var(--color-accent-muted);
+  color: var(--color-accent);
   margin-bottom: var(--space-1);
 }
 
@@ -224,7 +224,7 @@
 }
 
 .expertise-item:hover {
-  border-color: var(--color-accent-muted);
+  border-color: var(--color-accent);
 }
 
 .expertise-item__title {

@@ -1,8 +1,11 @@
-import { type ReactNode, useState, useEffect } from 'react'
+import { type ReactNode, useState, useEffect, useRef } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import './Layout.css'
 import disclosure from '../content/news-disclosure.json'
 import PrivacyNotice from './PrivacyNotice'
+import titles from '../content/page-titles.json'
+import articles from '../generated/news-articles.json'
+import { pageTitle } from '../utils/pageTitle'
 
 interface LayoutProps {
   children: ReactNode
@@ -21,17 +24,51 @@ export default function Layout({ children }: LayoutProps) {
   const [menuOpen, setMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const location = useLocation()
+  const dialogRef = useRef<HTMLDialogElement>(null)
+  const lastLocation = useRef(location)
+  const title = pageTitle(location.pathname, titles, articles)
   const isNews = location.pathname === '/news' || location.pathname.startsWith('/news/')
 
   useEffect(() => {
-    if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView()
-    else window.scrollTo(0, 0)
-  }, [location])
+    document.title = title
+    const changed = lastLocation.current !== location
+    lastLocation.current = location
+    if (changed && dialogRef.current?.open) dialogRef.current.close()
+    const frame = requestAnimationFrame(() => {
+      const target = location.hash ? document.getElementById(location.hash.slice(1)) : null
+      if (target) {
+        // Hash targets can be a closed disclosure, or contain one.
+        if (target instanceof HTMLDetailsElement) target.open = true
+        const disclosure = target.querySelector('details')
+        if (disclosure) disclosure.open = true
+        let parent = target.parentElement
+        while (parent) {
+          if (parent instanceof HTMLDetailsElement) parent.open = true
+          parent = parent.parentElement
+        }
+        target.tabIndex = -1
+        target.focus({ preventScroll: true })
+        target.scrollIntoView()
+      } else if (changed) {
+        const heading = document.querySelector<HTMLElement>('main h1')
+        if (heading) {
+          heading.tabIndex = -1
+          heading.focus({ preventScroll: true })
+        }
+        window.scrollTo(0, 0)
+      }
+    })
+    return () => cancelAnimationFrame(frame)
+  }, [location, title])
 
   useEffect(() => {
+    const dialog = dialogRef.current
+    if (!dialog) return
     if (menuOpen) {
+      dialog.showModal()
       document.body.style.overflow = 'hidden'
     } else {
+      if (dialog.open) dialog.close()
       document.body.style.overflow = ''
     }
     return () => { document.body.style.overflow = '' }
@@ -45,6 +82,7 @@ export default function Layout({ children }: LayoutProps) {
 
   return (
     <div className="layout">
+      <a className="skip-link" href="#main-content">Zum Inhalt</a>
       {/* ── Navigation ── */}
       <header className={`nav${scrolled ? ' nav--scrolled' : ''}`}>
         <div className="nav__inner container--wide">
@@ -53,7 +91,7 @@ export default function Layout({ children }: LayoutProps) {
           </NavLink>
 
           {/* Desktop links */}
-          <nav className="nav__links nav__links--desktop" aria-label="Main navigation">
+          <nav className="nav__links nav__links--desktop" aria-label="Hauptnavigation">
             <NavLink to="/" end className={({ isActive }) => `nav__link${isActive ? ' nav__link--active' : ''}`}>
               Home
             </NavLink>
@@ -83,7 +121,9 @@ export default function Layout({ children }: LayoutProps) {
           {/* Burger button */}
           <button
             className={`nav__burger${menuOpen ? ' nav__burger--open' : ''}`}
-            aria-label="Toggle menu"
+            type="button"
+            aria-label="Menü öffnen"
+            aria-controls="navigation-dialog"
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen(!menuOpen)}
           >
@@ -95,16 +135,25 @@ export default function Layout({ children }: LayoutProps) {
       </header>
 
       {/* Mobile menu overlay */}
-      {menuOpen && (
-        <div className="nav__overlay" role="dialog" aria-modal="true" aria-label="Navigation">
+        <dialog ref={dialogRef} id="navigation-dialog" className="nav__overlay" aria-label="Navigation" onClose={() => setMenuOpen(false)} onCancel={() => setMenuOpen(false)} onKeyDown={event => {
+          if (event.key !== 'Tab') return
+          const controls = event.currentTarget.querySelectorAll<HTMLElement>('button, a[href]')
+          const first = controls[0]
+          const last = controls[controls.length - 1]
+          if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus() }
+          else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus() }
+        }}>
+          <div className="nav__overlay-header">
           <button
             className="nav__overlay-close"
-            aria-label="Close menu"
+            type="button"
+            aria-label="Menü schließen"
             onClick={() => setMenuOpen(false)}
           >
             ✕
           </button>
-          <nav className="nav__overlay-links" aria-label="Mobile navigation">
+          </div>
+          <nav className="nav__overlay-links" aria-label="Mobile Hauptnavigation">
             <NavLink to="/" end className={({ isActive }) => `nav__link nav__link--mobile${isActive ? ' nav__link--active' : ''}`} onClick={() => setMenuOpen(false)}>
               Home
             </NavLink>
@@ -130,11 +179,10 @@ export default function Layout({ children }: LayoutProps) {
               <LockIcon />
             </NavLink>
           </nav>
-        </div>
-      )}
+        </dialog>
 
       {/* ── Page content ── */}
-      <main className="main">
+      <main id="main-content" tabIndex={-1} className="main">
         <aside className="site-notice" aria-label="Hinweis zum Entwicklungsstand">
           <p><strong>Diese Website ist noch im Aufbau.</strong> Inhalte und Funktionen werden laufend ergänzt und verbessert.</p>
         </aside>

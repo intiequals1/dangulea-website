@@ -151,7 +151,7 @@ export default function Ressourcen() {
 
       <section className="ressourcen-section ressourcen-section--last">
         <div className="container ressourcen-layout">
-          <aside className="ressourcen-sidebar">
+          <aside aria-label="Themenblöcke" className="ressourcen-sidebar">
             <p className="section-label">Themenblöcke</p>
             <p>
               Hier werden Themenblöcke mit direkt verlinkten Seiten.
@@ -159,7 +159,7 @@ export default function Ressourcen() {
           </aside>
 
           <div className="ressourcen-body">
-            <div className="ressourcen-controls" aria-label="Ressourcen filtern">
+            <div className="ressourcen-controls" role="group" aria-label="Ressourcen filtern">
               <label className="ressourcen-search">
                 <span>Suche</span>
                 <input
@@ -180,7 +180,7 @@ export default function Ressourcen() {
               </label>
             </div>
 
-            <p className="ressourcen-count">
+            <p className="ressourcen-count" role="status" aria-live="polite" aria-atomic="true">
               {visibleResourceCount} von {totalResourceCount} Ressourcen
             </p>
 
