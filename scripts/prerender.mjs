@@ -13,6 +13,13 @@ const routes = [
   { path: '/news', title: `News · ${NAME}` },
   { path: '/aktuelle-themen', title: `Aktuelle Themen · ${NAME}` },
   { path: '/ressourcen', title: `Ressourcen · ${NAME}` },
+  {
+    path: '/ressourcen/wissensinfrastruktur',
+    title: `Von Chat-Verläufen zur Wissensinfrastruktur · ${NAME}`,
+    description: 'Visueller Forschungszwischenbericht über meine 3.173 eigenen ChatGPT-Unterhaltungen (2022-2026). Mit ChatGPT (OpenAI) erstellt. PDF, 17 Seiten; vorläufige Ergebnisse mit Rechenprüfung und methodischen Grenzen.',
+    image: `${SITE}/ressourcen/wissensinfrastruktur-2026-11-27.png`,
+    imageAlt: 'Eigene ChatGPT-Daten von Claudiu Dangulea: 3.173 Unterhaltungen. Forschungszwischenbericht, mit ChatGPT (OpenAI) erstellt.',
+  },
   { path: '/impressum', title: `Impressum · ${NAME}`, noindex: true },
   { path: '/intern', title: `Intern · ${NAME}`, noindex: true },
 ]
@@ -38,12 +45,28 @@ for (const route of routes) {
     .replace(/(<meta property="og:url" content=")[^"]*(")/, `$1${url}$2`)
     .replace(/(<meta property="og:title" content=")[^"]*(")/, `$1${esc(route.title)}$2`)
   html = html.replace(/\n\s*<\/head>/, `\n${dateTags}  </head>`)
+  if (route.description) {
+    html = html
+      .replace(/(<meta name="description" content=")[^"]*(")/, `$1${esc(route.description)}$2`)
+      .replace(/(<meta property="og:description" content=")[^"]*(")/, `$1${esc(route.description)}$2`)
+      .replace(/(<meta property="og:type" content=")[^"]*(")/, '$1article$2')
+      .replace(/(<meta property="og:image" content=")[^"]*(")/, `$1${esc(route.image)}$2`)
+      .replace(/(<meta property="og:image:alt" content=")[^"]*(")/, `$1${esc(route.imageAlt)}$2`)
+      .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/,
+        `<script type="application/ld+json">${JSON.stringify({
+          '@context': 'https://schema.org', '@type': 'Report', name: 'Von Chat-Verläufen zur Wissensinfrastruktur',
+          url, description: route.description, inLanguage: 'de', datePublished: '2026-11-27',
+          isAccessibleForFree: true, creator: { '@type': 'Person', name: NAME },
+          encoding: { '@type': 'MediaObject', encodingFormat: 'application/pdf', contentUrl: `${SITE}/ressourcen/wissensinfrastruktur-2026-11-27.pdf` },
+        })}</script>`)
+  }
   if (route.noindex) html = html.replace('</title>', '</title>\n    <meta name="robots" content="noindex" />')
   const app = render(route.path)
   if (!app) throw new Error(`Leeres Rendering für ${route.path}`)
   html = html.replace('<div id="root"></div>', `<div id="root">${app}</div>`)
   if (!html.includes(app)) throw new Error(`#root nicht gefunden für ${route.path}`)
   const file = route.path === '/' ? 'index.html' : `${route.path.slice(1)}.html`
+  await mkdir(new URL('.', new URL(file, dist)), { recursive: true })
   await writeFile(new URL(file, dist), html)
   console.log(`vorgerendert: ${route.path} → dist/${file}`)
 }
