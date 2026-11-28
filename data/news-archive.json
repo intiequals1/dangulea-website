@@ -2,6 +2,76 @@
   "version": 1,
   "articles": [
     {
+      "id": "2026-11-28-1",
+      "date": "2026-11-28",
+      "number": 1,
+      "title": "SAP präzisiert den CBAM-Datenfluss zwischen Emissionsrechnung und Finanzwesen",
+      "text": "Fakten: SAP erläuterte am 27. November 2026 die CBAM-Funktionen der Oktober-Version von Sustainability Footprint Management. Dazu gehören die Übernahme von Zollanmeldungen, die Verwaltung von Emissionsfaktoren und die Erstellung von CBAM-Berichten. Datei- und API-Importe sind laut SAP verfügbar; die direkte Übernahme aus SAP Global Trade Services ist für das erste Quartal 2027 geplant.\nEinordnung: Für ERP- und Finanzteams steht die Verbindung von Importbelegen, Lieferantendaten und nachvollziehbaren Berechnungen im Vordergrund. Die angekündigte GTS-Anbindung sollte als Roadmap-Punkt von bereits verfügbaren Schnittstellen getrennt werden. Ausschließlich Anbieterangaben; daraus folgt weder eine unabhängige Compliance-Bestätigung noch eine Prüfung der rechtlichen oder bilanziellen Bewertung im Einzelfall.\nQuellen: https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/ | https://www.sap.com/products/scm/sustainability-footprint-management.html",
+      "og": {
+        "og_kategorie": "SAP · CBAM",
+        "og_titel": "SAP präzisiert den CBAM-Datenfluss im ERP",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte: SAP präzisiert den CBAM-Datenfluss im ERP; Symbol dokument"
+      }
+    },
+    {
+      "id": "2026-11-28-2",
+      "date": "2026-11-28",
+      "number": 2,
+      "title": "SAP und planqc zeigen die Rückführung einer Simulatorlösung in einen ERP-Prozess",
+      "text": "Fakten: SAP berichtete am 26. November 2026 über eine Cloud-Schnittstelle zur Quantencomputing-Umgebung von planqc. Im gezeigten Logistikbeispiel wird eine Beladungsaufgabe auf einem Quantensimulator berechnet und der Plan in den SAP-Prozess zurückgegeben. Erste betriebswirtschaftliche Tests auf realer planqc-Quantenhardware sind ab 2027 geplant.\nEinordnung: Die fachliche Entwicklung liegt in der Anbindung spezialisierter Lösungsverfahren an bestehende Geschäftsprozesse. Für Unternehmensarchitekten ist das ein Integrationsbeispiel, kein nachgewiesener Geschwindigkeits- oder Kostenvorteil eines Quantencomputers. Die Quelle stammt von einem beteiligten Unternehmen; Hardwaretests und ein produktiver Kundeneinsatz sind damit nicht belegt.\nQuellen: https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/",
+      "og": {
+        "og_kategorie": "SAP · PLANQC",
+        "og_titel": "SAP bindet einen Quantensimulator an Logistikprozesse",
+        "og_fakten": [],
+        "og_icon": "zahnrad",
+        "og_alt": "Kubistische Karte: SAP bindet einen Quantensimulator an Logistikprozesse; Symbol zahnrad"
+      }
+    },
+    {
+      "id": "2026-11-28-3",
+      "date": "2026-11-28",
+      "number": 3,
+      "title": "ggml-org öffnet Vergleichsdaten für lokale KI-Inferenz auf AMD-Hardware",
+      "text": "Fakten: ggml-org stellte am 26. November 2026 ein öffentliches llama.cpp-Benchmark-Dashboard für AMD Ryzen und Radeon vor. Es trennt Prompt-Verarbeitung und Textgenerierung und erlaubt Vergleiche nach Hardware, Modell, Build und Quantisierung. Die zugrunde liegenden Messdaten und die wöchentlich ausgeführten Benchmark-Workflows sind öffentlich zugänglich.\nEinordnung: Teams mit lokal betriebenen Sprachmodellen können damit Softwarewechsel und Quantisierung gezielter untersuchen. Durchsatzmessungen ersetzen jedoch keine Prüfung von Antwortqualität, Speicherbedarf und Latenz unter der eigenen Arbeitslast. Projektangaben mit Unterstützung durch AMD; keine hier durchgeführte unabhängige Hardwaremessung oder allgemeine Kaufempfehlung.\nQuellen: https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "og": {
+        "og_kategorie": "GGML-ORG · LLAMA.CPP",
+        "og_titel": "ggml-org öffnet Vergleichsdaten für lokale KI-Inferenz",
+        "og_fakten": [],
+        "og_icon": "dokument",
+        "og_alt": "Kubistische Karte: ggml-org öffnet Vergleichsdaten für lokale KI-Inferenz; Symbol dokument"
+      }
+    },
+    {
+      "id": "2026-11-28-4",
+      "date": "2026-11-28",
+      "number": 4,
+      "title": "AWS ergänzt CloudWatch-Metriken um eine OpenTelemetry-Basisanreicherung",
+      "text": "Fakten: AWS kündigte am 27. November 2026 eine Basisanreicherung ressourcenbezogener CloudWatch-Metriken im OpenTelemetry-Format ohne zusätzliche Kosten an. Die angereicherten Daten lassen sich mit PromQL abfragen; vorhandene CloudWatch-Dimensionen werden zu Datenpunktattributen. Die weitergehende Anreicherung mit Ressourcen-Tags ist dagegen kostenpflichtig.\nEinordnung: Für den Betrieb verteilter Daten- und ERP-Integrationen erleichtert ein gemeinsames Telemetrieformat die Verbindung technischer Messwerte mit dem Ressourcenkontext. Vor einer Umstellung sind unterstützte Metriken, Regionen und die Abgrenzung zur kostenpflichtigen Tag-Anreicherung zu prüfen. Ausschließlich Anbieterquellen; keine unabhängig gemessene Verbesserung der Fehlerdiagnose.\nQuellen: https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/ | https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-OTelEnrichment.html",
+      "og": {
+        "og_kategorie": "AWS · CLOUDWATCH",
+        "og_titel": "AWS ergänzt OpenTelemetry-Kontext für CloudWatch",
+        "og_fakten": [],
+        "og_icon": "cloud",
+        "og_alt": "Kubistische Karte: AWS ergänzt OpenTelemetry-Kontext für CloudWatch; Symbol cloud"
+      }
+    },
+    {
+      "id": "2026-11-28-5",
+      "date": "2026-11-28",
+      "number": 5,
+      "title": "Marginlab erweitert das Langzeitmonitoring von Coding-Agenten um Antigravity",
+      "text": "Fakten: Marginlab nahm laut seinem Änderungsprotokoll am 27. November 2026 einen Tracker für Antigravity CLI mit Gemini 4 Neon auf. Wegen Nutzungslimits durchläuft er jede Nacht sechs Aufgaben aus einem festen Pool von 50 SWE-Bench-Pro-Aufgaben in Rotation. Während die neue Vergleichsbasis aufgebaut wird, bleibt die Erkennung von Leistungsrückgängen für diesen Tracker pausiert.\nEinordnung: Für die Einführung von Coding-Agenten ist die wiederholte Bewertung derselben Aufgaben oft aussagekräftiger als eine einzelne Erfolgsquote. Der neue Tracker illustriert zugleich, warum unterschiedliche Tagesaufgaben und geringe Stichproben Vergleiche erschweren. Es handelt sich um die eigene Versuchsanordnung des Projekts, nicht um eine allgemeine Rangliste oder eine unabhängige Replikation seiner Ergebnisse.\nQuellen: https://marginlab.ai/changelog/ | https://marginlab.ai/trackers/antigravity/ | https://marginlab.ai/methodology/",
+      "og": {
+        "og_kategorie": "MARGINLAB · AGENTEN",
+        "og_titel": "Marginlab nimmt Antigravity ins Agentenmonitoring auf",
+        "og_fakten": [],
+        "og_icon": "kalender",
+        "og_alt": "Kubistische Karte: Marginlab nimmt Antigravity ins Agentenmonitoring auf; Symbol kalender"
+      }
+    },
+    {
       "id": "2026-11-27-1",
       "date": "2026-11-27",
       "number": 1,

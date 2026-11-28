@@ -19118,6 +19118,950 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-28-1",
+      "contentHash": "e80a47feecebce7b617b828f3a96309ef6daf26ff70297dcbb380df08a993399",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-28T08:52:50+00:00",
+          "reviewer": "Codex – tatsächlich gelesener Quellenabgleich",
+          "limitations": [
+            "Herstellerbericht zur Oktober-Version und Roadmap; keine unabhängige Bestätigung regulatorischer oder bilanzieller Compliance."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP präzisiert den CBAM-Datenfluss zwischen Emissionsrechnung und Finanzwesen",
+              "verdict": "supported",
+              "reason": "Der Beitrag verbindet die CBAM-Berechnung mit Green Ledger und beschreibt den Datenfluss zwischen Emissionen und Finanzwesen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP erläuterte am 27. November 2026 die CBAM-Funktionen der Oktober-Version von Sustainability Footprint Management.",
+              "verdict": "supported",
+              "reason": "Blogdatum 27.11.2026; Abschnitt Inside the October release nennt ausdrücklich die Oktober-Version.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Dazu gehören die Übernahme von Zollanmeldungen, die Verwaltung von Emissionsfaktoren und die Erstellung von CBAM-Berichten.",
+              "verdict": "supported",
+              "reason": "Aufgeführt sind Import business transactions für customs declarations, Emissionsfaktor-Apps und Manage CBAM reports.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Datei- und API-Importe sind laut SAP verfügbar; die direkte Übernahme aus SAP Global Trade Services ist für das erste Quartal 2027 geplant.",
+              "verdict": "supported",
+              "reason": "Abschnitt What comes next nennt vorhandene Datei-/API-Anbindung und Q1 2027 als künftige GTS-Anbindung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SAP · CBAM",
+              "verdict": "supported",
+              "reason": "Kategorie nennt die berichtende Originalorganisation und den konkret behandelten Produkt-/Projektbereich, ohne zusätzliche Freigabeaussage.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "SAP präzisiert den CBAM-Datenfluss im ERP",
+              "verdict": "supported",
+              "reason": "Der Beitrag verbindet die CBAM-Berechnung mit Green Ledger und beschreibt den Datenfluss zwischen Emissionen und Finanzwesen. Die Vorschau erhält diesen begrenzten Kern.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: SAP präzisiert den CBAM-Datenfluss im ERP; Symbol dokument",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den sachlich passenden Vorschautitel und das kubistische Symbol; keine zusätzlichen Termine, Zahlen oder Leistungsversprechen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-28T08:52:50+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenrecherche",
+          "limitations": [
+            "Herstellerbericht zur Oktober-Version und Roadmap; keine unabhängige Bestätigung regulatorischer oder bilanzieller Compliance."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP präzisiert den CBAM-Datenfluss zwischen Emissionsrechnung und Finanzwesen",
+              "verdict": "supported",
+              "reason": "Der Titel behauptet keine erstmalige Produktfreigabe im November oder geprüfte Bilanzierung, sondern erläuterte Datenintegration.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP erläuterte am 27. November 2026 die CBAM-Funktionen der Oktober-Version von Sustainability Footprint Management.",
+              "verdict": "supported",
+              "reason": "Datum des Blogberichts und Oktober-Release sind getrennt; keine neue regulatorische Frist daraus abgeleitet.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Dazu gehören die Übernahme von Zollanmeldungen, die Verwaltung von Emissionsfaktoren und die Erstellung von CBAM-Berichten.",
+              "verdict": "supported",
+              "reason": "Die Produktseite bestätigt den CBAM-Workflow, ist aber dieselbe Organisation und kein unabhängiger Compliance-Nachweis.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Datei- und API-Importe sind laut SAP verfügbar; die direkte Übernahme aus SAP Global Trade Services ist für das erste Quartal 2027 geplant.",
+              "verdict": "supported",
+              "reason": "GTS bleibt Q1-2027-Roadmap; aktuell verfügbare API-/Dateiimporte werden nicht damit verwechselt.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SAP · CBAM",
+              "verdict": "supported",
+              "reason": "Kategorie nennt die berichtende Originalorganisation und den konkret behandelten Produkt-/Projektbereich, ohne zusätzliche Freigabeaussage.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "SAP präzisiert den CBAM-Datenfluss im ERP",
+              "verdict": "supported",
+              "reason": "Der Titel behauptet keine erstmalige Produktfreigabe im November oder geprüfte Bilanzierung, sondern erläuterte Datenintegration. Die Vorschau erhält diesen begrenzten Kern.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: SAP präzisiert den CBAM-Datenfluss im ERP; Symbol dokument",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den sachlich passenden Vorschautitel und das kubistische Symbol; keine zusätzlichen Termine, Zahlen oder Leistungsversprechen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.news.sap.com \"mastering-cbam\" \"Q1 2027\" \"October\"",
+              "finding": "Original erneut gelesen: Oktober-Release und Q1-2027-Plan stehen nebeneinander. Blogdatum ist keine neue gesetzliche Frist.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            },
+            {
+              "query": "site.help.sap.com \"CBAM\" \"Global Trade Services\" \"2027\"",
+              "finding": "Keine unabhängige Freigabebestätigung aus der Suche gewonnen. Geöffnete SAP-Produktseite nennt CBAM-Datenfluss; die konkrete GTS-Terminangabe bleibt sichtbar zugeschriebene Roadmap des Originalberichts.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/mastering-cbam-compliance-what-latest-sap-release-means-for-declarants/",
+                "https://www.sap.com/products/scm/sustainability-footprint-management.html"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "27.11. ist Berichtdatum, Oktober der Releasestand; Q1 2027 ist geplante GTS-Anbindung. Keine Gesetzesfristen oder Preise übernommen.",
+            "scopeAndQualifications": "Herstellerbeschreibung von Daten-/Berichtsfunktionen, keine pauschale Compliance- oder Bilanzierungsfreigabe.",
+            "sourceIndependence": "SAP-Blog und Produktseite gehören zur gleichen Organisation; keine unabhängige Bestätigung behauptet.",
+            "contradictions": "Vorhandene Datei/API-Importe und geplante direkte GTS-Integration sind vereinbar und ausdrücklich getrennt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-2",
+      "contentHash": "5df6ac5eaf9e4f3c4016a6df1d31d32d1e83083e07b1a3b69f3407d5c47571c3",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-28T08:52:50+00:00",
+          "reviewer": "Codex – tatsächlich gelesener Quellenabgleich",
+          "limitations": [
+            "Ankündigung eines beteiligten Unternehmens; Simulator-Demo ohne nachgewiesenen Quantenleistungsgewinn. Reale Hardwaretests erst ab 2027 geplant."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP und planqc zeigen die Rückführung einer Simulatorlösung in einen ERP-Prozess",
+              "verdict": "supported",
+              "reason": "Das Logistikbeispiel beschreibt die Rückgabe eines auf dem Simulator berechneten Beladeplans in den SAP-Prozess.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP berichtete am 26. November 2026 über eine Cloud-Schnittstelle zur Quantencomputing-Umgebung von planqc.",
+              "verdict": "supported",
+              "reason": "SAP-Datierung 26.11.2026 und cloud interface zur planqc-Umgebung werden ausdrücklich genannt.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Im gezeigten Logistikbeispiel wird eine Beladungsaufgabe auf einem Quantensimulator berechnet und der Plan in den SAP-Prozess zurückgegeben.",
+              "verdict": "supported",
+              "reason": "Der Originalabsatz sagt quantum simulator und anschließend return to SAP, nicht Berechnung auf dem Quantenchip.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Erste betriebswirtschaftliche Tests auf realer planqc-Quantenhardware sind ab 2027 geplant.",
+              "verdict": "supported",
+              "reason": "Die Ankündigung bezeichnet Tests realer planqc-Hardware ab 2027 als Plan.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SAP · PLANQC",
+              "verdict": "supported",
+              "reason": "Kategorie nennt die berichtende Originalorganisation und den konkret behandelten Produkt-/Projektbereich, ohne zusätzliche Freigabeaussage.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "SAP bindet einen Quantensimulator an Logistikprozesse",
+              "verdict": "supported",
+              "reason": "Das Logistikbeispiel beschreibt die Rückgabe eines auf dem Simulator berechneten Beladeplans in den SAP-Prozess. Die Vorschau erhält diesen begrenzten Kern.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: SAP bindet einen Quantensimulator an Logistikprozesse; Symbol zahnrad",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den sachlich passenden Vorschautitel und das kubistische Symbol; keine zusätzlichen Termine, Zahlen oder Leistungsversprechen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-28T08:52:50+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenrecherche",
+          "limitations": [
+            "Ankündigung eines beteiligten Unternehmens; Simulator-Demo ohne nachgewiesenen Quantenleistungsgewinn. Reale Hardwaretests erst ab 2027 geplant."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "SAP und planqc zeigen die Rückführung einer Simulatorlösung in einen ERP-Prozess",
+              "verdict": "supported",
+              "reason": "Der Titel begrenzt das Ergebnis auf eine Simulator-Integration und behauptet keinen Quantum Advantage.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "SAP berichtete am 26. November 2026 über eine Cloud-Schnittstelle zur Quantencomputing-Umgebung von planqc.",
+              "verdict": "supported",
+              "reason": "Cloud-Schnittstelle und Datum bestätigt; Hardware im Architekturbild ist nicht gleich tatsächliche Berechnung auf Hardware.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Im gezeigten Logistikbeispiel wird eine Beladungsaufgabe auf einem Quantensimulator berechnet und der Plan in den SAP-Prozess zurückgegeben.",
+              "verdict": "supported",
+              "reason": "Gegenrecherche und Original trennen Simulatorberechnung von späterer Hardwareerprobung.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Erste betriebswirtschaftliche Tests auf realer planqc-Quantenhardware sind ab 2027 geplant.",
+              "verdict": "supported",
+              "reason": "2027 ist geplanter Testbeginn, kein Termin eines allgemein verfügbaren ERP-Quantenprodukts.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "SAP · PLANQC",
+              "verdict": "supported",
+              "reason": "Kategorie nennt die berichtende Originalorganisation und den konkret behandelten Produkt-/Projektbereich, ohne zusätzliche Freigabeaussage.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "SAP bindet einen Quantensimulator an Logistikprozesse",
+              "verdict": "supported",
+              "reason": "Der Titel begrenzt das Ergebnis auf eine Simulator-Integration und behauptet keinen Quantum Advantage. Die Vorschau erhält diesen begrenzten Kern.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: SAP bindet einen Quantensimulator an Logistikprozesse; Symbol zahnrad",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den sachlich passenden Vorschautitel und das kubistische Symbol; keine zusätzlichen Termine, Zahlen oder Leistungsversprechen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.planqc.eu SAP November 26 2026 simulator",
+              "finding": "Suche ergibt die SAP-Ankündigung und weitergebende Berichte; Original erneut gelesen. Keine eigene planqc-Messung oder unabhängige Leistungsprüfung daraus ableitbar.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            },
+            {
+              "query": "\"SAP\" \"planqc\" \"quantum simulator\" \"2027\"",
+              "finding": "Original bestätigt ausdrücklich Simulator-Demo und erst geplante reale Hardwaretests ab 2027; vermeintlicher bereits nachgewiesener Quanten-Vorteil verworfen.",
+              "sourceUrls": [
+                "https://news.sap.com/2026/11/sap-planqc-bring-quantum-computing-business-processes/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "26.11.2026 Ankündigung, ab 2027 geplanter Hardwaretest. Keine Leistungs-/Kostenmesszahlen übernommen.",
+            "scopeAndQualifications": "Cloud-Integration mit Simulator im Beispiel; weder allgemeine Verfügbarkeit noch Realhardwareberechnung im Beispiel behauptet.",
+            "sourceIndependence": "SAP ist Beteiligter; Wiederholungen der Ankündigung sind keine eigenständigen Leistungsbelege.",
+            "contradictions": "Allgemeine Formulierung zur Quantenanbindung wird durch den konkreten Simulatorabsatz begrenzt; Artikel übernimmt diese Einschränkung."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-3",
+      "contentHash": "0390bd6cc9798cb1908c808c67a20071ca6b4a18c89756c7aa835ba6713bde10",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-28T08:52:50+00:00",
+          "reviewer": "Codex – tatsächlich gelesener Quellenabgleich",
+          "limitations": [
+            "Projektmessungen mit AMD-Unterstützung und begrenzten Hardware-/Modellkonfigurationen; keine hier durchgeführte unabhängige Replikation."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "ggml-org öffnet Vergleichsdaten für lokale KI-Inferenz auf AMD-Hardware",
+              "verdict": "supported",
+              "reason": "Das Dashboard und die öffentlichen Messergebnisse sind Gegenstand der Projektankündigung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "ggml-org stellte am 26. November 2026 ein öffentliches llama.cpp-Benchmark-Dashboard für AMD Ryzen und Radeon vor.",
+              "verdict": "supported",
+              "reason": "ggml-org-Autoren, Publikationsdatum 26.11.2026 und AMD Ryzen/Radeon sind im Original angegeben.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Es trennt Prompt-Verarbeitung und Textgenerierung und erlaubt Vergleiche nach Hardware, Modell, Build und Quantisierung.",
+              "verdict": "supported",
+              "reason": "Quick start unterscheidet Hardware, Model, build und quantizations; PP512 und TG128 trennen Prompt und Generierung.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die zugrunde liegenden Messdaten und die wöchentlich ausgeführten Benchmark-Workflows sind öffentlich zugänglich.",
+              "verdict": "supported",
+              "reason": "Die Projektseite verlinkt öffentliche Workflows und Datenspeicher; der gelesene gfx1151-Workflow enthält einen wöchentlichen Cron.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GGML-ORG · LLAMA.CPP",
+              "verdict": "supported",
+              "reason": "Kategorie nennt die berichtende Originalorganisation und den konkret behandelten Produkt-/Projektbereich, ohne zusätzliche Freigabeaussage.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "ggml-org öffnet Vergleichsdaten für lokale KI-Inferenz",
+              "verdict": "supported",
+              "reason": "Das Dashboard und die öffentlichen Messergebnisse sind Gegenstand der Projektankündigung. Die Vorschau erhält diesen begrenzten Kern.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: ggml-org öffnet Vergleichsdaten für lokale KI-Inferenz; Symbol dokument",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den sachlich passenden Vorschautitel und das kubistische Symbol; keine zusätzlichen Termine, Zahlen oder Leistungsversprechen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-28T08:52:50+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenrecherche",
+          "limitations": [
+            "Projektmessungen mit AMD-Unterstützung und begrenzten Hardware-/Modellkonfigurationen; keine hier durchgeführte unabhängige Replikation."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "ggml-org öffnet Vergleichsdaten für lokale KI-Inferenz auf AMD-Hardware",
+              "verdict": "supported",
+              "reason": "Öffentliche Vergleichsdaten sind belegt; kein eigener reproduzierter Leistungsvorsprung behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "ggml-org stellte am 26. November 2026 ein öffentliches llama.cpp-Benchmark-Dashboard für AMD Ryzen und Radeon vor.",
+              "verdict": "supported",
+              "reason": "Ankündigung vom 26.11., keine Meldung über eine Freigabe aller AMD-Geräte.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Es trennt Prompt-Verarbeitung und Textgenerierung und erlaubt Vergleiche nach Hardware, Modell, Build und Quantisierung.",
+              "verdict": "supported",
+              "reason": "Prompt-Verarbeitung und Textausgabe sind verschiedene Durchsatztests, nicht die Antwortqualität oder Ende-zu-Ende-Latenz.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die zugrunde liegenden Messdaten und die wöchentlich ausgeführten Benchmark-Workflows sind öffentlich zugänglich.",
+              "verdict": "supported",
+              "reason": "Wöchentlicher Workflow ist im Quellcode mit Cron belegt; tatsächliche externe Replikation wurde hier nicht durchgeführt.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "GGML-ORG · LLAMA.CPP",
+              "verdict": "supported",
+              "reason": "Kategorie nennt die berichtende Originalorganisation und den konkret behandelten Produkt-/Projektbereich, ohne zusätzliche Freigabeaussage.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "ggml-org öffnet Vergleichsdaten für lokale KI-Inferenz",
+              "verdict": "supported",
+              "reason": "Öffentliche Vergleichsdaten sind belegt; kein eigener reproduzierter Leistungsvorsprung behauptet. Die Vorschau erhält diesen begrenzten Kern.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: ggml-org öffnet Vergleichsdaten für lokale KI-Inferenz; Symbol dokument",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den sachlich passenden Vorschautitel und das kubistische Symbol; keine zusätzlichen Termine, Zahlen oder Leistungsversprechen.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.huggingface.co/blog/ggml-org/llamacpp-amd-bench \"PP512\" \"TG128\"",
+              "finding": "Original mit PP512/TG128 tatsächlich gelesen: zwei Referenzdurchsatztests, kein Qualitätsbenchmark für Antworten.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            },
+            {
+              "query": "\"llamacpp-amd-bench\" \"weekly\" \"8060S\"",
+              "finding": "Projektworkflow geöffnet und Cron 0 0 * * 3 gelesen. Quelle nennt zwei aktuelle Hardwareoptionen; keine pauschale Abdeckung aller Ryzen-/Radeon-Konfigurationen behauptet.",
+              "sourceUrls": [
+                "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+                "https://github.com/ggml-org/llama-install.sh/blob/master/.github/workflows/bench-gfx1151.yml"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "26.11.2026 Blog. Wöchentlicher Cron aus dem geöffneten Projektworkflow; keine Leistungszahlen publiziert.",
+            "scopeAndQualifications": "Referenzdurchsatz unter ausgewählten Builds, Modellen, Quantisierungen und Hardware; keine Qualitäts- oder vollständige Latenzaussage.",
+            "sourceIndependence": "ggml-org-eigene Daten und Workflows; AMD-Unterstützung offengelegt, kein unabhängiger Nachmessversuch.",
+            "contradictions": "Keine Abweichung zur begrenzten Verfügbarkeits-/Methodenmeldung. Medienweitergaben werden nicht als Replikation gewertet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-4",
+      "contentHash": "5ed75b44c16976be42917bddc982b201dad5a287167da0b9e77e19de2e761991",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-28T08:52:50+00:00",
+          "reviewer": "Codex – tatsächlich gelesener Quellenabgleich",
+          "limitations": [
+            "Ausschließlich AWS-Anbieterangaben. Kostenlos ist die Basisanreicherung, nicht die zusätzliche Ressourcen-Tag-Anreicherung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "AWS ergänzt CloudWatch-Metriken um eine OpenTelemetry-Basisanreicherung",
+              "verdict": "supported",
+              "reason": "Die Ankündigung beschreibt die neue basic OpenTelemetry enrichment für AWS-Service-Metriken.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "AWS kündigte am 27. November 2026 eine Basisanreicherung ressourcenbezogener CloudWatch-Metriken im OpenTelemetry-Format ohne zusätzliche Kosten an.",
+              "verdict": "supported",
+              "reason": "Datierung 27.11.2026; ohne Aufpreis gilt ausdrücklich für basic enrichment ressourcenidentifizierender Metriken.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die angereicherten Daten lassen sich mit PromQL abfragen; vorhandene CloudWatch-Dimensionen werden zu Datenpunktattributen.",
+              "verdict": "supported",
+              "reason": "Original erklärt PromQL und die Umwandlung bestehender Dimensions in data point attributes.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die weitergehende Anreicherung mit Ressourcen-Tags ist dagegen kostenpflichtig.",
+              "verdict": "supported",
+              "reason": "Der direkt folgende Absatz nennt resource tag enrichment ausdrücklich kostenpflichtig als OTel Vended Metric Enrichment.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "AWS · CLOUDWATCH",
+              "verdict": "supported",
+              "reason": "Kategorie nennt die berichtende Originalorganisation und den konkret behandelten Produkt-/Projektbereich, ohne zusätzliche Freigabeaussage.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "AWS ergänzt OpenTelemetry-Kontext für CloudWatch",
+              "verdict": "supported",
+              "reason": "Die Ankündigung beschreibt die neue basic OpenTelemetry enrichment für AWS-Service-Metriken. Die Vorschau erhält diesen begrenzten Kern.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: AWS ergänzt OpenTelemetry-Kontext für CloudWatch; Symbol cloud",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den sachlich passenden Vorschautitel und das kubistische Symbol; keine zusätzlichen Termine, Zahlen oder Leistungsversprechen.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-28T08:52:50+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenrecherche",
+          "limitations": [
+            "Ausschließlich AWS-Anbieterangaben. Kostenlos ist die Basisanreicherung, nicht die zusätzliche Ressourcen-Tag-Anreicherung."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "AWS ergänzt CloudWatch-Metriken um eine OpenTelemetry-Basisanreicherung",
+              "verdict": "supported",
+              "reason": "Der Titel bleibt bei der Basisanreicherung und wertet sie nicht zu einer vollständigen Observability-Lösung auf.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "AWS kündigte am 27. November 2026 eine Basisanreicherung ressourcenbezogener CloudWatch-Metriken im OpenTelemetry-Format ohne zusätzliche Kosten an.",
+              "verdict": "supported",
+              "reason": "Kostenfreiheit ist auf basic enrichment begrenzt; nicht alle CloudWatch-Funktionen oder Ressourcen-Tags sind kostenlos.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Die angereicherten Daten lassen sich mit PromQL abfragen; vorhandene CloudWatch-Dimensionen werden zu Datenpunktattributen.",
+              "verdict": "supported",
+              "reason": "Die Ankündigung benennt die Attributabbildung; daraus folgt keine Garantie besserer Fehlerdiagnose.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Die weitergehende Anreicherung mit Ressourcen-Tags ist dagegen kostenpflichtig.",
+              "verdict": "supported",
+              "reason": "Der kostenpflichtige Tag-Zweig ist ausdrücklich erhalten, statt die kostenlose Basismeldung darauf auszudehnen.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "AWS · CLOUDWATCH",
+              "verdict": "supported",
+              "reason": "Kategorie nennt die berichtende Originalorganisation und den konkret behandelten Produkt-/Projektbereich, ohne zusätzliche Freigabeaussage.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "AWS ergänzt OpenTelemetry-Kontext für CloudWatch",
+              "verdict": "supported",
+              "reason": "Der Titel bleibt bei der Basisanreicherung und wertet sie nicht zu einer vollständigen Observability-Lösung auf. Die Vorschau erhält diesen begrenzten Kern.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: AWS ergänzt OpenTelemetry-Kontext für CloudWatch; Symbol cloud",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den sachlich passenden Vorschautitel und das kubistische Symbol; keine zusätzlichen Termine, Zahlen oder Leistungsversprechen.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.docs.aws.amazon.com \"basic enrichment\" \"resource tag enrichment\"",
+              "finding": "Originalankündigung unterscheidet kostenfreie Basis und kostenpflichtige Tags. Die zusätzlich geöffnete ältere Dokumentationsseite enthält die neue Basic-Bezeichnung nicht; sie wird dafür nicht als Bestätigung verwendet.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            },
+            {
+              "query": "\"CloudWatch\" \"November 27, 2026\" \"additional cost\" enrichment",
+              "finding": "Die gezielte Datum-/Kostenrecherche führt zum AWS-Original vom 27.11.; dessen explizite Kostengrenze bleibt im Artikel. Keine unabhängige Messung oder universelle Regionsfreigabe behauptet.",
+              "sourceUrls": [
+                "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "27.11.2026 Ankündigung. Keine Einsparhöhe oder universelle Regionszahl behauptet.",
+            "scopeAndQualifications": "Ressourcenbezogene Basisanreicherung ohne Zusatzkosten, Tags separat kostenpflichtig; unterstützte Regionen bleiben begrenzt.",
+            "sourceIndependence": "Ankündigung und Doku sind AWS-eigen; kein externer Wirksamkeitsbeleg.",
+            "contradictions": "Ältere Doku bestätigt die neue Basisstufe nicht ausdrücklich. Der zugängliche aktuelle Originaltext belegt alle verwendeten Aussagen; Kostenfreiheit wird nicht auf Tags ausgedehnt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-5",
+      "contentHash": "935b0ba7b1f6756f173698917f1fc28975faa397df43f35e556192e2be7aec97",
+      "stages": [
+        {
+          "method": "source-evidence-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-28T08:52:50+00:00",
+          "reviewer": "Codex – tatsächlich gelesener Quellenabgleich",
+          "limitations": [
+            "Neue kleine, rotierende Projektstichprobe mit pausierter Regressionserkennung; keine allgemeine Rangliste oder unabhängige Replikation."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Marginlab erweitert das Langzeitmonitoring von Coding-Agenten um Antigravity",
+              "verdict": "supported",
+              "reason": "Changelog und konkrete Tracker-Seite dokumentieren die Erweiterung um Antigravity CLI.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Marginlab nahm laut seinem Änderungsprotokoll am 27. November 2026 einen Tracker für Antigravity CLI mit Gemini 4 Neon auf.",
+              "verdict": "supported",
+              "reason": "Abschnitt vom 27.11.2026 kündigt den neuen Gemini-4-Neon-Tracker an; die Tracker-Seite nennt Laufbeginn 27.11.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Wegen Nutzungslimits durchläuft er jede Nacht sechs Aufgaben aus einem festen Pool von 50 SWE-Bench-Pro-Aufgaben in Rotation.",
+              "verdict": "supported",
+              "reason": "Methodik und Tracker stimmen über sechs nächtliche Aufgaben aus 50 Aufgaben sowie Rotation wegen Nutzungslimits überein.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Während die neue Vergleichsbasis aufgebaut wird, bleibt die Erkennung von Leistungsrückgängen für diesen Tracker pausiert.",
+              "verdict": "supported",
+              "reason": "Die konkrete Antigravity-Seite sagt baseline collecting und detection paused; diese Einschränkung ist im Text enthalten.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "MARGINLAB · AGENTEN",
+              "verdict": "supported",
+              "reason": "Kategorie nennt die berichtende Originalorganisation und den konkret behandelten Produkt-/Projektbereich, ohne zusätzliche Freigabeaussage.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Marginlab nimmt Antigravity ins Agentenmonitoring auf",
+              "verdict": "supported",
+              "reason": "Changelog und konkrete Tracker-Seite dokumentieren die Erweiterung um Antigravity CLI. Die Vorschau erhält diesen begrenzten Kern.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: Marginlab nimmt Antigravity ins Agentenmonitoring auf; Symbol kalender",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den sachlich passenden Vorschautitel und das kubistische Symbol; keine zusätzlichen Termine, Zahlen oder Leistungsversprechen.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            }
+          ]
+        },
+        {
+          "method": "counter-check-v1",
+          "status": "passed",
+          "checkedAt": "2026-11-28T08:52:50+00:00",
+          "reviewer": "Codex – gesonderte kritische Gegenrecherche",
+          "limitations": [
+            "Neue kleine, rotierende Projektstichprobe mit pausierter Regressionserkennung; keine allgemeine Rangliste oder unabhängige Replikation."
+          ],
+          "claims": [
+            {
+              "id": "headline",
+              "text": "Marginlab erweitert das Langzeitmonitoring von Coding-Agenten um Antigravity",
+              "verdict": "supported",
+              "reason": "Der neue Tracker ist belegt, keine Aussage einer gemessenen Regression oder eines generellen Modellsiegers.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            },
+            {
+              "id": "fact-1",
+              "text": "Marginlab nahm laut seinem Änderungsprotokoll am 27. November 2026 einen Tracker für Antigravity CLI mit Gemini 4 Neon auf.",
+              "verdict": "supported",
+              "reason": "Startdatum und Modell passen zur konkreten Tracker-Seite; Projektangaben werden nicht als unabhängige Replikation bezeichnet.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            },
+            {
+              "id": "fact-2",
+              "text": "Wegen Nutzungslimits durchläuft er jede Nacht sechs Aufgaben aus einem festen Pool von 50 SWE-Bench-Pro-Aufgaben in Rotation.",
+              "verdict": "supported",
+              "reason": "Sechs rotierende Aufgaben sind keine 50 täglichen Versuche und keine volle Woche von Tests am ersten Tag.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            },
+            {
+              "id": "fact-3",
+              "text": "Während die neue Vergleichsbasis aufgebaut wird, bleibt die Erkennung von Leistungsrückgängen für diesen Tracker pausiert.",
+              "verdict": "supported",
+              "reason": "Unterschiedliche Anzeigen zu anderen Trackern im Changelog und Überblick erlauben keine globale Aktivierungsaussage. Der Artikel behandelt nur Antigravity, wo Pause in allen relevanten Originalabschnitten übereinstimmt.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            },
+            {
+              "id": "og-category",
+              "text": "MARGINLAB · AGENTEN",
+              "verdict": "supported",
+              "reason": "Kategorie nennt die berichtende Originalorganisation und den konkret behandelten Produkt-/Projektbereich, ohne zusätzliche Freigabeaussage.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            },
+            {
+              "id": "og-headline",
+              "text": "Marginlab nimmt Antigravity ins Agentenmonitoring auf",
+              "verdict": "supported",
+              "reason": "Der neue Tracker ist belegt, keine Aussage einer gemessenen Regression oder eines generellen Modellsiegers. Die Vorschau erhält diesen begrenzten Kern.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            },
+            {
+              "id": "og-alt",
+              "text": "Kubistische Karte: Marginlab nimmt Antigravity ins Agentenmonitoring auf; Symbol kalender",
+              "verdict": "supported",
+              "reason": "Alt-Text beschreibt den sachlich passenden Vorschautitel und das kubistische Symbol; keine zusätzlichen Termine, Zahlen oder Leistungsversprechen.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            }
+          ],
+          "searches": [
+            {
+              "query": "site.marginlab.ai/trackers/antigravity \"6\" \"paused\"",
+              "finding": "Konkrete Tracker-Seite geöffnet: sechs rotierende Aufgaben, erste Baseline wird gesammelt, Regressionserkennung pausiert.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            },
+            {
+              "query": "site.marginlab.ai \"Antigravity\" \"Nov 27\" \"usage\"",
+              "finding": "Methodik und Changelog stimmen für Antigravity über Start 27.11., Nutzungslimits und Rotation überein. Abweichende globale Anzeigen zu anderen Trackern werden nicht in eine Aussage über Antigravity übertragen.",
+              "sourceUrls": [
+                "https://marginlab.ai/changelog/",
+                "https://marginlab.ai/trackers/antigravity/",
+                "https://marginlab.ai/methodology/"
+              ]
+            }
+          ],
+          "checks": {
+            "datesAndNumbers": "27.11.2026 Start; 6 aus 50 in Rotation. Keine frühe Tagesquote als allgemeine Leistung veröffentlicht.",
+            "scopeAndQualifications": "Nur neuer Antigravity-Tracker, kleine Tagesstichprobe und pausierte Erkennung, keine allgemeine Degradationsaussage.",
+            "sourceIndependence": "Projekt führt eigene Messungen durch; behauptete organisatorische Unabhängigkeit ersetzt keine unabhängige Replikation der Ergebnisse.",
+            "contradictions": "Abweichende globale Anzeigen bei anderen Trackern werden ausgeschlossen. Antigravity-Pause ist auf direkter Tracker-Seite und Methodik konsistent."
+          }
+        }
+      ]
     }
   ]
 }
